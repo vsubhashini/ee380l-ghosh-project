@@ -222,6 +222,8 @@ def main():
 	else:
 	  outputLine=outputLine+"\t"+""
       outputLine=outputLine+"\t"+outCPC[0].strip()+"\t"+outCPC[1].strip()+"\t"+outCPC[2].strip()+"\t"+abstracts.geocode[patFile].strip()
+      #cpcIntersection=list(set(outCPC) & set(abstracts.cpcNums[patFile]))
+      #if(len(abstracts.cpcNums[patFile]) > 1):
       cpcIntersection=list(set(outCPC) & set(abstracts.cpcNums[patFile]))
       if len(cpcIntersection)>0:
         cpcCorrect+=1
