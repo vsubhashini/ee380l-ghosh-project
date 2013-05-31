@@ -7,7 +7,7 @@ import java.util.*;
 
 //java Crawler input.csv output.csv dir
 
-public class MCrawler{
+public class MPACrawler{
 	static int count = 0;
 	static OutputStream outst;
 	static String dir;
