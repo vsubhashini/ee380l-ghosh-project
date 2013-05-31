@@ -1,0 +1,31 @@
+Output confusion matrix 
+1 Solar Invertor
+2 Solar Mounting/Rack
+3 Solar Monitoring
+4 Site Assessment
+
+Prediction: Default is proportional to sample sizes (85.58%)
+
+      1   2   3   4
+  1 240  20  17   2
+  2  12 328   6   0
+  3  45   4  94   0
+  4   0   0   7  15
+
+
+With uniform priors: (85.71%)
+
+      1   2   3   4
+  1 234  19  24   2
+  2  11 328   7   0
+  3  39   4 100   0
+  4   0   0   6  16
+
+With Jack-knife (leave 1 out) cross validation and uniform priors: (84.45%)
+
+      1   2   3   4
+  1 230  20  27   2
+  2  12 326   8   0
+  3  42   4  97   0
+  4   0   0   7  15
+
