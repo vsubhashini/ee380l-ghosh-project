@@ -271,3 +271,148 @@ ct_UniPrior <- table(pats$V1, patsUni.lda.values$class)                         
 patsCV.lda <- lda(pats$V1 ~ pats$V2 + pats$V3 + pats$V4 + pats$V5 + pats$V6 + pats$V7 +pats$V8 + pats$V9 + pats$V10 + pats$V11 + pats$V12 + pats$V13 +pats$V14 + pats$V15 + pats$V16, CV=T, prior=rep(1,4)/4)
 cv_tab <- table(pats$V1, patsCV.lda$class)
 cv_tab
+
+
+##Including years:
+patyrs <- read.table("/home/vsubhashini/courses/dm/ee380l-ghosh-project/data/pyAnalysisOutput/TAyearTopicDist4R.data",
++           sep=",")
+patyrs.lda <- lda(patyrs$V1 ~ patyrs$V2 + patyrs$V3 + patyrs$V4 + patyrs$V5 + patyrs$V6 + patyrs$V7 +patyrs$V8 + patyrs$V9 + patyrs$V10 + patyrs$V11 + patyrs$V12 + patyrs$V13 +patyrs$V14 + patyrs$V15 + patyrs$V16)
+
+patyrs.lda$scaling[,1]
+standardisedconcentrations <- as.data.frame(scale(patyrs[2:16]))
+patyrs.lda.values <- predict(patyrs.lda, standardisedconcentrations)
+
+plot(patyrs.lda.values$x[,1],patyrs.lda.values$x[,3]) # make a scatterplot
+text(patyrs.lda.values$x[,1],patyrs.lda.values$x[,3],patyrs$V17,cex=0.7,pos=4,col="red") # add labels
+
+patplot <- data.frame(ta=patyrs.lda.values[1], l1=patyrs.lda.values$x[,1], l2=patyrs.lda.values$x[,2], l3=patyrs.lda.values$x[,3], yr=patyrs$V17)
+
+#plot 2005
+with(patplot[patplot$yr==2005,], plot(l1, l3))
+
+#WORKING!! Plot 2005
+jpeg('lda13-2005.jpg')
+plot(patplot$l1[patplot$yr==2005], patplot$l3[patplot$yr==2005])
+#text(patplot$l1[patplot$yr==2005], patplot$l3[patplot$yr==2005], patplot$class[patplot$yr==2005],cex=0.7,pos=4,col="red") # add labels
+col2005 <- t(as.numeric(patplot$class[patplot$yr==2005]))
+text(patplot$l1[patplot$yr==2005], patplot$l3[patplot$yr==2005], patplot$class[patplot$yr==2005],cex=0.7,pos=4,col=col2005) # add labels
+dev.off()
+
+
+#WORKING!! Plot 2006
+jpeg('lda13-2006.jpg')
+plot(patplot$l1[patplot$yr==2006], patplot$l3[patplot$yr==2006])
+#text(patplot$l1[patplot$yr==2006], patplot$l3[patplot$yr==2006], patplot$class[patplot$yr==2006],cex=0.7,pos=4,col="red") # add labels
+col2006 <- t(as.numeric(patplot$class[patplot$yr==2006]))
+text(patplot$l1[patplot$yr==2006], patplot$l3[patplot$yr==2006], patplot$class[patplot$yr==2006],cex=0.7,pos=4,col=col2006) # add labels
+dev.off()
+
+
+#WORKING!! Plot 2007
+jpeg('lda13-2007.jpg')
+plot(patplot$l1[patplot$yr==2007], patplot$l3[patplot$yr==2007])
+#text(patplot$l1[patplot$yr==2007], patplot$l3[patplot$yr==2007], patplot$class[patplot$yr==2007],cex=0.7,pos=4,col="red") # add labels
+col2007 <- t(as.numeric(patplot$class[patplot$yr==2007]))
+text(patplot$l1[patplot$yr==2007], patplot$l3[patplot$yr==2007], patplot$class[patplot$yr==2007],cex=0.7,pos=4,col=col2007) # add labels
+dev.off()
+
+#WORKING!! Plot 2008
+jpeg('lda13-2008.jpg')
+plot(patplot$l1[patplot$yr==2008], patplot$l3[patplot$yr==2008])
+#text(patplot$l1[patplot$yr==2008], patplot$l3[patplot$yr==2008], patplot$class[patplot$yr==2008],cex=0.7,pos=4,col="red") # add labels
+col2008 <- t(as.numeric(patplot$class[patplot$yr==2008]))
+text(patplot$l1[patplot$yr==2008], patplot$l3[patplot$yr==2008], patplot$class[patplot$yr==2008],cex=0.7,pos=4,col=col2008) # add labels
+dev.off()
+
+#WORKING!! Plot 2009
+jpeg('lda13-2009.jpg')
+plot(patplot$l1[patplot$yr==2009], patplot$l3[patplot$yr==2009])
+#text(patplot$l1[patplot$yr==2009], patplot$l3[patplot$yr==2009], patplot$class[patplot$yr==2009],cex=0.7,pos=4,col="red") # add labels
+col2009 <- t(as.numeric(patplot$class[patplot$yr==2009]))
+text(patplot$l1[patplot$yr==2009], patplot$l3[patplot$yr==2009], patplot$class[patplot$yr==2009],cex=0.7,pos=4,col=col2009) # add labels
+dev.off()
+
+#WORKING!! Plot 2010
+jpeg('lda13-2010.jpg')
+plot(patplot$l1[patplot$yr==2010], patplot$l3[patplot$yr==2010])
+#text(patplot$l1[patplot$yr==2010], patplot$l3[patplot$yr==2010], patplot$class[patplot$yr==2010],cex=0.7,pos=4,col="red") # add labels
+col2010 <- t(as.numeric(patplot$class[patplot$yr==2010]))
+text(patplot$l1[patplot$yr==2010], patplot$l3[patplot$yr==2010], patplot$class[patplot$yr==2010],cex=0.7,pos=4,col=col2010) # add labels
+dev.off()
+
+#WORKING!! Plot 2011
+jpeg('lda13-2011.jpg')
+plot(patplot$l1[patplot$yr==2011], patplot$l3[patplot$yr==2011])
+#text(patplot$l1[patplot$yr==2011], patplot$l3[patplot$yr==2011], patplot$class[patplot$yr==2011],cex=0.7,pos=4,col="red") # add labels
+col2011 <- t(as.numeric(patplot$class[patplot$yr==2011]))
+text(patplot$l1[patplot$yr==2011], patplot$l3[patplot$yr==2011], patplot$class[patplot$yr==2011],cex=0.7,pos=4,col=col2011) # add labels
+dev.off()
+
+
+#WORKING!! Plot 2012
+jpeg('lda13-2012.jpg')
+plot(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012])
+#text(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012], patplot$class[patplot$yr==2012],cex=0.7,pos=4,col="red") # add labels
+col2012 <- t(as.numeric(patplot$class[patplot$yr==2012]))
+text(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012], patplot$class[patplot$yr==2012],cex=0.7,pos=4,col=col2012) # add labels
+dev.off()
+
+###NEAT UNIFORM PLOTS
+#WORKING!! Plot 2005
+jpeg('lda13-2005.jpg')
+plot(patplot$l1[patplot$yr==2005], patplot$l3[patplot$yr==2005],xlim=c(-4,4), ylim=c(-4,4))
+col2005 <- t(as.numeric(patplot$class[patplot$yr==2005]))
+text(patplot$l1[patplot$yr==2005], patplot$l3[patplot$yr==2005], patplot$class[patplot$yr==2005],cex=0.7,pos=4,col=col2005) # add labels
+dev.off()
+
+
+#WORKING!! Plot 2006
+jpeg('lda13-2006.jpg')
+plot(patplot$l1[patplot$yr==2006], patplot$l3[patplot$yr==2006],xlim=c(-4,4), ylim=c(-4,4))
+col2006 <- t(as.numeric(patplot$class[patplot$yr==2006]))
+text(patplot$l1[patplot$yr==2006], patplot$l3[patplot$yr==2006], patplot$class[patplot$yr==2006],cex=0.7,pos=4,col=col2006) # add labels
+dev.off()
+
+
+#WORKING!! Plot 2007
+jpeg('lda13-2007.jpg')
+plot(patplot$l1[patplot$yr==2007], patplot$l3[patplot$yr==2007],xlim=c(-4,4), ylim=c(-4,4))
+col2007 <- t(as.numeric(patplot$class[patplot$yr==2007]))
+text(patplot$l1[patplot$yr==2007], patplot$l3[patplot$yr==2007], patplot$class[patplot$yr==2007],cex=0.7,pos=4,col=col2007) # add labels
+dev.off()
+
+#WORKING!! Plot 2008
+jpeg('lda13-2008.jpg')
+plot(patplot$l1[patplot$yr==2008], patplot$l3[patplot$yr==2008],xlim=c(-4,4), ylim=c(-4,4))
+col2008 <- t(as.numeric(patplot$class[patplot$yr==2008]))
+text(patplot$l1[patplot$yr==2008], patplot$l3[patplot$yr==2008], patplot$class[patplot$yr==2008],cex=0.7,pos=4,col=col2008) # add labels
+dev.off()
+
+#WORKING!! Plot 2009
+jpeg('lda13-2009.jpg')
+plot(patplot$l1[patplot$yr==2009], patplot$l3[patplot$yr==2009],xlim=c(-4,4), ylim=c(-4,4))
+col2009 <- t(as.numeric(patplot$class[patplot$yr==2009]))
+text(patplot$l1[patplot$yr==2009], patplot$l3[patplot$yr==2009], patplot$class[patplot$yr==2009],cex=0.7,pos=4,col=col2009) # add labels
+dev.off()
+
+#WORKING!! Plot 2010
+jpeg('lda13-2010.jpg')
+plot(patplot$l1[patplot$yr==2010], patplot$l3[patplot$yr==2010],xlim=c(-4,4), ylim=c(-4,4))
+col2010 <- t(as.numeric(patplot$class[patplot$yr==2010]))
+text(patplot$l1[patplot$yr==2010], patplot$l3[patplot$yr==2010], patplot$class[patplot$yr==2010],cex=0.7,pos=4,col=col2010) # add labels
+dev.off()
+
+#WORKING!! Plot 2011
+jpeg('lda13-2011.jpg')
+plot(patplot$l1[patplot$yr==2011], patplot$l3[patplot$yr==2011],xlim=c(-4,4), ylim=c(-4,4))
+col2011 <- t(as.numeric(patplot$class[patplot$yr==2011]))
+text(patplot$l1[patplot$yr==2011], patplot$l3[patplot$yr==2011], patplot$class[patplot$yr==2011],cex=0.7,pos=4,col=col2011) # add labels
+dev.off()
+
+
+#WORKING!! Plot 2012
+jpeg('lda13-2012.jpg')
+plot(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012],xlim=c(-4,4), ylim=c(-4,4))
+col2012 <- t(as.numeric(patplot$class[patplot$yr==2012]))
+text(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012], patplot$class[patplot$yr==2012],cex=0.7,pos=4,col=col2012) # add labels
+dev.off()

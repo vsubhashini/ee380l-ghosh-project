@@ -23,6 +23,7 @@ class Patents:
     def __init__(self):
       self.patfile=''
       self.techId=0
+      self.year=0
       self.dist={} #dictionary {topicNum1: probscore1, topicNum2: probscore2, ...}
 
   def __init__(self):
@@ -71,6 +72,7 @@ class Patents:
       count+=1
       patfile = line[0]
       techArea = line[3].strip()
+      year = line[2].strip()
       #print techArea
       #taid = self.TAid[techArea]
       taid = self.getTechId(techArea)
@@ -79,6 +81,7 @@ class Patents:
         print "Could not find record for "+patfile
       else: 
         self.patents[patfile].techId = taid
+	self.patents[patfile].year=year
       #if(count<10):
       #  print self.patents[patfile].patfile
       #  print self.patents[patfile].techId
@@ -93,6 +96,7 @@ class Patents:
         count+=1
         for i in range(0,numTopics):
           line+=","+str(self.patents[patfile].dist[i])
+        line+=","+str(self.patents[patfile].year)
         line+="\n"
         if(count<10):
           print self.patents[patfile].patfile
@@ -102,7 +106,7 @@ class Patents:
 def main():
   compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
   patentFile="../data/maureen2_combined_output-geo.csv";
-  outputFile="../data/pyAnalysisOutput/techAreaTopicDist4R.data";
+  outputFile="../data/pyAnalysisOutput/TAyearTopicDist4R.data";
   patents=Patents()
   patents.getTopicDists(compositionFile)
   patents.getTechAreas(patentFile)
