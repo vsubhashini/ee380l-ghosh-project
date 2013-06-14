@@ -416,3 +416,63 @@ plot(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012],xlim=c(-4,4), yl
 col2012 <- t(as.numeric(patplot$class[patplot$yr==2012]))
 text(patplot$l1[patplot$yr==2012], patplot$l3[patplot$yr==2012], patplot$class[patplot$yr==2012],cex=0.7,pos=4,col=col2012) # add labels
 dev.off()
+
+#Cumulative Plots
+#Cumlative Plot 2005
+jpeg('lda13-cum-2005.jpg')
+plot(patplot$l1[patplot$yr<=2005], patplot$l3[patplot$yr<=2005],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2005 <- t(as.numeric(patplot$class[patplot$yr<=2005]))
+text(patplot$l1[patplot$yr<=2005], patplot$l3[patplot$yr<=2005], patplot$class[patplot$yr<=2005],cex=0.7,pos=4,col=cumcol2005) # add labels
+dev.off()
+
+
+#Cumlative Plot 2006
+jpeg('lda13-cum-2006.jpg')
+plot(patplot$l1[patplot$yr<=2006], patplot$l3[patplot$yr<=2006],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2006 <- t(as.numeric(patplot$class[patplot$yr<=2006]))
+text(patplot$l1[patplot$yr<=2006], patplot$l3[patplot$yr<=2006], patplot$class[patplot$yr<=2006],cex=0.7,pos=4,col=cumcol2006) # add labels
+dev.off()
+
+
+#Cumlative Plot 2007
+jpeg('lda13-cum-2007.jpg')
+plot(patplot$l1[patplot$yr<=2007], patplot$l3[patplot$yr<=2007],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2007 <- t(as.numeric(patplot$class[patplot$yr<=2007]))
+text(patplot$l1[patplot$yr<=2007], patplot$l3[patplot$yr<=2007], patplot$class[patplot$yr<=2007],cex=0.7,pos=4,col=cumcol2007) # add labels
+dev.off()
+
+#Cumlative Plot 2008
+jpeg('lda13-cum-2008.jpg')
+plot(patplot$l1[patplot$yr<=2008], patplot$l3[patplot$yr<=2008],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2008 <- t(as.numeric(patplot$class[patplot$yr<=2008]))
+text(patplot$l1[patplot$yr<=2008], patplot$l3[patplot$yr<=2008], patplot$class[patplot$yr<=2008],cex=0.7,pos=4,col=cumcol2008) # add labels
+dev.off()
+
+#Cumlative Plot 2009
+jpeg('lda13-cum-2009.jpg')
+plot(patplot$l1[patplot$yr<=2009], patplot$l3[patplot$yr<=2009],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2009 <- t(as.numeric(patplot$class[patplot$yr<=2009]))
+text(patplot$l1[patplot$yr<=2009], patplot$l3[patplot$yr<=2009], patplot$class[patplot$yr<=2009],cex=0.7,pos=4,col=cumcol2009) # add labels
+dev.off()
+
+#Cumlative Plot 2010
+jpeg('lda13-cum-2010.jpg')
+plot(patplot$l1[patplot$yr<=2010], patplot$l3[patplot$yr<=2010],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2010 <- t(as.numeric(patplot$class[patplot$yr<=2010]))
+text(patplot$l1[patplot$yr<=2010], patplot$l3[patplot$yr<=2010], patplot$class[patplot$yr<=2010],cex=0.7,pos=4,col=cumcol2010) # add labels
+dev.off()
+
+#Cumlative Plot 2011
+jpeg('lda13-cum-2011.jpg')
+plot(patplot$l1[patplot$yr<=2011], patplot$l3[patplot$yr<=2011],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2011 <- t(as.numeric(patplot$class[patplot$yr<=2011]))
+text(patplot$l1[patplot$yr<=2011], patplot$l3[patplot$yr<=2011], patplot$class[patplot$yr<=2011],cex=0.7,pos=4,col=cumcol2011) # add labels
+dev.off()
+
+
+#Cumlative Plot 2012
+jpeg('lda13-cum-2012.jpg')
+plot(patplot$l1[patplot$yr<=2012], patplot$l3[patplot$yr<=2012],xlim=c(-4,4), ylim=c(-4,4))
+cumcol2012 <- t(as.numeric(patplot$class[patplot$yr<=2012]))
+text(patplot$l1[patplot$yr<=2012], patplot$l3[patplot$yr<=2012], patplot$class[patplot$yr<=2012],cex=0.7,pos=4,col=cumcol2012) # add labels
+dev.off()
