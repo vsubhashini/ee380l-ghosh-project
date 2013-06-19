@@ -1,0 +1,201 @@
+ORIGINAL-VALUES,    MAXENTROPY_LABEL,       MAXENTROPY_PROB,           SVM_LABEL,  SVM_PROB
+Solar Mounting/Rack,Solar Mounting/Rack,0.8736621,Solar Mounting/Rack,0.725825
+Solar Mounting/Rack ,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Monitoring,Solar Monitoring,0.9739983,Solar Monitoring,0.6739389
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Inverter,0.633007,Solar Inverter,0.5838395
+Solar Inverter,Solar Inverter,0.696484,Solar Inverter,0.6026873
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.6526057
+Solar Mounting/Rack,Solar Mounting/Rack,0.9536011,Solar Mounting/Rack,0.7272912
+Solar Inverter,Solar Inverter,0.5393678,Solar Inverter,0.5900068
+Solar Mounting/Rack,Solar Mounting/Rack,0.8860995,Solar Mounting/Rack,0.7514165
+Solar Mounting/Rack,Solar Mounting/Rack,0.8860995,Solar Mounting/Rack,0.7514165
+Solar Inverter,Solar Inverter,0.8453548,Solar Inverter,0.6107262
+Solar Monitoring   ,Solar Inverter,0.8569637,Solar Inverter,0.6119421
+Solar Inverter     ,Solar Mounting/Rack,0.5818357,Solar Mounting/Rack,0.7436719
+Solar Mounting/Rack,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9404356
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8385316
+Solar Inverter,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Inverter     ,Solar Inverter,0.8003424,Solar Inverter,0.6398702
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Inverter,0.9106673,Solar Inverter,0.6466411
+Solar Inverter     ,Solar Inverter,0.6876429,Solar Inverter,0.5998729
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7549002
+Solar Mounting/Rack,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Monitoring   ,Solar Inverter,0.6876429,Solar Inverter,0.5998729
+Solar Monitoring,Solar Monitoring,0.776116,Solar Monitoring,0.6742523
+Solar Monitoring   ,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Inverter     ,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Monitoring,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Inverter,Solar Inverter,1,Solar Inverter,0.6624036
+Solar Monitoring   ,Solar Monitoring,1,Solar Monitoring,0.5379562
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7242186
+Solar Mounting/Rack,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter,Solar Inverter,0.9106673,Solar Inverter,0.6466411
+Solar Inverter     ,Solar Inverter,0.5679863,Solar Monitoring,0.520658
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9248924
+Solar Monitoring   ,Solar Inverter,0.8003424,Solar Inverter,0.6398702
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9248924
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Monitoring   ,Solar Monitoring,0.5000497,Solar Monitoring,0.7073674
+Solar Inverter,Solar Inverter,1,Solar Inverter,0.9139013
+Solar Monitoring   ,Solar Inverter,0.5026184,Solar Mounting/Rack,0.5257994
+Solar Monitoring   ,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Monitoring,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8728899
+Solar Monitoring   ,Solar Monitoring,1,Solar Monitoring,0.4537837
+Solar Monitoring,Solar Monitoring,0.9582753,Solar Monitoring,0.764613
+Solar Monitoring   ,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Inverter     ,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Inverter,Solar Inverter,0.8453548,Solar Inverter,0.6107262
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Mounting/Rack,Solar Mounting/Rack,0.9999999,Solar Mounting/Rack,0.7134176
+Solar Inverter     ,Solar Inverter,0.696484,Solar Inverter,0.6026873
+Solar Mounting/Rack,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Inverter,0.696484,Solar Inverter,0.6026873
+Solar Monitoring   ,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Monitoring,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Monitoring   ,Solar Mounting/Rack,0.9379243,Solar Mounting/Rack,0.795118
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7242186
+Solar Inverter,Solar Monitoring,0.4512811,Solar Mounting/Rack,0.6635166
+Solar Mounting/Rack,Solar Mounting/Rack,0.9999911,Solar Mounting/Rack,0.66098
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8227885
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.5052495
+Solar Inverter     ,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,0.9791659,Solar Mounting/Rack,0.8470961
+Solar Mounting/Rack,Solar Mounting/Rack,0.9999853,Solar Mounting/Rack,0.8429248
+Solar Mounting/Rack,Solar Mounting/Rack,0.8505582,Solar Mounting/Rack,0.7936704
+Solar Mounting/Rack,Solar Mounting/Rack,0.8860995,Solar Mounting/Rack,0.7514165
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7242186
+Solar Mounting/Rack,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Monitoring,0.4512811,Solar Mounting/Rack,0.6635166
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Inverter,0.8003424,Solar Inverter,0.6398702
+Solar Monitoring   ,Solar Monitoring,0.5000497,Solar Monitoring,0.7073674
+Solar Monitoring   ,Solar Monitoring,0.7781738,Solar Monitoring,0.6590596
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8728899
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Inverter,0.9444513,Solar Inverter,0.6551014
+Solar Inverter,Solar Inverter,1,Solar Inverter,0.5104106
+Solar Monitoring   ,Solar Monitoring,0.6057022,Solar Monitoring,0.6872189
+Solar Inverter     ,Solar Inverter,0.8003424,Solar Inverter,0.6398702
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8227885
+Solar Mounting/Rack,Solar Mounting/Rack,0.8686949,Solar Mounting/Rack,0.7766943
+Solar Inverter     ,Solar Inverter,0.7496099,Solar Inverter,0.5867789
+Solar Monitoring,Solar Monitoring,0.9582753,Solar Monitoring,0.764613
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8728899
+Solar Inverter     ,Solar Inverter,1,Solar Inverter,0.9139013
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Monitoring   ,Solar Monitoring,0.9999998,Solar Monitoring,0.4649422
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.5052495
+Solar Inverter     ,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Inverter,Solar Inverter,0.864982,Solar Inverter,0.6642309
+Solar Inverter     ,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9404356
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Inverter     ,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Inverter,Solar Mounting/Rack,0.9414571,Solar Inverter,0.7306989
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,0.8505582,Solar Mounting/Rack,0.7936704
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9285574
+Solar Mounting/Rack,Solar Mounting/Rack,0.9379243,Solar Mounting/Rack,0.795118
+Solar Inverter     ,Solar Inverter,0.8453548,Solar Inverter,0.6107262
+Solar Inverter,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Mounting/Rack,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter     ,Solar Mounting/Rack,0.8358506,Solar Mounting/Rack,0.4670878
+Solar Mounting/Rack,Solar Mounting/Rack,0.8505582,Solar Mounting/Rack,0.7936704
+Solar Inverter     ,Solar Inverter,0.5804263,Solar Inverter,0.662488
+Solar Mounting/Rack,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Inverter,Solar Inverter,1,Solar Inverter,0.6890096
+Solar Monitoring   ,Solar Monitoring,1,Solar Inverter,0.5521679
+Solar Inverter     ,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Monitoring,Solar Monitoring,0.7781738,Solar Monitoring,0.6590596
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8916523
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9519082
+Solar Inverter,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Monitoring   ,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Inverter     ,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Monitoring,Solar Monitoring,1,Solar Inverter,0.5138585
+Solar Inverter     ,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7309322
+Solar Inverter     ,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Monitoring,Site Assessment,1,Site Assessment,0.6768019
+Solar Inverter     ,Solar Inverter,0.9106673,Solar Inverter,0.6466411
+Solar Inverter     ,Solar Inverter,0.996818,Solar Mounting/Rack,0.5030057
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.9285574
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Site Assessment    ,Solar Monitoring,1,Solar Monitoring,0.6699139
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7736558
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Monitoring   ,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Mounting/Rack,Solar Mounting/Rack,0.7639924,Solar Mounting/Rack,0.7400874
+Solar Monitoring   ,Solar Mounting/Rack,1,Solar Mounting/Rack,0.6828098
+Site Assessment    ,Solar Monitoring,0.9960756,Solar Monitoring,0.5080352
+Solar Inverter,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8916523
+Solar Inverter     ,Solar Mounting/Rack,0.5818357,Solar Mounting/Rack,0.7436719
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Inverter     ,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Mounting/Rack,Solar Mounting/Rack,0.8860995,Solar Mounting/Rack,0.7514165
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8093
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Monitoring   ,Solar Monitoring,1,Solar Monitoring,0.4699167
+Solar Mounting/Rack,Solar Inverter,0.5007116,Solar Mounting/Rack,0.5319697
+Solar Inverter     ,Solar Inverter,0.7044624,Solar Inverter,0.5990943
+Solar Mounting/Rack,Solar Mounting/Rack,0.8860995,Solar Mounting/Rack,0.7514165
+Solar Mounting/Rack,Solar Mounting/Rack,0.9532839,Solar Mounting/Rack,0.7641668
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8620975
+Solar Monitoring   ,Solar Monitoring,0.5000497,Solar Monitoring,0.7073674
+Solar Mounting/Rack,Solar Mounting/Rack,0.9379243,Solar Mounting/Rack,0.795118
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.7083312
+Solar Inverter     ,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Inverter,Solar Inverter,0.7112485,Solar Inverter,0.5989471
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Site Assessment    ,Site Assessment,1,Site Assessment,0.4599054
+Solar Inverter,Solar Inverter,0.8003424,Solar Inverter,0.6398702
+Solar Inverter     ,Solar Inverter,1,Solar Inverter,0.625022
+Solar Mounting/Rack,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Monitoring,Solar Monitoring,0.6455711,Solar Monitoring,0.732764
+Solar Inverter     ,Solar Inverter,0.4208062,Solar Inverter,0.6208696
+Solar Inverter     ,Solar Mounting/Rack,0.9998255,Solar Mounting/Rack,0.6644
+Solar Mounting/Rack,Solar Inverter,0.6406012,Solar Mounting/Rack,0.563352
+Solar Monitoring   ,Solar Monitoring,0.6455711,Solar Monitoring,0.732764
+Solar Mounting/Rack,Solar Mounting/Rack,0.9379243,Solar Mounting/Rack,0.795118
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Inverter,Solar Monitoring,0.8171469,Solar Monitoring,0.6208836
+Solar Monitoring   ,Solar Monitoring,0.8153182,Solar Monitoring,0.6756383
+Solar Inverter     ,Solar Inverter,0.7276851,Solar Inverter,0.6598833
+Solar Mounting/Rack,Solar Mounting/Rack,1,Solar Mounting/Rack,0.8640226
+Solar Monitoring   ,Solar Inverter,0.5026184,Solar Mounting/Rack,0.5257994
+Solar Inverter     ,Solar Inverter,0.7496099,Solar Inverter,0.5867789
+Solar Mounting/Rack,Solar Mounting/Rack,0.8686949,Solar Mounting/Rack,0.7766943
+Solar Inverter     ,Solar Inverter,0.9998369,Solar Inverter,0.6005509
+Solar Monitoring,Solar Mounting/Rack,0.9379243,Solar Mounting/Rack,0.795118
