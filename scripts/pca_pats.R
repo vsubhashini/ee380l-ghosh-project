@@ -476,3 +476,81 @@ plot(patplot$l1[patplot$yr<=2012], patplot$l3[patplot$yr<=2012],xlim=c(-4,4), yl
 cumcol2012 <- t(as.numeric(patplot$class[patplot$yr<=2012]))
 text(patplot$l1[patplot$yr<=2012], patplot$l3[patplot$yr<=2012], patplot$class[patplot$yr<=2012],cex=0.7,pos=4,col=cumcol2012) # add labels
 dev.off()
+
+##
+#With PID and year
+patyrid <- read.table("/home/vsubhashini/courses/dm/ee380l-ghosh-project/data/pyAnalysisOutput/TAyearpidTopicDist4R.data", sep=",")
+
+patyrid.lda <- lda(patyrid$V1 ~ patyrid$V2 + patyrid$V3 + patyrid$V4 + patyrid$V5 + patyrid$V6 + patyrid$V7 +patyrid$V8 + patyrid$V9 + patyrid$V10 + patyrid$V11 + patyrid$V12 + patyrid$V13 +patyrid$V14 + patyrid$V15 + patyrid$V16)
+
+patyrid.lda$scaling[,1]
+
+standardisedconcentrations <- as.data.frame(scale(patyrid[2:16]))
+patyrid.lda.values <- predict(patyrid.lda, standardisedconcentrations)
+patidplot <- data.frame(ta=patyrid.lda.values[1], l1=patyrid.lda.values$x[,1], l2=patyrid.lda.values$x[,2], l3=patyrid.lda.values$x[,3], yr=patyrid$V17, pid=patyrid$V18)
+
+#plotting TEST
+
+plot(patidplot$l1[patidplot$yr==2005], patidplot$l3[patidplot$yr==2005])
+col2005 <- t(as.numeric(patidplot$class[patidplot$yr==2005]))
+text(patidplot$l1[patidplot$yr==2005], patidplot$l3[patidplot$yr==2005], patidplot$pid[patidplot$yr==2005],cex=0.7,pos=4,col=col2005) # add labels
+
+
+###NEAT UNIFORM PLOTS to show patentid
+jpeg('lda13-id-2005.jpg')
+plot(patidplot$l1[patidplot$yr==2005], patidplot$l3[patidplot$yr==2005],xlim=c(-4,4), ylim=c(-4,4))
+col2005 <- t(as.numeric(patidplot$class[patidplot$yr==2005]))
+text(patidplot$l1[patidplot$yr==2005], patidplot$l3[patidplot$yr==2005], patidplot$pid[patidplot$yr==2005],cex=0.7,pos=4,col=col2005) # add labels
+dev.off()
+
+
+# Plot 2006
+jpeg('lda13-id-2006.jpg')
+plot(patidplot$l1[patidplot$yr==2006], patidplot$l3[patidplot$yr==2006],xlim=c(-4,4), ylim=c(-4,4))
+col2006 <- t(as.numeric(patidplot$class[patidplot$yr==2006]))
+text(patidplot$l1[patidplot$yr==2006], patidplot$l3[patidplot$yr==2006], patidplot$pid[patidplot$yr==2006],cex=0.7,pos=4,col=col2006) # add labels
+dev.off()
+
+
+# Plot 2007
+jpeg('lda13-id-2007.jpg')
+plot(patidplot$l1[patidplot$yr==2007], patidplot$l3[patidplot$yr==2007],xlim=c(-4,4), ylim=c(-4,4))
+col2007 <- t(as.numeric(patidplot$class[patidplot$yr==2007]))
+text(patidplot$l1[patidplot$yr==2007], patidplot$l3[patidplot$yr==2007], patidplot$pid[patidplot$yr==2007],cex=0.7,pos=4,col=col2007) # add labels
+dev.off()
+
+# Plot 2008
+jpeg('lda13-id-2008.jpg')
+plot(patidplot$l1[patidplot$yr==2008], patidplot$l3[patidplot$yr==2008],xlim=c(-4,4), ylim=c(-4,4))
+col2008 <- t(as.numeric(patidplot$class[patidplot$yr==2008]))
+text(patidplot$l1[patidplot$yr==2008], patidplot$l3[patidplot$yr==2008], patidplot$pid[patidplot$yr==2008],cex=0.7,pos=4,col=col2008) # add labels
+dev.off()
+
+# Plot 2009
+jpeg('lda13-id-2009.jpg')
+plot(patidplot$l1[patidplot$yr==2009], patidplot$l3[patidplot$yr==2009],xlim=c(-4,4), ylim=c(-4,4))
+col2009 <- t(as.numeric(patidplot$class[patidplot$yr==2009]))
+text(patidplot$l1[patidplot$yr==2009], patidplot$l3[patidplot$yr==2009], patidplot$pid[patidplot$yr==2009],cex=0.7,pos=4,col=col2009) # add labels
+dev.off()
+
+# Plot 2010
+jpeg('lda13-id-2010.jpg')
+plot(patidplot$l1[patidplot$yr==2010], patidplot$l3[patidplot$yr==2010],xlim=c(-4,4), ylim=c(-4,4))
+col2010 <- t(as.numeric(patidplot$class[patidplot$yr==2010]))
+text(patidplot$l1[patidplot$yr==2010], patidplot$l3[patidplot$yr==2010], patidplot$pid[patidplot$yr==2010],cex=0.7,pos=4,col=col2010) # add labels
+dev.off()
+
+# Plot 2011
+jpeg('lda13-id-2011.jpg')
+plot(patidplot$l1[patidplot$yr==2011], patidplot$l3[patidplot$yr==2011],xlim=c(-4,4), ylim=c(-4,4))
+col2011 <- t(as.numeric(patidplot$class[patidplot$yr==2011]))
+text(patidplot$l1[patidplot$yr==2011], patidplot$l3[patidplot$yr==2011], patidplot$pid[patidplot$yr==2011],cex=0.7,pos=4,col=col2011) # add labels
+dev.off()
+
+
+# Plot 2012
+jpeg('lda13-id-2012.jpg')
+plot(patidplot$l1[patidplot$yr==2012], patidplot$l3[patidplot$yr==2012],xlim=c(-4,4), ylim=c(-4,4))
+col2012 <- t(as.numeric(patidplot$class[patidplot$yr==2012]))
+text(patidplot$l1[patidplot$yr==2012], patidplot$l3[patidplot$yr==2012], patidplot$pid[patidplot$yr==2012],cex=0.7,pos=4,col=col2012) # add labels
+dev.off()

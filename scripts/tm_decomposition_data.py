@@ -96,7 +96,8 @@ class Patents:
         count+=1
         for i in range(0,numTopics):
           line+=","+str(self.patents[patfile].dist[i])
-        line+=","+str(self.patents[patfile].year)
+        line+=","+str(self.patents[patfile].year) #added for year
+        line+=","+patfile #added to print patfilenum
         line+="\n"
         if(count<10):
           print self.patents[patfile].patfile
@@ -106,7 +107,8 @@ class Patents:
 def main():
   compositionFile="../data/malletdata/outputFiles/maureen2_combined-composition-v1.txt";
   patentFile="../data/maureen2_combined_output-geo.csv";
-  outputFile="../data/pyAnalysisOutput/TAyearTopicDist4R.data";
+  #outputFile="../data/pyAnalysisOutput/TAyearTopicDist4R.data";
+  outputFile="../data/pyAnalysisOutput/TAyearpidTopicDist4R.data";
   patents=Patents()
   patents.getTopicDists(compositionFile)
   patents.getTechAreas(patentFile)
