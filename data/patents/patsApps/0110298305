@@ -1,0 +1,150 @@
+
+We describe a photovoltaic (PV) power generation system comprising at least two PV panels and a power conditioning unit. The dc power outputs of the PV panels are connected in parallel to a dc power input of the power conditioning unit. The power conditioning unit comprises a dc-to-dc converter having an input coupled to the dc power input and an output coupled to a dc link of the unit, a dc-to-ac converter having an input coupled to the dc link and an ac mains power supply output, and an energy storage capacitor coupled to the dc link. The power conditioning unit is configured to perform maximum power point tracking (MPPT) responsive to a level of power flowing into the dc power input, and the level of power flowing into said dc power input is sensed at the dc link. In preferred implementations the energy storage capacitor is a non-electrolytic capacitor.
+
+
+
+1. A photovoltaic power generation system, the system comprising:
+at least two photovoltaic panels each having a dc power output;
+a power conditioning unit having a dc power input and an ac mains power supply output for delivering an ac mains supply;
+wherein said dc power outputs of said at least two photovoltaic panels are connected in parallel with one another to said dc power input of said power conditioning unit;
+wherein said power conditioning unit comprises a dc-to-dc converter having an input coupled to said dc power input and having an output coupled to a dc link of said power conditioning unit, a dc-to-ac converter having an input coupled to said dc link and having an output coupled to said ac mains power supply output, and an energy storage capacitor coupled to said dc link; and
+wherein said power conditioning unit is configured to perform maximum power point tracking (MPPT) responsive to a level of power flowing into said dc power input, wherein said level of power flowing into said dc power input is sensed at said dc link.
+
+
+
+2. A photovoltaic power generation system as claimed in claim 1
+wherein said power conditioning unit comprises a controller coupled to control said dc-to-ac converter to perform said maximum power point tracking (MPPT); and
+wherein said controller has a sense input coupled to said energy storage capacitor to sense at said energy storage capacitor a signal responsive to a level of power flowing into said dc power input of said power conditioning unit, and wherein said controller is configured to perform said MPPT by controlling said dc-to-ac converter to control power injected into said ac mains power supply responsive to said level of power flowing into said dc input of said power conditioning unit sensed at said dc link.
+
+
+
+3. A photovoltaic power generation system as claimed in claim 2 wherein a voltage on said energy storage capacitor has a sinusoidal voltage component at twice a frequency of said ac mains, wherein said sense input of said controller senses a value of said sinusoidal voltage component, and wherein said controller is configured to control an amplitude of an ac current provided to said ac mains power supply output such that an amount of power transferred to said ac mains power supply output is dependent on an amplitude of said sinusoidal voltage component on said energy storage capacitor.
+
+
+4. A photovoltaic power generation system as claimed in claim 3 wherein said controller is configured to control said amplitude of said ac current provided said to ac mains power supply output to substantially maximise said value of said sinusoidal voltage component.
+
+
+5. A photovoltaic power generation system as claimed in claim 1 wherein said controller is configured to control said dc-to-ac converter to track a maximum power point of said dc power source without directly measuring a dc voltage or dc current provided from said dc power source.
+
+
+6. A photovoltaic power generation system as claimed in claim 1 wherein said power conditioning unit has a single, common MPPT control system for said at least two photovoltaic panels.
+
+
+7. A photovoltaic power generation system as claimed in claim 1 wherein said energy storage capacitor is a non-electrolytic capacitor.
+
+
+8. A photovoltaic power generation system as claimed in claim 1 wherein said power conditioning unit comprises a single said dc to ac converter coupled to said parallel-connected photovoltaic panels.
+
+
+9. A photovoltaic power generation system as claimed in claim 1 wherein respective positive and negative terminals of said photovoltaic panels are connected to one another.
+
+
+10. A photovoltaic power generation system as claimed in claim 1 wherein said photovoltaic panels comprise parallel series-connected panels, wherein said photovoltaic panels are connected in parallel to one another via one or more intermediate respective series-connected panels.
+
+
+11. A photovoltaic power generation system as claimed in claim 1 wherein said ac mains power supply output is a three phase output, and wherein said power conditioning unit comprises one said dc-to-ac converter per phase each coupled to a common said dc link.
+
+
+12. A photovoltaic power generation system, the system comprising:
+at least two photovoltaic panels each having a dc power output;
+a power conditioning unit having a dc power input and an ac mains power supply output for delivering an ac mains power supply;
+wherein said dc power outputs of said at least two photovoltaic panels are connected in parallel with one another to said dc power input of said power conditioning unit;
+wherein said power conditioning unit includes an energy storage capacitor to store energy from said photovoltaic panels and a dc-to-ac converter having a dc input coupled to said energy storage capacitor and an ac output coupled to said ac mains power supply output;
+wherein said power conditioning unit comprises a controller coupled to control said dc-to-ac converter to perform maximum power point tracking (MPPT);
+wherein said controller has a sense input coupled to said energy storage capacitor to sense at said energy storage capacitor a signal responsive to a level of power flowing into said dc power input of said power conditioning unit, wherein said controller is configured to perform said MPPT by controlling said dc-to-ac converter to control power injected into said ac mains power supply responsive to said level of power flowing into said dc input of said power conditioning unit sensed at said energy storage capacitor.
+
+
+
+13. A photovoltaic power generation system as claimed in claim 12 wherein said power conditioning unit further comprises a dc-to-ac converter having an input coupled to said dc power input and having an output coupled to a dc link of said power conditioning unit, wherein said dc link is coupled to said energy storage capacitor and to said dc input of said dc-to-ac converter, and wherein said sense input of said controller is coupled to said dc link.
+
+
+14. A photovoltaic power generation system as claimed in claim 12 wherein a voltage on said energy storage capacitor has a sinusoidal voltage component at twice a frequency of said ac mains, wherein said sense input of said controller senses a value of said sinusoidal voltage component, and wherein said controller is configured to control an amplitude of an ac current provided to said ac mains power supply output such that an amount of power transferred to said ac mains power supply output is dependent on an amplitude of said sinusoidal voltage component on said energy storage capacitor.
+
+
+15. A photovoltaic power generation system as claimed in claim 14 wherein said controller is configured to control said amplitude of said ac current provided said to ac mains power supply output to substantially maximise said value of said sinusoidal voltage component.
+
+
+16. A photovoltaic power generation system as claimed in claim 12 wherein said controller is configured to control said dc-to-ac converter to track a maximum power point of said dc power source without directly measuring a dc voltage or dc current provided from said dc power source.
+
+
+17. A photovoltaic power generation system as claimed in claim 12 wherein said power conditioning unit has a single, common MPPT control system for said at least two photovoltaic panels.
+
+
+18. A photovoltaic power generation system as claimed in claim 12 wherein said energy storage capacitor is a non-electrolytic capacitor.
+
+
+19. A photovoltaic power generation system as claimed in claim 13 wherein said power conditioning unit comprises a single said dc to ac converter coupled to said parallel-connected photovoltaic panels.
+
+
+20. A photovoltaic power generation system as claimed in claim 12 wherein respective positive and negative terminals of said photovoltaic panels are connected to one another.
+
+
+21. A photovoltaic power generation system as claimed in claim 12 wherein said photovoltaic panels comprise parallel series-connected panels, wherein said photovoltaic panels are connected in parallel to one another via one or more intermediate respective series-connected panels.
+
+
+22. A photovoltaic power generation system as claimed in claim 12 wherein said ac mains power supply output is a three phase output, and wherein said power conditioning unit comprises one said dc-to-ac converter per phase each coupled to a common said dc link.
+
+
+23. A photovoltaic power generation system, the system comprising:
+at least two photovoltaic panels each having a dc power output;
+a power conditioning unit having a dc power input and an ac mains power supply output for delivering an ac mains supply;
+wherein said dc power outputs of said at least two photovoltaic panels are connected in parallel with one another to said dc power input of said power conditioning unit;
+wherein said power conditioning unit comprises a dc-to-ac converter and a dc link between said dc power input of said power conditioning unit and an input of said dc-to-ac converter, wherein said dc-to-ac converter has an output coupled to said ac mains power supply output, and wherein said power conditioning unit further comprises an energy storage capacitor coupled to said dc link;
+wherein said energy storage capacitor is a non-electrolytic capacitor; and
+wherein said power conditioning unit is configured to perform maximum power point tracking (MPPT) responsive to a level of power flowing into said dc power input.
+
+
+
+24. A photovoltaic power generation system as claimed in claim 23 further comprising a controller configured to control an amplitude of an ac current provided to said ac mains power supply output such that an amount of power transferred to said ac mains power supply output is dependent on a peak amplitude of a fluctuating sinusoidal component of a dc voltage on said energy storage capacitor.
+
+
+25. A photovoltaic power generation system as claimed in claim 24 wherein said controller has a sense input coupled to said energy storage capacitor to sense at said energy storage capacitor a signal responsive to a level of power flowing into said dc power input of said power conditioning unit, and a control output to control said dc-to-ac converter such that an amplitude of an ac current provided to said ac mains power supply output is dependent on an amplitude of said sinusoidal voltage component on said energy storage capacitor.
+
+
+26. A photovoltaic power generation system as claimed in claim 25 wherein said controller is configured to perform said MPPT by controlling said dc-to-ac converter.
+
+
+27. A photovoltaic power generation system as claimed in claim 23 wherein said power conditioning unit comprises a controller coupled to control said dc-to-ac converter to perform said MPPT.
+
+
+28. A photovoltaic power generation system as claimed in claim 26 configured to control an amplitude of an ac current provided to said ac mains power supply output such that an amount of power transferred to said ac mains power supply output is dependent on a peak amplitude of a fluctuating sinusoidal component of a dc voltage on said energy storage capacitor to control power injected into said ac mains power supply responsive to said level of power flowing into said dc input of said power conditioning unit sensed at said dc link.
+
+
+29. A photovoltaic power generation system as claimed in claim 23 wherein said power conditioning unit further a dc-to-dc converter having an input coupled to said dc power input and having an output coupled to said dc link.
+
+
+30. A photovoltaic power generation system as claimed in claim 23 wherein respective positive and negative terminals of said photovoltaic panels are connected to one another.
+
+
+31. A photovoltaic power generation system as claimed in claim 23 wherein said photovoltaic panels comprise parallel series-connected panels, wherein said photovoltaic panels are connected in parallel to one another via one or more intermediate respective series-connected panels.
+
+
+32. A photovoltaic power generation system as claimed in claim 23 wherein said ac mains power supply output is a three phase output, and wherein said power conditioning unit comprises one said dc-to-ac converter per phase each coupled to a common said dc link.
+
+
+33. A method generating an ac mains power supply from a plurality of photovoltaic panels, the method comprising:
+connecting dc power outputs from said photovoltaic panels in parallel to the input of a power conditioning unit;
+converting said flow of dc power into a said ac mains power supply using said power supply using said power conditioning unit, wherein said converting comprises converting said input flow of dc power units into an intermediate flow of dc power on a dc link of said power conditioning unit coupled to an energy storage capacitor, and converting said intermediate flow of dc power to said ac mains power supply; and
+tracking substantially a maximum power point of said common input flow of dc power.
+
+
+
+34. A method as claimed in claim 33 wherein said tracking comprises sensing said intermediate flow of dc power and controlling said converting of said intermediate flow of dc power to said ac mains power supply responsive to said sensing.
+
+
+35. A method as claimed in claim 34 wherein said sensing comprising sensing a voltage but not a current on said dc link.
+
+
+36. A method as claimed in claim 33 wherein said converting of said input flow of dc power into said intermediate flow of dc power comprises increasing an input voltage from said parallel connected photovoltaic panels by substantially a fixed amplification factor.
+
+
+37. A system for generating an ac mains power supply from a plurality of photovoltaic panels, the system comprising:
+means for connecting dc power outputs from said photovoltaic panels in parallel to the input of a power conditioning unit to provide a common flow of dc power;
+means for converting said flow of dc power into a said ac mains power supply using said power conditioning unit, wherein said converting comprises converting said input flow of dc power into an intermediate flow of dc power on a dc link of said power conditioning unit coupled to an energy storage capacitor;
+means for converting said intermediate flow of dc power to said ac mains power supply; and
+means for tracking substantially a maximum power point of said common input flow of dc power.
+
+
+
+38. A photovoltaic power generation system as claimed in claim 37 wherein said ac mains power supply output is a three phase output, and wherein said power conditioning unit comprises one said dc-to-ac converter per phase each coupled to a common said dc link. 
+

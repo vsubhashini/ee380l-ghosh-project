@@ -1,0 +1,75 @@
+
+A non-isolated DC-DC converter assembly includes a boost converter and a Ćuk converter connected together in a specific way. The non-isolated DC-DC converter assembly allows for grounding of a source and load at the same time, and provides a complete adjustability of the output voltage of the non-isolated DC-DC converter. Further, the DC-DC converter assembly of the disclosure has a current source input characteristic, whereby the current absorbed from the power supply is continuous
+
+
+
+1. A non-isolated DC-DC converter assembly comprising:
+a positive input terminal;
+a negative input terminal;
+a positive output terminal;
+a negative output terminal;
+a boost converter including a first input terminal, a second input terminal, a first output terminal and a second output terminal;
+an intermediate output terminal; and
+a Ćuk converter including a first input terminal, a second input terminal, a first output terminal and a second output terminal, wherein:
+the first input terminal of the boost converter and the second input terminal of the Ćuk converter are conductively connected to the positive input terminal;
+the second input terminal of the boost converter and the first input terminal of the Ćuk converter are conductively connected to the negative input terminal;
+the first output terminal of the boost converter is conductively connected to the positive output terminal;
+the second output terminal of the Ćuk converter is conductively connected to the negative output terminal;
+the second output terminal of the boost converter and the first output terminal of the Ćuk converter are conductively connected to the intermediate output terminal; and
+the negative input terminal and the intermediate output terminal are configured to be grounded.
+
+
+
+2. A converter assembly according to claim 1, wherein the negative input terminal and the intermediate output terminal are conductively connected to each other.
+
+
+3. A converter assembly according to claim 1, wherein:
+the boost converter comprises a first inductor, a first diode, a first controllable switch and a first capacitor;
+the first inductor and the first diode is connected in series between the first input terminal of the boost converter and the first output terminal of the boost converter;
+the first controllable switch is located electrically between a point situated electrically between the first inductor and the first diode, and a point situated electrically between the second input terminal of the boost converter and the second output terminal of the boost converter; and
+the first capacitor is located electrically between the first output terminal of the boost converter and the second output terminal of the boost converter.
+
+
+
+4. A converter assembly according to claim 1, wherein:
+the Ćuk converter comprises a second inductor, a third inductor, a second diode, a second controllable switch, a second capacitor and a third capacitor;
+the second inductor, the third capacitor and the third inductor are connected in series between the second input terminal of the Ćuk converter and the second output terminal of the Ćuk converter such that the third capacitor is located electrically between the second inductor and the third inductor;
+the second controllable switch is located electrically between a point situated electrically between the second inductor and the third capacitor, and a point situated electrically between the first input terminal of the Ćuk converter and the first output terminal of the Ćuk converter;
+the second diode is located electrically between a point situated electrically between the third capacitor and the third inductor, and a point situated electrically between the first input terminal of the Ćuk converter and the first output terminal of the Ćuk converter; and
+the second capacitor is located electrically between the first output terminal of the Ćuk converter and the second output terminal of the Ćuk converter.
+
+
+
+6. A solar power station comprising:
+photovoltaic cell means having at least one photovoltaic cell configured to convert solar energy into direct current; and
+the converter assembly according to claim 1,
+wherein the at least one photovoltaic cell is connected between the positive input terminal and the negative input terminal of the converter assembly.
+
+
+
+7. An inverter assembly comprising:
+a half-bridge inverter; and
+the non-isolated DC-DC converter assembly as claimed in claim 1,
+wherein the half-bridge inverter is connected between the positive output terminal and the negative output terminal, and the intermediate output terminal is configured to be connected to a load of the half-bridge inverter.
+
+
+
+8. A converter assembly according to claim 2, wherein:
+the boost converter comprises a first inductor, a first diode, a first controllable switch and a first capacitor;
+the first inductor and the first diode are connected in series between the first input terminal of the boost converter and the first output terminal of the boost converter;
+the first controllable switch is located electrically between a point situated electrically between the first inductor and the first diode, and a point situated electrically between the second input terminal of the boost converter and the second output terminal of the boost converter; and
+the first capacitor is located electrically between the first output terminal of the boost converter and the second output terminal of the boost converter.
+
+
+
+9. A converter assembly according to claim 3, wherein:
+the Ćuk converter comprises a second inductor, a third inductor, a second diode, a second controllable switch, a second capacitor and a third capacitor;
+the second inductor, the third capacitor and the third inductor are connected in series between the second input terminal of the Ćuk converter and the second output terminal of the Ćuk converter such that the third capacitor is located electrically between the second inductor and the third inductor;
+the second controllable switch is located electrically between a point situated electrically between the second inductor and the third capacitor, and a point situated electrically between the first input terminal of the Ćuk converter and the first output terminal of the Ćuk converter;
+the second diode is located electrically between a point situated electrically between the third capacitor and the third inductor, and a point situated electrically between the first input terminal of the Ćuk converter and the first output terminal of the Ćuk converter; and
+the second capacitor is located electrically between the first output terminal of the Ćuk converter and the second output terminal of the Ćuk converter.
+
+
+
+10. A converter assembly according to claim 9, wherein a point between the emitter of the first controllable switch and the emitter of the second controllable switch, a point between series-connected first capacitor and second capacitor, and a cathode of the second diode are, in operating situations substantially at the same electric potential as the negative input terminal.
+

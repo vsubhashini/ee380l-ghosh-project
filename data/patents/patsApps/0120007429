@@ -1,0 +1,57 @@
+
+A photovoltaic system includes a first and a second photovoltaic generator (9, 11) which delivers electric energy, an inverter (4) which can be coupled to the PV-generators (9, 11) for converting electric energy of the PV generators (9, 11) to output AC energy, and a switchable coupling arrangement (3) for coupling the PV generators (9, 11) to each other and to the inverter (4). The coupling arrangement (3) is arranged functionally between the PV generators (9, 11) and the inverter (4) and designed to connect the PV generators selectively either in a series circuit arrangement or a parallel circuit arrangement to the inverter (4). The PV system (1) can therefore expediently be operated with an intermediate circuit voltage which is higher than the maximum voltage of one PV generator for achieving improved efficiency whereas it can be switched to a lower intermediate circuit voltage when necessary, for example, in case of a ground connection fault, to maintain predetermined voltage limits.
+
+
+
+1. Apparatus for providing an input DC voltage for a photovoltaic inverter (4), comprising:
+a first photovoltaic generator (9) including a first terminal (12) for connection to a positive DC input terminal (17) of the inverter (4) and a second terminal (13);
+a second photovoltaic generator (11) including a first terminal (14) and a second terminal (16) for connection to a negative DC voltage input terminal (18) of the inverter (4); and,
+a switchable coupling arrangement means (3) for coupling the first and the second photovoltaic generators (9, 11) selectively to be effectively in series circuit or in a parallel circuit arrangement.
+
+
+
+2. Apparatus according to claim 1, wherein the photovoltaic generators (9, 11) have a maximum idle voltage of about 600V and a maximum operating voltage of about 450V.
+
+
+3. Apparatus according to claim 1, wherein coupling arrangement means (3) includes a switching arrangement (22) which, in a closed state, interconnects the second terminal (13) of the first photovoltaic generator (9) and the first terminal (14) of the second photovoltaic generator (11).
+
+
+4. Apparatus according to claim 3, wherein the coupling arrangement means (3) includes a controllable DC switch.
+
+
+5. Apparatus according to claim 1, wherein the coupling arrangement means (3) includes four coupling paths (23, 24), which are arranged between the first terminals (12, 14) and respectively, the second terminals (13, 16) of the photovoltaic generators (9, 11).
+
+
+6. Apparatus according to claim 5, wherein the coupling paths (23, 24) include each a current rectifier element (26, 27).
+
+
+7. Apparatus according to claim 6, wherein the current rectifier elements comprise diodes (26, 27) which are arranged in each case in blocking direction between the first terminal (12) and, respectively the second terminal (13) of the first photovoltaic generator (9) and the first terminal (14) or, respectively the second terminal (16) of the second photovoltaic generator (11).
+
+
+8. Apparatus according to claim 1, wherein the photovoltaic generators (9, 11) are not grounded and, in the parallel circuit arrangement switched state galvanically interconnected.
+
+
+9. Photovoltaic system (1) for generating AC current by photovoltaic processes, including:
+an arrangement 45) for providing an input DC voltage for a photovoltaic inverter (4), including a first photovoltaic generator (9) including a first terminal (12) for connection to a positive DC input terminal (17) of the inverter (4) and a second terminal (13), a second photovoltaic generator (11) including a first terminal (14) and a second terminal (16) for connection to a negative DC voltage input terminal (18) of the inverter (4), and, a switchable coupling arrangement means (3) for coupling the first and the second photovoltaic generators (9, 11) selectively to be effectively in series circuit or in a parallel circuit arrangement, and,
+the inverter (4) connected in circuit via DC input terminals (17, 18) to the arrangement (45) and the inverter (4) for converting an input DC voltage (UZK) to an AC voltage UNETZ and to supply the AC voltage UNETZ to an AC voltage output terminal (28, 29) thereof.
+
+
+
+10. Photovoltaic system according to claim 9, wherein the inverter (4) is a power supply-connected transformerless inverter including semiconductor switching elements, and the AC voltage is a low frequency power supply voltage with an AC frequency of 50 HZ or 60 HZ.
+
+
+11. Photovoltaic system according to claim 9, further including a control arrangement (7) for controlling the operation of the inverter (4) and of the coupling arrangement means (3).
+
+
+12. Photovoltaic system according to claim 11, further including a monitoring arrangement (8) for detecting a state of faulty operation and reporting it to the control arrangement (7) and that the control arrangement (7) then initiates switching of the coupling arrangement means (3) to establish operation of the photovoltaic generators (9, 11) in a parallel circuit arrangement.
+
+
+13. Photovoltaic system according to claim 12, wherein the monitoring arrangement (8) includes means (43) for detecting faulty operation on the DC voltage side and means (44) for detecting faulty operation on the AC voltage side of the inverter (4).
+
+
+14. Method for generating an AC voltage from a DC voltage of a photovoltaic generator by means of an inverter, comprising the steps of:
+providing two photovoltaic generators and connecting in each case one terminal of each photovoltaic generator to a terminal of the inverter (47);
+interconnecting the other terminals of the photovoltaic generators to provide a series circuit arrangement of the photovoltaic generators (41) and applying the summarized voltage of the two photovoltaic generators to the input terminal of the inverter (51) during normal operation; and,
+coupling the photovoltaic generators effectively in a parallel circuit relationship (52), for applying a reduced input voltage corresponding to the voltage of one photovoltaic generator to the inverter (53) during a modified mode of operation. 
+
+

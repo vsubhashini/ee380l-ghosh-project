@@ -1,0 +1,62 @@
+
+A system for monitoring and wirelessly transmitting solar array parameters such as current, voltage and temperature in real time is primarily housed within a recombiner box. The system lends itself to retrofitting within some commercially available recombiner boxes. Signals emitted from the RF controller component of the system are received by a central processor, which includes a dashboard interface. Multiple systems in proximity can be linked to form a mesh network with one central processor.
+
+
+
+1) A monitoring system for at least one solar panel, said system comprising:
+A) A sensor control module in communication with a solar panel, said solar panel associated with a solar array;
+B) An RF controller in communication with said sensor control module, said RF controller including an antennae for wirelessly transmitting a signal; and
+C) A receiver for said signal.
+
+
+
+2) The system of claim 1 wherein said sensor control module includes at least one current sensor.
+
+
+3) The system of claim 2 wherein the number of said current sensors is equal to the number of said arrays.
+
+
+4) The system of claim 1 wherein said sensor control module includes a voltage sensor.
+
+
+5) The system of claim 1 wherein said RF controller includes a temperature circuit.
+
+
+6) The system of claim 1 wherein said receiver is in communication with a processor, said processor configured to interpret said signal, and display said interpretation within an interface.
+
+
+7) A monitoring system for an array of solar panels, said system comprising:
+A) A (re)combiner box, including at least one fuse bar with x number of fuses;
+B) An “L”-shaped sensor control module, the leg of the “L” parallel to, and engaged, with said fuse bar; and
+C) A bus bar engaged with the foot of the “L”, said bus bar parallel to, and engaged with, said fuse bar.
+
+
+
+8) The monitoring system of claim 7 further comprising an RF controller in communication with said sensor control module, said RF controller including an antennae.
+
+
+9) The monitoring system of claim 7 wherein said sensor module leg includes x number of current sensors.
+
+
+10) The monitoring system of claim 9 wherein said current sensors are Hall effect sensors.
+
+
+11) The monitoring system of claim 7 wherein said sensor module leg includes x number of bobbins, said bobbins each including a core comprised of at least two separate portions.
+
+
+12) The monitoring system of claim 7 wherein said sensor module leg includes x number of bobbins, said bobbins each including a screw assembly with a movable plate.
+
+
+13) A system of collecting solar energy, said system including:
+A) An array of solar panels each in communication with a (re)combiner box;
+B) A sensor control module in communication with each array, said sensor control module within said (re)combiner box;
+C) An RF antennae in communication with said sensor control module; and
+D) At least one receiver in communication with said RF antennae.
+
+
+
+14) The system of claim 13 wherein said at least one receiver is in communication with at least one processor.
+
+
+15) The system of claim 13 further comprising at least one additional array of solar panels, said array and said additional array in communication one with another.
+

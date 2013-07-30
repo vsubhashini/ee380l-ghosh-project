@@ -1,0 +1,79 @@
+
+A PV installation comprises a PV array, an electrical interface connecting a utility power source to an electrical load, and a DC to AC inverter. A first set of wiring electrically connects the PV array to the inverter through a disconnect device and a second set of wiring electrically connects the inverter to the electrical interface. A control mechanism connects the disconnect device to the electrical interface so that when power from the electrical interface is removed, the PV array is electrically disconnected from the inverter. The disconnect device may be a remote disconnect device located at a position at or near the PV array, such as in the space beneath a roof supporting the PV array. A method electrically disconnects a PV array from electrical wiring at a site.
+
+
+
+1. A photovoltaic (PV) installation at a site comprising:
+a PV array comprising PV panels;
+an electrical interface connecting a utility power source to an electrical load at the site;
+a DC to AC inverter;
+a first set of wiring electrically connecting the PV array to the DC to AC inverter;
+a second set of wiring electrically connecting the DC to AC inverter to the electrical interface;
+a disconnect device;
+the first set of wiring electrically connecting the PV array to the DC to AC inverter through the disconnect device; and
+a control mechanism connecting the disconnect device to the electrical interface so as to be operable in response to the removal of power from the electrical interface so as to electrically disconnect the PV array from the DC to AC inverter.
+
+
+
+2. The installation according to claim 1, wherein the disconnect device is a remote disconnect device at a position at or near the PV array.
+
+
+3. The installation according to claim 2, wherein:
+the site comprises a building having a roof and a space beneath the roof;
+the PV array is mounted to the roof; and
+the remote disconnect device is mounted in the space beneath the roof.
+
+
+
+4. The installation according to claim 1, further comprising:
+a battery;
+a second disconnect device; and
+a second control mechanism connecting the second disconnect device to the electrical interface so as to be operable in response to the removal of power from the electrical interface so as to disconnect the battery from the DC to AC inverter.
+
+
+
+5. The installation according to claim 1, wherein the electrical interface comprises a main disconnect by which power from the power source can be removed from the electrical interface.
+
+
+6. The installation according to claim 1, wherein the disconnect device comprises a contactor device.
+
+
+7. The installation according to claim 1, wherein the disconnect device comprises a semiconductor switching device.
+
+
+8. The installation according to claim 1, wherein the control mechanism comprises a conductor connecting the electrical interface to the disconnect device.
+
+
+9. The installation according to claim 1, wherein the control mechanism comprises a conductor connecting a power source monitor to the disconnect device.
+
+
+10. The installation according to claim 1, wherein the control mechanism comprises a wireless connection between the electrical interface and the disconnect device.
+
+
+11. The installation according to claim 1, wherein the control mechanism comprises a wireless connection between the power source monitor and the disconnect device.
+
+
+12. A method for disconnecting a photovoltaic (PV) array from electrical wiring at a site, the PV array providing power to a set of electrical wiring connecting to an inverter, the site comprising an electrical load connected to a utility power source and to the inverter through an electrical interface, the method comprising:
+sensing when power from the power source to the electrical interface is removed;
+changing the state of a disconnect device in response to said sensing when power from the power source to the electrical interface is removed; and
+electrically disconnecting the PV array from electrical wiring at the site by the disconnect device in response to said sensing when power from the power source to the electrical interface is removed.
+
+
+
+13. The method according to claim 12, wherein the sensing step is performed by a utility power source monitor located with the inverter.
+
+
+14. The method according to claim 12, wherein:
+the changing the state step is carried out with the disconnect device being a remote disconnect device located at a position at or near the PV array; and
+the changing step comprises modifying the state of a control mechanism of the remote disconnect device.
+
+
+
+15. The method according to claim 14, wherein the modifying step is carried out by making the control mechanism a zero voltage state.
+
+
+16. The method according to claim 12, wherein the changing the state step occurs when power from the power source to the electrical interface is removed by actuating a main disconnect of the electrical interface.
+
+
+17. The method according to claim 12, wherein the changing the state step comprises modifying the control mechanism connecting the inverter to the disconnect device. 
+

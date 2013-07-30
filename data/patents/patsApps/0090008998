@@ -1,0 +1,55 @@
+
+The invention relates to an electrical power distribution and control system adapted to accept electrical power from one or more electrical power supply sources and meter and monitor consumption of this power by a user. The system can be programmed with a time period and an electrical power allowance for both critical and non critical loads for this period of time, and it can shut-off power supply to non-critical loads if the allowance for these has been exceeded before the time period has elapsed.
+
+
+
+1. An electrical power distribution and control system adapted to accept electrical power from one or more electrical power supply sources and meter and monitor consumption of this power by a user, wherein the system is programmed with a time period and an electrical power allowance for both critical and non critical loads for this period of time, and it is adapted to shut-off power supply to non-critical loads if the allowance for these has been exceeded before the time period has elapsed.
+
+
+2. The electrical power distribution and control system of claim 1, wherein the system includes a visual indication means for indicating how much of the power allowance for non-critical loads has been used.
+
+
+3. The electrical power distribution and control system as in claim 1, wherein the system includes a main switchboard and a user interface.
+
+
+4. The electrical power distribution and control system as in claim 3, wherein the main switchboard replaces the standard consumer switchboard.
+
+
+5. The electrical power distribution and control system as in claim 3, wherein the user interface incorporates the visual indication means.
+
+
+6. The electrical power distribution and control system as in claim 5, wherein the visual indication means comprises four green lights, one yellow light and one blue light, wherein illumination of the green lights indicates the portion of the allowance for non-critical appliances that remains, illumination of the yellow light indicates the availability of power for critical appliances, and illumination of the blue light indicates the availability of power from generators.
+
+
+7. The electrical power distribution and control system as in claim 1, wherein the electrical power supply source is one or more of a renewable energy supply, a fuel driven generator, or a town supply.
+
+
+8. The electrical power distribution and control system as in claim 7, wherein the renewable energy supply is an array of solar modules charging a battery or batteries.
+
+
+9. The electrical power distribution and control system as in claim 1, wherein the time period is 24 hours.
+
+
+10. The electrical power distribution and control system as in claim 1, wherein the power allowance is reset at the end of the time period.
+
+
+11. The electrical power distribution and control system as in claim 1, wherein the system incorporates programmable means, which can be programmed with power allowances and the time period.
+
+
+12. The electrical power distribution and control system as in claim 11, wherein the programmable means is adapted to log data relating to system parameters.
+
+
+13. The electrical power distribution and control system as in claim 1, wherein the system incorporates means for indicating the instantaneous rate of power usage.
+
+
+14. An electrical power distribution and control system adapted to accept electrical power from one or more supply sources and meter and monitor consumption of this power by a user, wherein the system can be programmed with a time period and an electrical power allowance for this period of time, and it can shut-off power supply if the allowance has been exceeded before the time period has elapsed.
+
+
+15. A method of monitoring and controlling the distribution of electrical power including the steps of, assigning a power allowance for non-critical loads, assigning a power allowance for the combined critical and non-critical loads, assigning a time period, measuring elapsed time and power used, disconnecting power supply to non-critical loads if the allowance for these has been exceeded before the time period has elapsed.
+
+
+16. The method as in claim 15, wherein the method includes the further step of resetting the allowances once the time period has elapsed.
+
+
+17. The method as in claim 15, wherein the method includes the further step of indicating the amount of the non-critical allowance remaining at any given time. 
+

@@ -1,0 +1,67 @@
+
+A method for determining a spatial arrangement of photovoltaic module groups in a photovoltaic installation includes measuring a sequence of values of an illumination-dependent electrical characteristic variable of different photovoltaic module groups while the photovoltaic installation is subject to light incidence with an incidence intensity which varies over time and spatially. The relative spatial arrangement of the photovoltaic module groups with respect to one another is then determined by comparing sequences of measured values associated with different photovoltaic module groups.
+
+
+
+1. A method for determining a spatial arrangement of photovoltaic module groups in a photovoltaic installation, comprising:
+measuring a sequence of values of an illumination-dependent electrical characteristic variable of different photovoltaic module groups while the photovoltaic installation is subject to light incidence with an incidence intensity that varies over time and spatially; and
+determining a relative spatial arrangement of the different photovoltaic module groups with respect to one another by comparing sequences of measured values associated with different photovoltaic module groups.
+
+
+
+2. The method according to claim 1, wherein comparing the sequences of measured values comprises determining a similarity of the sequences of measured values.
+
+
+3. The method according to claim 1, wherein comparing the sequences of measured values comprises determining time shifts between the sequences of measured values.
+
+
+4. The method according to claim 3, wherein determining the time shifts comprises determining shadowing times of the different photovoltaic module groups, and wherein the time shifts are determined as a difference between the shadowing times of different photovoltaic module groups.
+
+
+5. The method according to claim 4, wherein the shadowing times are determined by means of a threshold value criterion for the electrical characteristic variable or for a rate of change of the characteristic variable.
+
+
+6. The method according to claim 3, wherein determining the time shifts comprises comparing the sequences of measured values from different photovoltaic module groups, wherein the determined time shift corresponds to a relative time offset between the sequences, for which there is a minimum discrepancy between the sequences of measured values.
+
+
+7. The method according to claim 3, wherein determining the time shifts comprises comparing the sequences of measured values from different photovoltaic module groups with a model of sequences of measured values based on an assumed spatial arrangement of the photovoltaic module groups.
+
+
+8. The method according to claim 1, wherein the illumination-dependent electrical characteristic variable is a current produced by the photovoltaic module group, a power that is produced by the photovoltaic module group, or a voltage that is produced by the photovoltaic module group.
+
+
+9. The method according to claim 1, wherein the illumination-dependent electrical characteristic variable of the photovoltaic module group is measured at least for a part of the photovoltaic module group within an inverter to which the corresponding photovoltaic module group is connected.
+
+
+10. The method according to claim 1, wherein the photovoltaic module group is a photovoltaic module or an arrangement of a plurality of connected photovoltaic modules.
+
+
+11. The method according to claim 1, wherein the incidence intensity, that varies over time and spatially, is caused by manually induced shadowing.
+
+
+12. The method according to claim 1, wherein the incidence intensity, that varies over time and spatially, is caused by shadowing by clouds.
+
+
+13. The method according to claim 1, wherein the incidence intensity, that varies over time and spatially, is caused by a partial shadowing by a stationary item.
+
+
+14. The method according to claim 13, wherein the stationary item is a part of one of the photovoltaic module groups.
+
+
+15. The method according to claim 1, wherein one or more of the photovoltaic module groups has or have an already known position within the photovoltaic installation.
+
+
+16. The method according to claim 1, wherein the determination of the spatial arrangement of the photovoltaic module groups takes into account weather data.
+
+
+17. The method according to claim 16, wherein the weather data is determined from image data from a camera.
+
+
+18. The method according to claim 1, wherein a spatial extent of a photovoltaic module group is determined from the sequence of measured values associated with the photovoltaic module group.
+
+
+19. The method according to claim 1, wherein determining the spatial arrangement of the photovoltaic module groups further takes account of a plan of a spatial arrangement of inverters.
+
+
+20. A photovoltaic installation having a device for determining a spatial arrangement of photovoltaic module groups, which is configured to carry out a method according to claim 1. 
+

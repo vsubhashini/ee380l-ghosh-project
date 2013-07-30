@@ -1,0 +1,73 @@
+
+The invention relates to a photovoltaic system for feeding three-phase current to a power grid that includes several monophase or three-phase photovoltaic inverters that can be connected to the power grid at the output end and are each fitted with a disconnecting device at the output end. The system includes several photovoltaic generators that are connected to the input end of the photovoltaic inverters. A central control and monitoring unit is connected between the photovoltaic inverters and the power grid. The control and monitoring unit has a grid monitoring device at the feeding point to the grid to measure one or more grid parameters. At least one communication link is provided between the individual photovoltaic inverters or the individual disconnecting devices and the connected central control and monitoring unit such that the connecting devices can disconnect the individual photovoltaic inverters from the power grid by means of a control instruction signal of the communication link. The central control and monitoring unit includes a load unbalance recognition component and a load unbalance regulation component, wherein the regulation includes limiting the power variation between the individual phases to a predetermined value.
+
+
+
+1. A photovoltaic system configured to feed three-phase current into a power grid, comprising:
+a plurality of single-phase or three-phase photovoltaic inverters configured to be connected to the power grid on an output side, wherein one or more of the photovoltaic inverters comprise a disconnector on the output side thereof, wherein each of the plurality of photovoltaic inverters have an input side configured to couple to a plurality of photovoltaic generators;
+a central control and monitoring unit comprising a grid monitoring device at a feed point configured to couple to a grid, wherein the grid monitoring device is configured to measure one or more grid parameters;
+at least one communication link between the photovoltaic inverters or the disconnectors and the central control and monitoring unit;
+wherein the photovoltaic inverters are configured to be disconnected from the power grid via their respective disconnector in response to a control command signal on the communication link from the central control and monitoring unit;
+wherein the central control and monitoring unit comprises a load unbalance detector and a load unbalance controller configured to limit a power difference between the individual phases of the plurality of inverters to a predetermined value.
+
+
+
+2. The photovoltaic system of claim 1, wherein each of the plurality of photovoltaic inverters comprises an additional control and monitoring component configured to provide a local monitoring of the respective photovoltaic inverter and transmit data or a signal associated therewith to the central control and monitoring unit.
+
+
+3. The photovoltaic system of claim 2, wherein the additional control and monitoring component is configured to detect an island grid.
+
+
+4. The photovoltaic system of claim 2, wherein the additional control and monitoring component comprises a fault ride-through monitoring component.
+
+
+5. The photovoltaic system of claim 1, wherein the central control and monitoring unit is configured to disconnect one or more of the plurality of photovoltaic inverters from the power grid via respective disconnectors by transmitting a control command signal on the communication link if at least one predefined limit value associated with the one or more of the plurality of photovoltaic inverters is exceeded or undershot.
+
+
+6. The photovoltaic system of claim 1, wherein the central control and monitoring unit is configured to measure a grid voltage or a grid current or a frequency band, or any combination thereof, associated with one or more of the photovoltaic inverters.
+
+
+7. The photovoltaic system of claim 1, wherein the load unbalance controller is configured to maintain a power difference between individual phases of the plurality of photovoltaic inverters less than 4.6 kVA or a 10-minute average value less than 5 kW.
+
+
+8. The photovoltaic system of claim 1, wherein the central control and monitoring unit is configured to disconnect one or more photovoltaic inverters via a respective disconnectors in the event of detection of a load unbalance condition.
+
+
+9. The photovoltaic system of claim 1, wherein the plurality of photovoltaic inverters are arranged in a modular fashion, comprising a first group of photovoltaic inverters, with at least one inverter for each phase, and a second group of photovoltaic inverters, with at least one inverter for each phase, are provided, and wherein the inverters of the first group and the second group for each respective phase are coupled to one another in parallel.
+
+
+10. The photovoltaic system of claim 1, further comprising an external communication link configured to communicate a condition relating to one or more of the plurality of photovoltaic inverters to one or more of a power supply company, a router, a web-portal, or a local or remote server.
+
+
+11. The photovoltaic system of claim 10, wherein the condition comprises data relating to the one or more of the photovoltaic inverters.
+
+
+12. The photovoltaic system of claim 10, wherein the central control and monitoring unit is configured to disconnect one or more of the plurality of photovoltaic inverters in response to a signal received by the one or more of a power supply company, a router, a web-portal, or a local or remote server via the external communication link.
+
+
+13. The photovoltaic system of claim 1, wherein the communication link comprises a wired link or a wireless link.
+
+
+14. The photovoltaic system of claim 1, wherein the plurality of photovoltaic inverters comprise photovoltaic inverters of different phase types or solely single-phase photovoltaic inverters.
+
+
+15. A photovoltaic system, comprising:
+a plurality of photovoltaic inverters configured to receive DC energy at inputs and provide AC energy at outputs;
+a control and monitoring unit operably coupled to the plurality of photovoltaic inverters, wherein the control and monitoring unit is configured to monitor an operating condition associated with at least two of the plurality of photovoltaic inverters, determine whether a load unbalance condition exists based on the monitored operating conditions, and selectively disconnect one of the plurality of photovoltaic inverters based on the determination.
+
+
+
+16. The photovoltaic system of claim 15, further comprising a disconnector associated with each of the photovoltaic inverters, wherein each disconnector is configured to selectively disconnect the respective photovoltaic inverter from the system in response to a command instruction from the control and monitoring unit.
+
+
+17. A photovoltaic system, comprising:
+a plurality of photovoltaic inverters configured to receive DC energy at inputs and provide AC energy at outputs;
+a control and monitoring unit operably coupled to the plurality of photovoltaic inverters, wherein the control and monitoring unit is configured to monitor a voltage between various phases of a grid at the outputs when coupled thereto, and adjust one ore more characteristics of one or more of the photovoltaic inverters in response thereto.
+
+
+
+18. The photovoltaic system of claim 17, wherein the central control and monitoring circuit is further configured to monitor a power difference between the various phases of the grid at the outputs, and adjust one or more characteristics of theone or more inverters in response thereto.
+
+
+19. The photovoltaic system of claim 18, wherein the central control and monitoring circuit is further configured to disconnect one or more of the photovoltaic inverters when the power difference exceeds a predetermined level.
+

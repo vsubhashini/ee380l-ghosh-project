@@ -1,0 +1,76 @@
+
+Series strings of photovoltaic (PV) modules with integrated dc-dc microconverters that can function in buck, boost, or an intermediate bridge mode based on the load can harvest more energy than conventional central-inverter architectures, especially when the arrays are partially shaded or when the modules are mismatched. The integrated multi-mode dc-dc converter includes a maximum power point tracking (MPPT) algorithm that can track the true MPP, even when a PV module becomes partially-shaded, without scanning the entire output voltage range. The algorithm compares power levels only at a voltage that occurs when a bypass diode bypasses a portion of an associated PV module, and multiples thereof.
+
+
+
+1. A method to determine a maximum power point (MPP) of a photovoltaic (PV) module, comprising:
+determining a voltage at which a bypass diode of said PV module bypasses an associated portion of said PV module;
+determining multiples of said voltage; and
+selecting a largest of the power points occurring at said voltage and at said multiples of said voltage to be said MPP.
+
+
+
+2. The method of claim 1 further comprising establishing a starting point for a perturb and observe (P&O) algorithm that is substantially equal to said MPP.
+
+
+3. The method of claim 1 further comprising reestablishing a starting point for said P&O algorithm if a change in output power of said PV module exceeds a predetermined threshold.
+
+
+4. The method of claim 3 wherein said change in output power of said PV module is caused by a shading of at least a portion of said PV module.
+
+
+5. The method of claim 1 wherein said determining a voltage at which a bypass diode of said PV module bypasses an associated portion of said PV module is based upon an open circuit voltage.
+
+
+6. The method of claim 1 wherein said determining a voltage at which a bypass diode of said PV module bypasses an associated portion of said PV module is based on an output voltage of a microcontroller.
+
+
+7. The method of claim 1 wherein said determining a voltage at which a bypass diode of said PV module bypasses an associated portion of said PV module is based on an output current of a microcontroller.
+
+
+8. The method of claim 1 further comprising providing three PV modules.
+
+
+9. The method of claim 1 further comprising providing a dc-dc converter controlled by said microcontroller to function in buck, boost, or intermediate bridge mode, based on a load demand.
+
+
+10. A photovoltaic (PV) power system, comprising:
+a plurality of PV modules, each of said PV modules having a plurality of bypass diodes, each bypass diode operative to bypass an associated PV module portion when a voltage output of said associated PV module portion falls below a predetermined voltage; and
+a plurality of dc-dc microconverters, each microconverter having an input connected to a respective PV module output, said plurality of dc-dc converters having outputs connected in series;
+each of said dc-dc microconverters comprising a microcontroller programmed to determine a largest of power maxima that occur at voltages corresponding to a voltage, and multiples thereof, that occur when a bypass diode bypasses said associated PV module portion, without scanning all voltage outputs.
+
+
+
+11. The PV power system of claim 10 wherein said microcontroller is also being programmed to run a perturb and observe algorithm from a starting voltage near said largest of said power maxima.
+
+
+12. The PV power system of claim 11 wherein said microcontroller is programmed to redetermine a largest of said power maxima and rerun said perturb and observe algorithm from a starting voltage near said redetermined largest of said power maxima, if a change in output power of said microcontroller exceeds a predetermined threshold.
+
+
+13. The PV power system of claim 12 wherein said change in output power of said PV module is caused by a shading of at least one portion of said PV module.
+
+
+14. The PV power system of claim 10 further comprising a dc-ac inverter having an input across which said series connected outputs of a plurality of dc-dc converters are connected.
+
+
+15. The PV power system of claim 10 wherein said voltages corresponding to a voltage, and multiples thereof, that occur when a bypass diode bypasses an associated PV module are open circuit voltages.
+
+
+16. The PV power system of claim 10 wherein said power maxima are based on output voltages of said microconverter.
+
+
+17. The PV power system of claim 10 wherein said power maxima are based on output currents of said microconverter.
+
+
+18. The PV power system claim 10 wherein said plurality of PV modules are an N number of PV modules.
+
+
+19. A microconverter for connection to an output of a PV module having a plurality of bypass diodes to bypass respective associated PV module portions when an output of said associated PV module portion below a predetermined voltage, comprising:
+a microcontroller;
+a microcontroller program means to cause said microcontroller to determine a largest of power maxima that occur at voltages corresponding to a voltage, and multiples thereof, that occur when a bypass diode bypasses an associated PV module without scanning all output voltages, and;
+a microcontroller program means to cause said microcontroller to run a perturb and observe algorithm from a starting voltage substantially equal to said largest of said power maxima.
+
+
+
+20. The microconverter of claim 19 further comprising program means to cause said microcontroller to redetermine a largest of said power maxima and rerun said perturb and observe algorithm from a starting voltage near said redetermined largest of said power maxima, if a change in output power exceeds a predetermined threshold. 
+

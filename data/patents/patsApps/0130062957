@@ -1,0 +1,97 @@
+
+An area electric power system includes a number of direct current power sources, and a number of inverters operatively associated with the number of direct current power sources. Each of the number of inverters is structured to provide real power and controlled reactive power injection to detect islanding. An output is powered by the number of inverters. A number of electrical switching apparatus are structured to electrically connect the number of inverters to and electrically disconnect the number of inverters from a utility grid. A number of devices are structured to detect islanding with respect to the utility grid responsive to a number of changes of alternating current frequency or voltage of the output.
+
+
+
+1. A method of detecting islanding of an area electric power system including a number of inverters outputting an alternating current voltage including a voltage and a frequency, the method comprising:
+providing controlled reactive power injection by the number of inverters;
+detecting islanding responsive to a number of changes of the voltage and the frequency of the alternating current voltage output by the number of inverters; and
+not allowing the voltage or the frequency of said alternating current voltage to drift when said number of inverters do not provide said controlled reactive power injection of a sufficient amount to detect islanding.
+
+
+
+2. The method of claim 1 further comprising:
+providing said detecting islanding by detecting a number of an under-frequency condition, an over-frequency condition, an under-voltage condition, and an over-voltage condition of the alternating current voltage output by the number of inverters.
+
+
+
+3. The method of claim 1 further comprising:
+providing said detecting islanding by a protection relay external to said number of inverters.
+
+
+
+4. The method of claim 3 further comprising:
+independently detecting islanding by measuring inverter power factor deviation of each of the number of inverters with a number of inverter controllers.
+
+
+
+5. The method of claim 3 further comprising:
+independently detecting islanding by detecting an under-frequency condition or an over-frequency condition of the alternating current voltage output by the number of inverters by an inverter controller of one of said number of inverters.
+
+
+
+6. The method of claim 1 further comprising:
+providing said detecting islanding external to an inverter controller of one of said number of inverters.
+
+
+
+7. The method of claim 1 further comprising:
+employing a solar farm or a wind farm as said area electric power system.
+
+
+
+8. The method of claim 1 further comprising:
+employing one inverter as said number of inverters.
+
+
+
+9. The method of claim 1 further comprising:
+employing a plurality of inverters electrically connected on a common transformer as said number of inverters.
+
+
+
+10. The method of claim 9 further comprising:
+employing a solar farm or a wind farm as said area electric power system.
+
+
+
+11. The method of claim 1 further comprising:
+providing said detecting islanding by detecting an abnormal voltage condition or an abnormal frequency condition of the alternating current voltage output by the number of inverters with a protection relay; and
+responsively opening a circuit interrupter with said protection relay.
+
+
+
+12. The method of claim 11 further comprising:
+independently detecting islanding by detecting the abnormal frequency condition with an inverter controller of one of said number of inverters.
+
+
+
+13. The method of claim 1 further comprising:
+employing said detecting islanding over a full range of power levels of the rating of said number of inverters.
+
+
+
+14. The method of claim 1 further comprising:
+employing as said area electric power system an area electrical power system comprising a number of photovoltaic power sources, said number of inverters and a local load.
+
+
+
+15. The method of claim 1 further comprising:
+switching the number of inverters from a grid-parallel mode of operation to an intentional island mode of operation.
+
+
+
+16. The method of claim 1 further comprising:
+controlling the number of inverters to maintain a leading power factor at a utility grid connection as said providing controlled reactive power injection.
+
+
+
+17. The method of claim 1 further comprising:
+electrically connecting a resonant circuit between a number of electrical switching apparatus and an output of said number of inverters including said alternating current voltage.
+
+
+
+18. The method of claim 1 further comprising:
+further including with said area electric power system a number of direct current power sources operatively associated with said number of inverters. 
+
+

@@ -1,0 +1,15 @@
+0	0.04019	solar claim image axis tracker sun drive installation method roof position tube tracking means torque comprising rotation area system 
+1	0.08537	support claim mounting structure assembly end base system member comprising surface plurality substantially members panel supporting beam longitudinal portion 
+2	0.06712	energy power system storage battery electric load management grid renewable meter supply control amount claim controller unit electricity stored 
+3	0.11524	mounting portion surface claim side upper member plate roof lower bracket frame element top clamp edge bottom end extending 
+4	0.07439	claim housing electrical connector photovoltaic box junction contact electrically conductor comprising layer surface material heat connection plurality shingle side 
+5	0.09217	pv photovoltaic system array power unit voltage plurality string modules claim module control inverter strings output connected respective comprising 
+6	0.09977	module photovoltaic claim modules frame member plurality comprising assembly mounting connector includes comprises configured portion method support structure cell 
+7	0.06657	power method photovoltaic point voltage claim time operating output maximum element comprising parameter values determining means set reference period 
+8	0.04272	dc photovoltaic power converter solar output step input conversion energy claim converted control controlling circuitry maximum voltage efficient method 
+9	0.15257	solar panel claim panels system cell plurality comprising frame comprises connected array claimed collector position includes method cells profile 
+10	0.10938	power dc voltage ac output inverter current converter claim source system input grid signal control controller configured comprises comprising 
+11	0.0554	rail mounting system claim plurality photovoltaic structure wall comprising frame modules grounding strut body method rails adapted unitized structures 
+12	0.07227	terminal circuit switch inverter voltage connected switching claim current input output terminals converter switches comprising bridge dc semiconductor coupled 
+13	0.05596	data system claim monitoring power energy comprising method generation communication plurality information interface network user based performance computer renewable 
+14	0.1083	device claim electrical signal apparatus current comprising sensor power monitoring fault load means photovoltaic includes method source configured plurality 

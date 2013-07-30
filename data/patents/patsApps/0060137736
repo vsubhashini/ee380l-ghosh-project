@@ -1,0 +1,165 @@
+
+A support system for installing a photovoltaic power generator with photovoltaic modules comprising: calculation means for calculating an installation area of the modules on the basis of geographic information. 
+
+
+
+1. A support system for installing a photovoltaic power generator with photovoltaic modules comprising: 
+calculation means for calculating an installation area of the modules on the basis of geographic information. 
+
+ 
+
+2. A support system for installing a photovoltaic power generator with photovoltaic modules comprising: 
+specification means for specifying a state of the modules' installation on the basis of geographic information; and 
+estimation means for estimating installation cost of the generator from the state specified by the specification means. 
+
+ 
+
+3. A support system for installing a photovoltaic power generator with photovoltaic modules comprising: 
+a geographic image database storing geographic images and coordinates; 
+installation site input means for receiving an input about an installation site of the modules; 
+geographic image display means for displaying a geographic image, including the input installation site, on display means by reading the geographic image from the geographic image database on the basis of position information of the input installation site; 
+installation surface input means for receiving inputs for specifying an installation surface of the modules, on the displayed geographic image; 
+installation surface shape specification means for specifying the installation surface shape by extracting coordinates of the installation surface from the geographic image database; 
+module determination means for determining a type and layout of the modules suitable for the installation surface shape; and 
+estimation means for reading prices of the modules used in the layout, from a price database storing prices of the modules, and calculating an estimated price of an installation cost of the generator. 
+
+ 
+
+4. A support system for installing a photovoltaic power generator with photovoltaic modules comprising: 
+a geographic image database storing geographic images and coordinates; 
+installation site input means for receiving an input about an installation site of the modules; 
+geographic image display means for displaying a geographic image, including the input installation site, on display means by reading the geographic image from the geographic image database on the basis of position information of the input installation site; 
+installation surface input means for receiving inputs for specifying an installation surface of the modules, on the displayed geographic image; 
+installation surface shape specification means for specifying an installation surface shape by extracting coordinates of the installation surface from the geographic image database; 
+installation surface shape input means for receiving an input about the installation surface shape; 
+module determination means for determining a type and layout of the modules suitable for the installation surface shape; and 
+estimation means for reading prices of the modules used in the layout, from a price database storing prices of the modules, and calculating an estimated price of an installation cost of the generator. 
+
+ 
+
+5. The system according to claim 3, further comprising: 
+a placement pattern database storing plural placement patterns of the modules, wherein 
+the module determination means makes comparison between the respective placement patterns in the placement pattern database and the specified installation surface shape and selects a placement pattern suitable for the installation surface shape, thereby determining the layout. 
+
+ 
+
+6. The system according to claim 4, further comprising: 
+a placement pattern database storing plural placement patterns of the modules, wherein 
+the module determination means makes comparison between the respective placement patterns in the placement pattern database and the specified installation surface shape and selects a placement pattern suitable for the installation surface shape, thereby determining the layout. 
+
+ 
+
+7. The system according to claim 3, further comprising: 
+a module information database storing shapes of the modules, wherein 
+the module determination means calculates the greatest area capable of mounting the modules thereon from the installation surface shape and determines a type and layout of the modules from the area and the shapes of the modules read from the database. 
+
+ 
+
+8. The system according to claim 4, further comprising: 
+a module information database storing shapes of the modules, wherein 
+the module determination means calculates the greatest area capable of mounting the modules thereon from the installation surface shape and determines a type and layout of the modules from the area and the shapes of the modules read from the database. 
+
+ 
+
+9. The system according to claim 1, further comprising: 
+a module information database storing specifications about power generation performance of the modules; 
+a solar information database storing positions of the sun and solar irradiation in association with dates and hours and latitudes and longitudes; and 
+power generation amount prediction means for calculating a prospective power generation amount from the specifications of the modules, the positions of the sun, the solar irradiation and the installation surface shape. 
+
+ 
+
+10. The system according to claim 2, further comprising: 
+a module information database storing specifications about power generation performance of the modules; 
+a solar information database storing positions of the sun and solar irradiation in association with dates and hours and latitudes and longitudes; and 
+power generation amount prediction means for calculating a prospective power generation amount from the specifications of the modules, the positions of the sun, the solar irradiation and the installation surface shape. 
+
+ 
+
+11. The system according to claim 3, further comprising: 
+a module information database storing specifications about power generation performance of the modules; 
+a solar information database storing positions of the sun and solar irradiation in association with dates and hours and latitudes and longitudes; and 
+power generation amount prediction means for calculating a prospective power generation amount from the specifications of the modules, the positions of the sun, the solar irradiation and the installation surface shape. 
+
+ 
+
+12. The system according to claim 4, further comprising: 
+a module information database storing specifications about power generation performance of the modules; 
+a solar information database storing positions of the sun and solar irradiation in association with dates and hours and latitudes and longitudes; and 
+power generation amount prediction means for calculating a prospective power generation amount from the specifications of the modules, the positions of the sun, the solar irradiation and the installation surface shape. 
+
+ 
+
+13. The system according to claim 3, further comprising: 
+image synthesis means for superimposing the layout on a geographic image at a proper position or in an installation surface shape to create a synthesized image. 
+
+ 
+
+14. The system according to claim 4, further comprising: 
+image synthesis means for superimposing the layout on a geographic image at a proper position or in an installation surface shape to create a synthesized image. 
+
+ 
+
+15. The system according to claim 1, further comprising: 
+an installation support information database storing installation support information consisting of at least one of the installation cost, the prospective power generation amount and the synthesized image; 
+data transmission means for transmitting, to a customer, the installation support information stored in the installation support information database; and 
+browse means which enables browsing of data. 
+
+ 
+
+16. The system according to claim 2, further comprising: 
+an installation support information database storing installation support information consisting of at least one of the installation cost, the prospective power generation amount and the synthesized image; 
+data transmission means for transmitting, to a customer, the installation support information stored in the installation support information database; and 
+browse means which enables browsing of data. 
+
+ 
+
+17. The system according to claim 3, further comprising: 
+an installation support information database storing installation support information consisting of at least one of the installation cost, the prospective power generation amount and the synthesized image; 
+data transmission means for transmitting, to a customer, the installation support information stored in the installation support information database; and 
+browse means which enables browsing of data. 
+
+ 
+
+18. The system according to claim 4, further comprising: 
+an installation support information database storing installation support information consisting of at least one of the installation cost, the prospective power generation amount and the synthesized image; 
+data transmission means for transmitting, to a customer, the installation support information stored in the installation support information database; and 
+browse means which enables browsing of data. 
+
+ 
+
+19. The system according to claim 13, further comprising: 
+an installation support information database storing installation support information consisting of at least one of the installation cost, the prospective power generation amount and the synthesized image; 
+data transmission means for transmitting, to a customer, the installation support information stored in the installation support information database; and 
+browse means which enables browsing of data. 
+
+ 
+
+20. The system according to claim 14, further comprising: 
+an installation support information database storing installation support information consisting of at least one of the installation cost, the prospective power generation amount and the synthesized image; 
+data transmission means for transmitting, to a customer, the installation support information stored in the installation support information database; and 
+browse means which enables browsing of data. 
+
+ 
+
+21. A support program for installing a photovoltaic power generator with photovoltaic modules which allows a computer to function as: 
+a geographic image database storing geographic images and coordinates; 
+installation site input means for receiving an input about an installation site of the modules; 
+geographic image display means for displaying a geographic image, including the input installation site, on display means by reading the geographic image from the geographic image database on the basis of position information of the input installation site; 
+installation surface input means for receiving inputs for specifying an installation surface of the modules, on the displayed geographic image; 
+installation surface shape specification means for specifying an installation surface shape by extracting the coordinates of installation surface from the geographic image database; 
+module determination means for determining a type and layout of the modules suitable for the installation surface shape; and 
+estimation means for reading prices of the modules used in the layout, from a price database storing prices of the modules, and calculating an estimated price of an installation cost of the generator. 
+
+ 
+
+22. A support program for installing a photovoltaic power generator with photovoltaic modules which allows a computer to function as: 
+a geographic image database storing geographic images and coordinates; 
+installation site input means for receiving an input about an installation site of the modules; 
+geographic image display means for displaying a geographic image, including the input installation site, on display means by reading the geographic image from the geographic image database on the basis of position information of the input installation site; 
+installation surface input means for receiving inputs for specifying an installation surface of the modules, on the displayed geographic image; 
+installation surface shape specification means for specifying an installation surface shape by extracting the coordinates of installation surface from the geographic image database; 
+installation surface shape input means for receiving an input about the installation surface shape; 
+module determination means for determining a type and layout of the modules suitable for the installation surface shape; and 
+estimation means for reading prices of the modules used in the layout, from a price database storing prices of the modules, and calculating an estimated price of an installation cost of the generator.
+
+ 

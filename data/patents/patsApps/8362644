@@ -1,0 +1,28 @@
+
+A system, method, and apparatus for managing an application of power from photovoltaic arrays to power conversion components. The method may include arranging a first array and a second array in series, coupling a positive terminal of a first array to the power conversion component, coupling a negative terminal of a second array to the power conversion component, and modulating an amount of current flowing between a negative terminal of the first array and a positive terminal of the second array so as to ramp up a level of current flowing through the arrays as the arrays are brought online with the power conversion component. A voltage of any terminal on either of the arrays may be limited so that the voltage on any of the terminals does not reach a restricted level.
+
+
+
+1. A method for coupling photovoltaic arrays with a power conversion component comprising:
+arranging a first array and a second array in series;
+coupling a positive terminal of a first array to the power conversion component;
+coupling a negative terminal of a second array to the power conversion component;
+modulating an amount of current flowing between a negative terminal of the first array and a positive terminal of the second array so as to ramp up a level of current flowing through the arrays as the arrays are brought online with the power conversion component; and
+limiting a voltage of any terminal on either of the arrays so that the voltage on any of the terminals does not reach a restricted level.
+
+
+
+2. The method of claim 1, wherein modulating includes decreasing an effective resistance of the array coupler.
+
+
+3. The method of claim 2, wherein the modulating includes closing, for successively longer times, a switch so as to increase the amount of current flowing through the first and second photovoltaic arrays.
+
+
+4. The method of claim 1, wherein a combined open circuit voltage across the arrays exceeds 1300 Volts and wherein, after the arrays are brought online with the power conversion component, the voltage across the arrays is less than 1000 Volts.
+
+
+5. The method of claim 1 wherein the restricted level of voltage is 600Volts.
+
+
+6. The method of claim 1, wherein a combined open circuit voltage across the arrays exceeds a design-voltage of the inverter. 
+

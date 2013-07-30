@@ -1,0 +1,1319 @@
+
+A computer-implemented system and method for determining point-to-point correlation of sky clearness for photovoltaic power generation fleet output estimation is provided. A physical distance between two points is obtained, each point being suitable for operation of a photovoltaic station. A temporal distance that includes the physical distance between the two points in proportion to cloud speed is determined. A correlation between sky clearness over the two points is evaluated as an empirically-derived exponential function of the temporal distance. A set of input clearness indexes for one of the points is correlated into a set of output clearness indexes indicating the sky clearness for the other of the points using a coefficient of the clearness index correlation.
+
+
+
+1. A computer-implemented method for determining point-to-point correlation of sky clearness for photovoltaic power generation fleet output estimation, comprising:
+obtaining a physical distance between two points, each point suitable for operation of a photovoltaic station;
+determining a temporal distance comprising the physical distance between the two points in proportion to cloud speed;
+evaluating a correlation between sky clearness over the two points as an empirically-derived exponential function of the temporal distance; and
+correlating a set of input clearness indexes for one of the points into a set of output clearness indexes indicating the sky clearness for the other of the points using a coefficient of the clearness index correlation;
+assembling sets of solar irradiance data for the one point, each set of solar irradiance data comprising a time series of solar irradiance observations electronically recorded at successive time periods spaced at input time intervals, each solar irradiance observation comprising measured irradiance; and
+converting the solar irradiance data in the time series over each of the time periods into the set of input clearness indexes relative to clear sky global horizontal irradiance,
+wherein the steps are performed on a suitably-programmed computer.
+
+
+
+2. A method according to claim 1, wherein the clearness index correlation coefficient ρKti,Ktj for the two points i and j is determined in accordance with:
+
+
+ρKti,Ktj=exp(C1×TemporalDistance)ClearnessPower 
+
+where C1 equals 10−3 seconds−1 and:
+Clearness Power=ln(C2Δt)−k
+such that Δt is a measured time interval in seconds, C2 equals 1 seconds−1, and 5≦k≦15.
+
+
+
+3. A method according to claim 2, wherein the change in the clearness index correlation coefficient ρΔKti,ΔKtj for the two points i and j is determined in accordance with:
+
+
+ρΔKti,ΔKtj)ΔClearnessPower 
+
+where:
+
+
+
+
+
+  
+    Δ
+    ⁢
+    
+      
+    
+    ⁢
+    ClearnessPower
+  
+  =
+  
+    1
+    +
+    
+      m
+      
+        
+          C
+          2
+        
+        ⁢
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        t
+      
+    
+  
+
+
+
+such that 100≦m≦200.
+
+
+
+4. A method according to claim 1, wherein the two points are comprised in a set of points respectively limited to single localities, further comprising:
+correlating a full set of input clearness indexes for each of the points for one of the localities into a full set of output clearness indexes indicating the sky clearness for each of the points for the other of the localities as a multiple of the coefficient;
+interpreting the full set of output clearness indexes as irradiance statistics;
+combining the irradiance statistics for each of the points for the other of the localities into fleet irradiance statistics;
+building power statistics for the photovoltaic fleet as a function of the fleet irradiance statistics and a power rating of the photovoltaic fleet; and
+generating a time series of the power statistics for the photovoltaic fleet by applying a time lag correlation coefficient for an output time interval to the power statistics over each of the input time intervals.
+
+
+
+5. A method according to claim 1, wherein the variance σKt2 of the clearness index Kt from a measured time interval Δt ref to a desired output time interval Δt is determined in accordance with:
+
+
+
+
+  
+    σ
+    
+      Kt
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        t
+      
+    
+    2
+  
+  =
+  
+    
+      σ
+      
+        Kt
+        
+          Δ
+          ⁢
+          
+            
+          
+          ⁢
+          t
+          ⁢
+          
+            
+          
+          ⁢
+          ref
+        
+      
+      2
+    
+    ⁢
+    
+      exp
+      ⁡
+      
+        [
+        
+          1
+          -
+          
+            
+              (
+              
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  t
+                
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  t
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  ref
+                
+              
+              )
+            
+            
+              C
+              1
+            
+          
+        
+        ]
+      
+    
+  
+
+
+
+where 0.1≦C1≦0.2.
+
+
+
+6. A method according to claim 1, wherein the variance σΔKt2 of the change in the clearness index ΔKt from a measured time interval Δt ref to a desired output time interval Δt is determined in accordance with:
+
+
+
+
+  
+    σ
+    
+      Δ
+      ⁢
+      
+        
+      
+      ⁢
+      
+        Kt
+        
+          Δ
+          ⁢
+          
+            
+          
+          ⁢
+          t
+        
+      
+    
+    2
+  
+  =
+  
+    
+      σ
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        
+          Kt
+          
+            Δ
+            ⁢
+            
+              
+            
+            ⁢
+            t
+            ⁢
+            
+              
+            
+            ⁢
+            ref
+          
+        
+      
+      2
+    
+    ⁢
+    
+      {
+      
+        1
+        -
+        
+          2
+          ⁡
+          
+            [
+            
+              1
+              -
+              
+                
+                  (
+                  
+                    
+                      Δ
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      t
+                    
+                    
+                      Δ
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      t
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      ref
+                    
+                  
+                  )
+                
+                
+                  C
+                  1
+                
+              
+            
+            ]
+          
+        
+      
+      }
+    
+  
+
+
+
+where 0.1≦C1≦0.2.
+
+
+
+7. A computer-implemented method for iteratively generating power time series production data for a photovoltaic power generation fleet, comprising:
+obtaining a cumulative power output of a photovoltaic fleet generated under clear sky conditions in a geographic region within which the photovoltaic fleet is located;
+inferring an average regional clearness index based on iterative power output starting at the beginning of each time period in a time series of iterative power outputs of the photovoltaic fleet in proportion to the cumulative power output;
+inferring measured irradiance from the cumulative power output and converting the measured irradiance relative to clear sky global horizontal irradiance into a set of clearness indexes;
+determining a mean clearness index for the photovoltaic fleet and a variance of the set of clearness indexes for the photovoltaic fleet;
+establishing a time lag correlation coefficient as a relationship between the iterative power output of the photovoltaic fleet starting at the beginning of each time period and the iterative power output of the photovoltaic fleet starting at the beginning of that time period plus a time increment;
+generating a set of clearness index correlation coefficients as a function of the power outputs, orientation factors, overhead cloud speeds, input time periods, and physical areas of each pairing of photovoltaic stations in the photovoltaic fleet and the variances of their combined respective clearness indexes, and the power outputs and orientation factors of all of the photovoltaic stations in the photovoltaic fleet under clearness index Kt; and
+evaluating each iterative power output in the time series based on the time lag correlation coefficient, the average regional clearness index, the mean clearness index, the set of clearness index correlation coefficients with an inverse cumulative normal distribution function based on a probabilistically-bounded random variable,
+wherein the steps are performed on a suitably-programmed computer.
+
+
+
+8. A method according to claim 7, wherein the iterative power output Pt+Δt is determined in accordance with:
+
+
+
+
+  
+    P
+    
+      t
+      +
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        t
+      
+    
+  
+  =
+  
+    
+      P
+      t
+      Clear
+    
+    ⁡
+    
+      [
+      
+        
+          
+            ρ
+            
+              P
+              ,
+              
+                P
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  t
+                
+              
+            
+          
+          ⁢
+          
+            Kt
+            t
+          
+        
+        +
+        
+          
+            (
+            
+              1
+              -
+              
+                ρ
+                
+                  P
+                  ,
+                  
+                    P
+                    
+                      Δ
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      t
+                    
+                  
+                
+              
+            
+            )
+          
+          ⁢
+          
+            μ
+            
+              Kt
+              _
+            
+          
+        
+        +
+        
+          
+            
+              
+                P
+                Kt
+              
+              ⁢
+              σ
+              ⁢
+              
+                2
+                Kt
+              
+              ⁢
+              
+                (
+                
+                  1
+                  -
+                  
+                    ρ
+                    
+                      P
+                      ,
+                      
+                        P
+                        
+                          Δ
+                          ⁢
+                          
+                            
+                          
+                          ⁢
+                          
+                            t
+                            2
+                          
+                        
+                      
+                    
+                  
+                
+                )
+              
+            
+          
+          ⁢
+          
+            
+              ϕ
+              
+                -
+                1
+              
+            
+            ⁡
+            
+              (
+              
+                p
+                t
+              
+              )
+            
+          
+        
+      
+      ]
+    
+  
+
+
+
+where PtClear comprises the cumulative power output of the photovoltaic fleet generated under clear sky conditions, Ktt comprises the average regional clearness index, μ Kt comprises the mean clearness index for the photovoltaic fleet, σ Kt2 comprises the variance of the set of clearness indexes for the photovoltaic fleet, ρP,PΔt comprises the time lag correlation coefficient, PKt comprises the set of clearness index correlation coefficients, and φ−1(pt) comprises the inverse cumulative normal distribution function based on the probabilistically-bounded random variable 0≦pt≦1.
+
+
+
+9. A method according to claim 7, wherein the average regional clearness index Ktt is determined in accordance with:
+
+
+
+
+  
+    Kt
+    t
+  
+  =
+  
+    
+      P
+      t
+    
+    
+      P
+      t
+      Clear
+    
+  
+
+
+
+where Pt comprises iterative power output starting at the beginning of each time period in the time series of iterative power outputs and PtClear comprises the power output of the photovoltaic fleet under clear sky conditions.
+
+
+
+10. A method according to claim 7, wherein the mean clearness index μ KT for the N photovoltaic stations comprised in the photovoltaic fleet is determined in accordance with:
+
+
+
+
+  
+    μ
+    
+      Kt
+      _
+    
+  
+  =
+  
+    
+      ∑
+      
+        i
+        =
+        1
+      
+      N
+    
+    ⁢
+    
+      
+        μ
+        
+          Kt
+          i
+        
+      
+      N
+    
+  
+
+
+
+where μKti comprises the mean clearness index for the location of the ith photovoltaic station.
+
+
+
+11. A method according to claim 7, wherein the variance σ Kt2 of the set of clearness indexes for the N photovoltaic stations comprised in the photovoltaic fleet is determined in accordance with:
+
+
+
+
+  
+    σ
+    ⁢
+    
+      2
+      Kt
+    
+  
+  =
+  
+    
+      ∑
+      
+        i
+        =
+        1
+      
+      N
+    
+    ⁢
+    
+      
+        σ
+        ⁢
+        
+          2
+          
+            Kt
+            i
+          
+        
+      
+      N
+    
+  
+
+
+
+where σKti2 comprises the variance of the clearness index for the location of the ith photovoltaic station.
+
+
+
+12. A method according to claim 7, the time lag correlation coefficient ρP,PΔt is determined in accordance with:
+
+
+
+
+  
+    ρ
+    
+      P
+      ,
+      
+        P
+        
+          Δ
+          ⁢
+          
+            
+          
+          ⁢
+          t
+        
+      
+    
+  
+  =
+  
+    1
+    -
+    
+      
+        
+          P
+          
+            Δ
+            ⁢
+            
+              
+            
+            ⁢
+            Kt
+          
+        
+        ⁢
+        σ
+        ⁢
+        
+          2
+          
+            Δ
+            ⁢
+            
+              
+            
+            ⁢
+            Kt
+          
+        
+      
+      
+        2
+        ⁢
+        
+          
+        
+        ⁢
+        
+          P
+          Kt
+        
+        ⁢
+        
+          
+            σ
+            ⁢
+            
+              2
+              Kt
+            
+          
+          _
+        
+      
+    
+  
+
+
+
+where σ ΔKt2 is the mean of the variance of the change in the clearness index Kt for the geographic region and σ Kt2 is the mean of the variance of the clearness index Kt for the geographic region, and:
+
+
+
+
+
+  
+    P
+    
+      Δ
+      ⁢
+      
+        
+      
+      ⁢
+      Kt
+    
+  
+  =
+  
+    
+      
+        ∑
+        
+          i
+          =
+          1
+        
+        N
+      
+      ⁢
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          N
+        
+        ⁢
+        
+          
+            (
+            
+              
+                R
+                i
+              
+              ⁢
+              
+                O
+                i
+              
+              ⁢
+              
+                A
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  Kt
+                
+                i
+              
+            
+            )
+          
+          ⁢
+          
+            (
+            
+              
+                R
+                j
+              
+              ⁢
+              
+                O
+                j
+              
+              ⁢
+              
+                A
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  Kt
+                
+                j
+              
+            
+            )
+          
+          ⁢
+          
+            ρ
+            
+              
+                Δ
+                ⁢
+                
+                  
+                
+                ⁢
+                
+                  Kt
+                  i
+                
+              
+              ,
+              
+                Δ
+                ⁢
+                
+                  
+                
+                ⁢
+                
+                  Kt
+                  j
+                
+              
+            
+          
+        
+      
+    
+    
+      
+        (
+        
+          
+            ∑
+            
+              n
+              =
+              1
+            
+            N
+          
+          ⁢
+          
+            
+              R
+              n
+            
+            ⁢
+            
+              O
+              n
+            
+          
+        
+        )
+      
+      2
+    
+  
+
+
+
+such that, for the ith, jth and nth photovoltaic station, Ri, Rj and Rn comprise an AC-rating, Oi, Oj and On comprise the orientation factor, AΔKti and AΔKtj are based on cloud speed over the location of the photovoltaic station, the input time interval, and the physical area of the photovoltaic station, and ρΔKti,ΔKtj comprises the correlation coefficient between the change in the clearness index ΔKt at locations i and j, and:
+
+
+
+
+
+  
+    P
+    Kt
+  
+  =
+  
+    
+      
+        ∑
+        
+          i
+          =
+          1
+        
+        N
+      
+      ⁢
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          N
+        
+        ⁢
+        
+          
+            (
+            
+              
+                R
+                i
+              
+              ⁢
+              
+                O
+                i
+              
+              ⁢
+              
+                A
+                Kt
+                i
+              
+            
+            )
+          
+          ⁢
+          
+            (
+            
+              
+                R
+                j
+              
+              ⁢
+              
+                O
+                j
+              
+              ⁢
+              
+                A
+                Kt
+                j
+              
+            
+            )
+          
+          ⁢
+          
+            ρ
+            
+              
+                Kt
+                i
+              
+              ,
+              
+                
+              
+              ⁢
+              
+                Kt
+                j
+              
+            
+          
+        
+      
+    
+    
+      
+        (
+        
+          
+            ∑
+            
+              n
+              =
+              1
+            
+            N
+          
+          ⁢
+          
+            
+              R
+              n
+            
+            ⁢
+            
+              O
+              n
+            
+          
+        
+        )
+      
+      2
+    
+  
+
+
+
+such that, for the Ith, jth and nth photovoltaic station, Ri, Rj and Rn comprise an AC-rating, Oi, Oj and On comprise the orientation factor, AΔKti and AΔKtj are based on cloud speed over the location of the photovoltaic station, the input time interval, and the physical area of the photovoltaic station, and ρKti,Ktj comprises the correlation coefficient between the clearness indexes Kt at locations i and j.
+
+
+
+13. A method according to claim 7, wherein the clearness index correlation coefficient ρKti,Ktj for the two points i and j is determined in accordance with:
+
+
+ρKti,Ktj=exp(C1×TemporalDistance)ClearnessPower 
+
+where C1 equals 10−3 seconds−1 and:
+Clearness Power=ln C2Δt)−k
+such that Δt is a time interval in seconds, C2 equals 1 seconds−1, and k is a constant, such that 5≦k≦15.
+
+
+
+14. A method according to claim 13, wherein the change in the clearness index correlation coefficient ρKti,Ktj for the two points i and j is determined in accordance with:
+
+
+ρKti,Ktj=(ρKti,Ktj)ΔClearnessPower 
+
+where:
+
+
+
+
+
+  
+    Δ
+    ⁢
+    
+      
+    
+    ⁢
+    ClearnessPower
+  
+  =
+  
+    1
+    +
+    
+      m
+      
+        
+          C
+          2
+        
+        ⁢
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        t
+      
+    
+  
+
+
+
+such that 100≦m≦200.
+
+
+
+15. A method according to claim 13, wherein the variance σKt2 of the clearness index Kt from a measured time interval Δt ref to a desired output time interval Δt is determined in accordance with:
+
+
+
+
+  
+    σ
+    
+      Kt
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        t
+      
+    
+    2
+  
+  =
+  
+    
+      σ
+      
+        Kt
+        
+          Δ
+          ⁢
+          
+            
+          
+          ⁢
+          t
+          ⁢
+          
+            
+          
+          ⁢
+          ref
+        
+      
+      2
+    
+    ⁢
+    
+      exp
+      ⁡
+      
+        [
+        
+          1
+          -
+          
+            
+              (
+              
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  t
+                
+                
+                  Δ
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  t
+                  ⁢
+                  
+                    
+                  
+                  ⁢
+                  ref
+                
+              
+              )
+            
+            
+              C
+              1
+            
+          
+        
+        ]
+      
+    
+  
+
+
+
+where 0.1≦C1≦0.2.
+
+
+
+16. A method according to claim 13, wherein the variance σΔKt2 of the change in the clearness index ΔKt from a measured time interval Δt ref to a desired output time interval Δt is determined in accordance with:
+
+
+
+
+  
+    σ
+    
+      Δ
+      ⁢
+      
+        
+      
+      ⁢
+      
+        Kt
+        
+          Δ
+          ⁢
+          
+            
+          
+          ⁢
+          t
+        
+      
+    
+    2
+  
+  =
+  
+    
+      σ
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        
+          Kt
+          
+            Δ
+            ⁢
+            
+              
+            
+            ⁢
+            t
+            ⁢
+            
+              
+            
+            ⁢
+            ref
+          
+        
+      
+      2
+    
+    ⁢
+    
+      {
+      
+        1
+        -
+        
+          2
+          ⁡
+          
+            [
+            
+              1
+              -
+              
+                
+                  (
+                  
+                    
+                      Δ
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      t
+                    
+                    
+                      Δ
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      t
+                      ⁢
+                      
+                        
+                      
+                      ⁢
+                      ref
+                    
+                  
+                  )
+                
+                
+                  C
+                  1
+                
+              
+            
+            ]
+          
+        
+      
+      }
+    
+  
+
+
+
+where 0.1≦C1≦0.2.
+
+
+
+17. A method according to claim 7, further comprising:
+selecting a performance model for each of the photovoltaic stations;
+inferring apparent irradiance as area statistics based on the performance model selected and the power output of each photovoltaic station; and
+determining the measured irradiance as average point statistics, each comprising an average of all values of the apparent irradiance for the photovoltaic fleet.
+
+
+
+18. A method according to claim 7, further comprising:
+collecting raw measured irradiance from a plurality of ground-based weather stations; and
+assembling the measured irradiance as point statistics, each comprising an average of all values of the raw measured irradiance.
+
+
+
+19. A method according to claim 7, further comprising:
+collecting area solar irradiance statistics, each comprising a set of pixels from satellite imagery of the geographic region;
+converting the area solar irradiance statistics to irradiance statistics for an average point within the set of pixels; and
+determining the measured irradiance as average point statistics, each comprising an average of all values of the set of pixels.
+
+

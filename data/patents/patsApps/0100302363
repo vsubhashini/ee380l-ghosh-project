@@ -1,0 +1,78 @@
+
+A shade analysis device includes an accelerometer providing samples that represent an elevation defined by a sighting reference, an electronic compass providing samples that represent an azimuth heading defined by the sighting reference, and a processor under the control of a program included in the shade analysis device, acquiring an array of the samples that represent an azimuth heading and an array of corresponding samples that represent the elevation, in response to tracing with the sighting reference, a skyline at an interface between an open sky and at least one solar obstruction over a range of azimuth headings.
+
+
+
+1. A shade analysis device, comprising:
+an accelerometer providing samples that represent an elevation defined by a sighting reference;
+an electronic compass providing samples that represent an azimuth heading defined by the sighting reference; and
+a processor, under the control of a program included in the shade analysis device, acquiring an array of the samples that represent the azimuth heading and an array of corresponding samples that represent the elevation, in response to tracing with the sighting reference, a skyline at an interface between an open sky and at least one solar obstruction over a range of azimuth headings.
+
+
+
+2. The shade analysis device of claim 1 wherein the sighting reference is provided by a measurement edge of shade analysis device, and wherein the tracing results from moving the shade analysis device to change the elevation defined by the sighting reference as the shade analysis device is swept over the range of azimuth headings.
+
+
+3. The shade analysis device of claim 1 wherein the array of samples that represent the azimuth heading and the array of corresponding samples that represent the elevation are acquired while a user of the shade analysis device traces the sighting reference over the interface between the open sky and the at least one solar obstruction over the range of azimuth headings.
+
+
+4. The shade analysis device of claim 1 wherein the program uses the array of samples that represent the azimuth heading and the array of corresponding samples that represent the elevation to superimpose a plot of the skyline on a sun plot.
+
+
+5. The shade analysis device of claim 3 wherein the program is enabled to remove one or more solar obstructions of the at least one solar obstruction from the skyline and to provide a shade factor based on the removed one or more solar obstructions.
+
+
+6. The shade analysis device of claim 3 wherein the program is enabled to provide a shade factor based on the array of samples that represent the azimuth heading and the array of corresponding samples that represent the elevation of the skyline.
+
+
+7. The shade analysis device of claim 1 further comprising a digital camera that provides the sighting reference on a display.
+
+
+8. The shade analysis device of claim 7 wherein the sighting reference includes a cross-hair on the display.
+
+
+9. The shade analysis device of claim 7 wherein the array of samples that represent the azimuth heading and the array of corresponding samples that represent the elevation are acquired while a user of the shade analysis device traces the sighting reference over the interface between the open sky and the at least one solar obstruction over the range of azimuth headings.
+
+
+10. The shade analysis device of claim 9 wherein the program uses the array of samples that represent the azimuth heading and the array of corresponding samples that represent the elevation to superimpose a plot of the skyline on a sun plot.
+
+
+11. The shade analysis device of claim 9 wherein the digital camera acquires at least one image while the user traces the skyline at the interface between an open sky and the at least one solar obstruction.
+
+
+12. The shade analysis device of claim 11 wherein the program is enabled to superimpose the at least one image on a plot of the skyline at the interface between an open sky and the at least one solar obstruction.
+
+
+13. A method of shade analysis, comprising:
+providing samples that represent an elevation defined by a sighting reference;
+providing samples that represent an azimuth heading defined by the sighting reference; and
+acquiring an array of the samples that represent the azimuth heading and an array of corresponding samples that represent the elevation in response to tracing with the sighting reference over a range of azimuth headings, a skyline at an interface between an open sky and at least one solar obstruction.
+
+
+
+14. The method of shade analysis of claim 13 wherein the sighting reference is provided by at least one of a measurement edge of a smartphone, and an icon on a display associated with a digital camera of the smartphone.
+
+
+15. The method of shade analysis of claim 14 wherein the tracing results from moving the smartphone to change the elevation defined by the sighting reference as the smartphone is swept over the range of azimuth headings.
+
+
+16. The shade analysis device of claim 13 further comprising receiving the array of samples that represent the azimuth heading and the array of corresponding samples that represent the elevation, and superimposing a plot of the skyline on a sun plot.
+
+
+17. A shade analysis device, comprising:
+a digital camera providing a sighting reference on a display;
+an accelerometer providing representations of elevations established by aiming the sighting reference;
+an electronic compass providing representations of azimuth headings established by the aiming of the sighting reference;
+a memory storing an array of azimuth heading samples from the electronic compass and an array of corresponding elevation samples from the accelerometer, which depict a skyline traced over a range of azimuth headings that results from aiming the sighting reference at an interface between an open sky and at least one solar obstruction; and
+a processor enabled by a program to provide a plot of at least one of the skyline, a sun plot and one or more images acquired by the digital camera as the sighting reference is aimed at the interface between the open sky and the at least one solar obstruction.
+
+
+
+18. The shade analysis device of claim 17 further comprising a GPS receiver providing location information of the shade analysis device to the processor that uses the location information to provide a sun plot.
+
+
+19. The shade analysis device of claim 18 wherein one or more of the digital camera, the accelerometer, the electronic compass, the memory, the processor, the program, and the GPS receiver are included within a smartphone.
+
+
+20. The shade analysis device of claim 17 wherein the program is enabled to stitch one or more images acquired by the digital camera to form a panorama of a horizon that includes the interface between the open sky and the at least one solar obstruction. 
+

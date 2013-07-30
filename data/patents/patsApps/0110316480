@@ -1,0 +1,105 @@
+
+An electrical power generation system, such as a solar power inverter, can provide dynamic real-time power compensation, so as to mitigate the effects of voltage sags and swells (e.g., on a utility grid) and thereby provide voltage support functionality to a local grid. The electrical power generation system can do so by receiving first synchrophasor measurements that are taken at a point on the utility grid and transmitted to the electrical power generation system and by taking second synchrophasor measurements. The first and second synchrophasors indicate voltage magnitude and frequency of the alternating current (AC) at their respective measurement points. The electrical power generation system can compare the first synchrophasors with the second synchrophasors and based upon the comparison, vary the power factor of the power the electrical power generation system generates (e.g., by either supplying or absorbing reactive power).
+
+
+
+1. A solar power inverter, comprising:
+a direct current (DC) input component configured to receive DC produced by one or more photovoltaic cells;
+a power generation component configured to generate alternating current (AC) from the DC produced by the one or more photovoltaic cells, the generated AC having a real power component and a reactive power component;
+an AC output component configured to output generated AC, wherein the AC output component is electrically coupleable to at least one of an electrical power grid and a load;
+a data input/output component configured to receive signals indicating electrical power grid synchrophasors, wherein the electrical power grid synchrophasors describe characteristics of AC transmitted by the electrical power grid;
+a phasor measurement unit configured to generate inverter synchrophasors, wherein the inverter synchrophasors describe characteristics of AC electrically proximate to the AC output component; and
+a controller configured to—
+compare the electrical power grid synchrophasors and the inverter synchrophasors; and
+based upon the comparison, cause the power generation component to vary the reactive power component of the generated AC.
+
+
+
+
+2. The solar power inverter of claim 1 wherein the data input/output component is further configured to receive signals indicating inverter synchrophasors.
+
+
+3. The solar power inverter of claim 1 wherein the controller is further configured to compare voltage and frequency of the electrical power grid synchrophasors with voltage and frequency of the inverter synchrophasors.
+
+
+4. The solar power inverter of claim 1 wherein the controller is further configured to cause the power generation component to vary the reactive power component of the generated AC by adjusting an output current waveform of the generated AC.
+
+
+5. The solar power inverter of claim 1 wherein the electrical power grid synchrophasors are measured at multiple control areas of the electrical power grid, wherein the solar power inverter is associated with a particular control area, and wherein the controller is further configured to identify the electrical power grid synchrophasors corresponding to the particular control area with which the solar power inverter is associated.
+
+
+6. The solar power inverter of claim 5 wherein the signals indicating electrical power grid synchrophasors further indicate a control area of the electrical power grid at which the electrical power grid synchrophasors are measured.
+
+
+7. A power generation apparatus electrically coupleable to at least one of an electric power grid transmitting alternating current (AC) and a load, the power generation apparatus comprising:
+a power generation component configured to generate AC, the generated AC having a reactive power component and a real power component; and
+a controller configured to—
+receive first synchrophasor measurements of the AC transmitted by the electrical power grid;
+receive second synchrophasor measurements of AC at a location electrically proximate to the power generation component;
+compare the first synchrophasor measurements with the second synchrophasor measurements; and
+based upon the comparison, control the power generation component to vary one or both of the real power component and/or the reactive power component of the generated AC.
+
+
+
+
+8. The power generation apparatus of claim 7, further comprising a data input/output component operably coupled to the controller and configured to receive signals indicating the first synchrophasor measurements and provide the first synchrophasor measurements to the controller.
+
+
+9. The power generation apparatus of claim 7 wherein the controller is further configured to compare voltage and frequency of the first synchrophasor measurements with voltage and frequency of the second synchrophasor measurements.
+
+
+10. The power generation apparatus of claim 7 wherein the controller is further configured to control the power generation component to vary the reactive power component of the generated AC by adjusting an output current waveform of the generated AC.
+
+
+11. The power generation apparatus of claim 7 wherein the first synchrophasor measurements are taken at multiple control areas of the electrical power grid, wherein the power generation apparatus is associated with a particular control area, and wherein the controller is further configured to identify a subset of the first synchrophasor measurements taken at the particular control area with which the power generation apparatus is associated.
+
+
+12. The power generation apparatus of claim 11 wherein the controller is further configured to receive information identifying control areas of the electrical power grid at which the first synchrophasor measurements are taken.
+
+
+13. The power generation apparatus of claim 7 wherein the controller is configured to control the power generation component to vary only the reactive power component of the generated AC.
+
+
+14. A power generation system electrically coupleable to at least one of an electric power grid transmitting alternating current (AC) and a load, the power generation system comprising:
+means for generating AC usable by at least one of the electric power grid and the load, the generated AC including a real power component and a reactive power component; and
+means for varying reactive power of the generated AC using first synchrophasors derived from AC transmitted by the electric power grid and second synchrophasors derived from AC at a location electrically proximate to the means for generating AC.
+
+
+
+15. The power generation system of claim 14, further comprising means for receiving the first synchrophasors.
+
+
+16. The power generation system of claim 14 wherein the means for varying reactive power of the generated AC includes means for comparing the first synchrophasors and the second synchrophasors.
+
+
+17. The power generation system of claim 14, further comprising means for supplying or absorbing reactive power according to the means for varying reactive power of the generated AC.
+
+
+18. The power generation system of claim 14 wherein the first synchrophasors are derived from measurements taken at multiple control areas of the electrical power grid, wherein the power generation system is associated with a particular control area, and wherein the means for varying reactive power of the generated AC uses only first synchrophasors derived from measurements taken at the particular control area with which the power generation system is associated.
+
+
+19. A method of operating a power generation system having a controller, the power generation system electrically coupled to at least one of an electric power grid transmitting power and a load, the method comprising:
+receiving a first set of one or more synchrophasors describing characteristics of the power transmitted by the electric power grid;
+receiving a second set of one or more synchrophasors describing characteristics of power electrically proximate to the load, wherein the load utilizes power having a voltage within a predetermined range;
+comparing, by the power generation system, the first and second sets of one or more synchrophasors; and
+based upon the comparison, varying the power generated by the power generation system to maintain the voltage of the power utilized by the load within the predetermined range.
+
+
+
+20. The method of claim 19 wherein varying the power generated by the power generation system includes varying a reactive power component of the power generated by the power generation system.
+
+
+21. The method of claim 19 wherein varying the power generated by the power generation system includes supplying reactive power.
+
+
+22. The method of claim 19 wherein varying the power generated by the power generation system includes absorbing reactive power.
+
+
+23. A method, performed by an energy management system having a processor and a memory, of adjusting a load demand for electrical power, the method comprising:
+receiving, by the energy management system, synchrophasors describing characteristics of power that can be provided to the load, the characteristics of the power determined at a point on an electric power grid transmitting the power; and
+based upon the received synchrophasors, adjusting the load demand for electrical power.
+
+
+
+24. The method of claim 23, wherein the energy management system is associated with an electric vehicle having a rechargeable battery, and wherein the method further comprises charging the battery in accordance with the adjusted load demand.
+

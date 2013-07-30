@@ -1,0 +1,68 @@
+
+The invention relates to improved techniques for manufacturing power conditioning units (inverters) for use with photovoltaic (PV) modules, and to inverters manufactured by these techniques. We describe a solar photovoltaic inverter, comprising: a power conditioning circuit mounted on a circuit board, the power conditioning circuit having a dc power input to receive dc power from one or more photovoltaic panels and an ac power output to deliver ac power to an ac mains power supply; an electrically conductive shield enclosing said circuit board; and a plastic overmould over said conductive shield and said circuit board; wherein said electrically conductive shield has one or more holes to allow said plastic overmould to extend through said shield to cover said circuit board.
+
+
+
+1. A solar photovoltaic inverter, the inverter comprising:
+a power conditioning circuit mounted on a circuit board, the power conditioning circuit having a dc power input to receive dc power from one or more photovoltaic panels and an ac power output to deliver ac power to an ac mains power supply;
+an electrically conductive shield enclosing said circuit board; and
+a plastic overmould over said conductive shield and said circuit board;
+wherein said electrically conductive shield has one or more holes to allow said plastic overmould to extend through said shield to cover said circuit board.
+
+
+
+2. A solar photovoltaic inverter as claimed in claim 1 wherein said power conditioning circuit comprises at least one coil or transformer having a core, and wherein said coil or transformer is coated with an elastic material to permit thermal expansion of said core within said plastic overmould.
+
+
+3. A solar photovoltaic inverter as claimed in claim 2 wherein said power conditioning circuit on said circuit board comprises a dc-to-dc converter having an input coupled to said dc power input and having an output, and a dc-to-ac converter having an input coupled to said output of said dc-to-dc converter and having an output coupled to said ac power output, and wherein said dc-to-dc converter comprises a transformer coupled between said dc power input and said output of said dc-to-dc converter.
+
+
+4. A solar photovoltaic inverter as claimed in claim 1 wherein said power conditioning circuit includes a controller coupled to one or both of an RF transmitter and an RF receiver, and wherein said electrically conductive shield is connect to an RF output of said RF transmitter or to an RF input of said RF receiver to form an antenna.
+
+
+5. A solar photovoltaic inverter as claimed in claim 4 wherein said one or more holes have a maximum dimension of less than a free-space wavelength of a transmission frequency or reception frequency of said RF transmitter or receiver respectively.
+
+
+6. A solar photovoltaic inverter as claimed in claim 5 wherein said frequency comprises a frequency in the 2.45 GHz ISM Band, and wherein a said hole has a maximum dimension of less than 35 mm.
+
+
+7. A solar photovoltaic inverter as claimed in claim 1 wherein said dc power input of said circuit board comprises a modular connector system, said modular connector system comprising a first interface part mounted on said circuit board and a second interface part mateable with said first interface part to provide a connector to a said photovoltaic panel, wherein said first interface part is sealed against moisture ingress by said plastic overmould, and wherein said second interface part is mateable with said first interface part when said first interface part is sealed by said plastic overmould.
+
+
+8. A solar photovoltaic inverter as claimed in claim 7 comprising a set of said second interface parts each to provide a connection to a different said photovoltaic panel.
+
+
+9. A solar photovoltaic inverter as claimed in claim 1 wherein said plastic overmould is configured to define one or more mounting points for said inverter.
+
+
+10. A solar photovoltaic inverter as claimed in claim 1 wherein said plastic overmould comprises an injection moulded overmould, and wherein said inverter is a microinverter configured to mounting behind or adjacent to a said photovoltaic panel.
+
+
+11. A method of manufacturing a solar photovoltaic inverter, the method comprising:
+providing a power conditioning circuit mounted on a circuit board, the power conditioning circuit having a dc power input to receive dc power from one or more photovoltaic panels and an ac power output to deliver ac power to an ac mains power supply;
+providing an electrically conductive shield enclosing said circuit board; and
+injection moulding a plastic overmould over said conductive shield and said circuit board;
+wherein said electrically conductive shield has one or more holes to allow said plastic overmould to extend through said shield to cover said circuit board.
+
+
+
+12. A method as claimed in claim 11 wherein said power conditioning circuit comprises at least one coil or transformer having a core, the method further comprising coating said coil or transformer with an elastic material prior to said injection moulding to permit thermal expansion of said core within said plastic overmould.
+
+
+13. A method as claimed in claim 11 further comprising using said shield as an antenna for an RF communications circuit of said power conditioning circuit.
+
+
+14. A method as claimed in claim 13 further comprising arranging said one or more holes such that they have a maximum dimension of less than a free-space wavelength at a frequency of operation of said RF communicated circuit.
+
+
+15. A method as claimed in claim 11 further comprising providing said dc power input of said circuit board with a modular connector system for connecting to any of a set of photovoltaic panels, said modular connector system comprising a first interface part and a set of second interface parts, wherein each of said second interface parts is mateable with said first interface part and wherein each said second interface part is configured to connect to one of said photovoltaic panels of said set, the method further comprising overmoulding said first interface part, selecting a said second interface part to connect to a said photovoltaic panel with which the converter is to be used, and mating said selected second interface part with said first interface part subsequent to said overmoulding.
+
+
+16. A method as claimed in claim 11 wherein said electrically conductive shield comprises a metal case having first and second can portions configured to fit a perimeter of said circuit board, on opposite sides of said circuit board, the method further comprising spreading and dissipating heat from one or more power components on said circuit board via said overmould and metal can.
+
+
+17. A method as claimed in claim 11 wherein said inverter is a microinverter, the method further comprising mounting said microinverter behind or adjacent to a said photovoltaic panel.
+
+
+18. A method as claimed in claim 17 further comprising using said overmoulding to mount said microinverter behind or adjacent to a said photovoltaic panel. 
+

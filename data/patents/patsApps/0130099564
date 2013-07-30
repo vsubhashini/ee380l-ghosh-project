@@ -1,0 +1,109 @@
+
+An energy management method is provided. The energy management method comprises the steps of retrieving load information from at least one load and retrieving energy-supplying information from an energy supply system having a grid power source, a renewable energy generation module and an energy storage module to instantly calculate first and second energy thresholds. When an energy production of the renewable energy generation module is smaller than the second energy threshold, the grid power source or the energy storage module is controlled to supply energy to the load. When the energy production is between the first and the second energy thresholds, the renewable energy generation module is controlled to supply energy to the load. When the energy production is larger than the first energy threshold, the renewable energy generation module is controlled to supply energy to the load and charge the energy storage module.
+
+
+
+1. An energy management system connected between a power supply system and at least one load, wherein the power supply system comprises a grid power source, a renewable energy generation module and an energy storage module, the energy management system comprises:
+a power monitoring module connected to the power supply system to retrieve energy-supplying information of the power supply system, wherein the energy-supplying information comprises an energy production of the renewable energy generation module;
+a switch module to control a connection relation between the load and the power supply system;
+a load management module to retrieve load information of the load; and
+an intelligent control module to receive the energy-supplying information and the load information to instantly calculate a first energy threshold and a second energy threshold smaller than the first energy threshold;
+wherein when the energy production of the renewable energy generation module is smaller than or equal to the second energy threshold, the intelligent control module controls the switch module so that the grid power source or the energy storage module supplies energy to the load;
+when the energy production is between the first and the second energy thresholds, the intelligent control module controls the switch module so that the renewable energy generation module supplies energy to the load; and
+when the energy production is larger than the first energy threshold, the intelligent control module controls the switch module so that the renewable energy generation module supplies energy to the load and charges the energy storage module.
+
+
+
+2. The energy management system of claim 1, wherein the energy-supplying information comprises an amount of stored energy in the energy storage module, in which when the energy production is smaller than or equal to the second energy threshold, the intelligent control module controls the switch module according to the amount of the stored energy.
+
+
+3. The energy management system of claim 2, wherein when the amount of stored energy is larger than a first energy storage threshold, the intelligent control module controls the switch module so that the energy storage module supplies energy to the load and the renewable energy generation module charges the energy storage module, and when the amount of the stored energy is smaller than or equal to the first energy storage threshold, the intelligent control module controls the switch module so that the grid power source supplies energy to the load and the renewable energy generation module charges the energy storage module.
+
+
+4. The energy management system of claim 3, wherein when the amount of the stored energy is larger than the first energy storage threshold such that the intelligent control module controls the switch module so that the energy storage module supplies energy to the load, the intelligent control module further determines whether the amount of the stored energy is smaller than a second energy storage threshold such that when the amount of the stored energy is smaller than the second energy storage threshold, the intelligent control module controls the switch module so that the grid power source supplies energy to the load and the renewable energy generation module charges the energy storage module.
+
+
+5. The energy management system of claim 1, wherein the first energy threshold is calculated according to a moving average of variations in the energy production and a total load amount of the load and the energy storage module, and the second energy threshold is calculated according to the moving average of the variations in the energy production and a load amount of the load.
+
+
+6. The energy management system of claim 5, wherein the moving average of the variations in the energy production is calculated according to a difference of points on a curve of the energy production of the renewable energy generation module.
+
+
+7. The energy management system of claim 5, wherein the moving average of the variations in the energy production is calculated according to a difference of areas within a unit time under a curve of the energy production of the renewable energy generation module.
+
+
+8. The energy management system of claim 1, further comprising an AC/DC converter, wherein the renewable energy generation module or the energy storage module supplies energy to the load through the AC/DC converter.
+
+
+9. The energy management system of claim 1, wherein the renewable energy generation module is a photovoltaic module, a wind power module or a hydroelectric power module.
+
+
+10. An energy management method used in an energy management system, wherein the energy management system is connected between a power supply system and at least one load, wherein the power supply system comprises a grid power source, a renewable energy generation module and an energy storage module, the energy management method comprises the steps of:
+retrieving energy-supplying information from the energy supply system, wherein the energy-supplying information comprises an energy production of the renewable energy generation module;
+retrieving load information from the load;
+instantly calculating a first energy threshold and a second energy threshold smaller than the first energy threshold according to the energy-supplying information and the load information; and
+determining a relation of the energy production and the first and the second energy thresholds;
+wherein when the energy production of the renewable energy generation module is smaller than or equal to the second energy threshold, the grid power source or the energy storage module is controlled to supply energy to the load;
+when the energy production is between the first and the second energy thresholds, the renewable energy generation module is controlled to supply energy to the load; and
+when the energy production is larger than or equal to the first energy threshold, the renewable energy generation module is controlled to supply energy to the load and charge the energy storage module.
+
+
+
+11. The energy management method of claim 10, wherein the energy-supplying information comprises an amount of stored energy in the energy storage module, in which when the energy production is smaller than or equal to the second energy threshold, the energy management method further comprises the steps of:
+determining whether the amount of the stored energy is larger than a first energy storage threshold; and
+when the amount of stored energy is larger than the first energy storage threshold, the energy storage module is controlled to supply energy to the load and the renewable energy generation module is controlled to charge the energy storage module; and
+when the amount of the stored energy is smaller than or equal to the first energy storage threshold, the grid power source supply is controlled to supply energy to the load and the renewable energy generation module is controlled to charge the energy storage module.
+
+
+
+12. The energy management method of claim 11, wherein when the amount of the stored energy is larger than the first energy storage threshold such that the energy storage module is controlled to supply energy to the load, further comprises a step of:
+determining whether the amount of the stored energy is smaller than a second energy storage threshold, wherein when the amount of the stored energy is smaller than the second energy storage threshold, the grid power source is controlled to supply energy to the load and the renewable energy generation module is controlled to charge the energy storage module.
+
+
+
+13. The energy management method of claim 10, wherein the first energy threshold is calculated according to a moving average of variations in the energy production and a total load amount of the load and the energy storage module, and the second energy threshold is calculated according to the moving average of the variations in the energy production and a load amount of the load.
+
+
+14. The energy management method of claim 13, wherein the moving average of the variations in the energy production is calculated according to a difference of points on a curve of the energy production of the renewable energy generation module.
+
+
+15. The energy management method of claim 13, wherein the moving average of the variations in the energy production is calculated according to a difference of areas within a unit time under a curve of the energy production of the renewable energy generation module.
+
+
+16. The energy management method of claim 10, wherein the renewable energy generation module is a photovoltaic module, a wind power module or a hydroelectric power module.
+
+
+17. A computer readable storage medium to store a computer program to execute an energy management method used in an energy management system, wherein the energy management system is connected between a power supply system and at least one load, wherein the power supply system comprises a grid power source, a renewable energy generation module and an energy storage module, the energy management method comprises the steps of:
+retrieving energy-supplying information from the energy supply system, wherein the energy-supplying information comprises an energy production of the renewable energy generation module;
+retrieving load information from the load;
+instantly calculating a first energy threshold and a second energy threshold smaller than the first energy threshold according to the energy-supplying information and the load information; and
+determining a relation of the energy production and the first and the second energy thresholds;
+wherein when the energy production of the renewable energy generation module is smaller than or equal to the second energy threshold, the grid power source or the energy storage module is controlled to supply energy to the load;
+when the energy production is between the first and the second energy thresholds, the renewable energy generation module is controlled to supply energy to the load; and
+when the energy production is larger than or equal to the first energy threshold, the renewable energy generation module is controlled to supply energy to the load and charge the energy storage module.
+
+
+
+18. The computer readable storage medium of claim 17, wherein the energy-supplying information comprises an amount of stored energy in the energy storage module, in which when the energy production is smaller than or equal to the second energy threshold, the energy management method further comprises the steps of:
+determining whether the amount of the stored energy is larger than a first energy storage threshold; and
+when the amount of stored energy is larger than the first energy storage threshold, the energy storage module is controlled to supply energy to the load and the renewable energy generation module is controlled to charge the energy storage module; and
+when the amount of the stored energy is smaller than or equal to the first energy storage threshold, the grid power source supply is controlled to supply energy to the load and the renewable energy generation module is controlled to charge the energy storage module.
+
+
+
+19. The computer readable storage medium of claim 18, wherein when the amount of the stored energy is larger than the first energy storage threshold such that the energy storage module is controlled to supply energy to the load, further comprises a step of:
+determining whether the amount of the stored energy is smaller than a second energy storage threshold. wherein when the amount of the stored energy is smaller than the second energy storage threshold, the grid power source is controlled to supply energy to the load and the renewable energy generation module is controlled to charge the energy storage module.
+
+
+
+20. The computer readable storage medium of claim 17, wherein the first energy threshold is calculated according to a moving average of variations in the energy production and a total load amount of the load and the energy storage module, and the second energy threshold is calculated according to the moving average of the variations in the energy production and a load amount of the load.
+
+
+21. The computer readable storage medium of claim 20, wherein the moving average of the variations in the energy production is calculated according to a difference of points on a curve of the energy production of the renewable energy generation module.
+
+
+22. The computer readable storage medium of claim 20, wherein the moving average of the variations in the energy production is calculated according to a difference of areas within a unit time under a curve of the energy production of the renewable energy generation module.
+
+
+23. The computer readable storage medium of claim 17, wherein the renewable energy generation module is a photovoltaic module, a wind power module or a hydroelectric power module. 
+

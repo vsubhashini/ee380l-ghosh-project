@@ -1,0 +1,71 @@
+
+With some embodiments, task processing based on power availability is provided for mobile computing platforms including laptops, tablets, netbooks, cell phones, as well as for other devices or systems that are not mobile such as desktop computers and server systems.
+
+
+
+1. An electronic device, comprising:
+functional circuits to process tasks;
+a primary power source to supply power to the functional circuits; and
+a supplemental power source to supply power to the functional circuits to process one or more tasks identified for processing when sufficient energy is available in the supplemental power source.
+
+
+
+2. The device of claim 1, in which the one or more tasks are identified based on energy required for their being processed.
+
+
+3. The device of claim 2, in which the one or more tasks are identified based on deadline information.
+
+
+4. The device of claim 1, in which the primary power source includes a battery.
+
+
+5. The device of claim 4, in which the supplemental power source includes an ultra capacitor.
+
+
+6. The device of claim 5, in which the ultra capacitor is to be charged by at least one of the battery and an adapter.
+
+
+7. The device of claim 6, in which the ultra capacitor is to be charged via energy harvesting.
+
+
+8. The device of claim 7, in which energy harvesting comprises charging the ultra capacitor with at least one solar cell.
+
+
+9. The device of claim 1, comprising a voltage regulator between the primary and secondary power sources.
+
+
+10. A computer system, comprising:
+a chip with a processor to process tasks with information to indicate their energy requirements;
+a supplemental power source to provide power to the processor, the tasks to be scheduled for processing when sufficient energy is available in the supplemental power source.
+
+
+
+11. The system of claim 10, comprising one or more solar cells to charge the supplemental power source.
+
+
+12. The system of claim 11, in which the supplemental power source comprises an ultra capacitor.
+
+
+13. The system of claim 10, comprising a power control circuit to monitor available energy in the supplemental power source and to cause it to be coupled to the processor.
+
+
+14. The system of claim 13, in which the power control circuit is to initiate an interrupt when sufficient energy is available in the supplemental power source for tasks to be processed.
+
+
+15. The system of claim 13, in which the power control circuit is to couple the supplemental power source to the processor in response to a request from a task manager.
+
+
+16. The system of claim 15, in which the task manager is part of the processor.
+
+
+17. A method, comprising:
+in a chip, identifying energy to be consumed for processing a task; and
+causing the task to be processed when sufficient energy is available in a supplemental power source.
+
+
+
+18. The method of claim 17, comprising monitoring the supplemental power source to determine when sufficient energy is available for processing the task.
+
+
+19. The system of claim 18, comprising interrupting a task processor when sufficient energy is available in the supplemental power source. 
+

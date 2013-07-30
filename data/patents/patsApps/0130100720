@@ -1,0 +1,82 @@
+
+A power converter system includes a converter, a DC link, an inverter, a damping circuit, and a control system. The converter includes an input to couple to a power generation unit and an output to provide a direct current (DC) DC power output. The DC link includes a capacitor coupled to the converter output. A voltage across the capacitor defines a DC link voltage. The inverter includes an input coupled to the DC link. The damping circuit is coupled between the converter and the inverter in parallel with the DC link capacitor. The damping circuit includes a normally closed switching device, and a resistor coupled in series with the normally closed switching device. The control system is coupled to the damping circuit and configured to control the normally closed switching device as a function of at least one operating parameter of the power converter system.
+
+
+
+1. A power converter system comprising:
+a converter comprising an input to couple to a power generation unit and an output to provide a direct current (DC) power output;
+a DC link comprising a capacitor coupled to said converter output and having a voltage across said capacitor defining a DC link voltage;
+an inverter comprising an input coupled to said DC link;
+a damping circuit coupled between said converter and said inverter in parallel with said DC link capacitor, said damping circuit comprising:
+a normally closed switching device; and,
+a resistor coupled in series with said normally closed switching device; and,
+
+a control system coupled to said damping circuit, said control system configured to control said normally closed switching device as a function of at least one operating parameter of said power converter system.
+
+
+
+2. A power converter in accordance with claim 1, wherein said control system is configured to control said normally closed switching device to limit a magnitude of the DC link voltage.
+
+
+3. A power converter in accordance with claim 2, wherein said control system is configured to maintain said normally closed switching device in a closed state during at least a portion of a startup time of said power converter system.
+
+
+4. A power converter in accordance with claim 2, wherein said control system is coupled to said inverter, and said control system is configured to control said normally closed switching device to limit a magnitude of the DC link voltage as a function of an output of said inverter.
+
+
+5. A power converter in accordance with claim 4, wherein said control system is configured to monitor an output power of said inverter and control said normally closed switching device as a function of an output power of said inverter.
+
+
+6. A power converter in accordance with claim 5, wherein said control system is configured to open said normally closed switching device when the output power of said inverter exceeds a threshold value.
+
+
+7. A power converter in accordance with claim 6, wherein said control system is configured to close said normally closed switching device when the output power of said inverter decreases below a threshold value.
+
+
+8. A power converter in accordance with claim 5, wherein said control system is configured to maintain said normally closed switching device in a closed state when the output power of said inverter is below a threshold value.
+
+
+9. A power converter in accordance with claim 2, wherein said control system is configured to monitor said DC link voltage and close said normally closed switch when the magnitude of said DC link voltage exceeds a threshold value.
+
+
+10. A power converter in accordance with claim 2, wherein said control system is configured to monitor an output current of said inverter and close said normally closed switch when the monitored output current decreases below a threshold value.
+
+
+11. A power converter in accordance with claim 1, wherein said control system is configured to estimate a stability of said power converter and control said normally closed switching device to increase the stability of said power converter.
+
+
+12. A method of operating a power converter system, said method comprising:
+coupling electrical energy from a solar panel array to a power converter including a first converter stage, a second converter stage, a direct current (DC) link including a capacitor, and a damping circuit coupled in parallel with the capacitor; and,
+selectively dissipating at least a portion of the energy in the DC link through the damping circuit as a function of a power output of the power converter.
+
+
+
+13. A method in accordance with claim 12, wherein said selectively dissipating at least a portion of the energy in the DC link through the damping circuit as a function of a power output of the power converter comprises not dissipating energy through the damping circuit when the power output of the power converter exceeds a threshold value.
+
+
+14. A method in accordance with claim 13, wherein said selectively dissipating at least a portion of the energy in the DC link through the damping circuit as a function of a power output of the power converter comprises dissipating energy through the damping circuit when the power output of the power converter is less than the threshold value.
+
+
+15. A method in accordance with claim 12, wherein the damping circuit comprises a normally closed switch coupled in series with a resistor, and wherein selectively dissipating at least a portion of the energy in the DC link through the damping circuit as a function of a power output of the power converter comprises selectively operating the normally closed switch as a function of the power output of the power converter.
+
+
+16. A two-stage, direct current to alternating current (DC/AC) power converter system comprising:
+a first converter stage configured to be coupled to a power generation unit to receive direct current (DC) power from the power generation unit;
+a DC link comprising a capacitor coupled to said first converter stage, wherein a DC link voltage is generated across said capacitor when electricity is conducted through said power converter system;
+a damping circuit coupled across said capacitor;
+a second converter stage coupled to said DC link and configured to output alternating current (AC) power; and,
+a controller coupled to said damping circuit and configured to selectively dissipate at least a portion of the energy in said DC link through said damping circuit as a function of a power output of said second converter stage to limit a magnitude of the DC link voltage.
+
+
+
+17. A converter system in accordance with claim 16, wherein said controller is configured to not dissipate energy through the damping circuit when the power output of the second converter stage exceeds a threshold value.
+
+
+18. A converter system in accordance with claim 17, wherein said controller is configured to dissipate energy through the damping circuit when the power output of the inverter is less than the threshold value.
+
+
+19. A converter system in accordance with claim 18, wherein said controller is configured to dissipate energy through the damping circuit during startup of said power converter system until the power output of said second stage exceeds a threshold.
+
+
+20. A converter system in accordance with claim 16, wherein said damping circuit comprises a normally closed switch coupled in series with a resistor, and wherein said controller is configured to selectively dissipate at least a portion of the energy in the DC link through said damping circuit by selectively operating the normally closed switch as a function of the power output of the inverter.
+

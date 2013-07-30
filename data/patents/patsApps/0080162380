@@ -1,0 +1,114 @@
+
+A support system for installing a photovoltaic power generator includes: display means for displaying an installation surface image including an installation surface on which photovoltaic modules are to be installed and a gauge disposed on the installation surface and whose actual dimensions are known, the installation surface being a region of a finite area; installation surface input means for receiving inputs for specifying the installation surface on the installation surface image displayed on the display means; installation surface shape specification means for specifying an installation surface shape on the basis of the dimensions of the gauge in the installation surface image; and module determination means for determining a type and layout of the photovoltaic modules suitable for the installation surface shape.
+
+
+
+1. A support system for installing a photovoltaic power generator comprising:
+display means for displaying an installation surface image including an installation surface on which photovoltaic modules are to be installed and a gauge disposed on the installation surface and whose actual dimensions are known, the installation surface being a region of a finite area;
+installation surface input means for receiving inputs for specifying the installation surface on the installation surface image displayed on the display means;
+installation surface shape specification means for specifying an installation surface shape on the basis of the dimensions of the gauge in the installation surface image; and
+module determination means for determining a type and layout of the photovoltaic modules suitable for the installation surface shape.
+
+
+
+2. The system of claim 1, further comprising estimation means for calculating estimated price for installation of the photovoltaic power generator on the basis of the type and layout of the modules determined by the module determination means.
+
+
+3. The system of claim 1, further comprising a placement pattern database storing plural placement patterns of the modules, wherein the module determination means makes a comparison between the respective placement patterns in the placement pattern database and the installation surface shape and selects a placement pattern suitable for the installation surface shape to determine the layout.
+
+
+4. The system of claim 2, further comprising a placement pattern database storing plural placement patterns of the modules, wherein the module determination means makes a comparison between the respective placement patterns in the placement pattern database and the installation surface shape and selects a placement pattern suitable for the installation surface shape to determine the layout.
+
+
+5. The system of claim 1, further comprising a module information database storing shapes of the modules, wherein the module determination means calculates a maximum area capable of mounting the modules thereon from the installation surface shape and determines the type and layout of the modules from the maximum area and the shapes of modules read from the module information database.
+
+
+6. The system of claim 2, further comprising a module information database storing shapes of the modules, wherein the module determination means calculates a maximum area capable of mounting the modules thereon from the installation surface shape and determines the type and layout of the modules from the maximum area and the shapes of modules read from the module information database.
+
+
+7. The system of claim 1, further comprising:
+a module information database storing specifications about power generation performance of the modules;
+a solar amount information database storing measurement points and monthly-mean day-accumulated slope solar-radiation-amount data in a slope at each of the points; and
+power generation amount prediction means for calculating prospective power generation amount, from the specifications, the monthly-mean day-accumulated slope solar-radiation-amount data, and the installation surface shape.
+
+
+
+8. The system of claim 2, further comprising:
+a module information database storing specifications about power generation performance of the modules;
+a solar amount information database storing measurement points and monthly-mean day-accumulated slope solar-radiation-amount data in a slope at each of the points; and
+power generation amount prediction means for calculating prospective power generation amount, from the specifications, the monthly-mean day-accumulated slope solar-radiation-amount data, and the installation surface shape.
+
+
+
+9. The system of claims 1, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+10. The system of claims 2, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+11. The system of claims 3, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+12. The system of claims 4, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+13. The system of claims 5, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+14. The system of claims 6, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+15. The system of claims 7, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+16. The system of claims 8, further comprising:
+an installation support information database storing installation support information consisting of at least one of an installation price, a prospective power generation amount and a synthesized image;
+data transmission means for transmitting the installation support information stored in the installation support information database to customers; and
+browse means for enabling browsing of the installation support information.
+
+
+
+17. A support program for installing a photovoltaic power generator which allows a computer to function as:
+display means for displaying an installation surface image including an installation surface on which photovoltaic modules are to be installed and a gauge disposed on the installation surface and whose actual dimensions are known, the installation surface being a region of a finite area;
+installation surface input means for receiving inputs for specifying the installation surface on the installation surface image displayed on the display means;
+installation surface shape specification means for specifying an installation surface shape on the basis of the dimensions of the gauge in the installation surface image; and
+module determination means for determining a type and layout of the photovoltaic modules suitable for the installation surface shape.
+
+
+
+18. A support program for installing a photovoltaic power generator which allows a computer to function as:
+display means for displaying an installation surface image including an installation surface on which photovoltaic modules are to be installed and a gauge disposed on the installation surface and whose actual dimensions are known, the installation surface being a region of a finite area;
+installation surface input means for receiving inputs for specifying the installation surface on the installation surface image displayed on the display means;
+installation surface shape specification means for specifying an installation surface shape on the basis of the dimensions of the gauge in the installation surface image;
+module determination means for determining a type and layout of the photovoltaic modules suitable for the installation surface shape; and
+estimation means for calculating estimated price for installation of the photovoltaic power generator on the basis of the type and layout of the modules determined by the module determination means. 
+
+

@@ -1,0 +1,33 @@
+
+Devices, systems and methods for operating, monitoring and diagnosing photovoltaic arrays used for solar energy collection. The system preferably includes capabilities for monitoring or diagnosing an array by automatically disconnecting portions of the array during normal service (when load is not maximum, and observing the resulting change in electrical characteristics. More intensive diagnostic procedures can be launched if needed. One embodiment provides for performing monitoring or diagnostic operations on the array in daylight or at night. Another embodiment allows monitoring or diagnostic operations to be performed on a portion of the array while other parts of the array continue to collect energy. Yet another embodiment provides a safety mode for an array for maintenance or during emergencies.
+
+
+
+1. A method of monitoring a photovoltaic array with a plurality of strings of photovoltaic cells comprising the following steps:
+automatically electrically disconnecting one or more strings of photovoltaic cells from a photovoltaic array;
+performing a diagnostic test on the strings remaining connected using a bidirectional AC-DC converter to apply a DC potential to said at least one string of photovoltaic cells;
+wherein said diagnostic test performs an IV curve trace on ones of said cells;
+initiating an alert condition if results of the diagnostic test are outside of an expected range; and
+automatically electrically reconnecting the one or more strings.
+
+
+
+2. The method of claim 1, wherein said steps are repeated, from time to time during normal operation, for each said string.
+
+
+3. The method of claim 1, wherein said automatically disconnecting step is performed at regular intervals.
+
+
+4. The method of claim 1, wherein said automatically disconnecting step is performed only when electrical load is below a ceiling value.
+
+
+5. A photovoltaic power generation system comprising: a plurality of photovoltaic cells;
+a power converter which is connected to groups of said photovoltaic cells through a plurality of switches; wherein said converter is a bidirectional AC-DC converter; and,
+control logic which operates said switches such that:
+during normal operation, most or all of said photovoltaic cells are connected to provide power to a power converter;
+at some but not all times during normal operation, some but less than all, of said cells are automatically disconnected from power converter;
+wherein one or more diagnostic tests are run while some of said cells are disconnected; and said diagnostic test uses said converter to apply a DC potential to at least some ones of said photovoltaic cells; and,
+wherein said diagnostic test performs an IV curve trace on ones of said cells. 
+
+
+

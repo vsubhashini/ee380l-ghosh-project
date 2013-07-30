@@ -1,0 +1,76 @@
+
+A photovoltaic (PV) panel monitoring apparatus includes a monitoring module for measuring parameter values related to PV panel output, comparing measured values against minimum and maximum values saved in the monitoring module, and outputting an alarm signal when a measured value is outside a range defined by the minimum and maximum values. An alarm signal causes a visual indicator to activate and an audible indicator to sound, thereby assisting maintenance personnel in locating a PV panel with an out-of-range parameter value. The monitoring module further includes a PV panel identification memory for saving an identification code for each PV panel in a PV array. The identification code is transmitted with time, date, and parameter data when the monitoring module detects an out-of-range parameter value. Data may optionally be transmitted from the monitoring module through a communications input/output port or through a wireless transmitter to an external monitoring and control system.
+
+
+
+1. An apparatus comprising:
+a monitoring module adapted for electrical connection to a photovoltaic panel for monitoring the photovoltaic panel, comprising:
+a power management and battery backup circuit adapted to receive electrical power from the photovoltaic panel and supply a portion of the electrical power received from the photovoltaic panel to the monitoring module; and
+a module controller electrically connected to said power management and battery backup circuit;
+a selected group of parameters, comprising:
+an identification code for the photovoltaic panel;
+an error code output from said module controller;
+a photovoltaic panel output voltage; and
+a photovoltaic panel output current;
+
+a first communications interface electrically connected to said module controller and adapted to send and receive said selected group of parameters;
+a second communications interface electrically connected to said module controller and adapted to send and receive said selected group of parameters;
+a sensor adapted to send a signal related to an operating condition of the photovoltaic panel to said monitoring module; and
+an alarm indicator activated by said monitoring module when a signal received from said sensor is outside a selected range.
+
+
+
+
+2. The apparatus of claim 1, wherein said second communications interface comprises a wireless transmitter electrically connected to said module controller and a beacon antenna electrically connected to said wireless transmitter.
+
+
+3. The apparatus of claim 1, wherein said monitoring module further comprises a clock/calendar circuit electrically connected to said module controller.
+
+
+4. The apparatus of claim 1, wherein said monitoring module further comprises a data and program memory electrically connected to said module controller.
+
+
+5. The apparatus of claim 1, wherein said monitoring module further comprises a photovoltaic panel identification memory electrically connected to said module controller.
+
+
+6. The apparatus of claim 5, wherein said module controller is adapted to retrieve a value from said photovoltaic panel identification memory and send the value to a wireless transmitter and to a communications port.
+
+
+7. The apparatus of claim 1, further comprising a sensor/indicator input/output circuit electrically connected to said module controller.
+
+
+8. The apparatus of claim 7, further comprising a first alarm indicator electrically connected to said sensor/indicator input/output circuit.
+
+
+9. The apparatus of claim 8, further comprising a second alarm indicator electrically connected to said sensor/indicator input/output circuit.
+
+
+10. The apparatus of claim 8, wherein said first alarm indicator is a visual indicator.
+
+
+11. The apparatus of claim 10, wherein said visual indicator comprises an alphanumeric display.
+
+
+12. The apparatus of claim 9, wherein said second alarm indicator is an audible indicator.
+
+
+13. The apparatus of claim 1, further comprising a ground fault circuit detector electrically connected in parallel with said power management and battery backup circuit, wherein said module controller causes the photovoltaic panel to be electrically disconnected from a photovoltaic array when said module controller receives a signal from said ground fault circuit detector.
+
+
+14. The apparatus of claim 1, further comprising an arc fault circuit detector electrically connected in parallel with said power management and battery backup circuit, wherein said module controller causes the photovoltaic panel to be electrically disconnected from a photovoltaic array when said module controller receives a signal from said arc fault circuit detector.
+
+
+15. The apparatus of claim 1, wherein said sensor is an illumination sensor for detecting an amount of sunlight incident upon a photovoltaic panel.
+
+
+16. The apparatus of claim 1, wherein said monitoring module further comprises a photovoltaic panel output voltage sensor electrically connected to said sensor/indicator input/output circuit.
+
+
+17. The apparatus of claim 1, wherein said monitoring module further comprises a photovoltaic panel output current sensor electrically connected to said sensor/indicator input/output circuit.
+
+
+18. The apparatus of claim 1, further comprising a temperature sensor electrically connected to said sensor/indicator input/output circuit, wherein said temperature sensor is adapted to read an operating temperature of said photovoltaic panel.
+
+
+19. The apparatus of claim 1, further comprising a photovoltaic panel electrically connected to said monitoring module. 
+

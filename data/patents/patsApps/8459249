@@ -1,0 +1,96 @@
+
+A solar tracking system with a torque tube supporting solar panels. Columns support the system and have bearings for rotation of the torque tube. A drive is coupled to the torque tube and is driven by a gearbox, such as a worm gear assembly, for rotating the array of solar panels to follow the sun's diurnal motion. The array can rotate in an opposite direction, or backtrack, to prevent shadowing from one module row to another. Multiple gearboxes can be mechanically linked by drive shafts and driven by a single motor. The drive shafts may incorporate universal joints for uneven terrain or staggered configurations. Harmonic dampers can be affixed to the solar panels to decouple wind forces which allows the use of larger solar panels.
+
+
+
+1. A linked tracker system for driving a plurality of individual solar tracker assemblies displaced in a large field for following the motion of the sun relative to the earth, the linked tracker system comprising:
+a single driving apparatus for rotating a plurality of linked drive shafts configured to drive mechanically linked multiple rows of the individual solar tracking assemblies, at least one drive shaft from the plurality of drive shafts affixed to each solar tracking assembly and the at least one drive shaft being minimally constructed to withstand the forces of being driven by the single driving apparatus;
+a worm-gear box assembly directly mounted to one or more support columns anchored to the ground and connected to the each solar tracker assembly for providing motion by the driving apparatus to the each solar tracker assembly to avoid transmitting of external forces exerted on the each solar tracker assembly to the plurality of linked drive shafts between the worm-drive gear boxes and to transmit the external forces to the one or more anchored support columns, said worm-gear box assembly affixed and driven by the at least one drive shaft; wherein the at least one drive shaft comprise articulating joints for compensating for non-linearity between trackers in a horizontal and a vertical direction.
+
+
+
+2. The linked tracker system of claim 1 wherein the plurality of solar trackers comprise a horizontal tracking configuration.
+
+
+3. The linked tracker system of claim 1 wherein the at least two solar trackers comprise a multiple tilt and roll configuration.
+
+
+4. The linked tracker system of claim 1 wherein the at least two solar trackers comprise a fixed tilt azimuth configuration.
+
+
+5. The linked tracker system of claim 1 further comprising at least one harmonic dampener affixed between a torsion tube of a photovoltaic (PV) module assembly and the one or more support columns.
+
+
+6. The linked tracker system of claim 5 further comprising at least one bearing assembly disposed on the torsion tube.
+
+
+7. The linked tracker system of claim 1 wherein the driving apparatus comprises a brake for resisting motor coast and back forces.
+
+
+8. The linked tracker system of claim 1 wherein the plurality of solar trackers are configured to move in unison.
+
+
+9. A method for tracking the movement of the sun relative to the earth by driving a plurality of individual solar trackers assemblies in a large field with a single driving apparatus and for resisting external forces locally within each solar tracker of the plurality solar trackers, the method comprising the steps of:
+rotating a plurality of linked drive shafts with the single driving apparatus, at least one drive shaft from the plurality of linked drive shafts affixed to each solar tracking assembly and the at least one drive shaft being minimally constructed to withstand the forces of being driven by the single driving apparatus;
+driving a worm-gear box assembly mounted to one or more support columns and affixed at the each solar tracker assembly by the at least one drive shaft, the worm-gear box assemblies providing substantially unison motion to the plurality of solar trackers;
+resisting a transmission of external forces on the at least one drive shaft by coupling the worm-drive gear box to the each solar tracker assembly; and
+transmitting the external forces to the one or more grounded support columns by directly mounting the worm-gear box to the one or more grounded support columns; further comprising the step of compensating for non-linearity between trackers in a horizontal and a vertical direction by affixing articulating joints to the at least one drive shaft.
+
+
+
+10. The method of claim 9 wherein the substantially unison motion comprises the step of moving the at least two solar trackers about a horizontal axis.
+
+
+11. The method of claim 9 wherein the substantially unison motion comprises the step of moving the at least two solar trackers in a multiple tilt and roll direction.
+
+
+12. The method of claim 9 wherein the substantially unison motion comprises the step of moving the at least two solar trackers in a fixed tilt azimuth direction.
+
+
+13. The method of claim 9 further comprising the step of dampening wind induced harmonic forces with at least one harmonic dampener.
+
+
+14. The method of claim 9 further comprising the step of resisting low back forces in the single driving apparatus.
+
+
+15. A linked tracker system for driving a plurality of individual solar tracker assemblies displaced in a large field for following the motion of the sun relative to the earth, the linked tracker system comprising:
+a single driving apparatus for rotating a plurality of linked drive shafts configured to drive mechanically linked multiple rows of the individual solar tracking assemblies, at least one drive shaft from the plurality of drive shafts affixed to each solar tracking assembly and the at least one drive shaft being minimally constructed to withstand the forces of being driven by the single driving apparatus;
+a worm-gear box assembly directly mounted to one or more support columns anchored to the ground and a mechanical linkage between the worm-gear box assembly and the each solar tracker assembly, wherein the mechanical linkage comprises a member from the group consisting of a spur gear rack, a D-ring chain assembly and a cable drive assembly for driving a torsion tube disposed on the each solar tracker assembly, connected to the each solar tracker assembly for providing motion by the driving apparatus to the each solar tracker assembly to avoid transmitting of external forces exerted on the each solar tracker assembly to the plurality of linked drive shafts between the worm-drive gear boxes and to transmit the external forces to the one or more anchored support columns, said worm-gear box assembly affixed and driven by the at least one drive shaft.
+
+
+
+16. The linked tracker system of claim 15 wherein the plurality of solar trackers assemblies comprise a horizontal tracking configuration.
+
+
+17. The linked tracker system of claim 15 wherein the at least one drive shaft comprise articulating joints for compensating for non-linearity between trackers in a horizontal and a vertical direction.
+
+
+18. The linked tracker system of claim 15 further comprising at least one harmonic dampener affixed between a torsion tube of a photovoltaic (PV) module assembly and the one or more support columns.
+
+
+19. The linked tracker system of claim 15 wherein the driving apparatus comprises a brake for resisting motor coast and back forces.
+
+
+20. The linked tracker system of claim 15 wherein the plurality of solar tracker assemblies are configured to move in unison.
+
+
+21. A method for tracking the movement of the sun relative to the earth by driving a plurality of individual solar trackers assemblies in a large field with a single driving apparatus and for resisting external forces locally within each solar tracker of the plurality solar trackers, the method comprising the steps of:
+rotating a plurality of linked drive shafts with the single driving apparatus, at least one drive shaft from the plurality of linked drive shafts affixed to each solar tracking assembly and the at least one drive shaft being minimally constructed to withstand the forces of being driven by the single driving apparatus;
+driving a worm-gear box assembly mounted to one or more support columns and affixed at the each solar tracker assembly by the at least one drive shaft, the worm-gear box assemblies providing substantially unison motion to the plurality of solar trackers;
+mechanically linking the worm-gear box assembly and the each solar tracking assembly with a mechanical linkage comprising a member from the group consisting of a spur gear rack, a D-ring chain assembly and a cable drive assembly for driving a torsion tube disposed on the each solar tracker assembly;
+resisting a transmission of external forces on the at least one drive shaft by coupling the worm-drive gear box to the each solar tracker assembly; and
+transmitting the external forces to the one or more grounded support columns by directly mounting the worm-gear drive box to the one or more grounded support columns.
+
+
+
+22. The method of claim 21 wherein the substantially unison motion comprises the step of moving the plurality of solar tracker assemblies about a horizontal axis.
+
+
+23. The method of claim 21 further comprising the step of compensating for non-linearity between trackers in a horizontal and a vertical direction with articulating joints affixed to the at least one drive shaft.
+
+
+24. The method of claim 21 further comprising the step of dampening wind induced harmonic forces with at least one harmonic dampener.
+
+
+25. The method of claim 21 further comprising the step of resisting low back forces in the single driving apparatus. 
+

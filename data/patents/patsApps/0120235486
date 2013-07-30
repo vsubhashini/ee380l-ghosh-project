@@ -1,0 +1,84 @@
+
+A photovoltaic inverter is provided, having a controller, an auxiliary power and a buffering element. The auxiliary power provides power to the controller. The buffering element is coupled between a photovoltaic panel and the auxiliary power such that the buffering element stores energy output from the photovoltaic panel first during a startup period, and then stops storing energy output from the photovoltaic panel and provides the stored energy to the auxiliary power, thereby performing a maximum power point tracking procedure on the photovoltaic panel during a first period following the startup period, and feeds energy output from the photovoltaic panel to the auxiliary power during a second period following the first period thereby continuously performing the maximum power point tracking procedure on the photovoltaic panel by the controller.
+
+
+
+1. A photovoltaic inverter, comprising:
+a controller;
+an auxiliary power, providing power to the controller; and
+a buffering element, coupled between a photovoltaic panel and the auxiliary power such that the buffering element stores energy output from the photovoltaic panel first during a startup period, and then stops storing energy output from the photovoltaic panel and provides the stored energy to the auxiliary power, thereby performing a maximum power point tracking procedure on the photovoltaic panel during a first period following the startup period, and feeds energy output from the photovoltaic panel to the auxiliary power during a second period following the first period thereby continuously performing the maximum power point tracking procedure on the photovoltaic panel by the controller.
+
+
+
+2. The photovoltaic inverter as claimed in claim 1, wherein the photovoltaic inverter enters the first period from the startup period when the open-circuit voltage of the photovoltaic panel exceeds a first voltage.
+
+
+3. The photovoltaic inverter as claimed in claim 2, wherein the photovoltaic inverter enters the second period from the first period when the controller performs the maximum power point tracking procedure on the photovoltaic panel and the voltage output from the photovoltaic panel is lower than a second voltage.
+
+
+4. The photovoltaic inverter as claimed in claim 3, wherein the photovoltaic inverter enters the third period from the second period when the controller performs the maximum power point tracking procedure on the photovoltaic panel and the voltage output from the photovoltaic panel is lower than a third voltage.
+
+
+5. The photovoltaic inverter as claimed in claim 4, wherein the buffering element increases the voltage output from the photovoltaic panel to the third voltage and provides the third voltage to the auxiliary power during the third period.
+
+
+6. The photovoltaic inverter as claimed in claim 4, wherein the first voltage is higher than the second voltage and the second voltage is higher than the third voltage.
+
+
+7. The photovoltaic inverter as claimed in claim 1, wherein the buffering element comprises:
+a storage element, storing the energy output from the photovoltaic panel; and
+a switching element, coupled between the photovoltaic panel and the storage element, switching during the first, second and third periods.
+
+
+
+8. The photovoltaic inverter as claimed in claim 7, wherein the switching element is in a close-circuit state during the startup period and the second period, and is in an open-circuit state during the first period and the third period.
+
+
+9. The photovoltaic inverter as claimed in claim 2, wherein the buffering element comprises a boost converter, raising the voltage output from the photovoltaic panel to the third voltage.
+
+
+10. The photovoltaic inverter as claimed in claim 2, further comprising an inverter, adjusting the voltage and current output from the photovoltaic panel according to the controller, thereby obtaining maximum power.
+
+
+11. A photovoltaic inverter, comprising:
+a controller, detecting an open-circuit voltage of a photovoltaic panel;
+an auxiliary power, providing power to the controller; and
+a buffering element, coupled between the photovoltaic panel and the auxiliary power, wherein the controller enables the buffering element to store energy output from the photovoltaic panel and suspends a maximum power point tracking procedure on the photovoltaic panel when the photovoltaic panel is irradiated and the open-circuit voltage is lower than a first voltage.
+
+
+
+12. The photovoltaic inverter as claimed in claim 11, wherein the buffering element comprises a switching element and a storage element, the switching element is in an open-circuit state such that the buffering element stops storing the energy output from the photovoltaic panel and provides the stored energy to the auxiliary power, thereby performing the maximum power point tracking procedure on the photovoltaic panel by the controller, when the photovoltaic panel is irradiated and the open-circuit voltage is higher than the first voltage.
+
+
+13. The photovoltaic inverter as claimed in claim 12, wherein the switching element is in a close-circuit state such that the buffering element directly feeds the energy output from the photovoltaic panel to the auxiliary power, thereby continuously performing the maximum power point tracking procedure on the photovoltaic panel by the controller, when the controller performs the maximum power point tracking procedure on the photovoltaic panel and the voltage output from the photovoltaic panel is lower than a second voltage.
+
+
+14. The photovoltaic inverter as claimed in claim 13, wherein the buffering element further comprises a boost converter, the switching element is in the open-circuit state and the controller turns on the boost converter such that the boost converter increases the voltage output from the photovoltaic panel to the third voltage and provides the third voltage to the auxiliary power, thereby continuously performing the maximum power point tracking procedure on the photovoltaic panel by the controller when the controller performs the maximum power point tracking procedure on the photovoltaic panel and the voltage output from the photovoltaic panel is lower than the third voltage.
+
+
+15. The photovoltaic inverter as claimed in claim 14, wherein the first voltage is higher than the second voltage and the second voltage is higher than the third voltage.
+
+
+16. The photovoltaic inverter as claimed in claim 11, further comprising an inverter, adjusting the voltage and current output from the photovoltaic panel according to the controller, thereby obtaining maximum power.
+
+
+17. A method for controlling photovoltaic inverters, comprising:
+detecting an open-circuit voltage of a photovoltaic panel when the photovoltaic panel is irradiated; and
+storing energy output from the photovoltaic panel to a storage element and suspending a maximum power point tracking procedure on the photovoltaic panel when the open-circuit voltage is lower than a first voltage.
+
+
+
+18. The method as claimed in claim 17, further comprising:
+stopping storing the energy output from the photovoltaic panel and providing the stored energy to the auxiliary power when the photovoltaic panel is irradiated and the open-circuit voltage is higher than the first voltage, thereby performing the maximum power point tracking procedure on the photovoltaic panel by the controller.
+
+
+
+19. The method as claimed in claim 18, further comprising:
+feeding energy output from the photovoltaic panel to the auxiliary power directly when the controller performs the maximum power point tracking procedure on the photovoltaic panel and the voltage output from the photovoltaic panel is lower than a second voltage, thereby continuously performing the maximum power point tracking procedure on the photovoltaic panel by the controller.
+
+
+
+20. The method as claimed in claim 19, further comprising:
+turning on a boost converter such that the boost converter increases the voltage output from the photovoltaic panel to a third voltage and provides the third voltage to the auxiliary power, thereby continuously performing the maximum power point tracking procedure on the photovoltaic panel by the controller when the controller performs the maximum power point tracking procedure on the photovoltaic panel and the voltage output from the photovoltaic panel is lower than the third voltage. 
+
+

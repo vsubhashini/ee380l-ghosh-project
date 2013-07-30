@@ -1,0 +1,99 @@
+
+Embodiments may include systems and methods to create and edit a representation of a worksite, to create various data objects, to classify such objects as various types of pre-defined “features” with attendant properties and layout constraints. As part of or in addition to classification, an embodiment may include systems and methods to create, associate, and edit intrinsic and extrinsic properties to these objects. A design engine may apply of design rules to the features described above to generate one or more solar collectors installation design alternatives, including generation of on-screen and/or paper representations of the physical layout or arrangement of the one or more design alternatives.
+
+
+
+1. A computer-based user interface for automating the design of a solar collector installation at a physical worksite, comprising:
+a representation of at least a portion of the physical worksite, the representation comprising at least one geometric object, wherein the geometric object corresponds to a physical feature at the physical worksite;
+a control operable to classify the geometric object as an instance of a particular feature classification selected from a plurality of pre-existing feature classes, the particular feature classification being associated with a specification of characteristics of the physical feature related to solar collector installation design; and
+a control operable to automatically generate a solar collector installation design for installation at the physical worksite in accordance with the geometric object, the feature classification, and the specification of characteristics of the physical feature associated therewith.
+
+
+
+2. The user interface of claim 1,
+wherein the representation further comprises a second geometric object corresponding to a second physical feature at the physical worksite;
+wherein the user interface further comprises a control operable to classify the second geometric object as a second type of feature classification, the second feature classification being selected from the plurality of pre-existing feature classifications, the second feature classification being associated with a specification of characteristics of the second physical feature related to solar collector layout design; and
+wherein the control operable to automatically generate a solar collector installation design for installation is further operable to generate a solar collector installation design for installation at the physical worksite in accordance with the first feature classification and the specification of characteristics of the physical feature associated therewith and the second feature classification and the specification of characteristics of the physical feature associated therewith.
+
+
+
+3. The user interface of claim 1, wherein the solar collector installation design comprises a layout of solar collectors.
+
+
+4. The user interface of claim 1, wherein the solar collector installation design comprises a layout of solar collectors and at least one of the group of associated mounting hardware and electrical components necessary for the proper operation of the installation.
+
+
+5. The user interface of claim 1, wherein the specification of characteristics of the physical feature as related to solar collector layout design comprises properties of the physical feature.
+
+
+6. The user interface of claim 1, wherein at least one of the plurality of pre-defined feature classifications corresponds to intangible features at the physical worksite.
+
+
+7. The user interface of claim 1, wherein at least one of the plurality of pre-defined feature classifications is a property boundary, a real-estate parcel boundary, a zoning designation, a utility right-of-way, a flood plain, an environmentally-sensitive area, or a special seismic zone.
+
+
+8. The user interface of claim 1, wherein the control operable to automatically generate a layout of solar collectors for installation at the physical worksite is further operable to generate the layout of solar collectors in accordance with a set of design preferences.
+
+
+9. The user interface of claim 8, wherein the set of design preferences comprises at least one design preference selected from the group consisting of collector type, orientation, layout starting point, mounting system, and spacing.
+
+
+10. The user interface of claim 1, wherein the control operable to automatically generate a layout of solar collectors for installation at the physical worksite is further operable to generate the layout of solar collectors in accordance with a set of project properties not associated with any geometric object.
+
+
+11. The user interface of claim 10, wherein the set of project properties comprises at least one project property drawn from the group consisting of soil type, weather conditions, design temperature, design seismic load, operating characteristics, load limits, and electrical interconnection requirements, building codes.
+
+
+12. The user interface of claim 10, wherein the set of project properties comprises at least one pre-defined customer property.
+
+
+13. The user interface of claim 12, wherein the customer property is drawn from the group of contact information, legal status, financial condition, utility information, utility rate, and energy consumption.
+
+
+14. The user interface of claim 1, wherein the control operable to automatically generate a layout of solar collectors for installation at the physical worksite is further operable to generate the layout of solar collectors in accordance with a set of pre-defined project design rules.
+
+
+15. The user interface of claim 14, wherein at least one of the pre-defined project design rules defines at least one of the group comprising an electrical code regulation, a property setback requirement, a weight requirement, a safety requirement, a interconnection requirement, an engineering rule or best practice, and a fusing requirement.
+
+
+16. The user interface of claim 1, wherein the geometric object comprises at least of the group comprising lines, polylines, curves, squares, rectangles, splines, symbols and polygons and other 2D or 3D shapes, surfaces, image data, and solids.
+
+
+17. The user interface of claim 1, wherein the specification of characteristics of the physical feature related to solar collector layout design comprises at least a partial set of information for the automatic placement of solar collectors within or around that physical feature.
+
+
+18. The user interface of claim 1, further comprising a control operable to modify the specification of characteristics of the physical feature related to solar collector layout design before automatically determining the layout of solar modules.
+
+
+19. The user interface of claim 1, further comprising a control operable to modify the solar collector installation design.
+
+
+20. The user interface of claim 19, the control operable to modify the solar collector installation design further operable to allow modification of the solar collector installation design in contravention of at least a portion of the partial specification of characteristics of the physical feature.
+
+
+21. The user interface of claim 1, further comprising a control operable to generate, consistent with the solar collector installation design, at least one of the group consisting of a bill of materials, a rendering, a financial analysis, a project schedule, a contract, a contract term, an energy projection, a cost analysis, a parts list a presentation, and a simulation.
+
+
+22. The user interface of claim 1, wherein the solar collector installation design comprises photovoltaic modules.
+
+
+23. A system for generating a solar module installation layout for installation at a physical worksite, comprising:
+a categorization component operable to associate geometric objects with properties for generating a solar module installation layout, wherein the geometric objects are in computer storage and at least one of the geometric objects corresponds to a physical feature at the physical worksite, and wherein the categorization component is operable to associate a first geometric object with a work area for layout of solar modules within the first geometric object and a second geometric object with a prohibition of layout of solar modules on or within proximity of the second geometric object; and
+a layout-tiling component operable to generate a solar module installation layout by tiling solar modules on at least one work area and, subsequently, to remove at least one tiled solar module according to the prohibition for layout of solar modules.
+
+
+
+24. The system of claim 23, further comprising a modification component operable to allow a user to modify a solar module installation layout, wherein modifying a solar module installation layout comprises at least one of: replacing a tiled module that had been removed according to a prohibition for layout of solar modules and removing a placed solar module that had not been removed according to a prohibition for layout of solar modules.
+
+
+25. The user interface of claim 23, wherein the solar modules comprise photovoltaic modules.
+
+
+26. The user interface of claim 23, wherein tiling solar modules on at least one work area comprises forming a grid of solar modules.
+
+
+27. The user interface of claim 23, wherein tiling solar modules on at least one work area comprises forming an array of solar modules aligned with a starting point.
+
+
+28. The user interface of claim 23, wherein tiling solar modules on at least one work area comprises tiling solar modules according to the design preferences of an aperture. 
+

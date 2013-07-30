@@ -1,0 +1,103 @@
+
+A system and method for controlling the DC voltage provided to a PV inverter is disclosed. A PV system includes a pair of PV array group configured to generate a direct current (DC) output from received solar irradiation and a DC-to-AC power inverter electrically coupled to the pair of PV array groups to receive the DC output therefrom and invert the DC output to an AC output. The PV system also includes a switching element positioned between the pair of PV array groups and the DC-to-AC power inverter, with the switching element being configured to selectively connect the pair of PV array groups to the DC-to-AC power inverter in one of a series arrangement and a parallel arrangement, so as to control a level of DC voltage received by the DC-to-AC power inverter from the pair of PV array groups.
+
+
+
+1. A photovoltaic (PV) system comprising:
+a pair of PV array groups configured to generate a direct current (DC) output from received solar irradiation, the pair of PV array groups comprising a first PV array group and a second PV array group;
+a DC-to-AC power inverter electrically coupled to the pair of PV array groups to receive the DC output therefrom, the DC-to-AC power inverter configured to invert the DC output to an AC output; and
+a switching element positioned between the pair of PV array groups and the DC-to-AC power inverter, the switching element being configured to selectively connect the pair of PV array groups to the DC-to-AC power inverter in one of a series arrangement and a parallel arrangement, so as to control a level of DC voltage received by the DC-to-AC power inverter from the pair of PV array groups.
+
+
+
+2. The PV inverter system of claim 1 wherein connecting the first and second PV array groups in the series arrangement doubles the level of DC voltage received by the DC-to-AC power inverter as compared to the level of DC voltage received by the DC-to-AC power inverter when the first and second PV array groups are connected in the parallel arrangement.
+
+
+3. The PV inverter system of claim 1 further comprising a controller configured to control switching of the switching element for connecting the pair of PV array groups to the DC-to-AC power inverter in one of the series arrangement and the parallel arrangement.
+
+
+4. The PV inverter system of claim 3 wherein the controller is configured to operate the DC-to-AC power inverter within a pre-determined voltage operating window, between a minimum voltage value and a maximum voltage value.
+
+
+5. The PV inverter system of claim 4 wherein the controller is configured to:
+measure the DC voltage output from the first and second PV array groups;
+compare the DC voltage output from the first and second PV array groups to the voltage operating window; and
+control the switching element to connect the first and second PV array groups in one of the series arrangement and the parallel arrangement based on the comparison of the measured DC voltage output of the first and second PV array groups to the voltage operating window.
+
+
+
+6. The PV inverter system of claim 5 wherein the controller is configured to:
+determine if the measured DC voltage output from the first and second PV array groups is equal to or less than half the value of the maximum voltage value of the voltage operating window; and
+if the measured DC voltage output from the first and second PV array groups is equal to or less than half the value of the maximum voltage value of the voltage operating window, then control the switching element to connect the first and second PV array groups in the series arrangement;
+otherwise, control the switching element to connect the first and second PV array groups in the parallel arrangement.
+
+
+
+7. The PV inverter system of claim 5 wherein the controller is configured to:
+determine if the measured DC voltage output from the first and second PV array groups is less than the minimum voltage value of the voltage operating window; and
+if the measured DC voltage output from the first and second PV array groups is less than the minimum voltage value of the voltage operating window, then control the switching element to connect the first and second PV array groups in the series arrangement.
+
+
+
+8. The PV inverter system of claim 1 wherein the selective connection of the pair of PV array groups to the DC-to-AC power inverter in one of the series arrangement and the parallel arrangement expands the DC voltage window of the DC-to-AC power inverter.
+
+
+9. The PV inverter system of claim 1 wherein each of the first and second PV array groups comprises at least one PV array, and wherein the first PV array group and the second PV array group each include an equal number of PV arrays such that the total number of PV arrays in the first and second PV array groups comprises an even number of PV arrays.
+
+
+10. The PV inverter system of claim 1 wherein the switching element comprises one of a relay, an IGBT, an SCR, contactors, a circuit breaker, or an array of tie contactors.
+
+
+11. A method for controlling the DC voltage provided to a photovoltaic (PV) inverter from a plurality of PV arrays, the method comprising:
+measuring a DC voltage output from a pair of PV array groups, the pair of PV array groups including a first PV array group and a second PV array group;
+comparing the DC voltage output from the first and second PV array groups to a pre-determined voltage operating window of the PV inverter, the pre-determined voltage operating window having lower and upper voltage limits associated therewith; and
+controlling switching of a switching device connected between the PV inverter and the pair of PV array groups based on the comparison of the DC voltage output from the first and second PV array groups to the pre-determined voltage operating window of the PV inverter, such that the pair of PV array groups is selectively connected to the PV inverter in one of a series arrangement and a parallel arrangement by way of the switching device.
+
+
+
+12. The method of claim 11 wherein comparing the DC voltage output comprises:
+determining if the measured DC voltage output from the first and second PV array groups is equal to or less than half the value of the upper voltage limit of the voltage operating window;
+if the measured DC voltage output from the first and second PV array groups is equal to or less than half the value of the upper voltage limit of the voltage operating window, then controlling the switching device to connect the first and second PV array groups in the series arrangement;
+if the measured DC voltage output from the first and second PV array groups is greater than half the value of the upper voltage limit of the voltage operating window, then controlling the switching device to connect the first and second PV array groups in the parallel arrangement; and
+turning on the PV inverter if the DC voltage output from the first and second PV array groups in the series connection is less than the upper voltage limit of the voltage operating window and greater than the lower voltage limit of the voltage operating window.
+
+
+
+13. The method of claim 12 wherein connecting the first and second PV array groups in the series arrangement doubles the level of DC voltage received by the PV inverter as compared to the level of DC voltage received by the PV inverter when the first and second PV array groups are connected in the parallel arrangement.
+
+
+14. The method of claim 11 wherein the DC voltage output from the pair of PV array groups is measured on a continuous basis or on a periodic basis at certain pre-determined intervals, such that the switching device is dynamically controlled during operation of the plurality of PV arrays and the PV inverter.
+
+
+15. The method of claim 11 wherein controlling switching of the switching device comprises selectively switching one of a relay, an IGBT, an SCR, and an array of tie contactors.
+
+
+16. A photovoltaic (PV) system comprising:
+a PV inverter configured to invert a DC power to an AC power, the PV inverter comprising:
+an input electrically coupled to a pair of PV array groups, the input configured to receive DC power generated by the pair of PV array groups in response to received solar irradiation;
+a plurality of switches configured to transform the DC power into an AC power; and
+an output configured to transfer the AC power to a load; and
+
+a switching element positioned between the pair of PV array groups and the PV inverter, the switching element being configured to selectively connect the pair of PV array groups to the PV inverter in one of a series arrangement and a parallel arrangement, so as to control a level of DC voltage received by the PV inverter from the pair of PV array groups.
+
+
+
+17. The PV system of claim 16 wherein connecting the first and second PV array groups in the series arrangement doubles the level of DC voltage received by the PV inverter as compared to the level of DC voltage received by the PV inverter when the first and second PV array groups are connected in the parallel arrangement.
+
+
+18. The PV inverter system of claim 16 further comprising a controller configured to control switching of the switching element for connecting the pair of PV array groups to the PV inverter in one of the series arrangement and the parallel arrangement.
+
+
+19. The PV inverter system of claim 18 wherein the controller is configured to:
+measure the DC voltage output from the first and second PV array groups;
+compare the DC voltage output from the first and second PV array groups to a voltage operating window of the PV inverter; and
+control the switching element to connect the first and second PV array groups in one of the series arrangement and the parallel arrangement based on the comparison of the measured DC voltage output of the first and second PV array groups to the voltage operating window.
+
+
+
+20. The PV system of claim 19 wherein the controller is configured to:
+based on the measured DC voltage output, determine if the level of DC voltage to be received by the PV inverter from the pair of PV array groups if the switching element is switched to connect the pair of PV array groups to the PV inverter in the series arrangement falls within the voltage operating window; and
+control the switching element to connect the first and second PV array groups in the series arrangement if the level of DC voltage to be received by the PV inverter from the pair of PV array groups in the series arrangement falls within the voltage operating window;
+otherwise, control the switching element to connect the first and second PV array groups in the parallel arrangement. 
+
+

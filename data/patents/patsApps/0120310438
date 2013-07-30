@@ -1,0 +1,106 @@
+
+A method for initializing a power inverter of a photovoltaic system includes: opening an AC mains switch and a DC switch to disconnect the power inverter from an electrical grid and to disconnect a capacitor bank associated with the inverter from a solar cell array; closing the AC mains switch to allow power to flow from an electrical grid to the DC capacitor bank to charge the DC capacitor bank; monitoring the DC capacitor bank until a desired voltage is reached; initiating the operation of the power inverter; stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter; waiting for an inverter initialization period to elapse; and adjusting DC voltage received by the power inverter to a voltage associated with a maximum power output level of the solar cell array.
+
+
+
+1. A method for initializing a power inverter of a photovoltaic system comprising a solar cell array, comprising:
+opening an alternating current (AC) mains switch and a direct current (DC) switch, wherein opening the AC mains switch disconnects the power inverter from an electrical grid, and wherein opening the DC switch disconnects a DC capacitor bank associated with the power inverter from the solar cell array;
+closing the AC mains switch to allow power to flow from the electrical grid to the DC capacitor bank connected to the power inverter to charge the DC capacitor bank;
+monitoring the DC capacitor bank until a desired voltage for the DC capacitor bank is reached;
+initiating the operation of the power inverter such that the power inverter begins to receive DC voltage from the DC capacitor bank;
+stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter;
+waiting for an inverter initialization period to elapse; and
+adjusting DC voltage received by the power inverter to a voltage associated with a maximum power output level of the solar cell array.
+
+
+
+2. The method of claim 1 wherein the desired voltage for the DC capacitor bank is a power up voltage for the power inverter.
+
+
+3. The method of claim 1 wherein the DC capacitor bank stores an electrical charge and outputs a DC current to the power inverter.
+
+
+4. The method of claim 1 wherein stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter further comprises stabilizing the DC voltage received at the DC capacitor bank at the power up voltage for the power inverter.
+
+
+5. The method of claim 4 wherein the voltage associated with a maximum power output level of the solar cell array is less than the power up voltage for the power inverter.
+
+
+6. The method of claim 1, further comprising:
+after stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter, closing the DC switch to allow the solar cell array to provide DC power to the DC capacitor bank to charge the DC capacitor bank
+
+
+
+7. The method of claim 1 wherein the power inverter, upon initiating operation, converts the DC voltage from the received from the DC capacitor bank to AC voltage that can be output onto the electrical grid.
+
+
+8. A controller for a photovoltaic system, the photovoltaic system comprising a solar cell array, a direct current (DC) capacitor bank, an alternating current (AC) switch, and a DC switch, the controller comprising:
+a tangible, non-transitory computer-readable memory;
+a plurality of modules comprising processor executable code stored in the memory;
+a processor connected to the memory and configured to access the plurality of modules stored in the memory; and
+a control interface configured to send control signals to the AC switch, the DC switch, and the power inverter;
+wherein the plurality of modules stored in the memory includes:
+a voltage control module configured to cause the processor to perform a method for initializing a power inverter of a photovoltaic system comprising:
+opening an alternating current (AC) mains switch and a direct current (DC) switch, wherein opening the AC mains switch disconnects the power inverter from an electrical grid, and wherein opening the DC switch disconnects the power inverter from the solar cell array,
+closing the AC mains switch to allow power to flow from the electrical grid to a DC capacitor bank connected to the power inverter to charge the DC capacitor bank,
+monitoring the DC capacitor bank until a desired voltage for the DC capacitor bank is reached,
+initiating the operation of the power inverter such that the power inverter begins to receive DC voltage from the DC capacitor bank,
+stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter,
+waiting for inverter initialization period to elapse, and
+adjusting DC voltage received by power inverter to a maximum voltage associated with a maximum power level of the solar cell array;
+
+a control signal module configured to cause the processor to send control signals to the AC switch, the DC switch, and the power inverter.
+
+
+
+
+9. The controller of claim 11 wherein the desired voltage for the DC capacitor bank is a power up voltage for the power inverter.
+
+
+10. The controller of claim 11 wherein the DC capacitor bank stores an electrical charge and outputs a DC current to the power inverter.
+
+
+11. The controller of claim 11 wherein stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter further comprises stabilizing the DC voltage received at the DC capacitor bank at the power up voltage for the power inverter.
+
+
+12. The controller of claim 14 wherein the voltage associated with a maximum power output level of the solar cell array is less than the power up voltage for the power inverter.
+
+
+13. The controller of claim 11, further comprising:
+after stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter, closing the DC switch to allow the solar cell array to provide DC power to the DC capacitor bank to charge the DC capacitor bank.
+
+
+
+14. The controller of claim 11 wherein the power inverter, upon initiating operation, converts the DC voltage from the received from the DC capacitor bank to AC voltage that can be output onto the electrical grid.
+
+
+15. A system for initializing the power inverter of a photovoltaic system comprising a solar cell array, comprising:
+means for opening an alternating current (AC) mains switch and a direct current (DC) switch, wherein opening the AC mains switch disconnects the power inverter from an electrical grid, and wherein opening the DC switch disconnects a DC capacitor bank associated with the power inverter from the solar cell array;
+means for closing the AC mains switch to allow power to flow from the electrical grid to the DC capacitor bank connected to the power inverter to charge the DC capacitor bank;
+means for monitoring the DC capacitor bank until a desired voltage for the DC capacitor bank is reached;
+means for initiating the operation of the power inverter such that the power inverter begins to receive DC voltage from the DC capacitor bank;
+means for stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter;
+means for waiting for inverter initialization period to elapse; and
+means for adjusting DC voltage received by power inverter to a voltage associated with a maximum power output level of the solar cell array.
+
+
+
+16. The system of claim 15 wherein the desired voltage for the DC capacitor bank is a power up voltage for the power inverter.
+
+
+17. The system of claim 15 wherein the DC capacitor bank stores an electrical charge and outputs a DC current to the power inverter.
+
+
+18. The system of claim 15 wherein the means for stabilizing the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter further comprises means for stabilizing the DC voltage received at the DC capacitor bank at the power up voltage for the power inverter.
+
+
+19. The system of claim 18 wherein the voltage associated with a maximum power output level of the solar cell array is less than the power up voltage for the power inverter.
+
+
+20. The system of claim 15, further comprising:
+means for closing the DC switch to allow the solar cell array to provide DC power to the DC capacitor bank to charge the DC capacitor bank when the DC voltage received from the DC capacitor bank at a predetermined power up voltage for the power inverter has been stabilized.
+
+
+
+21. The system of claim 15 wherein the power inverter, upon initiating operation, includes means for converting the DC voltage from the received from the DC capacitor bank to AC voltage that can be output onto the electrical grid. 
+

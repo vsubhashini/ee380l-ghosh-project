@@ -1,0 +1,78 @@
+
+A business tuning system collects streams of informational reports from remote renewable energy systems. A database holds the information and associates it with a particular renewable energy business operation. A pre-processor semi-structures the information into failure analyses, sales histories, performance results, regional trends, seasonal trends, and demographics. A data mining processor provides for knowledge discovery and prediction from semi-structured information related to said particular renewable energy business operation.
+
+
+
+1. A renewable energy business-tuning system, comprising:
+a database source of information collected by and associated with a particular renewable energy business operation;
+a pre-processor for semi-structuring said information collected into failure analyses, sales histories, performance results, regional trends, seasonal trends, and demographics; and
+a data mining processor providing for knowledge discovery and prediction from semi-structured information related to said particular renewable energy business operation.
+
+
+
+2. The system of claim 1, further comprising:
+a business projection model for regional, seasonal, demographic, equipment, and benefits projections included in marketing activities and financial reporting.
+
+
+
+3. The system of claim 1, further comprising:
+a cost driver reporter for summarizing the equipment, regulatory, marketing, installation, maintenance, and random costs associated with said particular renewable energy business operation.
+
+
+
+4. The system of claim 1, further comprising:
+a service reporter in which mean-time-between-failures (MTBF's) and related statistics are summarized for warranty programs and service contracts according to the particular provider, installer, maintainer, the system configuration, region of installation and use, season of operation, equipment, or component.
+
+
+
+5. The system of claim 1, further comprising:
+a monitor for collecting streams of informational reports from remote renewable energy systems;
+a webserver for separating said data streams by client, and client identification in order to template such data streams onto models of clients' equipment configurations and topologies;
+a device for sorting and grouping client data by categories, wherein workstations can be employed to access statistics, monitor operational flags, initiate/display reports, and control system operations;
+a mechanism for accumulating particular client/user information and assembling such information on a per account basis to issue client statements, revenue checks, invoices, and controls, wherein, headquarters workstations can be used to access single-client statistics, monitor operational flags, initiate/display reports, and engage payables, receivables, and general ledger accounting operations.
+
+
+
+6. The system of claim 5, further comprising:
+a webpage for posting selected information to the Internet on a webpage for a respective user, wherein each user can query how much electricity they are generating/using, and the net amount they are exporting;
+wherein, various kinds of charts and graphics are rendered in HTML to make the data easy to navigate, absorb and understand.
+
+
+
+7. The system of claim 5, further comprising:
+a database to store information collected, and for storing event logs, wherein such database can be studied to see if any long term trends are at work that could ultimately result in system degradation or a point failure.
+
+
+
+8. The system of claim 5, further comprises:
+a network server based system for monitoring and repairing a solar power installation, which comprises solar panels to convert sunlight to DC electricity, one or more inverters to convert the DC to AC electricity, and a metered utility connection for selling to or offsetting energy charges for AC electricity from an electric utility, and further comprises a monitor with sensors and connections to the inverter provides system operation measurements and data through a wireless or wired connection the Internet; and
+a centralized server for collecting measurements and data from many solar installation monitors and analyzes the inputs to provide useful information to the users and their systems integrator and third parties, and such information is employed in a plurality of ways to conduct parts of a solar energy business.
+
+
+
+9. A business method for tuning a renewable energy business, comprising:
+collecting streams of informational reports from remote renewable energy systems associated with a particular renewable energy business operation;
+semi-structuring said information collected into failure analyses, sales histories, performance results, regional trends, seasonal trends, and demographics; and
+data mining providing for knowledge discovery and prediction from semi-structured information related to said particular renewable energy business operation.
+
+
+
+10. The method of claim 9, further comprising:
+separating said data streams by client, and client identification in order to template such data streams onto models of clients' equipment configurations and topologies;
+sorting and grouping client data by categories, wherein workstations can be employed to access statistics, monitor operational flags, initiate/display reports, and control system operations;
+accumulating particular client/user information and assembling such information on a per account basis to issue client statements, revenue checks, invoices, and controls, wherein, headquarters workstations can be used to access single-client statistics, monitor operational flags, initiate/display reports, and engage payables, receivables, and general ledger accounting operations;
+posting selected information to the Internet on a webpage for a respective user, wherein each user can query how much electricity they are generating/using, and the net amount they are exporting;
+wherein, various kinds of charts and graphics are rendered in HTML to make the data easy to navigate, absorb and understand.
+
+
+
+11. The method of claim 9, further comprising:
+providing a database to store information collected, and for storing event logs, wherein such database can be studied to see if any long term trends are at work that could ultimately result in system degradation or a point failure.
+
+
+
+12. The method of claim 9, further comprising:
+providing a network server based system for monitoring and repairing a solar power installation, which comprises solar panels to convert sunlight to DC electricity, one or more inverters to convert the DC to AC electricity, and a metered utility connection for selling to or offsetting energy charges for AC electricity from an electric utility, and further comprises a monitor with sensors and connections to the inverter provides system operation measurements and data through a wireless or wired connection the Internet; and
+using a centralized server to collect measurements and data from many solar installation monitors and analyzes the inputs to provide useful information to the users and their systems integrator and third parties, and wherein such information is useful in the conduct of a solar energy business. 
+
+

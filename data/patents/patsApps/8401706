@@ -1,0 +1,255 @@
+
+A group of solar power stations with inverters are adjusted in order to achieve optimum power output in accordance with maximum power-point tracking (MPPT). The MPPT data is used to perform adjustments. Power measurement factors, including Maximum Power Points (MPPs) are established to represent a bus-voltage setting that produces the maximum power output from an individual photovoltaic panel. These settings are established for the group so as to optimize power output under a variety of operating conditions.
+
+
+
+1. A method of controlling a group of power generating stations, each of the power generating stations comprising a DC power source supplying power to an inverter, the method comprising:
+connecting a plurality of inverters to a communications network;
+transmitting maximum power point (MPP) data over the network;
+determining, from the MPP data, whether to operate any of the inverters as a slave inverter, and
+upon assigning an inverter to operate as a slave inverter, setting or changing an operating point of the slave inverter responsive to the MPP data transmitted on the network.
+
+
+
+2. The method of claim 1, further comprising:
+dynamically selecting one of said inverters to function as a master in accordance with predetermined criteria for a representative sample of similarly situated inverters; wherein
+functioning as a master comprises MPP tracking.
+
+
+
+3. The method of claim 2, further comprising:
+the inverters mapped according to said predetermined criteria;
+in the case of the mapping resolving to a mapped cluster of said inverters that spans more than one allowable error margin, reducing the error margin to more clearly isolate the mapped cluster.
+
+
+
+4. The method of claim 2, further comprising
+setting an operating point of at least one slave to the MPP tracked by the master.
+
+
+
+5. The method of claim 1, further comprising:
+comparing MPP factors or MPP data from at least a subset of power generating stations to generate comparison data; and
+adjusting the operating point of the inverter operating as a slave based on the comparison data.
+
+
+
+6. The method of claim 5, wherein:
+the DC source comprises photovoltaic panels;
+the MPP data comprises a bus-voltage setting that produces a maximum power output from an individual photovoltaic panel; and
+adjusting the operating point compensates for variation in MPP factors.
+
+
+
+
+7. The method of claim 1, further comprising:
+comparing MPP factors or MPP data from at least a subset of power generating stations to generate comparison data;
+dynamically selecting a representative one of said power generating stations to function as a master based on the comparison data;
+causing the master to execute an MPP tracking algorithm; and
+setting the operating point of the slave inverter to the MPP tracked by the master.
+
+
+
+8. The method of claim 7, wherein:
+photovoltaic panels comprise the DC source in at least a subset of the power generating stations;
+the MPP data comprises an operating point that produces a maximum power output from an individual photovoltaic panel; and
+the MPP tracking provides adjustments for variation in at least one MPP factor.
+
+
+
+
+9. The method of claim 7, wherein:
+photovoltaic panels comprise the DC source in at least a subset of the power generating stations;
+the MPP data comprises an operating point that produces a maximum power output from an individual photovoltaic panel; and
+the MPP factor comprises irradiance near the photovoltaic panel.
+
+
+
+10. The method of claim 1, further comprising:
+comparing MPP factors or MPP data from at least a subset of power stations to generate comparison data;
+using photovoltaic panels as the DC source in at least a subset of the power generating stations;
+using a bus-voltage setting that produces a maximum power output
+from an individual photovoltaic panel as part of the MPP data;
+
+storing at least one MPP factor;
+retrieving the stored MPP factor;
+measuring at least one real-time MPP factor;
+using the stored MPP factor and the real-time MPP factor to perform maximum
+power-point tracking (MPPT).
+
+
+
+
+11. The method of claim 1, further comprising:
+comparing MPP factors or MPP data from at least a subset of power generating stations in the power network to generate comparison data;
+using photovoltaic panels as the DC source in at least a subset of the power generating stations;
+using a bus-voltage setting that produces a maximum power output from an individual photovoltaic panel as part of the MPP data;
+storing at least one MPP factor;
+retrieving the stored MPP factor; and
+measuring at least one real-time MPP factor;
+wherein using the stored MPP factor and the real-time MPP factor to perform maximum power-point tracking (MPPT) provides adjustments for variation in MPP factors over time.
+
+
+
+12. The method of claim 1, further comprising:
+setting the operating point of one or more inverters associated with the power generating stations based on maximum power points (MPPs);
+mapping the inverters in MPP-factor space;
+selecting an optimal grouping of masters and slaves according to predetermined criteria; and
+re-evaluating and, if appropriate, reassigning masters and slaves either at fixed intervals or when measured MPP factors change by more than a threshold amount.
+
+
+
+13. The method of claim 1, further comprising:
+setting the operating point of one or more inverters associated with the power generating stations based on maximum power points (MPPs);
+mapping the inverters in MPP-factor space;
+selecting an optimal grouping of masters and slaves according to predetermined criteria, including a minimum number of masters; and
+re-evaluating and, if appropriate, reassigning masters and slaves either at fixed intervals or when measured MPP factors change by more than a threshold amount.
+
+
+
+14. The method of claim 13, further comprising in the case of the mapping resolving to a mapped cluster of said inverters that spans more than one allowable error margin, reducing the error margin to more clearly isolate the mapped cluster.
+
+
+15. The method of claim 1, further comprising:
+comparing MPP factors or MPP data from at least a subset of power generating stations to generate comparison data; and
+using an operating-point setting that produces a maximum power output from an individual power generating station as part of the MPP data.
+
+
+
+16. The method of claim 15, further comprising:
+performing maximum power-point tracking (MPPT) on inverter outputs of the power generating stations;
+selecting the slave inverter to operate in response to a master inverter MPPT, and
+selecting the master inverter from a group of inverters having MPP factors within a predetermined variance from the slave inverter .
+
+
+
+17. The method of claim 1, wherein the operating point is transmitted over the network from a central control unit.
+
+
+18. The method of claim 1, further comprising:
+performing maximum power-point tracking (MPPT) on inverter outputs of the
+power generating stations;
+
+using a central control unit to adjust the operating point of the slave inverter
+based on a result of the MPPT;
+
+monitoring power produced by the slave inverter, and
+in the event that the slave varies from a maximum power point (MPP)factor,
+causing the slave inverter to override the control from the central control
+unit and operate as a master.
+
+
+
+
+19. The method of claim 1, further comprising:
+performing maximum power-point tracking (MPPT) on inverter outputs of the
+power generating stations; and
+
+using peer-to-peer control to change the operating point of the slave inverter
+based on a result of the MPPT.
+
+
+
+
+20. The method of claim 1, further comprising:
+performing maximum power-point tracking (MPPT) on inverter
+outputs of the power generating stations; and
+
+setting or changing the operating point of the slave inverter based on a predicted result of the MPPT.
+
+
+
+21. The method of claim 1, further comprising:
+tracking at least one MPP factor for at least one power generating station;
+setting an operating point for the power generating station;
+monitoring at least one sensor associated with the station, the sensor detecting at
+least one of power, irradiance, and temperature;
+
+determining whether a reading from the sensor represent a change
+from a previous reading; and
+
+in the case of the reading changing from the previous reading, effecting an adjustment in the operating point.
+
+
+
+22. A method of controlling a power generating station within a group of power generating stations, the method comprising:
+tracking at least one MPP factor for the power generating station;
+identifying a corresponding MPP factor for at least one neighbor power generating station;
+comparing the MPP factors or MPP data of the power generating station and the neighbor power generating station;
+based on the compared MPP factors or MPP data, operating the power generating station as a master or as a slave; wherein having
+a master performs MPP tracking, and
+a slave sets its operating point to the master's most recently tracked MPP.
+
+
+
+
+23. The method of claim 22, further comprising:
+monitoring at least one sensor associated with the station, the sensor detecting at least one of power, irradiance, and temperature;
+determining whether readings from the sensor represent a change from a previous reading; and
+in the case of the reading changing from the previous reading, effecting an adjustment in the operating point.
+
+
+
+24. The method of claim 22, further comprising:
+setting the operating point of one or more inverters associated with the power generating stations based on maximum power points (MPPs); and
+re-evaluating and, if appropriate, reassigning masters and slaves either at fixed intervals or when measured MPP factors change by more than a threshold amount.
+
+
+
+25. The method of claim 24, further comprising:
+setting the operating point of one or more inverters associated with the power generating stations based on maximum power points (MPPs);
+mapping the inverters in MPP-factor space;
+selecting an optimal grouping of masters and slaves according to predetermined criteria, including a minimum number of masters; and
+re-evaluating and, if appropriate, reassigning masters and slaves either at fixed intervals or when measured MPP factors change by more than a threshold amount.
+
+
+
+26. The method of claim 25, further comprising in the case of the mapping resolving to a mapped cluster of said inverters spans more than one allowable error margin, reducing the error margin to more clearly isolate the mapped cluster.
+
+
+27. A method of controlling a power generating station within a group of multiple power generating stations, the method comprising:
+selecting MPP factors or MPP data ;
+reading the selected MPP factors or MPP data;
+searching a data-store for a previous reading of the selected MPP factors or MPP data;
+upon finding a previous reading, computing a difference between the reading and the previous reading and comparing the difference with an allowed margin;
+in the case of the difference exceeding the allowed margin, or finding no previous reading, searching for another power generating station with similar MPP factors or MPP data;
+in the case of locating another power generating station with similar MPP factors or MPP data, establishing one of the power generating stations as a slave; and
+in the case of not locating another power generating station with similar MPP factors or MPP data, establishing the power generating station as a master.
+
+
+
+28. The method of claim 27, wherein the readings comprise inverter maximum power point (MPP) readings.
+
+
+29. Control apparatus for a group of power generating stations, comprising:
+a circuit module capable of comparing MPP factors or MPP data from at least a subset of power stations to generate comparison data;
+a circuit module capable of selecting a master inverter based on the comparison data and causing the master inverter to perform MPP tracking; and
+a circuit module capable of adjusting an operating point of a slave inverter based on the MPP tracked by the master.
+
+
+
+30. Control apparatus for a group of multiple power generating stations, comprising:
+means for comparing MPP factors or MPP data from at least a subset of power stations to generate comparison data;
+means for performing maximum power-point tracking (MPPT) based on the comparison data to provide MPPT data; and
+adjustment means for performing MPPT adjustments based on the MPPT data.
+
+
+
+31. The control apparatus of claim 30, further comprising:
+means for monitoring at least one MPP factor from a power station in the subset;
+means for determining whether the monitored MPP factor results in an MPP variation greater than a margin threshold; and
+means for causing the power station to override control from a central control unit and track its own MPP if the MPP variation is greater than the margin threshold.
+
+
+
+32. A computer program product, comprising:
+a non-transitory computer-readable medium comprising:
+a first instruction for causing a computer to compare MPP factors or MPP data from at least a subset of power stations in a group to generate comparison data;
+a second instruction for causing the computer to select one of the power stations to temporarily operate as a master, cause the master to perform maximum power-point tracking (MPPT), and collect resulting MPP data; and
+a third instruction for causing the computer to determine whether efficiency of the group would improve by operating another power station as a slave to the master, and if so, adjusting an operating point of the slave based on the MPP data.
+
+
+
+
+33. The computer program product of claim 32, further comprising a fourth instruction for causing the computer to re-evaluate and, if appropriate, reassign masters and slaves either at fixed intervals or when measured maximum power point (MPP) factors change by more than a threshold amount.
+

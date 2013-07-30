@@ -1,0 +1,85 @@
+
+A solar information system may take terrain data with solar and atmospheric parameters to compute a solar dataset which may then be used by a service to provide derivative datasets, such as heat maps, solar panel advice or interactive web services.
+
+
+
+1. A method of determining solar energy comprising:
+receiving a set of geographic data from a database stored on an electronic data storage device, wherein the geographic data represents terrain features with corresponding heights;
+invoking a processor to perform operations on the set of geographic data, wherein the operations comprise:
+dividing the set into individual tiles, wherein each tile represents a unique geographic subset of the geographic data;
+selecting a working tile from the individual tiles;
+identifying a largest height value of the terrain features of neighboring tiles relative to the working tile; and
+determining a buffer distance for the working tile based on the largest height value in the neighboring tiles.
+
+
+
+
+2. The method of claim 1, further comprising calculating a height value for the working tile based on a height value of the terrain features within the working tile and the largest height value in the neighboring tiles.
+
+
+3. The method of claim 1, wherein calculating the height value for the working tile further comprises:
+determining that a largest height value of the terrain features of the working tile is greater than the largest height value of the neighboring tiles; and
+selecting the largest height value of the working tile as the calculated height value of the working tile.
+
+
+
+4. The method of claim 1, wherein calculating the height value for the working tile further comprises:
+determining that the largest height value of the neighboring tiles is greater than a largest height value of the terrain features of the working tile; and
+selecting the largest height value of the neighboring tiles as the calculated height value of the working tile.
+
+
+
+5. The method of claim 1, wherein calculating the height value for the working tile further comprises selecting an average value from at least a portion of the height values of the working tile and the neighboring tiles.
+
+
+6. The method of claim 5, wherein calculating the height value for the working tile further comprises selecting a mean value from the height values of the working tile and the neighboring tiles.
+
+
+7. The method of claim 5, wherein calculating the height value for the working tile further comprises eliminating an outlier data point from the height values prior to selecting the average value.
+
+
+8. The method of claim 1, wherein dividing the set into individual tiles further comprises establishing a tile size for each individual tile based on the heights of the terrain features within each individual tile.
+
+
+9. The method of claim 1, wherein calculating the height value for the working tile further comprises eliminating an outlier data point from the height values prior to selecting the average value.
+
+
+10. The method of claim 1, wherein determining the buffer distance for the working tile further comprises determining a substantially uniform buffer distance around the working tile.
+
+
+11. The method of claim 1, wherein determining the buffer distance for the working tile further comprises determining a non-uniform buffer distance around the working tile.
+
+
+12. The method of claim 1, wherein determining the buffer distance at least partially depends on a seasonal characteristic of at least one of the terrain features.
+
+
+13. A solar advising system comprising:
+a solar energy processing server, wherein the solar energy processing service comprises a processor configured to divide a set of geographic data into tiles, determine a buffer distance for each tile based on a largest z-value in neighboring tiles, compute solar energy for each tile, and combine the resulting solar energy for each tile back into an output dataset.
+
+
+
+14. The system of claim 13, further comprising a geographic database coupled to the solar energy processing server, wherein the geographic database is configured to store the set of geographic data and to provide the set of geographic data to the solar energy processing server.
+
+
+15. The system of claim 14, further comprising a solar database coupled to the solar energy processing server, wherein the solar database is configured to store the output dataset from the solar energy processing server.
+
+
+16. The system of claim 15, further comprising an application server connected to the solar database, wherein the application server comprises a processor to combine the output dataset from the solar database with other data from a second database in preparation for presentation of the combined data to a client.
+
+
+17. A solar processing system comprising:
+a tiling module configured to process a set of geographic data into tiles, wherein the geographic data represents heights of terrain features;
+a buffering module coupled to the tiling module, wherein the buffering module is configured to determine a buffer zone for each tile based on height values in neighboring tiles;
+a solar computational module coupled to the buffering module, wherein the solar computation module is configured to output solar energy data within each tile based on the height values of the buffer zone and the height values within the tile itself; and
+a database coupled to the solar computation module, wherein the database is configured to store the solar energy data for each tile.
+
+
+
+18. The system of claim 17, further comprising a geographic database coupled to the tiling module, wherein the geographic database is configured to store the set of geographic data, and the set of geographic data comprises height values for corresponding terrain features.
+
+
+19. The system of claim 17, wherein the database is further configured to store a correlation between the solar energy data for each tile and original information from the set of geographic data.
+
+
+20. The system of claim 17, wherein the database is further configured to store a correlation between the solar energy data for each tile and a geographic map corresponding to a location represented by the set of geographic data. 
+

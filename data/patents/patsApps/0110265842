@@ -1,0 +1,44 @@
+
+A method for mounting photovoltaic modules includes calculating a structural load of at least one photovoltaic module based on an expected mechanical load so as to determine optimal attachment locations on the at least one photovoltaic module for attachment elements. The attachment elements are disposed at the determined attachment locations so that the attachment elements extend partially over a section of the at least one photovoltaic module. The at least one photovoltaic module is attached to the substructure via the attachment elements.
+
+
+
+1. A method for mounting photovoltaic modules, comprising the steps:
+calculating a structural load of at least one photovoltaic module based on an expected mechanical load so as to determine optimal attachment locations on the at least one photovoltaic module for attachment elements;
+disposing the attachment elements at the determined attachment locations so that the attachment elements extend partially over a section of the at least one photovoltaic module, and
+attaching the at least one photovoltaic module to the substructure via the attachment elements.
+
+
+
+2. The method according to claim 1, wherein the calculating of the structural load includes performing a finite element analysis method under the expected mechanical load.
+
+
+3. The method according to claim 1, wherein the attaching of the at least one photovoltaic module to the substructure includes connecting the attachment elements to a rail system of the substructure having a plurality of holding rails that extend substantially in parallel to one another.
+
+
+4. The method according to claim 3, wherein the attaching of the at least one photovoltaic module to the substructure includes disposing each of the at least one photovoltaic module so as to span at least two of the plurality of holding rails and connecting at least two of the attachment elements at a distance from one another to each of the at least two of the plurality of holding rails.
+
+
+5. The method according to claim 3, wherein the attaching of the at least one photovoltaic module to the substructure includes disposing each of the at least one photovoltaic module so as to span four of the plurality of holding rails and connecting at least two of the attachment elements at a distance from one another to each of the four of the plurality of holding rails so that longitudinal axes of the at least two attachment elements extend substantially at an angle of 90° with respect to a longitudinal axis of the four of the plurality of holding rails.
+
+
+6. The method according to claim 3, wherein the connecting of the attachment elements includes disposing the attachment elements substantially in a circle such that the attachment elements are respectively disposed in an angular range at 0°, 45°, 90°, 135°, 180°, 225°, 270° and 315°, and at least one of a 0° and 180° axis of the angular range extends approximately at an angle of 90° with respect to a longitudinal axis of the plurality of holding rails.
+
+
+7. The method according to claim 6, wherein the connecting of the attachment elements includes arranging longitudinal axes of the attachment elements positioned in the angular range at 90° and 270° substantially parallel to one another, and arranging longitudinal axes of the attachment elements positioned in the angular range at 0°, 45°, 135°, 180°, 225° and 315° substantially perpendicular to the longitudinal axis of the plurality of holding rails.
+
+
+8. A photovoltaic array, comprising:
+at least one photovoltaic module; and
+a plurality of attachment elements configured to attach the at least one photovoltaic module, at attachment locations, to a stationary substructure with the attachment elements extending partially over a section of the at least one photovoltaic module, including attachment locations corresponding to an expected mechanical load on the at least one photovoltaic module.
+
+
+
+9. The photovoltaic array according to claim 8, wherein the attachment elements have a substantially omega-shaped profile cross section including a middle section configured to be joined to the substructure and free profile legs configured to attach to the at least one photovoltaic module at the attachment locations.
+
+
+10. The photovoltaic array according to claim 8, further comprising at least one damping element disposed between the attachment elements and the substructure.
+
+
+11. The photovoltaic array according to claim 10, wherein the damping element includes an elastomer.
+

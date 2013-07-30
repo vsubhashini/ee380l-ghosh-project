@@ -1,0 +1,127 @@
+
+An AC photovoltaic module includes a DC photovoltaic module for converting solar energy to DC electrical power, and an inverter for converting DC electrical power to AC electrical power, the inverter being adapted for connection to a frame portion of the module and being sized and configured, and provided with arrangements of electrical components thereof, to dispense heat from the inverter, whereby to prolong operational life and reliability of the inverter.
+
+
+
+1. An AC photovoltaic module comprising:
+a DC photovoltaic module for producing DC electrical power; and
+an inverter for converting the DC electrical power to AC electrical power;
+wherein said inverter is mounted on said DC photovoltaic module; and
+wherein said inverter comprises a narrow elongated body adapted to be mounted proximate an outer edge of said DC photovoltaic module such that an elongated side of said inverter is fixed in abutting relationship to the outer edge of said DC photovoltaic module.
+
+
+
+
+2. The AC photovoltaic module in accordance with claim 1, and further comprising a frame member defining the outer edge of said DC photovoltaic module, and wherein said inverter is adapted to be fixed to said frame member.
+
+
+3. The AC photovoltaic module in accordance with claim 2 wherein said frame member is of metal.
+
+
+4. The AC photovoltaic module in accordance with claim 3 wherein said metal is at least in part aluminum.
+
+
+5. The AC photovoltaic module in accordance with claim 2 wherein said inverter is configured complementarily to said frame member.
+
+
+6. The AC photovoltaic module in accordance with claim 1 wherein said inverter is of a length about six times the width of said inverter and, the width being generally equal to the height of said inverter.
+
+
+7. The AC photovoltaic module in accordance with claim 1 wherein said inverter is provided with no more than one elongated circuit board extending substantially throughout the length of said inverter.
+
+
+8. The AC photovoltaic module in accordance with claim 7 wherein a series of electrical components are mounted on said circuit board.
+
+
+9. The AC photovoltaic module in accordance with claim 8 wherein cooler and taller electrical components thereof are mounted on a first side of said circuit board, and shorter and heat-producing components thereof are mounted on a second side of said circuit board.
+
+
+10. The AC photovoltaic module in accordance with claim 9 wherein said cooler and taller electrical components comprise at least inductors and capacitors, and said shorter and heat-producing components comprise at least diodes and transistors.
+
+
+11. The AC photovoltaic module in accordance with claim 9 wherein said AC photovoltaic module further comprises a heat sink proximate to said heat-producing components.
+
+
+12. The AC photovoltaic module in accordance with claim 8 and further comprising a housing substantially enclosing said circuit board and said electrical components.
+
+
+13. The AC photovoltaic module in accordance with claim 11 wherein said heat sink comprises a metal plate.
+
+
+14. The AC photovoltaic module in accordance with claim 13 wherein said metal is, at least in part, aluminum.
+
+
+15. The AC photovoltaic module in accordance with claim 13 wherein said heat sink plate extends beyond a housing enclosing said heat-producing components.
+
+
+16. The AC photovoltaic module in accordance with claim 12 wherein said housing is substantially filled with pottant enclosing said circuit board and said electrical components electrically and with the thermal mass.
+
+
+17. The AC photovoltaic module in accordance with claim 11 wherein said heat sink comprises a portion thereof extending into said housing.
+
+
+18. The AC photovoltaic module in accordance with claim 6 wherein the length of said inverter is about twelve inches, the width of said inverter is about two inches, and the height of said inverter is about two inches.
+
+
+19. The AC photovoltaic module in accordance with claim 2 wherein said inverter is adapted for mechanical attachment to said module frame member.
+
+
+20. An AC photovoltaic module comprising:
+a DC photovoltaic module for producing DC electrical power; and
+an inverter for converting the DC electrical power to AC electrical power;
+said inverter having film capacitor means therein for storing and releasing electrical energy; and
+said inverter being mounted on the DC photovoltaic module proximate an edge of the DC photovoltaic module.
+
+
+
+
+21. An AC photovoltaic module in accordance with claim 20 wherein said inverter comprises:
+an elongated narrow housing; and
+a single elongated circuit board disposed in said housing;
+said film capacitor means being mounted on a single side of said circuit board.
+
+
+
+22. An AC photovoltaic module in accordance with claim 21 wherein said circuit board is disposed proximate an outer wall of said inverter, and a heat sink is fixed to said inverter outer wall for carrying heat away from said inverter.
+
+
+23. The AC photovoltaic module in accordance with claim 22 wherein said heat sink comprises a plate extending outwardly from said inverter housing.
+
+
+24. The AC photovoltaic module in accordance with claim 23 wherein said plate is at least in part of heat conductive metal.
+
+
+25. The AC photovoltaic module in accordance with claim 21 wherein said circuit board and said capacitor means are embedded in a pottant.
+
+
+26. An inverter assembly for converting a DC electrical power input to an AC electrical power output, the inverter assembly comprising:
+means for receiving the DC electrical power from a DC power source;
+a set of at least one film capacitor for filtering input current switching ripple of a DC/DC converter;
+said DC/DC converter being adapted to convert input voltage from the DC power source to voltage suitable for a DC/AC inverter;
+a second set of at least one film capacitor for filtering switching ripple output of said DC/DC converter and input switching ripple of said DC/AC inverter; and
+said DC/AC converter being adapted to convert DC voltage to AC current and feed the AC current into an AC power grid.
+
+
+
+27. The inverter assembly in accordance with claim 26, wherein said second set of at least one film capacitor further serves as an energy storage element for storing a difference in DC energy input and AC energy output.
+
+
+28. The inverter assembly in accordance with claim 26 wherein said assembly is disposed within an elongated narrow inverter housing adapted for mechanical attachment to an edge of a photovoltaic module.
+
+
+29. The inverter assembly in accordance with claim 28 wherein a circuit board is disposed in said inverter housing, with relatively tall and cool circuit components mounted on a first side of said circuit board, and relatively short and hot components are mounted on a second side of said circuit board, the second side of said circuit board being proximate a second side of said housing and a heat sink mounted on the second side of said housing to convey heat from said hot components.
+
+
+30. An inverter assembly comprising:
+means for receiving DC electrical power from a DC power source;
+a DC/AC inverter adapted to convert the DC electrical power to AC electrical power;
+a set of at least one film capacitor for:
+(a) filtering switching ripples of input current to said DC/AC inverter; and
+(b) filtering energy difference between the inverter DC input power and the inverter AC output power; and
+said DC/AC inverter being adapted to feed AC current into an AC power grid.
+
+
+
+
+31. The AC photovoltaic module in accordance with claim 1 wherein a second elongated side of said inverter disposed oppositely to the fixed elongated side of said inverter is provided with at least one of a highly emissive coating and treatment to provide for improved heat transfer from said inverter.
+

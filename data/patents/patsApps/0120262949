@@ -1,0 +1,90 @@
+
+A photovoltaic module includes: a solar cell module including a plurality of solar cells; a junction box including a capacitor unit to store DC power supplied from the solar cell module, a dc/dc converter unit to level-convert the stored DC power and output the same; and a controller to control a voltage or current based on the supplied DC power from the solar cell module among a plurality of sections, calculate a local maximum power point in each of the sections using the controlled voltage or controlled current, determine a maximum power value among a plurality of calculated local maximum power points, and to control the dc/dc converter unit to output the level-converted DC power based on the determined maximum power value when a hot spot occurs in the solar cell module.
+
+
+
+1. A photovoltaic module comprising:
+a solar cell module including a plurality of solar cells;
+a junction box including a capacitor unit to store DC power supplied from the solar cell module, and a dc/dc converter unit to level-convert the stored DC power and output the level-converted DC power; and
+a controller to control a voltage or current based on the supplied DC power from the solar cell module among a plurality of sections where each section is a voltage range or a current range, calculate a local maximum power point in each of the sections using the controlled voltage or controlled current, determine a maximum power value among a plurality of calculated local maximum power points, and to control the dc/dc converter unit to output the level-converted DC power based on the determined maximum power value when a hot spot occurs in the solar cell module.
+
+
+
+2. The photovoltaic module of claim 1, wherein when the hot spot does not occur, the controller to control the voltage or current based on the supplied DC power from the solar cell module in a section, determine the maximum power value using the controlled voltage or controlled current, and to control the dc/dc converter unit to output the level-converted DC power based on the determined maximum power value.
+
+
+3. The photovoltaic module of claim 2, wherein the dc/dc converter includes a switching element and the controller controls the voltage or the current based on the supplied DC power by controlling the switching element.
+
+
+4. The photovoltaic module of claim 1, wherein the junction box further comprises:
+a current detection unit to detect current supplied to the capacitor unit; and
+a voltage detection unit to detect the voltage at both ends of the capacitor unit.
+
+
+
+5. The photovoltaic module of claim 4, wherein the controller uses at least one of the detected current and the detected voltage to determine whether the hot spot has occurred
+
+
+6. The photovoltaic module of claim 4, wherein the controller uses at least one of the detected current and the detected voltage to determine the maximum power value.
+
+
+7. The photovoltaic module of claim 1, wherein the controller calculates a point of inflection of a power versus voltage or current curved line in each of the sections, and calculates the calculated point of inflection as a local maximum power point.
+
+
+8. The photovoltaic module of claim 2, wherein when a hot spot does not occur, the controller calculates a point of inflection of the power versus voltage or current curved line, and determines the calculated point of inflection as a maximum power value.
+
+
+9. The photovoltaic module of claim 1, wherein the junction box further comprises:
+bypass diodes to bypass a solar cell in which a reverse voltage is generated, among the plurality of solar cells.
+
+
+
+10. The photovoltaic module of claim 9, wherein when one or more of the bypass diodes are turned on, the controller determines that the hot spot has occurred.
+
+
+11. The photovoltaic module of claim 1, wherein the junction box further comprises:
+an inverter unit to convert the level-converted DC power into AC power.
+
+
+
+12. A photovoltaic module comprising:
+a solar cell module including a plurality of solar cells;
+a capacitor unit to store DC power supplied from the solar cell module;
+a dc/dc converter unit to level-convert the stored DC power and output the level-converted DC power; and
+a controller to determine whether a hot spot has occurred,
+wherein when the controller determines that the hot spot has not occurred, the controller applying a first maximum power point tracking (MPPT) algorithm to control a voltage or current based on the supplied DC power from the solar cell module in a section where the section is a voltage range or a current range, determine a maximum power value using the controlled voltage or controlled current, and to control the dc/dc converter unit to output the level-converted DC power based on the determined maximum power value, and
+When the controller has determined that the hot spot has occurred, the controller applying a second maximum power point tracking (MPPT) algorithm to control the voltage or current based on the supplied DC power from the solar cell module among a plurality of sections, calculate a local maximum power point in each of the sections using the controlled voltage or controlled current, determine a maximum power value among a plurality of calculated local maximum power points, and to control the dc/dc converter unit to output the level-converted DC power based on the determined maximum power value.
+
+
+
+13. The photovoltaic module of claim 12, wherein the dc/dc converter includes a switching element and the controller controls the voltage or the current based on the supplied DC power by controlling the switching element.
+
+
+14. The photovoltaic module of claim 12, further comprises:
+a current detection unit to detect current supplied to the capacitor unit; and
+a voltage detection unit to detect the voltage at both ends of the capacitor unit.
+
+
+
+15. The photovoltaic module of claim 14, wherein the controller uses at least one of the detected current and the detected voltage to determine whether the hot spot has occurred.
+
+
+16. The photovoltaic module of claim 14, wherein the controller uses at least one of the detected current and the detected voltage to determine the maximum power value.
+
+
+17. A method for controlling a photovoltaic module, the method comprising:
+detecting at least one of a DC voltage and a DC current supplied from a solar cell module;
+determining by a controller whether or not a hot spot has occurred based on the at least one of the detected DC voltage and the detected DC current;
+when a hot spot has occurred, dividing by the controller at least one of the supplied DC voltage and DC current into a plurality of sections and calculating a local maximum power point in each of the sections; and
+determining by the controller a maximum value from among a plurality of calculated local maximum power points.
+
+
+
+18. The method of claim 17, wherein, in calculating by the controller a local maximum power point, a point of inflection of a power versus voltage or current curved line in each of the sections is calculated, and the calculated point of inflection is calculated as a local maximum power point.
+
+
+19. The method of claim 18, wherein when the hot spot does not occur, a point of inflection of a power verses voltage or current line in a section is calculated by the controller, and the calculated point of inflection is a maximum power value.
+
+
+20. The method of claim 19, further comprises controlling a switch of the dc/dc converter by the controller so that the calculated maximum power value is outputted from the photovoltaic module. 
+

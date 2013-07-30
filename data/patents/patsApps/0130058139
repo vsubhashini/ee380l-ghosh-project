@@ -1,0 +1,234 @@
+
+A new and renewable energy generation system includes: an inverter for converting a DC voltage into an AC voltage; a three-phase/two-phase transformer for transforming an output of the inverter into a three-phase/two-phase stationary coordinate system; a phase locked loop for calculating the phase and frequency of an output voltage of the inverter; a phase shifter for generating a current phase reference value; a current reference coordinate transformer for transforming the current phase reference value and the current amplitude reference value into a two-phase stationary coordinate system; a current phase calculator for outputting a current phase calculation value; a current phase calculator for outputting a current amplitude calculation value; a current adjuster for generating a current adjustment signal; an output three-phase transformer for transforming the current adjustment signal into a current adjustment signal in a three-phase stationary coordinate system; and a PWM controller for outputting a PWM control signal.
+
+
+
+1. A new and renewable energy generation system having an anti-islanding protection function, the new and renewable energy generation system comprising:
+an inverter configured to convert a DC voltage supplied from a new and renewable energy source into an AC voltage;
+a three-phase/two-phase transformer configured to transform an output of the inverter into a three-phase/two-phase stationary coordinate system;
+a phase locked loop configured to calculate the phase and frequency of an output voltage of the inverter using a two-phase voltage outputted from the three-phase/two-phase shifter;
+a phase shifter configured to selectively compare the frequency of the output voltage of the inverter with a plurality of mutually different threshold values through use of the frequency of the output voltage outputted from the phase locked loop and a current amplitude reference value applied from an exterior, and to generate a current phase reference value for shifting an output phase of the inverter;
+a current reference coordinate transformer configured to transform the current phase reference value outputted from the phase shifter and the current amplitude reference value into a two-phase stationary coordinate system through use of a phase angle outputted from the phase locked loop;
+a current phase calculator configured to subtract a phase component of output current of the inverter, which is outputted from a current two-phase transformer, from the current phase reference value in the two-phase stationary coordinate system outputted from the current reference coordinate transformer, and to output a current phase calculation value;
+a current phase calculator configured to subtract an amplitude component of output current of the inverter, which is outputted from the current two-phase transformer, from the current amplitude reference value in the two-phase stationary coordinate system outputted from the current reference coordinate transformer, and to output a current amplitude calculation value;
+a current adjuster configured to generate a current adjustment signal using the current phase calculation value and the current amplitude calculation value;
+an output three-phase transformer configured to transform the current adjustment signal in the two-phase stationary coordinate system, which is outputted from the current adjuster, into a current adjustment signal in a three-phase stationary coordinate system; and
+a PWM controller configured to output a PWM control signal to the inverter using the current adjustment signal in the three-phase stationary coordinate system, which is outputted from the output three-phase transformer.
+
+
+
+2. The system according to claim 1, wherein the three-phase/two-phase transformer comprises:
+a voltage two-phase transformer configured to transform a three-phase output voltage of the inverter into the two-phase stationary coordinate system; and
+a current two-phase transformer configured to transform three-phase output current of the inverter into the two-phase stationary coordinate system.
+
+
+
+3. The system according to claim 1, further comprising a non-detection zone setting unit configured to set a non-detection zone so as not to shift the phase of the output current of the inverter when the frequency of the output voltage of the inverter outputted from the phase locked loop varies within a predetermined range.
+
+
+4. The system according to claim 1, wherein the current phase reference value applied to the current phase calculator further comprises an inactive current compensation value to compensate for an inactive current portion in the inverter.
+
+
+5. The system according to claim 1, wherein the phase shifter does not shift the phase of the output current of the inverter when the frequency of the output voltage of the inverter is less than a first threshold value.
+
+
+6. The system according to claim 1, wherein the phase shifter gradually increases the phase of the output current of the inverter when the frequency of the output voltage of the inverter is greater than a first threshold value and is less than a second threshold value.
+
+
+7. The system according to claim 1, wherein the phase shifter fixes the phase of the output current of the inverter at a predetermined value when the frequency of the output voltage of the inverter is greater than a second threshold value.
+
+
+8. The system according to claim 1, wherein the current adjuster uses a proportional-resonant controller to generate the current adjustment signal.
+
+
+9. The system according to claim 6, wherein gradually increasing the phase of the output current of the inverter is implemented by a following equation:
+
+
+
+
+  
+    
+      θ
+      F
+    
+    =
+    
+      
+        θ
+        M
+      
+      
+      
+        sin
+        
+        
+          [
+          
+            
+              π
+              2
+            
+            
+            
+              
+                (
+                
+                  
+                    f
+                    
+                      Load
+                      
+                      
+                        [
+                        
+                          K
+                          -
+                          1
+                        
+                        ]
+                      
+                    
+                  
+                  -
+                  
+                    f
+                    grid
+                  
+                
+                )
+              
+              
+                
+                  f
+                  M
+                
+                -
+                
+                  f
+                  grid
+                
+              
+            
+          
+          ]
+        
+      
+    
+  
+  ,
+
+
+
+wherein θF represents a control phase angle of the output current, θM represents a maximum control phase angle of the output current, f[K-1] represents a frequency measured in a previous cycle, fM represents a measured frequency, and fgrid represents a rated frequency of a grid which is electrically connected with an output terminal of the inverter.
+
+
+
+10. An anti-islanding protection method of a new and renewable energy generation system, the method comprising:
+step 1 of measuring a voltage and current which are outputted from an inverter;
+step 2 of transforming the measured voltage and current in a three-phase stationary coordinate system into a voltage and current in a two-phase stationary coordinate system;
+step 3 of calculating a phase and a frequency of an output voltage of the inverter using a voltage signal in the two-phase stationary coordinate system;
+step 4 of determining whether the calculated frequency has a value within a non-detection zone; and
+step 5 of increasing the phase of an output current of the inverter in an identical direction when the calculated frequency is deviated from the non-detection zone.
+
+
+
+11. The method according to claim 10, further comprising step 6 of fixing a phase of an output current of the inverter as a maximum current phase angle when the calculated frequency arrives at a threshold value through the increasing in the equal direction.
+
+
+12. The method according to claim 10, wherein step 5 is performed with a following equation:
+
+
+
+
+  
+    
+      θ
+      F
+    
+    =
+    
+      
+        θ
+        M
+      
+      
+      
+        sin
+        
+        
+          [
+          
+            
+              π
+              2
+            
+            
+            
+              
+                (
+                
+                  
+                    f
+                    
+                      Load
+                      
+                      
+                        [
+                        
+                          K
+                          -
+                          1
+                        
+                        ]
+                      
+                    
+                  
+                  -
+                  
+                    f
+                    grid
+                  
+                
+                )
+              
+              
+                
+                  f
+                  M
+                
+                -
+                
+                  f
+                  grid
+                
+              
+            
+          
+          ]
+        
+      
+    
+  
+  ,
+
+
+
+wherein θF represents a control phase angle of the output current, θM represents a maximum control phase angle of the output current, f[K-1] represents a frequency measured in a previous cycle, fM represents a measured frequency, and fgrid represents a rated frequency of a grid which is electrically connected with an output terminal of the inverter.
+
+
+
+13. A photovoltaic generation system having an anti-islanding protection function, the system comprising:
+a means for not shifting a phase of an output current of an inverter when a frequency of an output voltage of the inverter is less than a first threshold value;
+a means for gradually increasing the phase of the output current of the inverter when the frequency of the output voltage of the inverter is greater than the first threshold value and is less than a second threshold value; and
+a means for fixing the phase of the output current of the inverter at a predetermined value and separating an energy supply source of the inverter from a grid when the frequency of the output voltage of the inverter is greater than the second threshold value,
+wherein current amplitude and phase control signals for controlling the inverter are generated in a stationary coordinate system.
+
+
+
+14. An anti-islanding protection method of a photovoltaic generation system, the method comprising the steps of:
+not shifting a phase of an output current of an inverter when a frequency of an output voltage of the inverter is less than a first threshold value;
+gradually increasing the phase of the output current of the inverter when the frequency of the output voltage of the inverter is greater than the first threshold value and is less than a second threshold value; and
+fixing the phase of the output current of the inverter at a predetermined value and separating an energy supply source of the inverter from a grid when the frequency of the output voltage of the inverter is greater than the second threshold value,
+wherein current amplitude and phase control signals for controlling the inverter are generated in a stationary coordinate system. 
+
+

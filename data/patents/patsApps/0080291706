@@ -1,0 +1,77 @@
+
+A photovoltaic system, method and apparatus are disclosed. In an exemplary embodiment, the system includes a photovoltaic array, a distribution system that distributes power within a premises of a demand-side energy consumer, an inverter coupled to the distribution system that is configured to convert DC power from the photovoltaic array to AC power and apply the AC power to the distribution system, a damping portion configured to damp high frequency voltages derived from the inverter, and trapping circuitry coupled to the damping portion that is configured to reduce a level of low frequency current traveling through the damping portion.
+
+
+
+1. A photovoltaic system comprising:
+a photovoltaic array;
+a distribution system, wherein the distribution system distributes power within a premises of a demand-side energy consumer;
+an inverter coupled to the distribution system, the inverter is configured to convert DC power from the photovoltaic array to AC power and apply the AC power to the distribution system; and
+a damping portion configured to damp high frequency voltages derived from the inverter, wherein the frequency of the high frequency voltages is a function of the switching frequency of the inverter; and
+trapping circuitry coupled to the damping portion, the trapping circuitry configured to reduce a level of low frequency current traveling through the damping portion.
+
+
+
+2. The system of claim 1, wherein the photovoltaic array is a bi-polar array including a first-array-portion configured to operate above ground, and a second array portion configured to operate below ground.
+
+
+3. The system of claim 1, wherein the distribution system is a three-phase distribution system.
+
+
+4. The system of claim 1, wherein the damping portion is housed within the inverter.
+
+
+5. The system of claim 1, wherein the damping circuitry is configured to damp high frequency voltages that have frequencies around 18 kHz.
+
+
+6. The system of claim 1, wherein the trapping circuitry is configured to substantially prevent 180 Hz current from flowing through the damping circuitry.
+
+
+7. The system of claim 1, including a plurality of inverters coupled to the distribution system.
+
+
+8. The system of claim 1, wherein the inverter is configured to convert the DC power from the photovoltaic array directly into 480 VAC three-phase power.
+
+
+9. The system of claim 1, wherein the inverter is coupled directly to the distribution system without an isolation transformer.
+
+
+10. A power conversion device comprising:
+inputs adapted to receive DC power;
+an inverter portion configured to convert the DC power to AC power;
+outputs adapted to apply the AC power to a distribution system of a premises of a demand-side energy consumer;
+a damping portion configured to damp high frequency voltages derived from the inverter so as to enable the inverter portion to couple with the distribution system without an isolation transformer; and
+a trapping portion coupled to the damping portion, the trapping portion configured to reduce a level of low frequency current traveling through the damping circuit.
+
+
+
+11. The power conversion device of claim 10, wherein the inverter is adapted to convert DC voltage that exceeds 600 VDC to 480 VAC.
+
+
+12. The power conversion device of claim 10, wherein the damping portion includes two damper networks, each of the damper networks coupled between a corresponding rail of the inverter and ground.
+
+
+13. The power converter device of claim 12 wherein the trapping portion is disposed between each of the damper networks and ground.
+
+
+14. A method for applying power to a distribution system of premises of a demand-side energy consumer, comprising:
+generating DC power from a renewable source of energy;
+converting the DC power to AC power;
+applying the AC power directly to the distribution system of the premises; and
+filtering high frequency voltages so as to reduce an amount of high frequency voltages propagating to the distribution system.
+
+
+
+15. The method of claim 14, wherein generating includes:
+generating DC power with a first photovoltaic array configured to operate above a ground potential;
+generating DC power with a second photovoltaic array configured to operate below a ground potential;
+tying a negative rail of the first photovoltaic array to a positive rail of the second photovoltaic array so as to create a bipolar array; and
+applying power from the positive rail of the first array and the negative rail of the second array to the inverter.
+
+
+
+16. The method of claim 14, wherein converting includes:
+converting the DC power to AC power with a plurality of inverters;
+directly applying the AC power from each of the inverters to the distribution system of the premises. 
+
+

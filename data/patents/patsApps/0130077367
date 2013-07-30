@@ -1,0 +1,78 @@
+
+System, power modules, and methods for supplying an output voltage to an electric grid are provided. One example power module includes a switching device configured to supply an output from a power generator to an electric grid, a feedback unit configured to provide a feedback signal indicative of a deviation of a parameter associated with the electric grid, and a controller coupled to the feedback unit and the switching device. The controller is configured to adjust a reactive current of the output in response to at least one grid fault event to ride through the at least one grid fault event, to modify the deviation provided from the feedback unit, to control the switching device based on the modified deviation, and to detect an islanding condition based on the parameter associated with the electric grid.
+
+
+
+1. A power module for use in interfacing a power generator to an electric grid, said power module comprising:
+a switching device configured to supply an output from a power generator to an electric grid;
+a feedback unit configured to provide a feedback signal indicative of a deviation of a parameter associated with the electric grid; and,
+a controller coupled to said feedback unit and said switching device, said controller configured to adjust a reactive current of the output in response to at least one grid fault event to ride through the at least one grid fault event, to modify the deviation provided from said feedback unit, to control said switching device based on the modified deviation, and to detect an islanding condition based on the parameter associated with the electric grid.
+
+
+
+2. The power module of claim 1, wherein said controller is configured to amplify the deviation provided from said feedback unit.
+
+
+3. The power module of claim 1, wherein said controller is configured to drive, based on the modified deviation, the parameter associated with the electric grid away from a nominal value during the islanding condition.
+
+
+4. The power module of claim 3, wherein said controller is configured to determine if the parameter exceeds a threshold range for a predetermined interval to detect the islanding condition.
+
+
+5. The power module of claim 4, wherein the deviation provided from said feedback unit includes a frequency deviation and an amplitude deviation, wherein said controller comprises a modification circuit configured to modify at least one of the amplitude deviation and the frequency deviation, and wherein the parameter includes one of a voltage associated with the electric grid and a current associated with the electric grid.
+
+
+6. The power module of claim 4, wherein said controller comprises a modulator configured to control said switching device based on the modified deviation.
+
+
+7. The power module of claim 1, wherein said controller is configured to disconnect the power generator from the electric grid when the islanding condition is detected.
+
+
+8. The power module of claim 7, wherein said controller comprises a VAR regulator configured to adjust the reactive current in response to the at least one grid fault event to ride through the at least one grid fault event, and, wherein said VAR regulator is further configured to adjust the reactive current based on the modified deviation.
+
+
+9. The power module of claim 1, wherein said feedback unit comprises a phase-lock-loop (PLL) circuit configured to provide a feedback signal indicative of at least one of a frequency deviation and an amplitude deviation of a voltage associated with the electric grid.
+
+
+10. The power module of claim 1, wherein said switching device comprises an insulated gate bipolar junction transistor (IGBT).
+
+
+11. A power system comprising:
+a power generator configured to generate a DC output; and
+a power module coupled to said power generator and configured to convert the DC output to an AC output and provide the AC output to an electric grid, said power module includes:
+a switching device; and,
+a controller coupled to said switching device and having a feedback loop, said controller configured to control said switching device based on said feedback loop, said controller configured to adjust a reactive current of the AC output in response to at least one grid fault event to ride through the at least one grid fault event, said controller further configured to inject noise into said feedback loop to detect an islanding condition.
+
+
+
+
+12. The power system of claim 11, wherein said feedback loop includes a feedback unit configured to detect a deviation of a parameter associated with the electric grid from a nominal value, and, wherein said controller is configured to amplify the deviation detected by said feedback unit to inject noise into said control loop.
+
+
+13. The power system of claim 12, wherein the deviation includes at least one of a frequency deviation and an amplitude deviation, and wherein said controller is configured to amplify the at least one of the frequency deviation and the amplitude deviation.
+
+
+14. The power system of claim 13, wherein said controller includes a VAR regulator configured to control the reactive current of the AC output supplied to the electric grid based on at least the amplified deviation.
+
+
+15. The power system of claim 12, wherein said controller is configured to detect the islanding condition when a parameter associated with the electric grid exceeds a threshold range for a predetermined interval.
+
+
+16. The power system of claim 11, wherein said at least one switching device comprises a plurality of insulated gate bipolar junction transistors (IGBTs) configured to provide a three-phase AC voltage, and, wherein the AC output includes the three-phase AC voltage.
+
+
+17. The power system of claim 16, wherein said switching device comprises an inverter, and, wherein said power generator comprises at least one photovoltaic (PV) cell.
+
+
+18. A method for use in interfacing a power generator to an electric grid through a power module, the power module including a switching device and a controller coupled to the switching device, said method comprising:
+adjusting, at the controller, a reactive current of the output from the power generator in response to at least one grid fault event to ride through the at least one grid fault event;
+monitoring a deviation of a parameter from a nominal value, the parameter associated with the electric grid; and
+detecting an islanding condition when the parameter exceeds a threshold range for a predetermined interval.
+
+
+
+19. The method of claim 18, further comprising modifying, at the controller, the deviation of the parameter and controlling the switching device based on the modified deviation.
+
+
+20. The method of claim 19, further comprising adjusting an active voltage of the output from the power generator in response to the at least one grid fault event to ride through the at least one grid fault event. 
+

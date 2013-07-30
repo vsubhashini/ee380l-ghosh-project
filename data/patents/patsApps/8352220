@@ -1,0 +1,123 @@
+
+Embodiments may include systems and methods to create and edit a representation of a worksite, to create various data objects, to classify such objects as various types of pre-defined “features” with attendant properties and layout constraints. As part of or in addition to classification, an embodiment may include systems and methods to create, associate, and edit intrinsic and extrinsic properties to these objects. A design engine may apply of design rules to the features described above to generate one or more solar collectors installation design alternatives, including generation of on-screen and/or paper representations of the physical layout or arrangement of the one or more design alternatives. Embodiments may also include definition of one or more design apertures, each of which may correspond to boundaries in which solar collector layouts should comply with distinct sets of user-defined design preferences. Distinct apertures may provide heterogeneous regions of collector layout according to the user-defined design preferences.
+
+
+
+1. A method of using a computer to design a solar collector installation layout on a representation of a physical installation worksite comprising at least one geometric object, comprising:
+defining in computer storage at least one work area representing an allowable solar collector installation region, the allowable solar collector installation region corresponding to sub-areas of the representation of the physical installation worksite in computer storage;
+defining in computer storage at least one layout aperture, each such layout aperture representing a boundary for application of particular design preferences regarding placement of solar collectors; and
+using the computer to automatically generate a layout of solar collectors within the allowable solar collector installation region of the work area and within the layout aperture, wherein the layout of solar collectors is generated according to the aperture's design preferences regarding placement of solar collectors.
+
+
+
+2. The method of claim 1 wherein using the computer to automatically generate the layout of solar collectors comprises generating the layout of solar collectors only in any overlapping installation region contained in both the work area and the aperture.
+
+
+3. The method of claim 2, further comprising enabling a user to define multiple work areas representing multiple allowable solar installation regions; and enabling a user to define multiple layout apertures representing multiple boundaries for application of distinct design preferences for placement of solar collectors.
+
+
+4. The method of claim 2, wherein using the computer to automatically generate a layout of solar collectors comprises generating an array of solar collector placement locations in all overlapping installation regions in both the work area and the aperture, and removing solar collector placement locations from regions affected by obstruction objects.
+
+
+5. The method of claim 1, further comprising classifying at least one geometric object as a type of feature of the installation worksite, wherein using the computer to automatically generate the layout of solar collectors comprises generating the layout in accordance with the aperture's design preferences regarding placement of solar collectors and the classified object's properties regarding placement of solar collectors.
+
+
+6. The method of claim 1, wherein the solar collector installation layout is configured for electrical connection to a public utility grid.
+
+
+7. The method of claim 1, wherein the solar collectors comprise photovoltaic modules.
+
+
+8. The method of claim 1, wherein the design preferences are user-defined.
+
+
+9. The method of claim 1, wherein the design preferences comprise solar collector type, solar collector mounting system, collector orientation, collector spacing and layout starting point.
+
+
+10. The method of claim 1, wherein the work area is defined by the user.
+
+
+11. The method of claim 1, wherein the work area is implicitly defined by classifying an object in the representation of the physical installation worksite as a type of feature on which solar collectors are capable of being placed.
+
+
+12. A computer-based user interface for designing a solar collector layout on a representation of a physical installation worksite, comprising:
+a visual representation of a physical installation worksite;
+a boundary for a work area in the visual representation, the work area defining regions in which solar collectors are capable of being placed;
+a boundary for an aperture in the visual representation, the aperture associated with a set of design preferences for the solar collector layout being designed, the aperture boundary defining an extent to which the set of design preferences is applied when generating a layout of solar collectors; and
+a control for generating a layout of solar collectors on the visual representation, the layout substantially limited to the overlapping regions within both of the work area boundary and the aperture boundary, wherein the layout is generated at least in part according to the set of design preferences associated with the aperture.
+
+
+
+13. The user interface of claim 12, wherein at least one of the design preferences is selected from the group consisting of solar collector type, solar collector mounting system, inter-row spacing, orientation, starting point, offset, tilt, direction, aperture priority, and string voltage.
+
+
+14. The user interface of claim 12, further comprising a control operable to modify at least one of the design preferences associated with the aperture.
+
+
+15. A method of using a computer to design a solar collector installation layout on a representation of an installation worksite, the representation comprising geometric objects corresponding to physical features at the installation worksite, comprising:
+defining a first layout aperture, the first layout aperture associated with a first boundary and a first set of design preferences for layout of solar collectors within the first layout aperture;
+defining a second layout aperture, the second layout aperture associated with a second boundary and a second set of design preferences for layout of solar collectors within the second layout aperture;
+automatically generating a first partial installation layout for the installation worksite corresponding to the first set of design preferences as applied to geometric objects at least partially within or in proximity to the first layout aperture boundary; and
+automatically generating a second partial installation layout for the installation worksite corresponding to the second set of design preferences as applied to geometric objects at least partially within or in proximity to the second layout aperture boundary; and
+automatically adjusting at least one of the first installation layout and the second installation layout based at least in part on a set of aperture conflict resolution rules.
+
+
+
+16. The method of claim 15, further comprising rendering the first partial installation layout and the second partial installation layout on an output device.
+
+
+17. The method of claim 15, further comprising rendering the first partial installation layout and the second partial installation layout on an output device as adjusted.
+
+
+18. The method of claim 15, wherein the first layout aperture and the second layout aperture are substantially non-overlapping.
+
+
+19. The method of claim 15, wherein at least one of the design preferences of the first set of design preferences and of the second set of design preferences are selected from the group of solar collector type, collector orientation, aperture shape, aperture size, aperture orientation, aperture location, and aperture start layout point.
+
+
+20. The method of claim 15, wherein automatically adjusting at least one of the first installation layout and the second installation layout based at least in part on a set of aperture conflict resolution rules comprises removing a solar collector from the second layout of solar collectors.
+
+
+21. The method of claim 15, wherein automatically adjusting at least one of the first installation layout and the second installation layout based at least in part on a set of aperture conflict resolution rules comprises resolving a conflict in placement of solar collectors in accordance with the first set of design preferences.
+
+
+22. The method of claim 15, wherein automatically generating a first partial installation layout, automatically generating a second partial installation layout, and automatically adjusting at least one of the first partial installation layout and the second partial installation layout are each performed in accordance with a set of project properties that are independent of any particular aperture.
+
+
+23. The method of claim 15, wherein automatically generating a first partial installation layout, automatically generating a second partial installation layout, and automatically adjusting at least one of the first partial installation layout and the second partial installation layout are each performed in accordance with one or more layout rules related to the placement of solar collectors at an installation worksite.
+
+
+24. The method of claim 15, wherein the solar collectors comprise photovoltaic modules.
+
+
+25. A method of using a computer to design a solar collector installation layout on a representation of an installation worksite, the representation comprising geometric objects, comprising:
+classifying at least one of the geometric objects as a particular feature, the feature being selected from a set of defined feature classes;
+defining a set of layout apertures, each layout aperture associated with boundaries and a set of design preferences for solar collector placement within that aperture;
+automatically placing solar collectors within the boundaries of a first one of the layout apertures, the layout of the solar collectors corresponding to the set of design preferences associated with the first layout aperture as applied to the feature, the layout made in accordance with properties associated with the feature; and
+automatically placing additional solar collectors within the boundaries of each remaining layout aperture in turn, the layout of each additional solar collector corresponding to the set of design preferences associated with a particular layout aperture as applied to the feature, the layout made in accordance with properties associated with the feature, the placement of each additional solar collector being consistent with the placement of previously-placed solar collectors.
+
+
+
+26. The method of claim 25, wherein at least one of the first set of design preferences is selected from the group of defined solar collector types, collector orientation, aperture height, aperture width, aperture geometry, and aperture initial layout point.
+
+
+27. The method of claim 26, wherein defined solar collector types only include solar collector types defined prior to the time of specification.
+
+
+28. The method of claim 25, wherein the layout apertures are substantially overlapping.
+
+
+29. The method of claim 25, wherein automatically placing solar collectors is performed in accordance with a set of project preferences that are independent of any one aperture.
+
+
+30. The method of claim 25, wherein automatically placing solar collectors is performed in accordance with one or more layout rules related to the placement of solar collectors at an installation worksite.
+
+
+31. The method of claim 25, wherein automatically placing solar collectors is performed in accordance with relative priority information assigned to each of the apertures.
+
+
+32. The method of claim 25, wherein the solar collectors comprise photovoltaic modules.
+
+
+33. The method of claim 25, wherein defined feature classes only include feature classes defined prior to the time of classification. 
+

@@ -1,0 +1,81 @@
+
+This invention concerns an electrical energy supply and distribution system. The system is able to handle both large centralised electricity generation plants, as well secondary energy sources which are becoming increasingly important. These sources may or may not be connected to deliver electrical energy to a 50 Hz AC power distribution grid. The system comprises a supply side where multiple electrical energy generators are connected via connections ports, involving conditioning circuitry, into a single DC electrical energy source. This energy source may be supplied to a common inverter system to convert it to AC for transmission on over a power grid. A rectifier may take the AC power from the grid and delivers it to loads. Whether an AC grid in involved or not, on the delivery side energy is delivered to multiple loads via connection ports involving conditioning circuitry. Any of the generators or loads may be taken offline or connected back into the system at will.
+
+
+
+1. An electrical energy supply and distribution system suitable for medium scale supply, comprising a direct current loop,
+for supply of electrical energy, plural connection ports for selective connection to respective electrical energy generators, wherein each connection port includes a bypass to allow direct current to flow round the loop in the absence of a generator connected at that port, and electricity conditioning circuitry to deliver and vary direct current power supply to the loop from a connected generator; and,
+for delivery of electrical energy, plural connection ports for selective connection to respective electrical energy loads, wherein each connection port includes a bypass to allow direct current to flow round the loop in the absence of a load connected at that port, and electricity conditioning circuitry to deliver and vary electrical power supply to a load connected at the port.
+
+
+
+2. An electrical energy supply and distribution system according to claim 1, wherein the loop includes all the energy sources collected together on a “supply side”, and all the inverters and loads separately collected together on a “delivery side”.
+
+
+3. An electrical energy supply and distribution system according to claim 2, wherein between the “supply side” and the “delivery side” is an AC power grid.
+
+
+4. An electrical energy supply and distribution system according to claim 1, wherein the sources and loads are interspersed in any order around the direct current loop.
+
+
+5. An electrical energy supply and distribution system according to claim 1, wherein the electricity conditioning circuitry involves a switching regulator, a flyback regulator, a buck regulator or a bridge converter regulator.
+
+
+6. An electrical energy supply and distribution system according to claim 5, wherein a flyback regulator or bridge converter is used in conjunction with a galvanic isolation transformer.
+
+
+7. An electrical energy supply and distribution system according to claim 1, wherein there are both AC and DC electrical generators.
+
+
+8. An electrical energy supply and distribution system according to claim 1, wherein the electrical generators are one or more of:
+a wind turbine,
+photovoltaic solar cells,
+a diesel power generator,
+a motor generator, a gas turbine,
+a tidal turbine generator,
+a steam turbine, a storage battery, or
+a reticulated supply.
+
+
+
+9. An electrical energy supply and distribution system according to claim 1, wherein an AC electrical generator is connected to the direct current loop via a rectifier bridge that converts the AC power to DC.
+
+
+10. An electrical energy supply and distribution system according to claim 9, wherein the rectifier bridge also functions as a bypass to allow direct current to flow round the loop in the event the generator is removed from the loop.
+
+
+11. An electrical energy supply and distribution system according to claim 9, wherein galvanic isolation is provided by the addition of a transformer between the AC generator and the rectifier bridge.
+
+
+12. An electrical energy supply and distribution system according to claim 1, wherein the electrical generator is an asynchronous induction type generator arranged with a reactive magnetising power (VAR) generator.
+
+
+13. An electrical energy supply and distribution system according to claim 1, wherein the bypass associated with a DC electrical generator is a diode.
+
+
+14. An electrical energy supply and distribution system according to claim 1, wherein electrical energy storage devices are located with the electrical generators or loads.
+
+
+15. An electrical energy supply and distribution system according to claim 14, wherein the electrical energy storage devices are connected into the conditioning circuitry.
+
+
+16. An electrical energy supply and distribution system according to claim 14, wherein the electrical energy storage devices are batteries or super capacitors.
+
+
+17. An electrical energy supply and distribution system according to claim 1, wherein an AC load is connected to the DC loop via electricity conditioning circuitry that involves an inverter that converts DC power to AC.
+
+
+18. An electrical energy supply and distribution system according to claim 1, wherein A DC load is connected using a switching regulator.
+
+
+19. An electrical energy supply and distribution system according to claim 18, wherein the switching regulator is configured to boost up or buck down, or a “flyback” switching regulator or bridge converter.
+
+
+20. An electrical energy supply and distribution system according to claim 19, wherein a galvanic isolation transformer is used to isolate a load.
+
+
+21. An electrical energy supply and distribution system according to claim 1, wherein the bypass device on the delivery side is a transistor, a thyristor or a mechanical switch.
+
+
+22. An electrical energy supply and distribution system according to claim 1 wherein the delivery side comprises plural parallel inverter outputs connected to individual primary windings of a multi-primary winding transformer.
+

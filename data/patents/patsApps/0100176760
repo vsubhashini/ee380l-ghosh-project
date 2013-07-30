@@ -1,0 +1,92 @@
+
+A charging system for an intelligent consumer device is presented. The charging system includes a monitoring program executed by the intelligent consumer device that displays data related to the charge state of a battery pack. An intelligent charger provides solar generated power and data to the intelligent consumer device regarding performance of the solar panel. The power management application may be downloaded to the intelligent consumer device from the internet.
+
+
+
+1. An intelligent charger, comprising:
+a solar panel;
+a connector;
+monitor and control electronics coupled to the solar panel, the monitor and control electronics capable of conditioning power, monitoring performance characteristics of the solar panel, and providing power to the connector to charge a device battery pack of an intelligent consumer device connected to the connector; and
+a microprocessor coupled to the monitor and control electronics and the connector, the microprocessor receiving data from the monitor and control electronics and providing data to the intelligent consumer device through the connector.
+
+
+
+2. The charger of claim 1, further including a charger battery pack and wherein the monitor and control electronics is further coupled to the charger battery pack, the monitor and control electronics capable of monitoring the charger battery pack, charging the charger battery pack, and utilizing power from the charger battery pack to charge the device battery pack.
+
+
+3. The charger of claim 2, wherein the charger can be coupled to a personal computer to receive programming.
+
+
+4. The charger of claim 3, wherein the charger can be coupled to the personal computer through the connector.
+
+
+5. The charger of claim 3, wherein the charger can be coupled to the personal computer through a wireless connection.
+
+
+6. The charger of claim 1, wherein the charger can communicate with the intelligent consumer device through a wireless connection.
+
+
+7. The charger of claim 1, wherein the charger is arranged to receive and hold the intelligent consumer device.
+
+
+8. The charger of claim 7, wherein the charger includes a window aligned with a display on the intelligent consumer device.
+
+
+9. The charger of claim 1, further including a display.
+
+
+10. The charger of claim 9, wherein the microprocessor displays information received from the intelligent consumer device on the display.
+
+
+11. A power monitoring system, comprising
+an intelligent consumer device including a microprocessor, a device battery pack, a display, and a connector, the microprocessor executing software code that
+receives performance data from an intelligent charger, the intelligent charger including a solar panel and providing charging current to the device battery pack;
+monitors charging of the device battery pack to obtain charging data; and
+displays performance data and charging data on a program monitor dashboard displayed on the display.
+
+
+
+
+12. The system of claim 11, wherein the intelligent consumer device can coupled with a personal computer to receive and store the software code.
+
+
+13. The system of claim 11, wherein the intelligent consumer device includes a wireless transceiver through which the software code can be received from a web server.
+
+
+14. The system of claim 11, wherein the performance data includes solar data for a solar panel.
+
+
+15. The system of claim 11, wherein performance data includes charging data for a charger battery pack on the intelligent charger.
+
+
+16. The system of claim 11, wherein performance data includes temperature data.
+
+
+17. The system of claim 11, wherein performance data is updated in a set time.
+
+
+18. The system of claim 17, wherein the set time is determined in a configuration table.
+
+
+19. The system of claim 11, wherein at least a portion of the performance data is communicated to the intelligent charger for display on the intelligent charger.
+
+
+20. A method of charging an intelligent consumer device, comprising:
+receiving power generated from a solar panel in an intelligent charger;
+receiving performance data from the intelligent charger;
+charging a battery pack using the power;
+monitoring charging of the battery pack to obtain charge data; and
+displaying the performance data and the charge data on a power monitor dashboard.
+
+
+
+21. The method of claim 20, further including
+transferring at least a portion of the performance data to the intelligent charger;
+displaying the portion of the performance data on the intelligent charger.
+
+
+
+22. The method of claim 20, further including
+communicating with a network to receive instructions for execution on the intelligent consumer device. 
+
+

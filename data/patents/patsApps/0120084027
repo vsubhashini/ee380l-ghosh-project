@@ -1,0 +1,97 @@
+
+The present disclosure provides a system and method for monitoring performance of a photovoltaic array. The system and method reduces the need for monitoring equipment by collecting measurement data associated with a plurality of photovoltaic strings. Failure and performance degradation detection is improved through the use of monitoring conditions, performance thresholds, and auto-calibration. Various user interfaces enable a user to modify or adjust the monitoring system and method, as well as monitor the performance of a photovoltaic array.
+
+
+
+1. A system for monitoring performance of a photovoltaic array, the system comprising:
+a photovoltaic system comprising:
+a photovoltaic string for converting sunlight into electrical energy;
+a combiner for combining the output signals of a plurality of photovoltaic strings;
+an inverter for converting the DC output signals of a plurality of combiners into AC power; and
+a sensor for detecting data associated with a plurality of photovoltaic strings;
+
+a monitoring system for monitoring the performance of a photovoltaic array, comprising:
+a memory;
+a processor in connection with the memory, the processor operable to execute software modules, the software modules comprising:
+a filtering module operable to determine if a data entry should be monitored based upon monitoring conditions, wherein the data entry is associated with a plurality of photovoltaic strings;
+a performance module operable to compare the data entry with a performance threshold; and
+an alert module operable to generate an alert associated with the data entry; and
+
+a web application operable to receive user-selectable monitoring conditions and to display performance data associated with the data entry.
+
+
+
+
+2. The system of claim 1, wherein the monitoring conditions comprise a sun position consisting of a minimum elevation, a minimum azimuth, and a maximum azimuth.
+
+
+3. The system of claim 1, wherein the performance threshold comprises at least one of a channel-to-channel comparator or a time-differential comparator.
+
+
+4. The system of claim 3, wherein the time-differential comparator comprises comparing the data entry with a previously stored data entry associated with the plurality of photovoltaic strings, wherein the previously stored data entry was detected at least one day prior to the data entry.
+
+
+5. The system of claim 4, wherein the time-differential comparator further comprises comparing the data entry with a previously stored data entry associated with the plurality of photovoltaic strings, wherein the previously stored data entry was detected at least one year prior to the data entry.
+
+
+6. The system of claim 1, wherein the monitoring system further comprises a calibration module operable to detect a non-calibrated component and to automatically recalibrate the component.
+
+
+7. The system of claim 1, wherein the performance threshold comprises a production impact.
+
+
+8. The system of claim 1, wherein the display comprises a photovoltaic array layout indicating the performance of a plurality of photovoltaic strings.
+
+
+9. A method of monitoring performance of a photovoltaic array, the method comprising:
+providing a photovoltaic system comprising:
+a photovoltaic string for converting sunlight into electrical energy;
+a combiner for combining the output signals of a plurality of photovoltaic strings;
+an inverter for converting the DC output signals of a plurality of combiners into AC power; and
+a sensor for detecting data associated with a plurality of photovoltaic strings;
+
+receiving a data entry associated with a plurality of photovoltaic strings;
+determining, via a processor, whether the data entry should be analyzed based upon monitoring conditions;
+determining, via a processor, if the data entry is within a performance threshold comprising at least one of a channel-to-channel comparison or a time-differential comparison;
+in response to a determination that the data entry should be analyzed and that the data entry is not within the performance threshold, determining, via a processor, if the data entry has been in an alarm condition for a predetermined period of time; and
+in response to a determination that the data entry has been in an alarm condition for a predetermined period of time, generating an alert in the form of at least one of a user interface, a printed report, a text message, or an email message.
+
+
+
+10. The method of claim 9, wherein the monitoring conditions comprise a sun position consisting of a minimum elevation, a minimum azimuth, and a maximum azimuth.
+
+
+11. The method of claim 9, wherein the time-differential comparison comprises comparing the data entry with a previously stored data entry associated with the plurality of photovoltaic strings, wherein the previously stored data entry was detected at least one day prior to the data entry.
+
+
+12. The method of claim 11, wherein the time-differential comparison further comprises comparing the data entry with a previously stored data entry associated with the plurality of photovoltaic strings, wherein the previously stored data entry was detected at least one year prior to the data entry.
+
+
+13. The method of claim 9, wherein the channel-to-channel comparison comprises comparing the data entry with a plurality of data entries each detected by a different sensor.
+
+
+14. The method of claim 9, further comprising calculating, via a processor, the angle of the sun at any moment in time along with geometric interferences.
+
+
+15. A non-transitory computer-readable medium containing computer executable instructions, wherein, when executed by a processor, the instructions cause the processor to execute a method for monitoring performance of a photovoltaic array, the computer-readable instructions comprising:
+instructions to determine if the data entry should be analyzed based upon monitoring conditions, wherein the data entry is associated with a plurality of photovoltaic strings;
+instructions to determine if the data entry is within a performance threshold comprising at least one of a channel-to-channel comparison or a time-differential comparison;
+in response to a determination that the data entry should be analyzed and that the data entry is not within the performance threshold, instructions to determine if the data entry has been in an alarm condition for a predetermined period of time;
+in response to a determination that the data entry has been in an alarm condition for a predetermined period of time, instructions to generate an alert in the form of at least one of a user interface, a printed report, a text message, or an email message.
+
+
+
+16. The computer-readable medium of claim 15, wherein the monitoring conditions comprise a sun position consisting of a minimum elevation, a minimum azimuth, and a maximum azimuth.
+
+
+17. The computer-readable medium of claim 15, wherein the monitoring conditions comprise geometric interference shading data.
+
+
+18. The computer-readable medium of claim 15, wherein the time-differential comparison comprises comparing the data entry with a previously stored data entry associated with the plurality of photovoltaic strings, wherein the previously stored data entry was detected at least one day prior to the data entry.
+
+
+19. The computer-readable medium of claim 18, wherein the time-differential comparison further comprises comparing the data entry with a previously stored data entry associated with the plurality of photovoltaic strings, wherein the previously stored data entry was detected at least one year prior to the data entry.
+
+
+20. The computer-readable medium of claim 15, further comprising instructions to detect a non-calibrated component and automatically recalibrate the component. 
+

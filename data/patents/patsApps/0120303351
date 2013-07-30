@@ -1,0 +1,43 @@
+
+A system is for optimizing the operation of solar plants 100 and for specifying the operating conditions thereof. A file transmission protocol (FTP) server 102 collects general prediction data of a data satellite service and an electric grid server 104 collects data referring to the public file market prices of the electric grid. The information compiled by both servers (102, 104) is supplied to expert modules (110, 112, 114, 116), compared and stored in a database 106 (DB), which is supplied to a control unit (120). A user (108) has the chance to manipulate it and work with each expert module by a user interface (118) for the purpose of defining the conditions suitable for operating and optimizing activities of the solar plant.
+
+
+
+1. A system for optimizing the operation of solar plants, comprising:
+a server responsible for collecting general prediction data of a data satellite service;
+an electric grid server collecting data referring to electric energy market prices,
+a control unit comprising:
+a plurality of expert modules, including:
+a meteorological module in communication with the server receiving the prediction data from the latter;
+a plant module including a dynamic model of the plant which reproduces the physical and dynamic characteristics of the solar plant;
+an electric market module for collecting the data coming from the electric grid server; and
+an optimization module, from which the parameters relating to the operation of the solar plant are specified and optimized by reiterated simulations, in which the values and states of the plant are modified;
+
+a database storing the prediction data obtained by the meteorological module and the data referring to the electric energy market prices coming from the electric market module;
+a user interface allowing a user to access the information stored in the database, manipulate said information and work with each expert module to define the conditions suitable for operating and optimizing activities of the solar plant;
+
+wherein the optimization module is configured to obtain the data referring to the electric energy market prices from the database and to send simulation conditions to the plant module according to the conditions configured by the user through the user interface;
+and wherein the plant module is configured to obtain the prediction data from the database and update the dynamic model of the plant, and to send the results of the simulation obtained according to the simulation conditions established by the optimization module.
+
+
+
+2. The system for optimizing the operation of solar plants according to claim 1, wherein the optimization module containing sub-modules which contain the data and generate the graphic representation of the meteorological parameters, the graphic representation of the market prices indicating the real and estimated values.
+
+
+3. The system for optimizing the operation of solar plants according to claim 1, wherein the real operation of the plant being consulted by the plant module.
+
+
+4. The system for optimizing the operation of solar plants according to claim 1, wherein the plant module allowing combining various element, design and configuration options of the facility together with the parameters provided by the remaining modules to provide an energy output to be produced.
+
+
+5. The system for optimizing the operation of solar plants according to claim 1, wherein the plant module reproduces the control and the physical and dynamic characteristics of the plant, in combination with the appropriate prognosis of the electric demand and the solar resources.
+
+
+6. The system for optimizing the operation of solar plants according to claim 1, the optimization module comprising a solar resource sub-module by which the estimated and real data of the meteorological variables are consulted, said data, which is read directly from the database, being collected by the meteorological module.
+
+
+7. The system for optimizing the operation of solar plants according to claim 1, the prediction data comprising meteorological and radiation variables.
+
+
+8. The system for optimizing the operation of solar plants according to claim 1, wherein the electric market module generates predictions of the prices of each kilowatt-hour and supplies them the predictions to the database such that the predictions are stored, organized and can be supplied to the plant module. 
+

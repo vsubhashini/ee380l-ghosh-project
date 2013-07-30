@@ -1,0 +1,148 @@
+
+A monitoring system and method for monitoring performance of individual powers sources in a distributed power source system. A monitoring module is coupled to each of the power sources, or to each string of serially connected power sources, to monitor and collect data regarding current, voltage, temperature and other environmental factors at the power source. The collected data is transmitted over a power line to a central analysis station for analysis. Data collected from each source indicates malfunction or degradation at the source. Comparison of data collected from adjacent sources filters for environmental factors impacting neighboring sources such as cloudy days for a solar panel. Comparison of data collected from the same source at different times indicates soiling or degradation of the source with time or periodic events such as a moving shade from an adjacent building.
+
+
+
+1. A monitoring system for distributed DC power installation, comprising:
+a plurality of power sources;
+a plurality of monitoring modules, each monitoring module associated with one of the power sources and collecting performance data of the associated power source;
+a plurality of transmitters, each transmitter associated with one of the monitoring modules and transmitting the performance data;
+a plurality of controllers, each associated with one of the transmitters and controlling transmission events according to elapsed time from timer initialization.
+
+
+
+2. The monitoring system of claim 1, wherein each of the power sources is connected to a power line and wherein each transmitter transmits the performance data over the power line.
+
+
+3. The monitoring system of claim 1, wherein each of the monitoring modules comprises:
+a current measurement module for collecting the current data;
+a voltage measurement module for collecting the voltage data.
+
+
+
+4. The monitoring system of claim 1, wherein each of the monitoring modules further comprises a temperature sensor module for sensing the temperature data at the power source.
+
+
+5. The monitoring system of claim 1, wherein each of the monitoring modules further comprises an arc detection module for detecting arcing at the power source.
+
+
+6. The monitoring system of claim 1, wherein each of the monitoring modules further comprises a timer, and wherein each controller initializes the timer whenever the associated power source starts to generate power.
+
+
+7. The monitoring system of claim 6, wherein each of the monitoring modules further comprises a randomizer for varying time increments for controlling transmission events.
+
+
+8. The monitoring system of claim 1 further comprising a memory storing the performance data accumulated since timer initialization.
+
+
+9. The monitoring system of claim 8, further comprising:
+a central analysis station; and,
+a communication translator for receiving the performance data from the monitoring modules and transmitting the performance data to the central analysis station.
+
+
+
+10. The monitoring system of claim 9, wherein the central analysis station analyzes fault detection.
+
+
+11. The monitoring system of claim 9, wherein the central analysis station compare measured power to expected power determined based on external data.
+
+
+12. The monitoring system of claim 9, wherein each of the power sources comprises a solar panel.
+
+
+13. The monitoring system of claim 9, wherein each of the power sources comprises a string of serially connected solar panels.
+
+
+14. The monitoring system of claim 13, wherein each of the monitoring modules comprises a current measurement module for collecting current data.
+
+
+15. The monitoring system of claim 14, further comprising:
+a connection box for parallel coupling all of the string of serially connected solar panels; and,
+a voltage measuring module measuring the voltage of the parallel coupling.
+
+
+
+16. The monitoring system of claim 14, further comprising:
+a connection box for parallel coupling all of the string of serially connected solar panels; and,
+total current measuring module measuring the total current of the parallel coupling.
+
+
+
+17. The monitoring system of claim 16, wherein the monitoring system detect current leakage by comparing output of the total current measuring module to the sum of current measuring modules of each of the monitoring modules.
+
+
+18. A method for monitoring distributed power harvesting systems including DC power sources, the method comprising:
+individually monitoring power generation at each of the DC power sources and, when power generation passes a threshold at one of the DC power sources, performing the steps:
+initializing a timer for the power source;
+collecting performance data for the power source;
+monitoring passage of time period of the timer and, when the time period reached a setup time, transmitting the collected performance data to a central analysis station.
+
+
+
+19. The method of claim 18, wherein collecting performance data further comprises storing the performance data in memory, and wherein transmitting the collected performance data comprises transmitting the collected performance data accumulated since initialization of the timer.
+
+
+20. The method of claim 19, wherein collecting performance data comprises measuring at least one of output voltage and output current.
+
+
+21. The method of claim 19, further comprising comparing performance data for at least one of the DC power sources to performance data from the same DC power source at a different time.
+
+
+22. The method of claim 19, further comprising comparing performance data for at least one of the DC power sources to performance data from adjacent ones of the DC power sources.
+
+
+23. The method of claim 19, further comprising comparing performance data for at least one of the DC power sources to expected performance data based on external parameters.
+
+
+24. The method of claim 19, wherein monitoring passage of time period further comprises introducing randomness to the setup time.
+
+
+25. The method of claim 19, further comprising serially connecting a plurality of solar panels to form each of the DC power sources.
+
+
+26. The method of claim 19, wherein transmitting the collected performance data comprises sending the collected performance data over a power line.
+
+
+27. A distributed DC power harvesting system comprising:
+a plurality of solar panels serially connected to form a string of panels coupled to a power line;
+at least one monitoring module connected to the string of panels and gathering performance data from at least one solar panel, the monitoring module comprising:
+a transmitter for transmitting the performance data over the power line;
+a controller for controlling transmission events of the transmitter according to elapsed time from timer initialization; and,
+
+a receiving station coupled to the power line and receiving the performance data from the transmitter.
+
+
+
+28. The system of claim 27, wherein the receiving station further comprises at least one of a voltage and current sensor.
+
+
+29. The system of claim 27, wherein the receiving station further comprises a transmitter for relaying at least the performance data received from the power line.
+
+
+30. The system of claim 29, wherein the transmitter comprises a wireless transmitter.
+
+
+31. The system of claim 27, wherein the monitoring module comprises and least one of:
+a current measurement module for collecting current data from at least one solar panel;
+a voltage measurement module for collecting voltage data from at least one solar panel.
+
+
+
+32. The system of claim 27, wherein the monitoring module further comprises a temperature sensor.
+
+
+33. The system of claim 27, wherein the monitoring module further comprises a timer, and wherein the controller initializes the timer whenever an associated panel starts to generate power.
+
+
+34. The system of claim 27, wherein the monitoring module further comprises a randomizer for varying time increments for controlling transmission events.
+
+
+35. The system of claim 33, further comprising a memory storing the performance data accumulated since timer initialization.
+
+
+36. The system of claim 27, further comprising:
+one or more additional string of panels;
+a connection box for parallel coupling of the string of panels and the one or more additional string of panels; and,
+a voltage measuring module measuring the voltage of the parallel coupling. 
+
+

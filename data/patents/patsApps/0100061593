@@ -1,0 +1,82 @@
+
+An extrapolation system includes acquiring a first orientation-referenced image at a first position, acquiring a second orientation-referenced image at a second position having a vertical offset from the first position, and processing the first orientation-referenced image and the second orientation-referenced image to provide an output parameter extrapolated to a third position that has an offset from the first position and the second position.
+
+
+
+1. A method, comprising:
+acquiring a first orientation-referenced image of a first skyline at a first position;
+acquiring a second orientation-referenced image of a second skyline at a second position that has a vertical offset from the first position; and
+processing the first orientation-referenced image and the second orientation-referenced image to provide an output parameter extrapolated to a third position having an offset from the first position and the second position, wherein the output parameter includes at least one of a solar access referenced to the third position, a detected skyline referenced to the third position, and a mapping of one or more points that are present in both the first image and the second image, to corresponding one or more points that each have a corresponding azimuth angle and a corresponding elevation angle referenced to the third position.
+
+
+
+2. The method of claim 1 wherein the processing includes:
+defining an interface between each of one or more obstructions and an open sky at one or more first azimuth angles in the first orientation-referenced image;
+determining a first elevation angle to the interface at each of the one or more first azimuth angles in the first orientation-referenced image;
+defining the interface between each of the one or more obstructions and the open sky at the one or more first azimuth angles in the second orientation-referenced image;
+determining a second elevation angle to the interface at each of the one or more first azimuth angles in the second orientation-referenced image; and
+determining a second azimuth angle to the interface and a third elevation angle to the interface, each referenced to the third position, based on the one or more first azimuth angles, the first elevation angle, the second elevation angle, the vertical offset of the second position from the first position, and the offset of the third position from at least one of the first position and the second position.
+
+
+
+3. The method of claim 1 wherein processing the first orientation-referenced image includes establishing a first detected skyline referenced to the first position and wherein processing the second orientation-referenced image includes establishing a second detected skyline referenced to the second position.
+
+
+4. The method of claim 1 wherein the first orientation-referenced image and the second orientation-referenced image are each acquired with a digital camera.
+
+
+5. The method of claim 4 wherein the digital camera is coupled to a lens having a wide field of view.
+
+
+6. The method of claim 1 wherein acquiring at least one of the first orientation-referenced image and the second orientation-referenced image includes projecting one or more images onto a contoured surface.
+
+
+7. The method of claim 6 wherein acquiring the at least one of the first orientation-referenced image and the second orientation-referenced image includes capturing one or more digital images of the one or more images projected onto the contoured surface.
+
+
+8. The method of claim 1 wherein the mapping includes a detected skyline having multiple points, each point having a corresponding azimuth angle and the corresponding elevation angle referenced to the third position.
+
+
+9. The method of claim 8 wherein the output parameter extrapolated to the third position includes on the detected skyline, an overlay of paths that the Sun traverses relative to the third position on at least one of a daily and monthly timescale.
+
+
+10. A method, comprising:
+acquiring a first orientation-referenced image at a first position, wherein at least one point in the first orientation-referenced image is mapped to a corresponding first azimuth angle and first elevation angle that are referenced to the first position;
+acquiring a second orientation-referenced image at a second position having a vertical offset from the first position, wherein the second orientation-referenced image includes the at least one point in the first orientation-referenced image, wherein the at least one point is mapped to a corresponding second elevation angle and to a corresponding second azimuth angle that is equal to the first azimuth angle, and wherein the second elevation angle and the second azimuth angle are referenced to the second position; and
+processing the first orientation-referenced image and the second orientation-referenced image to provide a mapping of the at least one point to a corresponding third azimuth angle and third elevation angle that are referenced to a third position that is offset from the first position and the second position.
+
+
+
+11. The method of claim 10 wherein the mapping of the at least one point to the corresponding second azimuth angle and the third elevation angle is used to establish at least one of a solar access referenced to the third position, and a detected skyline referenced to the third position.
+
+
+12. The method of claim 10 wherein the first orientation-referenced image and the second orientation-referenced image are each acquired with a digital camera.
+
+
+13. The method of claim 12 wherein the digital camera is coupled to a lens that has a wide field of view.
+
+
+14. The method of claim 10 wherein acquiring at least one of the first orientation-referenced image and the second orientation-referenced image includes projecting one or more images onto a contoured surface.
+
+
+15. The method of claim 14 wherein acquiring the at least one of the first orientation-referenced image and the second orientation-referenced image includes capturing one or more digital images of the one or more images projected onto the contoured surface.
+
+
+16. A method, comprising:
+acquiring a first orientation-referenced image of a first skyline with a measurement system located at a first position;
+acquiring a second orientation-referenced image of a second skyline with the measurement system located at a second position having a vertical offset from the first position; and
+processing the first orientation-referenced image and the second orientation-referenced image with the measurement system to provide an output parameter extrapolated to a third position that is offset from the first position and the second position, wherein the output parameter includes at least one of a solar access referenced to the third position, a detected skyline referenced to the third position, and a mapping of one or more points that are present in both the first image and the second image, to corresponding one or more points that each have a corresponding azimuth angle and a corresponding elevation angle each referenced to the third position.
+
+
+
+17. The method of claim 16 wherein the first orientation-referenced image and the second orientation-referenced image are each acquired with a digital camera included in the measurement system.
+
+
+18. The method of claim 17 wherein the digital camera is coupled to a lens that has a wide field of view.
+
+
+19. The method of claim 16 wherein acquiring at least one of the first orientation-referenced image and the second orientation-referenced image includes projecting one or more images onto a contoured surface.
+
+
+20. The method of claim 19 wherein acquiring the at least one of the first orientation-referenced image and the second orientation-referenced image includes capturing one or more digital images of the one or more images projected onto the contoured surface. 
+

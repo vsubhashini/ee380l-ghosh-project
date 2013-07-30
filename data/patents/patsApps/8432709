@@ -1,0 +1,25 @@
+
+The disclosure provides a DC-to-AC power inverting apparatus for photovoltaic modules, which comprises two stages: a first stage including a resonant circuit in series, an isolating transformer with three windings, a full-bridge DC-to-AC converting unit operating in a high-frequency switch mode so as to reduce the transformer volume, and a full-wave rectifier; while a second stage including a half-bridge single-phase inverter unit with two active switches. In the first stage, any high-frequency AC signal produced from the primary winding of the isolating transformer is converter into a DC signal by the full-wave rectifier at the secondary winding of the isolation transformer. Moreover, the switching of the two active switches in the second stage is controlled to operate in a low-frequency mode using a switching frequency synchronized with the frequency of the public electrical supply to control the AC output, and thus to reduce the switching loss of the active switches.
+
+
+
+1. A DC-to-AC power inverting apparatus for photovoltaic modules, the power inverting apparatus comprising:
+a DC-to-AC converting unit composed of a half-bridge inverter, which comprises a first, a second, and a third active switches, and a first and a second capacitors, the first, second, and third active switches connected at a first connection point, the first and second capacitors and the third active switch connected at a second connection point;
+a resonating unit comprising a first inductor and a third capacitor which are connected in series, the resonating unit connected to the first connection point;
+an isolating transformer comprising a first, a second, and a third windings, the two terminals of the first winding connected respectively to the resonating unit and the second connection point, and the second and third windings connected at a third connection point;
+a full-wave rectifying unit comprising a first, a second, a third, and a fourth passive switches, the first and second passive switches connected at a fourth connection point, the third and fourth passive switches connected at a fifth connection point, the first and third passive switches connected at a sixth connection point, the second and fourth passive switches connected at a seventh connection point, the fourth connection point connected to the second winding, and the fifth connection point connected to the third winding; and
+an inverter unit comprising a fourth and a fifth active switches and a fourth capacitor, the fourth and fifth active switches connected at an eighth connection point, the sixth connection point connected to the fourth active switch, the seventh connection point connected to the fifth active switch, and the third and eighth connection points connected respectively to the fourth capacitor.
+
+
+
+2. The power inverting apparatus of claim 1, wherein each of the first, second, third, and fourth active switches is composed of a transistor.
+
+
+3. The power inverting apparatus of claim 1, wherein the first winding is primary winding of the isolating transformer, and the second and third windings are first and second secondary windings of the isolating transformer, respectively.
+
+
+4. The power inverting apparatus of claim 3, wherein the ratio of the number of turns in the first secondary winding to the number of turns in the second secondary winding is 1:1.
+
+
+5. The power inverting apparatus of claim 1, wherein each of the first, second, third, and fourth passive switches is composed of a diode.
+

@@ -1,0 +1,80 @@
+
+A method for controlling an multi-stage inverter comprises controlling an input converter of the multi-stage inverter with an input controller and controlling an output converter of the multi-stage inverter with an output controller separate from the input controller. The input controller and output controller may be galvanically isolated. Additionally, the method may include communicating data between the input controller and the output controller over a power bus of the multi-stage inverter.
+
+
+
+1. A method for controlling a multi-stage inverter for converting direct current (DC) power from a DC source to alternating current (AC) power, the method comprising:
+controlling operation of an input converter of the multi-stage inverter with a input controller; and
+controlling operation of an output converter of the multi-stage inverter with an output controller that is separate and galvanically isolated from the input controller.
+
+
+
+2. The method of claim 1, further comprising transmitting data signals between the input controller and the output controller over a DC bus of the multi-stage inverter.
+
+
+3. The method of claim 1, wherein controlling operation of the input converter comprises controlling the input converter to draw a maximum amount of power from a photovoltaic (PV) module.
+
+
+4. The method of claim 1, wherein controlling operation of the input converter comprises sensing a magnitude of a current output and a voltage output of the DC source.
+
+
+5. The method of claim 4, wherein controlling the operation of the input converter further comprises generating a current command signal based on the magnitude of the current output and the voltage output of the DC source.
+
+
+6. The method of claim 4, wherein controlling the operation of the input converter further comprises sensing a magnitude of a bus voltage of a DC bus electrically connected between input converter and the output converter.
+
+
+7. The method of claim 5, wherein controlling the operation of the input converter further comprises generating a plurality of switching signals for an inverter circuit of the input controller based on the magnitude of the current output, the voltage output, and the bus voltage.
+
+
+8. The method of claim 1, further comprising:
+controlling the operation of the input converter with the input controller to convert an input DC waveform to an output DC waveform;
+supplying the output DC waveform to a DC bus; and
+controlling the operation of the output converter with the output controller to converter the output DC waveform to an AC waveform.
+
+
+
+9. The method of claim 1, further comprising supplying power to the input controller from the DC source.
+
+
+10. The method of claim 1, wherein controlling the operation of the output converter comprises controlling the operation of the output converter to convert a DC waveform to an AC waveform suitable for delivery to an AC grid, and further comprising supplying power to the output converter from the AC grid.
+
+
+11. The method of claim 1, wherein controlling the operation of the output converter comprises sensing a magnitude of a bus voltage of a DC bus electrically connected between input converter and the output converter and generating a plurality of switching signals for an inverter circuit of the output controller based on the magnitude of the bus voltage and an average power bus voltage value.
+
+
+12. The method of claim 1, further comprising transmitting data from the output controller to a remote device over an AC power line.
+
+
+13. An inverter for converting direct current (DC) power from a DC source to alternating current (AC) power, the inverter comprising:
+an input converter electrically coupled to a power bus and configured to convert an input DC waveform to a bus waveform supplied to the power bus based on a first plurality of switching signals;
+an output converter electrically coupled to the power bus and configured to convert the bus waveform to an output AC waveform based on a second plurality of switching signals;
+an input controller electrically coupled to the input converter, the input controller comprising (i) first sensing circuitry to sense a magnitude of an output voltage of the DC source, a magnitude of an output current of the DC source, and a magnitude of a bus voltage of the power bus and (ii) a first control module configured to generate the first plurality of switching signals based on the magnitude of the output voltage, the output current, and the bus voltage; and
+an output controller electrically coupled to the output converter and galvanically isolated from the input controller, the output controller comprising (i) second sensing circuitry to sense a magnitude of the bus voltage of the power bus (ii) a second control module configured to generate the second plurality of switching signals based on the magnitude of the bus voltage and an average power bus voltage value.
+
+
+
+14. The inverter of claim 13, wherein the input controller and output controller comprise communication circuitry configured to communicate data between the input controller and output controller over the power bus.
+
+
+15. The inverter of claim 13, wherein the input controller further comprises an internal power supply configured to generate power for the input controller based on a power signal received from the DC source.
+
+
+16. The inverter of claim 13, wherein the output controller further comprises an internal power supply configured to generate power for the output controller based on a power signal received from an AC grid.
+
+
+17. The inverter of claim 13, wherein the output controller further comprises a power line communication circuit configured to communicate with a remote device over an AC power line.
+
+
+18. A method for controlling a multi-stage inverter for converting direct current (DC) power from a DC source to alternating current (AC) power, the multi-stage inverter including a DC bus, the method comprising:
+controlling operation of an input converter of the multi-stage inverter electrically coupled to the DC bus with a input controller;
+controlling operation of an output converter of the multi-stage inverter electrically coupled to the DC bus with an output controller that is galvanically isolated from the input controller; and
+communicating data from the input controller to the output controller over the DC bus.
+
+
+
+19. The method of claim 18, wherein communicating data over the DC bus comprises modulating a bus voltage of the DC bus to communicate the data from the input controller to the output controller.
+
+
+20. The method of claim 18, further comprising transmitting data from output controller to a remote device over an AC power line.
+

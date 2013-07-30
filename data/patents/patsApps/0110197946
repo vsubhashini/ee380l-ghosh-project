@@ -1,0 +1,85 @@
+
+An inverter includes two input lines for connecting the inverter to an AC power source, a buffer capacitance effective between the input lines, a grounded potential equalization busbar, an isolation monitoring device monitoring the electrical isolation of one of the two input lines with regard to the potential equalization busbar, and an overvoltage eliminating device having at least one overvoltage eliminator for draining overvoltages from the input lines to the potential equalization busbar. The at least one overvoltage eliminator is connected between that input line, whose electric isolation with regard to the potential equalization busbar is monitored, and the potential equalization busbar, without any fuse being connected in series with the at least one overvoltage eliminator. Any overvoltage eliminator of the overvoltage eliminating device, which is connected between the other of the two input lines and the potential equalization busbar, if present, is connected in series with a fuse.
+
+
+
+1. An inverter comprising:
+two input lines configured to connect the inverter to a DC power source;
+a buffer capacitance operably coupled between the two input lines;
+a potential equalization busbar configured to connect to at least one grounding device;
+an isolation monitoring device configured to monitor an electrical isolation of at least one of the two input lines with regard to the potential equalization busbar; and
+an overvoltage eliminating device configured to drain overvoltages from the two input lines to the potential equalization busbar, the overvoltage eliminating device comprising at least one overvoltage eliminator;
+wherein the at least one overvoltage eliminator of the overvoltage eliminating device is connected between at least one input line, whose electric isolation with regards to the potential equalization busbar is monitored by the isolation monitoring device, and the potential equalization busbar, without any fuse being connected in series with the at least one overvoltage eliminator.
+
+
+
+2. The inverter of claim 1, wherein the isolation monitoring device comprises a ground fault detector and interrupter (GFDI), which is connected between the other of the two input lines and the potential equalization busbar.
+
+
+3. The inverter of claim 2, wherein the GFDI is connected in series with an inductor.
+
+
+4. The inverter of claim 2, wherein the GFDI is operatively connected to a fault signalling device.
+
+
+5. The inverter of claim 2, wherein an electric motor is provided for resetting the GFDI.
+
+
+6. The inverter of claim 1, wherein the at least one overvoltage eliminator of the overvoltage eliminating device comprises only one overvoltage eliminator.
+
+
+7. The inverter of claim 1, wherein each overvoltage eliminator of the overvoltage eliminating device comprises a varistor.
+
+
+8. The inverter of claim 7, wherein each overvoltage eliminator of the overvoltage eliminating device comprises a varistor of a type that becomes permanently low-ohmic upon being overloaded.
+
+
+9. The inverter of claim 1, wherein each overvoltage eliminator of the overvoltage eliminating device comprises a spark gap.
+
+
+10. The inverter of claim 1, further comprising at least one inductor provided in each of the two input lines.
+
+
+11. The inverter of claim 1, further comprising a metallic housing connected to the potential equalization busbar.
+
+
+12. The inverter of claim 1, further comprising at least one high voltage-isolated connection line configured to connect the potential equalization busbar to at least one further grounding device.
+
+
+13. The inverter of claim 1, further comprising at least one lightning catching rod, and at least one high voltage-isolated connection line configured to connect the at least one lightning catching rod to at least one further grounding device.
+
+
+14. The inverter of claim 13, wherein the high voltage-isolated connection line has a length in a range of 10 m to 30 m.
+
+
+15. The inverter of claim 1, wherein the overvoltage eliminating device further comprises another overvoltage eliminator connected in series with a fuse between the other of the two input lines and the potential equalization busbar.
+
+
+16. A solar plant including:
+a plurality of photovoltaic generators configured to generate DC current;
+at least one inverter, the inverter comprising:
+two input lines configured to receive DC current from the plurality of photovoltaic generators;
+a buffer capacitance operably coupled between the two input lines;
+a grounded first potential equalization busbar;
+an isolation monitoring device configured to monitor the electrical isolation of at least one of the two input lines with regards to the potential equalization busbar; and
+an overvoltage eliminating device configured to drain overvoltages from the two input lines to the potential equalization busbar, the overvoltage eliminating device comprising at least one overvoltage eliminator;
+wherein the at least one overvoltage eliminator of the overvoltage eliminating device is connected between the at least one input line, whose electric isolation with regard to the potential equalization busbar is monitored by the isolation monitoring device, and the potential equalization busbar, without any fuse being connected in series with the at least one overvoltage eliminator; and
+
+at least one collecting device remote from the inverter configured to collect DC current from at least some of the plurality of photovoltaic generators and forward the DC current to the two input lines of the at least one inverter, the at least one collecting device comprising:
+at least one pair of collecting lines configured to collect DC current from at least one of the plurality of photovoltaic generators;
+a grounded second potential equalization busbar;
+at least two varistors of a type which becomes permanently low-ohmic upon being overloaded per pair of collecting lines; and
+at least one fuse per pair of collecting lines;
+wherein each collecting line of the at least one pair of collecting lines is connected to the second potential equalization busbar via at least one of the at least two varistors, and wherein at least one of the at least two varistors is connected in series with the at least one fuse.
+
+
+
+
+17. The solar plant of claim 16, wherein the two collecting lines of the at least one pair of collecting lines are each connected to a common intermediate point via at least one of the at least two varistors, wherein at least one of the two varistors is connected in series with the at least one fuse, and wherein the intermediate point is connected to the second potential equalization busbar via a further one of the at least two varistors.
+
+
+18. The solar plant of claim 16, wherein at least one fuse is connected in series with one of the varistors between each of the two collecting lines of the at least one pair of collecting lines and the second potential equalization busbar.
+
+
+19. The solar plant of claim 16, wherein the overvoltage eliminating device further comprises another overvoltage eliminator, in series with a fuse, connected between the other of the two input lines and the potential equalization busbar; 
+

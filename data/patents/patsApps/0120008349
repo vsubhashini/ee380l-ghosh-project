@@ -1,0 +1,123 @@
+
+Power converter systems with high accuracy signal generation and associated methods are disclosed herein. In one embodiment, a method for controlling an inverter coupled to a grid includes receiving data representing a voltage signal of the grid, analyzing the received data in frequency domain, and extracting a fundamental frequency component from the analyzed data in frequency domain. The method can also include calculating a waveform based on the fundamental frequency component and controlling an output of the inverter based on the calculated waveform.
+
+
+
+1. A method for controlling an inverter coupled to a grid, comprising:
+receiving data representing a voltage signal of the grid;
+analyzing the received data in frequency domain;
+extracting a fundamental frequency component from the analyzed data in frequency domain;
+calculating a waveform based on the fundamental frequency component; and
+controlling an output of the inverter based on the calculated waveform.
+
+
+
+2. The method of claim 1 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component;
+extracting the fundamental frequency component includes selecting the fundamental frequency component from the plurality of frequency components;
+calculating the waveform includes calculating a sine or cosine waveform based on the extracted fundamental frequency component, the calculated waveform being substantially independent of the non-fundamental frequency component; and
+controlling the output of the inverter includes synchronizing at least one of a phase and frequency of the output of the inverter with the calculated waveform.
+
+
+
+3. The method of claim 1 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component;
+extracting the fundamental frequency component includes selecting the fundamental frequency component from the plurality of frequency components;
+calculating the waveform includes calculating a first waveform based on the extracted fundamental frequency component and a second waveform based on the non-fundamental frequency component, the calculated second waveform being configured to compensate for the non-fundamental frequency component; and
+controlling the output of the inverter includes synchronizing at least one of a phase and frequency of the output of the inverter with the calculated first waveform and injecting a current into the grid based on the calculated second waveform.
+
+
+
+4. The method of claim 1 wherein analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data.
+
+
+5. The method of claim 1 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components; and
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component.
+
+
+
+6. The method of claim 1 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component; and
+extracting the fundamental frequency component includes selecting the fundamental frequency component from the plurality of frequency components.
+
+
+
+7. The method of claim 1 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component;
+calculating the waveform includes calculating a waveform based on the non-fundamental frequency component, the calculated waveform being configured to compensate for the non-fundamental frequency component; and
+controlling the output of the inverter includes injecting a current into the grid based on the calculated second waveform.
+
+
+
+8. A power inverter, comprising:
+a direct current (DC) input component configured to receive a DC produced by one or more photovoltaic cells;
+a power switching component configured to generate alternating current (AC) from the received DC;
+an AC output component configured to output the generated AC to a grid;
+a detection circuit configured to sample data representing a voltage of the grid;
+a controller operably coupled to the power switching component and the detection circuit, the controller including a computer storage medium containing instructions executable to perform a process comprising:
+receiving the sampled data from the detection circuit;
+analyzing the received data in frequency domain;
+extracting a fundamental frequency component from the analyzed data in frequency domain;
+calculating a waveform based solely on the fundamental frequency component; and
+controlling an output of the inverter based on the calculated waveform.
+
+
+
+9. The power converter of claim 8 wherein analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data.
+
+
+10. The power converter of claim 8 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components; and
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component.
+
+
+
+11. The power converter of claim 8 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component; and
+extracting the fundamental frequency component includes selecting the fundamental frequency component from the plurality of frequency components.
+
+
+
+12. The power converter of claim 8 wherein:
+analyzing the received data includes applying at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component;
+calculating the waveform includes calculating a waveform based on the non-fundamental frequency component, the calculated waveform being configured to compensate for the non-fundamental frequency component; and
+controlling the output of the inverter includes injecting a current into the grid based on the calculated second waveform.
+
+
+
+13. A controller for controlling an inverter coupled to a grid, comprising:
+a processor configured to receive data representing a voltage signal of the grid, analyze the received data in frequency domain, extract a fundamental frequency component from the analyzed data in frequency domain, and calculate a waveform based solely on the fundamental frequency component; and
+a memory storing the calculated waveform and instructions configured to control an output of the inverter based on the calculated waveform.
+
+
+
+14. The controller of claim 13 wherein the processor is configured to apply at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data.
+
+
+15. The controller of claim 13 wherein:
+the processor is configured to apply at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components; and
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component.
+
+
+
+16. The controller of claim 13 wherein:
+the processor is configured to apply at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component; and
+the processor is configured to extract the fundamental frequency component from the plurality of frequency components.
+
+
+
+17. The controller of claim 13 wherein:
+the processor is configured to apply at least one of a fast Fourier transformation, a discrete Fourier transformation, a fractional Fourier transformation, and a Laplace transformation to the received data to derive a plurality of frequency components;
+the plurality of frequency components include the fundamental frequency component and a non-fundamental frequency component;
+the processor is also configured to calculate a waveform based on the non-fundamental frequency component, the calculated waveform being configured to compensate for the non-fundamental frequency component; and
+the memory stores instructions configured to inject a current into the grid based on the calculated waveform.
+
+

@@ -1,0 +1,82 @@
+
+Various embodiments may provide a controller for photovoltaic power supply, configured to be connected with one or more photovoltaic modules and configured to be connected with an AC grid terminal, wherein the controller is configured to monitor the status of the AC grid power and to generate a signal for deactivation of the photovoltaic modules if the AC power is off, wherein the controller is further configured to generate the signal such that it controls the activation of the at least one photovoltaic module with an active signal having a non-zero signal voltage level and such that it controls the deactivation of the at least one photovoltaic module with an inactive signal, wherein the deactivation of the at least one photovoltaic module results in that the connections between a plurality of photovoltaic modules are interrupted or that the photovoltaic modules are short circuited.
+
+
+
+1. A controller for photovoltaic power supply, configured to be connected with one or more photovoltaic modules and configured to be connected with an AC grid terminal, wherein the controller is configured to monitor the status of the AC grid power and to generate a signal for deactivation of the photovoltaic modules if the AC power is off, wherein the controller is further configured to generate the signal such that it controls the activation of the at least one photovoltaic module with an active signal having a non-zero signal voltage level and such that it controls the deactivation of the at least one photovoltaic module with an inactive signal, wherein the deactivation of the at least one photovoltaic module results in that the connections between a plurality of photovoltaic modules are interrupted or that the photovoltaic modules are short circuited.
+
+
+2. The controller of claim 1,
+wherein the controller is further configured to monitor one or more DC power lines of one or more photovoltaic modules for electric arc detection and to generate a signal for deactivation of the photovoltaic modules in case of electric arc detection.
+
+
+
+3. The controller of claim 1,
+wherein the controller is further configured to monitor one or more DC power lines of one or more photovoltaic modules for fault current detection and to generate a signal for deactivation of the photovoltaic modules in case of fault current detection.
+
+
+
+4. The controller of claim 1, further comprising:
+a transmitter configured to transmit the signal for deactivation to the at least one photovoltaic module as at least one of an optical signal; a radio signal; and an electrical signal.
+
+
+
+5. A power inverter for photovoltaic modules, the power inverter comprising:
+a controller for photovoltaic power supply, configured to be connected with one or more photovoltaic modules and configured to be connected with an AC grid terminal, wherein the controller is configured to monitor the status of the AC grid power and to generate a signal for deactivation of the photovoltaic modules if the AC power is off, wherein the controller is further configured to generate the signal such that it controls the activation of the at least one photovoltaic module with an active signal having a non-zero signal voltage level and such that it controls the deactivation of the at least one photovoltaic module with an inactive signal, wherein the deactivation of the at least one photovoltaic module results in that the connections between a plurality of photovoltaic modules are interrupted or that the photovoltaic modules are short circuited.
+
+
+
+6. A photovoltaic power supply system, comprising:
+at least one photovoltaic module;
+a power inverter; and
+a controller for photovoltaic power supply, configured to be connected with one or more photovoltaic modules and configured to be connected with an AC grid terminal, wherein the controller is configured to monitor the status of the AC grid power and to generate a signal for deactivation of the photovoltaic modules if the AC power is off, wherein the controller is further configured to generate the signal such that it controls the activation of the at least one photovoltaic module with an active signal having a non-zero signal voltage level and such that it controls the deactivation of the at least one photovoltaic module with an inactive signal, wherein the deactivation of the at least one photovoltaic module results in that the connections between a plurality of photovoltaic modules are interrupted or that the photovoltaic modules are short circuited;
+wherein the controller is coupled to the at least one photovoltaic module.
+
+
+
+7. The photovoltaic power supply system of claim 6,
+wherein the controller is separated from the power inverter and connected in parallel to the power inverter.
+
+
+
+8. The photovoltaic power supply system of claim 6, wherein
+the controller is included in the power inverter.
+
+
+
+9. The photovoltaic power supply system of claim 6, further comprising:
+a signal indicator configured to indicate the occurrence of deactivation signal for the at least one photovoltaic module.
+
+
+
+10. The photovoltaic power supply system of claim 9,
+wherein the signal indicator is configured to indicate the deactivation signal by means of a signal selected from a group of signals consisting of:
+an optical deactivation indication signal;
+a radio deactivation indication signal; and
+a electrical wireline deactivation indication signal.
+
+
+
+
+11. The photovoltaic power supply system of claim 9, further comprising:
+at least one of a radiation sensor and a wind meter;
+wherein the signal indicator and the at least one of the radiation sensor and the wind meter are accommodated in a common housing.
+
+
+
+12. A method for controlling deactivation of at least one photovoltaic module, the method comprising:
+monitoring the status of the AC power at the AC grid terminal;
+automatically generating a signal to control deactivation of the at least one photovoltaic module if the AC power is off,
+wherein the signal is generated such that it controls the activation of the at least one photovoltaic module with an active signal having a non-zero signal voltage level and such that it controls the deactivation of the at least one photovoltaic module with an inactive signal, wherein the deactivation of the at least one photovoltaic module results in that the connections between a plurality of photovoltaic modules are interrupted or that the photovoltaic modules are short circuited.
+
+
+
+13. The method of claim 12, further comprising:
+monitoring one or more DC power lines of photovoltaic modules for electric arc detection and to generate a signal for deactivation of the photovoltaic modules in case of electric arc detection.
+
+
+
+14. The method of claim 12, further comprising:
+monitoring one or more DC power lines of photovoltaic modules for fault current detection and to generate a signal for deactivation of the photovoltaic modules in case of fault current detection.
+
+

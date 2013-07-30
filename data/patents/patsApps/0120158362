@@ -1,0 +1,73 @@
+
+Angle mapping logic for a solar array of a two-axis tracker mechanism for the concentrated photovoltaic system is configured to facilitate a remotely initiated angle mapping process and then remotely diagnose movement and other pointing errors in the solar array on the two-axis solar tracker mechanism. Deviations in power produced in a set of test points of the angle mapping process and shapes of the plotted information provide diagnostics to indicate error locations and types of pointing errors present in the equipment in the solar array and in the two-axis tracker mechanism. Information from the angle mapping process is sent over a network to a remote server for analysis. The test can be initiated from the remote server.
+
+
+
+1. An apparatus, comprising:
+angle mapping logic for a solar array of a two-axis tracker mechanism for a concentrated photovoltaic system to facilitate remotely initiating an angle mapping process and remotely diagnosing movement and other pointing errors in the solar array on the two-axis solar tracker mechanism, where two or more pieces of equipment make up the solar array, and two or more pieces of equipment make up the two axis tracker mechanism; and
+where the angle mapping logic is configured to use a set of test points around angular coordinates that CPV cells contained in the solar array should be ideally positioned at relative to a current position of the Sun to achieve a highest power output from the solar array containing the CPV cells, and deviations in power produced in the set of test points of the angle mapping process provides diagnostics to indicate error locations and types of pointing errors present in the equipment in the solar array and in the two axis tracker mechanism, and information from the angle mapping process is sent over a network to a remote server for analysis, where the angle mapping logic is implemented as coded software on computing device readable medium, as an electronic circuit, and as any combination both and is located within an integrated electronic housing for the two-axis solar tracker mechanism.
+
+
+
+2. The apparatus of claim 1, where the angle mapping logic is configured to cooperate with other routines and electronic circuits built into the two axis tracker assembly, and the remotely initiated angle mapping process uses the routines and electronic circuits built into the two axis tracker assembly to allow a rapid assessment of power conversion efficiency, acceptance angle and sun-pointing accuracy of various paddle structures making up the solar array of the two axis tracker mechanism.
+
+
+3. The apparatus of claim 1, where the angle mapping logic is configured to step groups of solar power units contained in 1) one or modules making up the solar array, 2) a string of CPV cells electrically strung together for the solar array feeding an inverter circuit for that two axis tracker 3) a paddle structure of the solar array 4) a paddle pair assembly composed of two or more paddle structures or 5) any combination of the four making up each solar array through a grid of pointing directions with different off-axis offsets from the Sun while performing a maximum power point (MPP) characterization of that group in the solar array at each grid point.
+
+
+4. The apparatus of claim 1, where the remote server has scripted code to initiate the angle mapping process on the solar array as part of a larger steerable group of solar arrays located at the same site undergoing the angle mapping process at the same time.
+
+
+5. The apparatus of claim 1, where the remote server is a central backend management server system remotely located over the Internet from the two axis tracker assembly, and a browser from a remote user's computing device contacts the central backend management server system, and the central backend management server system presents a graphic user interface to the browser for the user to schedule a time to perform the remote angle mapping process for this two axis tracker.
+
+
+6. The apparatus of claim 1, where the remote server is a central backend management server system remotely located over the wide area network from the two axis tracker assembly, and the central backend management server presents graphic user interface, and a processing scripted routine in the central backend management server is configured to receive a request to initiate the angle mapping process from the graphic user interface and to translate the request into a command initiation request to be sent to the angle mapping logic of a single two axis tracker or angle mapping logic of a multitude of two axis trackers at the same site, and a transmission scripted routine in the central backend management server system encrypts and sends the command initiation request over the wide area network to a System Control Point (SCP) of each two axis tracker assembly being requested perform the angle mapping procedure, where the angle mapping logic is embedded in the SCP to receive the command initiation request from the central backend management server system and decode any proper actions to take.
+
+
+7. The apparatus of claim 1, where the angle mapping logic in the SCP of the two axis tracker assembly is configured to collect data including at least Direct Normal Incidence data, time of day, and weather information, where the angle mapping logic ensures that a selected time to conduct the remote angle mapping process occurs only when sun-viewing conditions are stable, including avoiding early morning and late evening, as well as intermittent cloud coverage, that could generate error prone data, where the angle mapping logic monitors these DNI, weather, and time parameters from a beginning of the remote angle mapping process until the data is collected after performing the angle mapping process and then checks these parameters against specific thresholds to ensure the collected data was grabbed when the sun-viewing and pointing conditions were stable.
+
+
+8. The apparatus of claim 1, where the angle mapping logic is configured to use measured electrical power out of an inverter circuit for the two axis tracker assembly and then factor in measured direct normal incidence of solar radiation at that two axis tracker mechanism at the time the electrical power measurement is made to determine a normalized electrical power out of the two axis tracker assembly.
+
+
+9. The apparatus of claim 1, where the angle mapping logic is built into the two axis tracker assembly, where data is collected from 1) a power out of an inverter circuit or 2) a power supplied to the inverter circuit and the data is stored in a memory for that two axis tracker assembly, and test points built into the inverter circuitry, the angle mapping logic to conduct this test, a local memory built into the local electronics, and wireless circuitry built into the two axis tracker assembly cooperate to transmit this information to the remote server.
+
+
+10. The apparatus of claim 1, where the angle mapping logic is configured to send a signal to one or more inverter circuits to have its built in Maximum Power Point sense circuit to perform MPP sweeps of a string circuit of solar cells supplying DC power to that inverter circuit, and a motion control circuit steers a tilt axis drive and roll axis drive to move the string circuit of solar cells in response to the MPP sweeps.
+
+
+11. The apparatus of claim 1, where the angle mapping logic is configured to take power measurements from built in circuitry in the two axis tracker assembly through a multiple test point grid using small degree incremental changes in the roll axis and tilt axis that deviate off from a nominal ideal angle for a paddle of the solar array under test, and tilt axis and roll axis position controllers in the two axis tracker assembly step the paddle through the multiple test point grid.
+
+
+12. The apparatus of claim 1, where the angle mapping logic is configured to use measured electrical characteristics including actual power output from the AC generation inverter circuits taken off (I-V) curves, and the measured characteristics is taken with a set of two or more calibration points, where the logic makes sure that this measured data including electrical current, electrical voltage, and current DNI parameters corresponding to that time of day when the actual power output was measured, is recorded into the memory, and all of these parameter values being stored in the memory in the SCP, are later transmitted over the wide area network to the remote server.
+
+
+13. The apparatus of claim 1, where the angle mapping logic is configured to assemble collected parameters from the angle mapping process and compress that data for wireless transmission to a router on a Local Area Network for this solar site to be transmitted over the Internet to the remote server, and the angle mapping logic at an end of the angle mapping process is configured to make sure environmental conditions during the angle mapping process did not change past threshold tolerances and then transmits environmental parameters so their slight deviations during the process can be factored into the ultimate analysis.
+
+
+14. The apparatus of claim 13, where a scripted routine in the remote server is configured to receive the compressed and transmitted data from each SCP at the site conducting the remote angle mapping process, and a scripted routine in the remote server creates graphs and plots of the received data and then analyzes received data to indicate pointing errors.
+
+
+15. The apparatus of claim 1, where a scripted routine in the remote server is configured to receive transmitted data from the angle mapping logic and generates shapes and plots of the data, and where the scripted routine determines pointing errors from the shapes of the graphs and the plots of the data of a given paddle of the solar array relative another paddle on the same two axis tracker assembly or even relative other two axis tracker assemblies in that same row of two axis tracker assemblies in a field of two axis tracker assemblies, where the scripted routine is also configured to analyze absolute values of the received transmitted data parameters to also determine pointing errors, and
+where the remote server system presents a graphic user interface with the plots and graphs to a browser of a user's computing device, which is displayed on a display screen of the user's computing device.
+
+
+
+16. An apparatus, comprising:
+angle mapping logic for a solar array of a two-axis tracker mechanism for a concentrated photovoltaic system is configured to facilitate a remotely initiated angle mapping process and then remotely diagnose movement and other pointing errors in the solar array on the two-axis solar tracker mechanism, where deviations in 1) power produced in a set of test points of the angle mapping process and 2) shapes of the plotted information, provide diagnostics to indicate error locations and types of pointing errors present in equipment in a solar array and in its associated two-axis tracker mechanism, where a communication circuit sends information from the angle mapping process over a network to a remote server for analysis, and where the angle mapping process is initiated from the remote server.
+
+
+
+17. An apparatus, comprising:
+angle mapping logic located in an integrated electronic housing for a two-axis solar tracker mechanism is configured to respond to a command to remotely initiate an angle mapping process to correct angular coordinates for CPV cells contained in the solar array of the two-axis solar tracker mechanism from those generated by an Ephemeris calculation alone in order to achieve the highest power out of the CPV cells, where the angle mapping logic is configured to conduct an angle mapping process in groups of CPV cells making up the solar array, where a matrix of the CPV cells at different angles relative to the Sun is populated with data from calibration measurements of an actual power being generated by a power output circuit during an angle mapping process and the angle mapping logic applies DNI measurements to normalize those measurements over a duration time of the angle mapping process of the entire solar array to determine any pointing errors in the angular coordinates for each group of CPV cells relative to the Sun.
+
+
+
+18. The apparatus of claim 17, where the angle mapping logic is configured to use measured electrical power out of an inverter circuit for the two axis tracker assembly and then factor in measured direct normal incidence of solar radiation at that two axis tracker mechanism at the time the electrical power measurement is made to determine a normalized electrical power out of the two axis tracker assembly.
+
+
+19. The apparatus of claim 17, where the group of CPV cells undergoing the angle mapping process is selected to be all of the CPV cells in a paddle structure on the two axis tracker assembly.
+
+
+20. The apparatus of claim 17, where the two-axis solar tracker mechanism is selected to be part of a group of two or more two-axis solar tracker mechanisms at the same site undergoing the angle mapping process at the same time.
+

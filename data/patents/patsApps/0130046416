@@ -1,0 +1,58 @@
+
+Disclosed is a solar photovoltaic power generator system that includes a solar cell panel and a power conditioner that controls a voltage or a current of generated power output from the solar cell panel as an operating value in accordance with a characteristic of the solar cell panel to search a maximum output point of the generated power so as to be supplied to a power system. The power conditioner includes a data memory module that stores a plurality of operating values and a plurality of patterns of the generated powers from the solar cell panel based on the operating values, and a maximum power point tracking module that adds a new operating value based on the pattern of the generated power in the past to calculate the operating values for the next search, and sets the maximum value through an algorithm.
+
+
+
+1. A solar photovoltaic power generator system which includes a solar cell panel, and a power conditioner which controls a voltage or a current of generated power output from the solar cell panel as an operating value in accordance with a characteristic of the solar cell panel to search a maximum output point of the generated power so as to be supplied to a power system, wherein:
+the power conditioner includes an inverter that converts the generated power output from the solar cell panel into a commercial power, an AVR control module that outputs a PWM instruction to the inverter so that the operating value of the generated power output from the solar cell panel is subjected to a variance control, a data memory module that stores a plurality of operating values under the variance control and a plurality of patterns of the generated powers from the solar cell panel based on the operating values, and a maximum power point tracking module that adds a new operating value to a part of the operating values in a past search based on the pattern of the generated power in the past search, and calculates the operating values for a next search so as to be supplied to the AVR control module; and
+when the maximum power point tracking module executes the search repeatedly to update the operating value, and a deviation of a plurality of generated powers repeatedly output becomes equal to or smaller than a predetermined value, the maximum output value is set.
+
+
+
+2. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module adds a new operating value to a part of the operating values in the past search in a direction of the highest power among those in the past search to calculate a plurality of operating values for the next search.
+
+
+3. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module calculates the operating values at 3 points for the search, and adds a new operating value at 1 point to two of the operating values in the past search in the direction of the highest power among those in the past search to calculate the operating values at 3 points for the next search.
+
+
+4. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module calculates the operating values at 3 points for the search, and adds new operating values at 2 points to the operating value at 1 point in the past search in the direction of the highest power among those in the search to calculate the operating values at 3 points for the next search.
+
+
+5. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module adds a new operating value to a part of the operating values in the past search in an expected direction of the maximum point of a characteristic of the solar cell to calculate a plurality of operating values for the next search.
+
+
+6. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module calculates the operating values at 3 points for the search, and adds a new operating value at 1 point to the operating values at 2 points in the past search in the expected direction of the maximum point of the characteristic of the solar cell to calculate the operating values at 3 points for the next search.
+
+
+7. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module calculates the operating values at 3 points for the search, and adds new operating values at 2 points to the operating value at 1 point in the past search in the expected direction of the maximum point of the characteristic of the solar cell to calculate the operating values at 3 points for the next search.
+
+
+8. The solar photovoltaic power generator system according to claim 1, wherein the maximum power point tracking module further includes a convergence determination module that determines a state where the deviation of a plurality of generated powers is equal to or smaller than a specified value as convergence, and a renewed search commencement determination module that starts operating in accordance with information from the convergence determination module, and generates a maximum point search instruction again upon change in a plurality of generated powers.
+
+
+9. A solar photovoltaic power generator system which includes a solar cell panel, and a power conditioner which controls a voltage or a current of generated power output from the solar cell panel as an operating value in accordance with an operation characteristic of the solar cell panel to search a maximum output point of the generated power so as to be supplied to a power system, wherein:
+the power conditioner includes an inverter that converts the generated power output from the solar cell panel into a commercial power, an AVR control module that outputs a PWM instruction to the inverter so that the operating values at least 3 points of the generated power output from the solar cell panel are subjected to a variance control, a data memory module that stores the operating values at 3 points under the variance control, and sloping patterns at 3 points of the generated powers from the solar cell panel based on the operating values, and a maximum power point tracking module that adds a new operating value to a part of the operating values in a past search based on the sloping pattern of the generated power in the past search, and calculates the operating values for a next search so as to be supplied to the AVR control module; and
+the maximum power point tracking module sets the operating value for the next search to a right side of the operation characteristic of the solar cell panel when the generated power in the past search has an upward sloping pattern, sets the operating value for the next search to a left side of the operation characteristic of the solar cell panel when the generated power in the past search has a downward sloping pattern, and adds an operating value to be at an inner side of the operating values at 3 points when the generated power in the past search has a triangle pattern, which are calculated as the operating values for the next search.
+
+
+
+10. The solar photovoltaic power generator system according to claim 9, wherein the maximum power point tracking module increases a part of the operating values at 3 points to be set for the next search when the generated power in the past search has the upward sloping pattern, decreases a part of the operating values at 3 points to be set for the next search when the generated power in the past search has the downward sloping pattern, and adds the operating value so as to be at the inner side of the operating values at 3 points to be set for the next search when the generated power in the past search has a triangle pattern.
+
+
+11. The solar photovoltaic power generator system according to claim 9, wherein the maximum power point tracking module further includes a convergence determination module that determines a state where the deviation of the generated powers at 3 points is equal to or smaller than a specified value as convergence, and a renewed search commencement determination module that starts operating in accordance with information from the convergence determination module, and generates a maximum point search instruction again upon change in the generated powers at 3 points.
+
+
+12. A solar photovoltaic power generator system which includes a solar cell panel, and a power conditioner which controls a voltage or a current of generated power output from the solar cell panel as an operating value in accordance with an operation characteristic of the solar cell panel to search a maximum output point of the generated power so as to be supplied to a power system, wherein:
+the power conditioner includes an inverter that converts the generated power output from the solar cell panel into a commercial power, an AVR control module that outputs a PWM instruction to the inverter so that the operating values of the generated power at least at 3 points output from the solar cell panel are subjected to a variance control, a data memory module that stores a plurality of operating values under the variance control and a plurality of sloping patterns of the generated powers from the solar cell panel based on the operating values, and a maximum power point tracking module that calculates the operating values for the next search based on the sloping pattern of the generated power in the past search so as to be supplied to the AVR control module; and
+when the generated power in the past search has a sloping pattern in one direction, the maximum power point tracking module adds a new operating value to a part of those in the past search to calculate the operating values for the next search so as to be set at a side opposite the operating values in the past search, expected to have a maximum point of the operation characteristic of the solar cell panel.
+
+
+
+13. The solar photovoltaic power generator system according to claim 12, wherein the maximum power point tracking module adds a new operating value to a part of the operating values in the past search in an expected direction of the maximum point of the characteristic of the solar cell panel to calculate a plurality of operating values for the next search.
+
+
+14. The solar photovoltaic power generator system according to claim 12, wherein the maximum power point tracking module calculates the operating values at 3 points for the search, and adds a new operating value at 1 point to the operating values at 2 points in the past search in the expected direction of the maximum point of the characteristic of the solar cell panel to calculate the operating values at 3 points for the next search.
+
+
+15. The solar photovoltaic power generator system according to claim 12, wherein the maximum power point tracking module calculates the operating values at 3 points for the search, and adds new operating values at 2 points to the operating value at 1 point in the past search in an expected direction of the maximum point of the characteristic of the solar cell panel to calculate the operating values at 3 points for the next search. 
+

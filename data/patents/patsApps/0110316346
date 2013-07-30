@@ -1,0 +1,161 @@
+
+Methods and apparatus may provide for the adaptive operation of a solar power system (3). Solar energy sources (1) and photovoltaic DC-DC power converters (2) may be interconnected in serial, parallel, or combined arrangements. DC photo-voltaic power conversion may be accomplished utilizing dynamically adjustable voltage output limits (8) of photovoltaic DC-DC power converters (2). A photovoltaic DC-DC power converter (2) may include at least one external state data interface (7) receptive to at least one external state parameter of a solar power system (3). A dynamically adjustable voltage output limit control (12) may be used to relationally set a dynamically adjustable voltage output limit (8) of a photovoltaic DC-DC power converter (2). Dynamically adjusting voltage output limits (8) may be done in relation to external state parameter information to achieve desired system results.
+
+
+
+1. A method of solar energy power conversion comprising the steps of:
+creating an MPP voltage DC photovoltaic output from at least one solar panel;
+establishing said MPP voltage DC photovoltaic output as an MPP voltage DC photovoltaic input to a photovoltaic DC-DC power converter;
+providing at least one external power converter voltage parameter to said photovoltaic DC-DC power converter;
+dynamically adjusting a voltage output limit of said photovoltaic DC-DC power converter in relation to said provided external power converter voltage parameter;
+compensating for an external power converter voltage via said step of dynamically adjusting a voltage output limit of said photovoltaic DC-DC power converter;
+slaving said step of dynamically adjusting a voltage output limit of said photovoltaic DC-DC power converter to a regulatory voltage limit;
+converting said MPP voltage DC photovoltaic input with said photovoltaic DC-DC power converter utilizing said dynamically adjusted voltage output limit into a converted DC photovoltaic output;
+establishing said converted DC photovoltaic output as a converted DC photovoltaic input to a DC-AC inverter;
+inverting said converted DC photovoltaic input into an inverted AC photovoltaic output.
+
+
+
+2-6. (canceled)
+
+
+7. A solar energy power conversion apparatus comprising:
+at least one solar panel having a DC photovoltaic output;
+maximum photovoltaic power point converter functionality control circuitry to which said at least one solar panel is responsive;
+a photovoltaic DC-DC power converter having a DC photovoltaic input that accepts power from said DC photovoltaic output;
+at least one external power converter voltage output data interface of said photovoltaic DC-DC power converter;
+a dynamically adjustable voltage output limit compensation control of said photovoltaic DC-DC power converter relationally responsive to said at least one external power converter voltage output data interface;
+a regulatory slaved primary control to which said dynamically adjustable voltage output limit compensation control of said photovoltaic DC-DC power converter is relationally responsive;
+at least one converted DC photovoltaic output of said photovoltaic DC-DC power converter;
+a photovoltaic DC-AC inverter input responsive to said converted DC photovoltaic output of said photovoltaic DC-DC power converter;
+a photovoltaic AC power output responsive to said photovoltaic DC-AC inverter.
+
+
+
+8-12. (canceled)
+
+
+13. A method of solar energy power conversion comprising the steps of:
+creating a DC photovoltaic output from at least one solar energy source;
+establishing said DC photovoltaic output as a DC photovoltaic input to a photovoltaic DC-DC power converter;
+providing at least one external state parameter to said photovoltaic DC-DC power converter;
+relationally setting a dynamically adjustable voltage output limit of said photovoltaic DC-DC power converter in relation to said at least one external state parameter;
+converting said DC photovoltaic input with said photovoltaic DC-DC power converter utilizing said dynamically adjustable voltage output limit into a converted DC photovoltaic output.
+
+
+
+14. A method of solar energy power conversion as described in claim 13 wherein said solar energy source comprises a solar energy source selected from the group consisting of at least one solar cell, a plurality of electrically connected solar cells, a plurality of adjacent electrically connected solar cells, at least one solar panel, a plurality of electrically connected solar panels, and at least one string of electrically connected solar panels.
+
+
+15. A method of solar energy power conversion as described in claim 13 wherein said step of creating a DC photovoltaic output from said at least one solar energy source comprises the step of creating MPP voltage for said at least one solar energy source.
+
+
+16. A method of solar energy power conversion as described in claim 13 wherein said step of providing at least one external state parameter to said photovoltaic DC-DC power converter comprises the step of providing at least one external state parameter selected from the group consisting of a voltage parameter, a current parameter, a power parameter, an insolation parameter, a temperature parameter, a system status parameter, a demand status parameter, a power converter output parameter, a string output parameter, a historical data tracking parameter, and a regulatory requirement parameter.
+
+
+17. A method of solar energy power conversion as described in claim 13 wherein said step of providing at least one external state parameter to said photovoltaic DC-DC power converter comprises the step of providing at least one multi-parametric external state parameter.
+
+
+18. A method of solar energy power conversion as described in claim 17 wherein said step of providing at least one multi-parametric external state parameter comprises the step of including a parametric component for said at least one multi-parametric external state parameter selected from the group consisting of a voltage parameter, a current parameter, a power parameter, an insolation parameter, a temperature parameter, a system status parameter, a demand status parameter, a power converter output parameter, a string output parameter, a historical data tracking parameter, and a regulatory requirement parameter.
+
+
+19. A method of solar energy power conversion as described in claim 13 wherein said step of relationally setting a dynamically adjustable voltage output limit comprises the step of dynamically adjusting said dynamically adjustable voltage output limit responsive to said at least one external state parameter.
+
+
+20. A method of solar energy power conversion as described in claim 19 wherein said step of dynamically adjusting said dynamically adjustable voltage output limit comprises a step selected from the group consisting of operating said photovoltaic DC-DC power converter at a suboptimal efficiency, operating said photovoltaic DC-DC power converter at a suboptimal input voltage, operating said photovoltaic DC-DC power converter at a suboptimal power loss, and operating said at least one solar energy source at a suboptimal MPP voltage.
+
+
+21. A method of solar energy power conversion as described in claim 19 wherein said step of dynamically adjusting said dynamically adjustable voltage output limit comprises the steps of:
+implementing a step function to dynamically adjust said dynamically adjustable voltage output limit;
+determining a resultant effect on said external state parameter;
+repeating said steps of implementing and determining until a desired result is achieved.
+
+
+
+22. A method of solar energy power conversion as described in claim 19 wherein said step of dynamically adjusting said dynamically adjustable voltage output limit comprises the step of first adjusting an external voltage to a safe condition.
+
+
+23. A method of solar energy power conversion as described in claim 19 wherein said step of dynamically adjusting said dynamically adjustable voltage output limit comprises the step of compensating for said external state parameter.
+
+
+24. A method of solar energy power conversion as described in claim 23 wherein said step of compensating for said external state parameter comprises the step of raising a voltage limit of said photovoltaic DC-DC power converter in response to a voltage drop of said external state parameter.
+
+
+25. A method of solar energy power conversion as described in claim 23 wherein said step of compensating for said external state parameter comprises the step of lowering a voltage limit of said photovoltaic DC-DC power converter in response to a voltage gain of said external state parameter.
+
+
+26. A method of solar energy power conversion as described in claim 13 wherein said step of relationally setting a dynamically adjustable voltage output limit comprises the step of slaving said dynamically adjustable voltage output limit of said photovoltaic DC-DC power converter in relation to said at least one external state parameter.
+
+
+27. A method of solar energy power conversion as described in claim 26 wherein said step of slaving said dynamically adjustable voltage output limit comprises the step of hierarchically slaving said dynamically adjustable voltage output limit of said photovoltaic DC-DC power converter in relation to said at least one external state parameter.
+
+
+28. A method of solar energy power conversion as described in claim 27 wherein said step of hierarchically slaving said dynamically adjustable voltage output limit comprises the steps of:
+first slaving to a regulatory parameter;
+second slaving to an operational parameter;
+third slaving to an MPP parameter.
+
+
+
+29. A method of solar energy power conversion as described in claim 13 wherein said step of providing at least one external state parameter comprises the step of providing at least one intra-string parameter, and wherein said step of relationally setting a dynamically adjustable voltage output limit comprises the step of dynamically adjusting said dynamically adjustable voltage output limit utilizing said at least one intra-string parameter to achieve a desired condition for a string.
+
+
+30. A method of solar energy power conversion as described in claim 29 wherein said desired condition for a string comprises a condition selected from the group consisting of a desired voltage for said string, a nontraditionally high voltage for said string, a near regulatory limit voltage for said string, greater than 400 volts for said string, greater than 450 volts for said string, greater than 500 volts for said string, greater than 550 volts for said string, greater than 65% of a regulatory voltage requirement for said string, greater than 70% of a regulatory voltage requirement for said string, greater than 75% of a regulatory voltage requirement for said string, greater than 80% of a regulatory voltage requirement for said string, greater than 85% of a regulatory voltage requirement for said string, greater than 90% of a regulatory voltage requirement for said string, and greater than 95% of a regulatory voltage requirement for said string.
+
+
+31. A method of solar energy power conversion as described in claim 29 wherein said step of providing at least one intra-string parameter comprises the step of providing a voltage for at least one intra-string element, and wherein said step of dynamically adjusting said dynamically adjustable voltage output limit comprises the step of compensating for said voltage for said at least one intra-string element.
+
+
+32. A method of solar energy power conversion as described in claim 31 wherein said at least one intra-string element comprises at least one intra-string solar energy source connected to at least one intra-string photovoltaic DC-DC power converter serially located on said string.
+
+
+33. A method of solar energy power conversion as described in claim 31 wherein said step of compensating for said voltage comprises the step of compensating selected from the group consisting of compensating for an increased voltage output of at least one intra-string solar energy source, compensating for a decreased voltage output of at least one intra-string solar energy source, compensating for dropout of at least one intra-string solar energy source, compensating for shading of at least one intra-string solar energy source, compensating for blockage of at least one intra-string solar energy source, compensating for damage to at least one intra-string solar energy source, compensating for malfunctioning of at least one intra-string solar energy source, and compensating for non-uniformity in at least one intra-string solar energy source.
+
+
+34. A method of solar energy power conversion as described in claim 29 further comprising the step of dynamically adjusting a dynamically adjustable voltage output limit for a plurality of photovoltaic DC-DC power converters utilizing said at least one intra-string parameter to achieve a desired condition for said string.
+
+
+35. A method of solar energy power conversion as described in claim 13 wherein said step of providing at least one external state parameter comprises the step of providing at least one inter-string parameter, and wherein said step of relationally setting a dynamically adjustable voltage output limit comprises the step of dynamically adjusting said dynamically adjustable voltage output limit utilizing said at least one inter-string parameter to achieve a desired inter-string condition.
+
+
+36. A method of solar energy power conversion as described in claim 35 wherein said desired inter-string condition comprises a condition selected from the group consisting of a desired inter-string voltage, a nontraditionally high inter-string voltage, an inter-string voltage close to a regulatory limit, an inter-string voltage of greater than 400 volts, an inter-string voltage of greater than 450 volts, an inter-string voltage of greater than 500 volts, an inter-string voltage of greater than 550 volts, an inter-string voltage of greater than 65% of a regulatory voltage requirement, an inter-string voltage of greater than 70% of a regulatory voltage requirement, an inter-string voltage of greater than 75% of a regulatory voltage requirement, an inter-string voltage of greater than 80% of a regulatory voltage requirement, an inter-string voltage of greater than 85% of a regulatory voltage requirement, an inter-string voltage of greater than 90% of a regulatory voltage requirement, and an inter-string voltage of greater than 95% of a regulatory voltage requirement.
+
+
+37. A method of solar energy power conversion as described in claim 35 wherein said step of providing at least one inter-string parameter comprises the step of providing a voltage for at least one external string, and wherein said step of dynamically adjusting said dynamically adjustable voltage output limit comprises the step of compensating for said voltage for said at least one external string.
+
+
+38. A method of solar energy power conversion as described in claim 37 wherein said at least one external string comprises at least one parallel external string.
+
+
+39. A method of solar energy power conversion as described in claim 37 wherein said step of compensating for said voltage comprises the step of compensating selected from the group consisting of compensating for an increased voltage output of at least one external string, compensating for a decreased voltage output of at least one external string, compensating for dropout of at least one external string, compensating for shading of at least one external string, compensating for blockage of at least one external string, compensating for damage to at least one external string, compensating for malfunctioning of at least one external string, and compensating for non-uniformity in at least one external string.
+
+
+40. A method of solar energy power conversion as described in claim 35 further comprising a step selected from the group consisting of dynamically adjusting a dynamically adjustable voltage output limit for a plurality of photovoltaic DC-DC power converters utilizing said at least one inter-string parameter to achieve a desired inter-string condition, dynamically adjusting a dynamically adjustable voltage output limit for a plurality of photovoltaic DC-DC power converters on a single string utilizing said at least one inter-string parameter to achieve a desired inter-string condition, and dynamically adjusting a dynamically adjustable voltage output limit for a plurality of photovoltaic DC-DC power converters on a plurality of strings utilizing said at least one inter-string parameter to achieve a desired inter-string condition.
+
+
+41. A method of solar energy power conversion as described in claim 13 further comprising the steps of:
+providing at least one external state parameter to a plurality of photovoltaic DC-DC power converters;
+relationally setting a dynamically adjustable voltage output limit in multiple of said plurality of photovoltaic DC-DC power converters, each in relation to said provided at least one external state parameter.
+
+
+
+42. A method of solar energy power conversion as described in claim 41 wherein said step of providing at least one external state parameter to a plurality of photovoltaic DC-DC power converters comprises the step of providing a state parameter of at least one photovoltaic DC-DC power converter to at least another photovoltaic DC-DC power converter, and wherein said step of relationally setting a dynamically adjustable voltage output limit comprises the step of relationally setting a dynamically adjustable voltage output limit in relation to said provided state parameter.
+
+
+43. A method of solar energy power conversion as described in claim 13 further comprising the steps of:
+establishing said converted DC photovoltaic output as a converted DC photovoltaic input to a DC-AC inverter;
+inverting said converted DC photovoltaic input into an inverted AC photovoltaic output.
+
+
+
+44. A solar energy power conversion apparatus comprising:
+at least one solar energy source having a DC photovoltaic output;
+a photovoltaic DC-DC power converter having a DC photovoltaic input that accepts power from said DC photovoltaic output;
+at least one external state data interface of said photovoltaic DC-DC power converter;
+a dynamically adjustable voltage output limit control of said photovoltaic DC-DC power converter relationally responsive to said at least one external state data interface;
+at least one converted DC photovoltaic output of said photovoltaic DC-DC power converter.
+
+
+
+45-74. (canceled)
+

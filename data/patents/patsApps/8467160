@@ -1,0 +1,133 @@
+
+An electrical power converter for converting power from a bipolar DC source to supply an AC load is disclosed. For one such embodiment the bipolar DC source is a photovoltaic array and the AC power is sourced into an electric power grid. The bipolar photovoltaic array has positive and negative voltage potentials with respect to earth ground. The converter is a utility interactive inverter which does not require an isolation transformer at the electric power grid interface. Embodiments of the invention include methods of detecting and interrupting DC ground faults in the photovoltaic array.
+
+
+
+1. An apparatus for converting power from a bipolar DC source to supply an AC load having plus and minus input terminals, said apparatus comprising:
+a bipolar DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of an AC load, and
+a DC ground fault interrupt circuit including a means for detecting a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of the AC load and a means of automatically interrupting the flow of said fault current,
+said bipolar DC source having a plus and minus terminal for each monopole and where the minus terminal of the positive monopole is connected to earth ground through a first fuse and where the plus terminal of the negative monopole is connected to earth ground through a second fuse and
+where a first contactor is connected between the plus terminal of the positive monopole and the plus terminal of the apparatus for converting power from a bipolar DC source to supply an AC load and
+where a second contactor is connected between the minus terminal of the negative monopole and the minus terminal of the apparatus for converting power from a bipolar DC source to supply an AC load and
+where a third contactor is connected between the minus terminal of the positive monopole and the plus terminal of the negative monopole and
+
+where there is a means of detecting an open first or open second fuse and a means of opening the first, second and third contactors in response to an open fuse being detected.
+
+
+
+2. The apparatus of claim 1 wherein the contactor function is performed by a relay, a semiconductor switch, a solid state relay, a contactor or any combination thereof.
+
+
+3. The apparatus of claim 1, wherein the fault current to ground in a photovoltaic array monopole is sensed by differential measurement or calculation of the net current in the two current carrying conductors of a 2-wire photovoltaic array monopole, by measurement of the current in a photovoltaic array connection to earth ground or by detecting the open condition of a fuse located in a ground fault current path.
+
+
+4. The apparatus of claim 1 wherein the DC source is a photovoltaic array, a battery, a fuel cell, a reciprocating generator, a turbine generator or combination thereof.
+
+
+5. The apparatus of claim 1 where the AC load is an electric power grid and the DC-to-AC power converter functions as a grid interactive inverter.
+
+
+6. An apparatus for converting power from a bipolar DC source to supply an AC load having plus and minus input terminals, said apparatus comprising:
+a bipolar photovoltaic DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of an AC load, and
+a DC ground fault interrupt circuit including a means for detecting a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of the AC load and a means of automatically interrupting the flow of said fault current,
+said bipolar source having a positive monopole and a negative monopole and where said apparatus has a plus and minus terminal for each monopole and where these four terminals each connect to one of two power terminals on one of four distinct contactors and where the remaining terminal of the contactor connected to the minus terminal of the positive monopole and the remaining terminal of the contactor connected to the plus terminal of the negative monopole are connected together and to earth ground, directly or through a fuse and furthermore, where the remaining terminal of the contactor connected to the plus terminal of the positive monopole is connected to the plus input terminal of the AC load and the remaining terminal of the contactor connected to the minus terminal of the negative monopole is connected to the minus input terminal of the AC load and furthermore, where there is a means of opening contactors in response to a ground fault in either photovoltaic source monopole.
+
+
+
+7. The apparatus of claim 6 wherein the contactor function is performed by a relay, a semiconductor switch, a solid state relay, a contactor or any combination thereof.
+
+
+8. The apparatus of claim 6, wherein the fault current to ground in a photovoltaic array monopole is sensed by differential measurement or calculation of the net current in the two current carrying conductors of a 2-wire photovoltaic array monopole, by measurement of the current in a photovoltaic array connection to earth ground or by detecting the open condition of a fuse located in a ground fault current path.
+
+
+9. An apparatus for converting power from a bipolar DC source to supply an AC load having plus and minus input terminals comprising:
+a bipolar photovoltaic DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of an AC load, and
+a DC ground fault interrupt circuit including a means for detecting a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of the AC load and a means of automatically interrupting the flow of said fault current,
+said bipolar photovoltaic source is further defined as having a positive monopole and a negative monopole and where said apparatus has a plus and minus terminal for each monopole and where there is a contactor connected across the plus and minus terminals of each monopole, hereafter collectively referred to as the shorting contactors, and contactors connected from the plus terminal of the positive monopole to the plus input terminal of the AC load and the minus terminal of the negative monopole and the minus input terminal of the AC load respectively, hereafter collectively referred to as the isolation contactors, and furthermore where the shorting contactors are open and the isolation contactors are closed under normal operating conditions and where shorting contactors are closed and the isolation contactors are open in response to a ground fault in the affected photovoltaic monopole.
+
+
+
+10. The apparatus of claim 9 wherein the contactor function is performed by a relay, a semiconductor switch, a solid state relay, a contactor or any combination thereof.
+
+
+11. The apparatus of claim 9, wherein the fault current to ground in a photovoltaic array monopole is sensed by differential measurement or calculation of the net current in the two current carrying conductors of a 2-wire photovoltaic array monopole, by measurement of the current in a photovoltaic array connection to earth ground or by detecting the open condition of a fuse located in a ground fault current path.
+
+
+12. An apparatus for converting electrical power from a DC source to supply an AC load comprising:
+a bipolar DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of said AC load, each of said monopoles including first and second output terminals, said first output terminals being controllably coupled to a DC-to-AC power converter circuit, and said second output terminals being coupled to a common earth ground and controllably coupled to each other;
+a DC ground fault interrupt circuit responsive to a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of said AC load for automatically interrupting the flow of said fault current; and
+a pair of controllable DC contactors controllably coupling said first output terminals to said DC-to-AC power converter circuit, and a third controllable contactor controllably coupling said second output terminals to each other.
+
+
+
+13. The apparatus of claim 12 in which said second output terminals are coupled to a common earth ground through a pair of fuses.
+
+
+14. The apparatus of claim 12 in which said second output terminals are controllably coupled to each other by at least a third controllable third contactor.
+
+
+15. An apparatus for converting power from a DC source to supply an AC load comprising
+a bipolar DC source having positive and negative monopoles each of which has first and second output terminals,
+a DC-to-AC power converter circuit having first and second input terminals,
+first and second DC contactors controllably coupling said first output terminals of said monopoles to said input terminals of said DC-to-AC power converter,
+a ground connection for each of said second output terminals of said monopoles, and
+at least a third DC contactor controllably coupling said second output terminals of said monopoles to each other.
+
+
+
+16. The apparatus of claim 15 in which a common ground connection forms said ground connection for both of said second output terminals.
+
+
+17. The apparatus of claim 16 which includes first and second fuses coupling said second output terminals of said monopoles with said common ground connection, said fuses disconnecting said second output terminals of said monopoles from said common ground connector in response to a DC ground fault.
+
+
+18. The apparatus of claim 15 which includes a controller for opening and closing said first, second and third DC contactors.
+
+
+19. The apparatus of claim 15 which includes a fourth DC contactor, and said third and fourth DC contactors controllably couple said second output terminals of said monopoles to each other.
+
+
+20. The apparatus of claim 15 which includes a DC ground fault detector and a controller coupled to said detector and said contactors for opening said first, second and third contactors in response to the detection of a DC ground fault.
+
+
+21. The apparatus of claim 15 which includes a DC ground fault interrupt circuit responsive to a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of said AC load for automatically interrupting the flow of said fault current.
+
+
+22. The apparatus of claim 15 in which said third DC contactor controllably couples said second output terminals to earth ground.
+
+
+23. An apparatus for converting power from a bipolar DC source to supply an AC load comprising:
+a bipolar DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of said AC load;
+a DC ground fault interrupt circuit responsive to a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of said AC load for automatically interrupting the flow of said fault current; and
+a DC-to-AC power converter circuit having plus and minus input terminals, and in which each of said monopoles includes plus and minus terminals, the minus terminal of said positive monopole is connected to earth ground through a first fuse and the plus terminal of said negative monopole is connected to earth ground through a second fuse, a first contactor is connected between the plus terminal of said positive monopole and the plus terminal of said DC-to-AC power converter, a second contactor is connected between the minus terminal of said negative monopole and the minus terminal of said DC-to-AC power converter, a third contactor is connected between the minus terminal of said positive monopole and the plus terminal of said negative monopole, and which includes a detector responsive to the opening of at least one of said first and second fuses for opening said first, second and third contactors.
+
+
+
+24. The apparatus of claim 23 wherein the contactor function is performed by a relay, a semiconductor switch, a solid state relay, a contactor or any combination thereof.
+
+
+25. The apparatus of claim 23 wherein the fault current to ground in a photovoltaic array monopole is sensed by differential measurement or calculation of the net current in the two current carrying conductors of a 2-wire photovoltaic array monopole, by measurement of the current in a photovoltaic array connection to earth ground or by detecting the open condition of a fuse located in a ground fault current path.
+
+
+26. The apparatus of claim 23, wherein the fault current to ground in a photovoltaic array monopole is sensed by differential measurement or calculation of the net current in the two current carrying conductors of a 2-wire photovoltaic array monopole, by measurement of the current in a photovoltaic array connection to earth ground or by detecting the open condition of a fuse located in a ground fault current path.
+
+
+27. An apparatus for converting power from a bipolar DC source to supply an AC load comprising:
+a bipolar photovoltaic DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of said AC load;
+a DC ground fault interrupt circuit responsive to a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of said AC load for automatically interrupting the flow of said fault current; and
+said bipolar photovoltaic DC source is further defined as having a positive monopole and a negative monopole and where said apparatus has a plus and minus terminal for each monopole and where these four terminals each connect to one of two power terminals on one of four distinct contactors and where the remaining terminal of the contactor connected to the minus terminal of the positive monopole and the remaining terminal of the contactor connected to the plus terminal of the negative monopole are connected together and to earth ground, directly or through a fuse and furthermore, where the remaining terminal of the contactor connected to the plus terminal of the positive monopole is connected to the plus terminal of the DC -to- AC power converter and the remaining terminal of the contactor connected to the minus terminal of the negative monopole is connected to the minus terminal of the DC-to-AC power converter and furthermore, where there is a means of opening contactors in response to a ground fault in either photovoltaic source monopole.
+
+
+
+28. The apparatus of claim 27 wherein the contactor function is performed by a relay, a semiconductor switch, a solid state relay, a contactor or any combination thereof.
+
+
+29. The apparatus of claim 27, wherein the fault current to ground in a photovoltaic array monopole is sensed by differential measurement or calculation of the net current in the two current carrying conductors of a 2-wire photovoltaic array monopole, by measurement of the current in a photovoltaic array connection to earth ground or by detecting the open condition of a fuse located in a ground fault current path.
+
+
+30. An apparatus for converting power from a bipolar DC source to supply an AC load comprising:
+a bipolar DC source having positive and negative monopoles, and corresponding voltage potentials, with respect to a common earth ground or with respect to a neutral point of said AC load;
+a DC ground fault interrupt circuit responsive to a fault current in either monopole of the bipolar DC source to earth ground or to a neutral point of said AC load for automatically interrupting the flow of said fault current; and
+said bipolar photovoltaic source is further defined as having a positive monopole and a negative monopole and where said apparatus has a plus and minus terminal for each monopole and where there is a contactor connected across the plus and minus terminals of each monopole, hereafter collectively referred to as the shorting contactors, and contactors connected from the plus terminal of the positive monopole to the plus terminal of the AC load and the minus terminal of the negative monopole and the minus terminal of the AC load respectively, hereafter collectively referred to as the isolation contactors, and furthermore where the shorting contactors are open and the isolation contactors are closed under normal operating conditions and where shorting contactors are closed and the isolation contactors are open in response to a ground fault in the affected photovoltaic monopole. 
+
+

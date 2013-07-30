@@ -1,0 +1,83 @@
+
+A converting device with multiple input terminals and two output terminals is disclosed for converting Direct Current (DC) power from a power source to Alternating Current (AC) power. The converting device includes N pairs of input electrodes (N is an integer and N≧2), configured to receive the DC power from the power source, N maximum power point trackers, each coupled to one pair of the N pairs of input electrodes, configured to track a maximum power operation point for the DC power received from the one pair of the N pairs of input electrodes, two DC/DC converters, each coupled to one of the N maximum power point trackers, configured to convert a DC voltage received from the one of the N maximum power point trackers, a DC/AC inverter, coupled to the N DC/DC converters, configured to convert N DC voltages provided by the N DC/DC converters to an AC output signal, and a controller, coupled to the N DC/DC converters and the DC/AC inverter, configured to control the DC/DC conversion operation of the N DC/DC converters and the DC/AC conversion operation of the DC/AC inverter.
+
+
+
+1. A converting device with multiple input terminals and two output terminals for converting Direct Current (DC) power from a power source to Alternating Current (AC) power, comprising:
+N pairs of input electrodes, configured to receive the DC power from the power source, where N is an integer and N≧2;
+N maximum power point trackers, each coupled to one pair of the N pairs of input electrodes, configured to track a maximum power operation point for the DC power received from the one pair of the N pairs of input electrodes;
+N pairs of DC/DC converters, each coupled to one of the N maximum power point trackers, configured to convert a DC voltage received from the one of the N maximum power point trackers;
+a DC/AC inverter, coupled to the N DC/DC converters in parallel connection, configured to convert N DC voltages provided by the N DC/DC converters into an AC output signal; and
+a controller, coupled to the N DC/DC converters and the DC/AC inverter, configured to control the DC/DC conversion operation of the N DC/DC converters and the DC/AC conversion operation of the DC/AC inverter.
+
+
+
+2. The converting device with multiple input terminals and two output terminals of claim 1, wherein the N DC/DC converters convert the DC voltages from the N maximum power point trackers all into a predetermined value.
+
+
+3. The converting device with multiple input terminals and two output terminals of claim 1, wherein the N pairs of input electrodes are grouped as 2N input terminals to be coupled to the power source.
+
+
+4. The converting device with multiple input terminals and two output terminals of claim 1, wherein each two pairs of the N pairs of input electrodes are connected as three input terminals to be coupled to the power source.
+
+
+5. The converting device with multiple input terminals and two output terminals of claim 1, wherein the controller determines respective voltage conversion ratios for the N DC/DC converters.
+
+
+6. The converting device with multiple input terminals and two output terminals of claim 1, wherein the controller determines respective voltage conversion ratios for the N DC/DC converters according to input signals received from the N pairs of input electrodes and a predetermined value.
+
+
+7. The converting device with multiple input terminals and two output terminals of claim 1, wherein the controller receives an AC line signal coupled to a load and based on the received AC line signal, the controller generates a control signal for controlling the DC/AC inverter to provide the AC output signal synchronous with the AC line signal.
+
+
+8. A photovoltaic system, comprising:
+one or more power sources for converting solar energy to DC power, each of the power sources having multiple terminals; and one or more converting devices with multiple input terminals and two output terminals for converting the DC power output from the one or more power sources into AC power for output from the photovoltaic system,
+wherein each of the one or more converting devices comprises:
+N pairs of input electrodes, configured to receive the DC power from the one ore more power sources, where N is an integer and N≧2;
+N maximum power point trackers, each coupled to one pair of the N pairs of input electrodes, configured to track a maximum power operation point for the DC power received from the one pair of the N pairs of input electrodes;
+N DC/DC converters, each coupled to one of the N maximum power point trackers, configured to convert a DC voltage received from the one of the N maximum power point trackers;
+a DC/AC inverter, coupled to the N DC/DC converters, configured to convert N DC voltages provided by the N DC/DC converters to an AC output signal; and
+a controller, configured to control the DC/DC conversion operation of the N DC/DC converters and the DC/AC conversion operation of the DC/AC inverter.
+
+
+
+
+9. The photovoltaic system of claim 8, wherein the respective N DC/DC converters in each of the one or more converting devices convert the DC voltages from the N maximum power point trackers all into a predetermined value
+
+
+10. The photovoltaic system of claim 8, wherein the respective N pairs of input electrodes in each of the one or more converting devices are grouped as N input terminals to be coupled to the one or more power sources.
+
+
+11. The photovoltaic system of claim 8, wherein each two pairs of the respective N pairs of input electrodes in each of the one or more converting devices are connected as three input terminals to be coupled to the one or more power sources.
+
+
+12. The photovoltaic system of claim 8, wherein each two pairs of the respective N pairs of input electrodes in each of the one or more converting devices are connected as three input terminals to be coupled to the one or more power sources.
+
+
+13. The photovoltaic system of claim 8, wherein the respective controller in each of the one or more converting devices determines respective voltage conversion ratios for the N DC/DC converters.
+
+
+14. The photovoltaic system of claim 8, wherein the respective controller in each of the one or more converting devices determines respective voltage conversion ratios for the N DC/DC converters according to input signals received from the N pairs of input electrodes and a predetermined value
+
+
+15. The photovoltaic system of claim 8, wherein the respective controller in each of the one or more converting devices receives an AC line signal coupled to a load and based on the received AC line signal, the controller generates a control signal for controlling the DC/AC inverter to provide the AC output signal synchronous with the AC line signal.
+
+
+16. A power converting method for converting Direct Current (DC) power to Alternating Current (AC) power, comprising:
+tracking N maximum power operation points for the DC power and providing N first DC voltages, where N is an integer and N≧2;
+converting the N first DC voltages to N second DC voltages, respectively; and
+converting the N second DC voltages into an AC output signal.
+
+
+
+17. The power converting method of claim 16, wherein the values of the N second voltages are all equal to a predetermined value.
+
+
+18. The power converting method of claim 16, wherein the DC power is provided by a 2N-terminal photovoltaic module.
+
+
+19. The power converting method of claim 16, further comprising determining voltage conversion ratios for the step of converting the two first DC voltages according to input signals serving the DC power and a predetermined value.
+
+
+20. The power converting method of claim 16, further comprising generating a control signal according to an AC line signal, and the converting step of the two second DC voltages is realized according to the control signal to provide the AC output signal synchronous with the AC line signal.
+

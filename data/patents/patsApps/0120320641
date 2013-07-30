@@ -1,0 +1,116 @@
+
+Processes, machines, and articles of manufacture that may management power conversion as provided. This may include circuit topology or management that serves to improve power conversion efficiency from a DC waveform to an AC waveform. This circuit topology or management may include considering and managing the voltage across a DC-link capacitive bus and the phase angle output of an AC waveform in order to influence or improve power conversion characteristics or efficiency.
+
+
+
+1. A method of bus control comprising:
+inputting measured power into a bus voltage command calculator of a dc link inverter;
+inputting measured grid voltage into a bus voltage command calculator of a dc link inverter;
+identifying the setting of a phase shift selection indicator;
+at the bus voltage command calculator, using the inputted measured power, the inputted measured grid voltage, and the setting of the phase shift selection indicator to determine a bus voltage command setting output from the bus voltage command controller;
+using the bus voltage command setting output for setting the voltage of a capacitive bus positioned between a dc-dc boost converter and a dc-ac converter of a dc link inverter; and
+when the phase shift selection indicator is in an affirmative setting, using the inputted measured power, the inputted measured grid voltage, and the status of the phase shift selection indicator to determine an output current phase angle command setting.
+
+
+
+2. The method of claim 1 wherein the
+phase shift selection status changeable from an on position to an off position.
+
+
+
+3. The method of claim 1 wherein the dc-dc boost converter and the dc-ac converter are part of the same dc link inverter, the dc link inverter electrically coupled between a power grid and a solar panel and wherein either the dc-dc converter or the dc-ac converter has circuit topologies including one or more of the following: a buck-boost converter circuit topology, a flyback converter circuit topology, SEPIC converter circuit topology, an half-bridge converter circuit topology, a full-bridge converter circuit topology, and an LLC series converter circuit topology.
+
+
+4. The method of claim 1 further comprising:
+considering the capacitance of the capacitive bus and phase shift when determining the bus voltage command setting output, and selecting the capacitance size of the capacitive bus to have a rating of about 200 nanofarads or less for each anticipated watt of power on the bus.
+
+
+
+5. The method of claim 1 further comprising:
+modifying the bus voltage command setting output by a safety factor, the safety factor serving to add separation between alternating bus voltages affected by the bus voltage command setting output and grid voltage values.
+
+
+
+6. The method of the claim 1 further comprising:
+receiving a phase shift selection indicator selection or change using a remote communication system in communication with the solar panel inverter.
+
+
+
+7. The method of claim 1 further comprising:
+modifying the bus voltage command setting output after the solar panel inverter has completed a jog mode cycle, where a number of cycles are dispensed to the power grid between anticipated pauses of power delivery to the power grid.
+
+
+
+8. The method of claim 1 further considering apparent power, alternating voltage frequency, phase shift and a constant (KF) when determining the bus voltage command setting output.
+
+
+9. The method of claim 1 further wherein determining the bus voltage command setting output includes using a lookup table having bus voltage command setting outputs based upon measured power, measured grid voltage and phase shift selection indicator status to determine the bus voltage command setting output.
+
+
+10. The method of claim 8 wherein the constant (KF) is scaled by an apparent voltage and wherein the constant is set using normalized capacitance, phase angle, and peak voltage of the capacitive bus.
+
+
+11. The method of the claim 1 wherein the determined bus voltage command setting output from the bus voltage command controller serves to reduce switching losses in the ac-dc converter and to promote a capacitive bias.
+
+
+12. A power conversion system, the system comprising:
+an input converter having switches, the switches controllable to convert electrical power from a first DC voltage to a second DC voltage;
+an output converter having switches controllable to convert electrical power from a first waveform to a second waveform, the second waveform being an AC waveform;
+a bus coupled in parallel to the input converter and the output converter;
+an input controller configured to control switches of the input converter;
+an output controller configured to control switches of the output converter; and
+a bus voltage command calculator (BVCC),
+the BVCC configured to generate a commanded bus voltage and a commanded preferred phase shift,
+the commanded bus voltage and the commanded preferred phase shift selected and paired to modify the waveform output of the output converter.
+
+
+
+
+13. The power conversion system of claim 12 wherein the BVCC further comprises:
+a first input configured to receive a first signal, the first signal indicative of power provided from a DC source, and
+a second input configured to receive a second signal, the second signal indicative of the power waveform of a AC power grid.
+
+
+
+14. The power conversion system of claim 13
+wherein the BVCC further comprises a third input configured to receive a third signal, the third signal indicative of commanded phase shift status, and
+wherein the BVCC is configured to provide or not to provide the commanded preferred phase shift depending upon a received third signal indicative of commanded phase shift.
+
+
+
+15. The power conversion system of claim 12
+wherein the BVCC is contained in a controller, the controller also having circuitry configured to determine a difference between commanded bus voltage and measured voltage of the bus, use that determined difference to generate a commanded current for controlling switches of the output converter.
+
+
+
+16. The power conversion system of claim 12
+wherein the input converter is a DC-DC stage converter, the output converter is a DC-AC stage converter, and the bus comprises a capacitor.
+
+
+
+17. The power conversion system of claim 14
+wherein the third input is in communication with a controller over a network, the network including a wide-area network and an internet protocol network.
+
+
+
+18. The power conversion system of claim 13
+wherein the input converter and the output converter are within a microinverter and wherein the commanded bus voltage and the commanded preferred phase shift are jointly selected and paired to conform the power output from the microinverter to an AC waveform on the public power grid and wherein the input converter includes a transformer.
+
+
+
+19. The power conversion of claim 13
+wherein the input converter and the output converter are within a microinverter and
+wherein the commanded bus voltage and the commanded preferred phase shift are jointly selected and paired to increase, for the public power grid, the useable power output from the microinverter.
+
+
+
+20. An article of manufacture comprising:
+a nontransient computer readable medium, the computer readable medium containing instructions, which when loaded and executed, configure a processor to perform the following process:
+
+input a measured power into a bus voltage command calculator of a dc link inverter;
+input a measured grid voltage into a bus voltage command calculator of a dc link inverter;
+identify the setting of a phase shift selection indicator;
+at a bus voltage command calculator, use the inputted measured power, the inputted measured grid voltage, and the setting of the phase shift selection indicator to determine a bus voltage command setting output from the bus voltage command controller;
+use the bus voltage command setting output for setting the voltage of a capacitive bus positioned between a dc-dc boost converter and a dc-ac converter of a dc link inverter; and
+when the phase shift selection indicator is in an affirmative setting, use the inputted measured power, the inputted measured grid voltage, and the status of the phase shift selection indicator to determine an output current phase angle command setting.
+

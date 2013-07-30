@@ -1,0 +1,100 @@
+
+A photovoltaic module includes: a solar cell module including a plurality of solar cells; and a junction box including a capacitor unit attached to one face of the solar cell module and that to stores DC power supplied from the solar cell module, and a dc/dc converter unit to convert the level of the stored DC power and output the same. Thus, power may be easily supplied through the junction box.
+
+
+
+1. A photovoltaic module comprising:
+a solar cell module including a plurality of solar cells; and
+a junction box including a capacitor unit attached to one face of the solar cell module and that stores DC power supplied from the solar cell module, and a dc/dc converter unit to convert the level of the stored DC power and output the same.
+
+
+
+2. The photovoltaic module of claim 1, wherein the junction box further comprises:
+a bypass diode to bypass a solar cell in which a reverse voltage occurs among the plurality of solar cells.
+
+
+
+3. The photovoltaic module of claim 1, wherein the junction box further comprises:
+an inverter unit to convert the level-converted DC power into AC power and output the same.
+
+
+
+4. The photovoltaic module of claim 1, further comprising:
+An overcurrent preventing unit to limit a current based on a DC current supplied from the solar cell module.
+
+
+
+5. The photovoltaic module of claim 1, wherein the dc/dc converter comprises at least one of a flyback converter, a boost converter, a buck converter, or a forward converter.
+
+
+6. The photovoltaic module of claim 1, wherein the junction box further comprises:
+A first current detection unit to detect a current supplied to the capacitor unit.
+
+
+
+7. The photovoltaic module of claim 1, wherein the junction box further comprises:
+a second current detection unit to detect a current supplied to the dc/dc converter unit.
+
+
+
+8. The photovoltaic module of claim 1, wherein the junction box further comprises:
+a voltage detection unit to detect a voltage at both ends of the capacitor unit.
+
+
+
+9. The photovoltaic module of claim 1, wherein the junction box further comprises:
+a controller to provide control to stop supplying of the DC power when a voltage at both ends of the capacitor unit is higher than an allowable value.
+
+
+
+10. The photovoltaic module of claim 1, wherein the capacitor unit is detachably attached to the junction box.
+
+
+11. The photovoltaic module of claim 1, wherein the solar cell module further comprises:
+first and second sealing members formed on upper and lower surfaces of the plurality of solar cells, respectively;
+a rear substrate formed on a lower surface of the first sealing member; and
+a front substrate formed on an upper surface of the second sealing member.
+
+
+
+12. The photovoltaic module of claim 1, wherein the solar cell module further comprises a solar cell string formed with some of the plurality of solar cells connected in a row, and a conductive line electrically connecting the solar cell string and the junction box.
+
+
+13. The photovoltaic module of claim 12, wherein the solar cell module further comprises:
+a bus ribbon connected to at least two solar cell strings; and
+another conductive line electrically connecting the bus ribbon and the junction box.
+
+
+
+14. The photovoltaic module of claim 13, wherein the junction box is disposed to be closer to an end portion, to which the conductive line extends, among both end portions of the solar cell module.
+
+
+15. A photovoltaic module comprising:
+a solar cell module including a plurality of solar cells; and
+a junction box including a bypass diode attached to one face of the solar cell module and to bypass a solar cell in which a reverse voltage occurs among the plurality of solar cells, a capacitor unit to store DC power supplied from the solar cell module, a dc/dc converter unit to convert a level of the stored DC power and output the same, and an inverter unit to convert the level-converted DC power into AC power and output the same.
+
+
+
+16. The photovoltaic module of claim 15, wherein the capacitor unit is detachably attached to the junction box.
+
+
+17. The photovoltaic module of claim 15, further comprising an overcurrent preventing unit to limit a current based on a DC current supplied from the solar cell module.
+
+
+18. The photovoltaic module of claim 17, further comprising:
+a first current detection unit to detect a current supplied to the capacitor unit; and
+a controller to control the overcurrent preventing unit based on the detection of the first current detection unit.
+
+
+
+19. The photovoltaic module of claim 17, further comprising:
+a second current detection unit to detect a current supplied to the dc/dc converter unit; and
+a controller to control the overcurrent preventing unit based on the detection of the second current detection unit.
+
+
+
+20. The photovoltaic module of claim 17, further comprising:
+a voltage detection unit to detect a voltage at both ends of the capacitor unit; and
+a controller to control the overcurrent preventing unit based on the detection of the voltage detection unit. 
+
+

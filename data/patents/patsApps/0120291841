@@ -1,0 +1,72 @@
+
+A photovoltaic module comprises a solar cell module including a plurality of solar cells; an inverter to convert DC voltage supplied from the solar cell module into AC voltage and to output the AC voltage; and a screen to generate an electric field based on the AC voltage, the screen comprising multiple electrode patterns that can receive AC voltage and being separated from each other. Based on the above, for example, foreign substance such as dust, snow, ice, etc., on the front surface of a photovoltaic module may be removed.
+
+
+
+1. A photovoltaic module, comprising:
+a solar cell module including a plurality of solar cells;
+an inverter to convert DC voltage supplied from the solar cell module into AC voltage and to output the AC voltage; and
+a screen to generate an electric field based on the AC voltage, the screen comprising multiple electrode patterns that can receive AC voltage and being separated from each other.
+
+
+
+2. The photovoltaic module of claim 1, wherein the screen comprises a base film and the multiple electrode patterns are disposed at the base film.
+
+
+3. The photovoltaic module of claim 2, further comprising a cable to connect the inverter and one of the multiple electrode patterns and one end of the cable is extended into the inside of the base film to connect to the one of the multiple electrode patterns.
+
+
+4. The photovoltaic module of claim 3, wherein a fastening groove is formed in the one of the multiple electrode patterns and the one end of the cable comprises a connection terminal to connect with the fastening groove of the one of the multiple electrode patterns.
+
+
+5. The photovoltaic module of claim 2, wherein the base film comprises an insulation layer and the multiple electrode patterns comprise a first electrode pattern and a second electrode pattern formed in different directions from one another and the first electrode pattern is on one surface of the insulation layer and the second electrode pattern is on other surface of the insulation layer.
+
+
+6. The photovoltaic module of claim 1, wherein the screen is disposed on a front surface of the solar cell module and the multiple electrode patterns allow light to pass therethrough.
+
+
+7. The photovoltaic module of claim 6, further comprising an adhesion layer between the screen and the solar cell module.
+
+
+8. The photovoltaic module of claim 1, wherein the solar cell module comprises a front surface substrate disposed on an upper surface of a plurality of solar cells and a rear surface substrate disposed on a lower surface of the plurality of solar cells, the rear surface substrate having a multi-layer structure and the screen being disposed at the multi-layered rear surface substrate.
+
+
+9. The photovoltaic module of claim 8, wherein at least the multiple electrode patterns are formed with an opaque material.
+
+
+10. The photovoltaic module of claim 1, further comprising a junction box disposed on a rear surface of the solar cell module and the inverter is disposed within the junction box.
+
+
+11. The photovoltaic module of claim 10, wherein the junction box comprises a capacitor unit to store DC power and a converter to perform level conversion of the stored DC power.
+
+
+12. The photovoltaic module of claim 1, wherein the multiple electrode patterns comprise a first electrode pattern and a second electrode pattern that are parallel to each other.
+
+
+13. The photovoltaic module of claim 1, further comprising a charging-discharging unit to charge and discharge the DC voltage.
+
+
+14. The photovoltaic module of claim 1, further comprising a switch and the multiple electrode patterns comprising a first electrode pattern and a second electrode pattern, wherein the switch connects the first electrode pattern and the second electrode pattern and separates the first electrode pattern and the second electrode pattern.
+
+
+15. The photovoltaic module of claim 14, wherein the first electrode pattern comprise first multiple electrode lines parallel with each other and a first connector connecting ends of the first multiple electrode lines;
+the second electrode pattern is disposed alternatively with the first multiple electrode lines and comprises second multiple electrode lines parallel with each other and a second connector connecting ends of the second multiple electrode lines; and
+the switch comprises multiple first switches to connect other ends of the second multiple electrode lines and the first connector, and separate the other ends of the second multiple electrode lines and the first connector; and
+multiple second switches to connect other ends of the first multiple electrode lines and the second connector, and separate the other ends of the first multiple electrode lines and the second connector.
+
+
+
+16. The photovoltaic module of claim 15, wherein at least one of the first connector and the second connector is formed as a pad having wider width than those of the first multiple electrode lines and the second multiple electrode lines.
+
+
+17. The photovoltaic module of claim 15, further comprising a controller to control operation of the multiple first switches and the multiple second switches.
+
+
+18. The photovoltaic module of claim 14, wherein the multiple electrode patterns are three electrode patterns separated from each other and the AC voltage is three-phase AC voltage that is supplied to the three electrode patterns.
+
+
+19. The photovoltaic module of claim 18, wherein the switch connects the three electrode patterns in Y connection.
+
+
+20. The photovoltaic module of claim 14, further comprising a controller to control timing of AC voltage supply to the screen and operation of the switch.
+

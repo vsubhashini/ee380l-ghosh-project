@@ -1,0 +1,80 @@
+
+A solar energy collection system can include a drive configured to adjust a tilt position of a solar collector assembly so as to tract the sun. The drive can include hardware for providing feedback control of the orientation of the solar collector assembly. A method for calibrating the drive can include moving the drive to a reference position and saving an output value from a sensor configured to detect the orientation of the drive. The reference value output from the sensor can then be used in determining the target output value from the sensor required to achieve a desired orientation.
+
+
+
+1. A method of using a sun tracking drive comprising a motor mechanically interfaced with a drive member having a connector configured to engage a frame of a photovoltaic collector assembly such that the motor can drive the frame through a pivoting motion about a tilt axis for tracking movement of a sun, the method comprising:
+attaching an inclinometer to the drive member;
+rotating the drive member to a reference position;
+detecting an output from the inclinometer with the drive member at the reference position;
+storing in a memory device an offset value indicative of the output from the inclinometer when the drive member is in the reference position.
+
+
+
+2. The method according to claim 1, wherein rotating the drive member comprises rotating the drive member until a reference surface of the drive member reaches a predetermined position.
+
+
+3. The method according to claim 2 additionally comprising aligning the reference surface with a fixed reference member.
+
+
+4. The method according to claim 2 additionally comprising detecting an inclination of the reference surface with a second inclinometer.
+
+
+5. The method according to claim 1 additionally comprising connecting a controller to the motor and connecting the inclinometer to the controller.
+
+
+6. The method according to claim 5, wherein storing in a memory device comprises storing the offset value in the memory device which is housed in the controller.
+
+
+7. The method according to claim 1, wherein detecting an output comprises detecting an output of the inclinometer without the drive member being connected to the frame of the concentrated photovoltaic collector assembly.
+
+
+8. The method according to claim 1 additionally comprising mounting the motor to a support pier, connecting the drive member to the frame of the photovoltaic collector assembly, operating the motor so as to rotate the drive member to the reference position, and determining an inclination of a reference surface of the frame.
+
+
+9. The method according to claim 8, wherein operating the motor comprises providing energy to the motor until the output of the inclinometer indicates that the drive member is at a horizontal position.
+
+
+10. The method according to claim 9, wherein determining an inclination comprises determining if the inclination of the reference surface of the frame is horizontal and wherein the reference position of the drive member corresponds to a horizontal position of the frame.
+
+
+11. The method according to claim 1 additionally comprising connecting the drive member to the frame with a connector configured to provide an alignment of the drive member with the frame member to within a ½ of one degree of tolerance, or less.
+
+
+12. The method according to claim 11, wherein connecting the drive member to the frame comprises using at least one of a slip fit connector and an interference fit connector.
+
+
+13. The method according to claim 11, wherein connecting the drive member to the frame comprises connecting the drive member to a frame which supports a plurality of curved mirrors, each of the mirrors defining an aperture and being shaped to focus light onto photovoltaic modules, respectively, a width of the photovoltaic modules being smaller than the apertures.
+
+
+14. The method according to claim 1 additionally comprising attaching a second drive to the support frame, the second drive being configured to pivot the support frame about a second axis.
+
+
+15. The method according to claim 1 additionally comprising repeating the steps of claim 1 a plurality of times so as to store a plurality of offset values in a plurality of memory devices, connecting the plurality of drives to a central controller, transmitting control signals indicative of a tilt angle to the plurality of drives from the central controller, operating the motors until the inclinations of the drive members are the same as the respective tilt angles transmitted by the central controller with compensation for the offset value stored in the memory devices.
+
+
+16. A photovoltaic electricity farm, comprising:
+a plurality of support frames, each supporting a plurality of photovoltaic modules and a plurality of solar concentrating mirrors configured to focus light onto the photovoltaic modules, each of the support frames being mounted so as to be pivotable about at least a first tilt axis;
+a plurality of sun tracking drives, each sun tracking drive being connected to at least one of the plurality of support frames, each of the plurality of sun tracking drives comprising:
+a motor mechanically interfaced with a drive member, the drive member including a connector engaged with one of the plurality of support frames, the motor being configured to pivot the support frame about a tilt axis for tracking movement of a sun;
+an inclinometer mounted to the drive member;
+a controller including a network communication device and a memory device, the controller being connected to the inclinometer so as to receive an output signal from the inclinometer;
+
+wherein a reference value is stored in the memory device that is indicative of an output of the inclinometer when the drive member was positioned in a reference position before being connected to the support frame.
+
+
+
+17. The photovoltaic electricity farm according to claim 16, wherein the drive member comprises a reference surface which is horizontal when the drive member is in the reference position.
+
+
+18. The photovoltaic electricity farm according to claim 16, wherein each of the sun tracking drives includes a controller housing the memory device and a network communication device.
+
+
+19. The photovoltaic electricity farm according to claim 16, additionally comprising a plurality of second sun tracking drives, configured to pivot the plurality of support frames about a second axis.
+
+
+20. A method of using a sun tracking drive comprising a motor mechanically interfaced with a drive member having a connector configured to engage a frame of a concentrated photovoltaic collector assembly such that the motor can drive the frame through a pivoting motion about a tilt axis for tracking movement of a sun, the method comprising:
+attaching an inclinometer to the drive member; and
+calibrating the position of the drive member with the output of the inclinometer before attaching the drive member to the support frame in an outdoor, photovoltaic electricity farm. 
+
+

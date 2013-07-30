@@ -1,0 +1,276 @@
+
+A protection apparatus is for a direct current electrical generating apparatus. The protection apparatus includes a first terminal; a second terminal; a third terminal; a fourth terminal; at least one current sensor structured to sense current flowing between the first and second terminals or between the third and fourth terminals; a voltage sensor structured to sense a voltage between the first terminal and the third terminal; at least one switch structured to interrupt the current flowing between the first and second terminals or between the third and fourth terminals; and a processor cooperating with the at least one current sensor, the voltage sensor and the at least one switch, and being structured to provide feed forward fault protection for the direct current electrical generating apparatus.
+
+
+
+1. A protection apparatus for a direct current electrical generating apparatus, said protection apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+at least one current sensor structured to sense current flowing between the first and second terminals or between the third and fourth terminals;
+a voltage sensor structured to sense a voltage between said first terminal and said third terminal;
+at least one switch structured to interrupt said current flowing between the first and second terminals or between the third and fourth terminals; and
+a processor cooperating with said at least one current sensor, said voltage sensor and said at least one switch, and being structured to provide feed forward fault protection for said direct current electrical generating apparatus.
+
+
+
+2. The protection apparatus of claim 1 wherein said processor is further structured to provide at least one of arc fault protection, ground fault protection, reverse current protection and overcurrent protection for said direct current electrical generating apparatus.
+
+
+3. The protection apparatus of claim 1 wherein said direct current electrical generating apparatus is a photovoltaic module integrated with said protection apparatus.
+
+
+4. The protection apparatus of claim 1 wherein said direct current electrical generating apparatus is selected from the group consisting of a photovoltaic module, a string, and an array of a plurality of strings.
+
+
+5. The protection apparatus of claim 1 wherein said protection apparatus is integrated with one of a direct current electrical generating module, a string protector, an inverter feed protector, a combiner box, a direct current disconnect, a DC/DC converter, and an inverter.
+
+
+6. The protection apparatus of claim 1 wherein said protection apparatus is a protection module; and wherein said at least one switch is part of an electronically controlled relay controlled by said processor internal to said protection module.
+
+
+7. The protection apparatus of claim 6 wherein said processor includes at least one input and a number of indicators; wherein said at least one input is structured to define one of a first off state to cause said processor to open said at least one switch and turn off said number of indicators, a second on state to cause said processor to close said at least one switch and turn on one of said number of indicators, and a third reset state to cause said processor to turn off said number of indicators.
+
+
+8. The protection apparatus of claim 1 wherein said first terminal, said third terminal, said first current sensor, said second current sensor and said processor form a protection module; and wherein said at least one switch, said second terminal and said fourth terminal are part of a circuit interrupter disposed external to said protection module.
+
+
+9. The protection apparatus of claim 8 wherein said circuit interrupter includes an auxiliary switch having an open or closed state corresponding to an open or closed state of said at least one switch; wherein said processor includes a power on indicator, at least one fault indicator and at least one input including said auxiliary switch; wherein said at least one input is structured to define one of a first off state to cause said processor to open said at least one switch and turn off said power on indicator and said at least one fault indicator, a second on state to cause said processor to turn on said power indicator and turn off said number of fault indicators, and a third off state.
+
+
+10. The protection apparatus of claim 9 wherein said processor is structured to turn off said power indicator if said power indicator was turned on in said third off state, or to maintain said power indicator and said number of fault indicators if said power indicator was turned off in said third off state.
+
+
+11. The protection apparatus of claim 1 wherein said at least one switch is disposed between said first current sensor and said second terminal or between said second current sensor and said fourth terminal.
+
+
+12. The protection apparatus of claim 1 wherein said first current sensor is disposed between said at least one switch and said second terminal or said second current sensor is disposed between said at least one switch and said fourth terminal.
+
+
+13. The protection apparatus of claim 1 wherein said processor includes a number of indicators and a non-volatile memory; and wherein on power up, said processor is structured to determine an initial state for said number of indicators from said non-volatile memory.
+
+
+14. The protection apparatus of claim 1 wherein said at least one current sensor is a first current sensor structured to sense first current flowing between the first and second terminals and a second current sensor structured to sense second current flowing between the third and fourth terminals; wherein said processor is structured to periodically determine a plurality of samples of said sensed first current and said sensed second current at a first rate, to periodically determine a plurality of averages of said plurality of samples of said sensed first current and said sensed second current at a second rate, which is slower than said first rate, to determine that a corresponding one of the plurality of averages of said plurality of samples of said sensed first current or said sensed second current is not less than a first constant, and to determine that an absolute value of a difference between the corresponding one of the plurality of averages of said plurality of samples of said sensed first current and the corresponding one of the plurality of averages of said plurality of samples of said sensed second current is greater than a second constant and responsively determine a ground fault and open said at least one switch.
+
+
+15. An indication apparatus for a direct current electrical generating apparatus, said indication apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+at least one current sensor structured to sense current flowing between the first and second terminals or between the third and fourth terminals;
+a voltage sensor structured to sense voltage between the first and third terminals;
+at least one indicator; and
+a processor cooperating with said at least one current sensor, said voltage sensor and said at least one indicator, and being structured to detect a fault event internal to or external to said indication apparatus and indicate a corresponding internal fault state or external fault state on said at least one indicator.
+
+
+
+16. The indication apparatus of claim 15 wherein said fault event is at least one of a ground fault and an arc fault.
+
+
+17. The indication apparatus of claim 15 wherein said direct current electrical generating apparatus is a photovoltaic module integrated with said indication apparatus.
+
+
+18. The indication apparatus of claim 15 wherein said direct current electrical generating apparatus is selected from the group consisting of a photovoltaic module, a string, and an array of a plurality of strings.
+
+
+19. The indication apparatus of claim 15 wherein said indication apparatus is integrated with one of a direct current electrical generating module, a string protector, an inverter feed protector, a combiner box, a direct current disconnect, a DC/DC converter, and an inverter.
+
+
+20. The indication apparatus of claim 15 wherein said processor is structured to periodically determine a plurality of samples of said sensed current and said sensed voltage at a first rate, to periodically determine a plurality of averages of said plurality of samples of said sensed current and said sensed voltage at a second rate, which is slower than said first rate, to periodically determine a first value being a positive or negative sign of the difference between a corresponding one of the plurality of samples of said sensed current and a corresponding one of the plurality of averages of said plurality of samples of said sensed current, to periodically determine a second value being a positive or negative sign of the difference between a corresponding one of the plurality of samples of said sensed voltage and a corresponding one of the plurality of averages of said plurality of samples of said sensed voltage, to indicate the corresponding internal fault state if said first value equals said second value, and to indicate the corresponding external fault state if said first value does not equal said second value.
+
+
+21. The indication apparatus of claim 15 wherein said at least one current sensor is a first current sensor structured to sense first current flowing between the first and second terminals and a second current sensor structured to sense second current flowing between the third and fourth terminals; wherein said processor is structured to periodically determine a plurality of samples of said sensed first current, said sensed second current and said sensed voltage at a first rate, to periodically determine a plurality of averages of said plurality of samples of said sensed first current, said sensed second current and said sensed voltage at a second rate, which is slower than said first rate, to determine that a corresponding one of the plurality of averages of said plurality of samples of said sensed first current or said sensed second current is not less than a first constant or that a corresponding one of the plurality of averages of said plurality of samples of said sensed voltage is not less than a second constant, and to determine that an absolute value of a difference between the corresponding one of the plurality of averages of said plurality of samples of said sensed first current and the corresponding one of the plurality of averages of said plurality of samples of said sensed second current is greater than a third constant and responsively indicate a ground fault on one of said at least one indicator.
+
+
+22. The indication apparatus of claim 21 wherein said processor comprises a high frequency arc detector; wherein said processor is further structured to periodically determine a first value being a positive or negative sign of the difference between a corresponding one of the plurality of samples of said sensed current and a corresponding one of the plurality of averages of said plurality of samples of said sensed current, to periodically determine a second value being a positive or negative sign of the difference between a corresponding one of the plurality of samples of said sensed voltage and a corresponding one of the plurality of averages of said plurality of samples of said sensed voltage, to indicate the corresponding internal fault state if said first value equals said second value, and to indicate the corresponding external fault state if said first value does not equal said second value; and wherein said processor is further structured to indicate an internal series arc fault if said high frequency arc detector indicates an arc fault and if after a predetermined time the corresponding internal fault state was indicated.
+
+
+23. The indication apparatus of claim 15 wherein said at least one indicator includes at least a first indicator to indicate the corresponding internal fault state or external fault state, a second indicator to indicate a series fault, and a third indicator to indicate a parallel fault.
+
+
+24. The indication apparatus of claim 15 wherein said at least one indicator includes a first indicator structured to indicate a feed forward fault and a second indicator structured to indicate one of a reverse fault and an overcurrent fault.
+
+
+25. A protection apparatus for a plurality of strings, said protection apparatus comprising:
+a plurality of inputs, each of said plurality of inputs being for one of said plurality of strings;
+a plurality of outputs, each of said plurality of outputs being for one of said plurality of strings;
+a plurality of current sensors, each of said plurality of current sensors being structured to sense current flowing between a corresponding pair of one of said plurality of inputs and one of said plurality of outputs;
+a switch electrically connected between a first node electrically connected to said plurality of outputs and a second node; and
+a processor cooperating with said plurality of current sensors and said switch, and being structured to provide at least one of over current protection, arc fault protection, reverse current protection and feed forward protection for an array formed by said plurality of strings.
+
+
+
+26. The protection apparatus of claim 25 wherein said plurality of inputs, said plurality of outputs, said plurality of current sensors and said processor form a protection module; and wherein said switch, said first node and said second node are part of a circuit interrupter disposed external to said protection module.
+
+
+27. The protection apparatus of claim 25 wherein said protection apparatus is disposed in a combiner box.
+
+
+28. The protection apparatus of claim 25 wherein said plurality of strings include a corresponding plurality of returns electrically connected to a third node.
+
+
+29. A protection apparatus for a direct current electrical generating apparatus, said protection apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+at least one current sensor structured to sense current flowing between the first and second terminals or between the third and fourth terminals;
+at least one switch structured to interrupt said current flowing between the first and second terminals or between the third and fourth terminals;
+a processor cooperating with said at least one current sensor and said at least one switch, and being structured to provide fault protection for said direct current electrical generating apparatus; and
+at least one input structured to define one of a first off state to cause said processor to open said at least one switch and a second on state to cause said processor to close said at least one switch.
+
+
+
+30. The protection apparatus of claim 29 wherein said at least one input is a local switch.
+
+
+31. The protection apparatus of claim 29 wherein said at least one input is a communication port structured to receive a message to cause said processor to open said at least one switch.
+
+
+32. The protection apparatus of claim 29 wherein said at least one input is a communication port structured to receive a message to cause said processor to close said at least one switch.
+
+
+33. A monitoring apparatus for a direct current electrical generating apparatus, said monitoring apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+a voltage sensor structured to sense a voltage between said first terminal and said third terminal;
+at least one current sensor structured to sense current flowing between the first and second terminals or between the third and fourth terminals;
+an indicator; and
+a processor cooperating with said voltage sensor, said at least one current sensor and said indicator, and being structured to provide at least one of:
+(i) determine if the sensed voltage is less than a predetermined percentage of a rated open circuit voltage and responsively cause said indicator to indicate a short or an overcurrent fault for said direct current electrical generating apparatus,
+(ii) determine a feed forward fault and responsively cause said indicator to indicate the feed forward fault for said direct current electrical generating apparatus,
+(iii) determine a reverse current fault and responsively cause said indicator to indicate the reverse current fault for said direct current electrical generating apparatus,
+(iv) determine an open circuit fault and responsively cause said indicator to indicate the open circuit fault for said direct current electrical generating apparatus,
+(v) determine an arc fault and responsively cause said indicator to indicate the arc fault for said direct current electrical generating apparatus, and
+(vi) determine a ground fault and responsively cause said indicator to indicate the ground fault for said direct current electrical generating apparatus, wherein said at least one current sensor is two current sensors to sense first current flowing between the first and second terminals and second current flowing between the third and fourth terminals.
+
+
+
+
+34. A monitoring apparatus for a direct current electrical generating apparatus, said monitoring apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+a switch electrically connected between said second terminal and said fourth terminal;
+a voltage sensor structured to sense a voltage between said first terminal and said third terminal;
+a current sensor structured to sense a current flowing between said first terminal and said second terminal or between said third terminal and said fourth terminal;
+an indicator; and
+a processor cooperating with said voltage sensor, said current sensor, said indicator and said switch, and being structured to provide at least one of:
+(i) determining if the sensed voltage is less than a first predetermined percentage of a rated open circuit voltage and responsively causing said indicator to indicate a short or an overcurrent fault for said direct current electrical generating apparatus;
+(ii) temporarily closing said switch, measuring a short circuit current from said sensed current, and opening said switch; and
+(iii) determining if the sensed current is greater than a second predetermined value.
+
+
+
+
+35. The monitoring apparatus of claim 34 wherein said processor is further structured to employ said current sensor to measure an operational current, determine if the operational current is less than a third predetermined percentage of the short circuit current, and responsively determine an external open circuit and employ said indicator to indicate an external fault.
+
+
+36. The monitoring apparatus of claim 34 wherein said processor is further structured to employ said current sensor to measure an operational current, employ said voltage sensor to measure an operational voltage, determine if the operational current is about zero, determine if the operational voltage is about zero, and responsively determine an internal fault of said direct current electrical generating apparatus and employ said indicator to indicate the internal fault.
+
+
+37. The monitoring apparatus of claim 36 wherein said internal fault is one of an internal open circuit and an internal short.
+
+
+38. A protection apparatus for a direct current electrical generating apparatus, said protection apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+a first switch electrically connected between said first terminal and said second terminal or between said third terminal and said fourth terminal;
+a second switch electrically connected between said second terminal and said fourth terminal;
+a voltage sensor structured to sense a voltage between said first terminal and said third terminal;
+a current sensor structured to sense a current flowing between said first terminal and said second terminal or between said third terminal and said fourth terminal;
+an indicator; and
+a processor cooperating with said voltage sensor, said current sensor, said indicator, said first switch and said second switch, and being structured to:
+(i) determine if the sensed voltage is less than a first predetermined percentage of a rated open circuit voltage and responsively cause said indicator to indicate a short or an overcurrent fault for said direct current electrical generating apparatus;
+(ii) temporarily close said second switch, measure a short circuit current from said sensed current, and open said second switch;
+(iii) determine if the sensed current is greater than a second predetermined value; and
+(iv) provide non-ground fault protection for said direct current electrical generating apparatus.
+
+
+
+
+39. The protection apparatus of claim 38 wherein said direct current electrical generating apparatus is a photovoltaic module; and wherein said processor is further structured calculate at least one of maximum power point, temperature and illumination of said photovoltaic module.
+
+
+40. The protection apparatus of claim 39 wherein said processor is further structured to estimate the temperature and estimate the illumination from:
+
+
+I_sc=I_sc_ref+dI_sc/dT*delT+dI_sc/dILL*delILL
+
+
+
+V_oc=V_oc_ref+dV_oc/dT*delT+dV_oc/dILL*delILL
+
+
+
+T=T_ref+delT 
+
+
+
+ILL=ILL_ref+delILL,
+
+wherein the short circuit current is I_sc;
+wherein the open short circuit voltage is V_oc;
+wherein T is estimated temperature;
+wherein ILL is estimated illumination;
+wherein I_sc ref, dI_sc/dT, dI_sc/dILL, V_oc_ref, dV_oc/dT, dV_oc/dILL, T_ref and ILL_ref are predetermined constants;
+wherein delT is estimated change in temperature with respect to T_ref; and
+wherein delILL is estimated change in illumination with respect to ILL_ref.
+
+
+
+41. The protection apparatus of claim 40 wherein said processor is further structured to estimate the maximum power point from:
+
+
+V_mpp(T)=V_mpp_ref+dV_oc/dT* 
+
+
+
+I_mpp(ILL)=I_mpp_ref+dI_sc/dILL*
+
+wherein V_mpp_ref and I_mpp_ref are predetermined constants;
+wherein V_mpp(T) is the voltage component of the estimated maximum power point at the estimated temperature; and
+wherein I_mpp(T) is the current component of the estimated maximum power point at the estimated temperature.
+
+
+
+42. The protection apparatus of claim 41 wherein said processor is further structured to define a valid working region of said photovoltaic module and determine if said sensed current and sensed voltage are within said valid working region.
+
+
+43. The protection apparatus of claim 42 wherein said valid working region is within a predetermined percentage of said estimated maximum power point.
+
+
+44. The protection apparatus of claim 43 wherein said predetermined percentage is +/−20%.
+
+
+45. The protection apparatus of claim 38 wherein said processor is further structured to cause said indicator to indicate at least one of a measured parameter, a detected fault, a diagnostic result, an operating current, an operating voltage, a trip state, a shorted state and an open state.
+
+
+46. The protection apparatus of claim 38 wherein said processor is further structured to employ said current sensor to measure an operational current, employ said voltage sensor to measure an operational voltage, open said first switch, employ said voltage sensor to measure an open circuit voltage, close said first switch, determine if the operational voltage is less than a first predetermined percentage of the open circuit voltage, determine if the operational current is greater than a second predetermined value, and responsively detect a feed forward fault, employ said indicator to indicate the feed forward fault, and open said first switch.
+
+
+47. A string comprising:
+a plurality of direct current electrical generating apparatus; and
+for each of said plurality of direct current electrical generating apparatus, a protection apparatus comprising:
+a first terminal;
+a second terminal;
+a third terminal;
+a fourth terminal;
+
+at least one current sensor structured to sense current flowing between the first and second terminals or between the third and fourth terminals;
+at least one switch structured to interrupt said current flowing between the first and second terminals or between the third and fourth terminals; and
+a processor cooperating with said at least one current sensor and said at least one switch, and being structured to provide fault protection for a corresponding one of said plurality of direct current electrical generating apparatus,
+wherein said first terminal and said third terminal are electrically connected to the corresponding one of said plurality of direct current electrical generating apparatus,
+wherein said second terminal and said fourth terminal form portions of said string from a feed end to a remote end thereof,
+wherein the second terminal of the protection apparatus at the feed end of said string forms a power bus,
+wherein the fourth terminal of the protection apparatus at the remote end of said string forms a return bus, and
+wherein the at least one switch of the protection apparatus at the remote end of said string interrupts current flowing between the third and fourth terminals. 
+
+

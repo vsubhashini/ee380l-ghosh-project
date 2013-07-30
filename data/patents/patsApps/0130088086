@@ -1,0 +1,65 @@
+
+A circuitry arrangement for a solar power plant includes a transformerless inverter for feeding electric power from at least one photovoltaic generator into an alternating power grid, a galvanic separation of all lines carrying current between the inverter and the power grid, and a DC voltage source in an offset path between one electric line at the input side of the galvanic separation and a reference potential. The DC voltage source provides an offset voltage. The offset path includes a DC branch and an AC branch connected in parallel. The direct voltage source is connected in series with a current sensor in the DC branch, and at least one capacitor is arranged in the AC branch. Further, a DC contactor triggered by the current sensor is arranged in the offset path.
+
+
+
+1. A circuitry arrangement for a solar power plant comprising:
+at least one generator terminal configured to connect to a photovoltaic generator;
+a grid terminal configured to connect to an AC power grid;
+at least one transformerless inverter configured to feed electric power from a photovoltaic power generator when connected to the at least one generator terminal into an AC power grid when connected to the grid terminal;
+first electric lines extending between the at least one generator terminal and the at least one inverter, and second electric lines extending between the at least one inverter and the grid terminal;
+a galvanic isolation provided in all second electric lines carrying a current between the at least one inverter and the grid terminal; and
+an offset path leading from one of the first and second electric lines on a side of the galvanic isolation opposing the grid terminal to a reference potential, the offset path comprising:
+a direct current branch and an alternating current branch connected in parallel,
+at least one capacitor arranged in the alternating current branch,
+a DC voltage source arranged in the direct current branch, the DC voltage source configured to provide an offset voltage to adjust an electric potential of the photovoltaic power generator when connected to the at least one generator terminal with regard to earth potential,
+a current sensor connected in series with the direct voltage source in the direct current branch, and
+a direct current contactor arranged in the offset path and configured to switch off at least a direct current component of a fault current flowing through the offset path.
+
+
+
+
+2. The circuitry arrangement of claim 1, wherein the current sensor is configured to trigger the direct current contactor.
+
+
+3. The circuitry arrangement of claim 1, wherein the reference potential is earth potential.
+
+
+4. The circuitry arrangement of claim 1, further comprising a resistor connected in series with the direct voltage source in the direct current branch.
+
+
+5. The circuitry arrangement of claim 1, wherein the direct current contactor is connected in series with the direct voltage source in the direct current branch.
+
+
+6. The circuitry arrangement of claim 5, further comprising an alternating current contactor arranged in the offset path outside the direct current branch.
+
+
+7. The circuitry arrangement of claim 6, wherein the alternating current contactor only opens when the direct current contactor is already open.
+
+
+8. The circuitry arrangement of claim 1, wherein the direct current contactor is connected to a full wave rectifier.
+
+
+9. The circuitry arrangement of claim 1, wherein the direct current contactor is configured to avoid or extinguish a switching arc.
+
+
+10. The circuitry arrangement of claim 1, further comprising a voltage sensor configured to monitor a voltage drop over the offset path.
+
+
+11. The circuitry arrangement of claim 10, wherein the voltage sensor is configured to output an error signal in case of a stepwise variation of the voltage drop over the offset path or a predetermined deviation of the voltage drop over the offset path from a desired offset voltage value.
+
+
+12. The circuitry arrangement of claim 1, wherein the galvanic isolation is provided by a transformer with a center point at its primary side, wherein the offset path is connected to the center point.
+
+
+13. The circuitry arrangement of claim 1, wherein the galvanic isolation is provided by a transformer with a delta configuration at its primary side, wherein the offset path is connected to a phase line of the second electric lines.
+
+
+14. The circuitry arrangement of claim 1, wherein the offset path is connected to one of the second electric lines carrying an alternating current, wherein an alternating voltage source is connected in series with the direct voltage source in the offset path.
+
+
+15. The circuitry arrangement of claim 14, wherein the alternating voltage source is configured to provide a same alternating voltage as present at the second electric line carrying the alternating voltage as an output voltage of the inverter.
+
+
+16. The circuitry arrangement of claim 1, wherein the offset path is connected to one of the first electric lines.
+

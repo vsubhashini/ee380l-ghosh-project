@@ -1,0 +1,1437 @@
+
+A computer-implemented system and method for efficiently performing area-to-point conversion of satellite imagery for photovoltaic power generation fleet output estimation is provided. Satellite imagery data of overhead sky clearness for a geographic region is accessed. Pixels within the satellite imagery data corresponding to a bounded area are identified. Each pixel represents collective irradiance within the bounded area. An area clearness index for the bounded area is set as an average of point clearness indexes derived from the collective irradiance for each point. A variance of the area clearness index is expressed as an average of the variance of the point clearness indexes. The variance of the area clearness index is proportioned to an area metric corresponding to each pixel's physical coverage area. A variance of the point clearness index is determined for one point as a ratio of the variance of the area clearness index and each pixel's physical coverage.
+
+
+
+1. A computer-implemented method for efficiently performing area-to-point conversion of satellite imagery for photovoltaic power generation fleet output estimation, comprising:
+accessing satellite imagery data of overhead sky clearness for a geographic region suitable for operation of a photovoltaic station;
+identifying a set of pixels within the satellite imagery data corresponding to a bounded area within the geographic region, each pixel representing collective irradiance over a plurality of points within the bounded area;
+setting an area clearness index for the bounded area as an average of point clearness indexes derived from the collective irradiance for each point;
+expressing a variance of the area clearness index as an average of the variance of the point clearness indexes;
+proportioning the variance of the area clearness index to an area metric corresponding to the physical area covered by each pixel; and
+determining a variance of the point clearness index for one such point as a ratio of the variance of the area clearness index and the physical area covered by each pixel given the point clearness index for the point, cloud speed, and time interval,
+wherein the steps are performed on a suitably-programmed computer.
+
+
+
+2. A method according to claim 1, wherein the area clearness index KtArea for the N points within a single satellite pixel is determined in accordance with:
+
+
+
+
+  
+    Kt
+    Area
+  
+  =
+  
+    
+      ∑
+      
+        i
+        =
+        1
+      
+      N
+    
+    ⁢
+    
+      
+        Kt
+        i
+      
+      N
+    
+  
+
+
+
+where Kti comprises the point clearness index for point ith.
+
+
+
+3. A method according to claim 1, wherein the variance σKt-Area2 of the area clearness index KtArea for the N points within a single satellite pixel is determined in accordance with:
+
+
+
+
+  
+    σ
+    
+      Kt
+      -
+      Area
+    
+    2
+  
+  =
+  
+    
+      
+        σ
+        Kt
+        2
+      
+      ⁡
+      
+        (
+        
+          1
+          
+            N
+            2
+          
+        
+        )
+      
+    
+    ⁢
+    
+      
+        ∑
+        
+          i
+          =
+          1
+        
+        N
+      
+      ⁢
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          N
+        
+        ⁢
+        
+          ρ
+          
+            
+              Kt
+              i
+            
+            ,
+            
+              Kt
+              j
+            
+          
+        
+      
+    
+  
+
+
+
+where σKt2 comprises the variance of the point clearness index for one of the points within a single satellite pixel and ρKti,Ktt comprises the correlation coefficient between the point clearness indexes specifically at points i and j.
+
+
+
+4. A method according to claim 3, wherein the variance σKt2 of the point clearness index Kt for the average point in the satellite pixel is determined in accordance with:
+
+
+
+  
+    
+      σ
+      Kt
+      2
+    
+    =
+    
+      
+        σ
+        
+          Kt
+          -
+          Area
+        
+        2
+      
+      
+        A
+        Kt
+        SatellitePixel
+      
+    
+  
+
+
+
+
+  
+    where
+    ⁢
+    
+      :
+    
+  
+
+
+
+
+  
+    
+      A
+      Kt
+      
+        Satellite
+        ⁢
+        
+          
+        
+        ⁢
+        Pixel
+      
+    
+    =
+    
+      
+        (
+        
+          1
+          
+            N
+            2
+          
+        
+        )
+      
+      ⁢
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          N
+        
+        ⁢
+        
+          
+            ∑
+            
+              j
+              =
+              1
+            
+            N
+          
+          ⁢
+          
+            ρ
+            
+              i
+              ,
+              j
+            
+          
+        
+      
+    
+  
+
+
+such that ρi,j comprises a correlation coefficient between the point clearness indexes Kt specifically at points i and j.
+
+
+
+5. A method according to claim 3, wherein the variance σΔKt2 of the change in the point clearness index Kt for the average point in the satellite pixel is determined in accordance with:
+
+
+
+  
+    
+      σ
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        Kt
+      
+      2
+    
+    =
+    
+      
+        σ
+        
+          
+            Δ
+            ⁢
+            
+              
+            
+            ⁢
+            Kt
+          
+          -
+          Area
+        
+        2
+      
+      
+        A
+        
+          Δ
+          ⁢
+          
+            
+          
+          ⁢
+          Kt
+        
+        SatellitePixel
+      
+    
+  
+
+
+
+
+  
+    where
+    ⁢
+    
+      :
+    
+  
+
+
+
+
+  
+    
+      A
+      
+        Δ
+        ⁢
+        
+          
+        
+        ⁢
+        Kt
+      
+      
+        Satellite
+        ⁢
+        
+          
+        
+        ⁢
+        Pixel
+      
+    
+    =
+    
+      
+        (
+        
+          1
+          
+            N
+            2
+          
+        
+        )
+      
+      ⁢
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          N
+        
+        ⁢
+        
+          
+            ∑
+            
+              j
+              =
+              1
+            
+            N
+          
+          ⁢
+          
+            ρ
+            
+              i
+              ,
+              j
+            
+          
+        
+      
+    
+  
+
+
+such that ρi,j comprises a correlation coefficient between the change in point clearness indexes ΔKt specifically at points i and j.
+
+
+
+6. A method according to claim 1, further comprising:
+evaluating an area function for each pixel by solving a discrete correlation coefficient matrix comprises correlation coefficients between point clearness indexes selected for pairs of the points in a satellite pixel.
+
+
+
+7. A method according to claim 6, wherein the area function A comprises a rectangular region and is determined in accordance with:
+
+
+
+
+  A
+  =
+  
+    
+      (
+      
+        1
+        
+          N
+          2
+        
+      
+      )
+    
+    [
+    
+      
+    
+    ⁢
+    
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            H
+            -
+            1
+          
+        
+        ⁢
+        
+          
+            ∑
+            
+              j
+              =
+              0
+            
+            i
+          
+          ⁢
+          
+            
+              
+                2
+                k
+              
+              ⁡
+              
+                [
+                
+                  
+                    (
+                    
+                      H
+                      -
+                      i
+                    
+                    )
+                  
+                  ⁢
+                  
+                    (
+                    
+                      W
+                      -
+                      j
+                    
+                    )
+                  
+                
+                ]
+              
+            
+            ⁢
+            
+              ρ
+              d
+            
+          
+        
+      
+      +
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            W
+            -
+            1
+          
+        
+        ⁢
+        
+          
+            ∑
+            
+              j
+              =
+              0
+            
+            i
+          
+          ⁢
+          
+            
+              
+                2
+                k
+              
+              ⁡
+              
+                [
+                
+                  
+                    (
+                    
+                      W
+                      -
+                      i
+                    
+                    )
+                  
+                  ⁢
+                  
+                    (
+                    
+                      H
+                      -
+                      j
+                    
+                    )
+                  
+                
+                ]
+              
+            
+            ⁢
+            
+              ρ
+              d
+            
+          
+        
+      
+    
+    ]
+  
+
+
+
+where H comprises the number of points in the height direction, W comprises the number of points in the width direction, N=H×W, and:
+
+
+
+
+
+  k
+  =
+  
+    
+      
+        
+          
+            -
+            1
+          
+          ,
+        
+      
+      
+        
+          
+            when
+            ⁢
+            
+              
+            
+            ⁢
+            i
+          
+          =
+          
+            
+              0
+              ⁢
+              
+                
+              
+              ⁢
+              and
+              ⁢
+              
+                
+              
+              ⁢
+              j
+            
+            =
+            0
+          
+        
+      
+    
+    
+      
+        
+          1
+          ,
+        
+      
+      
+        
+          
+            when
+            ⁢
+            
+              
+            
+            ⁢
+            j
+          
+          =
+          
+            
+              0
+              ⁢
+              
+                
+              
+              ⁢
+              or
+              ⁢
+              
+                
+              
+              ⁢
+              j
+            
+            =
+            i
+          
+        
+      
+    
+    
+      
+        
+          2
+          ,
+        
+      
+      
+        
+          
+            when
+            ⁢
+            
+              
+            
+            ⁢
+            0
+          
+          <
+          j
+          <
+          
+            i
+            .
+          
+        
+      
+    
+  
+
+
+
+
+
+
+8. A method according to claim 6, wherein the area function A comprises a square region within the bounded area Area and is determined in accordance with:
+
+
+
+
+  A
+  =
+  
+    
+      (
+      
+        1
+        
+          N
+          2
+        
+      
+      )
+    
+    ⁡
+    
+      [
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            
+              N
+            
+            -
+            1
+          
+        
+        ⁢
+        
+          
+            ∑
+            
+              j
+              =
+              0
+            
+            i
+          
+          ⁢
+          
+            
+              2
+              k
+            
+            ⁢
+            
+              (
+              
+                
+                  N
+                
+                -
+                i
+              
+              )
+            
+            ⁢
+            
+              (
+              
+                
+                  N
+                
+                -
+                j
+              
+              )
+            
+            ⁢
+            
+              ρ
+              d
+            
+          
+        
+      
+      ]
+    
+  
+
+
+
+where N equals the number of points in the area, and:
+
+
+
+
+
+  k
+  =
+  
+    
+      
+        
+          0
+          ,
+        
+      
+      
+        
+          
+            when
+            ⁢
+            
+              
+            
+            ⁢
+            i
+          
+          =
+          
+            
+              0
+              ⁢
+              
+                
+              
+              ⁢
+              and
+              ⁢
+              
+                
+              
+              ⁢
+              j
+            
+            =
+            0
+          
+        
+      
+    
+    
+      
+        
+          2
+          ,
+        
+      
+      
+        
+          
+            when
+            ⁢
+            
+              
+            
+            ⁢
+            j
+          
+          =
+          
+            
+              0
+              ⁢
+              
+                
+              
+              ⁢
+              or
+              ⁢
+              
+                
+              
+              ⁢
+              j
+            
+            =
+            i
+          
+        
+      
+    
+    
+      
+        
+          3
+          ,
+        
+      
+      
+        
+          
+            when
+            ⁢
+            
+              
+            
+            ⁢
+            0
+          
+          <
+          j
+          <
+          i
+        
+      
+    
+  
+
+
+
+and:
+
+
+
+
+
+  d
+  =
+  
+    
+      (
+      
+        
+          
+            i
+            2
+          
+          +
+          
+            j
+            2
+          
+        
+      
+      )
+    
+    ⁢
+    
+      
+        (
+        
+          
+            Area
+          
+          
+            
+              N
+            
+            -
+            1
+          
+        
+        )
+      
+      .
+    
+  
+
+
+
+
+
+
+9. A method according to claim 1, further comprising:
+evaluating an area function for each pixel by solving probability density function based on a distance for pairs of the points in a satellite pixel comprising solving an integral of the probability density function for the distance as a multiple of a correlation coefficient function at the distance.
+
+
+
+10. A method according to claim 9, wherein the area function A is determined in accordance with:
+
+
+A=∫ƒ(D)ρ(d)dD 
+
+where ƒ(D) comprises a function that expresses the probability density function as a function of the distance D and ρ(d) comprises a function that expresses the correlation coefficient as a function of the distance D.
+
+
+
+11. A method according to claim 9, wherein the area function A is determined in accordance with:
+
+
+
+  
+    A
+    ≈
+    
+      [
+      
+        0.94
+        ⁢
+        
+          
+            ∫
+            0
+            
+              Area
+            
+          
+          ⁢
+          
+            
+              f
+              Quad
+            
+            ⁢
+            
+              ρ
+              
+                
+                  
+                    (
+                    D
+                    )
+                  
+                  ⁢
+                  
+                    ⅆ
+                    D
+                  
+                
+                +
+                0.06
+              
+            
+            ⁢
+            
+              
+                ∫
+                
+                  -
+                  ∞
+                
+                
+                  +
+                  ∞
+                
+              
+              ⁢
+              
+                
+                  f
+                  Norm
+                
+                ⁢
+                
+                  ρ
+                  
+                    
+                      (
+                      D
+                      )
+                    
+                    ⁢
+                    
+                      ⅆ
+                      D
+                    
+                  
+                
+              
+            
+          
+        
+      
+      ]
+    
+  
+
+
+
+
+  
+    where
+    ⁢
+    
+      :
+    
+  
+
+
+
+
+  
+    
+      f
+      Quad
+    
+    =
+    
+      {
+      
+        
+          
+            
+              
+                
+                  
+                    (
+                    
+                      6
+                      Area
+                    
+                    )
+                  
+                  ⁢
+                  
+                    (
+                    
+                      D
+                      -
+                      
+                        
+                          D
+                          2
+                        
+                        
+                          Area
+                        
+                      
+                    
+                    )
+                  
+                
+              
+              
+                
+                  
+                    for
+                    ⁢
+                    
+                      
+                    
+                    ⁢
+                    0
+                  
+                  ≤
+                  D
+                  ≤
+                  
+                    Area
+                  
+                
+              
+            
+            
+              
+                0
+              
+              
+                
+                  
+                    for
+                    ⁢
+                    
+                      
+                    
+                    ⁢
+                    D
+                  
+                  >
+                  
+                    Area
+                  
+                
+              
+            
+          
+          ⁢
+          
+            
+
+          
+          ⁢
+          and
+          ⁢
+          
+            :
+          
+          ⁢
+          
+            
+
+          
+          ⁢
+          
+            f
+            Norm
+          
+        
+        =
+        
+          
+            (
+            
+              1
+              
+                0.1
+                *
+                
+                  Area
+                
+              
+            
+            )
+          
+          ⁢
+          
+            (
+            
+              1
+              
+                
+                  2
+                  ⁢
+                  π
+                
+              
+            
+            )
+          
+          ⁢
+          
+            
+              ⅇ
+              
+                
+                  -
+                  
+                    (
+                    
+                      1
+                      2
+                    
+                    )
+                  
+                
+                ⁢
+                
+                  
+                    (
+                    
+                      
+                        D
+                        -
+                        
+                          Area
+                        
+                      
+                      
+                        0.1
+                        *
+                        
+                          Area
+                        
+                      
+                    
+                    )
+                  
+                  2
+                
+              
+            
+            .
+          
+        
+      
+    
+  
+
+
+
+
+
+12. A method according to claim 9, wherein the correlation coefficient comprises an exponentially decaying function.
+
+
+13. A method according to claim 12, wherein the exponentially decaying function ρ(D) solved for a distance D over the bounded area Area is determined in accordance with:
+
+
+
+
+  
+    ρ
+    ⁡
+    
+      (
+      D
+      )
+    
+  
+  =
+  
+    
+      ⅇ
+      
+        xD
+        
+          Area
+        
+      
+    
+    .
+  
+
+
+
+
+
+
+14. A method according to claim 9, wherein the area function A is determined in accordance with:
+
+
+
+
+  A
+  =
+  
+    
+      0.94
+      ⁢
+      
+        
+          (
+          
+            6
+            
+              x
+              3
+            
+          
+          )
+        
+        ⁡
+        
+          [
+          
+            
+              
+                (
+                
+                  x
+                  -
+                  2
+                
+                )
+              
+              ⁢
+              
+                (
+                
+                  
+                    ⅇ
+                    x
+                  
+                  +
+                  1
+                
+                )
+              
+            
+            +
+            4
+          
+          ]
+        
+      
+    
+    +
+    
+      0.06
+      ⁢
+      
+        
+          ⅇ
+          
+            x
+            ⁡
+            
+              (
+              
+                1
+                +
+                
+                  0.005
+                  ⁢
+                  x
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+  
+
+
+
+
+
+
+15. A computer-implemented method for estimating power data for a photovoltaic power generation fleet using area-to-point conversion of satellite imagery, comprising:
+assembling satellite imagery data of overhead sky clearness for a geographic region within which a photovoltaic fleet is located, each set of solar irradiance data comprising a time series of solar irradiance observations electronically recorded at successive time periods spaced at input time intervals, each solar irradiance observation comprising measured irradiance;
+identifying a set of pixels within the satellite imagery data corresponding to a bounded area within the geographic region, each pixel representing collective irradiance over a plurality of points within the bounded area;
+converting the solar irradiance data in the time series over each of the time periods into a set of point clearness indexes for each of the points relative to clear sky global horizontal irradiance;
+interpreting the set of point clearness indexes as area irradiance statistics, comprising:
+converting the area irradiance statistics to irradiance statistics for an average point within the set of pixels; and
+determining the irradiance statistics as average point statistics, each comprising an average of all values of the set of pixels;
+
+combining the irradiance statistics for each of the locations into fleet irradiance statistics applicable over the geographic region;
+building power statistics for the photovoltaic fleet as a function of the fleet irradiance statistics and a power rating of the photovoltaic fleet; and
+generating a time series of the power statistics for the photovoltaic fleet by applying a time lag correlation coefficient for an output time interval to the power statistics over each of the input time intervals,
+wherein the steps are performed on a suitably-programmed computer.
+
+
+
+16. A method according to claim 15, further comprising:
+setting an area clearness index for the bounded area as an average of point clearness indexes derived from the collective irradiance for each point; and
+expressing a variance of the area clearness index as an average of the variance of the point clearness indexes.
+
+
+
+17. A method according to claim 16, further comprising:
+proportioning the variance of the area clearness index to an area metric corresponding to the physical area covered by each pixel; and
+determining a variance of the point clearness index for one such point as a ratio of the variance of the area clearness index and the physical area covered by each pixel given the point clearness index for the point, cloud speed, and time interval.
+
+
+
+18. A method according to claim 15, further comprising:
+evaluating an area function for each pixel by solving a discrete correlation coefficient matrix comprises correlation coefficients between point clearness indexes selected for pairs of the points in a satellite pixel.
+
+
+
+19. A method according to claim 15, further comprising:
+evaluating an area function for each pixel by solving probability density function based on a distance for pairs of the points in a satellite pixel comprising solving an integral of the probability density function for the distance as a multiple of a correlation coefficient function at the distance.
+
+
+
+20. A method according to claim 19, wherein the area function A is determined in accordance with:
+
+
+A=∫ƒ(D)ρ(d)dD 
+
+where ƒ(D) comprises a function that expresses the probability density function as a function of the distance D and ρ(d) comprises a function that expresses the correlation coefficient as a function of the distance D.
+
+

@@ -1,0 +1,127 @@
+
+The invention relates to an inverter for converting a DC voltage into an AC voltage having one or more phases, comprising
+
+    
+    
+        an intermediate DC circuit having a first and a second DC capacitor unit connected in series between a first and a second terminal of the intermediate DC circuit, and a common earth terminal of the intermediate circuit, and
+        at least one subcircuit for generating one phase of the alternating voltage, each subcircuit comprising:
+        
+            a first and a second auxiliary switch, each with a diode connected in parallel,
+            an AC node for supplying a pulsed voltage,
+            
+                the first and second auxiliary switches being connected in series between the common earth terminal of the intermediate circuit and the AC node and
+                the diodes of said power switches being connected to each other with opposite forward directions, and each of the subcircuits comprises
+            
+            
+        
+        
+        two power switches, each with a diode connected in parallel, wherein said two power switches are
+        
+            connected in series between the first and second terminal of the intermediate DC circuit,
+            connected to a common connection point at the AC node and
+            the diodes of said power switches being connected to each other with the same forward direction.
+        
+        
+    
+    
+
+
+
+
+
+1-16. (canceled)
+
+
+17. An inverter for converting a DC voltage into an AC voltage with one or more phases, comprising
+an intermediate DC circuit having a first and a second DC capacitor unit connected in series between a first and a second terminal of the intermediate DC circuit, and a common earth connection whereby the common earth connection carries the mid-voltage between the first and the second terminal, and
+at least one subcircuit for generating one phase of the alternating voltage, each subcircuit comprising:
+a first and a second auxiliary switch, each with a diode connected in parallel, and
+an AC node for supplying a pulsed voltage,
+the first and second auxiliary switches being connected in series between the common earth terminal of the intermediate circuit and the AC node and
+the diodes of said power switches being connected to each other with opposite forward directions.
+
+
+
+18. Inverter according to claim 17, characterised in that each of the subcircuits comprises:
+a first and a second power switch, each with a diode connected in parallel, wherein said two power switches are
+connected in series between the first and second terminal of the intermediate DC circuit,
+connected to a common connection point at the AC node and
+the diodes of said power switches being connected to each other with the same forward direction.
+
+
+
+19. Inverter according to claim 17, characterised in that
+the two DC capacitor units have the same capacitance.
+
+
+
+20. Inverter according to claim 17, characterised in that
+the auxiliary and/or power switches can conduct current in one forward direction only, said switches being connected in parallel to the respective diodes with opposite forward directions.
+
+
+
+21. Inverter according to claim 17, characterised in that each of the subcircuits comprises
+an AC output and
+a choke connected between the AC node and the AC output.
+
+
+
+22. Inverter according to claim 21, characterised in that
+each of the subcircuits includes an additional capacitor unit connected between the AC output and earth.
+
+
+
+23. Inverter according to claim 17, characterised in that
+a controller for controlling the auxiliary and/or power switches is provided.
+
+
+
+24. Inverter according to claim 17, characterised in that
+the inverter is configured to produce a pulse modulated voltage signal at the AC node of each subcircuit in order to generate an AC voltage at each subcircuit.
+
+
+
+25. Inverter according to claim 17, characterised in that
+the AC node or AC output of each of the subcircuits is connected to a transformer.
+
+
+
+26. Inverter according to claim 17, characterised in that
+three subcircuits are provided for feeding the output into a three-phase grid.
+
+
+
+27. Inverter according to claim 17, for generating a three-phase AC voltage, comprising:
+three AC terminals,
+a three-phase transformer connected by its primary coil to the AC terminals in a star connection, and connected by its secondary coil in a star connection, the inverter being configured
+to generate a pulsed voltage signal at each of the AC terminals such that phase voltages having each a sinusoidal fundamental wave of a fundamental frequency and a third harmonic of triple the fundamental frequency are produced at the secondary coil of the transformer.
+
+
+
+28. Inverter according to claim 27, characterised in that
+the fundamental wave is in phase with the third harmonic and
+the fundamental waves of the phase voltages are shifted 120° to each other.
+
+
+
+29. Inverter according to claim 27, characterised in that
+the amplitude of the fundamental wave in each phase voltage is four to eight times, in particular six times the amplitude of the third harmonic.
+
+
+
+30. A solar energy system comprising
+an inverter according to claim 17 and
+a photovoltaic generator.
+
+
+
+31. Solar system according to claim 30, characterised in that
+a voltage generated by the photovoltaic generator is supplied to the intermediate DC circuit and
+the solar energy system is configured for connection to a power grid in order to feed current to said grid.
+
+
+
+32. Method for converting a DC voltage into an AC voltage by pulsing a DC voltage to at least one AC node characterized in that
+an inverter according to claim 17 is utilized. 
+
+

@@ -1,0 +1,94 @@
+
+A photovoltaic inverter having an inverter bridge section, a first output, a second output, and a power switch. The inverter bridge section is operable for converting DC electrical energy into AC electrical energy. The inverter bridge section has an output for outputting the AC electrical energy. The power switch is connected to the output of the inverter bridge section, the first output, and the second output. The power switch is selectively switchable between a first state in which the output of the inverter bridge section is connected to the first output via the power switch and a second state in which the output of the inverter bridge section is connected to the second output via the power switch.
+
+
+
+1. A photovoltaic inverter comprising:
+an inverter bridge section operable for converting DC electrical energy into AC electrical energy, the inverter bridge section having an output for outputting the AC electrical energy;
+a first output;
+a second output; and
+a power switch connected to the output of the inverter bridge section, the first output, and the second output;
+wherein the power switch is selectively switchable between a first state in which the output of the inverter bridge section is connected to the first output via the power switch and a second state in which the output of the inverter bridge section is connected to the second output via the power switch.
+
+
+
+2. The photovoltaic inverter of claim 1 wherein:
+the first output is connected with a power network, wherein the AC electrical energy from the inverter bridge section is supplied to the power network when the output of the inverter bridge section is connected to the first output via the power switch;
+the second output is connected with an electric motor, wherein the AC electrical energy from the inverter bridge section is supplied to the electric motor when the output of the inverter bridge section is connected to the second output via the power switch.
+
+
+
+3. The photovoltaic inverter of claim 2 further comprising:
+a controller operable for controlling the inverter bridge section to achieve a desired frequency response such that the AC electrical energy output from the inverter bridge section has a variable frequency;
+wherein the AC electrical energy output from the inverter bridge section when the inverter bridge section is uncontrolled by the controller is in the form of an AC voltage having a fixed frequency;
+wherein the inverter bridge section is uncontrolled by the controller when the power switch is in the first state such that the AC electrical energy supplied from the inverter bridge section to the power network is in the form of an AC voltage with a fixed frequency;
+wherein the inverter bridge section is controlled by the controller when the power switch is in the second state such that the AC electrical energy supplied from the inverter bridge section to the electric motor is in the form of an AC voltage with a variable frequency.
+
+
+
+4. The photovoltaic inverter of claim 1 wherein the inverter bridge section is a first inverter bridge section, the photovoltaic inverter further comprising:
+a second inverter bridge section operable for converting the DC electrical energy into AC electrical energy, the second inverter bridge section having an output for outputting the AC electrical energy.
+
+
+
+5. The photovoltaic inverter of claim 4 wherein:
+the power switch is further connected to the output of the second inverter bridge section, wherein the power switch is selectively switchable between the first state in which the outputs of the first and second inverter bridge sections are connected to the first output via the power switch and the second state in which the outputs of the first and second inverter bridge sections are connected to the second output via the power switch.
+
+
+
+6. The photovoltaic inverter of claim 4 wherein the power switch is a first power switch, the photovoltaic inverter further comprising:
+a second power switch connected between the output of the second inverter bridge section, the first output, and the second output;
+wherein the second power switch is selectively switchable between a first state in which the output of the second inverter bridge section is connected to the first output via the second power switch and a second state in which the output of the second inverter bridge section is connected to the second output via the second power switch.
+
+
+
+7. The photovoltaic inverter of claim 4 further comprising:
+a third inverter bridge section operable for converting the DC electrical energy into AC electrical energy, the third inverter bridge section having an output for outputting the AC electrical energy.
+
+
+
+8. The photovoltaic inverter of claim 7 wherein:
+the power switch is further connected to the outputs of the second and third inverter bridge sections, wherein the power switch is selectively switchable between the first state in which the outputs of the first, second, and third inverter bridge sections are connected to the first output via the power switch and the second state in which the outputs of the first, second, and third inverter bridge sections are connected to the second output via the power switch.
+
+
+
+9. The photovoltaic inverter of claim 7 wherein the power switch is a first power switch, the photovoltaic inverter further comprising:
+a second power switch connected between the output of the second inverter bridge section, the first output, and the second output; and
+a third power switch connected between the output of the third inverter bridge section, the first output, and the second output;
+wherein the second power switch is selectively switchable between a first state in which the output of the second inverter bridge section is connected to the first output via the second power switch and a second state in which the output of the second inverter bridge section is connected to the second output via the second power switch;
+wherein the third power switch is selectively switchable between a first state in which the output of the third inverter bridge section is connected to the first output via the third power switch and a second state in which the output of the third inverter bridge section is connected to the third output via the third power switch.
+
+
+
+10. The photovoltaic inverter of claim 1 further comprising:
+a DC/DC converter, wherein the DC/DC converter provides the DC electrical energy to the inverter bridge section for the inverter bridge section to convert into the AC electrical energy.
+
+
+
+11. The photovoltaic inverter of claim 1 wherein:
+the DC electrical energy is from a solar cell.
+
+
+
+12. The photovoltaic inverter of claim 2 wherein:
+the DC electrical energy is from a solar cell.
+
+
+
+13. The photovoltaic inverter of claim 12 wherein:
+the electric motor is operable for driving a mechanical tracking device operable for moving the solar cell upon the electric motor receiving the AC electrical energy from the inverter bridge section when the output of the inverter bridge section is connected to the second output via the power switch.
+
+
+
+14. A photovoltaic inverter system comprising:
+a solar cell operable for converting sunlight into DC electrical energy;
+an inverter bridge section operable for converting the DC electrical energy from the solar cell into AC electrical energy;
+a first output connected to a power network;
+a second output connected to a motor operable for moving the solar cell upon receiving AC electrical energy in the form of an AC voltage having a variable frequency;
+a power switch connected to the inverter bridge section and the first and second outputs; and
+a controller operable for controlling the inverter bridge section to achieve a desired frequency response such that the AC electrical energy from the inverter bridge section has a variable frequency, wherein the AC electrical energy from the inverter bridge section when the inverter bridge section is uncontrolled by the controller is in the form of an AC voltage having a fixed frequency;
+wherein the power switch is selectively switchable between a first state in which the output of the inverter bridge section is connected to the first output such that the AC electrical energy from the inverter bridge section is supplied to the power network and a second state in which the output of the inverter bridge section is connected to the second output such that the AC electrical energy from the inverter bridge section is supplied to the electric motor;
+wherein the inverter bridge section is uncontrolled by the controller when the power switch is in the first state such that the AC electrical energy supplied from the inverter bridge section to the power network is in the form of an AC voltage with a fixed frequency;
+wherein the inverter bridge section is controlled by the controller when the power switch is in the second state such that the AC electrical energy supplied from the inverter bridge section to the motor is in the form of an AC voltage with a variable frequency. 
+
+

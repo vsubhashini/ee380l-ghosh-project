@@ -1,0 +1,64 @@
+
+A photovoltaic power generation system, having a photovoltaic panel, which has a direct current (DC) output and a micro-inverter with input terminals and output terminals. The input terminals are adapted for connection to the DC output. The micro-inverter is configured for converting an input DC power received at the input terminals to an output alternating current (AC) power at the output terminals. A bypass current path between the output terminals may be adapted for passing current produced externally to the micro-inverter. The micro-inverter is configured to output an alternating current voltage significantly less than a grid voltage.
+
+
+
+1. A micro-inverter comprising:
+input terminals and output terminals; wherein the micro-inverter is adapted for inverting an input direct current power received at said input terminals to an output alternating current power at said output terminals having an output voltage significantly less than a grid voltage; and
+a bypass current path between said output terminals adapted for passing current produced externally to the micro-inverter.
+
+
+
+2. The micro-inverter according to claim 1, further comprising:
+a synchronization module adapted for synchronizing said output AC power to said grid voltage.
+
+
+
+3. The micro-inverter according to claim 1, further comprising a control loop configured to set said input DC power received at said input terminals according to a previously determined criterion
+
+
+4. The micro-inverter according to claim 3, wherein said control loop is configured to set said input DC power received at said input terminals to a maximum input power.
+
+
+5. A photovoltaic power generation system comprising:
+a plurality of photovoltaic panels with direct current outputs;
+a plurality of micro-inverters, each micro-inverter including input terminals connected to said direct current outputs of one of said plurality of photovoltaic panels, respectively, and output terminals, wherein each of said micro-inverters is configured for inverting input direct current power received at its input terminals to an output alternating current at its output terminals with an output voltage substantially less than a grid voltage, wherein said output terminals of said plurality of micro-inverters are connectible in series into a serial string and an output voltage of said serial string is substantially equal to said grid voltage, wherein each micro-inverter includes a bypass current path between its output terminals adapted for passing current produced externally in said serial string.
+
+
+
+6. The photovoltaic power generation system of claim 5 wherein each micro-inverter has a control loop configured to set said input direct current power received at said input terminals according to a previously determined criterion.
+
+
+7. The photovoltaic power generation system of claim 5 further comprising:
+a central control unit operatively attached to said serial string and said grid voltage.
+
+
+
+8. The photovoltaic power generation system of claim 7, wherein said central control unit is adapted for monitoring synchronization of said output voltage of said serial string with said grid voltage.
+
+
+9. The photovoltaic power generation system of claim 8, wherein said central control unit is adapted for disconnecting the system from the grid or disabling said micro-inverters upon detecting at least one condition selected from the group consisting of: said output voltage of said serial string being less than said grid voltage and a lack of said synchronization between said output voltage of said serial string and said grid voltage.
+
+
+10. A method for photovoltaic power generation in a system including a plurality of photovoltaic panels each having direct current outputs and a plurality of micro-inverters each including input terminals and output terminals, the method comprising:
+connecting the input terminals respectively to said DC outputs;
+connecting the output terminals serially to a serial voltage output;
+inverting, with said micro-inverters, input direct current power received at said input terminals to output alternating-current power at said output terminals while maintaining said serial voltage output substantially equal to a grid voltage; and
+upon a failure of said inverting then bypassing said output terminals thereby maintaining said serial voltage output.
+
+
+
+11. The method of claim 10, further comprising:
+upon said connecting the input terminals and said connecting the output terminals, enabling said inverting input DC power after a previously determined time delay.
+
+
+
+12. The method of claim 10, further comprising:
+synchronizing the serial voltage output to said grid voltage.
+
+
+
+13. The method of claim 12, further comprising:
+upon a failure of said synchronizing then bypassing said output terminals thereby maintaining said serial voltage output.
+
+

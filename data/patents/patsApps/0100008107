@@ -1,0 +1,70 @@
+
+A direct current-direct current (DC/DC) converter operated in the resonant mode of operation for converting a direct input voltage into a direct output voltage with a bridge circuit located on the input side and incorporating switching elements, with a resonance circuit incorporating a resonance inductance and a resonance capacitance as well as with a high-frequency transformer for galvanic separation is disclosed, the transformer incorporates at least one primary winding and at least one secondary winding with at least two winding terminals each. The alternating current (AC) output of the bridge circuit is connected to the primary winding and a rectifier bridge with diodes to the secondary winding. A voltage boosting circuit array is connected downstream of the resonant circuit in such a manner that at least one additionally controllable switching element is contained, which is connected in parallel or in series to at least one additional diode or to at least one diode of the rectifier bridge on the secondary side, this array being connected in parallel to the high-frequency transformer so that the additional switching element short-circuits the resonance circuit in a triggered condition so that energy is stored in the resonance inductance and is delivered in the non-triggered condition.
+
+
+
+1. A direct current-direct current (DC/DC) converter operated in the resonant mode of operation for converting a direct input voltage into a direct output voltage with a bridge circuit located on the input side and incorporating switching elements, with a resonance circuit incorporating a resonance inductance and a resonance capacitance as well as with a high-frequency transformer for galvanic separation, said transformer incorporating at least one primary winding and at least one secondary winding with at least two winding terminals each, and the AC output of the bridge circuit being connected to the primary winding and a rectifier bridge with diodes to the secondary winding,
+characterized in
+that a voltage boosting circuit array is connected downstream of the resonant circuit in such a manner that at least one additionally controllable switching element is contained, which is connected in parallel or in series to at least one additional diode and/or to at least one diode of the rectifier bridge on the secondary side, this array being connected in parallel to the high-frequency transformer so that the additional switching element short-circuits the resonance circuit in a triggered condition so that energy is stored in the resonance inductance and is delivered in the non-triggered condition.
+
+
+
+2. The DC/DC converter as set forth in claim 1,
+characterized in
+that the voltage boosting circuit array is connected on the side of the secondary winding.
+
+
+
+3. The DC/DC converter as set forth in claim 2,
+characterized in
+that there is provided only one additional switching element.
+
+
+
+4. The DC/DC converter as set forth in claim 3,
+characterized in
+that the alternating current (AC) input of an additional rectifier bridge is connected to the secondary winding to the direct current (DC) output of which there is connected the additional switching element in such a manner that it short-circuits the additional rectifier bridge in a triggered condition.
+
+
+
+5. The DC/DC converter as set forth in claim 3,
+characterized in
+that, at each winding end of the secondary winding, two additional diodes are connected to the anode, the cathodes of which are connected to the additional switching element, the series connection consisting of being connected in parallel to a diode of the one branch of the rectifier bridge on the secondary side and the series connection consisting of being connected in parallel to a diode of the other branch of the rectifier bridge on the secondary side.
+
+
+
+6. The DC/DC converter as set forth in claim 2,
+characterized in
+that at least two additional switching elements are provided.
+
+
+
+7. The DC/DC converter as set forth in claim 6,
+characterized in
+that two additional opposite connected diodes are connected to the secondary winding, one of the two additional switching elements being connected anti-parallel to each additional diode.
+
+
+
+8. The DC/DC converter as set forth in claim 6,
+characterized in
+that the two additional switching elements are connected in parallel to at least one diode of a bridge branch of the rectifier located on the secondary side.
+
+
+
+9. The DC/DC converter as set forth in claim 1,
+characterized in
+that the bridge circuit on the input side is configured to be a half bridge.
+
+
+
+10. The DC/DC converter as set forth in claim 1,
+characterized in
+that the voltage boosting circuit array is only activated if the input voltage of the DC/DC converter falls below a fixed value.
+
+
+
+11. Use of a DC/DC converter as set forth in claim 1 in an inverter for converting a direct voltage into an alternating voltage conforming to the grid.
+
+
+12. Use of a DC/DC converter as set forth in claim 1 in a photovoltaic inverter for converting a photovoltaic voltage into an alternating voltage conforming to the grid. 
+

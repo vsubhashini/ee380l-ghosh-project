@@ -1,0 +1,138 @@
+
+A system for the detection of welded contacts in a circuit of a line converter system has a plurality of inverter switches, a plurality of utility switches in which a pair of utility switches is connected in series through a line to a utility, a voltage detector, an electronic controller, and a DC input source. The line converter system converts incoming DC power into AC output power that is delivered to the utility grid. The voltage detector measures the voltage across a first node and a second node of the circuit and provides an output that is interpreted by an electronic controller for each step performed during a method of detection of welded contacts. The detection method has a sequence of test steps in which at least one switch is opened and/or closed, a DC bus of the inverter or the utility grid is used as a stimulus voltage, and the voltage is measured. If a voltage is not detected across the first and second nodes, the test sequence is continued until a welded contact is detected or the electronic controller determines that none of the contacts are welded. If the controller determines that none of the contacts are welded, the line converter system is permitted to connect and supply AC power to the utility.
+
+
+
+1. A line converter system for connecting a power source to a utility grid, comprising:
+an inverter having a DC bus and a plurality of inverter switches;
+a plurality of lines for connecting the inverter to the utility grid, each line having a first end connected to the inverter and a second end for connection to the utility grid;
+a plurality of line switches, a pair of the line switches being connected in series into each of the lines;
+a voltage detector connected to the lines, respectively, the voltage detector being connected to each of the lines at a point between the line switches; and
+a controller connected to the inverter switches and the line switches, the controller comprising a processor and computer readable medium having program instructions stored thereon, which when executed by the processor are operable to perform a method of detecting stuck contacts in the line switches when the line converter system is connected to the utility grid, the method comprising:
+(a.) opening the inverter switches so that no voltage from the DC bus is applied to the line switches located toward the first ends of the lines;
+(b.) transmitting open commands to the line switches;
+(c.) after transmitting the open commands, determining whether the voltage detector has detected a voltage; and
+(d.) if the voltage detector is determined to have detected a voltage in step (c.), determining that the line switches located toward the second ends of the lines have contacts that are stuck together.
+
+
+
+2. The line converter system of claim 1, wherein the method further comprises:
+(e.) if the voltage detector is determined not to have detected a voltage in step (c.), closing a pair of the inverter switches so that a voltage from the DC bus is applied to the line switches located toward the first ends of the lines;
+(f.) after step (e.) and with the line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(g.) if the voltage detector is determined to have detected a voltage in step (f.), determining that the line switches located toward the first ends of the lines have contacts that are stuck together.
+
+
+
+3. The line converter system of claim 2, wherein the method further comprises:
+(h.) if the voltage detector is determined not to have detected a voltage in step (f.), transmitting a close command to a first one of the line switches, which is connected into a first one of the lines, toward the first end;
+(i.) after step (h.), with the pair of the inverter switches closed and with the first one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(j.) if the voltage detector is determined to have detected a voltage in step (i.), determining that a second one of the line switches, which is connected into a second one of the lines, toward the first end, has contacts that are stuck together.
+
+
+
+4. The line converter system of claim 3, wherein the method further comprises:
+(k.) if the voltage detector is determined not to have detected a voltage in step (i.), transmitting an open command to the first one of the line switches and a close command to the second one of the line switches;
+(l.) after step (k.), with the pair of the inverter switches closed and with the second one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(m.) if the voltage detector is determined to have detected a voltage in step (l.), determining that the first one of the line switches has contacts that are stuck together.
+
+
+
+5. The line converter system of claim 4, wherein the method further comprises:
+(n.) if the voltage detector is determined not to have detected a voltage in step (l.), opening the pair of the inverter switches and transmitting a close command to a third one of the line switches, which is connected into the first one of the lines, toward the second end;
+(o.) after step (n.) and with the inverter switches open and with the third one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(p.) if the voltage detector is determined to have detected a voltage in step (o.), determining that a fourth one of the line switches, which is connected into the second one of the lines, toward the second end, has contacts that are stuck together.
+
+
+
+6. The line converter system of claim 5, wherein the method further comprises:
+(q.) if the voltage detector is determined not to have detected a voltage in step (o.), transmitting an open command to the third one of the line switches and transmitting a close command to the fourth one of the line switches;
+(r.) after step (q.) and with the inverter switches open and with the fourth one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(s.) if the voltage detector is determined to have detected a voltage in step (r.), determining that the third one of the line switches has contacts that are stuck together.
+
+
+
+7. The line converter system of claim 1, wherein the method further comprises:
+(e.) if the voltage detector is determined not to have detected a voltage in step (c.), transmitting a close command to a first one of the line switches, which is connected into a first one of the lines, toward the second end;
+(f.) after step (e.) and with the inverter switches open and with the first one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(g.) if the voltage detector is determined to have detected a voltage in step (f.), determining that a second one of the line switches, which is connected into a second one of the lines, toward the second end, has contacts that are stuck together.
+
+
+
+8. The line converter system of claim 7, wherein the method further comprises:
+(h.) if the voltage detector is determined not to have detected a voltage in step (f.), transmitting an open command to the first one of the line switches and transmitting a close command to the second one of the line switches;
+(i.) after step (h.) and with the inverter switches open and with the second one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether the voltage detector has detected a voltage;
+(j.) if the voltage detector is determined to have detected a voltage in step (i.), determining that the first one of the line switches has contacts that are stuck together.
+
+
+
+9. The line converter system of claim 1, wherein the voltage detector comprises an opto-coupler.
+
+
+10. The line converter system of claim 9, wherein the opto-coupler is a bipolar opto-coupler.
+
+
+11. The line converter system of claim 9, wherein the opto-coupler is a first unipolar opto-coupler and wherein the voltage detector further comprises a second unipolar opto-coupler.
+
+
+12. The line converter system of claim 1, wherein the voltage detector comprises a voltage divider.
+
+
+13. The line converter system of claim 1, wherein the power source comprises photovoltaic panels.
+
+
+14. A method of detecting stuck contacts in a line converter system connected to a utility grid, wherein the inverter system comprises an inverter having a DC bus and a plurality of inverter switches, wherein a plurality of lines connect the inverter to the utility grid, each line having a first end connected to the inverter and a second end connected to the utility grid, and wherein a pair of line switches are connected in series into each of the lines, the method comprising:
+(a.) opening the inverter switches so that no voltage from the DC bus is applied to the line switches located toward the first ends of the lines;
+(b.) transmitting open commands to the line switches;
+(c.) after transmitting the open commands, determining whether there is a voltage between a first point located between the line switches in a first one of the lines and a second point located between the line switches in a second one of the lines; and
+(d.) if a voltage is detected in step (c.), determining that the line switches located toward the second ends of the lines have contacts that are stuck together.
+
+
+
+15. The method of claim 14, further comprising:
+(e.) if a voltage is not detected in step (c.), closing a pair of the inverter switches so that a voltage from the DC bus is applied to the line switches located toward the first ends of the lines;
+(f.) after step (e.) and with the line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(g.) if a voltage is detected in step (f.), determining that the line switches located toward the first ends of the lines have contacts that are stuck together.
+
+
+
+16. The method of claim 15, further comprising:
+(h.) if a voltage is not detected in step (f.), transmitting a close command to a first one of the line switches, which is connected into the first one of the lines, toward the first end;
+(i.) after step (h.), with the pair of the inverter switches closed and with the first one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(j.) if a voltage is detected in step (i.), determining that a second one of the line switches, which is connected into the second one of the lines, toward the first end, has contacts that are stuck together.
+
+
+
+17. The method of claim 16, further comprising:
+(k.) if a voltage is not detected in step (i.), transmitting an open command to the first one of the line switches and a close command to the second one of the line switches;
+(l.) after step (k.), with the pair of the inverter switches closed and with the second one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(m.) if a voltage is detected in step (l.), determining that the first one of the line switches has contacts that are stuck together.
+
+
+
+18. The method of claim 17, further comprising:
+(n.) if a voltage is not detected in step (l.), opening the pair of the inverter switches and transmitting a close command to a third one of the line switches, which is connected into the first one of the lines, toward the second end;
+(o.) after step (n.) and with the inverter switches open and with the third one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(p.) if a voltage is detected in step (o.), determining that a fourth one of the line switches, which is connected into the second one of the lines, toward the second end, has contacts that are stuck together.
+
+
+
+19. The method of claim 18, further comprising
+(q.) if a voltage is not detected in step (o.), transmitting an open command to the third one of the line switches and transmitting a close command to the fourth one of the line switches;
+(r.) after step (q.) and with the inverter switches open and with the fourth one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(s.) if a voltage is detected in step (r.), determining that the third one of the line switches has contacts that are stuck together.
+
+
+
+20. The method of claim 14, further comprising:
+(e.) if a voltage is not detected in step (c.), transmitting a close command to a first one of the line switches, which is connected into the first one of the lines, toward the second end;
+(f.) after step (e.) and with the inverter switches open and with the first one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(g.) if a voltage is detected in step (f.), determining that a second one of the line switches, which is connected into a second one of the lines, toward the second end, has contacts that are stuck together.
+
+
+
+21. The method of claim 20, further comprising:
+(h.) if a voltage is not detected in step (f.), transmitting an open command to the first one of the line switches and transmitting a close command to the second one of the line switches;
+(i.) after step (h.) and with the inverter switches open and with the second one of the line switches commanded to be closed and the other line switches commanded to be open, determining whether there is a voltage between the first and second points;
+(j.) if a voltage is detected in step (i.), determining that the first one of the line switches has contacts that are stuck together. 
+
+

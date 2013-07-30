@@ -1,0 +1,76 @@
+
+A system for communicating information on an energy distribution network is disclosed. In one embodiment, the system includes a local supervisor on a communication network, wherein the local supervisor can collect data from one or more energy generation/monitoring devices. The system also includes a command center on the communication network, wherein the command center can generate one or more commands for controlling the one or more energy generation devices. The local supervisor can periodically transmit a data signal indicative of the data to the command center via a first channel of the communication network at a first interval. The local supervisor can also periodically transmit a request for a command to the command center via a second channel of the communication network at a second interval shorter than the first interval. This channel configuration provides effective data communication without a significant increase in the use of network resources.
+
+
+
+1. An apparatus for communicating information on an energy distribution network, the apparatus comprising:
+a processor configured to collect data from one or more energy generation/monitoring devices over a local area network; and
+a network adaptor configured to connect to a communication network;
+wherein the processor is further configured to periodically transmit a data signal indicative of the data to a command center system via a first channel of the communication network at a first interval, using the network adaptor; and
+wherein the processor is further configured to periodically transmit a request for a command to the command center system via a second channel of the communication network at a second interval shorter than the first interval.
+
+
+
+2. The apparatus of claim 1, wherein the processor is configured to initiate all communications with the command center system through a firewall.
+
+
+3. The apparatus of claim 1, wherein the processor does not periodically transmit the data signal to the command center system via the second channel.
+
+
+4. The apparatus of claim 1, wherein the apparatus is a local supervisor station for an energy generation plant remote from the command center system.
+
+
+5. The apparatus of claim 4, wherein the apparatus is a photovoltaic (PV) supervisor device.
+
+
+6. The apparatus of claim 1, wherein the first interval is between about 5 minutes and about 15 minutes, and wherein the second interval is between about 0.01 seconds and 299 seconds.
+
+
+7. The apparatus of claim 1, wherein the average size of periodic transmission on the first channel is between about 100 bytes and about 5 kilobytes.
+
+
+8. The apparatus of claim 1, wherein the average size of periodic transmission on the second channel is between about 50 bytes and about 250 bytes.
+
+
+9. The apparatus of claim 1, wherein the processor is configured to execute two or more commands received from the command center system in an order received from the command center system.
+
+
+10. The apparatus of claim 9, wherein the processor is further configured to receive an additional command from the command center system, and to execute the additional command prior to at least one of the two or more commands if the additional command has a higher priority than the at least one of the commands.
+
+
+11. The apparatus of claim 9, wherein the processor is further configured to receive an additional command from the command center system, and to invalidate at least one of the two or more commands or the additional command if the additional command is in conflict with the at least one of the two or more commands.
+
+
+12. The apparatus of claim 1, wherein the processor is further configured to restore the state of the apparatus to a prior state upon receiving a command from the command center system.
+
+
+13. The apparatus of claim 1, wherein the processor is further configured to transmit an acknowledgment indicative of receipt or execution of a command from the command center system.
+
+
+14. The apparatus of claim 1, wherein the processor is configured to transmit data indicative of an emergency condition of the one or more energy generation/monitoring devices to the command center system via the second channel in addition to periodically transmitting the data signal via the first channel.
+
+
+15. The apparatus of claim 1, wherein the processor is configured to adaptively vary the second interval based at least partly on one or more of behavior trends of the one or more energy generation/monitoring devices, condition trends of the system, or the number of commands transmitted via the second channel.
+
+
+16. A method of communicating data in an energy distribution network, the method comprising:
+periodically transmitting, by a local supervisor station, a data signal to a central command center system via a first channel of a communication network at a first interval, the data signal being indicative of data collected by the local supervisor station from one or more energy generation/monitoring devices; and
+periodically transmitting, by the local supervisor station, a request for a command for controlling the one or more energy generation/monitoring devices to the central command center system via a second channel of the communication network at a second interval shorter than the first interval.
+
+
+
+17. The method of claim 16, further comprising receiving, by the local supervisor station, a command from the central command center system via the second channel after transmitting the request.
+
+
+18. The method of claim 16, wherein all communications between the local supervisor station and central command center system are initiated by the local supervisor station.
+
+
+19. A method of communicating data, the method comprising:
+periodically transmitting, by a first station communicating through a firewall, a data signal to a second station via a first channel of a communication network at a first interval, while establishing communication through the firewall, the data signal being indicative of data collected from one or more local devices; and
+periodically transmitting, by the first station, a request for a command to the second station via a second channel of the communication network at a second interval shorter than the first interval, while establishing communication through the firewall; and
+receiving, by the first station, a command via the second channel of the communication network after transmitting the request for a command while establishing communication through the firewall.
+
+
+
+20. The method of claim 19, wherein the one or more local devices comprise energy generation/monitoring devices. 
+

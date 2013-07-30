@@ -1,0 +1,113 @@
+
+A PV system includes a plurality of PV strings each having an optimal string voltage at which a string output power is maximized. The PV strings are connected to a DC link in a parallel arrangement such that each PV strings operates at a variable DC link voltage. A PV inverter is connected to the DC link to receive a DC output, with the PV inverter controlling the DC link voltage. Delta DC/DC converters are connected to the PV strings, with each DC/DC converter receiving the DC link voltage from the DC link and providing a tuning voltage to the DC link voltage at which its respective PV string operates in order to bring the string voltage for that PV string to its optimal string voltage. The tuning voltage of each delta DC/DC converter is the difference between the DC link voltage and a respective optimal string voltage.
+
+
+
+1. A photovoltaic (PV) system comprising:
+a plurality of PV strings configured to generate a string output power responsive to received solar irradiation, each of the plurality of PV strings having an optimal string voltage at which a string output power is maximized;
+a DC link connected to the plurality of PV strings, wherein the plurality of PV strings are connected to the DC link in a parallel arrangement such that each of the plurality of PV strings operates at a variable DC link voltage;
+a PV inverter electrically connected to the DC link to receive a DC output therefrom, the PV inverter configured to control the DC link voltage; and
+a plurality of delta DC/DC converters electrically connected to the plurality of PV strings such that each of the plurality of delta DC/DC converter is connected to at least one PV string, wherein each DC/DC converter receives the DC link voltage from the DC link and is configured to provide a tuning voltage to the DC link voltage at which its respective PV string operates in order to bring the string voltage for that PV string to its optimal string voltage, the tuning voltage of each delta DC/DC converter being a difference between the DC link voltage and a respective optimal string voltage.
+
+
+
+2. The PV system of claim 1 wherein each delta DC/DC converter is connected to one or more PV strings or a pair of PV strings.
+
+
+3. The PV system of claim 1 wherein each delta DC/DC converter further comprises a controller to control the tuning voltage output by the delta DC/DC converter, the controller being programmed to:
+identify a value of the string output power of its respective PV string, the string output power comprising a string voltage and string current;
+determine the optimal string voltage for the respective PV string at which the string output power is maximized based on the string output power;
+determine a value of the tuning voltage to apply to the respective PV string based on a comparison of the DC link voltage and the optimal string voltage; and
+applying a tuning voltage having the determined value to the respective PV string such that the PV string operates at its optimal string voltage.
+
+
+
+4. The PV system of claim 3 wherein the controller is further programmed to generate and analyze a tuning voltage reference of the delta DC/DC converter for purposes of updating the tuning voltage, the tuning voltage reference being generated at a first frequency.
+
+
+5. The PV system of claim 4 wherein the PV inverter is configured to generate and analyze a DC link reference for purposes of tracking a maximum power of the PV system, the DC link reference being generated at a second frequency that is lower than the first frequency.
+
+
+6. The PV system of claim 1 wherein each delta DC/DC converter comprises an input and an output, wherein the input is connected to the DC link, and wherein the output comprises a pair of output terminals connected to a respective PV string in series.
+
+
+7. The PV system of claim 1 wherein the tuning voltage has a positive, negative, or zero value.
+
+
+8. The PV system of claim 1 wherein the delta DC/DC converter comprises a galvanically isolated delta DC/DC converter.
+
+
+9. The PV system of claim 1 wherein the delta DC/DC converter comprises a galvanically non-isolated delta DC/DC converter.
+
+
+10. The PV system of claim 1 wherein each of the plurality of PV strings comprises a plurality of PV modules connected in series.
+
+
+11. The PV system of claim 1 wherein the delta DC/DC converter is configured to generate a tuning voltage of up to 40 V.
+
+
+12. A method for maximizing power output of a photovoltaic (PV) system including a plurality of PV strings in a parallel arrangement, the method comprising:
+operating each of the plurality of PV strings at a DC bus voltage, with the DC bus voltage being determined by a PV inverter that is coupled to the plurality of PV strings by way of a DC bus;
+providing the DC bus voltage to a delta DC/DC converter electrically connected to each PV string;
+determining an optimal string voltage for each PV string at which a string output power is maximized, the optimal string voltage for each PV string being determined from a respective string current and string voltage;
+comparing, for each PV string, the DC bus voltage to the optimal string voltage of each respective PV string;
+selectively controlling each delta DC/DC converter based on the comparison of the DC bus voltage and the optimal string voltage of its respective PV string; and
+operating each PV string at its respective optimal string voltage based on the selective controlling of each DC/DC converter.
+
+
+
+13. The method of claim 12 wherein selectively controlling each delta DC/DC converter comprises causing the delta DC/DC converter to apply a tuning voltage to its respective PV string to adjust the string voltage for that PV string to its optimal string voltage, the tuning voltage of each delta DC/DC converter being a difference between the DC bus voltage and a respective optimal string voltage.
+
+
+14. The method of claim 13 wherein causing the delta DC/DC converter to apply a tuning voltage comprises
+applying an initial tuning voltage, the initial tuning voltage being a zero voltage;
+setting a voltage increase flag for controlling adjustment of the tuning voltage, the voltage increase flag having a true setting and a false setting;
+applying a voltage increase to the initial tuning voltage to adjust the value thereof in a positive direction if the voltage increase flag is at the true setting; and
+applying a voltage decrease to the initial tuning voltage to adjust the value thereof in a negative direction if the voltage increase flag is at the false setting.
+
+
+
+15. The method of claim 14 further comprising:
+identifying a string power for each of the PV strings upon applying of the tuning voltages thereto;
+determining whether the string power for each of the PV strings has increased or decreased based on the tuning voltages applied thereto;
+applying, to a PV string, an additional voltage with the same direction or polarity as the previously applied tuning voltage if the string power of that respective PV string has increased as compared to a previous string power; and
+applying, to a PV string, an additional voltage with an opposite direction or polarity from the previously applied tuning voltage if the string power of that respective PV string has decreased as compared to the previous string power.
+
+
+
+16. The method of claim 12 further comprising iteratively generating, for each delta DC/DC converter, a reference of tuning voltage based on the comparison of the DC bus voltage and the optimal string voltage of its respective PV string.
+
+
+17. The method of claim 16 further comprising iteratively determining a DC bus voltage at which to operate the plurality of PV strings based on a maximum power output of the PV system;
+wherein the iterative generating of a reference of tuning voltage for each delta DC/DC converter occurs at a higher frequency than the iterative determining of a DC bus voltage at which to operate the plurality of PV strings.
+
+
+
+18. The method of claim 12 wherein each delta DC/DC converter comprises an output connected to its respective PV string in series.
+
+
+19. A photovoltaic (PV) system comprising:
+a PV inverter;
+a DC link electrically coupled to the PV inverter and operating at a DC link voltage, wherein the DC link voltage is a variable voltage that is determined by the PV inverter according to a global maximum power point tracking (MPPT) algorithm;
+a plurality of PV strings connected to the DC link in a parallel arrangement and being configured to generate a string output power responsive to received solar irradiation, wherein each of the plurality of PV strings has an optimal string voltage at which the string output power is maximized; and
+a plurality of delta DC/DC converters connected to the plurality of PV strings, with each delta DC/DC converter being connected to at least one PV string and to the DC link to receive the DC link voltage therefrom;
+wherein each delta DC/DC converter comprises a controller programmed to:
+determine the optimal string voltage for its respective PV string at which the string output power is maximized based on a string current and string voltage of its respective PV string;
+compare the DC link voltage to the optimal string voltage of its respective PV string;
+determine an output voltage needed to bring the string voltage for its respective PV string to its optimal string voltage, with the output voltage being a difference between the DC link voltage and the respective optimal string voltage; and
+cause the delta DC/DC converter to generate the output voltage, the output voltage being applied to the respective PV string to generate a string voltage equal to the optimal string voltage.
+
+
+
+
+20. The PV system of claim 19 wherein the output voltage comprises one of a negative voltage, a zero voltage, and a positive voltage.
+
+
+21. The PV system of claim 19 wherein the controller is programmed to iteratively determine an output voltage needed to bring the string voltage for its respective PV string to its optimal string voltage according to a localized power maximizing algorithm.
+
+
+22. The PV system of claim 21 wherein the PV inverter implements the global MPPT algorithm at a first frequency and the controllers of the DC/DC converters implement the localized power maximizing algorithm at a second frequency greater than the first frequency.
+
+
+23. The PV system of claim 21 wherein the global MPPT algorithm and the localized power maximizing algorithm provide two layer tracking and optimization of the power output of the PV system.
+

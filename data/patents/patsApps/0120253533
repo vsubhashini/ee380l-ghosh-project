@@ -1,0 +1,47 @@
+
+An arc detection and intervention system for a solar energy system. One or more arc detectors are strategically located among strings of solar panels. In conjunction with local management units (LMUs), arcs can be isolated and affected panels disconnected from the solar energy system.
+
+
+
+1. A solar energy system comprising:
+one or more photovoltaic panels connected to one or more local management units;
+the photovoltaic panels connected to one or more arc detectors;
+the arc detectors connected to a system management unit, the system management unit in contact with the local management units;
+wherein if the arc detectors detect an arc, the system management unit via the local management units examines the photovoltaic panels in turn for the arc.
+
+
+
+2. The system of claim 1 wherein if the arc is located in at least one of a subset of the photovoltaic panels, the system management unit instructs the local management unit to disconnect the subset of the photovoltaic panels from the solar energy system.
+
+
+3. The system of claim 1 wherein the photovoltaic panels are interconnected via a series circuit.
+
+
+4. The system of claim 1 wherein the photovoltaic panels are interconnected via a parallel circuit.
+
+
+5. The system of claim 1 wherein the photovoltaic panels are divided into one or more strings.
+
+
+6. The system of claim 5 wherein each of the arc detectors is connected to each of the strings.
+
+
+7. The system of claim 5 wherein one of the arc detectors is connected to a set of the strings.
+
+
+8. A method for managing a solar energy system comprising:
+monitoring the system with one or more arc detectors connected to one or more photovoltaic panels and connected to a system management unit;
+notifying the system management unit by one or more of the arc detectors if an arc is detected;
+identifying by the system management unit a list of one or more local management units in contact with one or more photovoltaic panels potentially affected by the arc; and
+testing by the system management unit via local management units one or more of the photovoltaic panels in turn for the arc.
+
+
+
+9. The method of claim 8 wherein if the system management unit detects a location of the arc, identifying a subset of the photovoltaic panels affected by the arc.
+
+
+10. The method of claim 9 wherein the subset of the photovoltaic panels is disconnected from the system.
+
+
+11. The method of claim 9 further comprising determining a strength and/or a danger level of the arc by the system management unit.
+

@@ -1,0 +1,83 @@
+
+A photovoltaic system with photovoltaic (PV) panels is described. Each of the PV panels has a corresponding inverter module. The inverter module includes a maximum power point tracker (MPPT) for independently monitoring and controlling the respective PV panel, a switch regulator for converting the DC output to an AC output; an insulating transformer for receiving the AC output and inverting the AC output at about the first voltage to a second voltage; and a rectifier for rectifying the AC output to a second DC output at about the second voltage. The photovoltaic system further includes a main inverter with two power terminals. The second DC outputs of the inverter modules are connected in parallel to the two power terminals at the second voltage, and the second DC outputs are inverted to an AC power by the main inverter.
+
+
+
+1. A photovoltaic system comprising:
+a plurality of photovoltaic (PV) panels providing DC outputs at a first voltage;
+a plurality of inverter modules, each of the inverter modules connected to a respective PV panel, each of the inverter modules comprising:
+a maximum power point tracker (MPPT) for independently monitoring and controlling the respective PV panel, a switch regulator for converting the DC output to an AC output;
+an insulating transformer for receiving the AC output and inverting the AC output at about the first voltage to a second voltage; and
+a rectifier for rectifying the AC output to a second DC output at about the second voltage; and
+
+a main inverter receiving two power terminals;
+wherein the second DC outputs of the plurality of inverter modules are connected in parallel to the two power terminals at the second voltage,
+wherein the second DC outputs are inverted to an AC power by the main inverter.
+
+
+
+2. The photovoltaic system of claim 1, wherein each of the plurality of PV panels operates independently at a maximum power point (MPP).
+
+
+3. The photovoltaic system of claim 1, wherein each of the plurality of inverter modules is collocated with each of the PV panels.
+
+
+4. The photovoltaic system of claim 1, wherein each of the plurality of inverter modules is located at a centralized location.
+
+
+5. The photovoltaic system of claim 1, wherein each of the plurality of inverter modules is located proximate to the main inverter.
+
+
+6. The photovoltaic system of claim 1, wherein the plurality of PV panels have different specifications.
+
+
+7. The photovoltaic system of claim 1, wherein the plurality of PV panels have different sizes.
+
+
+8. The photovoltaic system of claim 1, wherein each of the plurality of PV panels is grounded so that a voltage anywhere on the PV panel is smaller or equal to the first voltage.
+
+
+9. The photovoltaic system of claim 1, wherein the insulating transformer is a high frequency transformer.
+
+
+10. The photovoltaic system of claim 1, wherein the second voltage is 250-820V.
+
+
+11. The photovoltaic system of claim 1, wherein the system provides galvanic isolation between the DC outputs and the second DC outputs.
+
+
+12. The photovoltaic system of claim 1, wherein the switch regulator includes a full bridge, a half bridge, or a push-pull circuit.
+
+
+13. The photovoltaic system of claim 1, further comprising a microprocessor controlling an operation of the inverter module.
+
+
+14. A method of providing electrical power from photovoltaic sources comprising:
+providing DC outputs at a first voltage from a plurality of photovoltaic (PV) panels;
+converting each of the DC output to a respective AC output at a respective inverter module;
+receiving the AC output at an insulating transformer of the inverter module,
+inverting the AC output at about the first voltage to a second voltage;
+rectifying the AC output to a second DC outputs at about the second voltage;
+connecting in parallel the second DC outputs from the respective inverter module of the plurality of photovoltaic (PV) panels to two power terminals of a main inverter; and
+inverting the second DC outputs to an AC power by the main inverter;
+wherein the second DC outputs of the plurality of inverter modules are connected in parallel to the two power terminals at the second voltage.
+
+
+
+15. The method of claim 14, further comprising operating each of the plurality of PV panels independently at a maximum power point (MPP).
+
+
+16. The method of claim 14, further comprising collocating each of the plurality of inverter modules with each of the PV panels.
+
+
+17. The method of claim 14, further comprising grounding the plurality of PV panels.
+
+
+18. The method of claim 14, wherein the AC power is fed to a power grid.
+
+
+19. The method of claim 14, further comprising providing galvanic isolation between the DC outputs and the second DC outputs.
+
+
+20. The method of claim 14, wherein the second voltage is 250-820V. 
+

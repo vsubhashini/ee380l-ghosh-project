@@ -1,0 +1,13 @@
+
+Embodiments of a network topology for monitoring and controlling an array of solar panels include an intelligent node adapted to send and receive data and commands by at least two redundant means of communication. An intelligent node includes a solar panel, a node controller, a photovoltaic module, a bypass relay, a bypass bus, PLC and wireless communication interfaces for redundant means of communication, and sensor and actuator interfaces for monitoring and controlling the intelligent node. A PV module in the intelligent node may selectively be bypassed without interrupting network communications. Some embodiments include a plurality of intelligent nodes electrically connected serially into a chain of nodes and further connected to a gateway. Other embodiments include a plurality of chains of nodes connected to an inverter and a transformer, thereby defining an area. Additional embodiments further include a central server in communication with a plurality of areas.
+
+
+
+1. A network topology for monitoring and controlling a plurality of solar panels, comprising an intelligent node comprising:
+an intelligent node input terminal;
+a bypass relay comprising a first switched terminal and a second switched terminal;
+a PV module having an input electrically connected to said intelligent node input terminal and an output electrically connected to said first switched terminal on said bypass relay; and
+a bypass bus electrically connected to said intelligent node input terminal and to said bypass relay second switched terminal,
+wherein said intelligent node is adapted to receive a bypass command and said bypass relay selects said bypass bus when said intelligent node receives said bypass command. 
+
+

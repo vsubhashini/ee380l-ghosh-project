@@ -1,0 +1,61 @@
+
+A device and corresponding method for monitoring a photovoltaic system to detect an occurrence of events impairing normal operation of the photovoltaic system is provide. The photovoltaic system includes a photovoltaic generator including a first group of photovoltaic modules and a second group of photovoltaic modules being different from the first group. The device includes a first and a second pair of coupling means, both pairs including signal coupling-in means for coupling a test signal into the photovoltaic generator, and a signal coupling-out means for coupling out a response signal from the photovoltaic generator, the first pair of coupling means configured to selectively detect the occurrence of the events in the first group of photovoltaic modules, and the second pair of coupling means configured to selectively detect the occurrence of the events in the second group of photovoltaic modules.
+
+
+
+1. A device for monitoring a photovoltaic system to detect an occurrence of events impairing normal operation of the photovoltaic system, wherein the photovoltaic system comprises a photovoltaic generator comprising a first group of photovoltaic modules and a second group of photovoltaic modules being different from the first group, the device comprising:
+a first and a second pair of coupling means, both pairs comprising signal coupling-in means for coupling a test signal into the photovoltaic generator, and a signal coupling-out means for coupling out a response signal from the photovoltaic generator, the first pair of coupling means configured to selectively detect the occurrence of the events in the first group of photovoltaic modules, and the second pair of coupling means configured to selectively detect the occurrence of the events in the second group of photovoltaic modules.
+
+
+
+2. The device as claimed in claim 1, wherein the signal coupling-in means of the first pair of coupling means are identical to the signal coupling-in means of the second pair of coupling means.
+
+
+3. The device as claimed in claim 1, wherein the signal coupling-out means of the first pair of coupling means are identical to the signal coupling-out means of the second pair of coupling means.
+
+
+4. The device as claimed in claim 1, wherein the signal coupling-out means comprises a current transformer.
+
+
+5. The device as claimed in claim 1, wherein the signal coupling-in means comprises a transformer.
+
+
+6. The device as claimed in claim 4, wherein the current transformer comprises a non-saturating inductance in a current path of the photovoltaic generator.
+
+
+7. The device as claimed in claim 1, wherein the signal coupling-out means comprises a voltage measuring device.
+
+
+8. The device as claimed in claim 7, the first and second groups of photovoltaic modules being connected in series, and the voltage measuring device comprising voltmeters assigned to different ones of the first and second groups.
+
+
+9. The device as claimed in claim 1, the signal coupling-in means comprising a capacitive coupling-in element.
+
+
+10. The device as claimed in claim 1, further comprising a monitoring device connected to the first and second pairs of coupling means and configured to generate the test signal and configured to evaluate the response signal, wherein the signals from the first and second pairs of coupling means are evaluated separately.
+
+
+11. The device as claimed in claim 10, wherein the monitoring device is configured to generate a warning signal corresponding to a respective one pair of coupling means, if an aging-specific property of the group of photovoltaic modules assigned to the respective pair of coupling means exceeds a predetermined value.
+
+
+12. A method of monitoring a photovoltaic system with a number of at least two or more photovoltaic modules to detect the occurrence of events impairing normal operation of the photovoltaic system, wherein the at least two or more photovoltaic modules are divided into at least two or more groups, each of the groups being monitored for the occurrence of an event impairing the normal operation of the photovoltaic system, comprising:
+exciting the photovoltaic system with at least one electrical test signal coupled into the photovoltaic system using at least one coupling-in means;
+coupling out at least one excitation response signal from the photovoltaic system using at least one coupling-out means; and
+evaluating the excitation response signal from the photovoltaic system to detect the occurrence of at least one event impairing the normal operation of the photovoltaic system.
+
+
+
+13. The method as claimed in claim 12, wherein one or both of exciting the photovoltaic system and coupling out at least one excitation response signal are carried out separately for each group.
+
+
+14. The method as claimed in claim 12, wherein at least one of the groups or a plurality of the groups comprises two or more photovoltaic modules connected in series and/or in parallel.
+
+
+15. The method as claimed in claim 12, wherein a common coupling-in means and/or a common coupling-out means is used for at least two of the groups.
+
+
+16. The method as claimed in claim 12, wherein at least one of the coupling-in of the test signal and the coupling-out of the signal response is carried out in a galvanically isolated manner.
+
+
+17. The method as claimed in claim 12, wherein the evaluation of the excitation response signal is applied to detect an arc occurring inside the photovoltaic system. 
+

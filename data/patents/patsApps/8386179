@@ -1,0 +1,84 @@
+
+A Solar Access Measurement Device (“SAMD”) located at a predetermined position is disclosed. The SAMD may include a skyline detector enabled to detect a skyline of a horizon relative to the SAMD, an orientation determination unit enabled to determine the orientation of the skyline detector, and a processor in signal communication with the skyline detector and orientation determination unit.
+
+
+
+1. An apparatus, comprising:
+an image sensor enabled to capture an image of a horizon;
+an orientation determination unit enabled to establish at least one of a magnetic orientation and an inclination of a captured image of the horizon, within a designated window; and
+a processor in signal communication with the image sensor and the orientation determination unit, enabled to determine solar access based on a skyline within the captured image of the horizon, an established at least one of the magnetic orientation and the inclination of the captured image of the horizon, and a provided location whereat the image of the horizon is captured.
+
+
+
+2. The apparatus of claim 1 wherein the image sensor includes a wide-angle lens that enables the image sensor to capture the image of the horizon within a single digital image.
+
+
+3. The apparatus of claim 1 wherein the captured image results from reflecting a wide-angle image including the skyline onto a narrow field-of-view lens of the image sensor.
+
+
+4. The apparatus of claim 3 wherein the skyline includes a line where solar obstacles and the sky meet within the horizon.
+
+
+5. The apparatus of claim 1 wherein the processor includes software enabled to analyze a captured image of the horizon to detect the skyline within the horizon.
+
+
+6. The apparatus of claim 1 wherein determining the solar access includes representing on an output device at least one of an amount of solar radiation that will impinge the provided location, and one or more paths of the sun throughout a range of times of day and days of a year for the provided location, superimposed on at least one of the captured image of the horizon and the skyline.
+
+
+7. The apparatus of claim 1 wherein the orientation determination unit includes at least one of an electronic compass, an electronic inclinometer, an accelerometer, and a gyroscope.
+
+
+8. The apparatus of claim 7 wherein the processor includes software enabled to analyze the captured image of the horizon to detect the skyline within the horizon.
+
+
+9. The apparatus of claim 2 wherein the processor is in signal communication with at least one of a Global Positioning System (“GPS”) device enabled to establish the provided location, and an input device enabled to receive an input to the processor to establish the provided location.
+
+
+10. An apparatus, comprising:
+an image sensor enabled to capture a wide-angle image of a horizon that includes a skyline;
+an orientation determination unit enabled to measure at least one of a magnetic orientation and an inclination of the image sensor; and
+a processor in signal communication with the image sensor and the orientation determination unit, enabled to determine solar access based on detecting the skyline within the image of the horizon, a measured at least one of the magnetic orientation and the inclination, and a provided location whereat the image of the horizon is captured.
+
+
+
+11. The apparatus of claim 10 wherein the processor is in signal communication with at least one of a GPS device enabled to establish the provided location, and an input device enabled to receive an input to the processor to establish the provided location.
+
+
+12. An apparatus, comprising:
+a skyline detector enabled to reflect a wide-angle image of a skyline onto a narrow field-of-view lens of an image sensor, the skyline including a boundary between unobstructed sky and one or more solar obstacles;
+an orientation determination unit including at least one of a compass and a level, enabled to establish an orientation for the wide-angle image; and
+a processor in signal communication with the image sensor, enabled to determine solar access based on the skyline and a provided location whereat the image of the horizon is captured.
+
+
+
+13. The apparatus of claim 12 wherein the image sensor provides a digital image of the wide-angle image of the skyline reflected onto the narrow field-of-view lens of the image sensor.
+
+
+14. The apparatus of claim 12 wherein the skyline includes a line where solar obstacles and the sky meet within the horizon.
+
+
+15. The apparatus of claim 12 wherein the processor is in signal communication with at least one of a GPS device enabled to establish the provided location, and an input device enabled to receive an input to the processor to establish the provided location.
+
+
+16. A non-transitory computer-readable medium with an executable computer program comprising an ordered listing of executable instructions stored thereon, wherein the computer program, when executed, instructs a processor to perform a method, the method comprising:
+capturing an image of a horizon that includes a skyline;
+measuring at least one of a magnetic orientation and an inclination of the captured image; and
+determining solar access based on the skyline within the captured image, the measured at least one of the magnetic orientation and the inclination of the captured image, and a provided location whereat the image of the horizon is captured.
+
+
+
+17. The non-transitory computer-readable medium of claim 16 further comprising establishing the provided location based on at least one of an acquired reading from a GPS device and a received input from an input device.
+
+
+18. A non-transitory computer-readable medium with an executable computer program comprising an ordered listing of executable instructions stored thereon, wherein the computer program, when executed, instructs a processor to perform a method, the method comprising:
+capturing a plurality of images of a horizon that includes a skyline;
+recording orientation of two or more individual images in the plurality of captured images; and
+determining solar access based on the skyline within the plurality of captured images of the horizon, the recorded orientation of the two or more individual images in the plurality of captured images, and a provided location whereat the image of the horizon is captured.
+
+
+
+19. The non-transitory computer-readable medium of claim 18 further comprising combining two or more individual images in the plurality of captured images on an output device.
+
+
+20. The non-transitory computer-readable medium of claim 18 wherein the plurality of images results from sweeping an image sensor across the horizon.
+

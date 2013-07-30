@@ -1,0 +1,72 @@
+
+A method of forecasting the electrical production of a photovoltaic device comprising photovoltaic modules (1), comprising a first part of estimating the lighting that will be received in the plane of the photovoltaic modules (1) and a second part of estimating the electrical production of the photovoltaic device, characterized in that it comprises the following first step:
+
+    
+    
+        (E1)—determination of whether a period concerned is sunny or cloudy, and characterized in that it comprises the following second step (E2) of implementing at least one of the following two steps:
+        (E2)—correction of the second part of the method of forecasting the electrical production based on the measurement of the true electrical production of the photovoltaic modules if the period concerned is sunny; and/or
+        
+            correction of the first part of the method of forecasting the electrical production based on the measurement of the true electrical production of the photovoltaic modules if the period concerned is cloudy.
+        
+        
+    
+    
+
+
+
+
+
+1. Method of forecasting the electrical production of a photovoltaic device comprising photovoltaic modules (1), comprising a first part of estimating the lighting that will be received in the plane of the photovoltaic modules (1) and a second part of estimating the electrical production of the photovoltaic device, characterized in that the method comprises the following first step:
+determination of whether a past considered period is sunny or cloudy, and characterized in that it comprises the following second step of implementing at least one of the following two steps:
+correction of the second part of the method of forecasting the electrical production based on the measurement of the true electrical production of the photovoltaic modules over the past considered period if this past considered period is sunny; and/or
+correction of the first part of the method of forecasting the electrical production based on the measurement of the true electrical production of the photovoltaic modules over the past considered period if this past considered period is cloudy.
+
+
+
+
+2. Method of forecasting the electrical production of a photovoltaic device according to claim 1, wherein the first step for determining whether a past considered period is sunny or cloudy comprises the following substeps:
+measurement according to a predefined frequency during the past considered period of the true electricity production;
+determination of the theoretical electricity production assuming clear weather;
+analysis of the ratio between the measured electrical power and the theoretical electrical power assuming clear weather, by detecting any abnormal events and/or analysis of the derivative in this ratio, by detecting any abnormal events;
+determination of the type of day by comparing the quantity of abnormal events detected compared to a predefined threshold, the day being considered to be cloudy beyond this predefined threshold and sunny below this predefined threshold.
+
+
+
+3. Method of forecasting the electrical production of a photovoltaic device according to claim 2, wherein the determination of the theoretical electricity production in clear weather is performed based on an estimation of the lighting in the plane of the photovoltaic modules in clear weather and based on the establishment of a series of ambient temperatures.
+
+
+4. Method of forecasting the electrical production of a photovoltaic device according to claim 2, wherein the analysis of the ratio between the measured electrical power and the theoretical electrical power assuming clear weather consists in considering any value of this ratio between 0.5 and 1 to be a normal event.
+
+
+5. Method of forecasting the electrical production of a photovoltaic device according to claim 2, wherein the analysis of the derivative of the ratio between the measured electrical power and the theoretical electrical power assuming clear weather consists in considering any event corresponding to an absolute value of the differential coefficient (from the derivative) of between 0 and 0.1 to be a normal event.
+
+
+6. Method of forecasting the electrical production of a photovoltaic device according to claim 2, wherein it comprises a preliminary step for detection of natural obstacles such as mountains or buildings, that create shadows at the level of the photovoltaic modules.
+
+
+7. Method of forecasting the electrical production of a photovoltaic device according to claim 1, wherein the first part of estimating the lighting that will be received in the plane of the photovoltaic modules (1) comprises a first block (30) implementing a first calculation model to determine the horizontal lighting received by the photovoltaic device based on meteorological forecasts and a second block (40) implementing a second calculation model to determine the lighting received in the plane of the photovoltaic devices (1), in that the second part of estimating the electrical production of the photovoltaic device comprises a third block (50) implementing a third calculation model, and in that, if the past considered period is cloudy, then at least one of the first two calculation models implemented by the first (30) and/or the second (40) block is corrected according to the deviation between the true lighting, deduced from the true electrical production measured by an inverse calculation of the third calculation model of the third block (50), and the lighting forecast by the forecasting method, the third calculation model remaining unchanged.
+
+
+8. Method of forecasting the electrical production of a photovoltaic device according to claim 7, wherein, if the past considered period is cloudy, the true lighting in a horizontal plane is deduced from the lighting in the plane of the photovoltaic modules which is deduced from the measurement of the true electrical production by an inverse calculation of the second and third calculation models, and in that this true lighting in the horizontal plane is compared with that forecast by the first calculation model based on meteorological forecasts, this first model being corrected according to the difference between these two lighting values, the second and third calculation models remaining unchanged.
+
+
+9. Method of forecasting the electrical production of a photovoltaic device according to claim 8, wherein the first calculation model comprises weightings of several meteorological forecasts forecast at various points close to the photovoltaic modules, and in that the correction of the first model comprises a phase of evolution of the different weights of the first model.
+
+
+10. Method of forecasting the electrical production of a photovoltaic device according to claim 1, wherein the first part of estimating the lighting that will be received in the plane of the photovoltaic modules (1) comprises a first block (30) implementing a first calculation model to determine the horizontal lighting received by the photovoltaic device based on meteorological forecasts and a second block (40) implementing a second calculation model to determine the lighting received in the plane of the photovoltaic devices (1), in that the second part of estimating the electrical production of a photovoltaic device comprises a third block (50) implementing a third calculation model, and in that, if the period is sunny, then the third calculation model is corrected according to the deviation between the measured true electrical production and the electrical production forecast by the method of forecasting the electrical production, the first and second calculation models remaining unchanged.
+
+
+11. Method of forecasting the electrical production of a photovoltaic device according to claim 1, wherein the correction of the forecasting method according to the value of the measured true electrical production consists in a new calculation of one or more parameter(s) of the method, this or these calculated parameters being immediately modified for the future application of the method or stored before a periodic processing operation making it possible to modify the parameter(s) of the method, this modification relying on statistical calculations and/or based on neural networks and/or artificial intelligence and/or polynomial-type modelling.
+
+
+12. Method of forecasting the electrical production of a photovoltaic device according to claim 1, wherein the first step considers a period of a day, and determines whether this day is sunny or cloudy.
+
+
+13. A non-transitory computer readable medium comprising a software for implementing the method of forecasting the electrical production of a photovoltaic device according to claim 1.
+
+
+14. Photovoltaic device comprising photovoltaic modules (1) operatively linked to an element for measuring their true electrical production, wherein the photovoltaic device comprises a management unit (10) implementing the method of forecasting the electrical production according to claim 1.
+
+
+15. Use of the method of forecasting the electrical production of a photovoltaic device according to claim 1 to diagnose the state of a photovoltaic device by comparing the true production with that estimated by the model and in the event of strong differences to diagnose failure of the photovoltaic device.
+

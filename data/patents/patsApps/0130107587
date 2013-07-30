@@ -1,0 +1,77 @@
+
+Photovoltaic (PV) array emulators and methods are described. In one example, a method for use in testing a PV inverter includes coupling a first PV inverter to an alternating current (AC) power source. A second PV inverter is coupled to receive an output of the first PV inverter. The first PV inverter is operated to emulate a PV array and provide a DC power output to the second PV inverter.
+
+
+
+1. A photovoltaic (PV) array emulator comprising:
+a multi-stage power converter for providing a DC output; and,
+a controller coupled to said multi-stage power converter, said controller configured to control operation of said multi-stage power converter as a function of an output current of said multi-stage power converter, an output voltage of said multi-stage power converter, and a PV array model.
+
+
+
+2. A PV array emulator in accordance with claim 1, wherein said controller comprises:
+a memory device; and
+a processor coupled to said memory device, said processor programmed to control operation of said multi-stage power converter as a function of the output current of said multi-stage power converter, the output voltage of said two-level power converter, and the PV array model.
+
+
+
+3. A PV array emulator in accordance with claim 2, wherein the PV array model is stored in said memory device.
+
+
+4. A PV array emulator in accordance with claim 1, wherein said multi-stage power converter comprises a multi-level power converter
+
+
+5. A PV array emulator in accordance with claim 1, wherein the PV array model is configured to determine an output current reference as a function of the output voltage of said multi-stage power converter and at least one characteristic of an emulated PV array.
+
+
+6. A PV array emulator in accordance with claim 5, wherein the PV array model is configured to scale the output current reference as a function of a selectable temperature and a selectable irradiance level.
+
+
+7. A PV array emulator in accordance with claim 5, wherein the PV array model is configured to calculate an output current of the solar cell being emulated at the output voltage of said multi-stage converter based, at least in part, on the at least one characteristic of the emulated PV array.
+
+
+8. A PV array emulator in accordance with claim 7, wherein the PV array model is configured to calculate an output current reference to cause the output current of said multi-stage converter to substantially equal the calculated output current of the emulated PV array.
+
+
+9. A PV array emulator in accordance with claim 5, wherein the controller is configured to generate an error signal as a function of the output current and the output current reference and to control operation of said multi-stage power converter in response to the error signal.
+
+
+10. A PV array emulator in accordance with claim 1, wherein said multi-stage power converter is selectively configurable to output up to about 1 megawatt of power.
+
+
+11. A photovoltaic (PV) array emulator comprising:
+a PV inverter configured to provide an AC output from a DC input; and,
+a controller coupled to said PV inverter, said controller configured to operate said PV inverter in an inverter mode to provide an AC output from a DC input and configured to operate said PV inverter in an emulator mode to provide a DC output from an AC input.
+
+
+
+12. A PV array emulator in accordance with claim 11, wherein said controller is selectably configurable to operate said PV inverter in the inverter mode or the emulator mode.
+
+
+13. A PV array emulator in accordance with claim 11, wherein said controller is configured to operate said PV inverter in the emulator mode to emulate a PV array.
+
+
+14. A PV array emulator in accordance with claim 13, wherein said controller is configured to operate said PV inverter in the emulator mode as a function of an output voltage of said PV inverter, an output current of said PV inverter, and a PV array model.
+
+
+15. A PV array emulator in accordance with claim 14, wherein the PV array model is configured to determine a desired output current of said PV inverter based, at least in part on at least one characteristic of an emulated PV array.
+
+
+16. A method for use in testing a photovoltaic (PV) inverter, said method comprising:
+coupling a first PV inverter to an AC power source;
+coupling a second PV inverter to receive an output of the first PV inverter; and,
+operating the first PV inverter to emulate a PV array and provide a DC power output to the second PV inverter.
+
+
+
+17. A method in accordance with claim 16, wherein said operating the first PV inverter comprises operating the first PV converter as a function of an output current of the first PV inverter, an output voltage of the first PV inverter, and a PV array model.
+
+
+18. A method in accordance with claim 17, wherein operating the first PV inverter to emulate a PV array comprises determining a desired output current for an emulated PV array at the output voltage of the first PV inverter and generating an output current reference to cause the first PV inverter to output the desired output current and the output voltage.
+
+
+19. A method in accordance with claim 18, wherein operating the first PV inverter to emulate a PV array comprises scaling the desired output current as a function of a selected temperature and irradiance.
+
+
+20. A method in accordance with claim 16, wherein coupling a second PV inverter to receive an output of the first PV inverter comprises coupling a second PV inverter substantially similar to the first PV inverter to receive an output of the first PV inverter. 
+

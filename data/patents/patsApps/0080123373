@@ -1,0 +1,120 @@
+
+A system includes an energy source configured for operating as a current limited source and a DC-to-DC converter or current switched inverter configured to receive current from the energy source and comprising a normally-on switch.
+
+
+
+1. A system comprising
+an energy source configured for operating as a current limited source; and
+a DC-to-DC converter configured to receive current from the energy source and comprising a normally-on switch.
+
+
+
+2. The system of claim 1 wherein the energy source comprises a photovoltaic energy source.
+
+
+3. The system of claim 1 wherein the energy source comprises a fuel cell.
+
+
+4. The system of claim 1 wherein the switch comprises a material selected from the group consisting of a gallium arsenide, gallium nitride, diamond, or carbon nanotubes.
+
+
+5. The system of claim 1 wherein the switch comprises a silicon carbide switch.
+
+
+6. The system of claim 5 wherein the switch comprises a JFET.
+
+
+7. The system of claim 5 wherein the switch comprises a depletion mode MOSFET.
+
+
+8. The system of claim 5 wherein the DC-to-DC converter further comprises a silicon carbide diode.
+
+
+9. The system of claim 8 wherein the diode comprises a schottky diode.
+
+
+10. The system of claim 1 wherein the DC-to-DC converter further comprises a gallium nitride diode.
+
+
+11. The system of claim 1 wherein the energy source comprises a photovoltaic energy source, wherein the switch comprises a JFET, and wherein the DC-to-DC converter further comprises a schottky diode.
+
+
+12. A power converter system comprising:
+a DC-to-DC current fed converter comprising a normally-on switch configured for providing an adjusted DC voltage;
+a voltage fed inverter configured for converting the adjusted DC voltage into an AC current.
+
+
+
+13. The system of claim 12 wherein the DC-to-DC converter comprises a boost converter.
+
+
+14. The system of claim 12 wherein the switch comprises a wide band gap semiconductor switch.
+
+
+15. The system of claim 12 wherein the switch comprises silicon carbide and wherein the DC-to-DC converter further comprises a silicon carbide diode.
+
+
+16. The converter of claim 15 wherein the switch comprises a JFET.
+
+
+17. A photovoltaic inverter comprising:
+a DC-to-DC current fed boost converter comprising a normally-on switch, a diode, and an inductor and configured for providing DC voltage from a photovoltaic energy source; and
+an inverter configured for converting the DC voltage into an AC current.
+
+
+
+18. The inverter of claim 17 wherein the normally-on switch and the diode comprise a wide bandgap semiconductor material.
+
+
+19. The inverter of claim 18 wherein the switch comprises a JFET and the diode comprises a schottky diode.
+
+
+20. The inverter of claim 17 wherein the switch comprises a depletion mode MOSFET.
+
+
+21. A power converter system comprising:
+a DC-to-DC current fed converter configured for providing an adjusted DC voltage;
+a current switched inverter configured for converting the adjusted DC voltage into an AC current, the current switched inverter comprising normally-on switches.
+
+
+
+22. The system of claim 21 further comprising a DC link and wherein the inverter further comprises an inductance coupling the inverter to the DC link.
+
+
+23. The system of claim 21 wherein the normally-on switch of the inverter comprises an inverter normally-on switch, and wherein the converter further comprises a converter normally-on switch.
+
+
+24. The system of claim 21 wherein the converter is configured for receiving current from an energy source configured for operating as a current limited source.
+
+
+25. The system of claim 21 wherein the energy source comprises a photovoltaic energy source.
+
+
+26. The system of claim 21 wherein the switch comprises a material selected from the group consisting of a gallium arsenide, gallium nitride, diamond, carbon nanotubes, or silicon carbide.
+
+
+27. The system of claim 21 wherein the switch comprises a JFET.
+
+
+28. The system of claim 21 wherein the switch comprises a depletion mode MOSFET.
+
+
+29. A power converter system comprising:
+a current switched inverter configured for converting a filtered voltage of a current limited energy source into an AC current, the current switched inverter comprising normally-on switches.
+
+
+
+30. The system of claim 29 further comprising a filter capacitor and a filter inductance coupling the inverter to the filter capacitor.
+
+
+31. The system of claim 29 wherein the energy source comprises a photovoltaic energy source.
+
+
+32. The system of claim 29 wherein the switch comprises a material selected from the group consisting of a gallium arsenide, gallium nitride, diamond, carbon nanotubes, or silicon carbide.
+
+
+33. The system of claim 29 wherein the switch comprises a JFET.
+
+
+34. The system of claim 29 wherein the switch comprises a depletion mode MOSFET.
+

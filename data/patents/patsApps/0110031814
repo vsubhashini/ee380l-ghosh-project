@@ -1,0 +1,88 @@
+
+A photovoltaic (PV) sub-generator junction box (1) for a PV system (100) comprises a plurality of electric terminals (11) for optionally connecting one respective PV string (2) of one or more serially connected PV modules (3). Said PV sub-generator junction box (1) further comprises a sub-generator line terminal (12) for connecting a PV sub-generator line (4) of a remote central PV inverter (5) or connecting a PV sub-generator line (4) of an inserted PV generator junction box (6). The PV sub-generator junction box (1) also comprises an electronic control unit (10) that is connected to a central control unit (7) of the PV inverter (5) in order to exchange data (DAT). According to the invention, the PV sub-generator junction box (1) comprises a power line modem (8) for feeding and retrieving the data (DAT) via the PV sub-generator line (4).
+
+
+
+1.-11. (canceled)
+
+
+12. A photovoltaic (PV) sub-generator junction box for a PV system, comprising:
+a plurality of electrical terminals for connection to respective PV string lines of at least one series-connected PV module; and
+a sub-generator line terminal for connection to one of a PV sub-generator line of a remote central PV inverter and a PV sub-generator line of an intermediate PV generator junction box;
+an electronic control unit connected for data communication to a central control unit of the remote central PV inverter for exchange of data; and
+a power line modem configured to read and retrieve the data over the PV sub-generator line.
+
+
+
+13. The PV sub-generator junction box as claimed in claim 12, wherein the power line modem and the control unit are interconnected by a bus connection.
+
+
+14. The PV sub-generator junction box as claimed in claim 12, further comprising:
+at least one current measurement unit for measuring at least one of a string current of a respective one of the PV string lines and a cumulative string current of the PV string lines;
+wherein the data transmittable to the central control unit of the remote central PV inverter by the power line modem contains corresponding current measurement data.
+
+
+
+15. The PV sub-generator junction box as claimed in claim 13, further comprising:
+at least one current measurement unit for measuring at least one of a string current of a respective one of the PV string lines and a cumulative string current of the PV string lines;
+wherein the data transmittable to the central control unit of the remote central PV inverter by the power line modem contains corresponding current measurement data.
+
+
+
+16. The PV sub-generator junction box as claimed in claim 12, wherein the electronic control unit includes at least one electrical input for recording input signals, and wherein the data transmittable to the central control unit of the remote central PV inverter by the power line modem contains corresponding input data.
+
+
+17. The PV sub-generator junction box as claimed in claim 12, wherein the electronic control unit includes at least one electrical output for activating at least one of a switching device of the PV sub-generator junction box and actuators for the PV modules, and wherein the data receivable by the central control unit of the PV inverter by the central control unit of the PV inverter by the power line modem comprises corresponding control data.
+
+
+18. A photovoltaic (PV) generator junction box for a PV system, comprising:
+a plurality of sub-generator line terminals for connection to respective PV sub-generator lines of PV sub-generator junction boxes;
+a main DC power line terminal for connecting a PV main DC power line of a remote central PV inverter;
+at least one of a main circuit breaker for disconnecting the PV main power line and a collective circuit breaker for disconnecting a respective one of the PV sub-generator lines; and
+a data signal coupler connected in parallel to a respective circuit breaker of the at least one of the main circuit breaker and the collective circuit breaker, so that data fed over at least one power line modem into the respective PV sub-generator line and into the PV main DC power line is also able to be forwarded when the respective circuit breaker is in an open state.
+
+
+
+19. A photovoltaic (PV) inverter for a PV system, comprising:
+at least one sub-generator line terminal for connection to at least one of a respective PV sub-generator line of a plurality of PV sub-generator junction boxes and a PV main DC power line of an intermediate PV generator junction box;
+a grid connection for connecting the PV inverter to a power supply grid,
+a central control unit for controlling the PV inverter and for transmitting data to the plurality of PV sub-generator junction boxes connected for data transmission to the central control unit; and
+at least one power line modem for feeding and retrieving the transmitted data over the at least one of the respective PV sub-generator line and the PV main DC power line.
+
+
+
+20. The PV inverter as claimed in claim 19, wherein the at least one power line modem and the central control unit are interconnected by a bus connection.
+
+
+21. The PV inverter as claimed in claim 19, further comprising:
+at least one circuit breaker device for disconnecting at least one of the PV sub-generator lines and the PV main DC power line;
+wherein a data signal coupler is connected in parallel to the at least one circuit breaker device so that data fed by at least one power line modem into at least one of the respective PV sub-generator lines and the PV main DC power line can be forwarded during the open state of the at least one circuit breaker device.
+
+
+
+22. A photovoltaic (PV) system, comprising at least one central PV inverter and a plurality of PV sub-generator junction boxes:
+the at least one central PV inverter, comprising:
+a plurality of sub-generator line terminals for connection to respective PV sub-generator lines of said plural PV sub-generator junction boxes;
+a main DC power line terminal for connecting a PV main DC power line of a remote central PV inverter;
+at least one of a main circuit breaker for disconnecting the PV main power line and a collective circuit breaker for disconnecting a respective one of the PV sub-generator lines; and
+a data signal coupler connected in parallel to a respective circuit breaker of the at least one of the main circuit breaker and the collective circuit breaker, so that data fed over at least one power line modem into the respective PV sub-generator line and into the PV main DC power line is also able to be forwarded when the respective circuit breaker is in an open state; and
+
+the plurality of PV sub-generator junction boxes, comprising:
+a plurality of electrical terminals for connection to a respective PV string line of at least one series-connected PV module; and
+a sub-generator line terminal for connecting one of a PV sub-generator line of the at least one central PV inverter and a PV sub-generator line of an intermediate PV generator junction box;
+an electronic control unit which is connected for data communication to the central control unit of the at least one central PV inverter for exchange of data; and
+a power line modem configured to read and retrieve the data over the PV sub-generator line.
+
+
+
+
+23. The PV system as claimed in claim 22, further comprising:
+at least one PV generator junction box connected between the at least one central PV inverter and the plurality of PV sub-generator junction boxes;
+wherein said at least one PV generator junction boxes comprises:
+a plurality of sub-generator line terminals for connection to a respective PV sub-generator line of the PV sub-generator junction boxes;
+a main DC power line terminal for connecting a PV main DC power line of the at least one central PV inverter;
+at least one of a main circuit breaker for disconnecting the PV main power line and a collective circuit breaker for disconnecting the respective PV sub-generator lines; and
+a data signal coupler connected in parallel to a respective circuit breaker of the at least one of the main breaker and the collective circuit breaker, so that data fed over at least one power line modem into the respective PV sub-generator line and into the PV main DC power line is also able to be forwarded when the respective circuit breaker is in an open state.
+
+
+

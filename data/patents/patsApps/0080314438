@@ -1,0 +1,74 @@
+
+An energy device includes a solar concentrator that concentrates at least 20 suns on a predetermined spot; a solar cell positioned on the predetermined spot to receive concentrated solar energy from the solar concentrator; and a water heater pipe thermally coupled to the solar cell to remove heat from the solar cell.
+
+
+
+1. An energy device, comprising:
+a. a solar concentrator that concentrates at least 20 suns on a predetermined spot;
+b. a solar cell positioned on the predetermined spot to receive concentrated solar energy from the solar concentrator; and
+c. a water heater pipe thermally coupled to the solar cell to remove heat from the solar cell.
+
+
+
+2. The device of claim 1, wherein the solar concentrator heats the water heater pipe.
+
+
+3. The device of claim 1, wherein the solar concentrator comprises one of: a mirror, a lens, a mirror-lens combination.
+
+
+4. The device of claim 1, comprising an inverter to generate AC power to supply to an electricity grid and a water pump to distribute heated water to a building.
+
+
+5. The device of claim 1, wherein the solar cell comprises one of: a quadruple junction solar cell, a quintuple junction solar cell.
+
+
+6. The device of claim 5, wherein the AC voltage booster is one of: a step-up transformer, a pulse-width-modulation (PWM) voltage booster.
+
+
+7. The device of claim 1, wherein the solar concentrator comprises a first curved reflector adapted to reflect light to a second curved reflector and wherein the second curved reflector concentrates sun light on the solar cell.
+
+
+8. The device of claim 1, further comprising in one or more capacitors for storing a stepped-up voltage before applying the stepped-up voltage to a battery.
+
+
+9. The device of claim 1, further comprising a frequency shifter to change a frequency of the AC voltage to avoid radio frequency interference.
+
+
+10. The device of claim 1, further comprising a DC regulator coupled between the voltage booster and the battery.
+
+
+11. A method for providing renewable energy, comprising:
+a. concentrating sun light onto a photovoltaic (PV) cell;
+b. receiving a direct current (DC) input voltage from the cell;
+c. converting the direct current input voltage into an alternating current (AC) voltage;
+d. stepping-up the AC input voltage; and
+e. applying the stepped-up voltage to an energy storage device.
+
+
+
+12. The method of claim 11, further comprising stepping-up the input voltage using pulse-width-modulation (PWM).
+
+
+13. The method of claim 11, further comprising generating AC power from the battery.
+
+
+14. The method of claim 11, comprising cooling the PV cell by heating up a water heater pipe.
+
+
+15. The method of claim 11, comprising storing the stepped-up voltage in one or more capacitors before applying the stepped-up voltage to the battery.
+
+
+16. The method of claim 11, comprising providing a second focal position for infrared wavelength and position an infrared solar cell at the second focal position.
+
+
+17. The method of claim 11, comprising position the solar cell at first and second positions, wherein the second position is vertically offset from the first position.
+
+
+18. The method of claim 11, comprising providing first and second mirrors positioned in a Cassegrain configuration.
+
+
+19. The method of claim 11, comprising providing Fresnel lens to concentrate sun light onto the PV cell.
+
+
+20. The method of claim 19, comprising providing a second lens between the Fresnel lens and the PV cell.
+

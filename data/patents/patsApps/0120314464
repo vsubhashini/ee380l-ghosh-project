@@ -1,0 +1,67 @@
+
+A solar module has a solar cell which generates a DC voltage. The module has a converter for converting a DC voltage fed into its input. The module contains a semiconductor switch and a controller which drives a switching input of the semiconductor switch. The controller drives the semiconductor switch variably so that the semiconductor switch switches more slowly during the transition operation than during normal operation, thereby reducing a dynamic overvoltage on the switch such that the voltage present on the switch does not exceed the blocking voltage of the switch.
+
+
+
+1. A solar module having a solar cell for generating a DC voltage, the solar module comprising:
+an input for receiving a DC voltage; and
+a converter for converting the DC voltage received by said input;
+said converter including at least one semiconductor switch having a switching input and a controller for driving said switching input;
+said controller further including means for variably driving at least one of said at least one semiconductor switches during a transition operation of the solar module and during a normal operation of the solar module;
+said at least one of said at least one semiconductor switches having a predetermined blocking voltage;
+wherein said controller is configured to drive said at least one of said at least one of said semiconductor switches during said transition operation of the solar module so that said at least one of said at least one semiconductor switches switches more slowly during said transition operation of the solar module than during said normal operation thereof; and
+whereby a dynamic overvoltage on the semiconductor switch is reduced during said transition operation of the solar module so that the voltage present on the semiconductor switch does not exceed said predetermined blocking voltage of said at least one of said semiconductor switches.
+
+
+
+2. The solar module of claim 1, in which during normal operation, said converter receives on said input a permissible maximum voltage which is substantially lower than a maximum DC voltage produced the solar cell during said transition operation.
+
+
+3. The solar module of claim 1, wherein said controller includes a voltage source for driving said at least one of said at least one semiconductor switch, whereby the voltage applied to said switching input may be varied.
+
+
+4. The solar module of claim 1, wherein said controller includes a variable electrical resistor coupled to said switching input.
+
+
+5. The solar module of claim 4, wherein said variable electrical resistor is capable of being switched between at least two resistance values.
+
+
+6. The solar module of claim 5, in which said variable electrical resistor has two terminals and contains at least two partial resistances which can be connected between said two terminals.
+
+
+7. The solar module of claim 1, further comprising a first monitor module for monitoring overheating of said converter.
+
+
+8. The solar module of claim 1, having a second monitor module for monitoring an operating period of said transition operation.
+
+
+9. A method for operating a solar module,
+the solar module having a solar cell for generating a DC voltage, and the solar module comprising:
+an input for receiving a DC voltage; and
+a converter for converting the DC voltage received by the input;
+the converter including at least one semiconductor switch having a switching input and a controller for driving the switching input;
+the controller further including means for variably driving at least one of the at least one semiconductor switches during a transition operation of the solar module and during a normal operation of the solar module;
+the at least one of the at least one semiconductor switches having a predetermined blocking voltage;
+the method comprising the step of:
+variably driving the controller during the transition operation thereof so that the at least one of the at least one semiconductor switches switches more slowly during the transitional operation of the solar module than during the normal operation thereof;
+whereby a dynamic overvoltage on the semiconductor switch is reduced such that the voltage applied to the at least one of the least one semiconductor switches does not exceed the blocking voltage thereof.
+
+
+
+10. The method of claim 9, further comprising the step of varying the value of the voltage fed to the switching input.
+
+
+11. The method of claim 9, further comprising the step of varying a resistance leading to the switching input.
+
+
+12. The method of claim 11, wherein said step of varying said resistance includes switching between at least two resistance values.
+
+
+13. Method according to claim 12, wherein said step of switching between at least two resistance values includes connecting at least two partial resistances leading to the switching input.
+
+
+14. The method of claim 9, further comprising the step of monitoring overheating of the converter.
+
+
+15. The method of claim 9, further comprising the step of monitoring an operating period of the transition operation.
+

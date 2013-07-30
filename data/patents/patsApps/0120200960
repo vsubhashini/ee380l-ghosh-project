@@ -1,0 +1,48 @@
+
+The invention is a method and electric circuitry for measuring a grounding current of a photovoltaic power system incorporating a photovoltaic inverter, a measurement current being led through two shunts disposed at different points. The measurement current is a current that may flow alternatively at two different points at different electric potentials, the current flowing at a potential that differs by at least 50 V from the potential of the point of evaluation. The shunts are inserted in such a manner in a current mirror circuit that the voltage drop caused by the measurement in the shunts generates an asymmetry in the current mirror the magnitude of which is proportional to the measurement current. The measurement current is the grounding current of the photovoltaic power system with optional positive or negative pole grounding.
+
+
+
+1. An electric circuitry, comprising an inverter configured to feed an output of a photovoltaic generator into an alternating voltage mains;
+a grounding device configured to ground the photovoltaic generator at a positive pole or at a negative pole thereof when the photovoltaic generator is coupled to the inverter;
+a first shunt through which a first current flows in case of a short-to-ground when the photovoltaic generator is grounded at the positive pole;
+a second shunt through which a second current flows in case of a short-to-ground when the photovoltaic generator is grounded at the negative pole;
+wherein the first shunt and the second shunt reside in a first current mirror circuit and a second current mirror circuit, respectively, each of the first current mirror circuit and the second current mirror circuit comprising a first transistor connected to a first terminal of the respective first shunt and second shunt through a first series-connected resistor, and a second transistor connected to a second terminal of the respective first shunt and second shunt through a second series-connected resistor which has the same resistance as the first series-connected resistor, and wherein the first current mirror circuit and the second current mirrors circuit are connected to each other at a point of evaluation;
+wherein a voltage drop caused in the respective first shunt and second shunt by the respective first current and second current flowing in case of a short-to-ground generates an asymmetry in the respective first mirror circuit and second current mirror circuit, a magnitude of which is proportional to the respective first current and second current flowing through the respective first shunt and second shunt, and
+wherein the asymmetry is evaluated at the point of evaluation at which the first current mirror circuit and second current mirror circuit are connected to each other, wherein a potential at the point of evaluation differs from a potential at which the current flows through the respective first shunt and second shunt in case of a short-to-ground.
+
+
+
+2. The circuitry as set forth in claim 1,
+wherein the first transistor and the second transistor of the first current mirror circuit and the second current mirror circuit, respectively, are of a same polarity type,
+wherein emitter terminals of the first transistor and the second transistor of the first current mirror circuit and the second current mirror circuit, respectively, are connected to the respective first terminal and second terminal of the respective first shunt and second shunt, wherein base terminals of the first transistor and the second transistor are connected together and to a bias voltage,
+wherein a collector terminal of the respective first transistor and the second transistor of the first current mirror circuit is connected to a collector terminal of the respective first transistor and second transistor of the second current mirror circuit at a first connection point and a second connection point, respectively, and
+wherein a differential current is determined between the first connection point and the second connection point and is evaluated by an evaluation unit.
+
+
+
+3. The circuitry as set forth in claim 1,
+wherein the first current mirror circuit and the second current mirror circuit are of a same polarity type,
+wherein source terminals of the first transistors and the second transistors of the first current mirror circuit and the second current mirror circuit are connected respectively to the first terminal and the second terminal of the respective first shunt and second shunt, wherein gate terminals of the first transistor and the second transistor are connected together and to a bias voltage,
+wherein a drain terminal of the respective first transistor and second transistor of the first current mirror circuit is connected to a drain terminal of the respective first transistor and second transistor of the second current mirror circuit at a first connection point and a second connection point, respectively, and
+wherein a differential current is determined between the first connection point and the second connection point and is evaluated by an evaluation unit.
+
+
+
+4. The circuitry as set forth in claim 2, further comprising two additional transistors, wherein the first connection point and the second connection point of the first current mirror circuit and the second current mirror circuit are connected by anti-parallel connected base-emitter paths of the two additional transistors, the collector currents of which are evaluated by the evaluation unit.
+
+
+5. The circuitry as set forth in claim 4, wherein the evaluation unit comprises a single operational amplifier.
+
+
+6. The circuitry as set forth in claim 2, further comprising at least one Zener diode connected to the connected base terminals of the first transistor and the second transistor of one of the first current mirror circuit and the second current mirror circuit to provide a bias voltage thereto.
+
+
+7. The circuitry as set forth in claim 3, further comprising at least one Zener diode connected to the connected gate terminals of the first transistor and the second transistor of one of the first current mirror circuit and the second current mirror circuit to provide a bias voltage thereto.
+
+
+8. The circuit arrangement as set forth in claim 1, further comprising two switching elements configured to selectively provide, directly or in series with a current-limiting element, a connection between ground and a terminal of one of the second transistors of a respective one of the first current mirror circuit and the second current mirror circuit,
+wherein an asymmetry is generated in one of the first current mirror circuit and the second current mirror circuit upon closure of one of the two switching elements, the asymmetry being evaluated by the evaluation unit, and
+wherein the two switching elements are configured to perform a measurement of an insulation resistance in conjunction with the evaluation unit.
+
+

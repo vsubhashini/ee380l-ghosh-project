@@ -1,0 +1,48 @@
+
+A solar power generation system comprising: plural customers each having a solar panel, a power convertor for converting DC output from the solar panel into AC output, an output controller for suppressing the power convertor output which becomes higher than a predetermined value, a measuring unit for measuring the amount of sold power, the amount of purchased power and the amount of generation-suppressed power; and an watt-hour meter measurement data adjusting unit linked with the plural customers via communication lines. The watt-hour meter measurement data adjusting unit calculates provisional generation-suppressed power amounts that make the burdens of the customers even, and calculates the power amounts to be sold by the customers on the basis of the provisional generation-suppressed power amounts. Thus, the generation-suppressed power of the solar power generation system can stabilize the power system and the chances for selling power can be fairly allocated to customers having solar panels.
+
+
+
+1. A solar power generation system comprising:
+plural electricity generation devices each having a solar panel and incorporating a power conversion apparatus for converting DC output from the solar panel into AC output which is supplied to a commercial power system; a control unit for monitoring the output voltage of the power conversion apparatus, normally performing maximum power follow-up control so that the power conversion apparatus can generate its maximum power, and performing output-suppression control that suppresses the output of the power conversion apparatus when the output voltage becomes higher than a predetermined value; and a measuring unit for measuring the amount of power to be sold from the power conversion apparatus, the amount of power to be bought from the commercial power system, and the amount of generation-suppressed power generated when the output is suppressed; and
+an watt-hour meter measurement data adjusting unit linked with the plural electricity generation devices via a communication lines;
+wherein the watt-hour meter measurement data adjusting unit calculates virtual generation-suppressed power amounts that make the burdens of the electricity generation devices even, independent of the actual generation-suppressed power amounts, and calculates the amounts of power to be sold by the electricity generation devices on the basis of the virtual generation-suppressed power amounts.
+
+
+
+2. A solar power generation system as claimed in claim 1, wherein the generation-suppressed power amount is calculated as the difference between the maximum amount of generated power and the actual value of output power.
+
+
+3. A solar power generation system as claimed in claim 2, wherein the maximum amount of generated power and the actual value of output power are calculated as a result of integrations over a predetermined interval.
+
+
+4. A solar power generation system as claimed in claim 1, further comprising a transmitting unit for transmitting the data as the generation-suppressed power amount to the watt-hour meter measurement data adjusting unit.
+
+
+5. A solar power generation system as claimed in claim 1, further comprising an insolation sensor and a memory for storing the amount of power generated when the output of the solar panel is not suppressed relative to insolation, wherein the power that can be generated without the power suppression is estimated from the measurement value of the insolation sensor.
+
+
+6. A solar power generation system as claimed in claim 1, wherein a controllable variable load is provided as a unit for suppressing generated power output; generated power is consumed by the variable load; and generation-suppressed power is outputted.
+
+
+7. A solar power generation system as claimed in claim 1, wherein a rechargeable battery is provided as a unit for suppressing generated power output;
+generated power is consumed through electric charge into the rechargeable battery;
+and generation-suppressed power is outputted.
+
+
+
+8. A solar power generation system as claimed in claim 7, wherein generated power is booted up by discharging the rechargeable battery when there is no need for suppressing generated power.
+
+
+9. A solar power generation system as claimed in claim 7, wherein the rechargeable battery is charged with the DC power outputted from the solar panel.
+
+
+10. A solar power generation system as claimed in claim 7, wherein power discharged from the rechargeable battery is added to the DC power output from the solar panel.
+
+
+11. A power generation system utilizing natural energy, comprising:
+plural electricity generation devices each having a solar panel and incorporating a power conversion apparatus for converting DC output from the solar panel into AC output which is supplied to a commercial power system; a control unit for monitoring the output voltage of the power conversion apparatus, normally performing maximum power follow-up control so that the power conversion apparatus can generate its maximum power, and performing output-suppression control that suppresses the output of the power conversion apparatus when the output voltage becomes higher than a predetermined value; and a measuring unit for measuring the amount of power to be sold from the power conversion apparatus, the amount of power to be bought from the commercial power system, and the amount of generation-suppressed power generated when the output is suppressed; and
+an watt-hour meter measurement data adjusting unit linked with the plural electricity generation devices via a communication lines;
+wherein the watt-hour meter measurement data adjusting unit calculates virtual generation-suppressed power amounts that make the burdens of the electricity generation devices even, independent of the actual generation-suppressed power amounts, and calculates the amounts of power to be sold by the electricity generation devices on the basis of the virtual generation-suppressed power amounts.
+
+

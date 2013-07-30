@@ -1,0 +1,70 @@
+
+The efficiency of a PV power generation system (10) is maximised by an apparatus providing series of electronic units (20) connected to the PV modules (12) and comprising microprocessor controlled DC converters/power supply units. A managing unit (60) communicates with the electronic units (20) of a string (11) in order to carry out a synergic optimization of the efficiency both of the single PV modules (12) and of the entire string (11). The apparatus also provides PV module (12) by PV module (12) diagnostic features and it is able to communicate with external devices for a full system control.
+
+
+
+1-14. (canceled)
+
+
+15. A method for managing and conditioning power generation systems in which DC power generators are wired in series to form at least one string (11) of DC power generators and in which, in case the system comprises several strings (11), the strings are connected in parallel to a DC power bus connected to at least one inverter (40) operable to convert DC current to AC current, wherein the voltage and/or current at the output of at least two of said DC power generators are subjected to their own phases of:
+measuring voltage and/or current values;
+processing the measured values; and
+DC to DC conversion/power supply;
+wherein said DC to DC conversion/power supply takes place according to the results of said processing phase, each of said processing phases being performed as a function of:
+the voltage and/or current values measured at the output of the respective DC power generator;
+the voltage and/or current values measured at the output of the respective DC to DC conversion/power supply phase;
+the voltage and/or current values measured at the output of at least another DC power generator; and
+the voltage and/or current values measured at the output of the DC to DC conversion/power supply phase associated to said another DC power generator.
+
+
+
+16. The method according to claim 15, wherein said power generation systems are photovoltaic power generation systems (10) and said power generators are PV modules (12).
+
+
+17. The method according to claim 15, wherein said processing phase is performed according to an algorithm operable to optimize the voltage and DC current values at the input of the inverter (40).
+
+
+18. The method according to claim 17, wherein said algorithm applies a mathematical or computational model based on neural networks.
+
+
+19. The method according to claim 17, wherein said algorithm is based on an adaptive multilayer perceptron neural network.
+
+
+20. The method according to claim 15, wherein the voltage and/or current at the output of each PV module (12) of a string (11) are subjected to said phases, the voltage and/or current of two PV module (12) being coupled in parallel at the output of the DC to DC conversion/power supply phases thereof, the value of the coupled voltage and/or current being measured and used in said processing phase.
+
+
+21. An apparatus for managing and conditioning PV power generation systems in which PV modules (12) are wired in series to form at least one string (11) of modules (12) and in which, in case the system comprises several strings (11), the strings are connected in parallel to a DC power bus connected to at least one inverter (40) operable convert DC current to suitable AC current, comprising:
+DC to DC converters/power supply units (24) acting upon the voltage and/or current at the output of said PV modules (12);
+a measuring system (22) for measuring the voltage and/or current at the output of said PV modules (12);
+a second measuring system (26) for measuring the voltage and/or current at the output of said DC to DC converters/power supply units (24);
+a driving system (29) for operating said DC to DC converters/power supply units (24); and
+at least one microprocessor (27) operable to control said driving system (29) of a single DC to DC converters/power supply unit (24) depending on the voltage and/or current at the output of at least two of said PV modules (12) and on the voltage and/or current at the output of at least two of said DC to DC converters/power supply units (24).
+
+
+
+22. The apparatus according to claim 21, wherein one string (11) of PV modules (12) of said PV power generation system comprises:
+at least two electronic units (20);
+each of said electronic units (20) is connected to at least one PV module (12) of the string (11);
+said at least two electronic units (20) are wired in series;
+each of said electronic units (20) comprises said measuring system (22) for measuring the voltage and/or current at the output of each PV module (12) connected to it, at least one power stage (23) of said DC to DC converters/power supply unit (24) for each PV module (12) connected to it, a DC power bus (25) or the like for connecting in parallel the output of each of said power stages (23) when more than one power stages (23) are comprised, a second measuring system (26) for measuring the voltage and/or current at the output of said DC to DC converters/power supply unit (24), a driving system (29) for operating each of said power stages (23), and at least one microprocessor (27) operable to control said driving system (29);
+said at least one microprocessor (27) comprises a communication system (28, 50) for communicating with at least one more microprocessor (27) comprised in at least another of said electronic units (20).
+
+
+
+23. The apparatus according to claim 21, wherein said microprocessors (27) control the power stages (23) thereof according to an algorithm operable to optimize the voltage and DC current values at the input of the inverter (40).
+
+
+24. The apparatus according to claim 23, wherein said algorithm applies a mathematical or computational model based on neural networks.
+
+
+25. The apparatus according to claim 21, further comprising at least one managing unit (60) operable to manage the electronic units (20) of a string (11), said managing unit (60) comprising at least one microprocessor (61) and a communication system (62, 50) for communicating with each electronic unit (20) of that string (11).
+
+
+26. The apparatus according to claim 25, wherein said at least one microprocessor (61) of the managing unit (60) comprises said algorithm applying the neural networks model and it is the main node of the neural network while the microprocessors (27) of the electronic units (20) managed by that managing unit (60) are further nodes of the neural network.
+
+
+27. The apparatus according to claim 22, wherein said electronic units (20) also comprise batteries, a battery charging/power managing system (31) and working and/or a connection status signaling system.
+
+
+28. The apparatus according to claim 25, characterized in that said managing units (60) also comprise a memory system, at least one supervision engine (64) operable to control the status and the activity of the managing unit and a communication interfacing system (62) able to interface the managing unit (60) with data networks using various communication protocols for connecting the managing unit with an external device including any one of an acoustic and/or light signaling system, external PCs, GSM devices, a display system, an external memory system, PLC devices, solar tracking devices for tilting the angle of the PV modules and many other devices.
+

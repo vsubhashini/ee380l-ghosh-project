@@ -1,0 +1,75 @@
+
+A buck converter for converting a DC voltage at input terminals into an output voltage at output terminals is disclosed. The buck converter includes a DC voltage link including a series-connection of at least two capacitors between the output terminals, and one subcircuit per each capacitor of the series-connection. Each subcircuit includes an inductor and a freewheeling diode. A first one of the input terminals is connected to a first output terminal by a series-connection of a semiconductor switch and the inductor of a first one of the subcircuits, and the subcircuits are coupled for balancing the voltages across their inductors. The buck converter may be used upstream of an inverter bridge of an inverter, such that a maximum voltage at the input terminals may exceed a maximum voltage rating of the bridge switches within the inverter.
+
+
+
+1. A buck converter for converting a DC voltage at input terminals into an output voltage at output terminals, the buck converter comprising:
+a DC voltage link comprising a series-connection of at least two capacitors between the output terminals; and
+one subcircuit per each capacitor of the series-connection, wherein each subcircuit comprises an inductor and a freewheeling diode;
+wherein a first one of the input terminals is connected to a first output terminal by a series-connection of a semiconductor switch and the inductor of a first one of the subcircuits, and wherein the subcircuits are configured to balance a voltage across their respective inductors with respect to one another.
+
+
+
+2. The buck converter according to claim 1, wherein in each subcircuit its inductor, its capacitor and its freewheeling diode are connected together in a closed loop.
+
+
+3. The buck converter according to claim 1, wherein the inductors of the subcircuits comprise magnetically coupled chokes.
+
+
+4. The buck converter according to claim 1, wherein the inductors of the subcircuits are capacitively coupled at their input ends.
+
+
+5. The buck converter according to claim 4, further comprising a coupling capacitor connected between a junction point of the semiconductor switch and the inductor of the first one of the subcircuits and a junction point of the inductor and the freewheeling diode of the second one of the subcircuits.
+
+
+6. The buck converter according to claim 5, wherein the coupling capacitor has a capacitance substantially equal to the capacitance of the capacitor of the second one of the subcircuits.
+
+
+7. The buck converter according to claim 4, wherein the inductors of the subcircuits comprise magnetically uncoupled inductors comprising air coils.
+
+
+8. The buck converter according to claim 1, wherein a voltage rating of the semiconductor switch is between one-fourth and one-half of a maximum operation value of the DC voltage.
+
+
+9. An inverter comprising a buck converter comprising:
+a buck converter configured to convert a DC voltage at input terminals into an output voltage at output terminals, the buck converter comprising:
+a DC voltage link comprising a series-connection of at least two capacitors between the output terminals; and
+one subcircuit per each capacitor of the series-connection, wherein each subcircuit comprises an inductor and a freewheeling diode;
+wherein a first one of the input terminals is connected to a first output terminal by a series-connection of a semiconductor switch and the inductor of a first one of the subcircuits, and wherein the subcircuits are configured to balance a voltage across their respective inductors with respect to one another; and
+
+a DC/AC converter configured to receive a DC voltage at the output terminals of the buck converter and generate an AC voltage in response thereto.
+
+
+
+10. The inverter according to claim 9, further comprising a transformer at an output of the DC/AC converter.
+
+
+11. The inverter according to claim 9, wherein an AC output of the inverter is configured to be connected to an AC power grid.
+
+
+12. The inverter according to claim 9, wherein the DC input of the inverter is configured to be connected to a photovoltaic power generator.
+
+
+13. The inverter according to claim 9, wherein a maximum DC input voltage of the buck converter is by at least 10% higher than a maximum voltage rating of bridge switching elements of the DC/AC converter.
+
+
+14. The inverter according to claim 13, wherein the maximum DC voltage of the buck converter is approximately 1500 V and a maximum voltage rating of bridge switching elements of the DC/AC converter is approximately 1200 V.
+
+
+15. The inverter of claim 9, wherein in each subcircuit its inductor, its capacitor and its freewheeling diode are connected together in a closed loop.
+
+
+16. The inverter of claim 9, wherein the inductors of the subcircuits comprise magnetically coupled chokes.
+
+
+17. The inverter of claim 9, wherein the inductors of the subcircuits are capacitively coupled at their input ends.
+
+
+18. The inverter of claim 17, further comprising a coupling capacitor connected between a junction point of the semiconductor switch and the inductor of the first one of the subcircuits and a junction point of the inductor and the freewheeling diode of the second one of the subcircuits.
+
+
+19. The inverter of claim 18, wherein the coupling capacitor has a capacitance substantially equal to the capacitance of the capacitor of the second one of the subcircuits.
+
+
+20. The inverter of claim 17, wherein the inductors of the subcircuits comprise magnetically uncoupled inductors comprising air coils. 
+

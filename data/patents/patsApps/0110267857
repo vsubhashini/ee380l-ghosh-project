@@ -1,0 +1,78 @@
+
+A method and apparatus for generating AC power. In one embodiment, the apparatus comprises a DC/AC inversion stage capable of generating at least one of a single-phase output power, a two-phase output power, or a three-phase output power; and a conversion control module, coupled to the DC/AC inversion stage, for driving the DC/AC inversion stage to selectively generate the single-phase output power, the two-phase output power, or the three-phase output power based on an input power to the DC/AC inversion stage.
+
+
+
+1. Apparatus for generating AC power, comprising:
+a DC/AC inversion stage capable of generating at least one of a single-phase output power, a two-phase output power, or a three-phase output power; and
+a conversion control module, coupled to the DC/AC inversion stage, for driving the DC/AC inversion stage to selectively generate the single-phase output power, the two-phase output power, or the three-phase output power based on an input power to the DC/AC inversion stage.
+
+
+
+2. The apparatus of claim 1, wherein the conversion control module determines, based on at least one of a random number generation or a serial number, one or more output lines on which to generate the single-phase output power or the two-phase output power.
+
+
+3. The apparatus of claim 1, wherein the conversion control module (i) drives the DC/AC inversion stage to generate the single-phase output power when the input power is less than a first threshold, (ii) drives the DC/AC inversion stage to generate the two-phase output power when the input power is between the first threshold and a second threshold, and (iii) drives the DC/AC inversion stage to generate the three-phase output power when the input power exceeds the second threshold.
+
+
+4. The apparatus of claim 3, wherein the conversion control module drives the DC/AC inversion stage to operate in burst mode when the input power satisfies a burst mode threshold.
+
+
+5. The apparatus of claim 3, wherein the first and the second thresholds are determined based on a maximum admissible voltage ripple across a DC power source.
+
+
+6. The apparatus of claim 4, wherein the burst mode threshold is less than the first threshold.
+
+
+7. A method for generating AC power, comprising:
+determining an input power to a DC/AC inversion stage, wherein the DC/AC inversion stage is capable of generating at least one of a single-phase output power, a two-phase output power, or a three-phase output power; and
+driving the DC/AC inversion stage to selectively generate the single-phase output power, the two-phase output power, or the three-phase output power based on the input power.
+
+
+
+8. The method of claim 7, further comprising determining one or more output lines on which to generate the single phase output power or the two-phase output power.
+
+
+9. The method of claim 8, wherein the one or more output lines are determined based on at least one of a random number generation or a serial number.
+
+
+10. The method of claim 7, wherein driving the DC/AC inversion stage comprises (i) comparing the input power to at least one of a first or a second threshold, (ii) driving the DC/AC inversion stage to generate the single-phase output power when the input power is less than the first threshold, (iii) driving the DC/AC inversion stage to generate the two-phase output power when the input power is between the first and a second threshold, and (iv) driving the DC/AC inversion stage to generate the three-phase output power when the input power exceeds the second threshold.
+
+
+11. The method of claim 10, further comprising:
+determining whether the input power satisfies a burst mode threshold; and
+driving the DC/AC inversion stage to operate in burst mode when the input power satisfies the burst mode threshold.
+
+
+
+12. The method of claim 10, further comprising determining the first and the second thresholds based on a maximum admissible voltage ripple across a DC power source.
+
+
+13. The method of claim 11, wherein the burst mode threshold is less than the first threshold.
+
+
+14. A system for generating AC power, comprising:
+a branch circuit, comprising:
+a plurality of photovoltaic (PV) modules; and
+a plurality of inverters, coupled to the plurality of PV modules in a one-to-one correspondence, wherein each inverter of the plurality of inverters comprises (i) a DC/AC inversion stage capable of generating at least one of a single-phase output power, a two-phase output power, or a three-phase output power, and (ii) a conversion control module, coupled to the DC/AC inversion stage, for driving the DC/AC inversion stage to selectively generate the single-phase output power, the two-phase output power, or the three-phase output power based on an input power to the DC/AC inversion stage.
+
+
+
+
+15. The system of claim 14, wherein the conversion control module determines, based on at least one of a random number generation or a serial number, one or more output lines on which to generate the single-phase output power or the two-phase output power.
+
+
+16. The system of claim 14, further comprising a plurality of phase rotation circuits coupled to the plurality of inverters in a one-to-one correspondence, wherein the phase rotation circuits rotate phases of power from the plurality of inverters among power lines of the branch circuit to produce a substantially balanced three-phase power from the branch circuit.
+
+
+17. The system of claim 14, wherein the conversion control module (i) drives the DC/AC inversion stage to generate the single-phase output power when the input power is less than a first threshold, (ii) drives the DC/AC inversion stage to generate the two-phase output power when the input power is between the first and a second threshold, and (iii) drives the DC/AC inversion stage to generate the three-phase output power when the input power exceeds the second threshold.
+
+
+18. The system of claim 17, wherein the conversion control module drives the DC/AC inversion stage to operate in burst mode when the input power satisfies a burst mode threshold.
+
+
+19. The system of claim 17, wherein the first and the second thresholds are determined based on a maximum admissible voltage ripple across a DC power source.
+
+
+20. The system of claim 18, wherein the burst mode threshold is less than the first threshold. 
+

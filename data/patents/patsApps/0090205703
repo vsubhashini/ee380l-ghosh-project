@@ -1,0 +1,111 @@
+
+The present invention generally relates to a simple and cost effective device and method for mounting and supporting solar panels. A solar panel according to the present invention is supported from the backside via a plurality of elongated support members. The elongated support members may have open V-shaped or W-shaped arrangements and may be adhered to the solar panels through strong, flexible glue or double-sided tape that withstands significant environmental loads, such as wind uploading, yet remain flexible enough to minimize stress concentrations in the solar panels. The support members may be attached to a solar panel by a support member attachment module incorporated into an automated solar panel production line. A plurality of solar panels may be field mounted to a solar panel support structure having one or more piles or the like with at least a lower and upper transverse support rails spanning the plurality of solar panels.
+
+
+
+1. A solar panel assembly, comprising:
+a solar panel having a non-light receiving surface;
+a substantially V-shaped support member having a corrosion resistant coating; and
+a moisture resistant adhesive bonding member attaching the substantially V-shaped support member to the non-light receiving surface of the solar panel, wherein the substantially V-shaped member substantially spans a length of the solar panel.
+
+
+
+2. The solar panel assembly of claim 1, wherein the substantially V-shaped support member comprises:
+a horizontal base portion;
+a first and second flexible portions extending upwardly and outwardly from the horizontal base portion;
+a first horizontal panel mounting portion extending outwardly from the first flexible portion; and
+a second horizontal panel mounting portion extending outwardly from the second flexible portion.
+
+
+
+3. The solar panel of claim 2, wherein the corrosion resistant coating comprises aluminum and zinc.
+
+
+4. The solar panel assembly of claim 2, further comprising an adhesion promoter.
+
+
+5. The solar panel assembly of claim 4, wherein the adhesion promoter is a silane coupling agent and the adhesive bonding member is an acrylic-based double sided tape.
+
+
+6. A solar panel support attachment module, comprising:
+a system controller configured to send and receive commands;
+a solar panel cleaning region configured receive commands from the system controller and clean a non-light receiving surface of the solar panel;
+a solar panel drying module configured to receive commands from the system controller and dry the non-light receiving surface of the solar panel;
+a support member placement module configured to receive commands from the system controller and position a support member on the non-light receiving surface of the solar panel;
+a support member attachment module configured to receive commands from the system controller and attach the support member to the non-light receiving surface of the solar panel; and
+an automation system configured to receive commands from the system controller and move the solar panel through the solar panel support attachment module.
+
+
+
+7. The solar panel support attachment module of claim 6, wherein the support placement module comprises a robotic device configured to receive the support member and position the support member on the non-light receiving surface of the solar panel.
+
+
+8. The solar panel support attachment module of claim 7, wherein the support placement module is further configured to affix an adhesive member to the support member.
+
+
+9. The solar panel support attachment module of claim 8, wherein the support member attachment module comprises an automated roller configured to provide a load to the support member as the solar panel is moved through the support member attachment module.
+
+
+10. The solar panel support attachment module of claim 9, wherein the cleaning module comprises a cleaning fluid nozzle configured to spray the cleaning fluid onto the non-light receiving surface of the solar panel and a cleaning fluid vessel configured to supply a cleaning fluid to the cleaning fluid nozzle.
+
+
+11. The solar panel support attachment module of claim 10, wherein the drying module comprises a hood and an exhaust device configured to dry the non-light receiving surface of the solar panel.
+
+
+12. A method for attaching a support member to a solar panel, comprising:
+receiving the solar panel onto an automation device;
+positioning the solar panel within a cleaning module via the automation device;
+cleaning a non-light receiving surface of the solar panel;
+transferring the solar panel into a drying module via the automation device;
+drying the non-light receiving surface of the solar panel;
+transferring the solar panel into a support member placement module via the automation device;
+positioning a support member onto the non-light receiving surface of the solar panel;
+transferring the solar panel into a support member attachment module via the automation device; and
+attaching the support member to the non-light receiving surface of the solar panel.
+
+
+
+13. The method of claim 12, wherein positioning the support member comprises robotically receiving and positioning the support member via a robotic device controlled by a system controller.
+
+
+14. The method of claim 13, further comprising affixing an adhesive member to the support member prior to positioning the support member onto the non-light receiving surface of the solar panel.
+
+
+15. The method of claim 14, wherein attaching the support member comprises urging the support member against the solar panel via a support panel roller as the solar panel moved via the automation device.
+
+
+16. The method of claim 15, wherein cleaning the solar panel comprises spraying the non-light receiving surface of the solar panel with a cleaning fluid via a cleaning fluid nozzle.
+
+
+17. The method of claim 16, wherein drying the solar panel comprises drying the non-light receiving surface of the solar panel via a hood and an exhaust device.
+
+
+18. A solar panel support assembly, comprising:
+a lower support structure;
+a lower transverse support rail attached to the lower support structure, wherein the lower transverse support rail has a plurality of slots disposed therein each configured to receive a solar panel support member affixed to the solar panel;
+an upper transverse support rail attached to the lower support structure, wherein the upper transverse support rail has a plurality of slots disposed therein each configured to receive the solar panel support member affixed to the solar panel; and
+an adhesive member affixed to the lower transverse support rail and the upper transverse support rail and configured to adhere to a non-light receiving surface of the solar panel.
+
+
+
+19. The assembly of claim 18, wherein the upper transverse rail and the lower transverse rail each comprise a substantially V-shaped support section and a cable loading region.
+
+
+20. The assembly of claim 19, further comprising a middle transverse support rail attached to the lower support structure, wherein the middle transverse support rail has a plurality of slots disposed therein each configured to receive the solar panel support member affixed to the solar panel, wherein the middle transverse support rail comprises a substantially V-shaped support section and a cable loading region.
+
+
+21. The assembly of claim 19, wherein at least one of the lower transverse support rail and the upper transverse support rail comprises a tab and a fastener configured to electrically connect the solar panel support member to the solar panel support assembly.
+
+
+22. A method for mounting a solar panel, comprising:
+affixing an adhesive member to an upper mounting surface of a lower transverse rail and an upper mounting surface of an upper transverse rail of a grounded lower support member;
+positioning the solar panel onto the adhesive member of the lower transverse rail and the upper transverse rail; and
+attaching the solar panel to the upper mounting surface of the lower transverse rail and the upper mounting surface of the upper transverse rail.
+
+
+
+23. The method of claim 22, further comprising positioning a metallic support member attached to the solar panel into slots disposed through the lower transverse support rail and the upper transverse support rail.
+
+
+24. The method of claim 23, further comprising electrically connecting the metallic support member to at least one of the lower transverse support rail and the upper transverse support rail.
+

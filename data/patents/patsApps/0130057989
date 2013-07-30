@@ -1,0 +1,85 @@
+
+A protection system configured to couple between a generator that has a number of partial strings and an inverter includes a control device, and a series-connection switching device configured to selectively connect the partial strings together in series. The system also includes a parallel-connection switching device configured to selectively connect the partial strings together in parallel, wherein the series-connection switching device is actuated by the control device such that it interrupts the series connection of the partial strings in case of a hazard, and the parallel-connection switching device is actuated by the control device such that it connects the partial strings together in parallel in case of a hazard.
+
+
+
+1. A protection system configured to couple between a generator that has a number of partial strings and an inverter, comprising:
+a control device;
+a series-connection switching device configured to selectively connect the partial strings together in series; and
+a parallel-connection switching device configured to selectively connect the partial strings together in parallel,
+wherein the series-connection switching device is actuated by the control device such that it interrupts the series connection of the partial strings in case of a hazard, and the parallel-connection switching device is actuated by the control device such that it connects the partial strings together in parallel in case of a hazard.
+
+
+
+2. The protection system as claimed in claim 1, further comprising a grounding device that is controlled by the control device such that, in case of a hazard, the grounding device connects at least one of the terminals of at least one of the partial strings to ground.
+
+
+3. The protection system as claimed in claim 1, wherein the partial strings are dimensioned such that the maximum voltage thereof is lower than 120 volts.
+
+
+4. The protection system as claimed in claim 1, wherein the generator comprises at least three partial strings.
+
+
+5. The protection system as claimed in claim 1, further comprising a short-circuiting device that is controlled by the control device, wherein the short-circuiting device is configured to selectively short-circuit the partial strings.
+
+
+6. The protection system as claimed in claim 1, further comprising a d.c. disconnecting device that is controlled by the control device, wherein the d.c. disconnecting device is configured to selectively disconnect the partial strings from the inverter.
+
+
+7. The protection system as claimed in claim 1, wherein the series-connection switching device and the parallel-connection switching device are respectively arranged in a common unit.
+
+
+8. The protection system as claimed in claim 1, wherein switching elements of the series-connection switching device and switching elements of the parallel-connection switching device are arranged together, respectively, in separate units between two of the partial strings.
+
+
+9. The protection system as claimed in claim 1, wherein the switching elements of the series-connection switching device and switching elements of the parallel-connection switching device are arranged in separate units, each of which is associated with one of the partial strings.
+
+
+10. The protection system as claimed in claim 1, wherein the series-connection switching device comprises a relay or a semiconductor switch.
+
+
+11. The protection system as claimed in claim 1, wherein the parallel-connection switching device comprises a relay or a semiconductor switch.
+
+
+12. The protection system as claimed in claim 1, wherein the control device is configured to detect an operating state of the photovoltaic installation that is associated with a hazard condition.
+
+
+13. The protection system as claimed in claim 1, wherein the control device is configured to receive a signal that is associated with a hazard condition, and that is transmitted to the control device via a control line, by wireless connection, or via connecting lines to the partial strings or to an electricity grid.
+
+
+14. A method for limiting a voltage of a generator of a photovoltaic installation in case of a hazard, comprising:
+operating the photovoltaic installation at a generator voltage that exceeds a hazard limit value;
+detecting a hazard condition; and
+controlling the generator voltage to a value that lies below the hazard limit value, in response to the detection of the hazard condition.
+
+
+
+15. The method as claimed in claim 14, wherein controlling the generator voltage to a value that lies below the hazard limit value comprises switching the partial strings of the generator from a series configuration to a parallel configuration.
+
+
+16. The method as claimed in claim 15, further comprising establishing an electrical connection between at least one of the terminals of at least one of the partial strings and ground, in response to the detection of a hazard condition.
+
+
+17. The method as claimed in claim 14, wherein controlling the generator voltage to a value that lies below the hazard limit value is achieved by means of a step-up converter, which converts the generator voltage to a specific input voltage value for an inverter.
+
+
+18. The method as claimed in claim 14, wherein detecting a hazard condition comprises detecting one of the following:
+occurrence of an islanding situation;
+detection of an arc on the electrical lines of the photovoltaic installation;
+detection of a ground fault on the electrical lines of the photovoltaic installation;
+tripping of a generator disconnection device;
+tripping of a manual emergency shutdown device;
+response of an external sensor device;
+detection of variations in electrical parameters on the photovoltaic installation that are typically indicative of a hazard; and
+reception of a further signal that is associated with a hazard condition from a further photovoltaic installation or a further inverter, the photovoltaic installation is connected to in a data network.
+
+
+
+19. The method as claimed in claim 14, wherein the hazard limit value lies between 60 volts and 150 volts.
+
+
+20. The method as claimed in claim 14, wherein during the controlling of the generator voltage to a value that lies below the hazard limit value, further comprising continuing to feed electric power to an electricity grid to which the photovoltaic installation is connected.
+
+
+21. The method as claimed in claim 14, wherein controlling the generator voltage to a value that lies below the hazard limit value comprises short-circuiting one of the partial strings of the generator.
+

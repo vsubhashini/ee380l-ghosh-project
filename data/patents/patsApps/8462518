@@ -1,0 +1,92 @@
+
+An electronics module docking system includes docking member removably coupled to a photovoltaic module. The docking system includes a first connector port electrically coupled to one or more photovoltaic cells of the photovoltaic module. The photovoltaic module is selectively coupleable to the docking member. The docking system includes a housing to enclose an electronics module. The housing may include second connector port that is selectively engageable to the power electronics module. The power electronics module and the photovoltaic cells are electrically coupled to one another upon selective engagement of the connector ports. The inverter housing is receivable by and removably coupleable to the docking member allowing the inverter housing to be removably coupleable to the photovoltaic module.
+
+
+
+1. A power inverter docking system for a photovoltaic module, the coupling system comprising:
+a first connector port configured to be electrically coupled to at least one photovoltaic cell of the photovoltaic module;
+a docking member configured to be removably coupled to the photovoltaic module, wherein the docking member is configured to be removably coupled to the first connector port, the docking member comprising a bracket configured to be selectively coupled to a rail of the photovoltaic module; and
+an inverter housing configured to be removably coupled to the photovoltaic module and configured to at least partially enclose a power inverter, the inverter housing including a second connector port electrically coupled to the power inverter, wherein the second connector port is configured to be selectively engageable to the first connector port and to be removably coupled to the photovoltaic module.
+
+
+
+2. The power inverter docking system of claim 1, wherein the first connector port includes a plurality of sockets, wherein each of the plurality of sockets is configured to be electrically coupled to the at least one photovoltaic cell of the photovoltaic module.
+
+
+3. The power inverter docking system of claim 2, wherein the second connector port includes a plurality of connector pins, wherein each of the plurality of sockets is configured to receive one of the plurality of connector pins, wherein receipt of the plurality of connector pins by the plurality of sockets electrically couples the power inverter to the at least one photovoltaic cell of the photovoltaic module.
+
+
+4. The power inverter docking system of claim 3, wherein the second connector port includes at least one guide post, wherein the first connector port includes at least one guide post opening, wherein the at least one guide post opening is configured to receive the at least one guide post, and wherein at least partial receipt of the at least one guide post by the at least one guide post opening aligns each one of the plurality of connector pins with a respective one of the plurality of sockets.
+
+
+5. The power inverter coupling system of claim 1 further comprising a junction box, wherein the junction box includes the first connector port, and wherein the junction box is configured to be removably coupled to the docking member.
+
+
+6. The coupling system of claim 5, wherein the junction box includes at least one opening configured to be at least partially aligned with an opening of the photovoltaic module, where the opening of the photovoltaic module provides access to electrical connections of photovoltaic cells of the photovoltaic module.
+
+
+7. The coupling system of claim 6, wherein the docking member includes at least one opening configured to be disposed between the junction box and the PV module, wherein the opening is configured to be at least partially aligned with the at least one opening of the docking member and the opening of the photovoltaic module.
+
+
+8. The power inverter docking system of claim 1, wherein the docking member includes a plurality of docking arms, wherein each of the plurality of docking arms is configured to be removably coupled to the inverter housing to removably couple the inverter housing to the photovoltaic module.
+
+
+9. The power inverter docking system of claim 8, wherein each of the plurality of docking arms includes an opening, and wherein the inverter housing includes a plurality of openings, wherein each opening of the inverter housing is configured to align with an opening of a respective one of the plurality of docking arms when the second connector port is selectively coupled to the first connector port.
+
+
+10. The power inverter docking system of claim 8 further comprising a plurality of fasteners, wherein each fastener is configured to be disposed through a respective aligned opening of one of the plurality of docking tabs and the opening of the respective one of the plurality of docking arms.
+
+
+11. The power inverter docking system of claim 1, wherein the docking member includes a plurality of guides, wherein the inverter housing includes a plurality of guide pins, wherein each of the plurality of guides is configured to receive one of the plurality of guide pins to removably couple the inverter housing to the docking member.
+
+
+12. The power inverter docking system of claim 11, wherein the plurality of guide pins comprise a plurality of fasteners, wherein each of the plurality of fasteners is configured to secure a portion of the docking member between one of the plurality of fasteners and the inverter housing.
+
+
+13. A photovoltaic module comprising:
+at least one photovoltaic cell positioned in a housing; and
+a docking system comprising:
+a junction box including a first connector port configured to be electrically coupled to the at least one photovoltaic cell, the junction box comprising at least one opening configured to be at least partially aligned with an opening of the housing that provides access to electrical connection of the at least one photovoltaic cell; and
+
+a housing configured to enclose at least a portion of a power electronics module, wherein the housing includes a second connector port configured to be electrically coupled to the power electronics module, wherein the second connector port is configured to removably engage the first connector port, wherein the power electronics module and the at least one photovoltaic cell are electrically coupled to one another when the second connector port is removably engaged to the first connector port, and wherein the housing is configured to be removably coupled to the photovoltaic module.
+
+
+
+14. The photovoltaic module of claim 13, further comprising a docking member configured to be removably coupled to the photovoltaic module and configured to receive the housing, wherein the docking member is configured to be removably coupled to the housing upon receipt of the housing.
+
+
+15. The photovoltaic module of claim 14, wherein the junction box is configured to be removably coupled to the docking member.
+
+
+16. The photovoltaic module of claim 15, wherein the docking member is integrally formed with at least one of a surface and a rail of the photovoltaic module.
+
+
+17. The photovoltaic module of claim 14, wherein the docking member is configured to be removably coupled to a rail of the photovoltaic module.
+
+
+18. The photovoltaic module of claim 13, wherein the second connector port is integrally formed with the power electronics module.
+
+
+19. The photovoltaic module of claim 13, wherein the power electronics module is a power inverter.
+
+
+20. The photovoltaic module of claim 13, wherein the first connector port includes a plurality of sockets, wherein each of the plurality of sockets are electrically coupled to the at least one photovoltaic cell, wherein the second connector port includes a plurality of connector pins, wherein each of the connector pins is electrically coupled to the power electronics module, wherein each of the plurality of connector pins is configured to be received by a respective one of the plurality of sockets, and wherein the power electronics module is electrically coupled to the at least one photovoltaic cell when each of the plurality of connector pins is received by the respective one of the plurality of sockets.
+
+
+21. A method of assembling a docking system for a photovoltaic module, the method comprising:
+electrically coupling a first connector port to at least one photovoltaic cell of the photovoltaic module;
+electrically coupling a first connector port with a second connector port, wherein the second connector port is electrically coupled to a power electronics module enclosed within a housing;
+selectively receiving the housing with a docking member of the photovoltaic module;
+removably coupling the housing to the docking member; and
+selectively coupling a bracket of the docking member to a rail of the photovoltaic module.
+
+
+
+22. The method of claim 21, wherein the electrically coupling the first connector port with the second connector port comprises receiving each one of a plurality of connector pins of the first connector port with a respective one of a plurality of sockets of the second connector port.
+
+
+23. The method of claim 21, wherein selectively receiving the housing with the docking member comprises aligning each of a plurality of openings of the docking member with a respective one of a plurality of openings of the housing, and wherein removably coupling the housing to the docking member comprises inserting a selectively removable fastener through each of the plurality of openings of the docking member and each aligned respective one of the plurality of openings.
+
+
+24. The method of claim 21, wherein selectively receiving the housing with the docking member comprises receiving each of a plurality fasteners removably coupled to the housing with a respective guide of the docking member, and wherein removably coupling the housing to the docking member comprises securing a portion of the docking member between each one of the plurality of fasteners and the housing. 
+

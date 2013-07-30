@@ -1,0 +1,86 @@
+
+A 1, 2 or 3-phase DC to AC converter system for reducing the cost of solar energy installations achieves cost reduction by eliminating low-frequency power transformers. One DC input polarity is selectively switched to an output terminal when the instantaneous AC output from a second output terminal is desired to be of the opposite polarity, while the other DC input polarity is used to form an approximation to a segment of a sine wave of the desired polarity at the second output terminal. A common-mode AC signal is thereby created on the balanced DC input lines at a frequency which is a multiple of 1, 2 or 3 times the AC output frequency and which is useful for detecting ground faults in the DC circuit.
+
+
+
+1. DC to AC conversion apparatus for converting power from a DC source to produce an AC power output waveform at a first repetition frequency, comprising
+a set of at least one live AC output terminals,
+at least one output terminal designated as a ground, neutral or reference potential terminal;
+a floating DC power source having a positive and a negative terminal connected respectively to the positive and negative DC input terminals of a DC to AC converter, wherein the DC to AC converter causes:
+(1) an AC output waveform at said first repetition frequency and having a voltage relative to one of said at least one ground, neutral or reference potential terminals to appear with a unique phase at each of a number N at least equal to one of said set of live AC output terminals, and
+(2) a common-mode voltage waveform at a second repetition frequency to appear relative to one of said at least one ground, neutral or reference potential terminals and in the same phase on both of said positive and negative terminals of said DC power source.
+
+
+
+2. The apparatus of claim 1 wherein said DC to AC converter further comprises:
+A first electronic switch controlled by a switching controller to connect said positive DC input terminal to the instantaneously most positive of said number N of said set of AC output terminals and said at least one ground, neutral or reference potential terminal alternating with connecting said negative DC input terminal to the instantaneously most negative of said number N of said set of AC output terminals and said at least one ground, neutral or reference potential terminal
+
+
+
+3. The DC to AC conversion apparatus of claim 1 wherein said second repetition frequency is a multiple of the same said number N times said first repetition frequency and said number N is equal to 1, 2 or 3.
+
+
+4. The apparatus of claim 1 further comprising an AC ground leak detector inserted in the positive and negative conductors between said DC source and said DC to AC converter, the AC ground leak detector being adapted to detect an imbalance current at said second frequency and to thereby provide a detection signal indicative of an unwanted leakage impedance from a DC conductor to ground.
+
+
+5. The DC to AC conversion apparatus of claim 1 in which said DC to AC converter further comprises:
+A bidirectional DC-to-DC converter for converting the input voltage from said DC power source to a number of floating supplies of voltages equal to the input voltage divided or multiplied by successive powers of 3;
+A number of three-state electronic switches each in the form of an H-bridge, each with a pair of input terminals connected to one of the DC power source and said floating voltage supplies from said bidirectional DC to DC converter, and a pair of output terminals, the outputs terminals of said electronic H-bridge switches being directly connected in series and one end of the series connected output terminal pairs being connected to at least one of said set of AC output terminals;
+A switch controller for controlling said three-state electronic switches according to a sampled numerical representation of the desired AC output waveform expressed in a ternary number base, each ternary digit of a numerical sample determining whether a respective switch is controlled to one of the three output states (a) first polarity state, (b) inverse polarity state and (c) pass-through state, wherein the pass through state allows current flow in the H-bridge output circuit without connecting the DC input voltage in series with the H-bridge output terminals, the first polarity state causes the DC input voltage to be connected in series with the H-bridge output terminals with a first polarity and the inverse polarity state causes the DC input voltage to be connected in series with the H-bridge output terminals with an opposite polarity to the first polarity state.
+
+
+
+6. The DC to AC conversion apparatus of claim 1, further comprising a common-mode filter connected between said DC to AC converter DC input terminals and said positive and negative terminals of said DC source, the common-mode filter being configured both to prevent high frequency components of the DC to AC converter internal waveforms being exported to said DC source and to minimize overshoot of said common-mode waveform in order to minimize peak voltages on said positive and negative terminals.
+
+
+7. A three-phase grid-interactive inverter operating according to claim 1 in which said set of AC output terminals comprises three terminals that deliver current at unique phases spaced relatively 0, 120 and 240 degrees apart through a watt-hour metering device to the three legs of a wye-connected 120/208-volt, three-phase, electric utility company service connection and said at least one ground, neutral or reference potential terminal is the neutral terminal at the center of the wye-connection.
+
+
+8. A method of converting power from a direct current source with improved efficiency to provide AC output power at a standard voltage and frequency and to a number of output terminals corresponding to the number of phases required, comprising:
+Configuring said direct current source to be floating;
+connecting the negative line from said direct current source to a first output terminal required to be instantaneously negative relative to all other output terminals while deriving from the direct current source positive voltage line the instantaneous voltages required to be output from the other output terminals relative to said first terminal, in a rotating sequence with connecting the positive line from said direct current source to a next-in-sequence output terminal required to be instantaneously positive relative to all other output terminals while deriving from the negative line of the direct current source the instantaneous voltages relative to said next-in-sequence terminal required to be output from the other terminals;
+selecting the timing of said rotating sequence such that a common mode waveform with a characteristic repetition frequency appears in phase on both the direct current source positive and negative lines.
+
+
+
+9. The method of claim 8 in which said characteristic frequency is a multiple of 1, 2 or 3 times the AC output power frequency.
+
+
+10. The method of claim 8 in which said step of deriving instantaneous voltages from the direct current source positive line or negative line comprises using one of (a) a delta-sigma approximation having a high switching frequency; (b) a pulse-width modulator; or (c) approximations to said instantaneous voltages based on a finite number of digits in a ternary number system.
+
+
+11. The method of claim 8 in which an unwanted leakage impedance to ground from a line of either polarity of said direct current source is detected by detecting a common-mode current with said common mode waveform at said characteristic repetition frequency.
+
+
+12. The method of claim 8 in which said step of deriving instantaneous voltages from the direct current source positive line or negative line comprises expressing a desired voltage using a finite number of digits (T(n), T(n−1), T(n−2) . . . . T3, T2, T1) in a ternary number system such that the instantaneously desired voltage is equal to 3m[T(n)+T(n−1)/3+T(n−1)/9+ . . . T1/3(n-1) or 3T(n)+T(n−1)+T(n−1)/3+ . . . T1/3(n-1)] times the voltage from said direct current source, where the power m may be zero.
+
+
+13. The method of claim 8 in which said step of deriving instantaneous voltages from the direct current source positive and negative lines comprises the steps of:
+using a bidirectional DC-to-DC converter to form, along with the DC source voltage, a set of floating DC supplies of voltages having voltage ratios of successive powers of 3;
+selecting one or more of said floating DC supplies to be directly connected in series to an AC output, with or without a polarity reversal, such that the algebraic sum of the selected voltages and polarities equals the desired instantaneous voltage of the AC output.
+
+
+
+14. In a solar energy installation comprising a photovoltaic solar array and a DC to AC converter having a DC input with positive and negative conductors routed in parallel with an array grounding conductor and an AC output having an output waveform with an output repetition frequency, a method of detecting a ground leak in the DC wiring to the solar array, comprising:—
+creating a common-mode AC probe signal waveform from said DC to AC converter at a characteristic repetition frequency that is in phase on both said DC positive and negative input conductors;
+passing said positive and negative conductors from the array through a detector adapted to detect an unusual current with said common mode waveform at said characteristic repetition frequency and upon detection of said unusual current providing an indication of the presence of an unwanted ground leak.
+
+
+
+15. The method of claim 14 in which the characteristic repetition frequency of said probe signal waveform is 1, 2 or 3 times the AC output repetition frequency of said DC to AC converter.
+
+
+16. The method of claim 15, further comprising a storage battery charged by said solar array, in which said probe signal and unusual current detector also detect unwanted ground leaks from the DC conductors leading to and from said battery.
+
+
+17. The method of claim 14 in which said common-mode AC probe signal waveform corresponds to the changing value of a selected digit within a multi-digit number sequence representing said AC output waveform.
+
+
+18. The method of claim 14 in which said detection of an unusual current comprises measuring an output signal having said common mode waveform with one or more current transformers encircling either said positive and negative conductors only or encircling said positive and negative conductors and said array grounding conductor.
+
+
+19. The method of claim 14 in which said detection of an unusual current comprises correlating said common mode waveform with the output signal from one or more current transformers encircling either said positive and negative conductors only or encircling said positive and negative conductors and said array grounding conductor.
+
+
+20. The method of claim 8 in which connecting the positive line of said DC source to the instantaneously most positive of all output terminals alternating in a rotating sequence with connecting the negative line of said DC source to the most positive of all output terminals comprises connecting the DC source terminal to the selected output terminal through a common mode filter in order to prevent high frequency components of said common-mode waveform being exported to said DC source and to minimize overshoot of said common-mode waveform in order to minimize peak voltages on said positive and negative terminals.
+

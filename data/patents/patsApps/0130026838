@@ -1,0 +1,91 @@
+
+A solar power generating system includes at least one solar panel and at least one junction box. The solar panel includes at least one photovoltaic cell group. The photovoltaic cell group includes plural serially-connected photovoltaic cells. The junction box includes a casing, a first power output terminal, a second power output terminal, and at least one localized maximum power point tracking unit. The casing has a receiving space. The localized maximum power point tracking unit is disposed within the receiving space of the casing. An input side of the localized maximum power point tracking unit is electrically connected with the at least one photovoltaic cell group of the solar panel. An output side of the localized maximum power point tracking unit is electrically connected with the first power output terminal and the second power output terminal.
+
+
+
+1. A solar power generating system, comprising:
+at least one solar panel, wherein said solar panel comprises at least one photovoltaic cell group, wherein said photovoltaic cell group comprises plural serially-connected photovoltaic cells; and
+at least one junction box comprising:
+a casing having a receiving space;
+a first power output terminal;
+a second power output terminal; and
+at least one localized maximum power point tracking unit disposed within said receiving space of said casing, wherein an input side of said localized maximum power point tracking unit is electrically connected with said at least one photovoltaic cell group of said solar panel, and an output side of said localized maximum power point tracking unit is electrically connected with said first power output terminal and said second power output terminal, so that the maximum power point of said at least one photovoltaic cell group is tracked by said at least one localized maximum power point tracking unit.
+
+
+
+
+2. The solar power generating system according to claim 1 wherein said solar panel comprises plural photovoltaic cell groups, and said junction box comprises plural localized maximum power point tracking units, wherein plural input sides of said localized maximum power point tracking units are electrically connected with respective photovoltaic cell groups, and plural output sides of said localized maximum power point tracking units are electrically connected with each other and electrically connected to said first power output terminal and said second power output terminal, so that the maximum power points of said photovoltaic cell groups are tracked by said localized maximum power point tracking units.
+
+
+3. The solar power generating system according to claim 2 wherein said output sides of said localized maximum power point tracking units are electrically connected with each other in series or in parallel.
+
+
+4. The solar power generating system according to claim 2 wherein said solar panel comprises a first photovoltaic cell group, a second photovoltaic cell group and a third photovoltaic cell group, and said junction box comprises a first localized maximum power point tracking unit, a second localized maximum power point tracking unit and a third localized maximum power point tracking unit.
+
+
+5. The solar power generating system according to claim 4 wherein said input sides of said first localized maximum power point tracking unit, said second localized maximum power point tracking unit and said third localized maximum power point tracking unit are electrically connected with said first photovoltaic cell group, said second photovoltaic cell group and said third photovoltaic cell group, respectively, wherein said output sides of said first localized maximum power point tracking unit, said second localized maximum power point tracking unit and said third localized maximum power point tracking unit are electrically connected with each other.
+
+
+6. The solar power generating system according to claim 1 wherein said at least one localized maximum power point tracking unit is a DC-DC converter or a DC-AC converter.
+
+
+7. The solar power generating system according to claim 1 further comprising an inverter, which is electrically connected with said at least one junction box, wherein by said inverter, a DC voltage outputted from said at least one solar panels is converted into an AC voltage, and said AC voltage is provided to a power net or a load.
+
+
+8. A solar power generating system, comprising:
+plural solar panel groups, which are electrically with each other in parallel, wherein each of said solar panel group comprises plural serially-connected solar panels, and each of said solar panels comprises at least one photovoltaic cell group, wherein said photovoltaic cell group comprises plural serially-connected photovoltaic cells; and
+plural junction boxes, which are electrically connected with corresponding solar panels, wherein each of said junction boxes comprises:
+a casing having a receiving space;
+a first power output terminal;
+a second power output terminal; and
+at least one localized maximum power point tracking unit disposed within said receiving space of said casing, wherein an input side of said localized maximum power point tracking unit is electrically connected with said at least one photovoltaic cell group of said solar panel, and an output side of said localized maximum power point tracking unit is electrically connected with said first power output terminal and said second power output terminal, so that the maximum power point of said at least one photovoltaic cell group is tracked by said at least one localized maximum power point tracking unit.
+
+
+
+
+9. The solar power generating system according to claim 8 wherein each of said solar panels comprises plural photovoltaic cell groups, and each of said junction boxes comprises plural localized maximum power point tracking units, wherein plural input sides of said localized maximum power point tracking units are electrically connected with respective photovoltaic cell groups, and plural output sides of said localized maximum power point tracking units are electrically connected with each other and electrically connected to said first power output terminal and said second power output terminal, so that the maximum power points of said photovoltaic cell groups are tracked by said localized maximum power point tracking units
+
+
+10. The solar power generating system according to claim 9 wherein said output sides of said localized maximum power point tracking units are electrically connected with each other in series or in parallel.
+
+
+11. The solar power generating system according to claim 8 further comprising an inverter, which is electrically connected with said plural solar panel groups, wherein by said inverter, a DC voltage outputted from said plural solar panel groups is converted into an AC voltage, and said AC voltage is provided to a power net or a load.
+
+
+12. A junction box connected with a solar panel, said solar panel comprising at least one photovoltaic cell group, said junction box comprising:
+a casing having a receiving space;
+a first power output terminal;
+a second power output terminal; and
+a circuit module disposed within said receiving space of said casing, and comprising at least one localized maximum power point tracking unit, wherein an input side of said localized maximum power point tracking unit is electrically connected with said at least one photovoltaic cell group of said solar panel, and an output side of said localized maximum power point tracking unit is electrically connected with said first power output terminal and said second power output terminal, so that the maximum power point of said at least one photovoltaic cell group is tracked by said at least one localized maximum power point tracking unit.
+
+
+
+13. The junction box according to claim 12 wherein said solar panel comprises plural photovoltaic cell groups, and said junction box comprises plural localized maximum power point tracking units, wherein plural input sides of said localized maximum power point tracking units are electrically connected with respective photovoltaic cell groups, and plural output sides of said localized maximum power point tracking units are electrically connected with each other and electrically connected to said first power output terminal and said second power output terminal, so that the maximum power points of said photovoltaic cell groups are tracked by said localized maximum power point tracking units.
+
+
+14. The junction box according to claim 13 wherein said output sides of said localized maximum power point tracking units are electrically connected with each other in series or in parallel.
+
+
+15. The junction box according to claim 13 wherein said casing comprises a base and an upper cover, wherein said upper cover is detachably fixed on said base, and said base has at least one entrance, wherein plural wire pairs of said photovoltaic cell groups are introduced into said casing through said entrance.
+
+
+16. The junction box according to claim 13 further comprising plural wire-connecting members, which are accommodated within said receiving space of said casing and electrically connected with respective wire pairs of said plural photovoltaic cell groups of said solar panel, wherein said circuit module is electrically connected between said wire-connecting members and said first power output terminal and said second power output terminal.
+
+
+17. The junction box according to claim 16 wherein said circuit module comprises a circuit board with a first edge and a second edge, wherein said localized maximum power point tracking units are discretely arranged on the circuit board.
+
+
+18. The junction box according to claim 17 wherein said input side of each of said localized maximum power point tracking units comprises a first input terminal and a second input terminal, and said output side of each of said localized maximum power point tracking units comprises a first output terminal and a second output terminal, wherein said first input terminal and said second input terminal are located at said first edge of said circuit board and connected with corresponding wire-connecting members, and said first output terminal and said second output terminal are located at said second edge of said circuit board.
+
+
+19. The junction box according to claim 18 wherein said first output terminal of said first one of said plural localized maximum power point tracking units is electrically connected with said first power output terminal, and said second output of said last one of said plural localized maximum power point tracking units is electrically connected with said second power output terminal.
+
+
+20. The junction box according to claim 19 wherein said circuit module further comprises plural conductor lines, wherein said second output terminal of a specified localized maximum power point tracking unit is electrically connected with said first output terminal of an adjacent localized maximum power point tracking unit through a corresponding conductor line.
+
+
+21. The junction box according to claim 18 wherein said first output terminals of said plural localized maximum power point tracking units and electrically connected with each other and connected with said first power output terminal, and said second output terminals of said plural localized maximum power point tracking units and electrically connected with each other and connected with said second power output terminal.
+
+
+22. The junction box according to claim 12 wherein said circuit module is replaceable and accommodated within the receiving space of said casing, and said circuit module is fixed within said casing by plural fixing elements. 
+

@@ -1,0 +1,70 @@
+
+Disclosed is an apparatus and methodology for generating operating power for various desired applications using solar energy. A solar array is formed using a small number of solar cells connected in series to form a string of solar cells and then connecting multiple strings in parallel. Unlike conventional solar arrays, no bypass diodes are incorporated into the array. A power converter is coupled to the array to boost output voltage to a level sufficient to operate the desired application. The power converter may be operated independently or based on output levels of the array, the material from which the solar cells of the array are constructed and the operating temperature of the array or combinations thereof.
+
+
+
+1. A solar power generation apparatus for providing operating power for a desired application, the desired application having a predetermined operating voltage level requirement, comprising:
+an array of solar cells comprising a first number of solar cells electrically connected in series to form a string of solar cells and a second number of said strings of solar cells connected in parallel to form the array, said array capable of producing a first output voltage level; and
+a power converter coupled to said array, said power converter configured to boost the first output voltage level to a second output voltage level higher than said first output voltage level,
+wherein the first output voltage level is insufficient to meet the desired application operating voltage level requirement.
+
+
+
+2. The solar power generation apparatus of claim 1, wherein each string of solar cells has a surface area such that each string of solar cells is individually subjected to substantially uniform irradiance during operation.
+
+
+3. The solar power generation apparatus of claim 1, wherein each string of solar cells consists of the same number of solar cells connected in series.
+
+
+4. The solar power generation apparatus of claim 3, wherein each string of solar cells consists of two solar cells connected in series.
+
+
+5. The solar power generation apparatus of claim 3, wherein each string of solar cells consists of three solar cells connected in series.
+
+
+6. The solar power generation apparatus of claim 1, further comprising:
+a maximum power point controller coupled to said power converter, said controller configured to monitor said first output voltage level and control said power converter based on a predetermined reference voltage value.
+
+
+
+7. The solar power generation apparatus of claim 6, wherein the predetermined reference value is determined based on the construction material of the solar cells and the array operating temperature.
+
+
+8. A method of providing operating power for a desired application, comprising:
+providing a solar array;
+coupling a power converter to said solar array; and
+operating the power converter to provide an increased voltage level from the solar array to provide operating power to the desired application.
+
+
+
+9. The method of claim 8, wherein providing a solar array comprises:
+providing a plurality of strings of solar cells comprising a first number of solar cells electrically connected in series; and
+connecting the plurality of strings in parallel.
+
+
+
+10. The method of claim 9, wherein providing a plurality of strings of solar cells comprises:
+providing a plurality of strings of three solar cells electrically connected in series.
+
+
+
+11. The method of claim 8, further comprising:
+monitoring an output level of the solar array; and
+controlling the power converter based on the output level and a reference level.
+
+
+
+12. The method of claim 11, further comprising:
+selecting a reference level based on the operating temperature of the solar array.
+
+
+
+13. The method of claim 11, further comprising:
+selecting a reference level based on the construction material of the solar cells.
+
+
+
+14. The method of claim 12, further comprising:
+selecting a reference level based on the construction material of the solar cells.
+
+

@@ -1,0 +1,85 @@
+
+A method for maintaining reliability of a distributed power system including a power converter having input terminals and output terminals. Input power is received at the input terminals. The input power is converted to an output power at the output terminals. A temperature is measured in or in the environment of the power converter. A temperature signal is input responsive to the temperature. The power conversion is controlled by adjusting the input power based on the temperature signal. The power conversion of the input power to the output power may be controlled to maximize the input power by setting at the input terminals the input voltage or the input current according to predetermined criteria. One of the predetermined criteria is configured to reduce the input power based on the temperature signal responsive to the temperature. The adjustment of input power reduces the input voltage and/or input current thereby lowering the temperature of the power converter.
+
+
+
+1. An apparatus comprising:
+input terminals;
+output terminals;
+a power converter, wherein said power converter is operative to convert input power at said input terminals to an output power at said output terminals; and
+a controller adapted for controlling the power conversion of said power converter, and configured to receive a temperature signal from a temperature sensor, and based on said temperature signal, adjust said input power at said input terminals.
+
+
+
+2. The apparatus according to claim 1, wherein said input terminals are adapted for connecting to a photovoltaic panel, and wherein said power converter is operative to convert said input power received from said photovoltaic panel at said input terminals to said output power at said output terminals.
+
+
+3. The apparatus according to claim 2,
+wherein the controller is configured to set at least one of input voltage and input current at said input terminals with a control loop according to one or more predetermined criteria.
+
+
+
+4. The apparatus according to claim 3, wherein said one or more predetermined criteria include at least one temperature criterion based on said temperature signal as input from said temperature sensor.
+
+
+5. The apparatus according to claim 3, wherein said input terminals are adapted for receiving said input power from a photovoltaic panel, wherein said power converter is operative to convert said input power received from said photovoltaic panel at said input terminals to said output power at said output terminals, and wherein said one or more predetermined criteria provide for maximizing said input power based on said temperature signal as input from said temperature sensor.
+
+
+6. The apparatus according to claim 1, further comprising:
+a load including load input terminals and load output terminals, said load input terminals configured for receiving the output power from said power converter.
+
+
+
+7. The apparatus according to claim 6, wherein said load is an inverter or a direct current (DC) to DC power converter.
+
+
+8. The power converter of claim 1, further comprising the temperature sensor, adapted for measuring the temperature in an environment of the power converter.
+
+
+9. The power converter of claim 1, wherein the temperature signal indicates a temperature of a solar panel configured to provide the input power to the input terminals.
+
+
+10. A method: comprising
+receiving input power at input terminals of a power converter;
+converting said input power at said input terminals to an output power at output terminals of the power converter;
+receiving a measurement of temperature in or in the environment of the power converter; and
+adjusting said input power at said input terminals based on said measurement of temperature.
+
+
+
+11. The method according to claim 10, further comprising receiving the input power at the input terminals from the photovoltaic panel.
+
+
+12. The method according to claim 10, further comprising:
+wherein said adjusting includes setting at said input terminals at least one of an input voltage and an input current according to one or more predetermined criteria.
+
+
+
+13. The method according to claim 12, wherein at least one of said one or more predetermined criteria is configured to reduce said input power based on said measurement of the temperature.
+
+
+14. The method according to claim 10, wherein said adjusting includes reducing an input voltage or an input current at said input terminals thereby lowering said temperature.
+
+
+15. The method according to claim 10, wherein said adjusting does not include ceasing completely said converting of said input power to said output power.
+
+
+16. An apparatus including:
+a microcontroller; and
+a memory storing software, that when executed by the microcontroller, configures the apparatus to:
+control a power converter to convert input power at input terminals of the power converter to output power at output terminals of the power converter;
+receive a measurement of temperature from a temperature sensor; and
+adjust the input power based on the measurement of temperature.
+
+
+
+17. The apparatus of claim 16, wherein the measurement of temperature includes a temperature of a solar panel configured to provide the input power at the input terminals; and
+wherein the adjusting includes maximum power point tracking of the solar panel.
+
+
+
+18. The apparatus of claim 17, further comprising the solar panel.
+
+
+19. The apparatus of claim 16, wherein the measurement of temperature includes a temperature of the power converter; and wherein the adjusting includes reducing the input power based on said measurement of the temperature.
+

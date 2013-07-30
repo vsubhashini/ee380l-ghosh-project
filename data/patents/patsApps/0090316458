@@ -1,0 +1,66 @@
+
+The invention presents a structure for the conversion of direct current electric power into alternating current electric power, characterised in that it is simple, highly efficient and minimises the problem of electromagnetic compatibility. The circuit includes, in its first preferred embodiment, six switching elements governed by a command unit, four switches forming an H-bridge (T1, T2, T3, T4) and two auxiliary switches (T5D, T6D), and two auxiliary diodes (Daux1 and Daux2). The elements of the H-bridge switch at grid frequency, whereas T5D and T6D switch at high frequency by means of pulse width modulation (PWM), or other appropriate modulation techniques. The voltage of these auxiliary switching elements (T5D, T6D) is limited topologically to half the direct current input voltage (Vin), thereby reducing switching losses and resulting in a high performance converter.
+
+
+
+1) A single-phase inverter circuit to condition and transform direct current electric power into alternating current electric power for the provision thereof to an electric grid, comprising:
+two direct current connections across which at least one branch is connected with at least one temporary energy accumulator;
+an H-bridge configuration inverter comprising at least two parallel branches, a first pair of switching elements in series (T1, T2) being connected to one branch and a second pair of switching elements in series (T3, T4) to the other branch; and
+at least two alternating current connections (A, B) corresponding to the centre-taps of the H-bridge branches with an inductance (L1, L2) being connected to each branch;
+characterised in that at least one of the branches with temporary energy accumulator elements, connected between the two direct current connections, has a centre-tap
+and in that the circuit additionally comprises:
+two auxiliary switching elements (T5D, T6D), connected across the direct current connections and the input of the H-bridge at some points; and
+a branch with two auxiliary diodes in series (Daux, Daux1, Daux2) connected in anti-parallel at the input points of the H-bridge, the centre-tap of which is joined to the centre-tap of the temporary energy accumulators.
+
+
+
+2) An inverter circuit according to claim 1, characterised in that each switching element (T1, T2, T3, T4) is connected in anti-parallel to a diode (D1, D2, D3, D4) respectively.
+
+
+3) An inverter circuit according to claim 1, characterised in that each auxiliary switching element (T5D, T6D) is connected in anti-parallel to a protection diode (D5D and D6D) respectively.
+
+
+4) An inverter circuit according to claim 1, characterised in that the temporary energy accumulator elements are constituted by capacitive elements, ultracapacitors, batteries, or combinations of these elements.
+
+
+5) An inverter circuit according to claim 1, characterised in that the two pairs of switching elements in series (T1, T2, T3, T4) of the H-bridge and the pair of auxiliary switching elements (T5D, T6D) are transistors.
+
+
+6) An inverter circuit according to claim 5, characterised in that the type of transistors is selected between IGBT and MOSFET.
+
+
+7) An inverter circuit according to claim 1, characterised in that it is connected to a command unit adapted to govern the switching by means of a series of on signals produced at the output thereof suitably aimed at the switching elements (T1, T2, T3, T4) of the H-bridge and of the pair of auxiliary switching elements (T5D, T6D).
+
+
+8) An inverter circuit according to claim 7, characterised in that the command unit contains at least one computation module, which comprises at least one programmable electronic device which is chosen from a general-purpose processor, a microcontroller, a digital signal processor (DSP), an application-specific integrated circuit (ASIC) and a field programmable gate array (FPGA).
+
+
+9) An inverter circuit according to claim 1, characterised in that the two pairs of switching elements in series (T1-T2, T3-T4) are capable of switching synchronously with the electric grid by means of two complementary on signals.
+
+
+10) An inverter circuit according to claim 1, characterised in that the two pairs of switching elements in series (T1-T2, T3-T4) are capable of switching synchronously with the control signal that comes from the command unit and is previously calculated by the computation module.
+
+
+11) An inverter circuit according to claim 1, characterised in that the pair of auxiliary switching elements (T5D, T6D) are capable of switching synchronously by means of a single on signal, defined by means of a known modulation technique, generated from the control signal that comes from the command unit and is previously calculated by the computation module.
+
+
+12) An inverter circuit according to claim 1, characterised in that the pair of auxiliary switching elements (T5D, T6D) are capable of switching individually by means of two on signals, defined by means of a known modulation technique, generated from the control signals that come from the command unit and are previously calculated by the computation module.
+
+
+13) An inverter circuit according to claim 11, characterised in that the on signals are defined by means of a pulse width modulation.
+
+
+14) An inverter circuit according to claim 1, characterised in that the values of the inductances (L1, L2) in series are the same.
+
+
+15) An inverter circuit according to claim 1, characterised in that it is incorporated in a converter of the transformerless type.
+
+
+16) An inverter circuit according to claim 1, characterised in that an energy source is connected to the direct current connections that is chosen from a photovoltaic array and an electrochemical cell unit.
+
+
+17) An inverter circuit according to claim 1, characterised in that it additionally comprises at least one dc/dc converter, connected between the input energy source and the temporary energy accumulator.
+
+
+18) An inverter circuit according to claim 17, characterised in that the converter is fitted with galvanic isolation between the facility and the grid, implemented by an output transformer.
+

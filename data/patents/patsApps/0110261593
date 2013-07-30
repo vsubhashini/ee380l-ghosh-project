@@ -1,0 +1,113 @@
+
+Provided are methods, circuits, and systems for obtaining power from a power generator such as a photovoltaic cell or a fuel cell. The methods, circuits, and systems comprise converting substantially DC output power from the power generator into a high frequency AC voltage while rejecting or minimizing oscillations in the output power from the power generator; converting the high frequency AC voltage into a high frequency substantially sinusoidal voltage or current; and converting the high frequency substantially sinusoidal AC voltage or current into (i) a DC voltage or current, and (ii) a low frequency substantially sinusoidal AC voltage or current; wherein the high frequency substantially sinusoidal AC voltage or current is isolated from the DC voltage or current or the low frequency substantially sinusoidal AC voltage or current.
+
+
+
+1. A power converter for use with a power generator, comprising:
+a high side input point and a low side input point for receiving substantially DC power from the power generator;
+a capacitor connected across the high side and low side input points;
+a first means that receives voltage across the capacitor and converts the voltage into a high frequency AC voltage while rejecting or minimizing oscillations in the received voltage;
+a second means that converts the high frequency AC voltage into a substantially sinusoidal AC voltage or current;
+an isolating transformer that receives the substantially sinusoidal AC voltage or current;
+a third means that converts a high frequency substantially sinusoidal AC voltage or current from the transformer into (i) a low frequency substantially sinusoidal AC output voltage or current; and (ii) a DC output voltage or current; and
+a high side output point and a low side output point for outputting the output voltage or current.
+
+
+
+2. The power converter of claim 1, wherein the first means comprises a chopper circuit.
+
+
+3. The power converter of claim 2, wherein switches of the chopper circuit are controlled using pulse width modulation.
+
+
+4. The power converter of claim 1, wherein the second means comprises a resonant circuit.
+
+
+5. The power converter of claim 4, wherein the resonant circuit is a series resonant circuit.
+
+
+6. The power converter of claim 1, wherein the third means comprises a rectifier and optional filter, and the output is a DC voltage or current.
+
+
+7. The power converter of claim 1, wherein the third means comprises a rectifier and an inverter controlled using modified pulse width modulation, and the output is an AC voltage or current.
+
+
+8. The power converter of claim 1, wherein the power generator is a photovoltaic (PV) cell or a fuel cell.
+
+
+9. The power converter of claim 1, wherein the power generator is at least one PV cell.
+
+
+10. A micro-inverter for a distributed power generator, comprising:
+the power converter of claim 1; and
+a controller that controls operation of switches in the first means by comparing the voltage across the capacitor with a reference voltage so as to minimize voltage fluctuations across the capacitor.
+
+
+
+11. The micro-inverter of claim 10, wherein the controller includes one or more of a modified pulse width modulator, a duty cycle controller, and a maximum power point tracker.
+
+
+12. The micro-inverter of claim 10, wherein the duty cycle controller comprises a proportional integral-derivative compensator.
+
+
+13. A power generation system, comprising:
+at least one micro-inverter of claim 10; and
+at least one power generator.
+
+
+
+14. The system of claim 13, wherein each power generator is connected to a micro-inverter.
+
+
+15. The system of claim 13, wherein the power generator is a photovoltaic (PV) cell or a fuel cell.
+
+
+16. The system of claim 13, wherein the power generator is at least one PV cell.
+
+
+17. A method for obtaining power from a power generator, comprising:
+converting substantially DC output power from the power generator into a high frequency AC voltage while rejecting or minimizing oscillations in the output power from the power generator;
+converting the high frequency AC voltage into a high frequency substantially sinusoidal voltage or current; and
+converting the high frequency substantially sinusoidal AC voltage or current into (i) a DC voltage or current, and (ii) a low frequency substantially sinusoidal AC voltage or current;
+wherein the high frequency substantially sinusoidal AC voltage or current is isolated from the DC voltage or current or the low frequency substantially sinusoidal AC voltage or current.
+
+
+
+18. The method of claim 17, comprising using a chopper to convert output power from the power generator into a high frequency AC voltage.
+
+
+19. The method of claim 18, comprising using pulse width modulation to control one or more switches of the chopper circuit.
+
+
+20. The method of claim 19, including comparing of the power generator with a reference voltage so as to minimize voltage fluctuations of the power generator.
+
+
+21. The method of claim 17, comprising using a resonant circuit to convert the high frequency AC voltage into a high frequency substantially sinusoidal AC voltage or current.
+
+
+22. The method of claim 21, comprising using a series resonant circuit.
+
+
+23. The method of claim 17, wherein the power generator is a photovoltaic cell or a fuel cell.
+
+
+24. The method of claim 17, wherein the power generator is at least one PV cell.
+
+
+25. The method of claim 17, further comprising connecting the low frequency substantially sinusoidal output voltage or current to a power distribution grid.
+
+
+26. The micro-inverter of claim 1 integrated into a PV cell or module.
+
+
+27. The micro-inverter of claim 26, wherein the micro-inverter includes one or more feature selected from communication, inversion (DC to AC conversion), peak power tracking, and islanding.
+
+
+28. The micro-inverter of claim 26, wherein integration of the micro-inverter with the PV cell or module includes packaging of the micro-inverter either substantially together or incorporated into the module packaging, or in a manner that substantially unifies the micro-inverter with the module packaging.
+
+
+29. The micro-inverter of claim 28, wherein the PV cell or module packaging is pre-existing or is designed to accommodate the micro-inverter.
+
+
+30. The micro-inverter of claim 27, wherein an inversion portion of the micro-inverter is of a design selected from current source, voltage source, resonant, and may include single or multiple power stages.
+

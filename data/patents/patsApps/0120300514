@@ -1,0 +1,89 @@
+
+A method is provided for determining a control scheme for a neutral point clamped (NPC) voltage source converter (VSC) with at least 3 levels and a topology of three bridge legs between each of three phases of a grid and a neutral point. Each leg includes at least four active switches, and a clamping carrier modulator synchronized with the grid is provided for the control of no-switching intervals. The method includes: analyzing the waveform of the grid and/or a load voltage and determining windows defining an allowed period for no-switching of the corresponding bridge leg; operating or simulating the operation of the voltage source converter with different clamping carrier modulator frequencies, and then analyzing the balance in the operating junction temperatures and/or power losses across the active switches and also analyzing the total losses of the voltage source converter; comparing the balance and the total losses of different clamping carrier modulator frequencies and selecting either the clamping carrier modulator frequency according to showing, as primary criterion, the better balance and, as secondary criterion, the lower total losses; operating or simulating the operation of the voltage source converter with the selected clamping carrier modulator frequency, while iteratively changing at least one of the following operating parameters of the voltage source converter: switching frequency, DC-link voltage reference, duty cycle of clamping carrier modulator, phase shift of the clamping carrier modulator relative to the grid, and optimizing the balance in the operating junction temperatures and/or power losses across the active switches and the total losses of the voltage source converter as a function of the adjustment of these operating parameters until reaching optimum operation parameters for the control scheme.
+
+
+
+1. A method for determining a control scheme for a neutral point clamped (NPC) voltage source converter (VSC) with at least 3 levels and a topology of three bridge legs between each of three phases of a grid and a neutral point, each leg including at least four active switches,
+wherein a clamping carrier modulator is synchronized with the grid for the control of no-switching intervals, and performs the method, which comprises:
+i) analyzing the waveform of at least one of the grid and a load voltage (ILR), and determining windows of 120° within the voltage cycle of the grid/load, wherein the windows are centered around a positive and negative peak maximum of the grid/load voltage waveform, the windows defining an allowed period for no-switching of the corresponding bridge leg;
+ii) operating and/or simulating an operation of the voltage source converter with a clamping carrier modulator frequency equal to the third harmonic frequency of the grid/load, wherein, if within the window, as a function of the clamping carrier modulator the switching of the corresponding bridge leg is interrupted and clamped, and then analyzing the balance in the operating junction temperatures and/or power losses across the active switches and also analyzing the total losses of the voltage source converter;
+iii) operating and/or simulating the operation of the voltage source converter with a clamping carrier modulator frequency equal to the ninth harmonic frequency of the grid/load, wherein, if within the window, as a function of the clamping carrier modulator, the switching of the corresponding bridge leg is interrupted and clamped, and then analyzing the balance in the operating junction temperatures and/or power losses across the active switches and the total losses of the voltage source converter;
+iv) comparing the balance and the total losses of steps ii) and iii) and selecting either the clamping carrier modulator frequency according to step ii) or step iii) showing, as primary criterion, the better balance and, as secondary criterion, the lower total losses;
+v) operating or simulating the operation of the voltage source converter with the selected clamping carrier modulator frequency, wherein as a function of the clamping carrier modulator the switching of the corresponding bridge leg is interrupted and clamped in as far as within the window, while iteratively changing at least one of the following operating parameters of the voltage source converter: switching frequency, DC-link voltage reference, duty cycle of clamping carrier modulator, phase shift of the clamping carrier modulator relative to the grid, and optimising the balance in the operating junction temperatures and/or power losses across the active switches and the total losses of the voltage source converter as a function of the adjustment of these operating parameters until reaching optimum operation parameters for the control scheme.
+
+
+
+2. The method according to claim 1, wherein step v) comprises initially iteratively adapting the phase shift of the clamping carrier modulator relative to the grid/load to find the optimum balance and/or total loss of the voltage source converter.
+
+
+3. The method according to claim 1, wherein the voltage source converter is configured to operate as a shunt voltage source converter.
+
+
+4. The method according to claim 1, wherein for compensation of imbalances of the DC-link voltage, the ratio of no-switching to switching intervals within the window between the positive half wave and the negative half wave of the grid is unbalanced.
+
+
+5. The method according to claim 1, wherein the bandwidth of the current controller is selected to be at least 5 times higher than for the main DC link voltage controller.
+
+
+6. The method according to claim 1, wherein the bandwidth of the partial DC link voltage controller is selected as at least less than one third of the main voltage loop.
+
+
+7. The method according to claim 1, wherein the voltage source converter is one of a 3-level T-type VSC converter and a 3-level A-NPC VSC converter.
+
+
+8. A method of operating a voltage source converter using a control scheme determined according to claim 1.
+
+
+9. The method according to claim 1, wherein the converter DC-link voltage is operated at a voltage in the range of 300-10,000 V.
+
+
+10. The method according to claim 1, wherein the converter is operated using a switching frequency in the range of 100 Hz-1 MHz.
+
+
+11. A non-transitory computer-readable recording medium having a computer program recorded thereon that causes a processor of a computer processing device to carry out the method of claim 1.
+
+
+12. The method according to claim 1, wherein the 3-level VSC is configured to operate as one of a photovoltaic grid inverter, a rectifier, and a motor drive.
+
+
+13. The method according to claim 1, wherein the 3-level VSC is a shunt active filter.
+
+
+14. The method according to claim 5, wherein the bandwidth of the current controller (G (s)) is selected to be at least approximately 50 times higher than for the main DC link voltage controller (H(s)).
+
+
+15. The method according to claim 6, wherein the bandwidth of the partial DC link voltage controller is selected as at least less than one fifth of the main voltage loop.
+
+
+16. The method according to claim 1, wherein the converter DC-link voltage is operated at a voltage in the range of 700-1,000 V.
+
+
+17. The method according to claim 1, wherein the converter is operated using a switching frequency in the range of 5 kHz-100 kHz.
+
+
+18. The method according to claim 2, wherein the voltage source converter is configured to operate as a shunt voltage source converter.
+
+
+19. The method according to claim 18, wherein for compensation of imbalances of the DC-link voltage, the ratio of no-switching to switching intervals within the window between the positive half wave and the negative half wave of the grid is unbalanced.
+
+
+20. The method according to claim 19, wherein the bandwidth of the current controller is selected to be at least 5 times higher than for the main DC link voltage controller.
+
+
+21. The method according to claim 20, wherein the bandwidth of the partial DC link voltage controller is selected as at least less than one third of the main voltage loop.
+
+
+22. The method according to claim 21, wherein the voltage source converter is one of a 3-level T-type VSC converter and a 3-level A-NPC VSC converter.
+
+
+23. A method of operating a voltage source converter using a control scheme determined according to claim 22.
+
+
+24. The method according to claim 22, wherein the converter DC-link voltage is operated at a voltage in the range of 300-10,000 V.
+
+
+25. The method according to claim 22, wherein the converter is operated using a switching frequency in the range of 100 Hz-1 MHz.
+
+
+26. A non-transitory computer-readable recording medium having a computer program recorded thereon that causes a processor of a computer processing device to carry out the method of claim 22. 
+

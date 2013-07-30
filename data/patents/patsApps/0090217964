@@ -1,0 +1,80 @@
+
+A system, method and apparatus are disclosed for improving an operating efficiency of a photovoltaic array. In one embodiment, the method includes arranging a first portion of a photovoltaic array so that the first portion of the photovoltaic array operates above a ground potential; switchably coupling an output of the first portion of the photovoltaic array to a power supply so as to enable the power supply to apply a voltage to the output of the first portion of the photovoltaic array; arranging a second portion of the photovoltaic array so that the second portion of the photovoltaic array operates below a ground potential; and switchably coupling an output of the second portion of the photovoltaic array to the power supply so as to enable the power supply to apply a voltage to the output of the second portion of the photovoltaic array.
+
+
+
+1. A system comprising:
+a first drive line configured to couple to a first photovoltaic array and a second drive line configured to couple to a second photovoltaic array;
+at least one feedback line coupled to at least one of the first and second photovoltaic arrays so as to provide an indication of a voltage across at least one of the first and second photovoltaic arrays;
+at least one power supply, the at least one power supply being switchably coupled to the first and second drive lines so as to enable the at least one power supply to apply voltage to the first and second drive lines; and
+control logic coupled to the at least one feedback line and the at least one power supply, the control logic configured, based upon the indication of the voltage across at least one of the first and second photovoltaic arrays, to control voltage the power supply applies voltage to the first and second drive lines.
+
+
+
+2. The system of claim 1, wherein the power supply is a positive power supply and each of the first drive line and the second drive line are coupled to a corresponding one of a negative output of the first array and a negative output of the second array.
+
+
+3. The system of claim 1, wherein the power supply is a negative power supply and each of the first drive line and the second drive line are coupled to a corresponding one of a positive output of the first array and a positive output of the second array.
+
+
+4. The system of claim 1, wherein the at least one power supply is a single power supply and the first drive line and the second drive line are coupled together.
+
+
+5. The system of claim 1, wherein the at least one feedback line includes two diode isolated feedback lines so the indication of the voltage across at least one of the first and second photovoltaic arrays is a single indication of the voltage of the array at the highest voltage.
+
+
+6. A system comprising:
+a photovoltaic array arranged so that a portion of the photovoltaic array operates below a ground potential; and
+a charge abating portion coupled to the photovoltaic array that is configured to abate charge accumulation on the surface of the portion of the photovoltaic array that operates below a ground potential.
+
+
+
+7. The system of claim 6, including:
+a second photovoltaic array arranged so that a portion of the second photovoltaic array operates above a ground potential, a negative rail of the second photovoltaic array is coupled to a positive rail of the photovoltaic array, the charge abating portion coupled to the second photovoltaic array.
+
+
+
+8. The system of claim 7, wherein the charge abating portion includes a positive power supply switchably coupled to negative leads of both photovoltaic arrays.
+
+
+9. The system of claim 8, wherein the positive power supply is housed within an inverter.
+
+
+10. An apparatus comprising:
+a first input configured to couple to a negative rail of a photovoltaic array and a second input configured to couple to a second rail of the photovoltaic array;
+a power supply configured to apply a positive voltage with respect to a ground potential; and
+a switch configured to couple the positive voltage to the negative rail so as to enable a portion of the photovoltaic array that is substantially at a negative potential to be placed at the positive potential.
+
+
+
+11. The apparatus of claim 10 comprising:
+a conversion module coupled to the first and second inputs, the conversion module configured to alter at least one characteristic of DC power from the photovoltaic array.
+
+
+
+12. The apparatus of claim 11, wherein the conversion module is configured to convert the DC power from the photovoltaic array to AC power.
+
+
+13. The apparatus of claim 11, wherein the conversion module is a conversion module selected from the group consisting of a conversion module configured to convert DC voltage applied by the array to a higher DC voltage and a conversion module configured to convert DC voltage applied by the array to a lower DC voltage.
+
+
+14. The apparatus of claim 10, wherein the photovoltaic array includes a first and a second photovoltaic array.
+
+
+15. A method comprising:
+arranging a first portion of a photovoltaic array so that the first portion of the photovoltaic array operates above a ground potential;
+switchably coupling an output of the first portion of the photovoltaic array to a power supply so as to enable the power supply to apply a voltage to the output of the first portion of the photovoltaic array;
+arranging a second portion of the photovoltaic array so that the second portion of the photovoltaic array operates below a ground potential; and
+switchably coupling an output of the second portion of the photovoltaic array to the power supply so as to enable the power supply to apply a voltage to the output of the second portion of the photovoltaic array.
+
+
+
+16. The method of claim 15, including:
+switchably coupling a negative output of the first portion of the photovoltaic array to a positive power supply so as to enable the positive power supply to apply a positive voltage to the negative output of the first portion of the photovoltaic array.
+
+
+
+17. The method of claim 15, including:
+switchably coupling a negative output of the second portion of the photovoltaic array to a positive power supply so as to enable the positive power supply to apply a positive voltage to the negative output of the first portion of the photovoltaic array.
+
+

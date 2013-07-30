@@ -1,0 +1,91 @@
+
+A grid-connected photovoltaic electrical power system with both array level and string level remote monitoring and production and efficiency analysis capabilities. The inventive system includes an array level monitoring component, software for recording and analyzing data obtained through the array level monitoring component, and a string level monitoring component.
+
+
+
+1. A system for string level monitoring of a grid-connected photovoltaic system having an array of photovoltaic solar panels, comprising:
+an array level monitoring component;
+a computer system in electronic communication with said array level monitoring apparatus, said computer having software and for obtaining, recording, and analyzing data from said array level monitoring system; and
+a string level monitoring component in electronic communication with the array and with said computer system.
+
+
+
+2. The system of claim 1, wherein the array level monitoring component comrpsies back-end hardware, a back end server having server-side back-end software, and a front end server having server-side front-end software.
+
+
+3. The system of claim 2, wherein said back-end hardware includes a computer having a microprocessor, first and second revenue grade power meters in electrical connection with said computer, an AD converter interposed between said computer and said power meters, wherein said first power meter measures the output of the PV system; and
+wherein said second power meter measures power provided by utility energy provider.
+
+
+
+4. The system of claim 3, further including a housing for enclosing said computer.
+
+
+5. The system of claim 3, wherein said computer is programmed to routinely poll said power meters at regularly spaced intervals to obtain readings from said first power meter, said second power meter.
+
+
+6. The system of claim 3, further including one or more analog data sources for providing real time environmental data to said computer.
+
+
+7. The system of claim 6, wherein said analog data sources include a temperature sensor.
+
+
+8. The system of claim 6, wherein said analog data sources include a solar insolation sensor.
+
+
+9. The system of claim 6, further including at least one AD converter interposed between said computer and said analog data sources.
+
+
+10. The system of claim 6, wherein said computer is programmed to obtain real-time data from said power meters and said analog data sources, and to write a file having a date stamp.
+
+
+11. The system of claim 10, wherein said computer is further programmed to store, analyze, and write a data file relating to data from the output of the photovoltaic system, including the total output of the photovoltaic meter system as measured from the time the meter was turned on, the output of the photovoltaic system for the present calendar day, the output of the photovoltaic system for the most recent month, the output of the photovoltaic system for the year, and the maximum power output for the photovoltaic system.
+
+
+12. The system of claim 10, wherein said computer is further programmed to obtain, analyze, and write a file relating to data from the output of the utility power system, the total utility output for specified periods of time, and temperature and solar insolation.
+
+
+13. The system of claim 10, wherein said computer is further programmed to transfer said data file to a secure server using a file transfer protocol.
+
+
+14. The system of claim 13, wherein said back-end server is located at a secure facility and is in electronic communication with said computer.
+
+
+15. The system of claim 14, wherein said back-end server includes back-end software that reads and stores in a data directory all the files of a plurality of grid-connected photovoltaic systems having automatically uploaded files, makes a file in a markup language format, and provides a time synchronization file, checks for errors, and performs data file housekeeping functions.
+
+
+16. The system of claim 15, wherein said front end software provides a graphic user interface through which a user may log on to a computer to review screens based on the markup language files written by said back-end software, including a realtime screen shot showing the amount of power presently being provided by the utility company, how much power is being provided by the photovoltaic system, and how power is being consumed by the facility served.
+
+
+17. The system of claim 16, wherein said front-end software includes means for a user to specify a date range in which to conduct an energy usage analysis, and said front-end software generates a report broken down into time intervals comprising the range.
+
+
+18. The system of claim 2, wherein said string level monitoring component is in electronic communication with the array through positive leads and negative leads connected to the respective ends of each series string.
+
+
+19. The system of claim 18, including a plurality of combiner boxes, and wherein said positive and negative leads are combined in a afirst array combiner box, and the output of multiple PV source circuits are combined and the current routed through additional combiner boxes.
+
+
+20. The system of claim 19, further including an inverter, and wherein all of said combiner boxes are attached to a re-combiner box, and current output from said re-combiner box is routed through said inverter.
+
+
+21. The system of claim 18, further including a transformer to stepdown current output from said array.
+
+
+22. The system of claim 21, wherein said transformer comprises a series of closed-loop current sensors
+
+
+23. The system of claim 21, wherein the output current of said transformer is routed to said micro-controller.
+
+
+24. The system of claim 23, wherein said micro-controller includes a multi-channel analog to digital converter, and wherein the current on each channel corresponds to the current on a respective string, and wherein one of the channels includes a resister to which a voltage reference is attached, whereby said first combiner box meters the current in said strings and the voltage that operates it, and thus power at every single point, and whereby this provides the means to conduct a power balance across the array.
+
+
+25. The system of claim 19, wherein said combiner boxes are addressable using rotary switches, and wherein said computer communicates with said combiner boxes with queries relating to string level power output data, and wherein said front-end software includes a program to emit an alarm if a string performs outside a predetermined range.
+
+
+26. The system of claim 18, wherein said string level monitoring component includes a sensor board having a plurality of current sensors, a power supply, and a voltage divider.
+
+
+27. The system of claim 18, wherein said micro-controller is powered by the array. 
+

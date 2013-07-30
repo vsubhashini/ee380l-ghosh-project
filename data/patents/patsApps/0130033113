@@ -1,0 +1,110 @@
+
+A photovoltaic module includes N sub-modules electrically connected to each other such that the negative terminal of any one but the last sub-module is electrically connected to the positive terminal of the immediate next sub-module, and N−1 voltage balancers, each having a first terminal, a second terminal and a third terminal. The second and third terminals of any one but the last voltage balancer are electrically connected to the third and first terminal of the immediate next voltage balancer, respectively. The first terminal of the first voltage balancer is electrically connected to the positive terminal of the first sub-module. The second terminal of the last voltage balancer is electrically connected to the negative terminal of the last sub-module. The third terminal of the j-th voltage balancer is electrically connected to both the negative terminal of the j-th sub-module and the positive terminal of the (j+1)-th sub-module.
+
+
+
+1. A photovoltaic (PV) module, comprising:
+(a) N sub-modules, N being an integer greater than one, each sub-module having a positive terminal and a negative terminal, the N sub-modules electrically connected to each other in series such that the negative terminal of any one but the last sub-module is electrically connected to the positive terminal of the immediate next sub-module; and
+(b) N−1 voltage balancers, each voltage balancer having a first terminal, a second terminal and a third terminal, wherein
+the second terminal of any one but the last voltage balancer is electrically connected to the third terminal of the immediate next voltage balancer;
+the third terminal of any one but the last voltage balancer is electrically connected to the first terminal of the immediate next voltage balancer;
+the first terminal of the first voltage balancer is electrically connected to the positive terminal of the first sub-module;
+the second terminal of the last voltage balancer is electrically connected to the negative terminal of the last sub-module; and
+the third terminal of the j-th voltage balancer is electrically connected to both the negative terminal of the j-th sub-module and the positive terminal of the (j+1)-th sub-module, j=1, 2, 3, . . . , (N−1).
+
+
+
+
+2. The PV module of claim 1, wherein each voltage balancer comprises:
+(a) a first switch, S1, and a second switch, S2, electrically coupled between the first terminal and the second terminal;
+(b) a first diode, D1, and a second diode, D2, each diode electrically coupled to a respective switch in parallel;
+(c) an inductor, L, electrically coupled between the junction of the first and second switches and the third terminal; and
+(d) a first capacitor, C1, electrically coupled between the first and third terminals and a second capacitor, C2, electrically coupled between the second and third terminals.
+
+
+
+3. The PV module of claim 2, wherein each voltage balancer further comprises a pulse generator electrically coupled to the first and second switches S1 and S2 for providing one or more driving signals for driving the first and second switches S1 and S2, wherein the one or more driving signals have a compensative 50% duty cycle.
+
+
+4. The PV module of claim 3, wherein each voltage balancer further comprises an enable logic circuit electrically coupled between the pulse generator and the first and third terminals, wherein the enable logic circuit is configured to sense input voltages V1 and V2 such that when the difference between input voltages V1 and V2 is lower than a predetermined threshold, the enable logic circuit disables the pulse generator and turn the voltage balancer off, wherein the input voltages V1 and V2 are voltages at the first and third terminals, respectively.
+
+
+5. The PV module of claim 1, further comprising a DC/DC converter having a positive input, a negative input, a positive output and a negative output, wherein the positive and negative inputs are electrically coupled to the positive terminal of the first sub-module and the negative terminals of the last sub-module, respectively.
+
+
+6. The PV module of claim 5, wherein the DC/DC converter comprises:
+(a) a pair of switches electrically connected between the positive and negative terminals;
+(b) an inductor electrically coupled between the positive output and the junction of the pair of switches; and
+(c) a pair of capacitors, one capacitor electrically coupled between the positive and negative inputs, and the other electrically coupled between the positive and negative outputs,
+
+wherein the negative output is electrically connected to the negative input.
+
+
+7. The PV module of claim 1, wherein each sub-module comprises a plurality of PV cells electrically connected to each other in series.
+
+
+8. A PV system, comprising:
+(a) a plurality of PV modules, each PV module defined in claim 1, the plurality of PV modules electrically connected to each other in series such that the negative terminal of any one but the last PV module is electrically connected to the positive terminal of the immediate next PV module; and
+(b) an inverter having a first input electrically connected to the positive terminal of the first PV module, a second input electrically connected to the negative terminal of the last PV module, a first output and a second output electrically connected to a grid or a load, wherein the inverter has a maximum power point tracking (MPPT) function.
+
+
+
+9. A photovoltaic (PV) module, comprising:
+(a) N sub-modules, N being an integer greater than two, each sub-module having a positive terminal and a negative terminal, the N sub-modules electrically connected to each other in series such that the negative terminal of any one but the last sub-module is electrically connected to the positive terminal of the immediate next sub-module; and
+(b) N voltage balancers, each voltage balancer having a first terminal, a second terminal and a third terminal, wherein
+the second terminal of any one but the last voltage balancer is electrically connected to the third terminal of the immediate next voltage balancer;
+the third terminal of any one but the last voltage balancer is electrically connected to the first terminal of the immediate next voltage balancer;
+the first terminal of the first voltage balancer is electrically connected to the positive terminal of the first sub-module;
+the second and third terminals of the last voltage balancer are electrically connected to a B-out terminal and the negative terminal of the last sub-module, respectively;
+the third terminal of the j-th voltage balancer is electrically connected to both the negative terminal of the j-th sub-module and the positive terminal of the (j+1)-th sub-module, j=1, 2, 3, . . . , (N−1); and
+the third terminal of the first voltage balancer is electrically connected to a B-in terminal.
+
+
+
+
+10. The PV module of claim 9, wherein each voltage balancer comprises:
+(a) a first switch, S1, and a second switch, S2, electrically coupled between the first terminal and the second terminal;
+(b) a first diode, D1, and a second diode, D2, each diode electrically coupled to a respective switch in parallel;
+(c) an inductor, L, electrically coupled between the junction of the first and second switches and the third terminal; and
+(d) a first capacitor, C1, electrically coupled between the first and third terminals and a second capacitor, C2, electrically coupled between the second and third terminals.
+
+
+
+11. The PV module of claim 10, wherein each voltage balancer further comprises a pulse generator electrically coupled to the first and second switches S1 and S2 for providing one or more driving signals for driving the first and second switches S1 and S2, wherein the one or more driving signals have a compensative 50% duty cycle.
+
+
+12. The PV module of claim 11, wherein each voltage balancer further comprises an enable logic circuit electrically coupled between the pulse generator and the first and third terminals, wherein the enable logic circuit is configured to sense input voltages V1 and V2 such that when the difference between input voltages V1 and V2 is lower than a predetermined threshold, the enable logic circuit disables the pulse generator and turn the voltage balancer off, wherein the input voltages V1 and V2 are voltages at the first and third terminals, respectively.
+
+
+13. The PV module of claim 9, wherein each sub-module comprises a plurality of PV cells electrically connected to each other in series.
+
+
+14. A PV system, comprising:
+(a) a plurality of PV modules, each PV module defined in claim 9, the plurality of PV modules electrically connected to each other such that the negative terminal and the B-out terminal of any one but the last PV module are electrically connected to the positive terminal and the B-in terminal of the immediate next PV module, respectively; and
+(b) an inverter having a first input electrically connected to the positive terminal of the first PV module, a second input electrically connected to the negative terminal of the last PV module, a first output and a second output electrically connected to a grid or a load, wherein the inverter has a maximum power point tracking (MPPT) function.
+
+
+
+15. A PV system, comprising:
+(a) a plurality of PV modules, each PV module having a positive terminal and a negative terminal, the plurality of PV modules electrically connected to each other in series such that the negative terminal of any one but the last PV module is electrically connected to the positive terminal of the immediate next PV module;
+(b) one or more voltage balancers, each voltage balancer having a first terminal, a second terminal and a third terminal coupled to respective PV modules for balance voltages of the respective PV modules; and
+(c) an inverter having a first input electrically connected to the positive terminal of the first PV module, a second input electrically connected to the negative terminal of the last PV module, a first output and a second output electrically connected to a grid or a load, wherein the inverter has a maximum power point tracking (MPPT) function.
+
+
+
+16. The PV module of claim 15, wherein each voltage balancer comprises:
+(a) a first switch, S1, and a second switch, S2, electrically coupled between the first terminal and the second terminal;
+(b) a first diode, D1, and a second diode, D2, each diode electrically coupled to a respective switch in parallel;
+(c) an inductor, L, electrically coupled between the junction of the first and second switches and the third terminal; and
+(d) a first capacitor, C1, electrically coupled between the first and third terminals and a second capacitor, C2, electrically coupled between the second and third terminals.
+
+
+
+17. The PV module of claim 16, wherein each voltage balancer further comprises a pulse generator electrically coupled to the first and second switches S1 and S2 for providing one or more driving signals for driving the first and second switches S1 and S2, wherein the one or more driving signals have a compensative 50% duty cycle.
+
+
+18. The PV module of claim 17, wherein each voltage balancer further comprises an enable logic circuit electrically coupled between the pulse generator and the first and third terminals, wherein the enable logic circuit is configured to sense input voltages V1 and V2 such that when the difference between input voltages V1 and V2 is lower than a predetermined threshold, the enable logic circuit disables the pulse generator and turn the voltage balancer off, wherein the input voltages V1 and V2 are voltages at the first and third terminals, respectively.
+
+
+19. The PV module of claim 15, wherein each PV module comprises a plurality of sub-modules electrically connected to each other in series, each sub-module comprising a plurality of PV cells electrically connected to each other in series.
+

@@ -1,0 +1,74 @@
+
+Embodiments of the invention can provide systems, methods, and an apparatus for converting direct current (DC) power to alternating current (AC) power. According to one embodiment, a system for converting DC power to AC power can be provided. The system can include a DC power source electrically coupled to a DC-to-DC converter. The DC power source can be associated with a first ground, and the DC-to-DC converter can be operable to isolate the power provided by the DC power source from the first ground. The DC-to-DC converter can be further operable to condition the DC power and to provide the conditioned DC power to an inverter. The inverter can receive the conditioned DC power and can convert the conditioned DC power to AC power. The AC power can be associated with a second ground and can be provided to at least one load electrically coupled to the inverter.
+
+
+
+1. A method for converting direct current (DC) power to alternating current (AC), the method comprising:
+receiving DC power from at least one DC power source, wherein the at least one DC power source is associated with a first ground;
+conditioning the DC power provided by the at least one DC power source by at least one DC-to-DC converter;
+varying the impedance provided by the at least one DC-to-DC converter to the at least one DC power source responsive to at least one command from at least one controller until the load impedance provided by the at least one DC-to-DC converter to the at least one DC power source corresponds to a maximum power point for the at least one DC power source;
+isolating the conditioned DC power from the first ground by the at least one DC-to-DC converter, wherein an isolating transformer is coupled to the at least one DC-to-DC converter;
+converting the conditioned DC power to AC power by at least one inverter physically separated from the at least one DC-to-DC converter, wherein the converted AC power is associated with a second ground; and
+providing the converted AC power associated with a second ground to at least one load associated with the second ground.
+
+
+
+2. The method of claim 1, wherein the at least one DC power source comprises at least one of the following: a photovoltaic cell, a fuel cell, or a battery.
+
+
+3. The method of claim 1, wherein conditioning comprises adjusting the at least one DC-to-DC converter to cause the at least one source of DC power to operate at a maximum power point for the at least one source of DC power.
+
+
+4. The method of claim 1, wherein isolating the conditioned DC power from the first ground comprises isolating the conditioned DC power from the first ground at a high frequency.
+
+
+5. The method of claim 1, wherein conditioning the DC power provided by the at least one DC power source comprises boosting the DC power from a first voltage to a second voltage.
+
+
+6. The method of claim 1, further comprising adjusting an impedance of the at least one DC-to-DC converter experienced by the at least one source of DC power to cause the at least one source of DC power to adjust its power output.
+
+
+7. The method of claim 1, wherein the at least one DC-to-DC converter comprises a plurality of DC-to-DC converters electrically coupled in parallel with the at least one inverter, and wherein each of the plurality of DC-to-DC converters is electrically coupled to a different DC power source.
+
+
+8. A system for converting DC power to AC power, the system comprising:
+at least one DC-to-DC converter electrically coupled to at least one source of DC power, wherein the at least one DC-to-DC converter is operable to condition the DC power provided by the at least one source of DC power and is further operable to isolate the conditioned DC power from the first ground, wherein an isolating transformer is coupled to the at least one DC-to-DC converter;
+at least one controller operable to adjust the at least one DC-to-DC converter to vary a load impedance provided by the at least one DC-to-DC converter to the at least one DC power source until the load impedance provided by the at least one DC-to-DC converter to the at least one DC power source corresponds to a maximum power point for the at least one DC power source;
+at least one inverter electrically coupled to the at least one DC-to-DC converter, wherein the at least one inverter is physically separated from the at least one DC-to-DC converter, and wherein the inverter is operable to convert the conditioned DC power isolated from the first ground to AC power associated with a second ground; and
+at least one load electrically coupled to the at least one inverter and associated with the second ground, wherein the at least one load is operable to receive the converted AC power.
+
+
+
+9. The system of claim 8, wherein the at least one source of DC power comprises at least one of the following: a photovoltaic cell, fuel cell, or a battery.
+
+
+10. The system of claim 8, wherein the at least one DC-to-DC converter is further operable to isolate the conditioned DC power from the first ground at a high frequency.
+
+
+11. The system of claim 8, wherein the at least one DC-to-DC converter is further operable boost the DC power from the at least one source of DC power from a first voltage to a second voltage.
+
+
+12. The system of claim 8, wherein the at least one DC-to-DC converter comprises a plurality of DC-to-DC converters electrically coupled in parallel with the at least one inverter, wherein each of the plurality of DC-to-DC converters is electrically coupled to a different source of DC power.
+
+
+13. The system of claim 8, further comprising at least one controller operable to adjust an impedance of the at least one DC-to-DC converter experienced by the source of DC power to cause the source of DC power to adjust its power output.
+
+
+14. An apparatus for converting DC power to AC power, the apparatus comprising:
+at least one DC-to-DC converter electrically coupled to a source of DC power, wherein the at least one DC-to-DC converter is operable to condition the DC power provided by a source of DC power with a first ground and is further operable to isolate the conditioned DC power from the first ground, wherein an isolating transformer is coupled to the at least one DC-to-DC converter;
+at least one controller operable to adjust the at least one DC-to-DC converter to vary a load impedance provided by the at least one DC-to-DC converter to the at least one DC power source until the load impedance provided by the at least one DC-to-DC converter to the at least one DC power source corresponds to a maximum power point for the at least one DC power source; and
+at least one inverter electrically coupled to the at least one DC-to-DC converter, wherein the at least one inverter is physically separated from the at least one DC-to-DC converter, and wherein the inverter is operable to convert the conditioned DC power isolated from the first ground to AC power associated with a second ground.
+
+
+
+15. The apparatus of claim 14, wherein the source of DC power comprises at least one of the following: a photovoltaic cell, a fuel cell, or a battery.
+
+
+16. The apparatus of claim 14, wherein the at least one DC-to-DC converter is further operable to isolate the conditioned DC power from the first ground at a high frequency.
+
+
+17. The apparatus of claim 14, further comprising at least one controller operable to adjust an impedance of the at least one DC-to-DC converter experienced by the source of DC power to cause the source of DC power to adjust its power output.
+
+
+18. The apparatus of claim 14, wherein the at least one DC-to-DC converter comprises a plurality of DC-to-DC converters electrically coupled in parallel with the at least one inverter, and wherein each of the plurality of DC-to-DC converters is electrically coupled to a different source of DC power. 
+

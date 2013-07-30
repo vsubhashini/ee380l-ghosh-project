@@ -1,0 +1,103 @@
+
+A fault in a DC power source, such as a battery string or a string of photovoltaic cells, is identified by detecting a change in an AC component of a residual current of the DC power source. In some embodiments, the DC power source is coupled to at least one DC bus and he methods further include generating an AC voltage on the at least one DC bus. For example, the DC power source may be coupled to a modulated DC bus of an uninterruptible power supply (UPS) system comprising an inverter having an input coupled to the DC bus. The inverter may be configured to generate an AC output voltage and the AC component has a frequency that is a harmonic of a fundamental frequency of the AC output voltage, such as a third harmonic of the fundamental frequency of the AC output voltage.
+
+
+
+1. A method of monitoring a DC voltage source, the method comprising:
+identifying a fault in the DC voltage source by detecting a change in an AC component of a residual current of the DC voltage source.
+
+
+
+2. The method of claim 1, wherein the DC voltage source is coupled to at least one DC bus, and wherein the method further comprises generating an AC voltage on the at least one DC bus.
+
+
+3. The method of claim 1, wherein the DC voltage source is coupled to a DC bus of an uninterruptible power supply (UPS) system comprising an inverter having an input coupled to the DC bus and wherein the method further comprises generating a voltage having an AC component on the DC bus of the UPS system.
+
+
+4. The method of claim 3, wherein the UPS system comprises first and second DC busses and a neutral and wherein generating a voltage having an AC component on the DC bus of the UPS system comprises shifting the first and second DC busses with respect to the neutral.
+
+
+5. The method of claim 3, wherein the inverter is configured to generate an AC output voltage and wherein the AC component has a frequency that is a harmonic of a fundamental frequency of the AC output voltage.
+
+
+6. The method of claim 5, wherein the frequency of the AC component is a third harmonic of the fundamental frequency of the AC output voltage.
+
+
+7. The method of claim 1, wherein the DC voltage source comprises a string of serially-connected voltage sources.
+
+
+8. The method of claim 7, wherein the DC voltage source comprises a string of serially-connected electrochemical cells or a string of serially-connected photovoltaic cells.
+
+
+9. The method of claim 1, wherein identifying a fault in the DC voltage source by detecting a change in an AC component of a residual current of the DC voltage source comprises identifying a first fault in the DC voltage source by detecting a change in the AC component of a residual current of the DC voltage source and wherein the method further comprises identifying a second fault in the DC voltage source by detecting a change in an amplitude of the residual current of the DC voltage source.
+
+
+10. The method of claim 9, wherein identifying a second fault in the DC voltage source by detecting a change in an amplitude of the residual current of the DC voltage source comprises detecting a change in RMS or peak value of the residual current.
+
+
+11. A system for monitoring a DC voltage source, the system comprising:
+a current sensor configured to detect a residual current of the DC voltage source; and
+a fault detection circuit coupled to the current sensor and configured to detect a change in an AC component of the residual current of the DC voltage source and to identify a fault in the DC voltage source responsive thereto.
+
+
+
+12. The system of claim 11, wherein the DC voltage source is coupled to at least one DC bus, and wherein the system further comprises means for generating an AC voltage on the at least one DC bus.
+
+
+13. The system of claim 12, wherein the means for generating an AC voltage on the at least one DC bus comprises an uninterruptible power supply (UPS) system.
+
+
+14. The system of claim 13, wherein the UPS system comprises first and second DC busses and a neutral and is configured to shift the first and second DC busses with respect to the neutral.
+
+
+15. The system of claim 13, wherein the UPS system comprises an inverter coupled to the at least one DC bus and configured to generate an AC output voltage and wherein the AC component has a frequency that is a harmonic of a fundamental frequency of the AC output voltage.
+
+
+16. The system of claim 15, wherein the frequency of the AC component is a third harmonic of the fundamental frequency of the AC output voltage.
+
+
+17. The system of claim 11, wherein the DC voltage source comprises a string of serially-connected voltage sources.
+
+
+18. The system of claim 11, wherein the DC voltage source comprises a string of serially-connected electrochemical cells or a string of serially-connected photovoltaic cells.
+
+
+19. The system of claim 11, wherein the fault detection circuit is configured to identify a first fault in the DC voltage source by detecting a change in the AC component of a residual current of the DC voltage source and to identify a second fault in the DC voltage source by detecting a change in an amplitude of the residual current of the DC voltage source.
+
+
+20. The method of claim 19, wherein the fault detection circuit is configured to identify the second fault in the DC voltage source by detecting a change in RMS or peak value of the residual current.
+
+
+21. An uninterruptible power supply (UPS) system, comprising:
+a DC bus;
+a DC bus modulation circuit configured to generate an AC component on the DC bus;
+an inverter having an input coupled to the DC bus and configured to generate an AC output voltage therefrom;
+a DC voltage source coupled to the DC bus;
+a current sensor configured to detect a residual current of the DC voltage source; and
+a fault detection circuit coupled to the current sensor and configured to detect a change in an AC component of the residual current of the DC voltage source and to identify a fault in the DC voltage source responsive thereto.
+
+
+
+22. The system of claim 21, wherein the DC bus comprises first and second DC busses, wherein the system further comprises a neutral and wherein the DC bus modulation circuit is configured to shift the first and second DC busses with respect to the neutral.
+
+
+23. The system of claim 21, wherein the DC bus modulation circuit comprises a neutral coupling circuit configured to selectively couple the first and second DC busses to the neutral.
+
+
+24. The system of claim 21, wherein the AC component has a frequency that is a harmonic of a fundamental frequency of the AC output voltage.
+
+
+25. The system of claim 24, wherein the frequency of the AC component is a third harmonic of the fundamental frequency of the AC output voltage.
+
+
+26. The system of claim 21, wherein the DC voltage source comprises a string of serially-connected voltage sources.
+
+
+27. The system of claim 21, wherein the DC voltage source comprises a string of serially-connected electrochemical cells or a string of serially-connected photovoltaic cells.
+
+
+28. The system of claim 21, wherein the fault detection circuit is configured to identify a first fault in the DC voltage source by detecting a change in the AC component of a residual current of the DC voltage source and to identify a second fault in the DC voltage source by detecting a change in an amplitude of the residual current of the DC voltage source.
+
+
+29. The method of claim 8, wherein the fault detection circuit is configured to identify the second fault in the DC voltage source by detecting a change in RMS or peak value of the residual current. 
+

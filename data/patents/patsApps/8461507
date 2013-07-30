@@ -1,0 +1,13 @@
+
+A photovoltaic system, method and apparatus are disclosed. In an exemplary embodiment, the system includes a power converter configured to convert power from one form to another form, and an interface portion adapted to couple to the power converter, a first photovoltaic array, a second photovoltaic array, and a third photovoltaic array. In variations, the interface portion is configured to modulate an application of a voltage from the first photovoltaic array to the second and third photovoltaic arrays so as to adjust a voltage applied from the three photovoltaic arrays to the power converter.
+
+
+
+1. A photovoltaic system comprising,
+a power converter configured to convert power from one form to another form; and
+an interface portion adapted to couple to the power converter, a first photovoltaic array, a second photovoltaic array, and a third photovoltaic array, the interface portion is configured to modulate an application of a voltage from the first photovoltaic array to the second and third photovoltaic arrays so as to adjust a voltage applied from the three photovoltaic arrays to the power converter.
+
+
+
+2. The system of claim 1, wherein the power converter is selected from the group consisting of an inverter configured to convert DC power from the first, second, and third photovoltaic arrays to AC power, a DC to DC converter adapted to increase the voltage applied from the three photovoltaic arrays, and a DC to DC converter adapted to decrease the voltage applied from the three photovoltaic arrays. 
+

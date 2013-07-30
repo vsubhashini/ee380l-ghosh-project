@@ -1,0 +1,118 @@
+
+There are provided an apparatus and method for charging and discharging a photovoltaic PCS integrated battery applied to a system that includes a first DC/DC converter 110 connected to a solar cell 10, a DC/AC inverter 120, a DC link unit 130 connected in common to output terminals of the first DC/DC converter 110 and the DC/AC inverter 120, and a second DC/DC converter 140 having a bidirectional DC/DC conversion function connected between the DC rink unit 130 and the battery 30. The present invention calculates the amount of photovoltaic power produced by the solar cell 10 based on voltage and current detected in the voltage/current detector 200, determines one of predetermined control modes according to the amount of photovoltaic power and the connection or not of the battery, and controls the first DC/DC converter 110, the second DC/DC converter, and the DC/AC inverter according to the determined control mode.
+
+
+
+1. An apparatus for charging and discharging a photovoltaic PCS integrated battery, comprising:
+a first DC/DC converter that converts PV voltage from a solar cell into a predetermined DC voltage according to a first DC/DC control;
+a DC/AC inverter that is connected to a system and performs system voltage/DC voltage conversion or DC voltage/system voltage conversion according to a second DC/DC control;
+a DC link unit that is connected in common to an output terminal of the first DC/DC converter and an output terminal of the DC/AC inverter to stabilize DC voltage from the first DC/DC converter and DC voltage from the DC/AC inverter;
+a second DC/DC converter that is connected between the DC link unit and a battery to convert voltage bidirectionally according to a second DC/DC control;
+a voltage/current detector that detects PV voltage/current from the solar cell, battery voltage/current from the battery, system voltage/current from the system, and DC link voltage/current from the DC link unit; and
+a charging control unit that determines one of a plurality of predetermined control modes based on the voltage and current detected in the voltage/current detector and controls the first DC/DC converter, the second DC/DC converter, and the DC/AC inverter according to the determined control mode.
+
+
+
+2. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 1, wherein the charging control unit calculates the amount of photovoltaic power produced by the solar cell based on the voltage and current detected in the voltage/current detector and determines one of first to fourth control modes according to the amount of photovoltaic power and the connection or not of the battery.
+
+
+3. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 2, wherein the charging control unit includes:
+a state determining unit that determines any of the predetermined first to fourth operating modes based on the amount of photovoltaic power and the connection or not of the battery by using the PV voltage/current and the battery voltage/current detected in the voltage/current detector;
+a first converter controller that controls the first DC/DC converter according to the operating mode determined in the state determining unit;
+an inverter controller that controls the DC/AC inverter according to the operating mode determined in the state determining unit; and
+a second converter controller that controls the second DC/DC converter according to the operating mode determined in the state determining unit.
+
+
+
+4. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 3, wherein the charging control unit controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter to charge the battery by using the photovoltaic energy from the solar cell in the first operating mode.
+
+
+5. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 4, wherein the charging control unit controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter to charge the battery by using the photovoltaic energy from the solar cell and the system voltage in the second operating mode.
+
+
+6. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 5, wherein the charging control unit controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter to charge the battery by using the system voltage in the third operating mode.
+
+
+7. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 6, wherein the charging control unit controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter to transfer the photovoltaic energy from the solar cell to the system in the fourth operating mode.
+
+
+8. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 7, wherein the first converter controller includes:
+a maximum power point tracking unit that tracks a predetermined maximum power point by using the PV output voltage and the PV current to generate a PV output voltage command value;
+a first voltage control unit that compensates for a predetermined PV output voltage control value by using error voltage between the PV output voltage command value from the maximum power point tracking unit and the PV detecting voltage Vpv; and
+a first converter PWM generator that generates a first converter PWM signal based on the PV output voltage control value compensated in the first voltage control unit.
+
+
+
+9. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 7, wherein the inverter controller includes:
+a system phase detector that detects the phase of the system voltage and generates the phase signal having the detected phase;
+a DC link voltage control unit that compensates for a predetermined DC link voltage control value by using error voltage between the DC link voltage and the predetermined DC link voltage command value;
+a signal converter that generates the AC command value by multiplying the DC link voltage control value compensated in the DC link voltage control unit by the phase signal of the system phase detector;
+a first current control unit that compensates for the predetermined AC control value by using the error current between the AC command value from the signal converter and the detected AC;
+a current feed-forward compensator that generates the phase signal based on a value generated by dividing the PV power determined by the PV voltage/current by the system voltage;
+a current compensator that compensates for the AC control value from the first current control unit in synchronization with the phase signal from the current feed-forward compensator; and
+an inverter PWM generator that generates the inverter PWM signal based on the AC control value compensated in the current compensator.
+
+
+
+10. The apparatus for charging and discharging the photovoltaic PCS integrated battery of claim 7, wherein the second converter controller includes:
+a voltage control unit that compensates for a predetermined battery current command value by using the error voltage between the battery voltage and the predetermined battery voltage command value;
+a current control unit that compensates for a predetermined battery current control value by using the error current between the battery current command value compensated in the voltage control unit and the detected battery current; and
+a second converter PWM generator that generates a second converter PWM signal by using the battery current control value compensated in the current control unit.
+
+
+
+11. A method for charging and discharging a photovoltaic PCS integrated battery applied to a system that includes a first DC/DC converter connected to a solar cell, a DC/AC inverter connected to a system, a DC link unit connected in common to an output terminal of the first DC/DC converter and an output terminal of the DC/AC inverter, and a second DC/DC converter having a bidirectional DC/DC conversion function connected between the DC rink unit and the battery, the method comprising:
+detecting step that detects PV voltage/current detected in a predetermined node, battery voltage/currentt, system voltage/current, and DC link voltage;
+a state determining step that determines any of predetermined first to fourth operating modes based on the amount of photovoltaic power and the connection or not of the battery by using the PV voltage/current and the battery voltage/current;
+a first control step that controls the charging of the battery by using the photovaltaic energy of the solar cell in the first operating mode;
+a second control step that controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter to charge the battery by using the photovoltaic energy of the solar cell and the voltage of the system in the second operating mode; and
+a third control step that controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter to charge the battery by using the voltage of the system in a third operating mode.
+
+
+
+12. The method for charging and discharging the photovoltaic PCS integrated battery of claim 11, further comprising a fourth control step that controls the first DC/DC converter, the DC/AC inverter, and the second DC/DC converter in order to transfer the photovoltaic energy of the solar cell to the system in the fourth operating mode.
+
+
+13. The method for charging and discharging the photovoltaic PCS integrated battery of claim 12, wherein the state determining step determines a first control mode when the power from the solar cell is higher than the charge amount needed in the battery in a state in which the battery is connected, based on the amount of photovoltaic power and the connection or not of the battery by using the PV voltage/current and the battery voltage/current,
+determines a second control mode when the power from the solar cell is not higher than the charge amount needed in the battery in the state in which the battery is connected,
+determines a third control mode when there is no power from the solar cell in the state in which the battery is connected, and
+determines a fourth operating mode in the state in which the battery is not connected
+
+
+
+14. The method for charging and discharging the photovoltaic PCS integrated battery of claim 13, wherein the first control step uses the DC/DC converter and the DC/AC inverter to control maximum power point tracking, DC link voltage and system link and control the current charging through the second DC/DC converter.
+
+
+15. The method for charging and discharging the photovoltaic PCS integrated battery of claim 14, wherein the second control step uses the DC/DC converter and the DC/AC inverter to control the maximum power point tracking, the DC link voltage, and the PWM converter and control the current charging through the second DC/DC converter.
+
+
+16. The method for charging and discharging the photovoltaic PCS integrated battery of claim 15, wherein the third control step stops the operation of the DC/DC converter and controls the current charging and the current discharging by using the DC/AC inverter and the second DC/DC converter.
+
+
+17. The method for charging and discharging the photovoltaic PCS integrated battery of claim 16, wherein the fourth control step uses the DC/DC converter and the DC/AC inverter to control the maximum power point tracking (MPPT), the DC link voltage and the system link and control the operation stop of the second DC/DC converter.
+
+
+18. The method for charging and discharging the photovoltaic PCS integrated battery of claim 17, wherein the process of controlling the first converter of the first to the fourth control steps includes:
+a maximum power point tracking step that performs the predetermined maximum power point tracking by using the PV output voltage and the PV current to generate the PV output voltage command value;
+a first voltage control step that compensates for the predetermined PV output voltage command value by using the error voltage between the PV output voltage command value from the maximum power point tracking step and the PV detecting voltage; and
+a first converter PWM generating step that generates the first converter PWM signal based on the PV output voltage control value compensated in the first voltage control step.
+
+
+
+19. The method for charging and discharging the photovoltaic PCS integrated battery of claim 17, wherein the process of controlling the inverter of the first to fourth control steps includes:
+a system phase detecting step that detects the phase of the system voltage and generates the phase signal having the detected phase;
+a DC link voltage control step that compensates for a predetermined DC link voltage control value by using error voltage between the DC link voltage and the predetermined DC link voltage command value;
+a signal converting step that generates the AC command value by multiplying the DC link voltage control value compensated in the DC link voltage control step by the phase signal of the system phase detector;
+a first current control step that compensates for the predetermined AC control value by using the error current between the AC command value from the signal converting step and the detected AC;
+a current feed-forward compensating step that generates the phase signal based on a value generated by dividing the PV power determined by the PV voltage/current by the system voltage;
+a current compensating step that compensates for the AC control value from the first current control step in synchronization with the phase signal from the current feed-forward compensating step, and
+an inverter PWM generating step that generates the inverter PWM signal based on the AC control value compensated in the current compensating step.
+
+
+
+20. The method for charging and discharging the photovoltaic PCS integrated battery of claim 17, wherein the process of controlling the second converter of the first to fourth control steps includes:
+a voltage control step that compensates for a predetermined battery current command value by using the error voltage between the battery voltage and the predetermined battery voltage command value;
+a current control step that compensates for a predetermined battery current control value by using the error current between the battery current command value compensated in the voltage control step and the detected battery current; and
+a second converter PWM generating step that generates a second converter PWM signal by using the battery current control value compensated in the current control step.
+
+

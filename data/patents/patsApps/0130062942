@@ -1,0 +1,79 @@
+
+An inverter system (1) for a photovoltaic solar installation for generating an AC voltage from a DC voltage of a solar generator (2) is provided which includes an additional energy storage device (38) which is arranged in an energy transfer path that can be activated when needed. A control arrangement (31, 39) for monitoring and controlling the operation of the inverter system (1) is designed to detect short-term energy peaks of the insolation at the solar generator and, upon a presence of insolation peaks, to activate the energy transfer path (36) in order to cause a transfer of energy from the solar generator (2) to the energy storage device (38). Also a method for the operation of an inverter system for a photovoltaic solar installation for the utilization of insolation peaks at the solar generator is disclosed
+
+
+
+1. Inverter system (1) for a photovoltaic solar installation for generating an AC voltage from a DC voltage of a solar generator (2), including;
+an intermediate circuit (3) which comprises DC voltage branches (8, 9) which are connectable to the solar generator (2) and at least one storage device (11, 12) which is arranged between the DC voltage branches (8, 9) for interim storage of energy of the solar generator (2);
+an inverter (4) connected to the intermediate circuit (3) for converting an intermediate circuit DC voltage present between the DC voltage branches (8, 9) to an inverter output side AC voltage;
+a selectively activatable energy transfer path (36) connected between the DC voltage branches (8, 9);
+an energy storage device (38) arranged in the energy transfer path (36) for receiving and storing energy;
+a control arrangement (31) for maintaining and controlling the operation of the inverter system (1), the control arrangement (31) for detecting at least one parameter which is characteristic of the momentary insolation energy at the solar generator (2) and for evaluating it for a determination whether this parameter exceeds a predeterminable limit value for activating the energy transfer path (36) for causing a transfer of energy from the solar generator (2) to the energy storage device (38).
+
+
+
+2. Inverter system according to claim 1, characterized in that inverter system (1) is arranged for a one or multi-phase feeding of energy into an AC voltage power supply network, in particular a public power supply network.
+
+
+3. Inverter system according to claim 1, characterized in that the inverter (4) is a transformer-less inverter with periodically switchable semi-conductor switching elements (16, 17) arranged in a bridge circuit.
+
+
+4. Inverter system according to claim 1, characterized in that the energy storage device (38) is arranged for accommodating for a short period of about 5 to about 90 seconds up to about 50% of the rated performance of the inverter (4).
+
+
+5. Inverter system according to claim 4, characterized in that the energy storage device (38) includes at least one super capacitor.
+
+
+6. Inverter system according to claim 1, characterized in that the energy storage device (38) further includes a voltage converter (39) for converting the voltage of the solar generator (2) to a voltage level suitable for use in connection with the energy storage device (38).
+
+
+7. Inverter system according to claim 1, characterized in that the energy transfer path (36) includes a switching means (37, 47, 48) which is activated or controlled by the control arrangement (31, 34) for selectively activating or deactivating the energy transfer path (36).
+
+
+8. Inverter system according to claim 1, characterized in that the control arrangement (31) includes a measuring arrangement (33) for detecting the momentary insolation energy and supplying corresponding characteristic values to the control arrangement (31) and the control arrangement (31) includes a comparison arrangement (41) for comparing the momentary insolation energy with a threshold value which is determinable as the limit value in order to determine whether insolation peak conditions are present, and if present, initiate an energy storage device (38).
+
+
+9. Inverter system according to claim 8, characterized in that the threshold value is an insolation value in the range of about 900 to about 1100 W/m2.
+
+
+10. Inverter system according to claim 8, characterized in that the limit value depends on the rated performance on the maximum performance of the inverter (4).
+
+
+11. Inverter system according to claim 1, characterized in that the control arrangement (31) is arranged for recognizing a full load of the inverter (4) by its output side maximum load and to then initiate an energy transfer to the energy storage device (38).
+
+
+12. Inverter system according to claim 1, characterized in that the control arrangement (31) includes a MPP-tracker arrangement (24) for determining a desired power output (Psoll) for the inverter and a limiting arrangement (27) for limiting the desired power output to a maximally admissible value (P*soll) and for initiating an energy transfer to the energy storage device (38), whenever the momentary desired power output value is larger then the maximally admissible value.
+
+
+13. Inverter system according to claim 1, characterized in that the control system (31) is arranged for determining based on parameters of the inverter system (1) and/or momentary ambient conditions of the inverter system (1), the amount of energy to be buffered and for initiating the storing of energy according to the amount of energy determined.
+
+
+14. Inverter system according to claim 1, characterized in that the control arrangement (31) is arranged for causing the energy storage device (38) to selectively transfer energy stored in the energy storage device (38) to the intermediate circuit (3) or, respectively, a consumer (46).
+
+
+15. Method for operating an inverter system (1) for a photovoltaic solar installation for generating an AC voltage from a DC voltage of a solar generator (2), including an intermediate circuit (3) which is connected to a solar generator and includes at least one storage device (11, 12) for an interim storage of energy of the solar generator and an inverter (4) connected to the intermediate circuit (3) for the conversion of an intermediate circuit DC voltage to an inverter output side AC voltage, wherein the method comprises the following steps:
+providing an energy storage device (38) which can be connected to the solar generator (2) for accommodating energy (S1),
+detecting conditions which or characteristic for the insolation conditions at the solar generator (S2), and in case the detected conditions characterized insolation peaks at the solar generator in excess of a predeterminable maximum insolation energy level (S3) initiating a controlled transfer of energy from the solar generator (2) to the energy storage device (38) for storing (S5) while the inverter (4) is operated at its rated or maximum performance.
+
+
+
+16. Method according to claim 15, characterized in that the method includes the following additional steps:
+detecting the momentary insolation energy level at the solar generator (2);
+determining on the basis of the detected momentary insolation energy level at the solar generator (2) and a predeterminable power reference value the energy amount to be transferred to the energy storage device (38); and,
+controlling the energy transfer to the energy storage device (38) in accordance with the determined energy amount to be transferred.
+
+
+
+17. Method according to claim 15, characterized in that the method includes the following additional steps:
+determining the momentary desired power output of the inverter (4);
+determining the maximum power output of the inverter (4) comparing the momentary desired power output with the maximum power output and in case the momentary desired power output exceeding the maximum power output, determining the energy amount to be transferred to the energy storage device (38) on the basis of the desired energy output and the maximum energy output and controlling the transfer of energy to the energy storage device (38) according to the energy amount to be transferred.
+
+
+
+18. Method according to claim 15, characterized in that the method includes the following additional steps:
+determining the momentary desired power output of the inverter (4);
+comparing the momentary desired power output with the rated power output of the inverter (4) and, in case, that the momentary desired power output is smaller than the control power output;
+connecting the energy storage device (38) to the intermediate circuit (31) and/or a consumer (46); and,
+controlling the energy transfer from the energy storage device (38) to the intermediate circuit (3) and/or a consumer (46).
+
+

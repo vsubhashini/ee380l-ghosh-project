@@ -1,0 +1,97 @@
+
+A method and system for monitoring a photovoltaic module. The method includes initiating a monitoring process for a photovoltaic module at a predetermined time. The photovoltaic module is connected to at least another module in a photovoltaic string as a part of a photovoltaic array. Additionally, the method includes measuring one or more parameters of the photovoltaic module by a monitoring circuit. The one or more parameters include a module current flowing through the photovoltaic module, a module voltage across the photovoltaic module, and a module temperature of the photovoltaic module. Also, the method includes collecting one or more measurement results of the one or more parameters, transmitting the one or more collected results using one or more radio-frequency signals, and processing information associated with the one or more transmitted results.
+
+
+
+1. A method for monitoring a photovoltaic module, the method comprising:
+initiating a monitoring process for a photovoltaic module at a predetermined time, the photovoltaic module being connected to at least another module in a photovoltaic string as a part of a photovoltaic array;
+measuring one or more parameters of the photovoltaic module by a monitoring circuit, the one or more parameters including a module current flowing through the photovoltaic module, a module voltage across the photovoltaic module, and a module temperature of the photovoltaic module;
+collecting one or more measurement results of the one or more parameters;
+transmitting the one or more collected results using one or more radio-frequency signals;
+processing information associated with the one or more transmitted results;
+determining a module status for the photovoltaic module based on at least information associated with the one or more transmitted results;
+making one or more adjustments with respect to the photovoltaic module based on at least information associated with the determined status;
+wherein the process for measuring one or more parameters of a photovoltaic module is performed without sunlight and includes providing a light to the photovoltaic module by a light source.
+
+
+
+2. The method of claim 1 wherein the process for collecting one or more measurement results of the one or more parameters is performed by at least one RFID chip, the RFID chip including the monitoring circuit and a radio-frequency antenna.
+
+
+3. The method of claim 2 wherein the process for transmitting the one or more collected results is performed by the radio-frequency antenna.
+
+
+4. The method of claim 1 wherein the process for transmitting the one or more collected results includes transmitting the one or more collected results to a plurality of inverters, the plurality of inverters corresponding to a plurality of photovoltaic strings of the photovoltaic array respectively, the plurality of photovoltaic strings including the photovoltaic string.
+
+
+5. The method of claim 1 wherein the process for transmitting the one or more collected results includes transmitting the one or more collected results to a mobile sensor.
+
+
+6. The method of claim 1 wherein the light source is mobile and directional.
+
+
+7. The method of claim 1 wherein the light is associated with a spectrum that is substantially the same as the solar spectrum.
+
+
+8. The method of claim 1 wherein the process for transmitting the one or more collected results includes transmitting the one or more collected results to a sensor, the sensor and the light source being located on a same mobile carrier.
+
+
+9. The method of claim 1 wherein the process for initiating a monitoring process for a photovoltaic module is performed at a plurality of predetermined times including the predetermined time.
+
+
+10. The method of claim 1 wherein the process for measuring one or more parameters of the photovoltaic module is performed repeatedly and continuously.
+
+
+11. A method for monitoring a photovoltaic module, the method comprising:
+initiating a monitoring process for a photovoltaic module at a predetermined time, the photovoltaic module being connected to at least another module in a photovoltaic string as a part of a photovoltaic array;
+measuring one or more parameters of the photovoltaic module by a monitoring circuit, the one or more parameters including a module current flowing through the photovoltaic module, a module voltage across the photovoltaic module, and a module temperature of the photovoltaic module;
+collecting one or more measurement results of the one or more parameters;
+transmitting the one or more collected results using one or more radio-frequency signals;
+processing information associated with the one or more transmitted results;
+determining a module status for the photovoltaic module based on at least information associated with the one or more transmitted results;
+making one or more adjustments with respect to the photovoltaic module based on at least information associated with the determined status;
+wherein the process for measuring one or more parameters of a photovoltaic module is performed with sunlight but without removing the photovoltaic module from the photovoltaic array.
+
+
+
+12. The method of claim 11 wherein the process for collecting one or more measurement results of the one or more parameters is performed by at least one RFID chip, the RFID chip including the monitoring circuit and a radio-frequency antenna.
+
+
+13. The method of claim 12 wherein the process for transmitting the one or more collected results is performed by the radio-frequency antenna.
+
+
+14. The method of claim 11 wherein the process for transmitting the one or more collected results includes transmitting the one or more collected results to a mobile sensor.
+
+
+15. A system for monitoring a photovoltaic array, the system comprising:
+a photovoltaic array including a plurality of photovoltaic strings;
+wherein:
+each of the plurality of photovoltaic strings includes a plurality of photovoltaic modules;
+each of the plurality of photovoltaic modules includes at least one edge connector; and
+the edge connector includes an RFID chip embedded in the edge connector;
+
+wherein:
+the RFID chip includes a monitoring circuit and a radio-frequency antenna;
+the monitoring circuit is configured to measure one or more parameters of a photovoltaic module, the one or more parameters including a module current flowing through the photovoltaic module, a module voltage across the photovoltaic module, and a module temperature of the photovoltaic module; and
+the radio-frequency antenna is configured to transmit one or more measurement results of the one or more measured parameters.
+
+
+
+
+16. The system of claim 15, and further comprising a light source configured to provide a light to the photovoltaic module.
+
+
+17. The system of claim 16 wherein the light source is mobile and directional.
+
+
+18. The system of claim 16 wherein the light is associated with a spectrum that is substantially the same as the solar spectrum.
+
+
+19. The system of claim 15 wherein the radio-frequency antenna is further configured to transmit the one or more measurement results of the one or more measured parameters to a plurality of inverters, the plurality of inverters corresponding to the plurality of photovoltaic strings of the photovoltaic array respectively.
+
+
+20. The system of claim 15 wherein the radio-frequency antenna is further configured to transmit the one or more measurement results of the one or more measured parameters to a mobile sensor.
+
+
+21. The system of claim 20 wherein the mobile sensor and the light source are located on a same mobile carrier. 
+

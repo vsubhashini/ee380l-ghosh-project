@@ -1,0 +1,71 @@
+
+A distributed power harvesting system including multiple direct current (DC) power sources with respective DC outputs adapted for interconnection into a interconnected DC power source output. A converter includes input terminals adapted for coupling to the interconnected DC power source output. A circuit loop sets the voltage and current at the input terminals of the converter according to predetermined criteria. A power conversion portion converts the power received at the input terminals to an output power at the output terminals. A power supplier is coupled to the output terminals. The power supplier includes a control part for maintaining the input to the power supplier at a predetermined value. The control part maintains the input voltage and/or input current to the power supplier at a predetermined value.
+
+
+
+1. A distributed power harvesting system comprising:
+a plurality of DC power sources with respective DC outputs adapted for interconnection into an interconnected DC power source output;
+a converter including input terminals adapted for coupling to said interconnected DC power source output, a circuit loop setting the voltage and current at the input terminals of the converter according to predetermined criteria, and a power conversion portion for converting the power received at the input terminals to an output power at the output terminals; and
+a power supplier coupled to the output terminals, the power supplier including a control part maintaining the input to the power supplier at a predetermined value.
+
+
+
+2. The distributed power harvesting system of claim 1, wherein the control part maintains the input voltage to the power supplier at a predetermined value.
+
+
+3. The distributed power harvesting system of claim 1, wherein the control part maintains the input current to the power supplier at a predetermined value.
+
+
+4. The distributed power harvesting system of claim 1, wherein the power supplier includes a DC/AC inverter.
+
+
+5. The distributed power harvesting system of claim 1, wherein the power supplier includes a battery charger.
+
+
+6. The distributed power harvesting system of claim 1, wherein the circuit loop includes an maximum power point tracking (MPPT) part setting the voltage and current at the input terminals of the converter to maximum power point of the interconnected DC power source output.
+
+
+7. The distributed power harvesting system of claim 6, wherein the power conversion portion comprises: a buck converter; a boost converter; a controller selectively activating either the buck converter or the boost converter in response to the MPPT part and current or voltage at the output terminals.
+
+
+8. The distributed power harvesting system of claim 7, wherein an inductor is shared by the buck converter and the boost converter, and the controller comprises a pulse-width modulation portion.
+
+
+9. The distributed power harvesting system of claim 1, wherein the control part comprises a shunt regulator coupled in parallel with the power supplier and regulating the input voltage to a preselected constant input voltage.
+
+
+10. The distributed power harvesting system of claim 1, wherein said DC power sources are selected from the group consisting of thin film solar panels, building integrated solar panels, fuel cells and batteries.
+
+
+11. The distributed power harvesting system of claim 1, wherein said converter further includes a safety module limiting the interconnected DC power source output to a preset safe value until a predetermined event has occurred.
+
+
+12. The distributed power harvesting system of claim 11, wherein the predetermined event comprises one of a load above a preset threshold is applied to the converter or a release signal has been detected.
+
+
+13. The distributed power harvesting system of claim 1, wherein said converter further includes a monitoring module adapted to monitoring and transmitting status related data, the status related data including at least one of: an input current to the converter, an input voltage to the converter, a temperature of the power source, an input power to the converter, and an available illumination.
+
+
+14. A junction box adapted for electrical connections to a solar panel the junction box comprising:
+at least one input connector adapted for inputting DC power respectively from at least one other solar panel;
+a mechanism for internally connecting between the solar panel and said at least one other solar panel, thereby producing an interconnected DC power source; and
+an output connector adapted for outputting power from said interconnected DC power source, said power sourced from said solar panel and said at least one other solar panel.
+
+
+
+15. The junction box of claim 14, further comprising an attachment mechanism to selectably either the solar panel or to a frame.
+
+
+16. The junction box of claim 14, further comprising:
+a converter including input terminals adapted for coupling to said interconnected DC power source, a circuit loop setting the voltage and current at the input terminals of the converter according to predetermined criteria, and a power conversion portion for converting the power received at the input terminals to an output power at the output terminals, wherein said input terminals operatively connect to said input connector and said output terminals operatively connect to said output connector.
+
+
+
+17. The junction box of claim 14, further comprising a surface adapted for adhering to the back surface of the solar panel.
+
+
+18. The junction box of claim 14 wherein said at least one other solar panel is one other solar panel.
+
+
+19. The junction box of claim 14, wherein said at least one other solar panel is four other solar panels. 
+

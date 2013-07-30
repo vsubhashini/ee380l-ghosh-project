@@ -1,0 +1,121 @@
+
+A method of determining usable area of a structure for solar energy production may include obtaining a three-dimensional model of a structure and obstructions associated therewith, and performing a shading analysis using the obtained three-dimensional model to obtain a usable area of the structure. A method of providing solar information for a structure using a Web portal may include providing an interactive map, receiving a user selection of a structure located on the interactive map, and providing solar information for the selected structure, wherein the solar information is based at least in part on a usable area obtained by performing a shading analysis using a three-dimensional model of the structure and obstructions associated therewith. A system for providing an interactive Web portal may include a database including solar information regarding a structure, and a server configured to access the database to retrieve the solar information and provide the Web portal.
+
+
+
+1. A method of determining usable area of a structure for solar energy production, the method comprising:
+obtaining a three-dimensional model of a structure and obstructions associated therewith; and
+performing a shading analysis using the obtained three-dimensional model to obtain a usable area of the structure.
+
+
+
+2. The method of claim 1, further comprising calculating a solar energy potential for the structure based on the obtained usable area.
+
+
+3. The method of claim 1, wherein obtaining the three-dimensional model comprises obtaining three-dimensional data from stereo photography.
+
+
+4. The method of claim 1, wherein performing the shading analysis comprises performing a time series analysis with a plurality of snapshot images of the structure and obstructions for a corresponding plurality of sun positions.
+
+
+5. The method of claim 4, wherein performing the shading analysis further comprises determining usable area on a per pixel basis.
+
+
+6. The method of claim 5, wherein performing the time series analysis comprises, for each pixel in each snapshot image, determining whether the pixel receives sunlight.
+
+
+7. The method of claim 6, wherein performing the time series analysis further comprises, at least for each pixel that receives sunlight, determining a total number of images in which the pixel receives sunlight.
+
+
+8. The method of claim 7, wherein performing the shading analysis further comprises:
+at least for each pixel that receives sunlight, comparing the total number to a threshold value;
+determining a number of pixels for which the total number exceeds the threshold; and
+determining the usable area based on the determined number of pixels.
+
+
+
+9. A method of providing solar information for a structure using a Web portal, the method comprising:
+providing an interactive map;
+receiving a user selection of a structure located on the interactive map; and
+providing solar information for the selected structure, wherein the solar information is based at least in part on a usable area obtained by performing a shading analysis using a three-dimensional model of the structure and obstructions associated therewith.
+
+
+
+10. The method of claim 9, wherein the solar information provided comprises at least one of solar energy potential, electricity production potential, economic savings potential, electricity savings potential, and amount of potential reduction in carbon dioxide production for the selected structure.
+
+
+11. The method of claim 9, wherein the solar information provided comprises an identified threshold for the usable area.
+
+
+12. The method of claim 9, wherein the solar information provided comprises at least one of return on investment and cost options for solar installation on the selected structure.
+
+
+13. The method of claim 9, wherein receiving a user selection comprises receiving an address input by a user.
+
+
+14. The method of claim 13, further comprising marking the location corresponding to the address on the interactive map.
+
+
+15. The method of claim 9, further comprising graphically displaying the usable area on the selected structure.
+
+
+16. The method of claim 9, wherein the solar information for the selected structure is stored in a database, and providing the solar information comprises accessing the database.
+
+
+17. A system for providing an interactive Web portal, the system comprising:
+a database including solar information regarding at least one structure; and
+a server configured to provide a Web portal including an interactive map to a client device, configured to receive a selection of the at least one structure located on the interactive map from the client device, configured to access the database to retrieve the solar information regarding the at least one structure based on the selection of the at least one structure, and configured to provide the retrieved solar information to the client device.
+
+
+
+18. The system of claim 17, wherein the server is configured to receive the selection as an address input by a user of the client device.
+
+
+19. The system of claim 17, wherein the solar information included in the database is based at least in part on a usable area obtained by performing a shading analysis using a three-dimensional model of the structure and obstructions associated therewith.
+
+
+20. The system of claim 17, wherein the solar information included in the database comprises a usable area obtained by performing a shading analysis using a three-dimensional model of the structure and obstructions associated therewith.
+
+
+21. The system of claim 20, wherein the server is configured to calculate solar information regarding the at least one structure based at least in part on the usable area retrieved from the database and to provide the calculated solar information to the client device.
+
+
+22. A method of solar mapping using a Web portal, the method comprising:
+providing an interactive map;
+receiving a user selection of a location on the interactive map; and
+providing an estimate of at least one of solar energy potential, economic savings potential, electricity savings potential, and amount of potential reduction in carbon dioxide production for the selected location.
+
+
+
+23. The method of claim 22, wherein receiving a user selection comprises receiving an address input by a user.
+
+
+24. The method of claim 23, further comprising displaying a location of at least one existing solar installation.
+
+
+25. The method of claim 24, further comprising displaying information regarding the existing solar installation upon receiving a user selection of the location of the existing solar installation.
+
+
+26. The method of claim 22, further comprising displaying at least one of a total number of existing solar installations displayed on the interactive map, a combined amount of energy production for existing solar installations displayed on the interactive map, a combined amount of economic savings for existing solar installations displayed on the interactive map, a combined amount of electricity savings for existing solar installations displayed on the interactive map, and a combined amount of reduction in carbon dioxide production for existing solar installations displayed on the interactive map.
+
+
+27. The method of claim 22, further comprising displaying a goal of at least one of a total number of existing solar installations displayed on the interactive map, a combined amount of energy production for existing solar installations displayed on the interactive map, a combined amount of economic savings for existing solar installations displayed on the interactive map, a combined amount of electricity savings for existing solar installations displayed on the interactive map, and a combined amount of reduction in carbon dioxide production for existing solar installations displayed on the interactive map.
+
+
+28. The method of claim 27, further comprising displaying progress toward the displayed goal.
+
+
+29. The method of claim 22, further comprising providing a link to information regarding at least one solar installer local to the selected location.
+
+
+30. The method of claim 22, further comprising providing a link to a website that provides a more detailed estimate of at least one of solar energy potential, electricity production potential, economic savings potential, electricity savings potential, and amount of potential reduction in carbon dioxide production for the selected location.
+
+
+31. The method of claim 22, further comprising providing a link to information regarding solar installation.
+
+
+32. The method of claim 22, further comprising providing a link to information regarding how the at least one estimate was derived.
+
+
+33. The method of claim 22, wherein the interactive map is of at least one of a municipality, a township, a county, a state, a province, a territory and a country.
+

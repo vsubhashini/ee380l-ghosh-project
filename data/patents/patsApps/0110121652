@@ -1,0 +1,91 @@
+
+A method of signaling between a photovoltaic module and an inverter module. The inverter module is connected to the photovoltaic module. In an initial mode of operation an initial code is modulated thereby producing an initial signal. The initial signal is transmitted from the inverter module to the photovoltaic module. The initial signal is received by the photovoltaic module. The operating mode is then changed to a normal mode of power conversion, and during the normal mode of operation a control signal is transmitted from the inverter to the photovoltaic module. A control code is demodulated and received from the control signal. The control code is compared with the initial code producing a comparison. The control command of the control signal is validated as a valid control command from the inverter module with the control command only acted upon when the comparison is a positive comparison.
+
+
+
+1. A method of signaling between a photovoltaic module and an inverter module, wherein said inverter module is connectible to the photovoltaic module, the method comprising:
+in an initial mode of operation:
+modulating an initial code thereby producing an initial signal;
+transmitting said initial signal from the inverter module to the photovoltaic module;
+receiving said initial signal by the photovoltaic module;
+changing operating mode to a normal mode of power conversion, and during said normal mode of operation:
+transmitting a control signal from the inverter to the photovoltaic module;
+demodulating and receiving a control code from the control signal;
+comparing said control code with said initial code producing a comparison; and
+validating the control command of said control signal as a valid control command from the inverter module and acting upon said control command only upon said comparison being a positive comparison.
+
+
+
+2. The method of claim 1, further comprising:
+current limiting output of photovoltaic modules during said initial mode of operation.
+
+
+
+3. The method of claim 1, further comprising:
+saving said initial code in a memory.
+
+
+
+4. The method of claim 1, wherein said modulating said code is performed by varying input impedance of the inverter module to produce a variation in voltage or current at the output of the photovoltaic module.
+
+
+5. The method of claim 4, further comprising:
+sensing by the photovoltaic module said variation.
+
+
+
+6. The method of claim 4, further comprising;
+measuring respective signal strengths of said initial signal and control signal;
+comparing said signal strengths to produce a comparison result; and
+upon said comparison result being greater than a previously stored threshold value then performing at least one action selected from the group consisting of setting an alarm or invalidating said control command.
+
+
+
+7. The method of claim 6, further comprising:
+filtering out fluctuations prior to said measuring the signal strength.
+
+
+
+8. The method of claim 4, further comprising:
+storing electrical energy for supplying power for said varying and said sensing.
+
+
+
+9. A photovoltaic generation system comprising:
+a photovoltaic module including a first transceiver operatively connected to said DC power line;
+a load module connected to said DC power line, said load module including a second transceiver operatively connected to said DC power line;
+a pairing mechanism between said first and second transceivers; and
+a signaling mechanism between said first and second transceivers which based on said pairing mechanism excludes another photovoltaic module or another load module in the photovoltaic generation system from signaling with either said photovoltaic module or said load module.
+
+
+
+10. The system of claim 9, further comprising:
+a charge storage device included within said photovoltaic module adapted to store charge and supply power to said photovoltaic module.
+
+
+
+11. The system of claim 9, further comprising:
+a second photovoltaic module attached to said photovoltaic module;
+a second signaling mechanism adapted to signal between said photovoltaic module and said second photovoltaic module.
+
+
+
+12. The system of claim 11, wherein said signaling mechanism is configured to signal controls to said second photovoltaic module by relaying commands through said second signal mechanism.
+
+
+13. The system of claim 11, wherein said signaling mechanism is configured to monitor said second photovoltaic module by receiving telemetries through said second signal mechanism.
+
+
+14. The system of claim 9, further comprising:
+a transducer operatively connected to said DC power line and said first transceiver to modulate a signal onto said power line; and
+a sensor operatively connected to said DC power line and said second transceiver to demodulate the signal from said DC power line.
+
+
+
+15. The system of claim 14, wherein in an initial mode of operation, an initial signal from said load module is transmitted to said photovoltaic module and an initial code is demodulated by said photovoltaic module and wherein subsequently in a normal mode of operation said initial code is used to validate a control command from said load module.
+
+
+16. The system of claim 15, further comprising:
+a memory included within said photovoltaic module, said memory adapted to store said initial code.
+
+

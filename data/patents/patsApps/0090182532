@@ -1,0 +1,76 @@
+
+The invention relates to a monitoring unit for photovoltaic modules, wherein the modules are designed for a direct conversion of radiation energy, such as e.g. solar energy, into electric energy, and the system is designed function monitored, wherein each photovoltaic module (1-3) has assigned to it its own monitoring unit (4-6; 15, 16; 28) and all monitoring units are centrally monitored and documented by a control computer.
+
+
+
+1. A monitoring unit for photovoltaic modules, wherein the modules are designed for a direct conversion of radiation energy into electric energy, and the system is designed function monitored, wherein each photovoltaic module (1-3) has assigned to it its own monitoring unit (4-6; 15, 16; 28) and all monitoring units are centrally monitored and documented by a control computer.
+
+
+2. A monitoring unit for photovoltaic modules, wherein the modules are designed for a direct conversion of radiation energy into electric energy and the system is designed function monitored, wherein the monitoring unit, which is designed as a function module (14, 15), is disposed in a separate junction box (28) that is affixed on the panel of the photovoltaic module (1-3) and, in turn, connected to the junction box (4-6) of the module.
+
+
+3. A monitoring unit according to claim 1, wherein each photovoltaic module (1-3) has individually assigned to it its own function module (14, 15) for monitoring and control of the functions, so that when a photovoltaic module is replaced the function module (14, 15) that is provided in the junction box (4-6; 28) is replaced individually along with it.
+
+
+4. A monitoring unit according to claim 1, wherein, disposed on the front of the photovoltaic module (1, 2, 3) are a multitude of solar cells (10) that are connected together via strings, wherein on a connector (13) provided in the junction box (4, 5, 6) a junction is created via a line (7) to the series connection of the adjoining photovoltaic module (1, 2, 3).
+
+
+5. A monitoring unit according to claim 1, wherein the junction box (4, 5, 6) is disposed on the back of the photovoltaic module (1, 2, 3) and designed watertight and has a connection PCB (14) and a function module PCB (15), wherein strings that are arranged on the connection PCB (14) are connected together via ribbon contact points (11) that are isolated from each other by means of bypass diodes (12) and guarantee a continued flow of current if one string fails.
+
+
+6. A monitoring unit according to claim 1, wherein the function monitoring module (17 to 20) is designed as a switch-off module (17), and/or as a temperature module (18), and/or as an output module (19), and/or as a position sensor (20), wherein a radio interface (22) creates a wireless data transmission to a central control computer (26).
+
+
+7. A monitoring unit according to claim 1, characterized wherein the function module PCB (15) has a microprocessor (16) that is supplied with electric power by the photovoltaic module (1, 2, 3) itself, or in case of an absent supply voltage due to an absence of incoming solar radiation, by a provided battery buffer (21), wherein the microprocessor (16) activates a switch-off module (17) provided on the function module PCB (15) that switches off the photovoltaic module (1, 2, 3) in case of a fire or in case of a temperature overload while maintaining the series connection to adjoining photovoltaic modules.
+
+
+8. A monitoring unit according to claim 1, wherein the function module PCB (15) has an output module (19) that monitors the current and voltage of the respective photovoltaic module (1, 2, 3) and in case of a reduced output switches it off via the switch-off module (17) so as to maintain the net voltage and the resistance, wherein the output module (19) registers the sum of the strings that are arranged on the module (1, 2, 3).
+
+
+9. A monitoring unit according to claim 1, wherein the function module PCB (15) has a position sensor (20) that, in case of a change in position, and/or in case of vibrations, and/or in case of a destruction of the photovoltaic module (1, 2, 3), activates the microprocessor (16), which transmits a radio command over the provided radio interface (22) to the control computer (26).
+
+
+10. A monitoring unit according to claim 1, wherein the control computer (26) has a monitoring and documentation software that individually monitors the photovoltaic modules (1, 2, 3), wherein the monitoring times and monitoring data are routed to a central analysis (27), analyzed and displayed, whereby any need to replace a photovoltaic module (1, 2, 3) is detected.
+
+
+11. A monitoring unit according to claim 1, wherein a radio interface (22) creates, by means of antennas (23), a wireless transmission over a radio transmission path (24), wherein each photovoltaic module (1, 2, 3) has assigned to it a unique address whereby an identification of the location of the photovoltaic module (1, 2, 3) and access to the same is provided.
+
+
+12. A monitoring unit according to claim 1, wherein the function monitoring modules (16 through 22) of the photovoltaic module (1, 2, 3) that are disposed in the junction box (4, 5, 6) are designed retrofittable and assigned to a monitoring unit that is centrally monitored, controlled and documented by a control computer (26).
+
+
+13. A monitoring unit according to claim 1, wherein the connection of the function module (14, 15) is made in a separate junction box (28) that is connected to the module (1-3) and that is connected on the primary side by means of a connecting cable (30) to the junction box (4) on the module side, and on the secondary side by means of a connecting cable (29) to the connector of the downstream module and junction box (28) provided there.
+
+
+14. A monitoring unit according to claim 3, wherein each photovoltaic module (1-3) has individually assigned to it its own function module (14, 15) for monitoring and control of the functions, so that when a photovoltaic module is replaced the function module (14, 15) that is provided in the junction box (4-6; 28) is replaced individually along with it.
+
+
+15. A monitoring unit according to claim 2, wherein, disposed on the front of the photovoltaic module (1, 2, 3) are a multitude of solar cells (10) that are connected together via strings, wherein on a connector (13) provided in the junction box (4, 5, 6) a junction is created via a line (7) to the series connection of the adjoining photovoltaic module (1, 2, 3).
+
+
+16. A monitoring unit according to claim 2, wherein the junction box (4, 5, 6) is disposed on the back of the photovoltaic module (1, 2, 3) and designed watertight and has a connection PCB (14) and a function module PCB (15), wherein strings that are arranged on the connection PCB (14) are connected together via ribbon contact points (11) that are isolated from each other by means of bypass diodes (12) and guarantee a continued flow of current if one string fails.
+
+
+17. A monitoring unit according to claim 2, wherein the function monitoring module (17 to 20) is designed as a switch-off module (17), and/or as a temperature module (18), and/or as an output module (19), and/or as a position sensor (20), wherein a radio interface (22) creates a wireless data transmission to a central control computer (26).
+
+
+18. A monitoring unit according to claim 2, wherein the function module PCB (15) has a microprocessor (16) that is supplied with electric power by the photovoltaic module (1, 2, 3) itself, or in case of an absent supply voltage due to an absence of incoming solar radiation, by a provided battery buffer (21), wherein the microprocessor (16) activates a switch-off module (17) provided on the function module PCB (15) that switches off the photovoltaic module (1, 2, 3) in case of a fire or in case of a temperature overload while maintaining the series connection to adjoining photovoltaic modules.
+
+
+19. A monitoring unit according to claim 2, wherein the function module PCB (15) has an output module (19) that monitors the current and voltage of the respective photovoltaic module (1, 2, 3) and in case of a reduced output switches it off via the switch-off module (17) so as to maintain the net voltage and the resistance, wherein the output module (19) registers the sum of the strings that are arranged on the module (1, 2, 3).
+
+
+20. A monitoring unit according to claim 2, wherein the function module PCB (15) has a position sensor (20) that, in case of a change in position, and/or in case of vibrations, and/or in case of a destruction of the photovoltaic module (1, 2, 3), activates the microprocessor (16), which transmits a radio command over the provided radio interface (22) to the control computer (26).
+
+
+21. A monitoring unit according to claim 2, wherein the control computer (26) has a monitoring and documentation software that individually monitors the photovoltaic modules (1, 2, 3), wherein the monitoring times and monitoring data are routed to a central analysis (27), analyzed and displayed, whereby any need to replace a photovoltaic module (1, 2, 3) is detected.
+
+
+22. A monitoring unit according to claim 2, wherein a radio interface (22) creates, by means of antennas (23), a wireless transmission over a radio transmission path (24), wherein each photovoltaic module (1, 2, 3) has assigned to it a unique address whereby an identification of the location of the photovoltaic module (1, 2, 3) and access to the same is provided.
+
+
+23. A monitoring unit according to claim 2, wherein the function monitoring modules (16 through 22) of the photovoltaic module (1, 2, 3) that are disposed in the junction box (4, 5, 6) are designed retrofittable and assigned to a monitoring unit that is centrally monitored, controlled and documented by a control computer (26).
+
+
+24. A monitoring unit according to claim 2, wherein the connection of the function module (14, 15) is made in a separate junction box (28) that is connected to the module (1-3) and that is connected on the primary side by means of a connecting cable (30) to the junction box (4) on the module side, and on the secondary side by means of a connecting cable (29) to the connector of the downstream module and junction box (28) provided there.
+

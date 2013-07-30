@@ -1,0 +1,115 @@
+
+Various methods and apparatus are described for a photovoltaic system. In an embodiment, pluralities of three-phase Alternating Current (AC) inverter circuits electrically connect into a common three phase AC output. Each of those inverters receives a bipolar DC voltage supplied from its own set of Concentrated PhotoVoltaic (CPV) modules.
+
+
+
+1. An apparatus for a photovoltaic system, comprising:
+a plurality of three-phase Alternating Current (AC) inverter circuits electrically connecting into a common three phase AC output, where each inverter receives a bipolar DC voltage supplied from its own set of Concentrated PhotoVoltaic (CPV) modules.
+
+
+
+2. The apparatus for a photovoltaic system of claim 1, further comprising:
+a first inverter circuit of the plurality of three-phase AC inverter circuits; and
+a second inverter circuit, where a first string of CPV cells all from the East side of a solar array feeds the first inverter circuit, and a second string of CPV cells all from the West side of the solar array feeds a second inverter circuit, and this grouping of similarly shaded modules into the same string of CPV cells feeding a particular inverter tends to allow a more narrow input working voltage into that three-phase AC inverter circuit, which avoids a DC-to-DC boost stage requirement between the input DC voltage circuit portion and the AC conversion portion in that three-phase AC inverter circuit.
+
+
+
+3. The apparatus for a photovoltaic system of claim 1, further comprising:
+a single stage DC-to-AC voltage conversion circuitry containing the plurality of three phase AC inverter circuits electrically connecting into the common three-phase AC output, where the three-phase AC inverter circuitry has no need for supplemental input DC voltage level boosting strategies, including a DC input boost stage to increase the DC input voltage level to a higher DC voltage level for the DC to AC conversion, because the supplied bipolar DC input voltage level from the set of CPV modules is high enough to directly convert to the AC working voltage level, and provides a three-phase 480 VAC output voltage level from the inverter circuit without the DC input boost stage or a step up transformer after the inverter portion.
+
+
+
+4. The apparatus for a photovoltaic system of claim 1, further comprising:
+a first solar array with CPV cells on the East and West side of the solar array contained in the CPV modules supplying the bipolar DC voltage to the plurality of three-phase AC inverters, and these two or more three-phase AC inverters per this single solar array account for voltage differences coming out of the set of CPV modules on the East side of the solar array and the voltage coming out of the set of CPV modules on the West side of the solar array, which allows a first three phase AC inverter connected to the set of CPV modules on the East side to operate at the bipolar DC input voltage level coming from the East side independent of what bipolar DC input voltage level is being produced and supplied by the set of CPV modules on the West side to a second three phase AC inverter, and vice versa.
+
+
+
+5. The apparatus for a photovoltaic system of claim 1, further comprising:
+a plurality of CPV cells are contained and connected electrically in series in each module in the set of CPV modules and enough are connected electrically in series in a string of CPV cells from the set of modules to allow the bipolar DC voltage level from the CPV modules to allow the bipolar DC input voltage level from the CPV string of cells to be high enough to directly convert the DC voltage to the working AC voltage level but lower than a maximum DC voltage limit set by the National Electric Code.
+
+
+
+6. The apparatus for a photovoltaic system of claim 5, further comprising:
+an input DC grounding circuit located in each inverter circuit that electrically couples to the strings of CPV cells from the solar array, where the electrical components in the input DC Grounding Circuit cause the DC power from that strings of CPV cells to be connected to ground when the inverter circuit is not producing three phase AC power out and the electrical components in the input DC Grounding circuit also use 1) a contact 2) switch or 3) both to create a dynamic ground/common zero VDC reference point for the bipolar DC voltage supplied to that inverter from its set of CPV modules.
+
+
+
+7. The apparatus for a photovoltaic system of claim 5, further comprising:
+a voltage level detection circuit monitoring the input bipolar DC input voltage level to one or more of the three phase AC inverter circuits;
+one or more switching devices; and
+where two or more sets of CPV modules are electrically strung together to supply the bipolar DC input voltage to a particular three phase AC inverter circuit, where a first switching device may actuate, by electrically opening a contact or switch, closing a contact or switch, by the first switching device starting to conduct, and any combination of the three, to create an electrically parallel path around one or more of the sets of the CPV modules to effectively bypass that series of CPV modules for that inverter, and by the voltage level detection circuit monitoring the input bipolar DC input voltage level, a staggering of an amount of CPV modules supplying bipolar DC voltage level to that inverter is controlled by the operation of the one or more switching devices, where less than all of the sets of CPV modules electrically connecting to the particular three phase AC inverter circuit initially contribute to the input bipolar DC voltage supplied to that particular three phase AC inverter circuit to ensure that at all times a maximum DC voltage input level into the inverter is below the NEC limit.
+
+
+
+8. The apparatus for a photovoltaic system of claim 1, where the three phase AC inverter circuits are each contained in their own sub assembly with connections that are easily coupled to or slid into the electrical connections making replacement, troubleshooting, and servicing easier, and where a single solar array containing the sets of CPV modules that supply the DC power to the plurality of inverter circuits.
+
+
+9. The apparatus for a photovoltaic system of claim 5, wherein wiring is installed and connections are made between the CPV cells in each CPV module in the manufacturing facility itself, which eliminates individually wiring each of the hundreds of CPV solar cells in each solar array during the field installation of the solar array, where the CPV solar cells in each module are wired in an electrically series-parallel arrangement.
+
+
+10. The apparatus for a photovoltaic system of claim 1, further comprising:
+a plurality of CPV cells are contained and connected electrically in series in each module in the set of CPV modules; and
+a bypass diode exist on each individual CPV solar cell and is electrically in parallel with that individual CPV solar cell so when that cell is being shaded or fails, the electrically series connected CPV solar cell in that CPV string does not act as a load to significantly knock down a DC voltage output from that CPV module.
+
+
+
+11. The apparatus for a photovoltaic system of claim 1, further comprising:
+a plurality of CPV cells are contained and connected electrically in series in the set of CPV modules to form a string of CPV cells, where multiple strings of CPV cells are formed and organized coming from a solar array to the plurality of three-phase AC inverter circuits; and
+multiple Maximum Power Point Tracking sense circuits control the CPV cells in the solar array, each Maximum Power Point Tracking sense circuit controls the DC power associated with its own string of CPV cells that are configured to operate over a wide temperature range from −25 degree C. to +55 degree C., with a DC voltage operating window of 450 VDC up to 600 VDC to maximize the power coming out of that string, and where the CPV solar cells are multi-junction solar cells.
+
+
+
+12. The apparatus for a photovoltaic system of claim 1, further comprising:
+a controller to control the gating of a space vector modulated bridge switching circuit in a first inverter of the plurality of three phase AC inverter circuits; and
+Frequency and Voltage synchronization signals and wiring between the plurality of three phase AC inverter circuits feeding the common AC output to make sure the multiple inverter circuits generate the same AC voltage level and at the same frequency, and with synchronized phases of AC.
+
+
+
+13. The apparatus for a photovoltaic system of claim 1, further comprising:
+a plurality of CPV cells are contained and connected electrically in series in the set of CPV modules to form two or more strings of CPV cells, where each string of CPV cells is controlled by its own Maximum Power Point Tracking sense circuit in the three phase AC inverter circuit; and
+feedback circuitry in the inverter circuitry is configured for use between the MPPT sense circuitry in the inverter and a solar tracking calibration algorithm for the solar array, where after each movement of the solar array for each calibration point, then a signal is sent to the MPPT sense circuit for each string of CPV cells supplying power from that solar array to reestablish the Maximum Power Point for that particular string, and when the MPPT sense circuits for all of the strings supplying power to those multiple inverters report back that they have completed their MPPT functionality to establish the Maximum Power Point for that particular string, then a signal is sent to the solar tracking calibration algorithm to go ahead and determine the power coming out of this solar array for that coordinate position.
+
+
+
+14. The apparatus for a photovoltaic system of claim 1, wherein two or more of the plurality of three phase AC inverter circuits have a pulse modulated switching circuit that generates a continuous three-phase power that avoids any need for a large capacitance value electrolytic capacitors and uses film based capacitors instead due to an overall lower need for capacitance in the three phase AC inverter circuitry.
+
+
+15. The apparatus for a photovoltaic system of claim 1, further comprising:
+a first solar array with CPV cells on the East and West side of the solar array contained in the CPV modules supplying the bipolar DC voltage to the plurality of three-phase AC inverters; and
+one or more Maximum Power Point Tracking sense circuits are associated with each three phase AC inverter circuit, where each inverter has its own MPPT sense circuit per string of CPV cells electrically coupling to that inverter to maximize the DC power coming from the string of CPV cells contained in the CPV modules, where a first MPPT sense circuit maximizes the DC power coming from a first string of CPV cells located exclusively on the East side of the solar array, and a second MPPT sense circuit maximizes the DC power coming from a second string of CPV cells located exclusively on the West side of the solar array.
+
+
+
+16. A method for a photovoltaic system, comprising:
+supplying a first bipolar DC voltage from a first set of Concentrated PhotoVoltaic (CPV) modules in a solar array to a first three-phase Alternating Current (AC) inverter circuit;
+supplying a second bipolar DC voltage from a second set of CPV modules in the solar array to a second three-phase AC inverter circuit; and
+supplying the AC output of the first and second three-phase AC inverter circuits into a common three phase AC output, which is supplied to the Utility Power grid.
+
+
+
+17. The method for a photovoltaic system of claim 16, further comprising:
+supplying the first and second bipolar DC input voltage levels from the sets of CPV modules at a high enough level to directly convert this DC input voltage level to an AC working voltage level coming out of the three-phase AC inverter circuits; and
+where a first string of CPV cells all from the East side of a solar array feeds the first three-phase AC inverter circuit, and a second string of CPV cells all from the West side of the solar array feeds a second inverter circuit, and this grouping of similarly shaded modules into the same string of CPV cells feeding a particular inverter tends to allow a more narrow input working voltage into that three-phase AC inverter circuit, which avoids a DC-to-DC boost stage requirement between the input DC voltage circuit portion and the AC conversion portion in that three-phase AC inverter circuit.
+
+
+
+18. The method for a photovoltaic system of claim 16, further comprising:
+supplying the first and second bipolar DC input voltage levels from the sets of CPV modules at a high enough level to directly convert this DC input voltage level to an AC working voltage level coming out of the three-phase AC inverter circuits but at a level lower than a maximum DC voltage limit set by the National Electric Code;
+operating the first three-phase AC inverter circuit at the first bipolar DC input voltage level; and
+operating the second three-phase AC inverter circuit at the second bipolar DC input voltage level independent of what bipolar DC input voltage level is being produced and supplied by the first bipolar DC input voltage level even though the first and second three-phase AC inverter circuits feed the common three phase AC output.
+
+
+
+19. The method for a photovoltaic system of claim 16, further comprising:
+monitoring the input bipolar DC input voltage level to the first three phase AC inverter circuit; and
+where two or more sets of CPV modules are electrically strung together to supply the bipolar DC input voltage to a particular three phase AC inverter circuit, where a first switching device may actuate, by electrically opening a contact or switch, closing a contact or switch, by the first switching device starting to conduct, and any combination of the three, to create an electrically parallel path around one or more of the sets of the CPV modules to effectively bypass a series of CPV modules for that inverter, and by monitoring the input bipolar DC input voltage level, a staggering of an amount of CPV modules supplying bipolar DC voltage level to the first three phase AC inverter is controlled by the operation of the one or more switching devices, where less than all of the sets of CPV modules electrically connecting to the particular three phase AC inverter circuit initially contribute to the input bipolar DC voltage supplied to that particular three phase AC inverter circuit to ensure that at all times a maximum DC voltage input level into the inverter is below the NEC limit.
+
+
+
+20. The method for a photovoltaic system of claim 16, further comprising:
+controlling a gating of a bridge switching circuit in the first three-phase AC inverter circuit;
+supplying frequency and voltage synchronization signals between the first and second three phase AC inverter circuit feeding the common AC output to make sure the multiple inverter circuits generate the same AC voltage level and at the same frequency, and with synchronized phases of AC;
+controlling a plurality of CPV cells connected electrically in series to form a first string of CPV cells supplying the first bipolar DC voltage with a first Maximum Power Point Tracking sense circuit associated with the first three phase AC inverter circuit; and
+supplying feedback between the first MPPT sense circuitry in the inverter and a solar tracking calibration algorithm for the solar array, where after each movement of the solar array for each calibration point, then a signal is sent to the MPPT sense circuit for each string of CPV cells supplying power from that solar array to reestablish the Maximum Power Point for that particular string, and when the MPPT sense circuits for all of the strings supplying power to those multiple inverters report back that they have completed their MPPT functionality to establish the Maximum Power Point for that particular string, then a signal is sent to the solar tracking calibration algorithm to go ahead and determine the power coming out of this solar array for that coordinate position.
+
+

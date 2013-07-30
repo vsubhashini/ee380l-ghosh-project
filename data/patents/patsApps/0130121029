@@ -1,0 +1,92 @@
+
+The invention relates to a process of connecting an AC output of a transformerless inverter of a solar power plant to an internal AC power grid at an input side of a galvanic isolation, while an offset voltage for shifting a potential center point of a photovoltaic generator connected to the inverter is applied. The process includes: (i) synchronizing the inverter with the power grid; (ii) essentially matching a potential center point of the current-carrying lines of the AC output and a potential center point of the power grid, while only one of the potential center points of the current-carrying lines and the power grid is yet shifted by the offset voltage; and (iii) galvanically connecting all current-carrying lines of the AC output with the power grid only after the steps of synchronizing and essentially matching.
+
+
+
+1. A method of connecting an AC output of a transformerless inverter of a solar power plant to an internal AC power grid at an input side of a galvanic isolation,
+while at least one photovoltaic generator is connected to a DC input of the inverter,
+while an external AC power grid is present at an output side of the galvanic isolation and
+while an offset voltage for shifting a potential center point of the at least one photovoltaic generator with regard to earth potential is applied, the method comprising:
+synchronizing the inverter with the internal AC power grid, while all current-carrying lines of the AC output of the inverter are still galvanically separated from the internal AC power grid;
+moving a potential center point of the AC output of the inverter, which is not yet shifted by the offset voltage, in the same direction as the offset voltage by connecting a current-carrying line of the DC input of the inverter to earth potential, while all current-carrying lines of the AC output of the inverter are still galvanically separated from the internal AC power grid and while a potential center point of the internal AC power grid is shifted by the offset voltage; and
+galvanically connecting the current-carrying lines of the AC output of the synchronized inverter to the internal AC power grid after the acts of synchronizing and moving.
+
+
+
+2. The method of claim 1, wherein, in the act of connecting the current-carrying line of the DC input of the inverter to earth potential, a controllable switch connected in series with a resistor in an earth connection line connected to the current-carrying line of the DC input of the inverter is closed.
+
+
+3. The method of claim 2, wherein, prior to galvanically connecting, the controllable switch in the earth connection line is reopened after being closed.
+
+
+4. The method of claim 3, wherein the controllable switch and the resistor are parts of a device for measuring an isolation resistance of the current-carrying lines of the DC input of the inverter.
+
+
+5. A process of connecting an AC output of a transformerless inverter of a solar power plant to an internal AC power grid at an input side of a galvanic isolation,
+while at least one photovoltaic generator is connected to a DC input of the inverter,
+while an external AC power grid is present at an output side of the galvanic isolation and
+while an offset voltage for shifting a potential center point of the at least one photovoltaic generator with regard to earth potential is applied, the process comprising:
+synchronizing the inverter with the internal AC power grid, while all current-carrying lines of the AC output of the inverter are still galvanically separated from the internal AC power grid;
+essentially matching a potential center point of the current-carrying lines of the AC output of the inverter and a potential center point of the internal AC power grid, while all current-carrying lines of the AC output of the inverter are still galvanically separated from the internal AC power grid and while only one of the potential center points of the current-carrying lines and of the internal AC power grid is shifted by the offset voltage; and
+galvanically connecting the current-carrying lines of the AC output of the synchronized inverter to the internal AC power grid after the acts of synchronizing and essentially matching.
+
+
+
+6. The process of claim 5, wherein, in the act of essentially matching, the offset voltage is adjusted to a reduced value which is not more than 50% of half an intermediate link voltage of an input side DC voltage link of the inverter.
+
+
+7. The process of claim 5, wherein, in the act of essentially matching, the offset voltage is adjusted to a reduced value which is not more than 10% of half an intermediate link voltage of an input side DC voltage link of the inverter.
+
+
+8. The process of claim 5, wherein the offset voltage is only raised above 10% of half an intermediate link voltage of an input side DC voltage link of the inverter after the act of galvanically connecting.
+
+
+9. The process of claim 5, wherein, in the act of essentially matching, the potential center point that is not yet shifted by the applied offset voltage is separately shifted in a direction of the offset voltage prior to the act of galvanically connecting.
+
+
+10. The process of claim 5, wherein, in the act of essentially matching, the potential center point of the AC output of the inverter that is not yet shifted by the applied offset voltage is shifted in a direction of the offset voltage by connecting a current-carrying line of the DC input of the inverter to earth potential.
+
+
+11. The process of claim 10, wherein, in the act of connecting to earth potential, a controllable switch connected in series with a resistor in an earth connection line connected to the current-carrying line of the DC input of the inverter is closed.
+
+
+12. The process of claim 11, wherein, prior to the act of galvanically connecting, the controllable switch in the earth connection line is reopened after being closed.
+
+
+13. The process of claim 12, wherein the controllable switch and the resistor are parts of a device for measuring an isolation resistance of the current-carrying lines of the DC input of the inverter.
+
+
+14. The process of claim 11, wherein the controllable switch is a relay.
+
+
+15. An inverter system, comprising:
+a transformerless inverter configured to receive an intermediate DC voltage across current-carrying input lines at an input thereof, and generate an AC voltage across output lines defined by an output line and a center point line at an output thereof;
+a transformer having a primary winding and a secondary winding, wherein the center point line of the transformerless inverter is coupled to a center point of the primary winding of the transformer and an offset voltage potential;
+a relay configured to selectively couple the output line of the transformerless inverter to a phase input of the primary winding of the transformer;
+an offset connection circuit configured to selectively connect one of the current-carrying input lines to near an earth ground potential; and
+a control circuit configured to activate the offset connection circuit to connect one of the current-carrying input lines to near the earth ground potential prior to activating the relay to couple the transformerless inverter to the transformer.
+
+
+
+16. The inverter system of claim 15, wherein the control circuit is configured to deactivate the offset connection circuit after activating the offset connection circuit prior to activating the relay to couple the transformerless inverter to the transformer.
+
+
+17. An inverter system, comprising:
+a transformerless inverter configured to receive an intermediate DC voltage across current-carrying input lines at an input thereof, and generate an AC voltage across output lines defined by an output line and a center point line at an output thereof;
+a transformer having a primary winding and a secondary winding;
+a relay configured to selectively couple the output line of the transformerless inverter to a phase input of the primary winding of the transformer;
+an intermediate voltage circuit coupled between the current-carrying input lines of the transformerless inverter, wherein the intermediate voltage circuit comprises first and second series impedances coupled together at a midpoint node;
+an offset connection circuit configured to selectively connect the midpoint node of an intermediate voltage circuit to an offset voltage potential; and
+a control circuit configured to activate the offset connection circuit to connect the midpoint node to the offset voltage potential prior to activating the relay to couple the transformerless inverter to the transformer.
+
+
+
+18. The inverter system of claim 17, wherein the intermediate voltage circuit further comprises:
+a pair of series-connected capacitances coupled between the current-carrying input lines of the transformerless inverter, wherein the pair of series-connected capacitances are connected together at the midpoint node.
+
+
+
+19. The inverter system of claim 18, wherein the intermediate voltage circuit further comprises:
+a pair of series-connected resistances coupled between the current-carrying input lines of the transformerless inverter such that the pair of series-connected resistances is in parallel with the pair of series-connected capacitances, wherein the pair of series-connected resistances are connected together at the midpoint node. 
+
+

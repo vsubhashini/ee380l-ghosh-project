@@ -1,0 +1,68 @@
+
+An electrical power generating system based on a photovoltaic cell array comprises means for monitoring the output of the array in order to determine whether the output is sufficient to sustain supply to a connected power network. The output of the array is monitored by sensing the voltage across a resistor connected across the array output. The array is connected to the network when a predetermined threshold is reached.
+
+
+
+1. An electrical power generating system comprising means for producing electrical power from a source of renewable energy, transducer means for providing a signal indicative of the power available from the means for producing, first switch means for connecting the transducer means across the means for producing and control means operable to monitor the signal and to open the switch means when the power exceeds a predetermined magnitude.
+
+
+2. A system as claimed in claim 1, in which the transducer means comprise means for creating a voltage drop across the output of the means for producing and means for providing a signal indicative of the voltage drop to the control means.
+
+
+3. A system as claimed in claim 2 in which the transducer means comprise a transducer operable to provide a signal indicative of a voltage across a resistor connected across the output of the means for producing by the first switch means, wherein the resistor has a resistance that is a function of a required minimum voltage from the output stage and the power losses associated with the output stage.
+
+
+4. A system as claimed in claim 1 in which the means for producing comprise a photovoltaic cell.
+
+
+5. A system as claimed in claim 1 wherein the output stage comprises means operable to convert an output d.c. voltage from the means for producing into an a.c. voltage.
+
+
+6. A system as claimed in claim 5 in which the means comprise a grid-tie inverter or bulk inverter.
+
+
+7. A system as claimed in claim 1 further comprising second switch means for connecting the means for producing to the output stage, the control means being operable to close the second switch means when the electrical power exceeds the predetermined magnitude.
+
+
+8. A method of controlling an electrical output of means for producing electrical power from a source of renewable energy, comprising:
+monitoring the power output of the means for producing;
+disabling the monitoring when the power exceeds a predetermined magnitude; and
+connecting the output of the means for producing to an output stage for supply to a power network.
+
+
+
+9. A method as claimed in claim 8 in which the monitoring includes sensing a voltage across the output of the means for producing.
+
+
+10. A method as claimed in claim 9 in which the voltage is sensed across a resistor having a resistance that is a function of the required minimum voltage from the output stage for the network and the losses associated with the output stage.
+
+
+11. A method as claimed in claim 8 in which the means for producing includes a photovoltaic cell.
+
+
+12. A method as claimed in claim 8 in which the output stage comprises an inverter, for example a grid-tie inverter or bulk inverter.
+
+
+13. A method as claimed in claim 8 including connecting the means for producing across the output stage when the electrical power available from the means for producing exceeds the predetermined magnitude.
+
+
+14. A method as claimed in claim 9 in which the means for producing includes a photovoltaic cell.
+
+
+15. A method as claimed in claim 10 in which the means for producing includes a photovoltaic cell.
+
+
+16. A method as claimed in claim 9 in which the output stage comprises an inverter, for example a grid-tie inverter or bulk inverter.
+
+
+17. A method as claimed in claim 10 in which the output stage comprises an inverter, for example a grid-tie inverter or bulk inverter.
+
+
+18. A system as claimed in claim 2 in which the means for producing comprise a photovoltaic cell.
+
+
+19. A system as claimed in claim 3 in which the means for producing comprise a photovoltaic cell.
+
+
+20. A system as claimed in claim 2 wherein the output stage comprises means operable to convert an output d.c. voltage from the means for producing into an a.c. voltage.
+

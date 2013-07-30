@@ -1,0 +1,70 @@
+
+A solar tracking system with a torque tube supporting solar panels. Columns support the system and have bearings for rotation of the torque tube. A drive is coupled to the torque tube and is driven by a gearbox, such as a worm gear assembly, for rotating the array of solar panels to follow the sun's diurnal motion. The array can rotate in an opposite direction, or backtrack, to prevent shadowing from one module row to another. Multiple gearboxes can be mechanically linked by drive shafts and driven by a single motor. The drive shafts may incorporate universal joints for uneven terrain or staggered configurations. Harmonic dampers can be affixed to the solar panels to decouple wind forces which allows the use of larger solar panels.
+
+
+
+1. A linked tracker system for at least two solar trackers for following the motion of the sun relative to the earth, the linked tracker system comprising:
+a driving apparatus for rotating at least one shaft; and
+a worm-gear assembly connected to each solar tracker of the at least two solar trackers for providing motion to the each solar tracker, said worm-gear assembly affixed to the at least one rotating shaft.
+
+
+
+2. The linked tracker system of claim 1 wherein the at least two solar trackers comprise a horizontal tracking configuration.
+
+
+3. The linked tracker system of claim 1 wherein the at least two solar trackers comprise a multiple tilt and roll configuration.
+
+
+4. The linked tracker system of claim 1 wherein the at least two solar trackers comprise a fixed tilt azimuth configuration.
+
+
+5. The linked tracker system of claim 1 wherein the at least one rotating shaft comprise articulating joints.
+
+
+6. The linked tracker system of claim 1 further comprising a mechanical linkage between the worm-gear assembly and the each solar tracker.
+
+
+7. The linked tracker system of claim 6 wherein the mechanical linkage comprises a member from the group consisting of a spur gear rack, a D-ring chain assembly and a cable drive assembly for driving a torsion tube disposed on the each solar tracker.
+
+
+8. The linked tracker system of claim 1 further comprising at least one harmonic dampener affixed between at least one photovoltaic (PV) module assembly and a torsion tube.
+
+
+9. The linked tracker system of claim 7 further comprising at least one bearing assembly disposed on the torsion tube.
+
+
+10. The linked tracker system of claim 1 wherein the driving apparatus comprises a brake for resisting motor coast and back forces.
+
+
+11. The linked tracker system of claim 1 wherein the at least two solar trackers are configured to move in unison.
+
+
+12. A method for tracking the movement of the sun relative to the earth with at least two solar trackers with a single driving apparatus and for resisting wind forces locally within each solar tracker of the at least two solar trackers, the method comprising the steps of:
+rotating at least one shaft with the single driving apparatus; and
+operating a worm-gear assembly affixed at the each solar tracker by the at least one rotating shaft, the worm-gear assemblies providing substantially unison motion to the at least two solar trackers.
+
+
+
+13. The method of claim 12 wherein the substantially unison motion comprises the step of moving the at least two solar trackers about a horizontal axis.
+
+
+14. The method of claim 12 wherein the substantially unison motion comprises the step of moving the at least two solar trackers in a multiple tilt and roll direction.
+
+
+15. The method of claim 12 wherein the substantially unison motion comprises the step of moving the at least two solar trackers in a fixed tilt azimuth direction.
+
+
+16. The method of claim 12 further comprising the step of providing articulating joints to the at least one rotating shaft for compensating for varying heights and direction of the at least two solar trackers.
+
+
+17. The method of claim 12 further comprising the step of linking the worm-gear assembly to the each solar tracker with a mechanical linkage.
+
+
+18. The method of claim 17 further comprising the step of driving a torque tube with the mechanical linkage.
+
+
+19. The method of claim 18 further comprising the step of dampening wind induced harmonic forces with at least one harmonic dampener.
+
+
+20. The method of claim 12 further comprising the step of resisting low back forces in the single driving apparatus.  
+

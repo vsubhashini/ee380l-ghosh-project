@@ -1,0 +1,125 @@
+
+A power conversion system includes a number of photovoltaic arrays, a number of inverters, a transformer, and processor. The processor is structured to control the number of inverters and operate the power conversion system to provide maximum efficiency of power conversion by the number of photovoltaic arrays, the number of inverters and the transformer, and to maximize power output from the number of photovoltaic arrays.
+
+
+
+1. A method of power tracking for a photovoltaic system including a number of photovoltaic arrays, a number of inverters, and a transformer, the method comprising:
+operating the photovoltaic system including said number of photovoltaic arrays, said number of inverters and said transformer to provide maximum efficiency of power conversion therefrom; and
+maximizing power output from said number of photovoltaic arrays.
+
+
+
+2. The method of claim 1 further comprising:
+employing as said number of photovoltaic arrays a plurality of photovoltaic arrays; and
+paralleling the outputs of said plurality of photovoltaic arrays.
+
+
+
+3. The method of claim 2 further comprising:
+paralleling the outputs of said plurality of photovoltaic arrays during a number of hours before noon and a number of hours after noon.
+
+
+
+4. The method of claim 1 further comprising:
+employing as said number of photovoltaic arrays a plurality of photovoltaic arrays;
+employing as said number of inverters a plurality of inverters;
+for each of said plurality of photovoltaic arrays, powering a corresponding one of said plurality of inverters from a corresponding one of said plurality of photovoltaic arrays; and
+operating each of said plurality of photovoltaic arrays at a corresponding independent maximum power point during a time of about peak or peak energy production.
+
+
+
+5. The method of claim 1 further comprising:
+determining energy and power at a utility grid;
+determining the loading on said number of inverters and the transformer; and
+operating the system at optimal stress levels.
+
+
+
+6. The method of claim 1 further comprising:
+employing as said number of photovoltaic arrays a plurality of photovoltaic arrays;
+employing as said number of inverters a plurality of inverters; and
+for each of said plurality of photovoltaic arrays, powering a corresponding one of said plurality of inverters from a corresponding one of said plurality of photovoltaic arrays.
+
+
+
+7. The method of claim 6 further comprising:
+powering the transformer from each of said plurality of inverters; and
+powering a load from the transformer.
+
+
+
+8. The method of claim 1 further comprising:
+employing two photovoltaic arrays as said number of photovoltaic arrays;
+employing two inverters as said number of inverters;
+initially paralleling the outputs of the two photovoltaic arrays and powering one of the two inverters from the paralleled outputs;
+determining when power output from said one of the two inverters exceeds a predetermined power percentage and responsively powering said one of the two inverters from one of the two photovoltaic arrays and powering the other one of the two inverters from the other one of the two photovoltaic arrays;
+operating said one of the two inverters at the maximum power point of the one of the two photovoltaic arrays; and
+operating the other one of the two inverters at the maximum power point of the other one of the two photovoltaic arrays.
+
+
+
+9. The method of claim 8 further comprising:
+determining when power output from both of the two inverters falls below a predetermined power percentage; and
+determining when said one of the two inverters has operated for longer than a predetermined time during a predetermined time interval, and responsively disabling said one of the two inverters, paralleling the outputs of the two photovoltaic arrays and powering the other one of the two inverters from the paralleled outputs.
+
+
+
+10. The method of claim 1 wherein the photovoltaic system further includes an energy storage device, a photovoltaic array as said number of photovoltaic arrays, an inverter as said number of inverters, and a converter, said method further comprising:
+including with the converter a first input/output structured to input power from or output power to the energy storage device, and a second input/output structured to input power or output power;
+including with the inverter an input structured to input power from the photovoltaic array and an output structured to output power; and
+including with the transformer a primary electrically connected to the output of the inverter and to the second input/output of the converter, and a secondary electrically connected to at least one of a local load and a utility grid.
+
+
+
+11. A photovoltaic system comprising:
+an energy storage device;
+a photovoltaic array;
+a converter including a first input/output structured to input power from or output power to the energy storage device, and a second input/output structured to input power or output power;
+an inverter including an input structured to input power from the photovoltaic array and an output structured to output power; and
+a transformer having a primary electrically connected to the output of the inverter and to the second input/output of the converter, and a secondary electrically connected to at least one of a local load and a utility grid.
+
+
+
+12. The photovoltaic system of claim 11 wherein the energy storage device is selected from the group consisting of a battery, an electric double-layer capacitor, a super-capacitor, an electrochemical double layer capacitor, and an ultra-capacitor.
+
+
+13. The photovoltaic system of claim 11 wherein the inverter is structured to provide maximum power tracking of the photovoltaic array by adjusting the output voltage of the photovoltaic array in order to receive maximum power therefrom.
+
+
+14. The photovoltaic system of claim 11 wherein the first input/output of the converter inputs power from the energy storage device; wherein the second input/output of the converter outputs power; and wherein the local load is powered through the transformer by both of the converter and the inverter.
+
+
+15. The photovoltaic system of claim 14 wherein the converter is structured to operate as a voltage source and set the frequency and the voltage of the local load using available power from the energy storage device.
+
+
+16. The photovoltaic system of claim 11 wherein the first input/output of the converter outputs power to the energy storage device; wherein the second input/output of the converter inputs power; and wherein the local load is powered through the transformer by the inverter.
+
+
+17. The photovoltaic system of claim 16 wherein the converter is an active rectifier structured to charge the energy storage device.
+
+
+18. The photovoltaic system of claim 17 wherein the second input/output of the active rectifier is powered through the transformer from the utility grid.
+
+
+19. The photovoltaic system of claim 11 wherein the first input/output of the converter outputs power to the energy storage device; and wherein the second input/output of the converter inputs power from the output of the inverter.
+
+
+20. The photovoltaic system of claim 19 wherein neither one of the local load or the utility grid is powered; and wherein the second input/output of the converter inputs power directly from the output of the inverter.
+
+
+21. The photovoltaic system of claim 11 wherein the secondary of the transformer is only electrically connected to the local load; wherein the first input/output of the converter inputs power from the energy storage device; wherein the second input/output of the converter outputs power; and wherein the local load is powered through the transformer by both of the converter and the inverter.
+
+
+22. The photovoltaic system of claim 21 wherein the converter is structured to operate as a voltage source and set the frequency and the voltage of the local load; and wherein the inverter is structured to track the frequency and the voltage of the local load.
+
+
+23. A power conversion system comprising:
+a number of photovoltaic arrays;
+a number of inverters;
+a transformer; and
+a processor structured to control said number of inverters and operate said power conversion system to provide maximum efficiency of power conversion by said number of photovoltaic arrays, said number of inverters and said transformer, and to maximize power output from said number of photovoltaic arrays.
+
+
+
+24. The power conversion system of claim 23 wherein said number of photovoltaic arrays is two photovoltaic arrays each having an output; wherein said number of inverters is two inverters; and wherein said processor is structured to selectively cause: a corresponding one of the inverters to be powered from a corresponding one of the two photovoltaic arrays; or the outputs of the two photovoltaic arrays to be electrically connected in parallel and one of the two inverters to be powered from the paralleled outputs. 
+

@@ -1,0 +1,91 @@
+
+The invention relates to a method and a device for recognizing faults in a photovoltaic system (1). A first output voltage (U0, UMPP) of the system (1) and/or a first parameter derived from the output voltage (U0, UMPP) is determined at a first point in time in a first operating state of the photovoltaic system (1). At a second point in time in a second operating state comparable to the first operating state, a second output voltage (U0, UMPP) and/or a second parameter of the system (1) derived from the output voltage (U0, UMPP) is determined. Finally, a deviation between the first and the second output voltage (U0, UMPP) and/or between the first and the second parameter is identified and a fault notification is output if the deviation exceeds a predeterminable threshold.
+
+
+
+1. A method for recognizing faults in a photovoltaic-system (1), comprising the steps:
+determining a first output voltage (U0, UMPP) of the system (1) and/or a first parameter derived from said output voltage (U0, UMPP) at a first time point in a first operating state of the photovoltaic-system (1) for determining a starting condition during an initialization process,
+determining a second output voltage (U0, UMPP) and/or a second parameter of the system (1) derived from said output voltage (U0, UMPP) at a second time point, when a weather analysis for establishing a sun radiation above a threshold leads to a positive result and there is a second operating state comparable with the first operating state,
+determining a deviation between the first and second output voltage (U0, UMPP) and/or between the first and second parameter and
+outputting an error message when the deviation exceeds a predeterminable threshold.
+
+
+
+2. The method as claimed in claim 1, wherein the output voltage is the maximum power point voltage (UMPP) and/or the open circuit voltage (U0) of the photovoltaic-system (1).
+
+
+3. The method as claimed in claim 1, wherein the parameter is the ratio between the maximum power point voltage (UMPP) and the open circuit voltage (U0) of the photovoltaic-system.
+
+
+4. The method as claimed in claim 1, wherein the output voltage (U0, UMPP) and/or a derived parameter are determined at a radiation greater than 100 W/m2.
+
+
+5. The method as claimed in claim 1, wherein the output voltage (U0, UMPP) and/or a derived parameter are determined at a power output of the photovoltaic system (1) or an inverter connected thereto at over 15% of the respective nominal power.
+
+
+6. The method as claimed in claim 1, wherein the output voltage (U0, UMPP) and/or a derived parameter are determined at essentially the same radiation or the same power output.
+
+
+7. The method as claimed in claim 4, wherein the radiation is determined by means of a light-sensitive sensor.
+
+
+8. The method as claimed in claim 1, wherein an output voltage (U0, UMPP) and/or a derived parameter are determined at essentially the same temperature.
+
+
+9. The method as claimed in claim 1, wherein to determine the operating status of the photovoltaic system data is used from a weather station and/or meteorological data from a database.
+
+
+10. The method as claimed in claim 1, wherein the output voltage (U0, UMPP) and/or a derived parameter are determined on different days at essentially the same time.
+
+
+11. The method as claimed in claim 1, wherein the output voltage (U0, UMPP) and/or a derived parameter are determined on different days essentially at the same position of the sun.
+
+
+12. The method as claimed in claim 1, wherein the output voltage (U0, UMPP) and/or a derived parameter are determined at essentially the same output power of the photovoltaic system (1).
+
+
+13. A device for recognizing faults in a photovoltaic system (1), comprising:
+means for determining a first output voltage (U0, UMPP) of the system (1) and/or a first parameter derived from this output voltage (U0, UMPP) at a first time point in a first operating state of the photovoltaic system (1),
+means for determining a second output voltage (U0, UMPP) and/or a second parameter of the system (1) derived from this output voltage (U0, UMPP) at a second time point in a second operating state comparable with the first operating state,
+means for determining a deviation between the first and second output voltage (U0, UMPP) and/or between the first and second parameter and
+means for issuing an error message when the deviation exceeds a predetermineble threshold.
+
+
+
+14. An inverter (5) for a photovoltaic system (1) with DC voltage side and AC voltage side connections, wherein the latter comprises a device as claimed in claim 13 which is connected to the DC voltage side connections.
+
+
+15. A charging controller for a photovoltaic system (1), wherein the latter comprises a device according to claim 13, which is connected to input-side connections of the charging controller.
+
+
+16. A photovoltaic system (1) comprising one or more solar cells (31 . . . 3x) and/or one or more solar modules (211 . . . 2mn), wherein the latter comprises an inverter with DC voltage side connections connected to a device according to claim 13 and AC voltage side connections and/or a charging controller having input-side connections connected to said device.
+
+
+17. A computer program product with a computer program saved thereon, which can be loaded into the memory (8) of a device according to claim 13 and/or an inverter (5) with DC voltage side connections connected to said device and AC voltage side connections and/or a charging controller having input-side connections connected to said device and/or a computer (13), and executes a method for recognizing faults in a photovoltaic system when the computer program is implemented there, said method comprising the steps:
+determining a first output voltage (U0, UMPP) of the system (1) and/or a first parameter derived from said output voltage (U0, UMPP) at a first time point in a first operating state of the photovoltaic-system (1) for determining a starting condition during an initialization process,
+determining a second output voltage (U0, UMPP) and/or a second parameter of the system (1) derived from said output voltage (U0, UMPP) at a second time point, when a weather analysis for establishing a sun radiation above a threshold leads to a positive result and there is a second operating state comparable with the first operating state,
+determining a deviation between the first and second output voltage (U0, UMPP) and/or between the first and second parameter and
+outputting an error message when the deviation exceeds a predeterminable threshold.
+
+
+
+18. A method for recognizing module damage in a photovoltaic system (1), wherein an initialization process is performed for determining a starting condition of the system (1) after installation, and wherein for determining measurement values for recognizing module damage with determined measurement values a weather analysis for detecting a solar radiation which is above a threshold is conducted, wherein with a positive weather analysis additional measurement values are recorded and compared with the starting condition.
+
+
+19. The method as claimed in claim 18, wherein with a negative weather analysis a new weather analysis is carried out at least at a later time point.
+
+
+20. The method as claimed in claim 18, wherein to identify module damage a continuous assessment of the Udc voltage is performed, wherein from a change in the ratio of Mpp voltage to the open circuit voltage of the module a creeping and/or sudden instance of module damage is identified.
+
+
+21. The method as claimed in claim 18, wherein the initializing process is started at predetermined time points, in particular at midday, or at a defined, set time point, or a manually activated measuring process is started for determining and recording the operating status of the system.
+
+
+22. The method as claimed in claim 18, wherein one or more of the following instances of module damage is identified and reported via a display element: high-impedance soldering points inside the modules, open soldering point on a cell, hotspots, shadowing, dirt, cell breakage, high-impedance soldering point in the connection box etc.
+
+
+23. The method as claimed in claim 18, wherein at a predetermined time point, in particular at midday, a weather analysis is carried out, in which the supplied amount of energy or the inverter power is identified and compared with a predeterminable value, wherein preferably the latter corresponds to a predeterminable percentage, for example 50% of the maximum, to achieve a positive weather analysis.
+
+
+24. The method as claimed in claim 18, wherein an evaluation for recognizing module damage is performed by means of a control device arranged in the inverter or an externally connected control device.
+

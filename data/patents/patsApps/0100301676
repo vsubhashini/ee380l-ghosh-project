@@ -1,0 +1,75 @@
+
+A power generation system including a plurality of isolated power converters and a plurality of first weatherable units is provided. Each of the isolated power converters includes a primary stage, a secondary stage and a transformer providing an electrically contactless connection between the primary and secondary stages. The first weatherable unit includes a photovoltaic module coupled to the primary stage of a respective one of the plurality of isolated power converters and a primary side of the transformer. The system further includes a plurality of second units, each having a second side of the transformer coupled to the secondary stage of a respective one of the plurality of isolated power converters. The system also includes a direct current (DC) to alternating current (AC) inverter and a connection unit for coupling the secondary stages of the isolated power converter and the DC to AC inverter. The DC to AC inverter is configured to transfer power from the photovoltaic module to a power grid.
+
+
+
+1. A power generation system comprising:
+a plurality of isolated power converters, each comprising a primary stage, a secondary stage and a transformer providing an electrically contactless connection between the primary and secondary stages;
+a plurality of first weatherable units, each comprising a photovoltaic (PV) module coupled to the primary stage of a respective one of the plurality of isolated power converters and a primary side of the transformer;
+a plurality of second units, each comprising a second side of the transformer coupled to the secondary stage of a respective one of the plurality of isolated power converters;
+a direct current (DC) to alternating current (AC) inverter configured to transfer power from the photovoltaic module to a power grid; and
+a connection unit for coupling the secondary stages of the isolated power converters and the DC to AC inverter.
+
+
+
+2. The system of claim 1, wherein the isolated power converters comprise resonant converters.
+
+
+3. The system of claim 2, wherein a resonant inductor is formed in each respective isolated power converter by a leakage inductance of the respective transformer.
+
+
+4. The system of claim 1, wherein the transformer comprises a high frequency transformer.
+
+
+5. The system of claim 1, wherein the transformer comprises a step up transformer.
+
+
+6. The system of claim 1, wherein the first side of the transformer comprises a first half of a magnetic core and a primary winding.
+
+
+7. The system of claim 6, wherein the second side of the transformer comprises a second half of the magnetic core and a secondary winding.
+
+
+8. The system of claim 1, wherein the first weatherable unit and the second unit comprise a plastic casing.
+
+
+9. The system of claim 1, wherein the secondary stage comprises a diode bridge network or a synchronous rectifier.
+
+
+10. The system of claim 2, wherein the resonant converter is configured to operate in a zero current switching (ZCS) mode or in zero voltage switching (ZVS) mode.
+
+
+11. The system of claim 1, wherein the second unit is attached to a roof tile.
+
+
+12. The system of claim 1, wherein a boost converter is connected between the connection unit and the DC to AC inverter.
+
+
+13. The system of claim 1, wherein a pulsating bus is coupled between the connection unit and the DC to AC inverter.
+
+
+14. The system of claim 1, wherein the connection unit is coupled to a roof.
+
+
+15. The system of claim 14, wherein the first weatherable unit, the connection unit and the second unit are above the roof.
+
+
+16. The system of claim 1, wherein the connection unit is mounted inside the second unit.
+
+
+17. A power generation system comprising:
+a plurality of photovoltaic modules;
+an isolated power converter comprising a primary stage, a secondary stage and a transformer providing a magnetic coupling between the primary and secondary stages;
+a connection unit for coupling outputs of the plurality of photovoltaic modules and the isolated power converter; and
+a direct current (DC) to alternating current (AC) inverter configured to transfer power from the photovoltaic modules to a power grid.
+
+
+
+18. A power generation system comprising:
+a plurality of partial series resonant converters, each comprising a primary stage, a secondary stage and a transformer providing an electrically contactless connection between the primary and secondary stages;
+a plurality of first weatherable units each comprising a photovoltaic (PV) module coupled to the primary stage of a respective one of the plurality partial series resonant converters and a primary side of the transformer;
+a plurality of second units, each comprising a second side of the transformer coupled to the secondary stage of a respective one of the plurality of partial series resonant converters;
+a direct current (DC) to alternating current (AC) inverter configured to transfer power from the photovoltaic modules to a power grid; and
+a connection unit for coupling the secondary stages of the partial series resonant converters and the DC to AC inverter. 
+
+

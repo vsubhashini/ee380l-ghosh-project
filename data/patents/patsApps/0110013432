@@ -1,0 +1,84 @@
+
+Embodiments of the invention can provide systems, methods, and apparatus for operating a power converter. According to one embodiment, a system for operating a power converter can be provided. The system can include a direct current (DC) power source with an output electrically coupled to an input of the power converter. The system can also include a controller operable to modify the performance of the DC power source through the power converter. As part of this modification, the controller can determine whether a low voltage ride (LVRT) event exists in a load and can adjust the DC power source when a LVRT event occurs.
+
+
+
+1. A method for operating a power converter in a power distribution system, the method comprising:
+operating, via the power converter, at least one DC power source at a first operating point;
+determining whether a low voltage ride through event exists based at least in part on a voltage associated with the power distribution system; and
+adjusting, via the power converter, the at least one DC power source to a second operating point when a low voltage ride through event exists.
+
+
+
+2. The method of claim 1, wherein the at least one DC power source comprises at least one of the following: a photovoltaic cell, a fuel cell, or a battery.
+
+
+3. The method of claim 1, wherein operating the at least one DC power source at a first operating point comprises operating the at least one DC power source at a maximum power point related to the at least one DC power source.
+
+
+4. The method of claim 3, wherein operating the at least one DC power source at a maximum power point related to the at least one DC power source comprises adjusting at least one duty cycle of the power converter to operate the at least one DC power source at the maximum power point.
+
+
+5. The method of claim 1, wherein adjusting the at least one DC power source to a second operating point when a low voltage ride through event exists comprises adjusting the at least one DC power source to a reduced power operating point based at least in part on a voltage associated with an output of the power distribution system.
+
+
+6. The method of claim 5, wherein adjusting the at least one DC power source to a reduced power operating point comprises adjusting at least one duty cycle of the power converter to operate the at least one DC power source at the reduced power operating point.
+
+
+7. The method of claim 5, wherein the power distribution system comprises at least one DC-to-AC inverter with an input electrically coupled to an output of the power converter, and wherein the output of the power distribution system comprises an output of the at least one DC-to-AC inverter.
+
+
+8. The method of claim 7, wherein adjusting the at least one DC power source when a low voltage ride through event exists to a second operating point comprises adjusting the at least one DC power source to a reduced power operating point based at least in part on a voltage associated with the at least one DC-to-AC inverter.
+
+
+9. The method of claim 8, wherein adjusting the at least one DC power source to a reduced power operating point comprises adjusting at least one duty cycle of the power converter.
+
+
+10. A system for operating a power converter in a power distribution system, the system comprising:
+at least one DC power source with an output electrically coupled to an input of the power converter; and
+at least one controller operable to:
+operate, via the power converter, the at least one DC power source at a first operating point;
+determine whether a low voltage ride through event exists based at least in part on associated with the power distribution system; and
+adjust, via the power converter, the at least one DC power source to a second operating point when a low voltage ride through event exists.
+
+
+
+
+11. The system of claim 10, wherein the at least one DC power source comprises at least one of the following: a photovoltaic cell, a fuel cell, or a battery.
+
+
+12. The system of claim 10, wherein the first operating point is a maximum power point associated with the at least one DC power source.
+
+
+13. The system of claim 12, wherein the controller is further operable to adjust at least one duty cycle of the power converter to operate the at least one DC power source at the maximum power point.
+
+
+14. The system of claim 10, wherein the second predetermined operating point is a reduced power operating point for the at least one DC power source.
+
+
+15. The system of claim 14, wherein the controller is further operable to adjust at least one duty cycle of the power converter to operate the at least one DC power source at the reduced power operating point.
+
+
+16. The system of claim 10, further comprising:
+at least one DC-to-AC inverter with an input electrically coupled to an output of the power converter and an output providing a source of AC power; and
+wherein the controller is operable to determine whether a low voltage ride through event exists based at least in part on a voltage associated with the output of the at least one DC-to-AC inverter.
+
+
+
+17. The system of claim 16, wherein the first operating point is a maximum power point for the at least one DC power source.
+
+
+18. The system of claim 17, wherein the controller is further operable to adjust at least one duty cycle of the power converter to operate the at least one DC power source at the maximum power point.
+
+
+19. The system of claim 16, wherein the second operating point is a reduced power operating point for the at least one DC power source.
+
+
+20. An apparatus for operating a power converter in a power distribution system, the apparatus comprising:
+at least one controller operable to:
+operate at least one DC power source at a first operating point;
+determine whether a low voltage ride through event exists based at least in part on a voltage associated with a power distribution system; and
+adjust the at least one DC power source to a second operating point when a low voltage ride through event exists.
+
+
+

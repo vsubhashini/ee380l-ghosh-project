@@ -1,0 +1,66 @@
+
+A photovoltaic inverter that can respond to changes in temperature and the amount of sunlight and that can automatically start up is provided, which has a simple configuration and is inexpensive. The photovoltaic inverter has a first voltage detection means for detecting an output voltage of a photovoltaic panel; a current detection means, a control means and a driving means. It further has a model voltage storage means for storing a model voltage table of inverter start-up kick voltages produced based on variation values of an amount of sunlight, a model voltage read-out means, a second voltage detection means for detecting an inverter start-up kick voltage, and an inverter start-up control means.
+
+
+
+1. A photovoltaic inverter comprising a first voltage detection means; a current detection means; a control means and a driving means,
+wherein the photovoltaic inverter further comprises a model voltage storage means for storing a seasonal variation value table of inverter start-up kick voltages produced based on variation values of an amount of sunlight; a model voltage read-out means; a second voltage detection means for detecting an inverter start-up kick voltage; and an inverter start-up control means.
+
+
+
+2. A photovoltaic inverter comprising an inverter controlling an output voltage of a photovoltaic panel and supplying the output voltage to a load; a driving means for driving said inverter; a power detection means for detecting the output power of the photovoltaic panel, the power detection means being constituted by a first voltage detection means for detecting an output voltage of the photovoltaic panel and a current detection means for detecting an output current of the photovoltaic panel; and a power control means for applying a PWM control signal to the driving means;
+wherein the photovoltaic inverter further comprises a model voltage storage means for storing a model voltage table of inverter start-up kick voltages produced based on variation values of an amount of sunlight; a model voltage read-out means; a second voltage detection means for detecting a kick voltage for inverter start-up; and an inverter start-up control means.
+
+
+
+3. A photovoltaic inverter comprising an inverter controlling an output voltage of a photovoltaic panel and supplying the output voltage to a load; a driving means for driving said inverter; a power detection means for detecting the output power of the photovoltaic panel, the power detection means being constituted by a first voltage detection means for detecting an output voltage of the photovoltaic panel and a current detection means for detecting an output current of the photovoltaic panel; and a power control means for applying a PWM control signal to the driving means; wherein the load is connected to the inverter via a contactless switching element that is conductive only when its control electrode receives a signal that is supplied from an inverter start-up control means;
+wherein the photovoltaic inverter further comprises a model voltage storage means for storing a model voltage table of inverter start-up kick voltages produced based on variation values of an amount of sunlight; a model voltage read-out means; a second voltage detection means for detecting an inverter start-up kick voltage; and an inverter start-up control means.
+
+
+
+4. The photovoltaic inverter according to claim 1, wherein seasonal variation values of the inverter start-up kick voltage produced based on seasonal variation values of an amount of sunlight are taken as the model voltage, and the model voltage table is a model voltage table in which a time axis serves as the X-axis and temperature serves as the Y-axis.
+
+
+5. The photovoltaic inverter according to claim 1, wherein the model voltage table is a model voltage table in which a gradual variation model voltage VM in which the element of seasonal variations is factored in and that can be read out in chronological order and a short day model voltage VML to enable daily corrections are stored and arranged as a table.
+
+
+6. The photovoltaic inverter according to claim 5, wherein the gradual variation model voltage VM and the short day model voltage VML are stored and arranged into a model voltage table, the VM table and the VML table are read out and combined, and a model voltage table is obtained for setting the kick voltage of that day, taking all seasons and all times as model voltages.
+
+
+7. A photovoltaic system, comprising:
+a solar cell;
+an inverter connected to the solar cell;
+a control unit controlling the inverter based on a voltage and a current between the solar cell and the inverter; and
+a start-up command signal providing unit that sends a start-up command signal to the control unit, using a model voltage table of inverter start-up kick voltages that are produced based on variation values of an amount of sunlight.
+
+
+
+8. The photovoltaic system according to claim 7, wherein the start-up command signal providing unit detects the voltage between the solar cell and the inverter at a time when operation of the inverter starts, and this voltage can be stored in the model voltage table as the inverter start-up kick voltage.
+
+
+9. The photovoltaic system according to claim 7, wherein the start-up command signal providing unit comprises a storage unit storing the model voltage table; a voltage detection unit detecting the voltage between the solar cell and the inverter; a read-out unit reading out from the model voltage table an inverter start-up kick voltage that matches a detection result of the voltage detection unit; and a start-up control unit that sends a start-up command signal to the control unit, based on the inverter start-up kick voltage that has been read out.
+
+
+10. The photovoltaic system according to claim 7, wherein, in the model voltage table, the inverter start-up kick voltages are set in correlation with information that influences a variation in the amount of sunlight, such as the time of day, the month to which the day belongs or the season.
+
+
+11. The photovoltaic inverter according to claim 2, wherein seasonal variation values of the inverter start-up kick voltage produced based on seasonal variation values of an amount of sunlight are taken as the model voltage, and the model voltage table is a model voltage table in which a time axis serves as the X-axis and temperature serves as the Y-axis.
+
+
+12. The photovoltaic inverter according to claim 3, wherein seasonal variation values of the inverter start-up kick voltage produced based on seasonal variation values of an amount of sunlight are taken as the model voltage, and the model voltage table is a model voltage table in which a time axis serves as the X-axis and temperature serves as the Y-axis.
+
+
+13. The photovoltaic inverter according to claim 2, wherein the model voltage table is a model voltage table in which a gradual variation model voltage VM in which the element of seasonal variations is factored in and that can be read out in chronological order and a short day model voltage VML to enable daily corrections are stored and arranged as a table.
+
+
+14. The photovoltaic inverter according to claim 3, wherein the model voltage table is a model voltage table in which a gradual variation model voltage VM in which the element of seasonal variations is factored in and that can be read out in chronological order and a short day model voltage VML to enable daily corrections are stored and arranged as a table.
+
+
+15. The photovoltaic system according to claim 8, wherein the start-up command signal providing unit comprises a storage unit storing the model voltage table; a voltage detection unit detecting the voltage between the solar cell and the inverter; a read-out unit reading out from the model voltage table an inverter start-up kick voltage that matches a detection result of the voltage detection unit; and a start-up control unit that sends a start-up command signal to the control unit, based on the inverter start-up kick voltage that has been read out.
+
+
+16. The photovoltaic system according to claim 8, wherein, in the model voltage table, the inverter start-up kick voltages are set in correlation with information that influences a variation in the amount of sunlight, such as the time of day, the month to which the day belongs or the season.
+
+
+17. The photovoltaic system according to claim 9, wherein, in the model voltage table, the inverter start-up kick voltages are set in correlation with information that influences a variation in the amount of sunlight, such as the time of day, the month to which the day belongs or the season.
+

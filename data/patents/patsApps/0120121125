@@ -1,0 +1,80 @@
+
+A device for performing solar shade analysis combines a spherical reflective dome and a ball compass mounted on a platform, with a compass alignment mark and four dots in the corners of the platform. A user may place the device on a surface of a roof, or in another location where solar shading analysis is required. A user, while standing above the device can take a photo of the device. The photographs can then be used in order to evaluate solar capacity and perform shade analysis for potential sites for solar photovoltaic systems. By using the device in conjunction with a mobile device having a camera, photographs may be taken and uploaded, to be analyzed and processed to determine a shading percentage. For example, the solar shade analysis system may calculate the percentage of time that the solar photovoltaic system might be shaded for each month of the year. These measurements and data, or similar measurements and data, may be valuable when applying for solar rebates or solar installation permits.
+
+
+
+1. A device for performing solar shading analysis comprising:
+a spherical reflective dome for reflecting an image of sky;
+a compass for pointing the device to magnetic north; and
+a platform having four markers for indicating tilt of the device;
+wherein the relative positions of the markers and the image are analyzed for determining solar availability at a particular location.
+
+
+
+2. The device as in claim 1, wherein the spherical reflective dome is comprised of a plastic sphere with a reflective coating.
+
+
+3. The device as in claim 1, wherein the compass is a ball compass.
+
+
+4. The device as in claim 3, wherein the ball compass is a magnetized sphere with an arrow suspended in liquid inside a transparent spherical container.
+
+
+5. The device as in claim 1, wherein the platform includes an opening for inserting the compass.
+
+
+6. The device as in claim 1, further comprising a camera for capturing the image capable of sending and receiving multimedia messages over a network.
+
+
+7. The device as in claim 1, wherein the four markers are made from self-adhesive felt to reduce glare.
+
+
+8. The device as in claim 7, wherein the four markers are placed in a depression in the platform and painted with red paint to reduce glare.
+
+
+9. A system for performing solar shading analysis comprising:
+a solar shading device comprising an orientation indicator and a spherical reflective dome for reflecting an image of sky;
+a camera for capturing a photograph of the solar shading device, wherein a user stands over the solar shading device and takes the photograph of the solar shading device; and
+a server for processing and analyzing the image and for providing a response message to a user.
+
+
+
+10. The system as in claim 9, wherein the orientation indicator includes a compass and four markers for indicating tilt of the solar shading device.
+
+
+11. The system as in claim 9, wherein the camera is capable of sending and receiving multimedia messages over a network to the server.
+
+
+12. The system as in claim 9, wherein the server extracts a location of the photograph using GPS information.
+
+
+13. The system as in claim 9, wherein the server extracts a location of the photograph using a postal code supplied by the user.
+
+
+14. The system as in claim 9, wherein the response message includes a surface tilt, azimuth, and average solar availability of a location for a year and for each month of the year.
+
+
+15. A method for performing solar shading analysis comprising:
+receiving an input from a mobile device, the input including a photograph of an image of sky reflected off of a spherical reflective dome on a solar shading device;
+determining a location from the input received from the mobile device;
+determining a tilt of the solar shading device relative to an image plane of the photograph;
+determining a direction of the tilt relative to a vertical axis of the photograph;
+determining an unobstructed sky area and an obstructed sky area from the image; and
+providing a response message including the tilt, direction of the tilt, and average solar availability of a location for a year and for each month of the year.
+
+
+
+16. The method as in claim 15, wherein the solar shading device is positioned on a surface such that a compass arrow on the solar shading device is pointing towards magnetic north.
+
+
+17. The method as in claim 16, further comprising applying image recognition to determine a direction of the compass arrow on the solar shading device.
+
+
+18. The method as in claim 15, wherein the unobstructed sky area is determined using cluster processing.
+
+
+19. The method as in claim 15, wherein the step of determining an unobstructed sky area comprises extracting the image of sky from the photograph and analyzing the image of sky using cluster analysis.
+
+
+20. The method as in claim 15, further comprising calculating a ratio of solar irradiation for the unobstructed sky area for a given month to total available solar irradiation for the location. 
+

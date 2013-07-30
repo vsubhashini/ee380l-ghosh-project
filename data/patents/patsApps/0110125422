@@ -1,0 +1,115 @@
+
+A method and device for remotely measuring, monitoring and controlling physical quantities over digital communication networks is provided. The measured quantities are grouped by energy end-uses or type of energy produced. The present patent describes the hardware and software used to perform these measurements, monitoring and control actions. The method and associated devices provide the means to sub-divide the building energy consumption by its end-uses or into cost centers, so as to determine the “specific energy consumption” of each cost center, in terms of kWh/produced unit, kWh/m2, kWh/employee, for example. The system comprises four hierarchically interconnected layers. The first layer includes all the equipments and technologies involved in data acquisition (or actuation) in the monitored building. The second layer contains the equipments and the software for grouping the measurements gathered at each sampling instant by their end-use consumption or type of energy produced, which are responsible for storing the acquired data and sending them to a remote database server, via the Internet. The third layer is responsible for the authentication of each connection to the database server coming from the Web-Servers of the monitored buildings. The fourth layer incorporates the equipments and associated functions responsible for the reception, processing and storage of the data coming from all the monitored loads and for the control of the on-line access to these data (given to users with special privileges). The stored data are analyzed and processed by an application program in order to extract from them the relevant information.
+
+
+
+1. A Method and Device for Measuring and Monitoring, comprising a set of devices sub-divided in four interconnected layers, capable of controlling and grouping of the energy consumption by its end use from any quantity measured by sensor.
+
+
+2. A Method and Device for Measuring and Monitoring, comprising a set of devices sub-divided in four interconnected layers, capable of grouping the various sources of generated energy by its type from any quantity measured by sensor.
+
+
+3. The Method and Device for Measuring and Monitoring, of claims 1 and 2, wherein the first layer include at least one sensor module, a signal conditioning module, a data acquisition module, a command and actuation module and a driver module capable of performing both functions simultaneously.
+
+
+4. The Method and Device for Measuring and Monitoring of claim 3, further comprising, at least, one data acquisition board.
+
+
+5. The Method and Device for Measuring and Monitoring of claim 3, wherein the current of the monitored load, whose full-scale range is determined by the capacity of the feeding bus, is measured by an arrangement of current transformers of corresponding range.
+
+
+6. The Method and Device for Measuring and Monitoring of claim 3, further comprising a software for measuring and monitoring physical quantities stratified by sector.
+
+
+7. The Method and Device for Measuring and Monitoring of claim 6, wherein the data received from the sensor module are forwarded to the Gateway Node.
+
+
+8. The Method and Device for Measuring and Monitoring of claim 7 characterized by taking stratified sectored measurements at intervals of time from 15 seconds.
+
+
+9. The Method and Device for Measuring and Monitoring of claims 1 and 2, wherein the second layer comprises a Web-Server and a Gateway board responsible for the interconnection of the local CAN bus to the Internet.
+
+
+10. The Method and Device for Measuring and Monitoring of claim 9, further comprising a software for grouping the gathered data in each sampling cycle according to the consumption end-use of the type and origin of the energy source.
+
+
+11. The Method and Device for Measuring and Monitoring of claim 10, wherein the gathered data, after being encapsulated and encrypted, are sent to a remote database server.
+
+
+12. The Method and Device for Measuring and Monitoring of claim 10, characterized by incorporating to the measured value additional information about the board and the channel in which the quantity has been read and the building of origin of the measurement.
+
+
+13. The Method and Device for Measuring and Monitoring of claim 10, further comprising a local buffer to locally store the sampled data in the event of failure of communication with the remote server and sent them to the database server just after the restoration of the connection.
+
+
+14. The Method and Device for Measuring and Monitoring of claims 1 and 2, wherein the third layer comprises an Internet server for authentication and reception of the data sent via the Internet.
+
+
+15. The Method and Device for Measuring and Monitoring of claim 14, further comprising a software to decode and authenticate the connection of the web-server of each monitored building to the database server.
+
+
+16. The Method and Device for Measuring and Monitoring of claims 1 and 2, wherein the fourth layer comprises a database server for storing the measured quantities and an application server that allows online access to the data and performs a number of application functions for processing of the stored information.
+
+
+17. The Method and Device for Measuring and Monitoring of claim 16, comprising a software for monitoring, in real time, the selected variables.
+
+
+18. The Method and Device for Measuring and Monitoring of claim 17, further comprising an actuator module and a driver module for managing the supply of inputs, by means of a local or an Internet (remote) command.
+
+
+19. The Method and Device for Measuring and Monitoring of claim 17, wherein the stored data can, from an user command, be presented in graphical form, in real time.
+
+
+20. The Method and Device for Measuring and Monitoring of claim 17, further comprising an analysis tool that allows the comparison of profiles of any measured quantity obtained on different days or of different clusters (grouped by their end-use or type).
+
+
+21. The Method and Device for Measuring and Monitoring of claim 17, wherein the performance of the monitored plant, as a whole, is assessed and the critical points are identified.
+
+
+22. The Method and Device for Measuring and Monitoring of claim 17, further comprising an analysis tool for characterizing the monitored plant by cause-and-effect relations between the consumption or production of energy and the environmental or load conditions.
+
+
+23. The Method and Device for Measuring and Monitoring of claims 1 and 2, wherein the electrical quantities to be measured are current, voltage and electrical power factor.
+
+
+24. The Method and Device for Measuring and Monitoring of claims 1 and 2, wherein the environmental quantities to be measured are air flow, pressure, temperature, relative humidity, luminosity and atmospheric pressure.
+
+
+25. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary characteristics to be implemented in residential buildings.
+
+
+26. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary characteristics to be implemented in commercial buildings.
+
+
+27. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary characteristics to be implemented in industrial installations and buildings.
+
+
+28. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary specifications for monitoring the production of electricity generated from wind.
+
+
+29. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary specifications for monitoring the production of electricity generated from solar photovoltaic cells.
+
+
+30. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary specifications for monitoring the production of electricity generated from the thermal-energy.
+
+
+31. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary specifications for monitoring the production of electricity generated from hydro-energy.
+
+
+32. The Method and Device for Measuring and Monitoring of claims 1 and 2, characterized by having the necessary specifications for monitoring the production of electricity generated from nuclear energy.
+
+
+33. A Device for Measuring and Monitoring comprising a set of equipments divided in two interconnected layers.
+
+
+34. The Device for Measuring and Monitoring of claim 33, wherein the first layer includes, at least, one sensor module, a signal conditioning module, a data acquisition module, a command and actuator module and a driver module, being able to accomplish simultaneously both functions.
+
+
+35. The Device for Measuring and Monitoring of claim 34, further comprising, at least, one data acquisition board connected to a communication network.
+
+
+36. The Device for Measuring and Monitoring of claim 34, further comprising an arrangement of current transformers wherein the full-scale of the current of the monitored load is determined by the capacity of the feeding bus.
+
+
+37. The Device for Measuring and Monitoring of claim 33, wherein the second layer comprises a Web-Server and a Gateway board responsible for the interconnection of the local CAN bus to the Internet. 
+

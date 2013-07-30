@@ -1,0 +1,57 @@
+
+Solar powered battery charging circuitry is provided. A charge controller receives electrical energy from a photovoltaic panel. Timer circuitry provides a control signal. A duty cycle of the control signal is determined by way of comparing a time-varying capacitor voltage to a lesser threshold voltage and a greater threshold voltage. The control signal is characterized by time-variable charging states and time-equal shunting states. Transfer of electrical energy from the photovoltaic panel to the storage battery is regulated by a shunting element using the control signal.
+
+
+
+1. An electronic circuit, comprising:
+a zener diode and a first resistor and a second resistor and a capacitor connected in series circuit arrangement and defining at least a portion of a timing network, the timing network electrically connected between an output node and a ground node, the timing network configured to provide a time-varying signal;
+timer circuitry configured to provide a digital signal by way of comparing the time-varying signal with a lesser threshold voltage and a greater threshold voltage, the digital signal characterized by about time-equal shunting states and time-variable charging states; and
+a switching element configured to shunt an input node to the ground node in accordance with the digital signal.
+
+
+
+2. The electronic circuit according to claim 1, the timer circuitry configured to discharge the capacitor from the greater threshold voltage to the lesser threshold voltage by way of the second resistor.
+
+
+3. The electronic circuit according to claim 1, the timing network including a switching diode coupled in parallel circuit arrangement with the second resistor, the capacitor configured to charge from the lesser threshold voltage to the greater threshold voltage by way of the zener diode and the first resistor and the switching diode and the second resistor.
+
+
+4. The electronic circuit according to claim 1 further comprising a diode connected between the input node and the output node.
+
+
+5. The electronic circuit according to claim 4 further comprising indicator circuitry configured to provide a visual signal in response to current flow through the diode.
+
+
+6. The electronic circuit according to claim 5, the indicator circuitry including a light-emitting diode.
+
+
+7. The electronic circuit according to claim 1 further comprising a voltage regulator configured to provide a constant voltage by way of a battery voltage present at the output node, the constant voltage being coupled to the timer circuitry.
+
+
+8. The electronic circuit according to claim 1, the switching element including a power metal-oxide semiconductor field-effect transistor (MOSFET).
+
+
+9. The electronic circuit according to claim 1 further comprising inverter circuitry configured to electrically couple the switching element to the digital signal.
+
+
+10. The electronic circuit according to claim 1, the timer circuitry defined by an integrated circuit.
+
+
+11. The electronic circuit according to claim 1 further comprising a potentiometer coupled to the timer circuitry, at least the greater threshold voltage being adjustable by way of the potentiometer.
+
+
+12. A solar power system, comprising:
+a photovoltaic panel configured to derive electrical energy by direct conversion of incident solar energy;
+a storage battery configured to store electrical energy; and
+a charge controller configured to regulate a transfer of electrical energy from the photovoltaic panel to the storage battery, the charge controller configured to shunt electrical current back to the photovoltaic panel in accordance with a control signal, the control signal characterized by about time-equal shunting states and time-variable charging states.
+
+
+
+13. The solar power system according to claim 12, the charge controller further including an indicator circuit to provide a visual indication in response to an electrical current flow from the photovoltaic panel to the storage battery.
+
+
+14. The solar power system according to claim 12, the charge controller configured such that the time-variable charging states correspond to a voltage of the storage battery.
+
+
+15. The solar power system according to claim 12, the charge controller not including any entity that operates in accordance with a machine-readable program code.
+

@@ -1,0 +1,124 @@
+
+A system and methods for measuring the performance of individual strings of photovoltaic (PV) modules in a PV array, including a string combiner box with integrated capability for measurement of string current versus voltage (I-V) characteristics. The system may include calibrated solar insolation reference devices; environmental meters; and/or at least one system computer. The string combiner box allows: high precision string performance measurement during normal power generating operation; isolation of individual strings or groups of strings; and the performance of high-precision full I-V sweeps on individual strings. Methods are provided to analyze measured I-V curves to compensate for the effects of temperature and other variables thereby increasing PV module performance measurement accuracy. Methods are further provided to incorporate data from insolation reference devices and/or environmental meters to extract meaningful parameters from collected data regarding PV module efficiency and degradation, and track string-level performance and degradation over extended periods of time.
+
+
+
+1. A system for monitoring the performance of an array of photovoltaic (PV) modules, comprising:
+a plurality of PV modules;
+one or more I-V measurement systems, said I-V measurement systems measuring I-V data, said I-V data including current versus voltage data;
+one or more switching systems each of which alternately connects one or more array subsections to said I-V measurement systems, said array subsections comprised of one or more PV modules; and
+a computing system which records and analyzes said I-V data to determine performance characteristics of said array subsections.
+
+
+
+2. The system of claim 1, wherein said array subsections comprise strings, said strings comprising a plurality of PV modules connected in series and/or parallel combinations.
+
+
+3. The system of claim 2, wherein said strings have electrical outputs, and where said electrical outputs are combined in a string combiner to aggregate the output power of said strings.
+
+
+4. The system of claim 2, wherein said computing system analyzes said I-V data for I-V curve characteristics indicative of mismatched PV modules or groups of PV modules comprising one or more of said strings.
+
+
+5. The system of claim 1, further comprising at least one temperature measurement device for measuring an ambient temperature and/or a temperature of at least one PV module.
+
+
+6. The system of claim 5, wherein said computing system corrects said I-V data in response to said temperature measurement device for the effects of temperature variation.
+
+
+7. The system of claim 5, wherein ambient temperature measurements are made using ambient thermometers, and said ambient temperature measurements are correlated with wind speed measurements to provide an estimate of a PV reference device and/or array subsection temperature(s).
+
+
+8. The system of claim 5, wherein temperature measurements from said temperature measurement device and/or estimates of temperature are correlated with current and voltage data from one or more PV reference device(s) so that said temperature measurement(s) and/or said temperature estimate(s) of said PV reference device(s) are correlated with device parameters of said PV reference device(s), said device parameters including Voc, Isc, and/or FF.
+
+
+9. The system of claim 5, wherein one or more PV reference devices for which temperature measurements and/or temperature estimates have been correlated with device parameters, said device parameters including Voc, Isc, and/or FF, are calibrated PV modules substantially identical to said PV modules in said array subsection, so that said device parameters extracted from said I-V data of said array subsection are used to accurately extract or estimate the temperature(s) of said PV module(s) in said array subsection.
+
+
+10. The system of claim 5, wherein one or more PV reference devices are PV modules substantially identical to said PV modules in one or more array subsection(s), and said PV reference devices are arranged in one or multiple groups substantially identical to the groups comprising said array subsection(s), and wherein the temperatures of said PV reference modules are measured and/or estimated and correlated with said device parameters of said PV reference device array subsection so that said device parameters of one or more other array subsection(s) may also be correlated with the PV module temperatures comprising each array subsection.
+
+
+11. The system of claim 5, wherein one or more insolation measurement devices are periodically replaced with new, calibrated insolation measurement devices in order to eliminate the effects of performance degradation on said insolation measurement devices.
+
+
+12. The system of claim 1, further comprising a spectrometer, said spectrometer measuring the spectrum of incident solar radiation, wherein said computing system corrects said I-V data for the spectral mismatch between incident solar radiation and a standard reference spectrum.
+
+
+13. The system of claim 1, wherein said I-V measurement systems comprise a transient load, said transient load comprised of:
+a capacitor which is charged by said array subsection;
+a variable-resistance electronic load; or
+a variable DC to DC power transfer system.
+
+
+
+14. The system of claim 1, wherein said I-V measurement systems comprise a transient load, said transient load comprised of a variable DC to DC power transfer system, said variable DC to DC power transfer system transferring power from said array subsection to another array subsection or the output of a string combiner.
+
+
+15. The system of claim 1, wherein said switching systems, said I-V measurement systems, and/or said computing system are at least partially powered by at least one of said array subsections.
+
+
+16. The system of claim 1, further comprising current and/or voltage sensors measuring current and/or voltage, respectively, of array subsections independently of said switching systems and I-V measurement systems.
+
+
+17. The system of claim 16, wherein said current and/or voltage sensors are periodically recalibrated by comparison to measurements performed with said I-V measurement systems.
+
+
+18. The system of claim 1, wherein said switching systems are implemented using mechanical relays and/or semiconductor switching devices.
+
+
+19. The system of claim 18, wherein said mechanical relay is placed in parallel with said semiconductor device, said semiconductor device a transistor-based switch, wherein said mechanical relay provides a low series resistance conduction path when closed, and said transistor-based switch is made to conduct during the opening or closing of said mechanical relay contacts to suppress arcs and protect said mechanical relay.
+
+
+20. The system of claim 1, further comprising at least one reference device for solar insolation measurement.
+
+
+21. The system of claim 20, further comprising an input for a master insolation reference device, wherein said master insolation reference device is used to calibrate said reference devices.
+
+
+22. The system of claim 20, wherein a solar insolation level is measured by measuring the short circuit current of a single or multiple calibrated reference cells or modules with spectral responsivities substantially identical to the PV modules comprising the single or multiple array subsections.
+
+
+23. The system of claim 20, wherein reference devices are recalibrated regularly on site and/or off site at staggered intervals such that solar insolation data from reference devices which are newly calibrated are recorded contemporaneously with solar insolation data from reference devices less recently calibrated.
+
+
+24. The system of claim 20, wherein some fraction of the reference devices are regularly cleaned to minimize the effects of soiling on solar insolation measurement, and wherein the performances of the reference devices may be regularly compared as a function of incident angle of solar irradiation to detect the presence of soiling from the different angular responses of the cleaned and uncleaned reference devices.
+
+
+25. The system of claim 20, wherein some fraction of the reference devices used in the system are PV modules substantially identical to the PV modules comprising the array, and are arranged in a string of PV modules substantially identical to the strings of PV modules comprising the array.
+
+
+26. The system of claim 20, wherein said computing system analyzes insolation data and said I-V data to compute the efficiency (η) of said array subsections.
+
+
+27. The system of claim 1, wherein said computing system analyzes said I-V data to determine at least one of open circuit voltage (Voc), short circuit current (Isc), fill factor (FF), inverse of the slope of the I-V curve at or near Voc (Roc), inverse of the slope of the I-V curve near Isc (Rsc), shunt resistance (Rsh), or series resistance (Rs) corresponding to said I-V data.
+
+
+28. The system of claim 1, wherein said computing system analyzes I-V data from one or more array subsections to detect abnormal performance of said array subsection and automatically assigns one or more causes to said abnormal performance.
+
+
+29. The system of claim 28, said causes including soiling of all or some modules in said array subsection, shading of some or all modules in said array subsection, damage to and/or mismatch of some or all of said PV modules in said array subsection, increase of series resistances of some or all of said PV modules in said array subsection, decrease in shunt resistances of some or all of said PV modules in said string, and/or a ground fault in said string.
+
+
+30. The system of claim 1, wherein the system incorporates instrumentation and/or algorithms capable of measuring the electrical noise from each array subsection, and correlating said electrical noise with assignable causes for abnormal performance of said array subsection.
+
+
+31. The system of claim 30, said causes including soiling of all or some modules in said array subsection, shading of some or all modules in said array subsection, damage to and/or mismatch of some or all of said PV modules in said array subsection, increase of series resistances of some or all of said PV modules in said array subsection, decrease in shunt resistances of some or all of said PV modules in said string, and/or a ground fault in said string.
+
+
+32. The system of claim 1, wherein said I-V data and/or efficiency measurements are used to monitor the performance of a PV inverter(s) incorporated into said array subsection over time so that decreases in efficiency or faults of said PV inverter(s) are detected by comparing the absolute DC efficiencies of said array subsections with the AC electrical energy generated at the output(s) of said PV inverter(s).
+
+
+33. The system of claim 1, wherein the system includes one or more power supplies to enable the system to perform dark I-V curves of said array subsections when said PV modules in said array subsections are not illuminated.
+
+
+34. The system of claim 33, wherein said computing system implements algorithms for extracting parameters of interest from said array subsection dark I-V curves, including Rs, Rsh, and/or diode ideality factors.
+
+
+35. The system of claim 1, additionally comprising one or more pristine PV modules substantially identical to said PV modules in said array subsection, said pristine PV modules being stored at an environmentally controlled location by a third party other than said PV module's manufacturer and said PV module's operator, and wherein said pristine PV modules are not permanently incorporated into said array subsection, so that data taken on said pristine PV modules are not subject to the same degradation mechanisms as said PV modules in said array subsection.
+
+
+36. A system for monitoring the performance of an array of photovoltaic (PV) modules, comprising:
+At least one array subsection, said array subsection comprised of a plurality of PV modules, and
+one or more test systems, said test systems applying and measuring transient electrical signals to at least one of said array subsections and wherein said test systems determine fault conditions and/or fault locations. 
+
+

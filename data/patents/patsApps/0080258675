@@ -1,0 +1,147 @@
+
+A multimode power module system automatically selects one of multiple operating modes to maximize power transfer in varying conditions by using direct energy transfer, boost peak power tracking, buck peak power tracking, charge limit, and eclipse standby modes with reduced switching losses, reduced component count, and scalability through connections of multiple power modules system.
+
+
+
+1. A system for providing power from the source to a load having a load voltage and load current, the system comprising,
+a battery for storing energy and having an output voltage,
+a source having a source voltage and providing power to the load and battery,
+a converter for providing output current from the source voltage, the converter for communicating power from the source to the battery and load by different modes, the modes comprising direct energy transfer and peak power tracking, and
+a current sensor for sensing output current from the converter, and
+a processor for monitoring the source voltage and the output voltage and the output current for selecting one of modes at any one time and for providing switch signals for controlling the converter for operating the system in a selected mode of the different modes.
+
+
+
+2. The system of claim 1 wherein,
+the power source is a solar array.
+
+
+
+3. The system of claim 1 wherein
+the switch signals are at least two switch signals,
+the converter comprises at least two switches respectively driven by the at least two switch signals, the two switches for communicating power from the source to the battery and load.
+
+
+
+4. The system of claim 1 wherein,
+the switch signals are at least two switch signals,
+the converter comprises at least two switches respectively driven by the at least two switch signals, the two switches for communicating power from the source to the battery and load, and
+the converter comprising an inductor disposed between the first two switches.
+
+
+
+5. The system of claim 1 wherein,
+the switch signals are four switch signals,
+the converter comprises four switches respectively driven by the four switch signals,
+a first two switches for communicating power from the source to the battery and load,
+the converter comprises an inductor disposed between the first two switches, and
+a second two of the four switches for providing a current path to ground for the inductor.
+
+
+
+6. The system of claim 1 wherein,
+the switch signals are four switch signals,
+the converter comprises four switches respectively driven by the four switch signals,
+a first two switches for communicating power from the source to the battery and load,
+the converter comprising an inductor disposed between the first two switches,
+a second two of the four switches for providing a current path to ground for the inductor,
+the converter comprises a first capacitor for coupling the source voltage to ground and comprises a second capacitor for coupling the output voltage to ground, and
+the converter is a conventional power regulator device.
+
+
+
+7. The system of claim 1 wherein,
+the different modes are selected from a group consisting of direct energy transfer, boost peak power tracking, buck peak power tracking, eclipse standby, and charge limit.
+
+
+
+8. The system of claim 1 wherein,
+the processor selects the direct energy transfer mode at a time when peak power tracking provides more power from the power source and direct energy transfer provides more output power.
+
+
+
+9. The system of claim 1 wherein,
+the different modes comprises direct energy transfer and buck peak power tracking and boost peak power tracking,
+the switch signals are at least four switch signals,
+the converter comprises four switches respectively driven by the four switch signals,
+a first two switches for communicating power from the source to the battery and load,
+the converter comprising an inductor disposed between the first two switches,
+a second two of the four switches for providing a current path to ground for the inductor,
+a third two of the four switches alternatively switching during buck peak power tracking,
+the fourth two of the four switches alternatively switching during boost peak power tracking, and
+the first two switches are turned on while the second two switches are turned off during direct energy transfer.
+
+
+
+10. The system of claim 1 wherein,
+the different modes further comprise an eclipse standby mode that is selected when the output current is zero.
+
+
+
+11. The system of claim 1 wherein,
+the different modes further comprise a charge limit mode that is selected when output voltage is above a maximum level.
+
+
+
+12. The system of claim 1 wherein,
+the switch signals are at least two switch signals,
+the converter comprises at least two switches respectively driven by the at least two switch signals, the two switches for communicating power from the source to the battery and load, and
+the switches are turned on and off by respective duty cycles varying for incrementally increasing and decreasing power from the power source to the load.
+
+
+
+13. The system of claim 1 wherein,
+the switch signals are at least four switch signals,
+the converter comprises four switches respectively driven by the four switch signals,
+a first two switches for communicating power from the source to the battery and load,
+the converter comprising an inductor disposed between the first two switches.
+a second two of the four switches for providing a current path to ground for the inductor,
+the converter comprises a first capacitor for coupling the source voltage to ground and a second capacitor for coupling the output voltage to ground,
+the converter is a conventional power regulator device,
+the different modes further comprise an eclipse standby mode and a charge limit mode,
+the eclipse standby mode is selected when the source voltage is below a minimum level and when the output current is zero,
+the charge limit mode is selected when output voltage is above a maximum level, and
+the four switches are turned on and off by respective duty cycles varying for incremental increasing and decreasing power from the power source to the load during peak power tracking.
+
+
+
+14. A method for providing power from a source to a load having a load voltage and load current, the method comprising,
+storing energy in a battery having an output voltage,
+supplying a source voltage from a source for providing power to the load and battery,
+converting the source voltage to the load voltage for providing an output current from the source voltage, the converting for communicating power from the source to the battery and the load by different modes, the modes comprising direct energy transfer and peak power tracking,
+monitoring the output voltage and the output current and the source voltage and selecting one of the different modes for converting the source voltage to the load voltage.
+
+
+
+15. The method of claim 14 wherein,
+the different modes further comprise an eclipse standby mode and a charge limit mode,
+the eclipse standby mode is selected when the output current is zero,
+the charge limit mode is selected when output voltage is above a maximum level.
+
+
+
+16. The method of claim 14 wherein,
+the monitoring and selecting steps are executed by a processor selecting the direct energy transfer mode at a time when direct energy transfer provides more output power and selecting the peak power tracker mode at a time when peak power tracker provides more output power equaling the output current multiplied by the output voltage.
+
+
+
+17. The method of claim 14 wherein,
+the monitoring and selecting steps are executed by a processor selecting the direct energy transfer mode at a time when direct energy transfer provides more output power and selecting the peak power tracker mode at a time when peak power tracker provides more output power equaling the output current multiplied by the output voltage, and
+the processor reduces processor operating current when the direct energy transfer mode is selected.
+
+
+
+18. The method of claim 14 wherein,
+the processor reduces processor operating current when the eclipse standby mode is selected.
+
+
+
+19. The method of claim 14 wherein,
+the source is a solar array.
+
+
+
+20. The method of claim 14 wherein,
+the converting step is executed by converter switches and by an inductor through which the output current is conducted.
+
+

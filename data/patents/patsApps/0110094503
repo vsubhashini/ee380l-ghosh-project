@@ -1,0 +1,40 @@
+
+A method for tracking the movement of the sun from East to West across the sky during daylight hours to enable solar photovoltaic (PV) panels or arrays of such panels to capture significantly more solar energy than fixed solar panels. Readily-available sun position data (taken from ephemeris or celestial navigation tables) can be programmed into read-only memory (ROM) chips. Date and time of day information can also be programmed into ROM chips powered by long-life, rechargeable batteries, such as lithium-ion batteries. Using such ROM chip data, a solar panel or an array of solar panels can track the sun position provided that during installation (with the panels aimed longitudinally towards the South), the solar panels are positioned upwards towards the noontime sun position to establish a starting point. This enables the sun tracking system of the present invention to track the sun without requiring a solar sensing device. Sun tracking provides an increase of from about 20% to 50% increased solar energy capture compared with fixed, non-tracking solar panels. Experimental data is also provided to illustrate the effectiveness of the present invention.
+
+
+
+1-11. (canceled)
+
+
+12. A method for tracking the position of the sun during daylight hours, consisting of a programmed control system which drives a suitable reversible electric motor, thereby causing one or more rotating solar panels to track the movement of the sun from East to West, wherein said control system makes use of pre-programmed information including but not limited to the date, a suitable time clock standard, and sun position information which includes at least one starting point input provided after system installation, as well as sun position data such as can be readily obtained from solar ephemeris data.
+
+
+13. The method for tracking the position of the sun according to claim 12, wherein said tracking system does not utilize any type of solar energy sensing device.
+
+
+14. The method for tracking the position of the sun according to claim 12, wherein said tracking system makes use of ordinary photocells only for the purpose of detecting sunrise, sunset or sufficiently bad or overcast weather to justify returning said rotating solar panels to the flat position with respect to the solar module framework.
+
+
+15. The method for tracking the position of the sun according to claim 12, wherein said rotating solar panels are capable of rotating at least about +/−60 degrees from the flat position with respect to the solar module framework.
+
+
+16. The method for tracking the position of the sun according to claim 12, wherein said tracking system is calibrated by entering at least one and preferably two sun position versus time of day data points into said control system program at different hours of the day, each said sun position defined as the panel rotation angle that maximizes solar energy capture at a particular time of day.
+
+
+17. The method for tracking the position of the sun according to claim 12, wherein said reversible electric motor is a gearmotor driving a pinion gear which engages a linear rack gear, said linear rack gear being supported and captured by suitable flanged roller bearings which insure proper contact with pinion gears which are mounted on the longitudinal axes of said one or more rotating solar panels.
+
+
+18. The method for tracking the position of the sun according to claim 12, wherein said rotating solar panels are mounted parallel to one another inside a modular framework.
+
+
+19. The method of mounting solar panels according to claim 18, wherein said modular framework is low-profile, less than about 6 inches high, and suited for mounting on almost any type of roof or structure, including but not limited to gazebos, patios, greenhouses, garages, residential homes, commercial buildings, shopping centers, sports arenas, open ground, or military installations such as aircraft hangers or ships.
+
+
+20. The method for tracking the position of the sun according to claim 12, wherein said tracking system is programmed to return said one or more solar panels after sunset from the end of day Westernmost pointing direction to the start of day Easternmost direction, so as to be ready for solar tracking again before sunrise on the next day.
+
+
+21. The method for tracking the position of the sun according to claim 12, wherein said tracking system is programmed to return said one or more solar panels to the flat or pointed upwards position which is parallel with the modular framework whenever the solar energy capture during daylight hours falls below a predetermined threshold, thereby indicating cloudy or overcast sky conditions.
+
+
+22. The method for tracking the position of the sun according to claim 12, wherein the control system program is simplified by assuming that all installations are located at the same latitude, for example, in the United States, at about 40 degrees North latitude.
+

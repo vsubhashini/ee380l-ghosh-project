@@ -1,0 +1,130 @@
+
+A system and method for combining power from DC power sources. Each power source is coupled to a converter. Each converter converts input power to output power by monitoring and maintaining the input power at a maximum power point. Substantially all input power is converted to the output power, and the controlling is performed by allowing output voltage of the converter to vary. The converters are coupled in series. An inverter is connected in parallel with the series connection of the converters and inverts a DC input to the inverter from the converters into an AC output. The inverter maintains the voltage at the inverter input at a desirable voltage by varying the amount of the series current drawn from the converters. The series current and the output power of the converters, determine the output voltage at each converter.
+
+
+
+1. A distributed power harvesting system comprising:
+a plurality of DC power sources;
+a plurality of converters, each of the converters comprising:
+input terminals coupled to a respective DC power source;
+output terminals coupled in series to the other converters, thereby forming a serial string;
+a circuit loop setting the voltage and current at the input terminals of the converter according to predetermined criteria; and,
+a power conversion portion for converting the power received at the input terminals to an output power at the output terminals; and
+
+a power supplier coupled to the serial string, the power supplier comprising a control part maintaining the input to the power supplier at a predetermined value.
+
+
+
+2. The distributed power harvesting system of claim 1, wherein the control part maintains the input voltage to the power supplier at a predetermined value.
+
+
+3. The distributed power harvesting system of claim 1, wherein the control part maintains the input current to the power supplier at a predetermined value.
+
+
+4. The distributed power harvesting system of claim 1, wherein the power supplier comprises a DC/AC inverter.
+
+
+5. The distributed power harvesting system of claim 1, wherein the power supplier comprises a battery charger.
+
+
+6. The distributed power harvesting system of claim 1, wherein the circuit loop comprises an MPPT part setting the voltage and current at the input terminals of the converter to maximum power point of the respective DC power source.
+
+
+7. The distributed power harvesting system of claim 6, wherein the power conversion portion comprises:
+a buck converter;
+a boost converter;
+a controller selectively activating either the buck converter or the boost converter in response to the MPPT part and current or voltage at the output terminals.
+
+
+
+8. The distributed power harvesting system of claim 7, wherein an inductor is being shared by the buck converter and the boost converter, and the controller comprises a pulse-width modulation portion.
+
+
+9. The distributed power harvesting system of claim 1, wherein the control part comprises a shunt regulator coupled in parallel with the power supplier and regulating the input voltage to a preselected constant input voltage.
+
+
+10. The distributed power harvesting system of claim 1, further comprising one or more additional serial strings coupled to the power supplier.
+
+
+11. The distributed power harvesting system of claim 1, further comprising:
+a plurality of current sensors; and
+a plurality of voltage sensors;
+wherein each of the current sensors and each of the voltage sensors is coupled between a respective converter and DC power source and providing current information and voltage information to the MPPT part.
+
+
+
+12. The distributed power harvesting system of claim 1, wherein each of the plurality of DC power sources comprises a solar panel or a building integrated solar panel.
+
+
+13. The distributed power harvesting system of claim 1, wherein at least one of the plurality of DC power sources comprises a fuel cell.
+
+
+14. The distributed power harvesting system of claim 1, wherein at least one of the plurality of DC power sources comprises a battery.
+
+
+15. The distributed power harvesting system of claim 1, wherein each of the plurality of converters further comprises a safety module limiting the output to a preset safe value until a predetermined event has occurred.
+
+
+16. The distributed power harvesting system of claim 15, wherein the predetermined event comprises one of a load above a preset threshold is applied to the converter or a release signal has been detected.
+
+
+17. The distributed power harvesting system of claim 1, wherein each of the converters further comprises a plurality of switching devices, each of the switching devices forming a current bypass to at least one DC power source.
+
+
+18. The distributed power harvesting system of claim 12, wherein the solar panel comprises a plurality of cell strings, each cell string comprising serially connected solar cells and a switching device coupled to bypass the serially connected solar cells.
+
+
+19. The distributed power harvesting system of claim 18, wherein the switching device comprises a transistor.
+
+
+20. The distributed power harvesting system of claim 1, wherein each of the converters further comprises a monitoring module monitoring and transmitting status related data, the status related data comprising at least one of: input current to the converter, input voltage to the converter, temperature of the power source, input power to the converter, and available illumination.
+
+
+21. A solar power installation, comprising:
+a DC/AC inverter comprising means for maintaining the input voltage or current to the inverter at a predetermined value;
+a plurality of serial strings coupled in parallel to the DC/AC inverter, each of the serial string comprising:
+a plurality of solar panels;
+a plurality of converters, each of the converters comprising:
+input terminals coupled to a respective solar panel;
+output terminals coupled in series to the other converters, thereby forming one serial string;
+an MPPT part setting the voltage and current at the input terminals of the converter according to maximum power point of the respective solar panel; and,
+a power conversion portion for converting the power received at the input terminals to an output power at the output terminals.
+
+
+
+
+22. The solar power installation of claim 21, wherein the predetermined value comprises a constant value.
+
+
+23. The solar power installation of claim 21, wherein the power conversion portion converts the power received at the input terminals to output power having current substantially equal to the total power provided by the plurality of solar panels in the serial string divided by the predetermined constant voltage at the input of the inverter.
+
+
+24. The solar power installation of claim 23, wherein the power conversion portion comprises a power conversion controller controlling pulse width modulation of the power conversion portion so as to output power having current substantially equal to the total power provided by the plurality of solar panels in the serial string divided by the predetermined constant voltage at the input of the inverter.
+
+
+25. The solar power installation of claim 24, wherein each of the power conversion portion comprises:
+a buck converter;
+a boost converter;
+a pulse width modulator; and,
+a digital controller controlling the pulse width modulator to selectively operate either the buck converter or the boost converter.
+
+
+
+26. The solar power installation of claim 21, wherein each of the serial strings further comprises:
+a plurality of current sensors, each measuring current output of one solar panel and sending measured current signal to a respective digital controller; and
+a plurality of voltage sensors, each measuring voltage output of one solar panel and sending measured voltage signal to a respective digital controller;
+wherein each digital controller adjusts current and voltage draw to obtain maximum available power.
+
+
+
+27. The solar power installation of claim 21, further comprising a safety module limiting the output voltage to a preset safe value as long as no load above a preset threshold is applied to the converter.
+
+
+28. The solar power installation of claim 21, wherein each of the solar panels comprises a plurality of cell strings, each cell string comprising serially connected solar cells and a switching device coupled to bypass the serially connected solar cells.
+
+
+29. The solar power installation of claim 28, wherein the switching device comprises a transistor.
+
+
+30. The solar power installation of claim 21, wherein each of the converters further comprises a monitoring module monitoring and transmitting power related data, the power related data comprising at least one of: input current to the converter, input voltage to the converter, temperature of the power source, spatial orientation of the power source, and available illumination. 
+

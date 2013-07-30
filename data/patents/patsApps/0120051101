@@ -1,0 +1,93 @@
+
+A power inverter system includes a plurality of power semiconductor switching devices. Each switching device includes a corresponding gate turn off resistance configured to increase during starting up periods of the inverter system such that the open circuit voltage of a corresponding power source providing power to the power inverter system does not exceed the switching device blocking voltage ratings during the corresponding switching turn-off periods. The starting up period is the time required to bring the corresponding power source voltage from its open circuit voltage level to a predetermined voltage which constitutes a safe operating condition for the plurality of power semiconductor switching devices.
+
+
+
+1. A power inverter system, comprising:
+a DC to AC inverter comprising a plurality of power semiconductor switching devices;
+a DC link selectively coupling DC power to the inverter; and
+a controller configured to increase a gate turn off resistance for each of the power semiconductor switching devices during starting up periods of the inverter system such that the DC link voltage does not exceed the power semiconductor switching device blocking voltage ratings during the corresponding switching turn-off periods, wherein the starting up period is the time required to bring a corresponding DC power source voltage from an open circuit voltage to a predetermined voltage which constitutes a safe operating condition for the plurality of power semiconductor switching devices.
+
+
+
+3. The power inverter system according to claim 1, wherein the predetermined voltage comprises the DC power source maximum power point voltage.
+
+
+4. The power inverter system according to claim 1, further comprising a photovoltaic array configured to generate the DC power.
+
+
+5. The power inverter system according to claim 1, wherein the controller is further configured to increase the gate turn off resistance only when the DC link voltage is within a predefined minimum and maximum voltage value based on the blocking voltage rating of the power semiconductor switching devices.
+
+
+6. The power inverter system according to claim 1, wherein the power semiconductor switching devices comprise insulated gate bipolar transistors.
+
+
+7. The power inverter system according to claim 1, wherein the controller is further configured to decrease the switching frequency of the DC to AC inverter during starting up periods of the power inverter system.
+
+
+8. The power inverter system according to claim 7, wherein the controller is further configured to increase the switching frequency of the DC to AC inverter when the DC link voltage is less than the predetermined voltage.
+
+
+9. The power inverter system according to claim 8, wherein the predetermined voltage comprises the DC power source maximum power point voltage.
+
+
+10. The power inverter system according to claim 1, wherein the controller is further configured to increase the gate turn off resistance of the power semiconductor switching devices when the DC link voltage is greater than the maximum power point voltage of the DC power source.
+
+
+11. The power inverter system according to claim 1, wherein the controller is further configured to control the gate turn-off resistance for each power semiconductor switching device in a stepwise or non-stepwise fashion based upon the DC power source voltage level.
+
+
+12. The power inverter system according to claim 1, wherein the controller is further configured to change the gate turn-off resistance for each power semiconductor switching device at zero vector instance of a corresponding space vector modulator, wherein zero vector is defined as the switching configuration of the power semiconductor devices in a DC to AC inverter that provides zero voltage at the inverter output.
+
+
+13. The power inverter system according to claim 1, wherein the controller is further configured to increase the gate turn off resistance during a zero/low voltage ride through (ZVRT/LVRT) event of the DC to AC inverter.
+
+
+14. A method of operating a power inverter system, the method comprising:
+providing an inverter controller and an inverter comprising a plurality of power semiconductor switching devices;
+connecting a DC voltage source to the inverter; and
+subsequent to connecting the DC voltage source to the inverter, increasing a gate turn off resistance for each of the semiconductor power switching devices during a corresponding inverter starting up period such that the source voltage does not exceed any power semiconductor switching device blocking voltage rating during the corresponding power semiconductor switching turn-off periods, wherein the starting up period is the time required to bring the DC source voltage from an open circuit voltage to a predetermined voltage which constitutes a safe operating condition for the plurality of power semiconductor switching devices.
+
+
+
+15. The power inverter system according to claim 14, wherein the predetermined voltage comprises the DC power source maximum power point voltage.
+
+
+16. The method according to claim 14, wherein the DC voltage source comprises a photovoltaic array.
+
+
+17. The method according to claim 14, wherein the plurality of power semiconductor switching devices comprises insulated gate bipolar transistors.
+
+
+18. The method according to claim 14, further comprising subsequent to connecting the DC voltage source to the inverter, increasing a gate turn off resistance for each of the semiconductor power switching devices only when the DC source voltage is higher than an inverter maximum dc link voltage rating such that the DC link voltage does not exceed the respective power semiconductor switching device blocking voltage rating during the corresponding switching turn-off periods.
+
+
+19. The method according to claim 14, further comprising subsequent to connecting the DC voltage source to the inverter, decreasing the switching frequency for each of the semiconductor power switching devices during its corresponding starting up period such that the source voltage does not exceed the respective power semiconductor switching device blocking voltage rating during the corresponding switching turn-off periods.
+
+
+20. A power inverter system comprising a plurality of power semiconductor switching devices, each switching device comprising a corresponding gate turn off resistance configured to increase during starting up periods of the inverter system such that the open circuit voltage of a corresponding power source providing power to the power inverter system does not exceed the switching device blocking voltage ratings during the corresponding switching turn-off periods, wherein the starting up period is the time required to bring the corresponding power source voltage from its open circuit voltage level to a predetermined voltage which constitutes a safe operating condition for the plurality of power semiconductor switching devices.
+
+
+21. The power inverter system according to claim 20, wherein the predetermined voltage comprises the DC power source maximum power point voltage.
+
+
+22. The power inverter system according to claim 20, wherein the power source comprises a photovoltaic array.
+
+
+23. The power inverter system according to claim 20, wherein each gate turn off resistance is further configured to increase only when a corresponding inverter DC link voltage is within a predefined minimum and maximum voltage value based on the blocking voltage rating of the power semiconductor switching devices.
+
+
+24. The power inverter system according to claim 20, wherein the plurality of power semiconductor switching devices comprises insulated gate bipolar transistors.
+
+
+25. The power inverter system according to claim 20, wherein each power semiconductor switching device is configured to operate at a decreased switching frequency during its switching turn-off periods when the power source voltage is greater than the maximum power point voltage.
+
+
+26. The power inverter system according to claim 20, wherein each power semiconductor switching device is further configured to operate at an increasing switching frequency during its switching turn-off periods as the power source voltage drops to or less than the maximum power point voltage
+
+
+27. The power inverter system according to claim 20, wherein each power semiconductor switching device gate turn off resistance is further configured to decrease from its increased value as the power source voltage drops to or less than the maximum power point voltage.
+
+
+28. The power inverter system according to claim 20, wherein each power semiconductor switching device gate turn off resistance is further configured to change in a stepwise or non-stepwise fashion based upon the power source voltage level.
+

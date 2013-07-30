@@ -1,0 +1,74 @@
+
+Renewable electrical energy is provided with aspects and circuitry that can harvest maximum power from an alternative electrical energy source (1) such as a string of solar panels (11) for a power grid (10). Aspects include: i) controlling electrical power creation from photovoltaic DC-AC inverter (5), ii) operating photovoltaic DC-AC inverter (5) at maximal efficiency even when MPP would not be, iii) protecting DC-AC inverter (5) so input can vary over a range of insolation and temperature, and iv) providing dynamically reactive capability to react and assure operation, to permit differing components, to achieve code compliant dynamically reactive photovoltaic power control circuitry (41). With previously explained converters, inverter control circuitry (38) or photovoltaic power converter functionality control circuitry (8) configured as inverter sweet spot converter control circuitry (46) can achieve extraordinary efficiencies with substantially power isomorphic photovoltaic capability at 99.2% efficiency or even only wire transmission losses.
+
+
+
+1. A method of dynamically reactive renewable electrical energy power creation comprising the steps of:
+creating a plurality of DC photovoltaic outputs from multiple alternative electrical energy sources;
+establishing said DC photovoltaic outputs as DC photovoltaic inputs to a plurality of photovoltaic DC-DC power converters;
+dynamically reactively converting each of said DC photovoltaic inputs to create a plurality of converted DC photovoltaic outputs for combination so as to have both a circuit configuration constrained output parameter and a circuit configuration unconstrained output parameter such combination creating a combined converted DC photovoltaic output;
+dynamically reactively controlling each of said circuit configuration unconstrained output parameters through operation of each of said photovoltaic DC-DC converters while also maximum power point independently controlling operation of each of said photovoltaic DC-DC converters, each while each of said photovoltaic DC-DC converters act to convert said DC photovoltaic input into said converted DC photovoltaic output;
+establishing said combined converted DC photovoltaic output to support a converted DC photovoltaic input to a photovoltaic DC-AC inverter; and
+inverting said converted DC photovoltaic input into a photovoltaic AC power output.
+
+
+
+2. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 wherein said step of dynamically reactively controlling each said circuit configuration unconstrained output parameter through operation of a photovoltaic DC-DC converter comprises the step of multisource dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter.
+
+
+3. A method of dynamically reactive renewable electrical energy power creation as described in claim 2 wherein said step of multisource dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of controlling a series connected photovoltaic converter voltage output through operation of said photovoltaic DC-DC converter.
+
+
+4. A method of dynamically reactive renewable electrical energy power creation as described in claim 2 wherein said step of multisource dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of controlling a parallel connected photovoltaic converter current output through operation of said photovoltaic DC-DC converter.
+
+
+5. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 wherein said step of dynamically reactively controlling each said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of code compliantly dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter.
+
+
+6. A method of dynamically reactive renewable electrical energy power creation as described in claim 5 wherein said step of code compliantly dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of slavedly dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter.
+
+
+7. A method of dynamically reactive renewable electrical energy power creation as described in claim 6 wherein said step of slavedly dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of slavedly code compliantly dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter.
+
+
+8. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 wherein said step of creating a plurality of DC photovoltaic outputs from multiple alternative electrical energy source comprises the step of creating outputs from a plurality of electrically connected solar panels.
+
+
+9. A method of dynamically reactive renewable electrical energy power creation as described in claim 8 wherein said step of dynamically reactively converting each said DC photovoltaic input further comprises the step of individual dedicated panel converting a DC photovoltaic input from each of said plurality of solar panels.
+
+
+10. A method of dynamically reactive renewable electrical energy power creation as described in claim 9 wherein said step of maximum power point independently controlling operation of each said photovoltaic DC-DC converter comprises the step of individual dedicated maximum photovoltaic power point converting a DC photovoltaic input from each of said plurality of solar panels.
+
+
+11. A method of dynamically reactive renewable electrical energy power creation as described in claim 10 wherein said step of dynamically reactively converting each said DC photovoltaic input comprises the step of physically integrally converting said DC photovoltaic input for individual solar panels.
+
+
+12. A method of dynamically reactive renewable electrical energy power creation as described in claim 8 and further comprising the step of serially connecting a plurality of photovoltaic DC-DC power converters to serially connect outputs having voltage as said circuit configuration unconstrained output parameter.
+
+
+13. A method of dynamically reactive renewable electrical energy power creation as described in claim 8 and further comprising the step of parallel connecting a plurality of photovoltaic DC-DC power converters to parallel connect outputs having current as said circuit configuration unconstrained output parameter.
+
+
+14. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 wherein said step of creating a plurality of DC photovoltaic outputs from multiple alternative electrical energy sources comprises the step of creating a DC photovoltaic output from each of a plurality of solar panels arranged in a photovoltaic array; and wherein said step of dynamically reactively controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of dynamically reactively individual panel controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter.
+
+
+15. A method of dynamically reactive renewable electrical energy power creation as described in claim 14 wherein said step of dynamically reactively individual panel controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter comprises the step of code compliantly dynamically reactively individual panel controlling said circuit configuration unconstrained output parameter through operation of said photovoltaic DC-DC converter.
+
+
+16. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 and further comprising the step of switching solar power conversion between a first power capability and a second power capability.
+
+
+17. A method of dynamically reactive renewable electrical energy power creation as described in claim 16 wherein said step of switching solar power conversion between a first power capability and a second power capability comprises the step of switching between the steps of traditionally power converting said DC photovoltaic input and improved power converting said DC photovoltaic input.
+
+
+18. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 and further comprising a step of duty cycle switching said DC-AC inverter selected from a group consisting of:
+maximum photovoltaic voltage determinatively duty cycle switching a photovoltaic DC-AC inverter; and
+photovoltaic inverter maximum current determinatively duty cycle switching a photovoltaic DC-AC inverter.
+
+
+
+19. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 and further comprising the step of maximum photovoltaic power point duty cycle switching a photovoltaic DC-DC converter.
+
+
+20. A method of dynamically reactive renewable electrical energy power creation as described in claim 1 and further comprising the step of photovoltaic inverter maximum current determinatively duty cycle switching a photovoltaic DC-DC converter. 
+

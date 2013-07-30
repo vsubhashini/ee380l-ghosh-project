@@ -1,0 +1,103 @@
+
+A method is provided for determining a value for an electrical output of a converter of renewable energy. The method comprises obtaining a signal representing the electrical output of the converter wherein that electrical output has an initial value. The method further comprises applying a pulse signal to the signal representing the electrical output, wherein the pulse signal comprises a positive portion and a negative portion. The method further comprises obtaining a measurement of electrical power produced by the converter during application of the pulse signal, removing the pulse signal and then obtaining a measurement of electrical power produced by the converter in the absence of the pulse signal. An error value is determined from the obtained electrical power measurements and that error value is applied to the initial value to obtain a target value for the electrical output of the converter.
+
+
+
+1. A method for determining a value for an electrical output of a converter of renewable energy, the method comprising:
+obtaining a signal representing the electrical output of the converter, wherein said electrical output has an initial value;
+applying a pulse signal to the signal representing the electrical output, said pulse signal including at least a first, positive portion and a second, negative portion wherein the two portions transition directly from one to the other;
+obtaining a measurement of electrical power produced by the converter during application of the pulse signal;
+removing said pulse signal from the signal representing the electrical output;
+obtaining a measurement of electrical power produced by the converter in the absence of the pulse signal;
+using said measurements of electrical power to obtain an error value; and
+applying said error value to the initial value to obtain a target value for the electrical output of the converter.
+
+
+
+2. A method as claimed in claim 1 comprising, before applying the pulse signal, controlling the electrical output of the converter to equal, or be as close as possible to, a predetermined initial value.
+
+
+3. A method for controlling a value for an electrical output of a converter of renewable energy comprising determining said target value according to the method of claim 1 and controlling the electrical output of the converter to equal, or be as close as possible to, said target value.
+
+
+4. A method as claimed in claim 1 wherein the converter comprises a converter of solar energy to electrical energy; and optionally, wherein the converter comprises any of: a photovoltaic (PV) cell, a plurality of PV cells, a PV string, a PV array and a PV panel.
+
+
+5. A method as claimed in claim 1 wherein a first measurement (PP) of electrical power produced by the converter is obtained during the positive portion of the pulse signal and a second measurement (PN) of electrical power produced by the converter is obtained during the negative portion of the pulse signal.
+
+
+6. A method as claimed in claim 1 further comprising calculating an average power value for a time period defined by any of: the positive portion of the pulse signal; the negative portion of the pulse signal; the positive and negative portions of the pulse signal; or the absence of the pulse signal.
+
+
+7. A method as claimed in claim 6 wherein an average power value for one or more of said time periods is calculated using power measurement values obtained only during a respective part of said time period.
+
+
+8. A method as claimed in claim 7 wherein the part of the time period for which power measurement values are used to calculate a respective average power value is of the same temporal length for each of: the positive portion of the pulse signal; the negative portion of the pulse signal; and the absence of the pulse signal.
+
+
+9. A method as claimed in any of claim 1 further comprising the step of, after removing the pulse signal from the signal representing the controlled electrical output, allowing a pre-determined time period to elapse before obtaining a measurement of electrical power produced by the converter in the absence of the pulse signal.
+
+
+10. A method as claimed in claim 1 wherein the step of obtaining a measurement of electrical power produced by the converter in the absence of the pulse signal comprises obtaining a measurement of average power during a first predetermined time period in the absence of the pulse signal and obtaining a measurement of average peak power during a second time period in the absence of the pulse signal; and optionally,
+wherein said second time period is a subsection of said first time period.
+
+
+
+11. A method as claimed in claim 1 wherein the step of obtaining a measurement of electrical power produced by the converter during application of the pulse signal comprises calculating a positive power value (PP) for the positive portion of the pulse signal, calculating a negative power value (PN) during the negative portion of the pulse signal and calculating an average power value (PAP&O) over the entire pulse signal, including both positive and negative portions.
+
+
+12. A method as claimed in claim 1 wherein the step of using measurements of electrical power to obtain an error value comprises obtaining a positive perturbation value for the positive portion of the pulse signal, obtaining a negative perturbation value for the negative portion of the pulse signal and obtaining an irradiation power change value representing a change in power due to irradiation in the absence of the pulse signal.
+
+
+13. A method as claimed in claim 12 wherein the error value is calculated as a difference between the irradiation power change value and a combination of the negative and positive perturbation values.
+
+
+14. A method as claimed in claim 12 wherein a multiplying factor is applied to at least one of: the irradiation power change value, the positive perturbation value, or the negative perturbation value before calculation of the error value to account for differences in the temporal length between any of: the negative portion of the pulse signal, the positive portion of the pulse signal and the absence of the pulse signal.
+
+
+15. A method as claimed in claim 1 wherein the error value is determined by:
+
+
+Error Term=(PP−PAP&O)+((PN−PAP&O)*−1)−((PI−PAI)*2)  (1)
+
+
+wherein:
+PP is the average power over a subsection of the positive portion of the test pattern;
+PAp&O is the average power over the total test pattern including both negative and positive portions;
+PN is the average power over a subsection of the negative portion of the test pattern;
+PI is the average peak power measured during a subsection of the time period for which measurement values are obtained in the absence of the test pattern (the irradiation period); and
+PAI is the average power over the total time period for which measurements are obtained in the absence of the test pattern (the irradiation period).
+
+
+
+16. A method as claimed in claim 1 wherein the value for an electrical output of the converter is a voltage value.
+
+
+17. An electrical power generating system comprising a converter of renewable energy into electrical power, said system configured to:
+provide a signal indicative of the electrical power available from the converter;
+provide a signal indicative of the voltage output by the converter;
+apply a pulse signal to said signal indicative of the voltage output by the converter wherein the pulse signal includes at least a first, positive portion and a second, negative portion and wherein the two portions transition directly from one to the other; and
+calculate a target value for the voltage output by the converter.
+
+
+
+18. The system of claim 17 wherein the converter comprises a solar array including one or more photovoltaic (PV) cells.
+
+
+19. The system of claim 17 further comprising a controller for controlling the voltage output by the converter to equal, or be as close as possible to, said target value.
+
+
+20. The system of claim 17 further comprising a switch for connecting the electrical power to an output stage.
+
+
+21. A system as claimed in claim 19, in which providing a signal indicative of the voltage output by the converter comprises creating a voltage drop across the output of the converter and providing a signal indicative of said voltage drop to the controller.
+
+
+22. A system as claimed in claim 20 wherein the output stage comprises an inverter operable to change a DC output from the converter into an AC supply.
+
+
+23. A system as claimed in claim 19 wherein the controller is operable to apply a resistance across an output of the converter in order to control the voltage output by the converter to equal, or be as close as possible to, said target value.
+
+
+24. A tangible computer-readable medium having computer-executable instructions adapted to cause a computer system to perform the method of claim 1. 
+

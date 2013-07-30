@@ -1,0 +1,79 @@
+
+A power conversion system for use with a photovoltaic (PV) power source may include a DC/DC converter for converting a first DC voltage into a second DC voltage, an isolation transformer, an inverter for converting DC power to AC power, and at least one controller for controlling the DC/DC converter and the inverter. The controller may be configured to operate the DC/DC converter as a buck converter or a boost converter based, at least in part, on whether the first DC voltage is less or greater than a reference voltage. Additionally, the controller may operate the converter according to a maximum power point tracking algorithm. Further, the controller may be configured to operate the inverter to control the DC voltage at the inverter's input as a function of the AC voltage at the inverter's output. Example embodiments of power systems, DC/DC converters, DC/AC inverters and related methods are also disclosed.
+
+
+
+1. A power conversion system for use with a photovoltaic (PV) power source, the system comprising:
+a DC/DC converter for converting a first DC voltage into a second DC voltage;
+an isolation transformer;
+an inverter for converting DC power to AC power; and
+at least one controller for controlling the DC/DC converter and the inverter, the controller configured to operate the DC/DC converter as a buck converter or a boost converter based, at least in part, on whether the first DC voltage is less or greater than a reference voltage.
+
+
+
+2. The system of claim 1 wherein the controller is configured to operate the DC/DC converter according to a maximum power point tracking algorithm.
+
+
+3. The system of claim 2 wherein the inverter is a grid-tie inverter.
+
+
+4. The system of claim 3 wherein the isolation transformer has a turns ratio of approximately 1:1.
+
+
+5. The system of claim 4 wherein the inverter includes an input for receiving a DC voltage and an output for providing an AC voltage, and wherein the controller is configured to operate the inverter to control the DC voltage at the inverter's input as a function of the AC voltage at the inverter's output.
+
+
+6. The system of claim 5 wherein the DC/DC converter includes an output coupled to the inverter's input via the isolation transformer.
+
+
+7. The system of claim 5 wherein the inverter's output is coupled to an AC utility grid.
+
+
+8. The system of claim 7 wherein the DC/DC converter includes an input coupled to a PV power source.
+
+
+9. The system of claim 5 wherein the second DC voltage is the reference voltage at least when the controller is operating the DC/DC converter according to the MPPT algorithm.
+
+
+10. A power system comprising:
+an input for receiving an input voltage from a variable DC input source;
+an output for providing an output voltage;
+a buck-boost converter; and
+at least one controller configured to operate the buck-boost converter as a buck converter or a boost converter based, at least in part, on whether the input voltage is greater or less than a reference voltage, and to operate the converter according to a maximum power point tracking algorithm.
+
+
+
+11. The system of claim 10 wherein the converter is operable to convert a first DC voltage to a second DC voltage and wherein the second DC voltage is the reference voltage at least when the controller is operating the DC/DC converter according to the MPPT algorithm.
+
+
+12. The system of claim 11 further comprising an inverter including an input for receiving a DC voltage and an output for providing an AC voltage.
+
+
+13. The system of claim 12 further comprising an isolation transformer, the buck-boost converter including an output coupled to the inverter's input via the isolation transformer.
+
+
+14. The system of claim 13 wherein the isolation transformer has a turns ratio of approximately 1:1.
+
+
+15. A power system comprising:
+an input for receiving an input voltage from a variable DC input source;
+an output for providing an output voltage;
+an inverter including an input for receiving a DC voltage and an output for providing an AC voltage; and
+at least one controller configured to operate the inverter to control the DC voltage at the inverter's input as a function of the AC voltage at the inverter's output.
+
+
+
+16. The system of claim 15 wherein the inverter is a grid-tie inverter.
+
+
+17. The system of claim 16 further comprising DC/DC converter including an input for receiving a first DC voltage and an output for outputting a second DC voltage.
+
+
+18. The system of claim 17 further comprising an isolation transformer, the DC/DC converter output coupled to the inverter's input via the isolation transformer.
+
+
+19. The system of claim 18 wherein the controller is configured to operate the inverter to control the DC voltage at the inverter's input as a function of the AC voltage at the inverter's output to maintain the DC voltage at the inverter's input within a defined range above a peak magnitude of the AC voltage at the inverter's output.
+
+
+20. The system of claim 19 wherein the controller is configured to operate the DC/DC converter as a buck converter or a boost converter based, at least in part, on whether the input voltage is greater or less than a reference voltage. 
+

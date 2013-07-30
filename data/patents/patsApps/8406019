@@ -1,0 +1,81 @@
+
+A method of providing reactive power support is proposed. The method includes detecting at least one of a plurality of network parameters in a distributed solar power generation system. The generation system includes a plurality of photovoltaic modules coupled to a grid via inverters. The method further includes sensing a state of the photovoltaic modules coupled to the distributed solar power generation system and determining a reactive power measure based upon the sensed state and the detected network parameters. The reactive power measure is used to generate a reactive power command. The reactive power command is further used to compensate reactive power in the distributed solar power generation system.
+
+
+
+1. A method of providing reactive power support comprising:
+detecting at least one of a plurality of network parameters in a distributed solar power generation system comprising a plurality of photovoltaic modules coupled to a grid via inverters;
+sensing a state of the photovoltaic modules coupled to the distributed solar power generation system;
+obtaining data from at least one of a load demand module and a weather module;
+determining a reactive power measure based upon the sensed state, the obtained data, and the detected network parameters;
+generating a reactive power command based upon the determined reactive power measure; and
+compensating reactive power in the distributed solar power generation system based upon the generated reactive power command.
+
+
+
+2. The method of claim 1, wherein the network parameters comprise at least one of a current, a voltage or a status of the inverters coupled to the distributed solar power generation system.
+
+
+3. The method of claim 1 further comprising determining a system topology of the distributed solar power generation system.
+
+
+4. The method of claim 3, wherein said sensing further comprises evaluating an operational state, reactive power capacity, and present load capacity of the photovoltaic modules.
+
+
+5. The method of claim 1 further comprising activating the inverters coupled to the photovoltaic modules with the reactive power command to compensate reactive power in the distributed solar power generation system.
+
+
+6. The method of claim 1, wherein the reactive power command is iteratively generated based upon the network parameters and the state of photovoltaic modules.
+
+
+7. The method of claim 1 further comprising balancing multiple phase voltage, or balancing multiple phase current, or balancing multiple phase voltages and currents in the distributed solar power generation system.
+
+
+8. A system comprising:
+a plurality of photovoltaic modules coupled to a grid, wherein at least one inverter is coupled with the respective photovoltaic modules;
+a plurality of sensing devices coupled to the grid and configured to sense at least one network parameter and a reactive power measure;
+a load demand monitor; and
+an optimization controller coupled to the at least one inverter and the load demand monitor and configured to generate a reactive power command for compensating reactive power in the distributed solar power generation system based upon the at least one network parameter, an output from the load demand monitor, and a sensed state.
+
+
+
+9. The system of claim 8, wherein the sensing devices comprise at least one of a current measuring device, a voltage measuring device and a phase angle measuring device.
+
+
+10. The system of claim 8, wherein the current measuring device is configured to sense a load current.
+
+
+11. The system of claim 8, wherein the optimization controller is further coupled to a weather monitor.
+
+
+12. The system of claim 8, wherein the optimization controller comprises an optimization algorithm to generate the reactive power command.
+
+
+13. The system of claim 11, wherein the optimization controller is further configured to balance multiple phase voltages, or multiple phase currents, or both multiple phase voltages and currents in the grid.
+
+
+14. An apparatus for optimizing reactive power compensation comprising:
+a receiver configured to receive a plurality of network parameters, a weather condition, and a status of inverters coupled to a photovoltaic module in a distributed solar power generation system coupled to a grid;
+a memory coupled to the receiver to store the plurality of network parameters, the weather condition, and the status;
+at least one processor coupled to the receiver and configured to compute a reactive power measure for the distributed solar power generation system based upon the network parameters, the weather condition, and the status and to generate a reactive power command based upon the reactive power measure; and
+a transmitter coupled to the processor and configured to transmit the reactive power command to the inverters to compensate reactive power in the distributed solar power generation system.
+
+
+
+15. The apparatus of claim 14, wherein the receiver is further configured to digitize at least one of a current, a voltage, a real power, or a reactive power measure of the distributed solar power generation system.
+
+
+16. The apparatus of claim 14, wherein the status comprises an operating state of the inverters coupled to the photovoltaic module.
+
+
+17. The apparatus of claim 14, wherein the status further comprises a system topology.
+
+
+18. The apparatus of claim 14, wherein at least processor executes an optimization algorithm to generate the reactive power command.
+
+
+19. The apparatus of claim 14, wherein the transmitter is configured to interface with a communication network comprising a power line carrier or an Ethernet network.
+
+
+20. The apparatus of claim 19, wherein the communication network is configured to transmit the reactive power command via the grid. 
+

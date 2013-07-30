@@ -1,0 +1,78 @@
+
+A computer-implemented method of operating a wireless intelligent solar power reader (WISPR) module includes receiving a command from an external device, the command requesting an output power reading from a photovoltaic (PV) module and transmitting the output power request to the photovoltaic module. The WISPR Module receives the output power reading from the photovoltaic module and transmits the output power reading to the external device. In an embodiment of the invention, the command also requests meteorological information from a weather instrument located in proximity to the WISPR module and the WISPR modules transmit the meteorological request to the weather instrument. The WISPR module receives the meteorological reading from the weather instrument and transmits the meteorological reading to the external device.
+
+
+
+1. A computer implemented method of deactivating a plurality of photovoltaic (PV) modules, comprising:
+receiving an alarm condition from a monitoring system; and
+transmitting a global shutdown command to a plurality of wireless intelligent solar power reader (WISPR) modules corresponding to the plurality of photovoltaic (PV) modules in response to receiving the alarm condition.
+
+
+
+2. The computer-implemented method of claim 1, wherein the global shutdown command causes the plurality of wireless intelligent solar power reader (WISPR) modules to close and latch a relay that shorts a power output for each of the plurality of the photovoltaic (PV) modules.
+
+
+3. The computer-implemented method of claim 1, further including receiving a mitigation condition and transmitting a global reactivation command to the plurality of WISPR modules corresponding to the plurality of PV modules in response to the mitigation condition.
+
+
+4. The computer-implemented method of claim 3, wherein the plurality of PV modules is reactivated by opening the crowbar relay on each of the plurality of WISPR modules corresponding to the plurality of PV modules.
+
+
+5. The computer-implemented method of claim 1, wherein an auxiliary interface receives the alarm condition from the monitoring system, transfers the alarm condition to a data analysis and control (DACS) computer and the DACS computer generates the global shutdown command in response thereto.
+
+
+6. A computer-implemented method of deactivating a selected group of a plurality of photovoltaic (PV) modules, comprising:
+receiving a request to deactivate the selected group of the plurality of PV modules;
+utilizing a database to identify addresses of a plurality of wireless intelligent solar power reader (WISPR) modules corresponding to the selected group of the plurality of PV modules;
+generating a deactivation command; and
+transmitting a command to the plurality of WISPR modules corresponding to the selected group of the plurality of the PV modules to shutdown or deactivate the selected group of the plurality of the PV modules.
+
+
+
+7. A computer-implemented method of monitoring a plurality of photovoltaic (PV) modules, comprising:
+generating a request to a plurality of WISPR modules for output power readings at the corresponding plurality of PV modules;
+receiving the output power reading for each of the corresponding plurality of PV modules at a data acquisition and control system (DACS); and
+calculating output power statistics for each of the corresponding plurality of PV modules.
+
+
+
+8. The computer-implement method of claim 7, further including generating a total solar power output for the all of the corresponding plurality of PV modules and displaying the total solar power output.
+
+
+9. The computer-implemented method of claim 7, wherein a set number of PV modules are identified as a PV string and the plurality of PV modules are divided into a plurality of PV strings, further including generating a real time power output for each PV string and displaying the real time power output for each PV string.
+
+
+10. The computer-implemented method of claim 7, further including initially polling, at set time intervals, each of the plurality of WISPR modules to request the output power for each of the plurality of the PV modules and generating comparative performance statistics for each of the plurality of PV modules.
+
+
+11. The method of claim 7, further including receiving meteorological information at the plurality of WISPR modules from at least one weather instrument located in proximity of the plurality of WISPR modules.
+
+
+12. The method of claim 11, further including transmitting the measured meteorological information to a data acquisition and control (DACS) system.
+
+
+13. A computer-implemented method of operating a wireless intelligent solar power reader (WISPR) module, comprising:
+receiving a command from an external device, the command requesting an output power reading from a photovoltaic (PV) module;
+transmitting an output power request to the PV module;
+receiving an output power reading from the PV module; and
+transmitting the output power reading to the external device.
+
+
+
+14. The computer-implemented method of claim 13, wherein the command also requests meteorological information from the WISPR module, the WISPR module transmits a meteorological information request to a weather instrument, and the WISPR module receives meteorological information from the weather instrument, which is located in proximity to the WISPR module.
+
+
+15. The computer-implemented method of claim 14, wherein the transmits the received meteorological information to the external device.
+
+
+16. A computer-implemented method of operating a wireless intelligent solar power reader (WISPR) module, comprising:
+receiving a command from an external device, the command requesting shutdown of the photovoltaic (PV) module; and
+generating a command to close and latch a relay that shorts a power output of the PV module.
+
+
+
+17. The computer-implemented method of claim 16, further including:
+receiving an activation command from the external device, the activation command requesting reactivation of the photovoltaic module; and
+generating a command to open the relay and allow power to be output from the photovoltaic module. 
+
+

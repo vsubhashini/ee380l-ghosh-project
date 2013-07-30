@@ -1,0 +1,93 @@
+
+A photovoltaic (PV) array system may include multiple PV strings, each PV string including respective PV panels coupled in series. Each PV string may be coupled in series with a first terminal of a respective string equalizer module. The string equalizer module may equalize a maximum power-point voltage (VMP) of the PV string before the PV strings combine to produce a single, composite DC bus voltage on a DC bus. To accomplish this, each string equalizer module may generate a respective adaptive string equalizer output voltage at its first terminal to tune a respective PV string voltage of its corresponding respective PV string to have the VMP of its corresponding PV string match respective VMP's of other PV strings. That is, PV strings may sink or source power from/to other PV strings, to equalize the VMP of each corresponding respective PV string.
+
+
+
+1. A photovoltaic (PV) array system comprising:
+a plurality of PV strings, each respective PV string of the plurality of PV strings comprising a respective plurality of PV panels coupled in series;
+a plurality of string equalizer modules, wherein each respective string equalizer module of the plurality of string equalizer modules is coupled at one end of a corresponding respective PV string of the plurality of PV strings, wherein each respective string equalizer module is configured to equalize a maximum power-point voltage (VMP) of its corresponding respective PV string before the plurality of PV strings combine to produce a single, composite DC bus voltage on a DC bus.
+
+
+
+2. The PV array system of claim 1, wherein at least one of the plurality of string equalizer modules is further configured to generate a respective adaptive string equalizer output voltage to tune a respective PV string voltage of its corresponding respective PV string to have its VMP match respective VMP's of other PV strings of the plurality of PV strings.
+
+
+3. The PV array system of claim 1, wherein the plurality of PV strings are configured to have lower power PV strings sink power from higher power PV strings, to equalize the VMP of each corresponding respective PV string of the plurality of PV strings.
+
+
+4. The PV array system of claim 1, wherein power required by one or more respective PV strings of the plurality of PV strings for equalizing their respective VMP's is provided by one or more power sources other than the plurality of PV strings.
+
+
+5. The PV array system of claim 4, wherein the one or more power sources comprise at least one of:
+the DC bus voltage;
+an inverter coupled to the DC bus;
+an external power supply;
+an external power storage device; and
+a battery.
+
+
+
+6. The PV array system of claim 1, wherein the plurality of PV strings are configured to have one or more of the plurality of PV strings move power from the one or more of the plurality of PV strings to a power storage medium.
+
+
+7. The PV array system of claim 1, wherein at least one respective string equalizer module of the plurality of string equalizer modules comprises a DC-to-DC buck/boost converter configured to divert power from higher power PV strings of the plurality of PV strings to lower power PV strings of the plurality of PV strings.
+
+
+8. The PV array system of claim 1, wherein the plurality of string equalizer modules are configured together in a string equalizer combiner module placed at a common junction where respective ends of the plurality of PV strings intersect.
+
+
+9. A photovoltaic (PV) array system comprising:
+a plurality of PV strings, each respective PV string of the plurality of PV strings comprising a respective plurality of PV panels coupled in series;
+a plurality of string equalizer modules, wherein each respective string equalizer module of the plurality of string equalizer modules comprises:
+a first terminal coupled to a PV panel configured at one end of a corresponding respective PV string of the plurality of PV strings;
+a second terminal coupled to a common return node; and
+a third terminal coupled to a string equalizer bus;
+
+wherein each respective string equalizer module of the plurality of string equalizer modules is configured to change a respective voltage at its first terminal in a direction opposite of a change of a first voltage at the first terminal of another one of the plurality of string equalizers, in response to the change of the first voltage.
+
+
+
+10. The PV array system of claim 9, wherein each string equalizer module of the plurality of string equalizer modules comprises:
+a maximum power point tracking (MPPT) control loop comprising the first terminal of the string equalizer module; and
+a voltage regulation loop comprising the second terminal of the string equalizer module.
+
+
+
+11. The PV array system of claim 10, wherein the MPPT control loop operates outside the voltage-regulation loop at a relatively slow rate, to allow voltages and currents in the PV array system to settle in response to probe steps applied as part of MPPT performed by the MPPT control loop.
+
+
+12. The PV array system of claim 9, wherein the plurality of string equalizer modules are configured to compensate for differences in respective maximum power point (MPP) voltages between the plurality of PV strings.
+
+
+13. The PV array system of claim 9, wherein a respective PV panel at one end of each PV string of the plurality of PV strings is coupled to a common DC voltage bus.
+
+
+14. The PV array system of claim 13, further comprising an inverter coupled to the common DC voltage bus to generate an AC voltage from a DC voltage developed on the DC voltage bus, and configured to perform MPPT on the DC voltage bus.
+
+
+15. The PV array system of claim 14, wherein each string equalizer module of the plurality of string equalizer modules is configured to perform MPPT for its corresponding respective PV string independently from the MPPT performed by the inverter.
+
+
+16. A photovoltaic (PV) string equalizer module comprising:
+a first terminal configured to couple in series with a corresponding respective PV string of a plurality of PV strings, the corresponding respective PV string comprising a respective plurality of PV panels coupled in series; and
+first circuitry configured to equalize a maximum power-point voltage (VMP) of the corresponding respective PV string before the plurality of PV strings combine to produce a single, composite DC bus voltage on a DC bus.
+
+
+
+17. The PV string equalizer of claim 16, wherein the first circuitry is further configured to generate a respective adaptive string equalizer output voltage at the first terminal to tune a respective PV string voltage of the corresponding respective PV string to have the VMP of the corresponding respective PV string match respective VMP's of other PV strings of the plurality of PV strings.
+
+
+18. The PV string equalizer of claim 16, wherein the first circuitry is further configured to sink or source power from/to other PV strings of the plurality of PV strings, to equalize the VMP of each corresponding respective PV string of the plurality of PV strings.
+
+
+19. The PV string equalizer of claim 16, wherein the first circuitry comprises a DC-to-DC buck/boost converter configured to:
+sink power from the other PV strings when power provided by the corresponding respective PV string is lower than power provided by each of the other PV strings; and
+source power to any one or more of the other PV strings that provide lower power than the power provided by the corresponding respective PV string.
+
+
+
+20. The PV string equalizer of claim 16, wherein power required by the PV string equalizer for equalizing its respective VMP is provided by one or more of:
+one or more power sources that do not comprise the plurality of PV strings; or
+power storage media.
+
+

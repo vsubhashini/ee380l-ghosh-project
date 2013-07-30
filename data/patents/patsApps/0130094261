@@ -1,0 +1,101 @@
+
+Photovoltaic power converter systems and methods are described. In one example, a method for use in operating a solar power converter includes sampling a DC link voltage of a DC link during a first cycle of an alternating output voltage of a second stage at one instance when the alternating output voltage is crossing zero volts in a first direction. A voltage difference a voltage difference between the DC link voltage sampled during the first cycle and a DC link voltage sampled during a previous cycle when the alternating output voltage was crossing zero volts in the first direction is determined. A DC link power is estimated based at least in part on the determined voltage difference. The AC power output by the second stage in a second cycle is controlled based at least in part on the estimated DC link power.
+
+
+
+1. A method for use in operating a solar power converter including a first stage for coupling to a photovoltaic module and outputting a direct current (DC) power, a second stage for coupling to an output of the first stage and outputting an alternating current (AC) power, and a DC link coupled between the first and second stage, said method comprising:
+sampling a DC link voltage of the DC link during a first cycle of an alternating output voltage of the second stage at one instance when the alternating output voltage is crossing zero volts in a first direction;
+determining a voltage difference between the DC link voltage sampled during the first cycle and a DC link voltage sampled during a previous cycle when the alternating output voltage was crossing zero volts in the first direction;
+estimating a DC link power based at least in part on the determined voltage difference; and
+controlling the AC power output by the second stage in a second cycle after the first cycle based at least in part on the estimated DC link power.
+
+
+
+2. A method in accordance with claim 1, further comprising determining a DC link voltage target as a function of the estimated DC link power, wherein controlling the AC power is based at least in part on the DC link voltage target.
+
+
+3. A method in accordance with claim 2, wherein controlling the AC power output based at least in part on the estimated DC link power comprises determining a target AC power output of the second stage based at least in part on the estimated DC link power and the DC link voltage target.
+
+
+4. A method in accordance with claim 3, further comprising determining an average DC link voltage for the first cycle.
+
+
+5. A method in accordance with claim 4, wherein estimating the DC link power is further based on the average DC link voltage for the first cycle.
+
+
+6. A method in accordance with claim 4, wherein determining the target AC power output comprises determining the target AC power output based at least in part on the estimated DC link power, the average DC link voltage, and a difference between the average DC link voltage and the DC link voltage target.
+
+
+7. A method in accordance with claim 6, further comprising determining a target AC output current for the second stage based at least in part on the target AC power output, and wherein controlling the AC power output comprises controlling an AC output current of the second stage based at least in part on the target AC output current.
+
+
+8. A method in accordance with claim 7, wherein the target AC output current is set only once per cycle.
+
+
+9. A method in accordance with claim 1, wherein estimating DC link power is further based at least in part on a measured AC power output.
+
+
+10. A method in accordance with claim 1, wherein controlling the AC power output comprises controlling an AC output current of the second stage.
+
+
+11. A method in accordance with claim 10, wherein the converter is coupled to an AC grid and controlling the AC output current is based at least in part on a measured voltage of the grid in the first cycle.
+
+
+12. A method in accordance with claim 10, wherein the converter is coupled to an AC grid and controlling the AC output current is based at least in part on a nominal voltage of the grid.
+
+
+13. A method in accordance with claim 1, wherein the second stage comprises a DC high rail coupled to the DC link, a DC low rail coupled to the DC link, a first power branch and a second power branch coupled between the DC high rail and the DC low rail, the first power branch and the second power branch each comprising a resistive shunt, and wherein the method further comprises sampling signals from the first and second power branch's resistive shunts, and controlling operation of the second stage based, at least in part, on the sampled signals.
+
+
+14. A grid-tie solar power converter comprising:
+an input for receiving a direct current (DC) power input;
+a first stage for receiving the DC power input and including an output for providing a DC power output;
+a DC link coupled to the output of the first stage;
+a second stage coupled to the DC link and configured to convert DC power to an alternating current (AC) output power;
+a controller coupled to the second stage, the controller configured to:
+sample a DC link voltage of the DC link during a first cycle of an alternating output voltage of the second stage at one instance when the alternating output voltage is crossing zero volts in a first direction;
+determine a voltage difference between the DC link voltage sampled during the first cycle and a DC link voltage sampled during a previous cycle when the alternating output voltage was crossing zero volts in the first direction;
+estimate a DC link power based at least in part on the determined voltage difference; and
+control the AC power output by the second stage in a second cycle after the first cycle based at least in part on the estimated DC link power.
+
+
+
+
+15. A grid-tie solar power converter in accordance with claim 14, wherein the controller is further configured to determine a DC link voltage target as a function of the estimated DC link power, wherein controlling the AC power is based at least in part on the DC link voltage target.
+
+
+16. A grid-tie solar power converter in accordance with claim 15, wherein the controller is configured to control the AC power output based at least in part on the estimated DC link power by determining a target AC power output of the second stage based at least in part on the estimated DC link power and the DC link voltage target.
+
+
+17. A grid-tie solar power converter in accordance with claim 16, wherein the controller is further configured to determine an average DC link voltage for the first cycle.
+
+
+18. A grid-tie solar power converter in accordance with claim 17, wherein the controller is configured to estimate the DC link power based at least in part on the average DC link voltage for the first cycle.
+
+
+19. A grid-tie solar power converter in accordance with claim 17, wherein the controller is further configured to determine the target AC power output based at least in part on the estimated DC link power, the average DC link voltage, and a difference between the average DC link voltage and the DC link voltage target.
+
+
+20. A grid-tie solar power converter in accordance with claim 19, wherein the controller is further configured to determine a target AC output current for the second stage based at least in part on the target AC power output, and control an AC output current of the second stage based at least in part on the target AC output current.
+
+
+21. A grid-tie solar power converter in accordance with claim 20, wherein the controller is configured to set the target AC output current only once per cycle.
+
+
+22. A grid-tie solar power converter in accordance with claim 14, wherein the DC link comprises a non-electrolytic capacitor.
+
+
+23. A grid-tie solar power converter in accordance with claim 22, wherein the non-electrolytic capacitor comprises a film capacitor.
+
+
+24. A grid-tie solar power converter in accordance with claim 23, wherein the second stage comprises a 250 watt, single phase, 120 volt AC inverter.
+
+
+25. A grid-tie solar power converter in accordance with claim 24, wherein the film capacitor has a capacitance of less than about 30 microfarads.
+
+
+26. A grid-tie solar power converter in accordance with claim 23, wherein the film capacitor comprises a plurality of film capacitors coupled to each other in parallel.
+
+
+27. A grid-tie solar power converter in accordance with claim 14, wherein the second stage comprises a DC high rail coupled to the DC link, a DC low rail coupled to the DC link, a first power branch and a second power branch coupled between the DC high rail and the DC low rail, the first power branch and the second power branch each comprising a resistive shunt, and wherein the controller is further configured to sample signals from the first and second power branch's resistive shunts, and control operation of the second stage based, at least in part, on the sampled signals. 
+

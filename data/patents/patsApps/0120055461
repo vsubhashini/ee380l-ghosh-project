@@ -1,0 +1,70 @@
+
+System for adjusting solar cell modules of a solar installation according to the sun's position, comprising a drive device for a group of drive units, for adjusting the solar cell modules, wherein a control unit is associated with each drive unit, and the drive units are connected to a shared power supply as well as a data bus, wherein the group of control units are connected via a shared power and data transmission line to a bus coupler, the bus coupler is coupled to the power supply for coupling energy, as well as to the data bus for coupling data, into the power and data transmission line, and one of the control units is designed as master control unit, and the additional control units of the group are designed as slave control units, and controllable via the power and data line by means of the master control unit.
+
+
+
+1. System (SYS) for adjusting solar cell modules (SZM) of a solar installation (SA) according to the sun's position, comprising a drive device (AER) for a group of drive units (AE), for adjusting the solar cell modules (SZM), wherein a control unit (ASE) is associated with each drive unit (AE), and the drive units (ASE) are connected to a shared power supply (EV) as well as a data bus (DS),
+characterized in that
+the group of control units (ASE) are connected via a shared power and data transmission line (EDL) to a bus coupler (BK), the bus coupler (BK) is coupled to the power supply (EV) for coupling energy, as well as to the data bus for coupling data, into the power and data transmission line (EDL), and one of the control units (ASE) is designed as master control unit (MASE), and the additional control units (ASE) of the group are designed as slave control units (SASE), and controllable via the power and data line (EDL) by means of the master control unit (MASE).
+
+
+
+2. System according to claim 1,
+characterized in that
+the power and data line (EDL) is designed as power line.
+
+
+
+3. System according to claim 1,
+characterized in that
+the slave control units (SASE) are controllable synchronously by the master control unit (MASE).
+
+
+
+4. System according to claim 1,
+characterized in that
+at least one solar cell module (SZM) is associated with each drive unit (AE), wherein the drive units (AE) are mechanically coupled or mechanically uncoupled via the solar cell modules (SZM) or supports (T) thereof.
+
+
+
+5. System according to claim 1,
+characterized in that
+the power and data line (EDL) is designed as a three wire line, wherein the signal transmission occurs via a supply voltage network, such as, the 230 V network or 120 V network.
+
+
+
+6. System according to claim 1,
+characterized in that
+the power and data line (EDL) connecting the group of control units (ASE) is connected or coupled directly to a GPS sensor (SEN) or equivalent sensor.
+
+
+
+7. System according to claim 1,
+characterized in that
+the central data bus (DB) is connected to a central control/monitoring device (STE), through which the geodata are sent to the drive units (AE).
+
+
+
+8. System according to claim 1,
+characterized in that
+a group of control units (ASE) comprises the master control unit (MASE) and any desired number of slave control units (SASE), preferably 14 slave control units (SASE).
+
+
+
+9. System according to claim 1,
+characterized in that
+the control unit (ASE) and the drive unit (AE) form one unit.
+
+
+
+10. System according to claim 1,
+characterized in that
+the drive units (AE), for the definition of a zero setting or reference setting, can be moved in a controlled manner into a terminal position against a terminal abutment.
+
+
+
+11. System according to claim 1,
+characterized in that
+the control unit (ASE) comprises two connections for the power and data transmission line (EDL), wherein the power and data transmission line (EDL) is looped through the control unit (ASE), or in that the control unit (ASE) presents a connection for the power and data transmission line (EDL), and is connected to the latter via a coupling element. 
+
+

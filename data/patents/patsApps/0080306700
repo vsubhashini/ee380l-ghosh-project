@@ -1,0 +1,107 @@
+
+An integrated photovoltaic (PV) solar array health monitor configured to derive informations relating to the health of a string of PV solar cells. A transmit module 300 switches from a normal mode of operation and to a self-powered monitoring mode of operation and provides a load 318 to the solar cell string. Processor/control logic 308 directs activities of the monitoring process to obtain informations relating to the solar cell string. The informations are converted to a suitable format for transmission at an antenna 336, via a transmitter circuit 316. The transmitted information reflects the health status of the solar cell string.
+
+
+
+1. A photovoltaic solar health monitor comprising:
+a transmit module having an input coupled for receiving a signal from a solar panel device and an output coupled for transmitting health status information, said transmit module comprising,
+a switch having an input coupled to said transmit module input, said switch having a first output position coupled to a bias circuit and having a second output position coupled to a load,
+said bias circuit configured for supplying a voltage to said transmit module;
+a processor/control means having a controlling first output controllably coupled to said switch for commanding a mode of operation of said transmit module, said mode being a normal mode when said switch is in said first output position, and said mode being a monitoring mode when said switch is in said second output position;
+a load control device having an input coupled to a controlling second output of said processor/control means for receiving a load control signal, said load control device having first and second terminals for coupling said load to said input of said transmit module during said monitoring mode;
+a monitoring circuit having first and second inputs coupled to first and second outputs, respectively, of said load control device for receiving a plurality of informations from said load control device,
+said monitoring circuit having a third input coupled for receiving a controlling signal from a controlling third output of said processor/control means to select one of said plurality of informations, and
+said monitoring circuit having an output for outputting said one of said plurality of informations;
+
+a conversion circuit having a first input coupled to said output of said monitor circuit for converting said informations from a first format to a second format; and having a second input coupled to a fourth output of said processor/control means for synchronizing said load control signal with said informations;
+a transmitter circuit having an input coupled to said output of said conversion circuit, said transmitter circuit having an output configured for transmitting said second formatted informations.
+
+
+
+
+2. The photovoltaic solar health monitor of claim 1, wherein said bias circuit is a voltage regulator.
+
+
+3. The photovoltaic solar health monitor of claim 1, further comprising a storage element coupled to said transmit module input and configured to provide power during said monitoring mode.
+
+
+4. The photovoltaic solar health monitor of claim 3, wherein said storage element is a capacitor.
+
+
+5. The photovoltaic solar health monitor of claim 3, wherein said storage element is a rechargeable battery.
+
+
+6. The photovoltaic solar health monitor of claim 1, further comprising an antenna coupled to said output of said transmitter circuit, wherein said antenna, said solar panel device, and said transmit module are integrated as a single package.
+
+
+7. The photovoltaic solar health monitor of claim 6, wherein said antenna is part of a package housing.
+
+
+8. The photovoltaic solar health monitor of claim 6, wherein said package housing is conductive.
+
+
+9. The photovoltaic solar health monitor of claim 1, wherein said solar panel device is a single cell.
+
+
+10. The photovoltaic solar health monitor of claim 1, wherein said monitor includes a fourth input coupled for receiving temperature sensor information from a temperature sensor output.
+
+
+11. The photovoltaic solar health monitor of claim 1, wherein said transmitter circuit output is configured as an on-off keyed output.
+
+
+12. The photovoltaic solar health monitor of claim 1, wherein said transmitter circuit output is configured as a sonic output.
+
+
+13. The photovoltaic solar health monitor of claim 1, wherein said transmitter circuit output is configured as an optical output.
+
+
+14. A method of determining the health of a photovoltaic solar panel, comprising the steps of:
+a) selecting a bias mode of operation;
+b) selecting a monitoring mode of operation;
+c) alternating between said bias mode of operation and said monitoring mode of operation;
+d) applying a common bias from an originating source,
+1) removing said originating source during said monitoring mode; and
+
+e) loading the solar panel during the monitoring mode to generate health status information,
+1) processing said health status information,
+2) communicating said health status information.
+
+
+
+
+15. A photovoltaic solar health monitor comprising:
+a transmit module having a first input coupled for receiving a signal from a first solar panel device, a second input coupled for receiving a signal from a second solar panel device and an output coupled for transmitting health status information of said first and second solar panel devices, said transmit module comprising,
+a first switch having an input coupled to said transmit module first input, said first switch having a first output position coupled to a bias circuit and having a second output position coupled to a load;
+a second switch having an input coupled to said transmit module second input, said second switch having a first output position coupled to said bias circuit and having a second output position coupled to said load;
+a processor/control means having controlling first output coupled to said first switch for commanding a mode of operation of said transmit module, and having a second output controllably coupled to said second switch for commanding said mode of operation of said transmit module,
+wherein said mode is a normal mode when said first and second switches in said first output position,
+wherein said mode is in a first monitoring mode when said first switch is in said second output position and said second switch is in said first output position, and
+wherein said mode is in a second monitoring mode when said first switch is in said first output position and said second switch is in said second output position,
+wherein said processor/control means is configured to operate alternately between said first monitoring mode and said second operating mode;
+
+a load control device having an input coupled to a controlling third output of said processor/control means for receiving a load control signal, said load control device having first and second terminals for coupling said load coupled to said first and second inputs of said transmit module during said first and second monitoring modes respectively;
+a monitoring circuit having first and second inputs coupled to first and second outputs, respectively, of said load control device for receiving a plurality of informations from said load control device,
+said monitoring circuit having a third input coupled for receiving a controlling signal from a controlling fourth output of said processor/control means to select one of said plurality of informations, and
+said monitoring circuit having an output for outputting said one of said plurality of informations;
+
+a conversion circuit having a first input coupled to said output of said monitor circuit for converting said informations from a first format to a second format; and having a second input coupled to a fifth output of said processor/control means for synchronizing said load control signal with said informations; and
+a transmitter circuit having an input coupled to said output of said conversion circuit, said transmitter circuit having an output configured for transmitting said second formatted informations.
+
+
+
+
+
+16. The photovoltaic solar health monitor of claim 15, wherein said first solar panel device is a single cell.
+
+
+17. The photovoltaic solar health monitor of claim 15, wherein said monitor includes a fourth input coupled for receiving temperature sensor information from a temperature sensor output.
+
+
+18. The photovoltaic solar health monitor of claim 15, wherein said transmitter circuit output is configured as an on-off keyed output.
+
+
+19. The photovoltaic solar health monitor of claim 15, wherein said transmitter circuit output is configured as a sonic output.
+
+
+20. The photovoltaic solar health monitor of claim 15, wherein said transmitter circuit output is configured as an optical output. 
+

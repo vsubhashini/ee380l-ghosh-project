@@ -1,0 +1,231 @@
+
+Different systems to achieve solar power conversion are provided in at least three different general aspects, with circuitry that can be used to harvest maximum power from a solar source (1) or strings of panels (11) for DC or AC use, perhaps for transfer to a power grid (10) three aspects can exist perhaps independently and relate to: 1) electrical power conversion in a multimodal manner, 2) alternating between differing processes such as by an alternative mode photovoltaic power converter functionality control (27), and 3) systems that can achieve efficiencies in conversion that are extraordinarily high compared to traditional through substantially power isomorphic photovoltaic DC-DC power conversion capability that can achieve 99.2% efficiency or even only wire transmission losses. Switchmode impedance conversion circuits may have pairs of photovoltaic power series switch elements (24) and pairs of photovoltaic power shunt switch elements (25).
+
+
+
+1. An efficient solar energy power system comprising:
+a plurality of solar panels, each said solar panel having a DC photovoltaic output;
+a DC photovoltaic input that accepts power from said DC photovoltaic output;
+at least one substantially power isomorphic photovoltaic DC-DC power converter responsive to at least one said DC photovoltaic input;
+substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry to which said at least one substantially power isomorphic photovoltaic DC-DC power converter is responsive;
+a converted photovoltaic DC power output connected to said at least one substantially power isomorphic photovoltaic DC-DC power converter;
+at least one photovoltaic DC-AC inverter responsive to said photovoltaic DC power output; and
+a photovoltaic AC power output responsive to said at least one photovoltaic DC-AC inverter.
+
+
+
+2. An efficient solar energy power system as described in claim 1 wherein said plurality of solar panels comprises a string of solar panels; and wherein said substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry comprises a panel dedicated substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry.
+
+
+3. An efficient solar energy power system as described in claim 1 wherein said substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry to which said at least one substantially power isomorphic photovoltaic DC-DC power converter is responsive comprises a substantially power isomorphic maximum photovoltaic power point converter dual mode functionality control circuitry to which said at least one substantially power isomorphic photovoltaic DC-DC power converter is responsive.
+
+
+4. An efficient solar energy power system as described in claim 1 and further comprising photovoltaic boundary condition converter functionality control circuitry.
+
+
+5. An efficient solar energy power system as described in claim 1 wherein said substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry is selected from a group consisting of:
+at least about 98% efficient photovoltaic conversion circuitry,
+at least about 98.5% efficient photovoltaic conversion circuitry,
+at least about 98% up to about 99.2% efficient photovoltaic conversion circuitry,
+at least about 98.5% up to about 99.2% efficient photovoltaic conversion circuitry,
+at least about 98% up to about wire transmission loss efficient photovoltaic conversion circuitry, and
+at least about 98.5% up to about wire transmission loss efficient photovoltaic conversion circuitry.
+
+
+
+6. An efficient solar energy power system as described in claim 1 wherein said substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry comprises substantially power isomorphic maximum photovoltaic power point converter multimodal functionality control circuitry selected from a group consisting of:
+alternative mode photovoltaic power converter functionality control circuitry;
+photovoltaic impedance transformation power conversion control circuitry;
+maximum photovoltaic inverter current converter functionality control circuitry;
+maximum photovoltaic power point converter functionality control circuitry;
+photovoltaic inverter operating condition converter functionality control circuitry;
+both photovoltaic load impedance increase converter functionality control circuitry and photovoltaic load impedance decrease converter functionality control circuitry;
+slaved maximum photovoltaic power point converter functionality control circuitry;
+slaved photovoltaic inverter operating condition converter functionality control circuitry;
+slaved photovoltaic load impedance increase converter functionality control circuitry;
+slaved photovoltaic load impedance decrease converter functionality control circuitry;
+both slaved photovoltaic load impedance increase converter functionality control circuitry and slaved photovoltaic load impedance decrease converter functionality control circuitry;
+photovoltaic boundary condition converter functionality control circuitry;
+posterior photovoltaic element protection converter functionality control circuitry;
+photovoltaic inverter protection converter functionality control circuitry;
+photovoltaic inverter coordinated converter functionality control circuitry;
+maximum photovoltaic inverter current converter functionality control circuitry;
+slaved photovoltaic voltage increase and photovoltaic voltage decrease maximum photovoltaic power point converter functionality control circuitry;
+maximum photovoltaic inverter input voltage photovoltaic converter output voltage functionality control circuitry;
+multimodal converter functionality control circuitry;
+alternative mode photovoltaic power converter functionality control circuitry configured to alternatively switch at least some times between first modality photovoltaic DC-DC power conversion circuitry and second modality photovoltaic DC-DC power conversion circuitry;
+both photovoltaic load impedance increase converter functionality control circuitry and photovoltaic load impedance decrease converter functionality control circuitry;
+photovoltaic boundary condition converter functionality control circuitry;
+posterior photovoltaic operating condition converter functionality control circuitry;
+posterior photovoltaic element protection converter functionality control circuitry;
+substantially power isomorphic photovoltaic converter functionality control circuitry;
+photovoltaic disable mode converter functionality control circuitry;
+photovoltaic inverter protection converter functionality control circuitry;
+photovoltaic inverter coordinated converter functionality control circuitry;
+photovoltaic slaved mode converter functionality control circuitry;
+photovoltaic inverter slaved converter functionality control circuitry;
+photovoltaic duty cycle switch control circuitry;
+threshold determinative switching photovoltaic power conversion control circuitry;
+switch frequency alteration switching photovoltaic power conversion control circuitry;
+burst mode switching photovoltaic power conversion control circuitry;
+transient opposition mode photovoltaic duty cycle switch control circuitry;
+first modality control circuitry;
+burst mode control circuitry operated for occasional bursts of a particular duty cycle level for mode transition of said photovoltaic DC-DC converter between a first modality of photovoltaic DC-DC power conversion and a second modality of photovoltaic DC-DC power conversion;
+transient opposition mode control circuitry; and
+all permutations and combinations of each of the above.
+
+
+
+7. An efficient solar energy power system as described in claim 1 and further comprising an element selected from a group consisting of:
+a conversion operation switch that switches operation between a first modality photovoltaic DC-DC power conversion circuitry and a second modality photovoltaic DC-DC power conversion circuitry; and
+a shunt switch operation disable element to bypass at least one modality of photovoltaic DC-DC power conversion circuitry at least some times.
+
+
+
+8. An efficient solar energy power system as described in claim 1 and further comprising a junction box.
+
+
+9. An efficient solar energy power system as described in claim 8 wherein said junction box comprises said at least one substantially power isomorphic photovoltaic DC-DC power converter physically integral to an individual solar panel.
+
+
+10. An efficient solar energy power system as described in claim 1 wherein said at least one substantially power isomorphic photovoltaic DC-DC power converter is selected from a group consisting of:
+at least one individual panel dedicated substantially power isomorphic photovoltaic DC-DC power converter; and
+at least one multiple panel dedicated substantially power isomorphic photovoltaic DC-DC power converter.
+
+
+
+11. An efficient solar energy power system as described in claim 10 and further comprising an element selected from a group consisting of:
+a string of said plurality of solar panels connected to said at least one substantially power isomorphic photovoltaic DC-DC power converter, wherein said string of said plurality of solar panels is selected from a group consisting of 10 solar panels, 8 solar panels, 4 solar panels, 3 solar panels, and 2 solar panels;
+at least one series string multiple panel dedicated substantially power isomorphic photovoltaic DC-DC power converter; and
+a string of said plurality of solar panels selected from a group consisting of 10 solar panels, 8 solar panels, 4 solar panels, 3 solar panels, and 2 solar panels.
+
+
+
+12. An efficient solar energy power system as described in claim 1 and further comprising an interconnection box for a plurality of said DC photovoltaic outputs.
+
+
+13. An efficient solar energy power system as described in claim 12 and further comprising an electrical connection between at least one of said plurality of solar panels and said interconnection box, wherein said at least one of said plurality of solar panels is selected from a group consisting of 10 solar panels, 8 solar panels, 4 solar panels, 3 solar panels, and 2 solar panels.
+
+
+14. An efficient solar energy power system as described in claim 1 and further comprising a solar power conversion operation switch that switches operation between a first power capability and a second power capability.
+
+
+15. An efficient solar energy power system as described in claim 14 wherein said first power capability comprises a traditional power conversion capability and wherein said second power capability comprises an improved power conversion capability.
+
+
+16. An efficient solar energy power system as described in claim 15 and further comprising a shunt switch operation disable element to bypass said improved power conversion capability.
+
+
+17. An efficient solar energy power system comprising:
+a plurality of solar panels, each said solar panel having a DC photovoltaic output;
+a DC photovoltaic input that accepts power from said DC photovoltaic output;
+first modality photovoltaic DC-DC power conversion circuitry responsive to said DC photovoltaic input;
+second modality photovoltaic DC-DC power conversion circuitry responsive to said DC photovoltaic input;
+at least one photovoltaic DC-DC power converter responsive to at least one said DC photovoltaic input;
+high efficiency multimodal converter functionality control circuitry to which said at least one photovoltaic DC-DC power converter is responsive and wherein said high efficiency multimodal converter functionality control circuitry is configured to switch at least some times between said first modality photovoltaic DC-DC power conversion circuitry and said second modality photovoltaic DC-DC power conversion circuitry;
+a converted photovoltaic DC power output connected to said at least one photovoltaic DC-DC power converter;
+at least one photovoltaic DC-AC inverter responsive to said photovoltaic DC power output; and
+a photovoltaic AC power output responsive to said at least one photovoltaic DC-AC inverter.
+
+
+
+18. An efficient solar energy power system as described in claim 17 wherein said high efficiency multimodal converter functionality control circuitry comprises substantially power isomorphic photovoltaic converter functionality control circuitry.
+
+
+19. An efficient solar energy power system as described in claim 18 wherein said substantially power isomorphic photovoltaic converter functionality control circuitry is selected from a group consisting of:
+at least about 98% efficient photovoltaic conversion circuitry,
+at least about 98.5% efficient photovoltaic conversion circuitry,
+at least about 98% up to about 99.2% efficient photovoltaic conversion circuitry,
+at least about 98.5% up to about 99.2% efficient photovoltaic conversion circuitry,
+at least about 98% up to about wire transmission loss efficient photovoltaic conversion circuitry, and
+at least about 98.5% up to about wire transmission loss efficient photovoltaic conversion circuitry.
+
+
+
+20. An efficient solar energy power system comprising:
+at least one string of a plurality solar panels, at least one of said solar panels having a DC photovoltaic output;
+a DC photovoltaic input that accepts power from said DC photovoltaic output;
+at least one multiple panel dedicated substantially power maximum photovoltaic power point DC-DC power converter responsive to at least one said DC photovoltaic input;
+maximum photovoltaic power point converter multimodal functionality control circuitry to which said at least one multiple panel dedicated substantially power maximum photovoltaic power point DC-DC power converter is responsive;
+a converted photovoltaic DC power output connected to said at least one multiple panel dedicated substantially power maximum photovoltaic power point DC-DC power converter;
+at least one photovoltaic DC-AC inverter responsive to said photovoltaic DC power output; and
+a photovoltaic AC power output responsive to said at least one photovoltaic DC-AC inverter.
+
+
+
+21. An efficient solar energy power system as described in claim 17 or 20 wherein said converter functionality control circuitry comprises converter functionality control circuitry selected from a group consisting of:
+alternative mode photovoltaic power converter functionality control circuitry;
+photovoltaic impedance transformation power conversion control circuitry;
+maximum photovoltaic inverter current converter functionality control circuitry;
+maximum photovoltaic power point converter functionality control circuitry;
+photovoltaic inverter operating condition converter functionality control circuitry;
+both photovoltaic load impedance increase converter functionality control circuitry and photovoltaic load impedance decrease converter functionality control circuitry;
+slaved maximum photovoltaic power point converter functionality control circuitry;
+slaved photovoltaic inverter operating condition converter functionality control circuitry;
+slaved photovoltaic load impedance increase converter functionality control circuitry;
+slaved photovoltaic load impedance decrease converter functionality control circuitry;
+both slaved photovoltaic load impedance increase converter functionality control circuitry and slaved photovoltaic load impedance decrease converter functionality control circuitry;
+photovoltaic boundary condition converter functionality control circuitry;
+posterior photovoltaic element protection converter functionality control circuitry;
+photovoltaic inverter protection converter functionality control circuitry;
+photovoltaic inverter coordinated converter functionality control circuitry;
+maximum photovoltaic inverter current converter functionality control circuitry;
+slaved photovoltaic voltage increase and photovoltaic voltage decrease maximum photovoltaic power point converter functionality control circuitry;
+maximum photovoltaic inverter input voltage photovoltaic converter output voltage functionality control circuitry;
+multimodal converter functionality control circuitry;
+alternative mode photovoltaic power converter functionality control circuitry configured to alternatively switch at least some times between first modality photovoltaic DC-DC power conversion circuitry and second modality photovoltaic DC-DC power conversion circuitry;
+both photovoltaic load impedance increase converter functionality control circuitry and photovoltaic load impedance decrease converter functionality control circuitry;
+photovoltaic boundary condition converter functionality control circuitry;
+posterior photovoltaic operating condition converter functionality control circuitry;
+posterior photovoltaic element protection converter functionality control circuitry;
+substantially power isomorphic photovoltaic converter functionality control circuitry;
+photovoltaic disable mode converter functionality control circuitry;
+photovoltaic inverter protection converter functionality control circuitry;
+photovoltaic inverter coordinated converter functionality control circuitry;
+photovoltaic slaved mode converter functionality control circuitry;
+photovoltaic inverter slaved converter functionality control circuitry;
+photovoltaic duty cycle switch control circuitry;
+threshold determinative switching photovoltaic power conversion control circuitry;
+switch frequency alteration switching photovoltaic power conversion control circuitry;
+burst mode switching photovoltaic power conversion control circuitry;
+transient opposition mode photovoltaic duty cycle switch control circuitry;
+first modality control circuitry;
+burst mode control circuitry operated for occasional bursts of a particular duty cycle level for mode transition of said photovoltaic DC-DC converter between a first modality of photovoltaic DC-DC power conversion and a second modality of photovoltaic DC-DC power conversion;
+transient opposition mode control circuitry; and
+all permutations and combinations of each of the above.
+
+
+
+22. An efficient solar energy power system as described in claim 17 or 20 and further comprising an element selected from a group consisting of:
+a conversion operation switch that switches operation between a first modality photovoltaic DC-DC power conversion circuitry and a second modality photovoltaic DC-DC power conversion circuitry; and
+a shunt switch operation disable element to bypass at least one modality of photovoltaic DC-DC power conversion circuitry at least some times.
+
+
+
+23. An efficient solar energy power system as described in claim 17 or 20 and further comprising a junction box.
+
+
+24. An efficient solar energy power system as described in claim 23 wherein said junction box comprises said at least one substantially power isomorphic photovoltaic DC-DC power converter physically integral to an individual solar panel.
+
+
+25. An efficient solar energy power system as described in claim 17 wherein said at least one photovoltaic DC-DC power converter is selected from a group consisting of:
+at least one individual panel dedicated substantially power isomorphic photovoltaic DC-DC power converter; and
+at least one multiple panel dedicated substantially power isomorphic photovoltaic DC-DC power converter.
+
+
+
+26. An efficient solar energy power system as described in claim 20 wherein said at least one multiple panel dedicated substantially power maximum photovoltaic power point DC-DC power converter comprises at least one multiple panel dedicated substantially power isomorphic photovoltaic DC-DC power converter.
+
+
+27. An efficient solar energy power system as described in claim 25 or 26 and further comprising an element selected from a group consisting of:
+a string of said plurality of solar panels connected to said at least one substantially power isomorphic photovoltaic DC-DC power converter, wherein said string of said plurality of solar panels is selected from a group consisting of 10 solar panels, 8 solar panels, 4 solar panels, 3 solar panels, and 2 solar panels;
+at least one series string multiple panel dedicated substantially power isomorphic photovoltaic DC-DC power converter; and
+a string of said plurality of solar panels selected from a group consisting of 10 solar panels, 8 solar panels, 4 solar panels, 3 solar panels, and 2 solar panels.
+
+
+
+28. An efficient solar energy power system as described in claim 17 or 20 and further comprising an interconnection box for a plurality of said DC photovoltaic outputs.
+
+
+29. An efficient solar energy power system as described in claim 28 and further comprising an electrical connection between at least one of said plurality of solar panels and said interconnection box, wherein said at least one of said plurality of solar panels is selected from a group consisting of 10 solar panels, 8 solar panels, 4 solar panels, 3 solar panels, and 2 solar panels. 
+

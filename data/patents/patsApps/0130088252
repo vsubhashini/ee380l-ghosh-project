@@ -1,0 +1,61 @@
+
+A method for monitoring of contacts of a photovoltaic system includes injection of a test signal having a plurality of frequencies, into the photovoltaic system, and determining a generator impedance of the photovoltaic system by evaluating a response signal associated with the test signal. The method further includes monitoring of contacts of the photovoltaic system independently of operating states of the photovoltaic system by modelling of an alternating-current response of the photovoltaic system based on the determined generator impedance, wherein the modelling is specific to at least two different operating states of the photovoltaic system.
+
+
+
+1. A method for diagnosis, in particular monitoring of contacts, of a photovoltaic system, comprising:
+injecting a test signal, which comprises a plurality of frequencies, into the photovoltaic system;
+determining a generator impedance of the photovoltaic system by evaluating a response signal associated with the test signal; and
+monitoring contacts of the photovoltaic system independently of operating states of the photovoltaic system by modelling an alternating-current response of the photovoltaic system based on the determined generator impedance, wherein the modelling is specific to at least two different operating states of the photovoltaic system.
+
+
+
+2. The method according to claim 1, wherein the operating states comprise one or more of the following: solar radiation onto a PV generator or onto a part of a PV generator, a temperature of a PV generator or a temperature of a part of a PV generator, or an operating point of a PV generator or of a part of a PV generator.
+
+
+3. The method according to claim 1, wherein the modelling is based on a magnitude and a phase information relating to the determined generator impedance.
+
+
+4. The method according to claim 1, wherein the alternating-current response of the photovoltaic system is modelled based on an equivalent circuit, with the monitoring being carried out by means of a characteristic variable of the equivalent circuit, wherein the characteristic variable has a value which is substantially independent of operating states of the photovoltaic system.
+
+
+5. The method according to claim 4, wherein the equivalent circuit comprises a supply-line inductance, a series resistance and a generator capacitance with a parallel generator resistance, connected in series with the supply-line inductance and the series resistance.
+
+
+6. The method according to claim 5, wherein the photovoltaic system is modelled by means of a value of the series resistance.
+
+
+7. The method according to claim 5, wherein the equivalent circuit also comprises a partial equivalent circuit for modelling of a long supply line, which has another supply-line inductance and another supply-line resistance connected in series with the supply-line inductance, as well as a supply-line capacitance in parallel with the generator capacitance.
+
+
+8. The method according to claim 5, wherein the equivalent circuit comprises a plurality of series-connected pairs of parallel generator capacitances and generator resistances.
+
+
+9. The method according to claim 8, wherein each pair of parallel generator capacitances and generator resistances model a part of the photovoltaic system which is in the same operating state.
+
+
+10. The method according to claim 8, wherein each pair of parallel generator capacitances and generator resistances model a part of the photovoltaic system which is of the same type.
+
+
+11. The method according to claim 5, further comprising another supply-line resistance connected in parallel with the supply-line inductance in the equivalent circuit.
+
+
+12. The method according to claim 4, wherein at least one partial equivalent circuit comprises a component which takes account of a temperature.
+
+
+13. The method according to claim 1, wherein contacts of the photovoltaic system are monitored with the aid of expert knowledge associated with a data base.
+
+
+14. Apparatus for monitoring of contacts of a photovoltaic system, comprising:
+a function generator configured to generate a test signal with a definable number of oscillation excitations at different frequencies;
+an injection device coupled to the function generator, and configured to inject the test signal into the photovoltaic system;
+a device configured to determine a frequency-dependent generator impedance of the photovoltaic system from a response signal associated with the test signal upon the test signal being injected into the photovoltaic system;
+at least one processing device configured to identify parameters and monitor contacts of the photovoltaic system by modelling the frequency-dependent generator impedance of the photovoltaic system, wherein modelling is specific to at least two different operating states of the photovoltaic system.
+
+
+
+15. The apparatus according to claim 14, wherein the at least one processing device comprises an evaluation device for characterization of at least one property which is representative of ageing of components of the photovoltaic system.
+
+
+16. The apparatus according to claim 14, wherein the apparatus is integrated in an inverter in the photovoltaic system. 
+

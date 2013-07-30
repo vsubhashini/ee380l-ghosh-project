@@ -1,0 +1,56 @@
+
+The invention relates to a method and to a mobile mounting device (11) for the automated mounting of modules (16) on receiving devices (17), in particular of solar modules on stands, in which method a module (16) is gripped by a mounting tool (24), wherein, before transferring the module (16) to the mounting position (36), the handling device (21) is transferred to a measuring position (35) above the mounting position (36), the location of mounting points (37) in the mounting position (36) is determined, the module (16) is transferred to the mounting position (36) starting from the measuring position (35), and the assembly movement is carried out automatically.
+
+
+
+1. Method for the automated mounting of modules on receiving devices, in particular solar modules on stands,
+wherein a mobile mounting device comprising a handling device having a mounting tool which is appliable thereto and at least one repository having modules mounted thereon, is moved into a handling position with respect to a receiving device,
+wherein a module is gripped by a mounting tool, wherein,
+the handling device is transferred to a measuring position above the mounting position before the module is transferred to the mounting position,
+the location of mounting points in the mounting position is determined from the measuring position and
+the module is transferred to the mounting position based on the measuring position.
+
+
+
+
+2. Method according to claim 1, wherein the handling device has at least one measuring device, preferably cameras which are arranged at a distance from one another, with which the mounting points of the module are detected from a measuring position and the mounting position is determined.
+
+
+3. Method according to claim 1, wherein the handling position is assigned to one or more mounting positions on the receiving device when there are several mounting positions arranged in a row behind one another, and in that the handling position is determined by a position detection device of the mobile mounting device, in particular a navigation system.
+
+
+4. Method according to claim 3, wherein the mobile mounting device is moved into the handling position via the position detection device.
+
+
+5. Method according to claim 1, wherein a measuring mark is provided on the receiving device for module mounting of one or more modules when there are several mounting positions arranged in a row behind one another for each handling position, said measuring mark being detected by a position detection device of the mobile mounting device, and preferably in that the mobile mounting device is moved into the handling position using data from the detection device.
+
+
+6. Method according to claim 1, wherein, after the module has been positioned in the mounting position, a tool exchange takes place for receiving a mounting tool using the handling device and in that the module is fixed to the receiving device using the mounting tool.
+
+
+7. Method according to claim 1, wherein, the modules are mounted fully automatically to the receiving device by an assembly transfer, in particular without tools or a tool exchange.
+
+
+8. Method according to claim 1, wherein, at least two repository spaces are provided on the mobile mounting device, which are each equipped with one repository, and in that the handling device removes the modules from a first repository, then removes the modules from the second repository after emptying the first repository, and for the first emptied repository to be exchanged with a full repository.
+
+
+9. Method according to claim 1, wherein a mounting cycle is initiated by a control signal after positioning the mobile mounting device in a handling position to the receiving device and in that the individual working steps from the removal of the module from the repository to the mounting of the module on the receiving device and a return from the handling position to a starting position or a removal position for a further module are controlled and monitored by a computer.
+
+
+10. Mobile mounting device for the mounting of modules on receiving devices, consisting of a vehicle having at least one repository which are arrangeable thereon, in which several modules are stored, having at least one uniaxial handling device having a mounting tool arranged on the vehicle which is appliable thereto, with which the modules is removed individually from the repository, and having a control device with which the handling device is activated, wherein a measuring device is provided on the handling device, which detects the mounting position for the module after the handling device has moved through the control device into a measuring position outside of the vehicle.
+
+
+11. Mounting device according to claim 10, wherein the handling device contains exchangeably at least one gripper, in particularly a vacuum gripper, and at least one mounting tool, in particular a power screwdriver.
+
+
+12. Mounting device according to claim 10, wherein at least one positional detection device is provided, with which a handling position of the handing device to the receiving device is detected.
+
+
+13. Mounting device according to claim 10, wherein the repository is fitted exchangeably to a repository receiver, in particular a tilting device, a swinging device or a tilting-swinging device, which is fixed to the vehicle.
+
+
+14. Mounting device according to claim 13, wherein the repository receiver is positioned on a longitudinal carriage on the vehicle, which has an exit direction which is far from the handling device, in particular far from the longitudinal axis of the vehicle.
+
+
+15. Mounting device according to claim 10, wherein a vehicle cabin is provided adjacent to the handling device, and in particular opposite the repository, which preferably is rotateable at least 180°. 
+

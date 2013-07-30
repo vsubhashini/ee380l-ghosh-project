@@ -1,0 +1,61 @@
+
+In one embodiment, a solar power inverter includes at least one component associated with conversion of direct current (DC) from one or more photovoltaic cells to alternating current (AC). The component is electrically coupleable to an electrical conductor configured to carry electrical current. The solar power inverter also includes a first surge protective device (SPD) electrically coupled to the component and electrically coupleable to the electrical conductor. The solar power inverter also includes a second SPD electrically coupled in parallel with the first SPD and electrically coupleable to the electrical conductor. As described in more detail herein, the first SPD is configured to actuate in response to a voltage surge on the electrical conductor before the second SPD.
+
+
+
+1. A solar power inverter comprising:
+at least one component associated with conversion of direct current (DC) from one or more photovoltaic cells to alternating current (AC), the component electrically coupleable to an electrical conductor configured to carry AC electrical current;
+a first surge protective device (SPD) electrically coupled to the component and electrically coupleable to the electrical conductor; and
+a second SPD electrically coupled in parallel with the first SPD and electrically coupleable to the electrical conductor;
+a third SPD electrically coupled to the component and electrically coupleable to a second electrical conductor configured to carry AC;
+a fourth SPD electrically coupled in parallel with the third SPD and electrically coupleable to the second electrical conductor;
+a fifth SPD electrically coupled to the component and electrically coupleable to a third electrical conductor configured to carry AC; and
+a sixth SPD electrically coupled in parallel with the third SPD and electrically coupleable to the third electrical conductor,
+wherein the first SPD is configured to actuate in response to a voltage surge on the electrical conductor before the second SPD,
+the third SPD is configured to actuate in response to a voltage surge the second electrical conductor before the fourth SPD, and
+the fifth SPD is configured to actuate in response to a voltage surge on the third electrical conductor before the sixth SPD.
+
+
+
+
+2. The solar power inverter of claim 1 wherein the first SPD is configured to actuate in response to a voltage surge above a first voltage and the second SPD is configured to actuate in response to a voltage surge above a second voltage that is greater than the first voltage.
+
+
+3. The solar power inverter of claim 1, further comprising:
+a seventh SPD electrically coupled to the first, third, and fifth SPDs and electrically coupleable to ground; and
+an eighth SPD electrically coupled to the second, fourth, and sixth SPDs and electrically coupleable to ground.
+
+
+
+4. A solar power inverter comprising:
+at least one component associated with conversion of direct current (DC) from one or more photovoltaic cells to alternating current (AC), the component electrically coupleable to a first electrical conductor configured to carry DC electrical current;
+a first surge protective device (SPD) electrically coupled to the component and electrically coupleable to the electrical conductor; and
+a second SPD electrically coupled in parallel with the first SPD and electrically coupleable to the electrical conductor;
+wherein the first SPD is configured to actuate in response to a voltage surge on the electrical conductor before the second SPD
+and wherein the solar power inverter further comprises:
+a third SPD electrically coupled to the component and electrically coupleable to a second electrical conductor configured to carry DC; and
+a fourth SPD electrically coupled in parallel with the third SPD and electrically coupleable to the second electrical conductor,
+wherein the third SPD is configured to actuate in response to a voltage surge on the second electrical conductor prior to the fourth SPD.
+
+
+
+5. The solar power inverter of claim 4, further comprising:
+a fifth SPD electrically coupled to the first and third SPDs and electrically coupleable to ground; and
+a sixth SPD electrically coupled to the second and fourth SPDs and electrically coupleable to ground.
+
+
+
+6. The solar power inverter of claim 5 wherein the fifth SPD includes a gas tube and the sixth SPD includes a gas tube.
+
+
+7. The solar power inverter of claim 1 wherein the first SPD includes a metal-oxide varistor and the second SPD includes a metal-oxide varistor.
+
+
+8. The solar power inverter of claim 1 wherein at least one of the first and second SPDs includes a diode.
+
+
+9. The solar power inverter of claim 1, further comprising:
+a first device configured to detect a failure of the first SPD and provide an indication of the failure to a detection component of the solar power inverter; and
+a second device configured to detect a failure of the second SPD and provide an indication of the failure to the detection component. 
+
+

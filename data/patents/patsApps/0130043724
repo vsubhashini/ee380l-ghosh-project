@@ -1,0 +1,125 @@
+
+An electrical power supply arrangement includes a solar power device that converts sunlight into DC electrical power. A DC load runs on the DC current electrical power. The DC load may be controlled or adjusted to consume a maximum amount of the electrical output of the solar power device. A DC-to-AC converter converts the DC electrical power into AC electrical power. A controller enables the DC-to-AC converter to receive a portion of the DC current electrical power from the solar power device only if all of the DC current electrical power cannot be consumed by the DC load.
+
+
+
+1. An electrical power supply arrangement comprising:
+a solar power device configured to convert sunlight into DC electrical power;
+at least one adjustable DC load configured to run on the DC current electrical power;
+an electrical output sensing device configured to sense a level of electrical output of the solar power device; and
+a controller coupled to each of the at least one adjustable DC load and the electrical output sensing device, the controller being configured to:
+receive a signal from the electrical output sensing device;
+adjust the at least one adjustable DC load such that the at least one adjustable DC load consumes a maximum amount of the electrical output of the solar power device, the adjusting of the at least one adjustable DC load being dependent upon the received signal; and
+if the at least one adjustable DC load cannot consume all of the electrical output of the solar power device, then cause a remaining portion of the electrical output of the solar power device to be converted into AC electrical power.
+
+
+
+
+2. The arrangement of claim 1 wherein the solar power device comprises a solar photovoltaic device.
+
+
+3. The arrangement of claim 1 wherein the electrical output sensing device comprises a power meter.
+
+
+4. The arrangement of claim 1 wherein the adjustable DC load comprises an HVAC system.
+
+
+5. The arrangement of claim 4 wherein the HVAC system comprises a circulation fan, the controller being configured to use power from the solar power device to operate the circulation fan while heating and cooling is not needed.
+
+
+6. The arrangement of claim 4 wherein the HVAC system comprises a compressor, the controller being configured to use power from the solar power device to operate the compressor in a dehumidification mode while heating and cooling is not needed.
+
+
+7. The arrangement of claim 4 wherein the controller is configured to use power from the solar power device to perform overheating or overcooling with the HVAC system beyond a set temperature of the HVAC system, the set temperature having been set by a human user.
+
+
+8. The arrangement of claim 1 further comprising a battery configured to supplement the DC electrical power provided by the solar power device.
+
+
+9. An electrical power supply method, comprising the steps of:
+converting sunlight into DC electrical power by use of a solar power device;
+providing the DC current electrical power to a plurality of adjustable DC loads;
+sensing a level of electrical output of the solar power device; and
+adjusting each of the DC loads such that the DC loads conjointly consume a maximum amount of the electrical output of the solar power device, the adjusting of the DC loads being dependent upon the level of electrical output of the solar power device.
+
+
+
+10. The method of claim 9 comprising the further step, if the DC loads cannot consume all of the electrical output of the solar power device, of converting a remaining portion of the electrical output of the solar power device into AC electrical power.
+
+
+11. The method of claim 9 comprising the further step of determining a respective portion of the electrical output of the solar power device to be consumed by each of the loads.
+
+
+12. The method of claim 11 wherein the determining step is performed by use of an algorithm or a lookup table.
+
+
+13. The method of claim 11 wherein the determining step includes controlling a rate of change of an aggregate consumption of the electrical output of the solar power device by the loads such that the rate of change does not exceed a threshold rate of change.
+
+
+14. The method of claim 11 wherein each of the loads includes a processor, the determining step including the processors of the loads communicating with each other.
+
+
+15. An electrical power supply arrangement comprising:
+a solar power device configured to convert sunlight into DC electrical power;
+a DC load configured to run on the DC current electrical power;
+a DC-to-AC converter configured to convert the DC electrical power into AC electrical power; and
+a controller configured to enable the DC-to-AC converter to receive a portion of the DC current electrical power from the solar power device only if all of the DC current electrical power cannot be consumed by the DC load.
+
+
+
+16. (canceled)
+
+
+17. The arrangement of claim 15 further comprising an AC-to-DC power supply configured to supply DC electrical power to the DC load if sunlight is not available to the solar power device.
+
+
+18. The arrangement of claim 15 further comprising a DC power bus interconnecting the solar power device and the DC load.
+
+
+19. The arrangement of claim 15 wherein the DC load comprises an appliance.
+
+
+20. The arrangement of claim 19 wherein the appliance comprises HVAC equipment.
+
+
+21. An electrical power supply arrangement comprising:
+A first AC load configured to run on AC electrical power;
+a solar power device configured to convert sunlight into DC electrical power;
+an adjustable electric motor powered by the DC electrical power; and
+a motor control circuit coupling the solar power device to the adjustable electric motor and to the first AC load, the motor control circuit being configured to control operation of the adjustable electric motor, the motor control circuit including a first inverter configured to invert the DC electrical power into AC electrical power for the first AC load only if the adjustable electrical motor is unable to entirely consume the DC electrical power.
+
+
+
+22. The arrangement of claim 21, wherein the first AC load receives power only through the motor control circuit.
+
+
+23. The arrangement of claim 21, wherein the motor control circuit further couples the solar power device to a DC load separate from the electric motor.
+
+
+24. The arrangement of claim 21, wherein the motor control circuit further includes an inverter coupling the solar power device to a DC load, the inverter being configured to convert a first voltage of the DC electrical power provided by the solar power device to a second voltage suitable for powering the DC load.
+
+
+25. The arrangement of claim 21, wherein the motor control circuit further includes a second inverter configured to invert the DC electrical power into AC electrical power for a second AC load only if the adjustable electric motor and the first AC load together are unable to entirely consume the DC electrical power.
+
+
+26. The arrangement of claim 21, wherein the motor control circuit further couples the solar power device to a battery configured to supplement the DC electrical power provided by the solar power device.
+
+
+27. The arrangement of claim 21, wherein the adjustable electric motor drives at least one of an HVAC compressor and an HVAC circulation fan.
+
+
+28. The arrangement of claim 21, wherein the adjustable electric motor is a DC motor.
+
+
+29. The arrangement of claim 21 wherein the motor control circuit includes a Variable Frequency Drive including a DC input, the Variable Frequency Drive being configured to vary a speed of the electric motor such that the electric motor consumes a maximum amount of the electrical output of the solar power device.
+
+
+30. The arrangement of claim 21 wherein the motor control circuit is directly connected to the solar power device.
+
+
+31. The arrangement of claim 21 further comprising an electrical output sensing device coupled to the motor control circuit and configured to sense a level of electrical output of the solar power device, the motor control circuit being configured to:
+receive a signal from the electrical output sensing device;
+adjust operation of the adjustable electrical motor such that the adjustable electrical motor consumes a maximum amount of the electrical output of the solar power device, the adjusting of the adjustable electrical motor being dependent upon the received signal; and
+if the adjustable electrical motor cannot consume all of the electrical output of the solar power device, then cause a remaining portion of the electrical output of the solar power device to be converted into AC electrical power. 
+
+

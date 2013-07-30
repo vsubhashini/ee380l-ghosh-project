@@ -1,0 +1,152 @@
+
+Distributed maximum power point tracking systems, structures, and processes are provided for power generation structures, such as for but not limited to a solar panel arrays. In an exemplary solar panel string structure, distributed maximum power point tracking (DMPPT) modules are provided, such as integrated into or retrofitted for each solar panel. The DMPPT modules provide panel level control for startup, operation, monitoring, and shutdown, and further provide flexible design and operation for strings of multiple panels. The strings are typically linked in parallel to a combiner box, and is then toward and enhanced inverter module, which is typically connected to a power grid. Enhanced inverters are controllable either locally or remotely, wherein system status is readily determined, and operation of one or more sections of the system are readily controlled. The system provides increased operation time, and increased power production and efficiency, over a wide range of operating conditions.
+
+
+
+1. A control module for a power panel, comprising:
+input connections that are connectable to one or more DC power cells;
+output connections that are connectable to an inverter;
+a signal processing circuit connected to the input connections and to the output connections; and
+a controller that is connected to the signal processing circuit, wherein the controller comprises a communications link that is connectable to a server;
+wherein the DC output of the power panel is controllably adjustable in response to an input signal that is sent from the server and received at the controller over the communications link.
+
+
+
+2. The control module of claim 1, wherein the DC output of one or more of the DC power cells is controllably adjustable for any of:
+providing a DC voltage output from the DC power cells that is the same as the DC voltage output from the DC power cells of one or more other power panels;
+increasing the total power output of a system comprising the power panel and at least one other power panel; or
+increasing the total efficiency of a system comprising the power panel and at least one other power panel.
+
+
+
+3. The control module of claim 1, wherein the power panel comprises one of a plurality of power panels, and wherein the power panel is controllably adjustable in response to the input signal and to local values of any of voltage, current or temperature, to provide any of
+increased total power output of the plurality of power panels, or
+decreasing mismatch between the plurality of power panels.
+
+
+
+4. The control module of claim 1, wherein the power panel comprises one of an array of power panels, and wherein the DC output of the power panel is controllably adjustable to reduce power transmission losses from the array to the inverter.
+
+
+5. The control module of claim 1, wherein an output signal produced by the signal processing circuit has a voltage that is higher than a voltage of an input signal provided by the respective DC power cells.
+
+
+6. The control module of claim 1, wherein the DC power cells comprise any of solar panels, fuel cells, or batteries.
+
+
+7. The control module of claim 1, wherein the communications link between the server and the control module comprises any of a wired communications link or a wireless communications link.
+
+
+8. The control module of claim 1, wherein the control module further comprises means for sending a data signal to the server over the communications link.
+
+
+9. The control module of claim 8, wherein the data signal comprises any of input voltage data, input current data, output voltage data, output current data, temperature data, or insolation data.
+
+
+10. The control module of claim 8, wherein the input signal sent from the server is at least partially responsive to the data signal received at the server.
+
+
+11. The control module of claim 1, further comprising:
+a mechanism for controllably isolating the output connections from the output connections of least one other DC power cell.
+
+
+
+12. The control module of claim 1, further comprising:
+a crowbar circuit located across the input connections;
+wherein the controller further comprises means for driving the crowbar circuit to short across the input connections.
+
+
+
+13. A process, comprising the steps of:
+providing a power panel, comprising
+a control module comprising input connections, output connections that are connectable to an inverter, a signal processing circuit connected to the input connections and to the output connections, and a controller connected to the signal processing circuit, and
+a plurality of DC power cells connected to the input connections of the control module;
+
+providing a communications link between the controller and a server;
+receiving an input signal at the control module over the communications link, wherein the input signal is transmitted from the server; and
+controllably adjusting the DC output of the power panel in response to the received input signal.
+
+
+
+14. The process of claim 13, wherein the DC output of the power panel is controllably adjusted for any of
+providing a DC voltage output from the power panel that is the same as the DC voltage output from one or more other power panels;
+increasing the total power output of a system comprising the power panel and at least one other power panel; or
+increasing the total efficiency of a system comprising the power panel and at least one other power panel.
+
+
+
+15. The process of claim 13, wherein the power panel comprises one of a plurality of power panels, and wherein the power panel is controllably adjustable in response to the input signal and to local values of any of voltage, current or temperature, to provide any of
+increased total power output of the plurality of power panels, or
+decreasing mismatch between the plurality of power panels.
+
+
+
+16. The process of claim 13, wherein the power panel comprises one of an array of power panels, and wherein the process further comprises the step of:
+controllably adjusting the DC output of the power panel to reduce power transmission losses from the array to the inverter.
+
+
+
+17. The process of claim 13, wherein an output signal produced by the signal processing circuit has a voltage that is higher than a voltage of the input signal provided by the respective power panel.
+
+
+18. The process of claim 13, wherein the power panel comprises any of a solar panel, a fuel cell, or a battery.
+
+
+19. The process of claim 13, wherein the communications link between the server and the control module comprises any of a wired communications link or a wireless communications link.
+
+
+20. The process of claim 13, further comprising the step of:
+sending a data signal from the control module to the server over the communications link.
+
+
+
+21. The process of claim 20, wherein the data signal comprises any of input voltage data, input current data, output voltage data, output current data, temperature data, or insolation data.
+
+
+22. The process of claim 20, wherein the input signal sent from the server is at least partially responsive to the data signal received at the server.
+
+
+23. The process of claim 13, further comprising the step of:
+controllably isolating the output connections from the output connections of least one other DC power cell.
+
+
+
+24. The process of claim 13, wherein the control module further comprises a crowbar circuit located across the input connections, and wherein the process further comprises the step of:
+driving the crowbar circuit to short across the input connections.
+
+
+
+25. A server, comprising:
+at least one processor; and
+one or more communications links for connection to each of a plurality of power cells, wherein each power cell comprises
+a control module comprising input connections, output connections that are connectable to an inverter, a signal processing circuit connected to the input connections and to the output connections, and a controller connected to the signal processing circuit, and
+a plurality of DC power cells connected to the input connections of the control module;
+wherein the at least one processor is programmed to send an input signal to one or more of the control modules over one or more of the communications links to one or more of the control modules, wherein the DC output of one or more of the power panels is controllably adjustable by the respective controllers in response to the received input signal.
+
+
+
+26. The server of claim 25, wherein the input signal corresponds to controllable adjustment for any of:
+providing the same output DC voltage from each of the plurality of DC power cells;
+increasing the total power output of the plurality of DC power cells; or
+increasing the total efficiency of the plurality of DC power cells.
+
+
+
+27. The server of claim 25, wherein the communications links between the server and the control modules comprise any of wired communications links or wireless communications links.
+
+
+28. The server of claim 25, further comprising:
+means for receiving data signals from each of the power cells over the communications links.
+
+
+
+29. The server of claim 28, wherein the data signals comprise any of input voltage data, input current data, output voltage data, output current data, temperature data, or insolation data.
+
+
+30. The server of claim 28, wherein the input signal is at least partially responsive to the data signals received at the server.
+
+
+31. The server of claim 25, further comprising:
+a user interface for any of monitoring or control.
+
+

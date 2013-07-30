@@ -1,0 +1,89 @@
+
+An apparatus and method is provided to allow fire fighters and other personnel unimpeded access to a roof no matter the placement or configuration of a plurality of solar panels installed on the roof. A user first disables the flow of electricity from the solar panels by activating a fail-safe system, thus electrically isolating each solar panel from a common power line and making safe manipulation of the solar panel possible. The user then unlocks the solar panel from its mounting frame by opening a latch and rotates the solar panel on the frame to expose the portion of the roof beneath the panel. The solar panel rotates over the end of the frame and remains coupled to the frame. With the solar panel swung out of the way, full and unimpeded access of the roof below the panel is now accessible to the firefighter.
+
+
+
+1. An apparatus for mounting a photoelectric solar panel on a supporting surface comprising:
+a frame coupled to the solar panel;
+a stand for supporting the frame wherein the stand comprises a rear section and a front section;
+means for coupling the frame to the rear section of the stand so that the frame may be rotated about the rear section of the stand to expose the surface beneath the solar panel; and
+means for selectively coupling the frame to the front section of the elevated stand.
+
+
+
+2. The apparatus of claim 1 where the frame comprises an adjustable frame having a length and a width, and wherein the frame is adjustable in both of its length and width to accommodate the solar panel.
+
+
+3. The apparatus of claim 1 where the means for coupling the frame to the front section of the stand comprises a rotatable latch to selectively lock the frame to the front section of the stand.
+
+
+4. The apparatus of claim 1 where the means for coupling the frame to the rear section of the stand comprises a pair of hinges adapted to cantilever the frame and the solar panel over the rear of the stand to substantially expose the surface over which the solar panel was disposed.
+
+
+5. The apparatus of claim 1 where the frame is coupled to the solar panel by a plurality of brackets.
+
+
+6. The apparatus of claim 1 where the stand elevates the solar panel above the surface at a predetermined angle of inclination for optimal average solar incidence.
+
+
+7. An apparatus for electrically isolating a plurality of photovoltaic solar panels from a common power line comprising:
+a plurality of switching circuits with at least one switching circuit coupled to each corresponding one of a plurality of solar panels;
+a master controller coupled to the plurality of switching circuits by a control line, the master controller opening each of the switching circuits upon the detection of a fire alarm to disconnect each of the solar panels from the common power line; and
+an uninterrupted power supply coupled to the master controller and fire alarm detection circuit.
+
+
+
+8. The apparatus of claim 7 further comprising an amplifier having its input coupled to the master controller via the control line and its output coupled to selected ones of the switching circuits to extend the number of switching circuits which may be controlled by the master controller.
+
+
+9. The apparatus of claim 8 where the uninterrupted power supply is coupled to the amplifier or further comprising another uninterrupted power supply coupled to the amplifier.
+
+
+10. The apparatus of claim 7 where the master controller comprises:
+an isolation circuit for controlling the plurality of switching circuits coupled to the plurality of solar panels to selectively disconnecting each solar panel from the common power line upon detection of a fire alarm or other emergency event;
+a detector circuit coupled to the isolation circuit for detecting the fire alarm or other emergency event; and
+an isolation reset circuit coupled to the isolation circuit for receiving reset instructions from a user and for selectively resetting the isolation circuit after it has disconnected each solar panel from the common power line to reconnect each solar panel to the common power line.
+
+
+
+11. The apparatus of claim 10 further comprising an alarm and an alarm circuit coupled to the detector circuit for generating a signal that a fire alarm or other emergency event has been detected by the detector circuit to activate the alarm.
+
+
+12. The apparatus of claim 10 where the master controller further comprises an isolation reset controller coupled to the isolation reset circuit and wherein the isolation reset controller comprises means for inputting a manual, multi-step process for resetting the isolation circuit to selectively reconnect the plurality of solar panels to the common power line via the corresponding plurality of switching circuits.
+
+
+13. The apparatus of claim 10 where the master controller further comprises a timer coupled to the isolation circuit and wherein the timer triggers and resets the isolation circuit on a periodic basis to cycle the plurality of switching circuits through an open and closed configuration.
+
+
+14. The apparatus of claim 7 further comprising a mounting for each photoelectric solar panel on a supporting surface comprising:
+a frame coupled to the solar panel;
+a stand for supporting the frame wherein the stand comprises a rear section and a front section;
+means for coupling the frame to the rear section of the stand so that the frame may be rotated about the rear section of the stand to expose the surface beneath the solar panel; and
+means for selectively coupling the frame to the front section of the elevated stand.
+
+
+
+15. A method of gaining safe access to a surface beneath a plurality of solar panels comprising:
+automatically electrically isolating the plurality of solar panels from a common utility power line and from each other on the event of a fire alarm or other emergency event;
+releasing at least one solar panel from a front section of a stand on which the solar panel is mounted above the surface; and
+rotating the at least one solar panel about a rear section of the stand to expose the surface beneath the at least one solar panel.
+
+
+
+16. The method of claim 15 where automatically electrically isolating the plurality of solar panels from a common utility power line and from each other on the event of a fire alarm or other emergency event comprises:
+detecting a fire alarm or other emergency event; and
+upon the detection of the fire alarm or other emergency event automatically cutting power from an isolation circuit to a plurality of switching circuits which couple the plurality of solar panels to the common utility power line to open the switching circuits and thus disconnect the plurality of solar panels from the common utility power line.
+
+
+
+17. The method of claim 15 where releasing at least one solar panel from the front section of a stand comprises rotating a latch coupled to the solar panel so that the solar panel is unlocked or disconnected from the front section of the stand.
+
+
+18. The method of claim 15 where rotating the at least one solar panel about a rear section of the stand to expose the surface beneath the at least one solar panel further comprises cantilevering the solar panel over the rear section of the stand to provide clear and unobstructed access to the portion of the surface beneath the at least one solar panel.
+
+
+19. The method of claim 15 further comprising electrically reconnecting the plurality of solar panels to the common utility power line comprises manually inputting a predetermined series of commands into an isolation reset controller coupled to an isolation circuit to resupply current to a plurality of switching circuits coupled to the isolation circuit to reconnect the plurality of solar panels to the common utility power line.
+
+
+20. The method of claim 19 where the switching circuit is a relay circuit and further comprising periodically cycling the plurality of relay circuits through an open and closed configuration on a predetermined schedule via a timer to prevent contact lead fusing. 
+

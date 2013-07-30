@@ -1,0 +1,140 @@
+
+A fault detection system comprises a photo voltaic (PV) source responsive to incident sunlight to generate output power along output conductors. Control circuitry monitors to PV source and disables output power from the source in response to detection of a fault condition. The PV source may be situated on the roof of a structure and includes an array of modules. One or more controllers monitors the output of the PV modules and a combiner is electrically connected to an output of each controller for combining DC output power from the modules into a combined PV source power output. The combiner is capable of disabling the PV source power output upon detection of a fault condition by any of the controllers, and an override switch is preferably displaced from the PV source at a remote location. Methods for detecting fault conditions in a PV system are also provided and may entail monitoring conditions associated with the PV source and comparing the conditions to a set of known fault conditions associated with the source such that output power can be disabled when a detected source condition corresponds to a known fault condition.
+
+
+
+1. A fault detection system, comprising:
+a. a photovoltaic (PV) source situated at a source location, said PV source responsive to incident sunlight to generate PV source output power along PV source output conductors; and
+b. control circuitry monitoring conditions of said PV source, said control circuitry operative to disable output power from said PV source in response to detection of a fault condition.
+
+
+
+2. A fault detection system according to claim 1 wherein said control circuitry is further operative to selectively disable output power from said PV source irrespective of existence of a fault condition.
+
+
+3. A fault detection system according to claim 2 wherein said control circuitry is operative to disable said PV source in response receipt of control signaling.
+
+
+4. A fault detection system according to claim 3 wherein said control signaling is generated from a remote location and transmitted over a selected transmission medium.
+
+
+5. A fault detection system according to claim 1 wherein said control circuitry is located adjacent to said PV source.
+
+
+6. A fault detection system according to claim 1 wherein said control circuitry compares detected conditions associated with said PV source to a set of known fault conditions for said PV source and disables said output power upon ascertaining that a detected condition corresponds to a known fault condition.
+
+
+7. A fault detection system according to claim 1 wherein said control circuitry includes a manual override switch situated at a location that is remote from said PV source.
+
+
+8. A fault detection system according to claim 1 wherein said control circuitry includes a plurality of sensors for detecting environmental conditions associated with the system.
+
+
+9. An electrical fault detection system, comprising:
+a. a photovoltaic (PV) source situated at a source location, said PV source responsive to incident sunlight to generate PV source output power along PV source output conductors; and
+b. control means for monitoring conditions of said PV source and disabling output power from said PV source in response to detection of a fault condition.
+
+
+
+10. An electrical fault detection system, comprising:
+a. a photovoltaic (PV) source situated at a source location, said PV source including a solar panel array responsive to incident sunlight to generate PV source output power along PV source output conductors;
+b. a manual override switch electrically displaced from said PV source at a remote location, said manual override switch movable between a switch normal state and a switch override state; and
+c. a controller located adjacent to said PV source and electrically interconnected between the output conductors and said manual override switch, said controller for monitoring conditions of said PV source and operative to disable said PV source in response to detection of a fault condition.
+
+
+
+11. An electrical fault detection system according to claim 10 wherein said PV source is situated on a rooftop and said manual switch is displaced from the rooftop at a remote location.
+
+
+12. An electrical fault detection system according to claim 10 wherein movement of said manual override switch to the switch override state corresponds to a known fault condition and causes said controller to disable said PVC source.
+
+
+13. An electrical fault detection system according to claim 10 wherein movement of said manual override switch to the switch override state creates a short circuit condition that is detected by said controller as a fault condition.
+
+
+14. An electrical fault detection system according to claim 10 wherein said controller re-enables said PV source once said fault condition is removed.
+
+
+15. An electrical fault detection system according to claim 10 wherein said controller includes a programmable microcontroller.
+
+
+16. An electrical fault detection system according to claim 15 wherein said microcontroller resets and re-initializes the system once the fault condition is removed.
+
+
+17. An electrical fault detection system according to claim 10 including a plurality of sensors for detecting environmental conditions associated with the system.
+
+
+18. An electrical fault detection system according to claim 17 wherein said plurality of sensors is selected from a group consisting of at least one sunlight sensor, at least one temperature sensor, at least one dynamic circuitry and load parameter sensor, and at least one hard-wired fault detection sensor.
+
+
+19. An electrical fault detection system according to claim 10 wherein said controller continuously monitors I/O voltages and currents associated with said PV source.
+
+
+20. An electrical fault detection system, comprising:
+a. a structure having a roof,
+b. a photovoltaic (PV) source situated on said roof at a source location, said PV source including an array of PV modules each responsive to incident sunlight to generate output power along respective output conductors;
+c. a plurality of controllers each monitoring the output conductors of a respective one of said PV modules;
+d. a combiner electrically connected to an output of each controller for combining DC output power from said PV modules into a combined PV source power output; and
+e. an override switch electrically displaced from said PV source at a remote location that is not on said roof, said override switch movable between a switch normal state and a switch override state, wherein said combiner is capable of disabling said PV source power output upon detection of a fault condition by at least one of said controllers.
+
+
+
+21. An electrical fault detection system according to claim 20 including a programmable control unit (PCU) connected to said override switch for interfacing said PV source to a load.
+
+
+22. An electrical fault detection system according to claim 21 wherein movement of said override switch to the switch override state causes said controller to disconnect said PV source from the load.
+
+
+23. An electrical fault detection system according to claim 20 wherein said controllers and said switch are each housed in a respective weatherproof enclosure, each said enclosure including an operating condition monitoring sensor.
+
+
+24. An electrical fault detection system according to claim 23 wherein said controller is operative to detect existence of a potential fault condition should any said operating condition monitoring sensor indicate that a door to its respective weatherproof enclosure is open.
+
+
+25. A method of detecting faults conditions in a photovoltaic (PV) system, comprising:
+a. providing a photovoltaic (PV) source situated at a source location, said PV source responsive to incident sunlight to generate PV source output power along PV source output conductors;
+b. monitoring conditions associated with said PV source;
+c. comparing detected PV source conditions to a set of known fault conditions associated with said PV source, wherein said set includes at least one fault condition; and
+d. disabling output power of said PV source upon ascertaining that a detected PV source condition corresponds to a known fault condition.
+
+
+
+26. A method according to claim 25 further comprising disabling output power of said PV source proximate to said PV source output conductors.
+
+
+27. A method according to claim 25 comprising pre-determining said set of known fault conditions prior to normal operation of said PV system.
+
+
+28. A method according to claim 25 whereby one of said known fault conditions is a line-to-line fault.
+
+
+29. A method according to claim 25 whereby one of said known fault conditions is a ground-fault.
+
+
+30. A method according to claim 25 comprising disabling output power of said PV source in response to activation of a manual override switch.
+
+
+31. A method according to claim 30 comprising manually resetting the system after a detected fault condition has been removed.
+
+
+32. A method according to claim 25 comprising electronically resetting and reinitializing the system once a detected fault has been removed.
+
+
+33. A method of detecting faults conditions in a photovoltaic (PV) system, comprising:
+a. providing a photovoltaic (PV) source situated at a source location on a rooftop, said PV source responsive to incident sunlight to generate PV source output power along PV source output conductors;
+b. pre-determining a set of known fault conditions for said PV source prior to normal operation of said PV system, wherein said set includes at least one fault condition;
+c. enabling PV source output power;
+d. monitoring conditions associated with said PV source during normal operation;
+e. comparing detected PV source conditions to said set of known fault conditions; and
+f. disabling output power of said PV source upon ascertaining that a detected PV source condition corresponds to a known fault condition.
+
+
+
+34. A method according to claim 33 comprising placing said PV source in standby mode if there is insufficient available sunlight.
+
+
+35. A method according to claim 33 further comprising disabling output power of said PV source on the rooftop proximate to said PV source output conductors.
+
+
+36. A method according to claim 33 comprising disabling output power of said PV source in response to activation of a manual override switch.
+

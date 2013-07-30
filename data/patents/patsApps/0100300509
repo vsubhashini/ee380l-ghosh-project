@@ -1,0 +1,20 @@
+
+The invention provides a solar photovoltaic (“PV”) module with integral wireless measurement and telemetry, transmitting to a central gateway node. It also provides a solar array constructed using these improved modules and network. These wirelessly monitored modules and the network in which they communicate allow the important state variables of individual modules to be observed remotely, without direct physical access to the array. The monitors measure and report the module voltage, and may also be designed to measure current flow, temperature, and/or other variables of interest. The invention offers valuable savings by immediately revealing trouble, by diagnosing to the specific location of a fault, by reducing losses due to module and string downtime, by reducing labor and capital equipment devoted to ongoing operation and maintenance, and by speeding troubleshooting during initial commissioning of newly built arrays.
+
+
+
+1. A solar photovoltaic array for grid-tied applications, composed of photovoltaic modules, in which
+a. each module produces DC voltage and current, and
+b. groups of modules are wired as series strings, and
+c. groups of series strings are wired in parallel, monitors, integrated into the photovoltaic modules, which measure the output voltages of the individual modules and report the measurements wirelessly to a gateway node.
+
+
+
+2. A DC-output solar photovoltaic module for combining into an array of parallel-connected series strings, said module containing an integral wireless monitor for wirelessly reporting the module's output voltage to a gateway node.
+
+
+3. A supervision network for supervising one or more grid-tied solar arrays, containing one or more computer-based supervising stations;
+each grid-tied solar array containing two or more parallel strings of series-connected DC photovoltaic modules;
+said series-connected photovoltaic modules having integrated wireless monitors for wirelessly reporting module voltage. 
+
+

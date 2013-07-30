@@ -1,0 +1,109 @@
+
+Photovoltaic module failure detection devices and methods provide reliable, low cost, and effective solutions with visual indication of a temperature of diodes during installation, commissioning, operation, and/or maintenance. Indication of diode temperatures and/or detection of diode failures assures proper installation, improves output, expedites maintenance, increases safety, and/or raises reliability. A photovoltaic module for converting light into electricity includes one or more solar cells, and a transparent front sheet disposed over the one or more solar cells. The photovoltaic module includes a back sheet opposite the transparent front sheet, and one or more electrical circuits with one or more diodes connected to at least a portion of the one or more solar cells. The module includes one or more temperature indication devices in communication with at least a portion of the one or more diodes and disposed between the transparent front sheet and the back sheet.
+
+
+
+1. A method of installing, commissioning, operating, or maintaining a photovoltaic array, the method comprising:
+providing one or more photovoltaic modules;
+wherein the one or more photovoltaic modules comprise one or more solar cells, one or more diodes electrically connected to the one or more solar cells, and one or more temperature indication devices in communication with at least a portion of the one or more diodes and within at least a portion of the one or more photovoltaic modules; and
+detecting a failure of the one or more diodes with the one or more temperature indication devices.
+
+
+
+2. The method of claim 1, wherein:
+the one or more diodes comprise bypass diodes, blocking diodes, or combinations thereof; and
+the detecting comprises monitoring a passive device, an active device, or combinations thereof within the one or more photovoltaic modules or an array to assure proper installation, commissioning, operation, maintenance, reliability, safety, or combinations thereof.
+
+
+
+3. The method of claim 1, further comprising:
+correcting or repairing one or more of the one or more photovoltaic modules upon detecting a failure of the one or more diodes; or
+replacing one or more of the one or more photovoltaic modules upon detecting a failure of the one or more diodes.
+
+
+
+4. The method of claim 3, wherein the failure of the one or more diodes occurs due to reverse current flow, improper electrical connection, cracked solar cells, mismatched solar cells, shading of one or more solar cells, improper fusing within the photovoltaic module, improper grounding of the photovoltaic module, improper fusing outside the photovoltaic module, or combinations thereof.
+
+
+5. The method of claim 1, wherein a technician or an installer performs a check of an array of the photovoltaic modules by visually inspecting the one or more temperature indication devices while traversing at least a portion of the array during or after installation.
+
+
+6. The method of claim 5, wherein visually checking comprises easily observing a front portion of the photovoltaic module without physically opening a part of a photovoltaic module.
+
+
+7. The method of claim 1, wherein the detecting a failure of the one or more diodes comprises monitoring an approach to a temperature rating of the one or more diodes, or monitoring a rise to or above a temperature rating of the one or more diodes.
+
+
+8. The method of claim 7, wherein the temperature rating of the one or more diodes comprise a range of about 125 degrees Celsius to about 300 degrees Celsius.
+
+
+9. The method of claim 1, further comprising:
+mounting one or more photovoltaic modules to a support structure; and
+electrically connecting the one or more photovoltaic modules.
+
+
+
+10. A photovoltaic module for converting light into electricity, the module comprising:
+one or more solar cells;
+a transparent front sheet disposed over the one or more solar cells;
+a back sheet opposite the transparent front sheet;
+one or more electrical circuits connected to at least a portion of the one or more solar cells and comprising one or more diodes; and
+one or more temperature indication devices in communication with at least a portion of the one or more diodes, and the one or more temperature indication devices disposed between the transparent front sheet and the back sheet.
+
+
+
+11. The module of claim 10, further comprising one or more electrically conducting boards disposed between the transparent front sheet and the back sheet, and at least a portion of the one or more electrical circuits mounted to the one or more electrically conducting boards.
+
+
+12. The module of claim 10, wherein:
+the one or more diodes mount to one or more electrically conducting boards laminated between the transparent front sheet and the back sheet with the one or more diodes facing the one or more solar cells; and
+the one or more temperature indication devices mount to the circuit board on a same side or an opposite side as the one or more diodes.
+
+
+
+13. The module of claim 10, wherein the one or more temperature indication devices provide visual indication related to a temperature of at least a portion of the one or more electrical circuits.
+
+
+14. The module of claim 13, wherein the one or more diodes comprise bypass diodes, blocking diodes, or combinations thereof.
+
+
+15. The module of claim 14, wherein the one or more diodes comprise surface mount technology Schottky diodes integrally laminated into a portion of the photovoltaic module.
+
+
+16. The module of claim 10, wherein the one or more temperature indication devices comprise reversible temperature indication devices, non-reversible temperature indication devices, active temperature indication devices, passive temperature indication devices, or combinations thereof.
+
+
+17. The module of claim 10, wherein the one or more temperature indication devices comprise a scale to illustrate a temperature, or a color change to indicate a certain threshold temperature has been reached.
+
+
+18. The module of claim 10, wherein the one or more temperature indication devices comprise a temperature sensitive material that visually changes color or visually changes shape upon exposure to a threshold temperature or threshold temperature ranges.
+
+
+19. The module of claim 18, wherein the one or more temperature indication devices comprise a thermotropic liquid crystalline polymer.
+
+
+20. The module of claim 18, wherein the one or more temperature indication devices comprise a temperature indication label, a temperature sensitive paint, a temperature melting material, a temperature softening material, a temperature activated cement, a temperature activated lacquer, a temperature activated crayon, or combinations thereof.
+
+
+21. The module of claim 10, wherein the one or more temperature indication devices comprise an indicating range of about 125 degrees Celsius to about 300 degrees Celsius.
+
+
+22. The module of claim 10, wherein the one or more solar cells comprise Czochralski silicon, float zone silicon, monocrystalline silicon, near monocrystalline silicon, microcrystalline silicon, multicrystalline silicon, geometric multicrystalline silicon, amorphous silicon, cast silicon, sheet silicon, ribbon silicon, cadmium sulfide, cadmium telluride, copper indium selenide, copper indium gallium selenide, germanium, gallium arsenide, organic materials, polymer materials, or combinations thereof.
+
+
+23. An array of the modules of claim 10.
+
+
+24. A method of fabricating a photovoltaic module, the method comprising:
+providing one or more solar cells;
+electrically connecting one or more electrical circuits to the one or more solar cells;
+contacting at least a portion of the one or more electrical circuits with one or more temperature indication devices; and
+encapsulating the one or more solar cells, at least a portion of the one or more electrical circuits, and the one or more temperature indication devices between a transparent front sheet and a back sheet.
+
+
+
+25. The method of claim 24, wherein:
+the one or more electrical circuits comprise one or more diodes; and
+the one or more temperature indication devices comprise active devices, passive devices, or combinations thereof.
+
+

@@ -1,0 +1,68 @@
+
+In one embodiment, a photovoltaic (PV) power generation system includes a plurality of PV arrays configured to convert received light into electricity, a double conversion device, wherein the double conversion device is coupled to the plurality of PV arrays, and an inverter, wherein the inverter is coupled to the double conversion device. In an exemplary embodiment, the double conversion device is a DC-DC converter.
+
+
+
+1. A photovoltaic (PV) power system comprising:
+a plurality of PV devices configured to convert received light into electricity;
+a double conversion device, wherein the double conversion device is coupled to the plurality of PV devices; and
+an inverter, wherein the inverter is coupled to the double conversion device.
+
+
+
+2. The PV power system of claim 1, further comprising a load, wherein the load is coupled to the inverter.
+
+
+3. The PV power system of claim 1, wherein the PV devices are selected from the group consisting of PV arrays, PV strings, and PV modules.
+
+
+4. The PV power system of claim 1, wherein the double conversion device comprises a DC to DC converter.
+
+
+5. The PV power system of claim 1, wherein the double conversion device comprises a current source.
+
+
+6. The PV power system of claim 1, wherein the double conversion device has an operational range of 70VDC-450VDC.
+
+
+7. The PV power system of claim 1, wherein the double conversion device has an operational range of 70VDC-600VDC.
+
+
+8. The PV power system of claim 1, wherein the PV inverter has an operational range of 250VDC-600VDC.
+
+
+9. The PV power system of claim 1, wherein the double conversion device has an input portion and output portion, wherein the input portion is coupled to an output of the plurality of PV devices, and wherein the output portion is coupled to an input of the PV inverter.
+
+
+10. The PV power system of claim 1, wherein an output of the inverter is coupled to both a load and to an input of the double conversion device, wherein the connection between the double conversion device and an output of the inverter is configured to provide feedback data to the double conversion device.
+
+
+11. A photovoltaic (PV) power system comprising:
+a plurality of PV devices configured to convert received light into electricity;
+a DC to DC converter, wherein the DC-DC converter device coupled to the plurality of PV arrays; and
+an inverter, wherein the inverter is coupled to the DC-DC converter.
+
+
+
+12. The PV power system of claim 9, wherein the converter device comprises a current source.
+
+
+13. A DC-DC converter comprising:
+an input portion, wherein the input portion is coupled a plurality of PV devices; and
+an output portion, wherein the output portion is coupled an inverter.
+
+
+
+14. A method comprising:
+determining that an input DC voltage from at least one PV device is below a predetermined value;
+in response to the determination, increasing the input DC voltage to a first DC voltage within a predetermined voltage range, wherein the predetermined voltage range is an operational range of a PV inverter.
+
+
+
+15. The method of claim 14, further comprising:
+prior to determining that an input DC voltage from at least one PV device is below a predetermined value, receiving an input DC voltage from at least one DC power source, wherein the at least one DC power source comprises the least one PV device.
+
+
+
+16. The method of claim 15, wherein the at least one PV device is selected from the selected from the group consisting of a PV array, a PV string, and a PV module.
+

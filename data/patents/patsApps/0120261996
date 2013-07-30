@@ -1,0 +1,42 @@
+
+A photovoltaic system having a photovoltaic generator, whose strings with series-connected photovoltaic modules have a positive pole and a negative pole, and with an inverter whose DC input is connected to the two poles. The voltage of the positive pole and/or of the negative pole is measured with respect to ground, and a first switching element located between the positive pole and the DC input of the inverter and/or a second switching element located between the negative pole and the DC input of the inverter is opened, while a third switching element located between the positive pole and the negative pole is closed, when the voltage of the positive pole or of the negative pole exceeds a predefined first or second limit value.
+
+
+
+1. A photovoltaic system comprising:
+a photovoltaic generator that comprises multiple parallel strings of series connected photovoltaic modules, the strings having a positive pole and a negative pole between which is present a predetermined string voltage over a number of series-connected photovoltaic modules;
+an inverter configured to be connectable on an output side to a supply grid and whose DC input is connectable to the positive pole and the negative pole;
+a first switching element configured to connect the positive pole to the DC input of the inverter;
+a second switching element configured to connect the negative pole to the DC input of the inverter;
+a third switching element configured to connect the positive pole and the negative pole;
+a measurement system configured to measure a voltage of the positive pole and/or of the negative pole with respect to ground; and
+a controller connectable to the measurement system, the controller, using the measured voltage, generates a first control signal for opening the first switching element and/or a second control signal for opening the second switching element and also generates a third control signal for closing the third switching element when the voltage of the positive pole exceeds a first predefined limit value or the voltage of the negative pole exceeds a second predefined limit value.
+
+
+
+2. The photovoltaic system according to claim 1, wherein a string voltage in the no-load condition of the photovoltaic generator is greater than 1000V.
+
+
+3. The photovoltaic system according to claim 1, further comprising an MPP regulator, wherein the second predefined limit value is at least 3% smaller in terms of an absolute value than a lowest operating point voltage in a control algorithm of the MPP regulator.
+
+
+4. The photovoltaic system according to claim 1, wherein a connection of the positive pole and negative pole on the DC side with respect to the inverter is free of switching elements with the exception of the third switching element.
+
+
+5. A method for operating a photovoltaic system having a photovoltaic generator, which comprises multiple parallel strings of series-connected photovoltaic modules, wherein the strings have a positive pole and a negative pole, between which is present a predetermined string voltage over a number of series-connected photovoltaic modules, and having an inverter whose DC input is connected to the two poles and that is connectable on an output side to a supply grid, the method comprising:
+measuring the voltage of the positive pole and/or of the negative pole with respect to ground; and
+using the measured voltage, a first switching element located between the positive pole and the DC input of the inverter and/or a second switching element located between the negative pole and the DC input of the inverter is opened, and a third switching element located between the positive pole and the negative pole is closed, when the voltage of the positive pole exceeds a first predefined limit value or the voltage of the negative pole exceeds a second predefined limit value.
+
+
+
+6. The method according to claim 5, wherein the voltage of the positive pole and/or of the negative pole with respect to ground is measured by a measurement system, wherein the measured voltage is delivered to a controller connectable to the measurement system, wherein, using the measured voltage, the controller generates a first control signal and/or a second control signal and also a third control signal, wherein the first switching element or the second switching element is opened via the first control signal or the second control signal, and wherein, substantially simultaneously with the opening of the first switching element and/or of the second switching element, a process of closing the third switching element via the third control signal is initiated.
+
+
+7. The method according to claim 5, wherein the photovoltaic generator is operated with a free floating voltage, wherein the first limit value and/or the second limit value is at least one half of the string voltage in a no-load condition.
+
+
+8. The method according to claim 5, wherein the first switching element and the second switching element are opened substantially simultaneously.
+
+
+9. The method according to claim 5, wherein the third switching element is opened substantially simultaneously with the process of opening the first switching element or the second switching element. 
+

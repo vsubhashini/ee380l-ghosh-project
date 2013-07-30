@@ -1,0 +1,136 @@
+
+One photovoltaic module includes a plurality of photovoltaic cells and at least one device selected from a sensor, a data storage device and an indicator. Another photovoltaic module includes a plurality of photovoltaic cells and a flexible circuit configured to act as an antenna for electromagnetic radiation. Methods of using such photovoltaic modules are also disclosed.
+
+
+
+1. A photovoltaic module, comprising:
+(A) a plurality of photovoltaic cells comprising (i) a first photovoltaic cell, (ii) a second photovoltaic cell, and (iii) a flexible collector-connector that is configured to collect current from the first photovoltaic cell and to electrically connect the first photovoltaic cell to the second photovoltaic cell;
+wherein:
+the collector-connector comprises a first and second electrically insulating carrier supporting at least one electrically conductive wire;
+the first electrically insulating carrier is located over a front surface of the first photovoltaic cell such that a first part of the at least one electrically conductive wire electrically contacts a first polarity electrode on a front side of the first photovoltaic cell to collect current from the first photovoltaic cell; and
+the second electrically insulating carrier extends over a back side of the second photovoltaic cell, such that a second part of the at least one electrically conductive wire contacts a second polarity electrode on a back side of the second photovoltaic cell to electrically connect the first photovoltaic cell to the second photovoltaic cell,
+
+and
+
+(B) at least one device integrated into the module and located between the first and second electrically insulating carriers, wherein the device comprises:
+(a) a sensor configured to detect a change in one or more parameters affecting at least one of the plurality of photovoltaic cells;
+(b) a data storage device configured to record at least one parameter of at least one of the plurality of photovoltaic cells; or
+(c) an indicator configured to display a status of at least one cell of the plurality of photovoltaic cells.
+
+
+
+
+2. The module of claim 1, comprising the sensor configured to detect a change in one or more parameters affecting at least one cell of the plurality of photovoltaic cells.
+
+
+3. The module of claim 2, wherein the sensor is selected from the group consisting of a strain gauge, a temperature sensor, an irradiance sensor, a fire detector, an accelerometer, a humidity sensor, a corrosion byproduct sensor, a motion sensor or a surveillance camera, a GPS receiver/location sensor, a sensor configured to measure an output current or an output voltage of at least one cell of the plurality of photovoltaic cells.
+
+
+4. The module of claim 1, further comprising a flexible circuit configured as an antenna for receiving and/or transmitting an electromagnetic radiation signal.
+
+
+5. The module of claim 1, comprising the data storage device configured to record at least one parameter of at least one cell of the plurality of photovoltaic cells.
+
+
+6. The module of claim 5, wherein the at least one parameter is selected from the group consisting of a power output, current, voltage, temperature, irradiation, system status, error message and a combination thereof.
+
+
+7. The module of claim 5, wherein the data storage device is a memory chip configured to transmit data on the at least one parameter externally.
+
+
+8. The module of claim 5, further comprising a display, which is electrically connected to the data storage device and which is configured to display data on the at least one parameter.
+
+
+9. The module of claim 1, comprising one or more indicators configured to display a status of at least one cell of the plurality of the photovoltaic cells.
+
+
+10. The module of claim 9, wherein the one or more indicators comprise a light emitting diode.
+
+
+11. The module of claim 9, wherein at least one of the one or more indicators is placed on each of the plurality of the photovoltaic cells.
+
+
+12. The module of claim 1, further comprising a decorative or informational display integrated in the module.
+
+
+13. The module of claim 1, further comprising a smart AC disconnect configured to disconnect the plurality of photovoltaic cells in response to a change in one or more parameters affecting at least one of the plurality of photovoltaic cells.
+
+
+14. The module of claim 1, further comprising a cooling device or a vibrational transducer device.
+
+
+15. The module of claim 1, comprising at least two of:
+(a) the sensor configured to detect a change in one or more parameters affecting at least one of the plurality of photovoltaic cells;
+(b) the data storage device configured to record at least one parameter of at least one of the plurality of photovoltaic cells; or
+(c) the indicator configured to display a status of at least one cell of the plurality of photovoltaic cells.
+
+
+
+16. The module of claim 1, comprising:
+(a) the sensor configured to detect a change in one or more parameters affecting at least one of the plurality of photovoltaic cells;
+(b) the data storage device configured to record at least one parameter of at least one of the plurality of photovoltaic cells; and
+(c) the indicator configured to display a status of at least one cell of the plurality of photovoltaic cells.
+
+
+
+17. A photovoltaic module comprising
+(A) a plurality of photovoltaic cells comprising (i) a first photovoltaic cell, (ii) a second photovoltaic cell, and (iii) a flexible collector-connector that is configured to collect current from the first photovoltaic cell and to electrically connect the first photovoltaic cell to the second photovoltaic cell,
+wherein:
+the collector-connector comprises a first and second electrically insulating carrier supporting at least one electrically conductive wire;
+the first electrically insulating carrier is located over a front surface of the first photovoltaic cell such that a first part of the at least one electrically conductive wire electrically contacts a first polarity electrode on a front side of the first photovoltaic cell to collect current from the first photovoltaic cell; and
+the second electrically insulating carrier extends over a back side of the second photovoltaic cell, such that a second part of the at least one electrically conductive wire contacts a second polarity electrode on a back side of the second photovoltaic cell to electrically connect the first photovoltaic cell to the second photovoltaic cell,
+
+and
+(B) a flexible circuit that is integrated in the module and located between the first and second electrically insulating carriers and is configured as an antenna for at least one of receiving or transmitting an electromagnetic radiation signal.
+
+
+
+18. The module of claim 17, wherein the electromagnetic radiation signal is selected from the group consisting from a TV signal, a radio signal, a cellular phone signal, a satellite signal, a signal from one or more RFID tags and a combination thereof.
+
+
+19. The module of claim 17, further comprising at least one device integrated into the module, the device comprising:
+(a) a sensor configured to detect a change in one or more parameters affecting at least one cell of the plurality of photovoltaic cells;
+(b) a data storage device configured to record at least one parameter of at least one cell of the plurality of photovoltaic cells; or
+(c) an indicator configured to display a status of at least one cell of the plurality of photovoltaic cells.
+
+
+
+20. A photovoltaic module, comprising:
+(A) a plurality of photovoltaic cells comprising (i) a first photovoltaic cell, (ii) a second photovoltaic cell, and (iii) a flexible collector-connector that is configured to collect current from the first photovoltaic cell and to electrically connect the first photovoltaic cell to the second photovoltaic cell;
+wherein:
+the collector-connector comprises a first and second electrically insulating carrier supporting at least one electrically conductive wire;
+the first electrically insulating carrier is located over a front surface of the first photovoltaic cell such that a first part of the at least one electrically conductive wire electrically contacts a first polarity electrode on a front side of the first photovoltaic cell to collect current from the first photovoltaic cell; and
+the second electrically insulating carrier extends over a back side of the second photovoltaic cell, such that a second part of the at least one electrically conductive wire contacts a second polarity electrode on a back side of the second photovoltaic cell to electrically connect the first photovoltaic cell to the second photovoltaic cell,
+
+
+(B) a sensor configured to detect at least one parameter affecting at least one cell of the plurality of photovoltaic cells, the sensor located between the first and second electrically insulating carriers, and
+(C) a monitoring device connected to the sensor and configured to modify a performance of the photovoltaic module based on the at least one parameter detected by the sensor.
+
+
+
+21. The module of claim 20, wherein the monitoring device is configured to shut off the module based on the at least one parameter detected by the sensor.
+
+
+22. The module of claim 21, wherein the monitoring device is configured to shut off the module by electrically disconnecting the module from a panel or junction box based on the at least one parameter detected by the sensor.
+
+
+23. The module of claim 20, wherein the monitoring device is configured to improve module performance based on the at least one parameter detected by the sensor.
+
+
+24. The module of claim 23, wherein the at least one parameter comprises a strain on the photovoltaic module and the monitoring device is configured to reverse a bias applied to the photovoltaic module.
+
+
+25. The module of claim 23, wherein the at least one parameter comprises a temperature and the monitoring device is configured to modify a performance of a cooling system of the photovoltaic module.
+
+
+26. The module of claim 23, wherein the sensor is an irradiance sensor and the monitoring device is configured to modify a configuration of the module to maximize a radiance flux detected by the irradiance sensor.
+
+
+27. The module of claim 23, wherein the sensor is an irradiance sensor configured to detect excessive dirt on the module and the monitoring device is configured to clean the module by spraying the module with water or exposing the module to vibrations from a piezo element.
+
+
+28. The module of 20, furthering comprising a data storage device configured to record one at least one parameter detected by the at least one sensor and connected to the monitoring device and the sensor.
+
+
+29. The module of 28, wherein the monitoring device is configured to modify a performance of the photovoltaic module based on a comparison of at least one parameter detected by the sensor and the at least one parameter recorded in the data storage device. 
+

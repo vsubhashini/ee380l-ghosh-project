@@ -1,0 +1,151 @@
+
+Embodiments of apparatuses, systems, articles, and methods related to a photovoltaic module monitoring system are disclosed. Other embodiments may be described and claimed.
+
+
+
+1. A method comprising:
+sensing a first full string current at a positive string interconnect of a string electrically coupled with a plurality of photovoltaic (PV) modules;
+sensing a second full string current at a negative string interconnect of the string;
+determining that a difference between a first value, associated with the first full string current, and a second value, associated with second full string current, is greater than a predetermined threshold value; and
+providing a command to each active module sensor of a plurality of active module sensors that are electrically coupled with the plurality of PV modules to disconnect the plurality of PV modules from the string based on said determining.
+
+
+
+2. The method of claim 1, further comprising:
+communicating with one or more of the plurality of active module sensors to determine a location of a ground fault.
+
+
+
+3. The method of claim 2, wherein said determining the location includes:
+retrieving, from a last active module sensor that is associated with a last PV module electrically coupled with the string, a third value, which is associated with a current through the last PV module;
+determining that the third value is different from the second value; and
+determining that the ground fault is in either the last PV module or a string combiner electrically coupled with the string based on said determining that the third value is different from the second value.
+
+
+
+4. The method of claim 3, further comprising:
+determining that a first voltage, across a positive terminal and a negative terminal of the last PV module, is less than a second voltage, across the frame ground and the negative terminal of the last PV module; and
+determining that the ground fault is in the last PV module based on said determining that the first voltage is less than the second voltage.
+
+
+
+5. A method comprising:
+associating a plurality of active module sensors (AMSs) with a radio hub of a string management unit controller, wherein each of the plurality of AMSs is electrically coupled with a corresponding photovoltaic (PV) module; and
+associating a first set of the plurality of AMSs with a first string by transmitting, to the plurality of AMSs, a series of command messages to selectively connect or disconnect corresponding PV modules to or from the first string.
+
+
+
+6. The method of claim 5, wherein said associating the plurality of AMSs with the radio hub comprises:
+transmitting a broadcast association message, including a hub identifier, via a wireless transmission.
+
+
+
+7. The method of claim 5, wherein said associating the first set of the plurality of AMSs with the first string comprises:
+transmitting a first command message to all of the plurality of AMSs to disconnect corresponding PV modules from respective strings;
+transmitting a second command message to a first AMS of the plurality of AMSs to connect a first PV module, corresponding to the first AMS, to the first string;
+transmitting a third command message to a second AMS of the plurality of AMSs to connect a second PV module, corresponding to the second AMS, to an undetermined string;
+sensing a non-zero voltage change at a string combiner; and
+determining that the undetermined string is the first string based on said sensing of the non-zero voltage change.
+
+
+
+8. The method of claim 5, further comprising:
+determining an interconnection order of the first set of AMSs based on grading values of voltages across negative terminals of the PV modules that correspond to the set of AMSs and respective frame grounds.
+
+
+
+9. The method of claim 5, further comprising:
+associating each string of two or more strings with a respective string management unit in a string combiner.
+
+
+
+10. The method of claim 9, wherein said associating each string with a respective string management unit (SMU) comprises:
+selecting a first AMS of the plurality of AMSs to connect a first PV module, corresponding to the first AMS, to the first string;
+turning on a string identificatioN-switch in a string combiner;
+identifying a first SMU of a plurality of SMUs as recording a current; and
+associating the first SMU with the first string.
+
+
+
+11. A system comprising:
+a plurality of photovoltaic (PV) modules electrically coupled to one or more strings with each string having at least two PV modules serially coupled with one another;
+a string combiner coupled with the one or more strings; and
+a plurality of active module sensors, each active module sensor of the plurality of module sensors electrically coupled with a corresponding PV module of the plurality of PV modules and communicatively coupled with the string combiner and configured to communicate with the string combiner to manage the plurality of PV modules.
+
+
+
+12. The system of claim 11, further comprising:
+an array link gateway communicatively coupled with the string combiner and configured to communicatively couple the string combiner to a network.
+
+
+
+13. The system of claim 11, wherein the string combiner is electrically coupled with the plurality of active module sensors and the PV modules; and is further communicatively coupled, via a wireless connection, with the plurality of active module sensors to communicate control information with the plurality of active module sensors.
+
+
+14. The system of claim 11, wherein a first active module sensor of the plurality of active module sensors comprises:
+a voltage monitor configured to continuously monitor voltage associated with a first PV panel electrically coupled with the first active module sensor.
+
+
+
+15. The system of claim 11, wherein a first active module sensor of the plurality of active module sensors comprises:
+a switch configured to alternately connect and disconnect a first PV panel, electrically coupled with the first active module sensor, from a first string of the one or more strings.
+
+
+
+16. The system of claim 15, wherein the switch is configured to disconnect the first PV panel from the first string in an event of a ground fault detected by the string combiner.
+
+
+17. A method comprising:
+turning on a ground fault test switch in a string combiner;
+sending a first command message to a first active module sensor, electrically coupled with a first photovoltaic (PV) module, to connect the first PV module to a first string;
+determining that a negative string interconnect, electrically coupled with the string combiner, registers a current; and
+providing an indication of a ground fault with respect to the first PV module based on said determining.
+
+
+
+18. The method of claim 17, further comprising:
+controlling a plurality of AMSs, respectively corresponding to a plurality of PV modules, to test each of the plurality of PV modules for a low-resistance ground fault.
+
+
+
+19. A method comprising:
+sending one or more command messages to a set of active module sensors (AMSs), electrically coupled with a set of photovoltaic (PV) modules of a first string, to connect the set of PV modules to the first string;
+sending a first command message to a first AMS of the set of AMSs to turn on a ground relay switch;
+determining that a voltage across a frame ground and a negative terminal of the first PV module is not equal to zero; and
+providing an indication of a ground fault with respect to the first PV module based on said determining.
+
+
+
+20. The method of claim 19, wherein said determining comprises:
+receiving, by a string management unit controller, a message from the first AMS.
+
+
+
+21. The method of claim 19, further comprising:
+controlling a plurality of AMSs, respectively corresponding to a plurality of PV modules, to test each of the plurality of PV modules for a high-resistance ground fault.
+
+
+
+22. An apparatus comprising:
+a plurality of electrical interconnects configured to electrically couple the apparatus with a photovoltaic (PV) module and a string interconnect;
+a current sensor configured to measure a current associated with the PV module;
+a switch;
+a transceiver configured to transmit current measurements to, and receive command messages from, a string combiner; and
+a controller coupled with the transceiver and configured to control the switch to disconnect the PV module from the string interconnect.
+
+
+
+23. The apparatus of claim 22 wherein the transceiver is a wireless transceiver.
+
+
+24. The apparatus of claim 22, further comprising:
+a voltage monitor configured to monitor a voltage; and
+the transceiver is further configured to transmit voltage measurements to the string combiner.
+
+
+
+25. The apparatus of claim 22, further comprising:
+the PV module including a first section and a second section; and
+a voltage regulator having a first bypass diode coupled in parallel with the first section, a second bypass diode coupled in parallel with the second section, wherein the voltage regulator is electrically coupled to a node between the first section and the second section.
+
+

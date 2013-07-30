@@ -1,0 +1,98 @@
+
+A DC to AC inverter used in a solar cell power system can include an improved structure for cooling itself and increasing power output.
+
+
+
+1. A DC to AC inverter unit comprising:
+an enclosure;
+a DC to AC inverter within the enclosure, the inverter having a rated power output at a first temperature disposed within the container; and
+a cooling source in thermal communication with the inverter, wherein the inverter is maintained at a second temperature sufficient to allow the inverter to be overdriven to increase power output by 5% or more over the rated power output.
+
+
+
+2. The DC to AC inverter unit of claim 1, further comprising a power current switch within the enclosure, wherein the switch switches back and forth to allow current to flow in two alternate directions.
+
+
+3. The DC to AC inverter unit of claim 1, further comprising a transformer within the enclosure and electrically connected to the switch.
+
+
+4. The DC to AC inverter unit of claim 1, further comprising at least one cooling air outlet through the enclosure.
+
+
+5. The DC to AC inverter unit of claim 1, further comprising at least one cooling air inlet opening through the enclosure.
+
+
+6. The DC to AC inverter unit of claim 1, further comprising a cooling air fan connected to the cooling air inlet opening, wherein the cooling air fan moves cooling air from the cooling source into the enclosure through the cooling air inlet opening.
+
+
+7. The DC to AC inverter unit of claim 1, wherein the power transformer has a metal core.
+
+
+8. The DC to AC inverter unit of claim 7, further comprising:
+a cooling air passageway through the interior of the transformer metal core; and
+a transformer cooling air port to allow air to flow through the transformer cooling air passageway.
+
+
+
+9. The DC to AC inverter unit of claim 1, further comprising a DC input from a photovoltaic array to the DC to AC inverter.
+
+
+10. The DC to AC inverter unit of claim 9, further comprising a supervisory control and data acquisition system within the enclosure, wherein the supervisory control and data acquisition system comprises:
+at least one sensor acquiring data on the outputs of the photovoltaic array;
+a human-machine interface;
+a current/voltage control unit;
+a computer supervisory system acquiring data from the sensor and sending commands to the current/voltage control unit;
+a remote terminal unit connecting to the sensor, converting sensor signals to digital data and sending digital data to the supervisory system; and
+a communication infrastructure connecting the supervisory system to the remote terminal unit.
+
+
+
+11. The DC to AC inverter of claim 10, wherein the supervisory control and data acquisition system comprises a programmable logic controller used as field device.
+
+
+12. The DC to AC inverter unit of claim 1, further comprising a cable vault adjacent to the enclosure.
+
+
+13. The DC to AC inverter unit of claim 1, wherein the cooling source comprises an air conditioning system to keep the temperature in the enclosure below about 50 degrees C.
+
+
+14. The DC to AC inverter unit of claim 13, wherein the air conditioning system keeps the temperature in the enclosure below about 35 degrees C.
+
+
+15. The DC to AC inverter unit of claim 13, wherein the air conditioning system keeps the temperature in the enclosure below about 20 degrees C.
+
+
+16. A method for generating AC power, comprising:
+enclosing in an enclosure an inverter having a rated power output, the inverter comprising a power current switch and the power current switch being electrically connected to a power transformer; and
+overdriving the inverter to output power greater than the rated power output.
+
+
+
+17. The method of claim 16, further comprising the step of thermally connecting a cooling source to the inverter to permit the overdriving.
+
+
+18. The method of claim 16, further comprising dissipating heat from the transformer using a finned heat sink in thermal connection with the transformer.
+
+
+19. The method of claim 16, further comprising dissipating heat from the power switch using a finned heat sink in thermal communication with the power switch.
+
+
+20. A photovoltaic module-based power system comprising:
+a photovoltaic array; and
+a DC to AC inverter unit electrically connected to the photovoltaic array comprising:
+an enclosure;
+a DC to AC inverter within the enclosure, the inverter having a rated power output at a first temperature; and
+a cooling source in thermal communication with the inverter, wherein the inverter is maintained at a second temperature sufficient to allow the inverter to be overdriven to increase power output by 5% or more over the rated power output.
+
+
+
+
+21. The photovoltaic module-based power system of claim 20, further comprising a supervisory control and data acquisition system within the enclosure, wherein the supervisory control and data acquisition system comprises:
+at least one sensor acquiring data on the outputs of the photovoltaic array;
+a human-machine interface;
+a current/voltage control unit;
+a computer supervisory system acquiring data from the sensor and sending commands to the current/voltage control unit;
+a remote terminal unit connecting to the sensor, converting sensor signals to digital data and sending digital data to the supervisory system; and
+a communication infrastructure connecting the supervisory system to the remote terminal unit. 
+
+

@@ -1,0 +1,133 @@
+
+A method and apparatus of tracking the maximum power point of a photovoltaic module. The method includes measuring an output voltage of the photovoltaic module, determining an output voltage of the inverter connected to the photovoltaic module, and measuring output current of the inverter connected to the photovoltaic module. A variable relating to energy of the capacitor is defined using the measured PV module output voltage, and a second harmonic component is extracted from the defined variable. A second harmonic component of the module output power is estimated using the defined variable, measured output current of the inverter, and the determined output voltage of the inverter. The estimated and extracted second harmonic components are multiplied, and a DC component is extracted from the product. A control signal for controlling the inverter connected to the photovoltaic module is formed by using the extracted DC component in a PI algorithm.
+
+
+
+1. A method of tracking a maximum power point of a photovoltaic module, comprising:
+measuring output voltage (vC) of the photovoltaic module;
+determining output voltage (e) of an inverter connected to the photovoltaic module;
+measuring output current (i1) of the inverter connected to the photovoltaic module;
+defining a variable (z) relating to energy of a capacitor using the measured PV module output voltage;
+extracting a second harmonic component ({tilde over (z)}) from the defined variable (z);
+estimating a second harmonic component ({tilde over (p)}) of module output power (p) using the defined variable (z), measured output current (i1) of the inverter, and the determined output voltage (e) of the inverter;
+multiplying the extracted ({tilde over (z)}) and the estimated ({tilde over (p)}) second harmonic components;
+extracting a DC component ({tilde over (p)}{tilde over (z)}DC) from a product ({tilde over (p)}{tilde over (z)}) of the multiplication of the second harmonic components; and
+forming a control signal (P;vref) for controlling the inverter connected to the photovoltaic module by using the extracted DC component in a PI algorithm.
+
+
+
+2. The method according to claim 1, wherein forming the control signal (P) comprises:
+estimating a DC component ( {circumflex over (p)}) of the power of the module from the output voltage of the photovoltaic module, output voltage of the inverter, and output current of the inverter;
+using the estimated DC component ( {circumflex over (p)}) of the power (p) of the module as a feedforward signal, subtracting the output of the PI algorithm from the feedforward signal, and using the control signal (P) as a current amplitude reference.
+
+
+
+3. The method according to claim 1, wherein forming the control signal (vref) comprises:
+multiplying the extracted DC component ({tilde over (p)}{tilde over (z)}DC) with a constant (β); and
+adding the output voltage (vC) of the photovoltaic module to the obtained product for producing a control signal (vref).
+
+
+
+4. The method according to claim 1, wherein forming the control signal (vref) comprises:
+taking the sign of the extracted DC component ({tilde over (p)}{tilde over (z)}DC);
+multiplying the sign with a constant (β); and
+adding the output voltage (vC) of the photovoltaic module to the obtained product for producing control signal (vref).
+
+
+
+5. The method according to claim 1, wherein forming the control signal (vref) comprises:
+integrating the extracted DC component ({tilde over (p)}{tilde over (z)}DC); and
+multiplying this integral with a constant (β) for producing control signal (vref).
+
+
+
+6. The method according to claim 3, wherein the method comprises
+using the control signal (vref) as a voltage reference for the inverter for controlling the output voltage of the photovoltaic module.
+
+
+
+7. The method according to claim 3, wherein the method comprises:
+using the control signal (vref) as an input to a PI algorithm for obtaining control signal (P) for controlling the current amplitude of the photovoltaic module.
+
+
+
+8. The method according to claim 1, wherein forming the control signal (P) comprises:
+calculating a square of the second harmonic component of a variable relating to energy of the capacitor;
+extracting a DC component from the calculated square;
+dividing the DC component of the product of second harmonic components of variable (z) and power of the module with a DC component of the square of the second harmonic of variable (z), and
+feeding a result of the division to the PI algorithm for obtaining the control signal (P).
+
+
+
+9. The method according to claim 1, wherein the variable (z) relating to energy of the capacitor is defined as square of the capacitor voltage divided by two (z=vC2/2).
+
+
+10. An arrangement for tracking a maximum power point of a photovoltaic module, the arrangement comprising:
+means for measuring output voltage (vC) of the photovoltaic module;
+means for determining output voltage (e) of an inverter connected to the photovoltaic module;
+means for measuring output current (i1) of the inverter connected to the photovoltaic module;
+means for defining a variable (z) relating to energy of a capacitor using the measured PV module output voltage;
+means for extracting a second harmonic component ({tilde over (z)}) from the defined variable (z);
+means for estimating a second harmonic component ({tilde over (p)}) of module output power (p) using the defined variable (z), measured output current (i1) of the inverter and the determined output voltage (e) of the inverter;
+means for multiplying the extracted ({tilde over (z)}) and the estimated ({tilde over (p)}) second harmonic components;
+means for extracting a DC component ({tilde over (p)}{tilde over (z)}DC) from a product ({tilde over (p)}{tilde over (z)}) of the multiplication of the second harmonic components; and
+means for forming a control signal (P;vref) for controlling the inverter connected to the photovoltaic module by using the extracted DC component in a PI algorithm.
+
+
+
+11. A photovoltaic inverter comprising the arrangement of claim 10.
+
+
+12. A method of tracking a maximum power point of a photovoltaic module, comprising:
+measuring output voltage (vC) of the photovoltaic module;
+determining output voltage (e) of an inverter connected to the photovoltaic module;
+measuring output current (i1) of the inverter connected to the photovoltaic module;
+defining a variable (z) relating to energy of a capacitor using the measured PV module output voltage;
+processing the defined variable (z), measured output current (ii) of the inverter, and the determined output voltage (e) of the inverter to obtain second harmonic components ({tilde over (z)}), ({tilde over (p)}) of the defined variable and module output power (p), respectively;
+extracting a DC component ({tilde over (p)}{tilde over (z)}DC) from a product ({tilde over (p)}{tilde over (z)}) of the second harmonic components; and
+forming a control signal (P;vref) for controlling the inverter connected to the photovoltaic module based on the extracted DC component.
+
+
+
+13. The method according to claim 12, wherein processing step comprises:
+extracting a second harmonic component ({tilde over (z)}) from the defined variable (z).
+
+
+
+14. The method according to claim 12, wherein the processing step comprises:
+estimating a second harmonic component ({tilde over (p)}) of module output power (p) using the defined variable (z), measured output current (i1) of the inverter, and the determined output voltage (e) of the inverter;
+
+
+
+15. The method according to claim 12, comprising:
+multiplying the extracted ({tilde over (z)}) and the estimated ({tilde over (p)}) second harmonic components.
+
+
+
+16. The method according to claim 12, wherein the control signal (P;vref) is formed by using the extracted DC component in a PI algorithm.
+
+
+17. The method according to claim 16 comprising:
+estimating a DC component ( {circumflex over (p)}) of the power of the module from the output voltage of the photovoltaic module, output voltage of the inverter, and output current of the inverter;
+using the estimated DC component ( {circumflex over (p)}) of the power (p) of the module as a feedforward signal, subtracting the output of the PI algorithm from the feedforward signal, and using the control signal (P) as a current amplitude reference.
+
+
+
+18. The method according to claim 12, wherein forming the control signal (vref) comprises:
+multiplying the extracted DC component ({tilde over (p)}{tilde over (z)}DC) with a constant (β); and
+adding the output voltage (vC) of the photovoltaic module to the obtained product for producing a control signal (vref).
+
+
+
+19. The method according to claim 12, wherein forming the control signal (vref) comprises:
+taking the sign of the extracted DC component ({tilde over (p)}{tilde over (z)}DC);
+multiplying the sign with a constant (β); and
+adding the output voltage (vC) of the photovoltaic module to the obtained product for producing control signal (vref).
+
+
+
+20. The method according to claim 12, wherein forming the control signal (vref) comprises:
+integrating the extracted DC component ({tilde over (p)}{tilde over (z)}DC); and
+multiplying this integral with a constant (β) for producing control signal (vref).
+
+

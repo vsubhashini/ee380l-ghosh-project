@@ -1,0 +1,67 @@
+
+Regular 
+Columns are the assigned/predicted values
+Rows are the actual
+
+          1   2   3   4
+ Orig-1 289  32  35   3
+ Orig-2  15 472   5  16
+ Orig-3  45   3 122   4
+ Orig-4   1   0   4  21
+
+84.72%
+
+Uniform prior with Cross validation
+
+           1   2   3   4
+ orig- 1 275  31  46   7
+ orig- 2  12 466  10  20
+ orig- 3  36   2 131   5
+ orig- 4   1   0   4  21
+
+Leave-one-out Cross validation
+                     Site Assessment Solar Invertor Solar Monitoring
+  Site Assessment                  16              3                4
+  Solar Invertor                    5            288               47
+  Solar Monitoring                  5             36              120
+  Solar Mounting/Rack               0             32                3
+
+                      Solar Mounting/Rack
+  Site Assessment                      16
+  Solar Invertor                       15
+  Solar Monitoring                      5
+  Solar Mounting/Rack                 472
+
+QDA - quadratic discriminant analysis
+
+      1   2   3   4
+  1 262  25  70   2
+  2  22 474   9   3
+  3  38   4 128   4
+  4   0   0   0  26
+
+83.33%
+
+SVM - support vector machine
+patappsvm.pred        SA	SI	SM	Mount
+  Site Assessment     14	0	1	3
+  Solar Invertor       6	313	46	14
+  Solar Monitoring     3	17	121	3
+  Solar Mounting/Rack  3	29	6	488
+
+87.72%
+
+
+Neural Network
+
+patappsvm.pred        SA	SI	SM	Mount
+  Site Assessment     12	0	1	2
+  Solar Invertor       0	291	72	34
+  Solar Monitoring    14	38	99	6
+  Solar Mounting/Rack  0	30	2	466
+
+81.34%
+
+
+
+

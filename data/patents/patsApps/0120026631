@@ -1,0 +1,67 @@
+
+In an embodiment, inverter circuitry has switching devices that generate three-phase AC voltage that is supplied to a utility power grid interface transformer. A high impedance circuit as well as a ground fault monitoring circuit couple to the inverter circuit. The high impedance circuit is configured to periodically create a path to Earth ground, and thus, completes the Earth ground electrical path back to the ground fault detection circuit. A set of isolation contacts at the AC 3-phase power output connect as well as isolate this particular inverter from the utility grid interface transformer. Control components in the ground fault monitoring circuit control the operation of the isolation contacts based off a presence of a ground fault in ungrounded solar arrays that supply DC power to this ungrounded inverter circuitry when the ground fault is detected by the ground fault monitor circuit for that ungrounded inverter.
+
+
+
+1. An apparatus for a photovoltaic system, comprising:
+a high impedance circuit as well as a ground fault monitoring circuit for an inverter circuit with switching devices that generate three-phase Alternating Current (AC) voltage supplied to a utility power grid interface transformer,
+where an AC 3-phase power output of the inverter circuitry directly couples to a utility grid interface transformer without connection through an isolation transformer to the utility grid interface transformer,
+where a primary-side common node of the Utility Power grid interface transformer is not referenced to Earth ground but rather has a connection to the high impedance circuit, which periodically creates a path to Earth ground, and thus, completes the Earth ground electrical path back for the ground fault detection circuit,
+where each inverter circuit also has its own set of isolation contacts at the AC 3-phase power output to connect as well as isolate this particular inverter from the utility grid interface transformer,
+where control components in the ground fault monitoring circuit control the operation of the isolation contacts based off a presence of a ground fault in ungrounded solar arrays that supply Direct Current (DC) power to this ungrounded inverter circuitry, when the ground fault is detected by the ground fault monitor circuit for that ungrounded inverter, and
+where the inverter circuit receives a DC voltage supplied from its own set of ungrounded Concentrated PhotoVoltaic (CPV) modules, and where multiple solar arrays, each with their one or more inverter circuits directly couple their three phase AC output to the same utility grid interface transformer.
+
+
+
+2. The apparatus for a photovoltaic system of claim 1, where the ground fault monitoring circuit has a residual current monitor (RCM) with a multi-turn winding coupled to the core that can be connected between one phase of the inverter switching bridge output and a load resistor, and the residual current monitor is configured to sense an unbalanced current condition between the positive and negative leads of the set of ungrounded CPV modules from the solar array caused by ground fault current leakage from the CPV modules, and then signals the control components in the inverter circuitry to disconnect the output of the inverter circuitry from the utility grid interface transformer feed by opening the isolation contacts when the residual current level is above a threshold level that indicates a hazardous condition.
+
+
+3. The apparatus for a photovoltaic system of claim 1, where the ground fault monitoring circuit is configured to detect the presence of the ground fault in the ungrounded CPV modules that supply Direct Current (DC) power to the ungrounded inverter circuit, where the inverter circuitry with switching devices use Space Vector Modulated bridge switches, generating three phase Volts AC, and where the termination leads of the CPV modules are routed through the current transformer of the residual current monitor.
+
+
+4. The apparatus for a photovoltaic system of claim 1, where each inverter circuit in the ungrounded system has its own ground fault monitoring circuit, where an input of each inverter circuit is equipped with a residual current monitor (RCM), and where the ground fault monitoring circuit detects the presence of the ground fault via the residual current monitor sensing an unbalanced residual current condition between the positive and negative leads of the ungrounded CPV modules caused by current leakage from the solar array, and signals the inverter controller to disconnect the inverter by activating the series-redundant AC isolation contacts from the Utility Power grid interface transformer when the residual current level indicates a hazardous condition by measuring the above unbalanced current ground fault in the CPV modules prior to an operating inverter circuit closing the isolation contacts to supply AC voltage to the utility power grid transformer, which prevents disconnecting the entire PV system due to the grounded CPV module from merely supplying this inverter circuit.
+
+
+5. The apparatus for a photovoltaic system of claim 1, where in non-fault conditions between the ungrounded CPV modules and ungrounded inverter circuit, when in these conditions an electrical open circuit exists at each CPV array pole, and consequently, no current flows even if the CPV solar array is well-illuminated by sunlight because a complete ground path cannot be established in the ground fault loop, however the ground fault monitoring circuit but a multi-turn current measurement winding connected to the core of the current sense transformer of the residual current monitor creates a path to Earth ground and when one or more of the CPV modules has a ground fault then the complete electrical circuit from the ungrounded CPV modules of the PV solar array back to the multi-turn current measurement winding is completed.
+
+
+6. The apparatus for a photovoltaic system of claim 1, where the ground fault monitoring circuit is configured to detect when a ground leak occurs in the CPV modules, when a ground current flows through the CPV modules, ground fault resistance, one of the conducting switching devices of the inverter circuit, normally open contacts when the inverter circuit is not power on, one lead of the multi-turn current measurement winding, through the other lead of the multi-turn current measurement winding, and a load resister to Earth ground, and thus completing the Earth ground path between the normally ungrounded CPV modules and normally ungrounded inverter circuit.
+
+
+7. The apparatus for a photovoltaic system of claim 1, where the high impedance circuit in the system ground impedance detector (SGID) is connected between the transformer's primary common node and Earth ground, which monitors system impedance to Earth ground and signals the ground fault monitor circuit to open the isolation contacts to disconnect from the utility power grid interface transformer when the impedance level indicates a ground fault.
+
+
+8. The apparatus for a photovoltaic system of claim 1, where the high impedance circuit is in the SGID is connected between the transformer's primary common node and Earth ground, and the high impedance circuit periodically creates a path to Earth ground and thus completes the earth ground electrical path back to the ground fault detection circuit by periodically closing a relay contact to make a path to Earth ground for the grid interface transformer primary common node through a high resistance system grounding resistor and the relay contact, and when the high impedance circuit creates ground path to the CPV modules, then signal the control components to cause the isolation contacts for that inverter to open.
+
+
+9. The apparatus for a photovoltaic system of claim 1, where each inverter circuit receives a bipolar DC voltage supplied from its own set of CPV modules, where a switching device in the input of the inverter circuit is used to create the common reference point for the positive VDC and the negative VDC inputs from the PV array, and
+where the ground fault monitoring circuit localizes of the ground fault to a specific set of CPV modules feeding a specific inverter circuit by when the detected ground fault voltage has a negative voltage component, then the ground fault is coming from the set of CPV modules supplying the negative DC voltage; and likewise, when the detected ground fault voltage has a positive voltage component, then the ground fault is coming from the set of CPV modules supplying the positive DC voltage.
+
+
+
+10. The apparatus for a photovoltaic system of claim 1, where the inverter controller causes one or more of the bridge switching devices to conduct to connect the winding to a pole of a string of the CPV modules, and the ground fault current through the multiple turn current measuring winding depends on the leakage resistance and its location relative to the pole, and the polarity of the ground fault current indicates when the fault occurs on the East CPV modules supplying the negative voltage or the West modules supplying the positive voltage.
+
+
+11. The apparatus for a photovoltaic system of claim 1, where multiple solar arrays, each with their one or more inverter circuits, directly couple their three phase AC output to the same utility power grid interface transformer, and where the isolation contacts and control components of the ground fault monitoring circuit are configured to prevent the 1) disconnection of the entire solar power generating system or 2) disconnection of an inverter group from the utility power grid interface transformer due to a ground fault occurring in an individual inverter circuit or its associated CPV modules, by a localization of the ground fault to 1) a specific inverter circuit from an inverter group coupling to the utility grid power transformer or 2) even more specifically, a specific set of CPV modules feeding a specific inverter circuit, which also reduce corrective maintenance costs.
+
+
+12. The apparatus for a photovoltaic system of claim 1, further comprising:
+a set of high capacity DC batteries on-site couple to one or more of the inverter circuits to control a rate of transition of power from the utility power grid when the inverter circuits abruptly stop providing AC power.
+
+
+
+13. The apparatus for a photovoltaic system of claim 1, where the solar arrays also charge a set of long life high capacity DC batteries on-site and the set of DC batteries reconnect back into an input of the inverter circuit that couples to the utility power grid, where the fully charged set of DC batteries control the rate that the photovoltaic generation facility stops providing power to the utility power grid, and a connection algorithm in the inverter controller controls a rate that the photovoltaic generation facility starts providing power to the utility power grid, and where these two factors allow the transition of power to and from the utility power grid to minimize abrupt transitions of significant power capacity to the utility grid.
+
+
+14. The apparatus for a photovoltaic system of claim 1, where the ground fault monitoring circuit includes an AC Grid Current circuit that senses signal processing via isolated and differential sensed to aid in AC ground fault detection.
+
+
+15. A method for a photovoltaic system, comprising:
+coupling a high impedance circuit as well as a ground fault monitoring circuit to an inverter circuit with switching devices that generate three-phase Alternating Current (AC) voltage supplied to a utility power grid interface transformer,
+coupling an AC 3-phase power output of the inverter circuitry directly to a utility grid interface transformer without connection through an isolation transformer to the utility grid interface transformer,
+coupling a primary-side common node of the Utility Power grid interface transformer not directly to Earth ground but rather has a connection to the high impedance circuit,
+configuring the high impedance circuit to periodically create a path to Earth ground, and thus, completes the Earth ground electrical path back to the ground fault detection circuit,
+configuring each inverter circuit to have its own set of isolation contacts at the AC 3-phase power output, which connect as well as isolate this particular inverter from the utility grid interface transformer, and
+configuring control components in the ground fault monitoring circuit to control the operation of the isolation contacts based off a presence of a ground fault in ungrounded solar arrays that supply Direct Current (DC) power to this ungrounded inverter circuitry, when the ground fault is detected by the ground fault monitor circuit for that ungrounded inverter. 
+
+

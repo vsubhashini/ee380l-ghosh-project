@@ -1,0 +1,143 @@
+
+The solar energy converter for generating electric energy and heated fluid comprises a multi-layer assembly, a photovoltaic panel and a manifold assembly. The multi-layer assembly is a casing and comprises N layers separated by at least one separator floor, each layer has at least one channel adapted to contain a fluid stream, and each layer has a first opening and a second opening. The photovoltaic panel has a top surface and a bottom surface, the bottom surface of the photovoltaic panel contacts the multi-layer assembly. The manifold assembly comprises N passages for containing the fluid streams, the Kth passage is adapted to distribute the fluid stream to be heated into the channel of the Kth layer through the corresponding first opening and collect the heated fluid stream from the channel of the Kth layer through the corresponding second opening, wherein N is a positive integer, K is a positive integer less than or equal to N.
+
+
+
+1. A solar energy converter for generating electric energy and heated fluid, comprising:
+a multi-layer assembly being a casing and comprising N layers separated by a plurality of separator floors, each layer having at least one channel adapted to contain a fluid stream, and each layer having a first opening and a second opening;
+a photovoltaic panel having a top surface and a bottom surface, the bottom surface of the photovoltaic panel contacting the multi-layer assembly, the photovoltaic panel comprising a plurality of photovoltaic cells, disposed on the top surface, for gathering solar energy and converting the incident solar energy into electric energy, whereby the heating of the multi-layer assembly and the photovoltaic panel rises temperature of the fluid streams within each layer of the multi-layer assembly;
+a manifold assembly, detachably engaged with the multi-layer assembly, comprising N passages for containing the fluid streams, the Kth passage adapted to distribute the fluid stream to be heated into the channel of the Kth layer through the corresponding first opening and collect the heated fluid stream from the channel of the Kth layer through the corresponding second opening; and
+wherein N is a positive integer, K is a positive integer less than or equal to N.
+
+
+
+2. The solar energy converter of claim 1, wherein the fluid streams within the N layers comprise at least two types of fluid.
+
+
+3. The solar energy converter of claim 1, wherein the multi-layer assembly is formed by a single mass of material.
+
+
+4. The solar energy converter of claim 3, wherein the multi-layer assembly is manufactured by an extrusion process.
+
+
+5. The solar energy converter of claim 1, wherein the multi-layer assembly is coated with a surface coating for enhancing protection from corrosive atmospheres and absorption of the infra-red spectrum of the incident solar energy.
+
+
+6. The solar energy converter of claim 1, wherein each layer of the multi-layer assembly comprises the plurality of channels, the channels of all the layers form a pattern of honey-comb in a cross-sectional view along an extension direction of the channels.
+
+
+7. The solar energy converter of claim 1, wherein the manifold assembly is physically separated into a first manifold unit and a second manifold unit, the first manifold unit has N first passages, each of the first passages is adapted to align with the corresponding first opening of the multi-layer assembly, the second manifold unit has N second passages, each of the second passages is adapted to align with the corresponding second opening of the multi-layer assembly.
+
+
+8. The solar energy converter of claim 7, wherein the first manifold unit and the second manifold unit are manufactured by an extrusion process.
+
+
+9. The solar energy converter of claim 7, wherein each of the first passages of the first manifold unit comprises a first chamber and a first valve, the first chamber receives the fluid stream from a fluid source, and the first valve is adapted to align with the first opening of the corresponding layer for distributing the fluid stream to be heated into the channel of the corresponding layer.
+
+
+10. The solar energy converter of claim 9, wherein the first chamber is a tubular space penetrating the first manifold unit and sealed by two end blocks at both ends, and at least one of the end blocks has an aperture thereon adapted to be detachably engaged with a connector for transporting the fluid stream from the fluid source to the first chamber.
+
+
+11. The solar energy converter of claim 10, wherein the connector comprises an intake tube inserted into the aperture of the end block to create a turbulent flow in the fluid stream for increasing a heat transfer efficiency.
+
+
+12. The solar energy converter of claim 7, wherein each of the second passages of the second manifold unit comprises a second chamber and a second valve, the second valve is adapted to align with the second opening of the corresponding layer for collecting the heated fluid stream from the channel of the corresponding layer, and the second chamber temporarily contains the heated fluid stream to be conducted out of the solar energy converter.
+
+
+13. The solar energy converter of claim 7, wherein the first manifold unit further comprises a cleaning passage for cleaning the photovoltaic panel, the cleaning passage comprises a cleaning chamber and a cleaning valve, the cleaning valve is substantially align with the top surface of the photovoltaic panel, the cleaning chamber contain water for gushing out of the cleaning valve to clean the photovoltaic panel.
+
+
+14. A method for generating electric energy and heated fluid, said method comprising the following steps:
+providing a photovoltaic panel comprising a plurality of photovoltaic cells for gathering solar energy and converting the incident solar energy into electric energy;
+providing a multi-layer assembly comprising N layers, each layer adapted to contain a fluid stream;
+distributing the fluid streams to be heated into the N layers;
+rising temperature of the fluid streams within each layer of the multi-layer assembly by the heating of the multi-layer assembly and the photovoltaic panel; and
+collecting the heated fluid stream from the N layers;
+wherein N is a positive integer.
+
+
+
+15. The method of claim 14, wherein the fluid streams within the N layers comprise at least two types of fluid.
+
+
+16. The method of claim 14, wherein the multi-layer assembly is made manufactured by an extrusion process.
+
+
+17. The method of claim 14, wherein the multi-layer assembly is coated with a surface coating for enhancing protection from corrosive atmospheres and absorption of the infra-red spectrum of the incident solar energy.
+
+
+18. The method of claim 14, wherein each layer of the multi-layer assembly comprises the plurality of channels, the channels of all the layers form a pattern of honey-comb in a cross-sectional view along an extension direction of the channels.
+
+
+19. The method of claim 14, further comprising the following step:
+receiving the fluid stream from a fluid source.
+
+
+
+20. The method of claim 14, further comprising the following step:
+generating a turbulent flow in the each fluid stream for increasing a heat transfer efficiency of the corresponding fluid stream.
+
+
+
+21. A solar energy conversion system comprising:
+a mounting frame;
+a plurality of solar energy converters detachably fixed on the mounting frame respectively, each of the solar energy converter comprising:
+a multi-layer assembly being a casing and comprising N layers separated by a plurality of separator floors, each layer having at least one channel adapted to contain a fluid stream, and each layer having a first opening and a second opening;
+a photovoltaic panel having a top surface and a bottom surface, the bottom surface of the photovoltaic panel contacting the multi-layer assembly, the photovoltaic panel comprising a plurality of photovoltaic cells, disposed on the top surface, for gathering solar energy and converting the incident solar energy into electric energy, whereby the heating of the multi-layer assembly and the photovoltaic panel rises temperature of the fluid streams within each layer of the multi-layer assembly;
+a manifold assembly, detachably engaged with the multi-layer assembly, comprising N passages for containing the fluid streams, the Kth passage adapted to distribute the fluid stream to be heated into the channel of the Kth layer through the corresponding first opening and collect the heated fluid stream from the channel of the Kth layer through the corresponding second opening; and
+wherein N is a positive integer, K is a positive integer less than or equal to N; and
+
+an umbilical connecting device physically combining the passages of at least two the manifold assemblies of the plurality of solar energy converters for sharing the fluid streams contained therein.
+
+
+
+22. The solar energy conversion system of claim 21, wherein the fluid streams within the N layers comprise at least two types of fluid.
+
+
+23. The solar energy converter of claim 21, wherein the multi-layer assembly is formed by a single mass of material.
+
+
+24. The solar energy conversion system of claim 23, wherein the multi-layer assembly is manufactured by an extrusion process.
+
+
+25. The solar energy conversion system of claim 21, wherein the multi-layer assembly is coated with a surface coating for enhancing protection from corrosive atmospheres and absorption of the infra-red spectrum of the incident solar energy.
+
+
+26. The solar energy conversion system of claim 21, wherein each layer of the multi-layer assembly comprises the plurality of channels, the channels of all the layers form a pattern of honey-comb in a cross-sectional view along an extension direction of the channels.
+
+
+27. The solar energy conversion system of claim 21, wherein the manifold assembly is physically separated into a first manifold unit and a second manifold unit, the first manifold unit has N first passages, each of the first passages is adapted to align with the corresponding first opening of the multi-layer assembly, the second manifold unit has N second passages, each of the second passages is adapted to align with the corresponding second opening of the multi-layer assembly.
+
+
+28. The solar energy conversion system of claim 27, wherein the first manifold unit and the second manifold unit are manufactured by an extrusion process.
+
+
+29. The solar energy conversion system of claim 27, wherein each of the first passages of the first manifold unit comprises a first chamber and a first valve, the first chamber receives the fluid stream from a fluid source, and the first valve is adapted to align with the first opening of the corresponding layer for distributing the fluid stream to be heated into the channel of the corresponding layer.
+
+
+30. The solar energy conversion system of claim 29, wherein the first chamber is a tubular space penetrating the first manifold unit and sealed by two end blocks at both ends, and at least one of the end blocks has an aperture thereon adapted to be detachably engaged with a connector for transporting the fluid stream from the fluid source to the first chamber.
+
+
+31. The solar energy conversion system of claim 30, wherein the connector comprises a bent intake tube inserted into the aperture of the end block to create a turbulent flow in the fluid stream for increasing a heat transfer efficiency.
+
+
+32. The solar energy conversion system of claim 27, wherein each of the second passages of the second manifold unit comprises a second chamber and a second valve, the second valve is adapted to align with the second opening of the corresponding layer for collecting the heated fluid stream from the channel of the corresponding layer, and the second chamber temporarily contains the heated fluid stream to be gushed out of the solar energy converter.
+
+
+33. The solar energy conversion system of claim 27, wherein the first manifold unit further comprises a cleaning passage for cleaning the photovoltaic panel, the cleaning passage comprises a cleaning chamber and a cleaning valve, the cleaning valve is substantially align with the top surface of the photovoltaic panel, the cleaning chamber contain water for gushing out of the cleaning valve to clean the photovoltaic panel.
+
+
+34. The solar energy conversion system of claim 21, wherein the solar energy conversion system further comprises a micro-inverter, coupled to the photovoltaic panels respectively, for converting DC voltages generated by the photovoltaic panels into AC current.
+
+
+35. The solar energy conversion system of claim 21, wherein the mounting frame comprises a plurality of holes to vent low pressure areas and reduce aerodynamic lift.
+
+
+36. The solar energy conversion system of claim 21, wherein the mounting frame comprises a plurality of risers, detachably engaged with one another, for detachably fixing the adjacent solar energy converters thereon.
+
+
+37. The solar energy conversion system of claim 36, wherein the riser comprises a mounting rail for detachably engaging the solar energy converter with a mounting slot corresponding to the mounting rail.
+
+
+38. The solar energy conversion system of claim 21, wherein the mounting frame comprises at least one groove and the solar energy converter comprises at least one pin corresponding to the groove for detachably mounting the solar energy converter into the mounting frame. 
+

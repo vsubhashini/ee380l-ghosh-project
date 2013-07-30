@@ -1,0 +1,45 @@
+
+A method for tracking solar panels includes the steps (a) beginning a tracking cycle substantially at sunrise with adjacent tilting panels all horizontal, (b) tilting the adjacent panels in unison in a first angular direction toward the rising sun at a tilt rate that just avoids shading of adjacent panels, (c) reversing direction of panel tilt at a point that the panels reach either a maximum tilt limited by mechanical design, or the panel surfaces are orthogonal to the rising sun, (d) tilting the adjacent panels in a second angular direction, following movement of the sun and keeping the surface of the panels at right angles to the sun's position, until a point is reached that shadowing is imminent from the angle of the setting sun, and (e) reversing direction of panel tilt again to the first angular direction, adjusting tilt as the sun sets to avoid shading until the panels are again horizontal.
+
+
+
+1. A method for tracking solar panels comprising the steps of:
+(a) beginning a tracking cycle substantially at sunrise with adjacent tilting panels all horizontal;
+(b) tilting the adjacent panels in unison in a first angular direction toward the rising sun at a tilt rate that just avoids shading of adjacent panels;
+(c) reversing direction of panel tilt at a point that the panels reach either a maximum tilt limited by mechanical design, or the panel surfaces are orthogonal to the rising sun;
+(d) tilting the adjacent panels in a second angular direction, following movement of the sun and keeping the surface of the panels at right angles to the sun's position, until a point is reached that shadowing is imminent from the angle of the setting sun;
+(e) reversing direction of panel tilt again to the first angular direction, adjusting tilt as the sun sets to avoid shading until the panels are again horizontal.
+
+
+
+2. The method of claim 1 wherein, in steps (b) and (e) the tilting allows a pre-programmed constant percentage of shading to occur.
+
+
+3. The method of claim 1 wherein, in steps (b) and (e) the tilting allows a pre-programmed percentage of shading to occur, and the percentage varies with angle of tilt.
+
+
+4. The method of claim 1 wherein tilting is accomplished in a continuous motion.
+
+
+5. The method of claim 1 wherein tilting is accomplished incrementally at pre-programmed time increments
+
+
+6. A solar panel system comprising:
+a plurality of solar panels having a length substantially greater than a width, mounted side-by-side with each panel enabled to tilt about along an axis in the direction of the length of the panel;
+a tilting mechanism coupled to adjacent panels, capable of tilting the panels in either of two rotating directions about the panel axes; and
+a programmable drive control enabled to control the rate and direction of tilt for the panels in unison in a tracking cycle;
+wherein the tracking cycle begins substantially at sunrise with the panels horizontal, the panels are tilted in unison in a first angular direction toward the rising sun at a tilt rate that just avoids shading of adjacent panels, direction of tilt is reversed at a point that the panels reach either a maximum tilt limited by mechanical design, or the panel surfaces are orthogonal to the rising sun, the panels are tilted in a second angular direction, following movement of the sun and keeping the surface of the panels at right angles to the sun's position, until a point is reached that shadowing is imminent from the angle of the setting sun, and tilting direction is reversed again to the first angular direction, adjusting tilt as the sun sets to avoid shading until the panels are again horizontal.
+
+
+
+7. The system of claim 6 wherein the tilting allows a pre-programmed constant percentage of shading to occur.
+
+
+8. The system of claim 6 wherein the tilting allows a pre-programmed percentage of shading to occur and the percentage varies with angle of tilt.
+
+
+9. The system of claim 6 wherein tilting is accomplished in a continuous motion.
+
+
+10. The system of claim 6 wherein tilting is accomplished incrementally at pre-programmed time increments.
+

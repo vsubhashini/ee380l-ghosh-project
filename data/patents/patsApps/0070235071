@@ -1,0 +1,138 @@
+
+An apparatus for powering a load from solar energy comprises a DC/DC converter, battery terminals coupled to an output of the DC/DC converter and coupleable to an energy storage device, and solar panel terminals coupled to an input of the DC/DC converter and coupleable to a solar panel. Logic is coupled to the converter to control its conversion rate. A detector is coupled to the converter and detects its power output. The logic is operable to adjust the conversion rate until the solar panel operates at the smaller of a maximum power point of the solar panel and a power point of the solar panel that results in a maximum desired power. 
+
+
+
+1. An apparatus for powering a load from solar energy comprising: 
+a DC/DC converter; 
+battery terminals coupled to an output of said DC/DC converter and coupleable to an energy storage device; 
+solar panel terminals coupled to an input of said DC/DC converter and coupleable to a solar panel; 
+logic coupled to said DC/DC converter for controlling a conversion rate of said converter; 
+a detector coupled to said DC/DC converter for detecting a power output of said converter; 
+wherein said logic is operable to adjust the conversion rate until the solar panel operates at the smaller of: 
+(a) a maximum power point of the solar panel; and 
+(b) a power point of the solar panel that results in a maximum desired power. 
+
+ 
+
+2. The apparatus of claim 1 wherein: 
+said load comprises at least one light emitting diode; and 
+said logic is further adapted to control the brightness of said light emitting diode. 
+
+ 
+
+3. The apparatus of claim 1 wherein said DC/DC converter comprises a buck converter. 
+ 
+
+4. The apparatus of claim 1 wherein said DC/DC converter comprises a boost converter. 
+ 
+
+5. The apparatus of claim 1 wherein said DC/DC converter comprises a buck/boost converter. 
+ 
+
+6. The apparatus of claim 5 wherein said DC/DC converter comprises an H-bridge. 
+ 
+
+7. The apparatus of claim 1 wherein said maximum desired power is a function of an allowable current flow through a component of said apparatus. 
+ 
+
+8. The apparatus of claim 1 wherein said maximum desired power is a function of a maximum capacity of said DC/DC converter. 
+ 
+
+9. The apparatus of claim 1 wherein said energy storage device comprises a battery. 
+ 
+
+10. The apparatus of claim 1 wherein said logic is operable to detect that no solar insolation has been available from said solar panel for an extended period of time and wherein said logic is further operable to disable said DC/DC converter and enter a low power consumption mode upon said detection. 
+ 
+
+11. The apparatus of claim 10 wherein said detection is indicative of said apparatus being in a shipping container. 
+ 
+
+12. An apparatus for powering a load from solar energy comprising: 
+a DC/DC converter; 
+battery terminals coupled to said DC/DC converter and coupleable to a battery; 
+solar panel terminals coupled to said DC/DC converter and coupleable to a solar panel; 
+first logic for controlling a conversion rate of said converter to operate said DC/DC converter near the maximum power point of said solar panel; 
+a detector for detecting an energy output of said converter; 
+second logic coupled with said detector and operable to adjust the energy consumption of said load over a period of time as a function of the energy available from said solar panel over said period of time. 
+
+ 
+
+13. The apparatus of claim 12, wherein said second logic is operable to adjust the energy consumption of said load to be greater than 85% of the energy available from said solar panel over said period of time. 
+ 
+
+14. The apparatus of claim 12 wherein: 
+said load comprises at least one light emitting diode; and 
+said logic is further adapted to control the brightness of said light emitting diode to adjust the energy consumption of said load. 
+
+ 
+
+15. The apparatus of claim 12 wherein: 
+said load comprises at least one light emitting diode; and 
+said logic is further adapted to control a pulse rate of said light emitting diode to adjust the energy consumption of said load. 
+
+ 
+
+16. The apparatus of claim 12 wherein said DC/DC converter comprises a buck converter. 
+ 
+
+17. The apparatus of claim 12 wherein said DC/DC converter comprises a boost converter. 
+ 
+
+18. The apparatus of claim 12 wherein said DC/DC converter comprises a buck/boost converter. 
+ 
+
+19. The apparatus of claim 18 wherein said DC/DC converter comprises an H-bridge. 
+ 
+
+20. A method of determining a time to deliver an amount of energy to a load in a solar powered system comprising: 
+(a) monitoring an output of a solar panel to determine a start of day; 
+(b) monitoring the output of the solar panel to determine a start of night; 
+(c) rejecting an effect in said determination of said start of day caused by artificial light; 
+(d) using said beginning of said night and said beginning of said day to compute the current time of day; and 
+(e) delivering said amount of energy to said load based on said current time of day. 
+
+ 
+
+21. The method of claim 20, further comprising: 
+(f) determining whether the output of the solar panel has fallen below a first threshold; 
+(g) determining whether the output of the solar panel has fallen below a second threshold; 
+(h) determining whether the output has stabilized; 
+(i) determining that (f) and at least one of (g) and (h) have occurred before recording said start of night. 
+
+ 
+
+22. The method of claim 21, further comprising: 
+(j) determining whether the output is above a third threshold; 
+(k) determining whether the output has begun to rise; 
+(l) determining that both (j) and (k) have occurred before changing said amount of energy to a desired amount of energy for daytime; and 
+(m) determining that the output has risen above said first threshold before recording said start of day; 
+
+ 
+
+23. The method of claim 22, wherein said first threshold is greater than said third threshold and said third threshold is greater than said second threshold. 
+ 
+
+24. The method of claim 20, wherein said output comprises an open circuit voltage. 
+ 
+
+25. The method of claim 20, wherein said output comprises a short circuit current. 
+ 
+
+26. The method of claim 20, wherein (a) comprises waiting for the rate of change of the output to be positive, above a first amount and below a second amount. 
+ 
+
+27. The method of claim 26, wherein the first amount is indicative of the rate of increase of light at dawn and the second amount is indicative of the rate of increase of light due to a streetlight. 
+ 
+
+28. The method of claim 20, wherein said delivering comprises modifying said amount of energy based on the length of at least one of said day and said night. 
+ 
+
+29. The method of claim 20, further comprising: 
+(f) monitoring an energy amount generated by said solar panel; and 
+wherein (j) further comprises delivering said amount of energy as a function of an amount of energy generated by said solar panel. 
+
+ 
+
+30. The method of claim 21 wherein (h) comprises determining that the output is indicative of an amount of light due to a streetlight.
+ 

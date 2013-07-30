@@ -1,0 +1,38 @@
+
+Disclosed is a solar power plant monitoring system for monitoring a solar power plant, the system being provided with a storage unit for associating identification codes of a plurality of different types of apparatuses to be monitored which constitute the solar power plant, so as to correspond with interconnections between the plurality of different types of apparatuses to be monitored which constitute the solar power plant; and for storing the associations.
+
+
+
+1.-6. (canceled)
+
+
+7. A solar power plant monitoring system for monitoring a solar power plant, the solar power plant monitoring system being provided with a storage unit for associating identification codes of a plurality of different types of apparatuses to be monitored which constitute the solar power plant, so as to correspond with interconnections between the plurality of different types of apparatuses to be monitored which constitute the solar power plant; and for storing the associations.
+
+
+8. The solar power plant monitoring system according to claim 7, wherein one of the plurality of different types of apparatuses to be monitored which constitute the solar power plant is an inverter.
+
+
+9. The solar power plant monitoring system according to claim 7, wherein one of the plurality of different types of apparatuses to be monitored which constitute the solar power plant is a junction box.
+
+
+10. The solar power plant monitoring system according to claim 7, wherein one of the plurality of different types of apparatuses to be monitored which constitute the solar power plant is a solar cell string.
+
+
+11. The solar power plant monitoring system according to claim 7, associations of identification codes of a plurality of different types of apparatuses to be monitored which constitute the solar power plant being used to output information relating to interconnections between apparatuses in which problems have occurred.
+
+
+12. The solar power plant monitoring system according to claim 7, a first storage unit, which is the aforementioned storage unit, or a second storage unit, which is separate from the first storage unit, associating and storing an address code of an installation location and the identification code for each of the plurality of different types of apparatuses to be monitored which constitute the solar power plant.
+
+
+13. The solar power plant monitoring system according to claim 12, the address codes of the installation locations being address codes specifying, by rows and columns, partitions obtained by partitioning an area of the solar power plant into grid form.
+
+
+14. The solar power plant monitoring system according to claim 12, the first storage unit, the second storage unit, or a third storage separate from both the first storage unit and the second storage unit storing map data for the area of the solar power plant, and correspondence relationships between the map data and the address codes.
+
+
+15. A solar power system provided with
+a solar power plant; and
+the power plant monitoring system according to claim 7 for monitoring the solar power plant.
+
+
+

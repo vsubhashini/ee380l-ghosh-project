@@ -1,0 +1,280 @@
+
+A charge controller that includes an input interface that receives input DC electrical signals. A converter section converts the input DC electrical signals to output DC electrical signals. Control means is operably coupled to the converter section. The control means includes means for operating the converter section at an estimated maximum power point of the input DC electrical signals. The estimated maximum power point is derived by a novel control scheme that quickly adapts to changing conditions and thus affords optimum energy harvest from the source and improved energy conversion efficiencies.
+
+
+
+1. A power converter comprising:
+an input interface that receives input DC electrical signals;
+a converter section for converting the input DC electrical signals to output DC electrical signals; and
+control means operably coupled to the converter section, the control means including means for operating the converter section at an estimated maximum power point of the input DC electrical signals, the estimated maximum power point derived by a control scheme that includes the following operations:
+i) storing an input voltage level corresponding to the estimated maximum power point;
+ii) varying the input voltage of the input DC electrical signals over a sequence of sample points from a first voltage level to a second voltage level, and deriving and storing an output current value of the output DC electrical signals at each sample point;
+iii) selecting the maximum output current value from the output current values stored in ii) and identifying the particular input voltage level corresponding thereto; and
+iv) varying the input voltage of the input DC electrical signals over a sequence of sample points from the second voltage level to the particular input voltage level identified in iii); and
+v) updating the stored input voltage level corresponding to the estimated maximum power point to the particular input voltage level identified in iv).
+
+
+
+
+2. A power converter according to claim 1, wherein:
+for each given sample point in ii), the output current value for the sample point is derived by averaging a plurality of output current measurements at the given sample point.
+
+
+
+3. A power converter according to claim 1, wherein:
+the control scheme measures the open circuit voltage of the input DC electrical signals, and at least one of the first and second voltage levels are derived from the measured open circuit voltage.
+
+
+
+4. A power converter according to claim 1, wherein:
+the varying of iv) changes the input voltage of the input DC electrical signals at a rate not greater than 100 millivolts per second.
+
+
+
+5. A power converter according to claim 1, wherein:
+the converter section comprises a buck converter topology having input reservoir capacitance, at least one series switching element, at least one inductor, and gate drive circuitry that selectively switches the at least one series switching element between ON and OFF states in response to pulse width modulation control signals supplied thereto, the control means operably coupled to the gate drive circuitry for varying the duty cycle of the pulse width modulation control signals supplied to the gate drive circuitry in order to vary the input voltage level of the input DC electrical signals.
+
+
+
+6. A power converter according to claim 4, wherein:
+the buck converter topology includes at least one synchronous rectifier switching element that is operably coupled to the gate drive circuitry, the gate drive circuitry selectively switching the at least one synchronous rectifier switching element between ON and OFF states in response to the pulse width modulation control signals supplied thereto.
+
+
+
+7. A power converter according to claim 6, wherein:
+the buck converter topology includes two phases that are controlled by the control means to operate 180 degrees out of phase with respect to one another.
+
+
+
+8. A power converter according to claim 6, wherein:
+the at least one series switching element and the at least one synchronous rectifier switching element are switched ON and OFF at a frequency greater than 30 Hz.
+
+
+
+9. A power converter according to claim 1, wherein:
+the control scheme includes an MPPT charging mode, wherein during the MPPT charging mode the control means regulates the input voltage of the input DC electrical signals such that it is maintained at the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+10. A power converter according to claim 9, wherein:
+the control scheme includes at least the following additional modes of operation:
+a bulk charging mode that is automatically invoked to charge a battery that is in a relatively low charge state, wherein during the bulk charging mode the control means regulates the output current of the output DC electrical signals such that it is at a predetermined maximum current limit;
+an absorption charging mode that is automatically invoked to charge a battery at a relatively high charge state, wherein during the absorption charging mode the control means regulates the output voltage of the output DC electrical signals such that it is maintained at a predetermined absorption charging mode voltage level; and
+a float charging mode that is automatically invoked to charge a battery at a full or substantially full charge state, wherein during the absorption charging mode the control means regulates the output voltage of the output DC electrical signals such that it is maintained at a predetermined float charging mode voltage level; and
+
+
+
+11. A power converter according to claim 10, wherein:
+the control means automatically transitions from the bulk charging mode to the MPPT charging mode upon determination that the input voltage level of the input DC electrical signals is less than the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+12. A power converter according to claim 10, wherein:
+the control means automatically transitions from the MPPT charging mode to the bulk charging mode upon determination that the output current of the output DC electrical signals is greater than the predetermined maximum current limit.
+
+
+
+13. A power converter according to claim 10, wherein:
+the control means automatically transitions from the absorption charging mode to the MPPT charging mode upon determination that the input voltage level of the input DC electrical signals is less than the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+14. A power converter according to claim 10, wherein:
+the control means automatically transitions from the MPPT charging mode to the absorption charging mode upon determination that the output voltage of the output DC electrical signals is greater than the predetermined absorption charging mode voltage level.
+
+
+
+15. A power converter according to claim 10, wherein:
+the control means automatically transitions from the float charging mode to the MPPT charging mode upon determination that the input voltage level of the input DC electrical signals is less than the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+16. A power converter according to claim 10, wherein:
+the control means automatically transitions from the MPPT charging mode to the float charging mode upon determination that the output voltage of the output DC electrical signals is greater than the predetermined float charging mode voltage level.
+
+
+
+17. A power converter according to claim 1, wherein:
+the control scheme includes operations that perturbate around the input voltage level corresponding to the estimated maximum power point for adjustment thereof.
+
+
+
+18. A power converter comprising:
+an input interface that receives input DC electrical signals;
+a converter section for converting the input DC electrical signals to output DC electrical signals; and
+control means operably coupled to the converter section, the control means including means for operating the converter section at an estimated maximum power point of the input DC electrical signals, the estimated maximum power point derived by a control scheme that includes the following:
+i) storing an input voltage level corresponding to the estimated maximum power point;
+ii) varying the input voltage of the input DC electrical signals over a number of sample points around the input voltage level stored in i), and deriving and storing an output current value of the output DC electrical signals at each sample point;
+iii) selecting the maximum output current value from the output current values stored in ii) and identifying the particular input voltage level corresponding thereto; and
+iv) updating the stored input voltage level corresponding to the estimated maximum power point to the particular input voltage identified in iii).
+wherein the number of sample points in ii) include a first plurality of sample points at input voltage values less than the input voltage level stored in i) and a second plurality of sample points at input voltage values greater than the input voltage level stored in i).
+
+
+
+
+19. A power converter according to claim 18, wherein:
+the number of sample points in ii) include the input voltage level stored in i).
+
+
+
+20. A power converter according to claim 18, wherein:
+for each given sample point in ii), the output current value for the sample point is derived by averaging a plurality of output current measurements at the given sample point.
+
+
+
+21. A power converter according to claim 18, wherein:
+the voltage differences between the sample points of ii) is on the order of 100 millivolts.
+
+
+
+22. A power converter according to claim 18, wherein:
+the transformer section comprises a buck converter topology having input reservoir capacitance, at least one series switching element, at least one inductor, and gate drive circuitry that selectively switches the at least one series switching element between ON and OFF states in response to pulse width modulation control signals supplied thereto, the control means operably coupled to the gate drive circuitry for varying the duty cycle of the pulse width modulation control signals supplied to the gate drive circuitry in order to vary the input voltage level of the input DC electrical signals.
+
+
+
+23. A power converter according to claim 22, wherein:
+the buck converter topology includes at least one synchronous rectifier switching element that is operably coupled to the gate drive circuitry, the gate drive circuitry selectively switching the at least one synchronous rectifier switching element between ON and OFF states in response to the pulse width modulation control signals supplied thereto.
+
+
+
+24. A power converter according to claim 23, wherein:
+the buck converter topology includes two phases that are controlled by the control means to operate 180 degrees out of phase with respect to one another.
+
+
+
+25. A power converter according to claim 23, wherein:
+the at least one series switching element and the at least one synchronous rectifier switching element are switched ON and OFF at a frequency greater than 30 Hz.
+
+
+
+26. A power converter according to claim 18, wherein:
+the control scheme includes an MPPT charging mode, wherein during the MPPT charging mode the control means regulates the input voltage of the input DC electrical signals such that it is maintained at the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+27. A power converter according to claim 26, wherein:
+the control scheme includes at least the following additional modes of operation:
+a bulk charging mode that is automatically invoked to charge a battery that is in a relatively low charge state, wherein during the bulk charging mode the control means regulates the output current of the output DC electrical signals such that it is at a predetermined maximum current limit;
+an absorption charging mode that is automatically invoked to charge a battery at a relatively high charge state, wherein during the absorption charging mode the control means regulates the output voltage of the output DC electrical signals such that it is maintained at a predetermined absorption charging mode voltage level;
+a float charging mode that is automatically invoked to charge a battery at a full or substantially full charge state, wherein during the absorption charging mode the control means regulates the output voltage of the output DC electrical signals such that it is maintained at a predetermined float charging mode voltage level; and
+
+
+
+
+28. A power converter according to claim 27, wherein:
+the control means automatically transitions from the bulk charging mode to the MPPT charging mode upon determination that the input voltage level of the input DC electrical signals is less than the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+29. A power converter according to claim 27, wherein:
+the control means automatically transitions from the MPPT charging mode to the bulk charging mode upon determination that the output current of the output DC electrical signals is greater than the predetermined maximum current limit.
+
+
+
+30. A power converter according to claim 27, wherein:
+the control means automatically transitions from the absorption charging mode to the MPPT charging mode upon determination that the input voltage level of the input DC electrical signals is less than the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+31. A power converter according to claim 27, wherein:
+the control means automatically transitions from the MPPT charging mode to the absorption charging mode upon determination that the output voltage of the output DC electrical signals is greater than the predetermined absorption charging mode voltage level.
+
+
+
+32. A power converter according to claim 27, wherein:
+the control means automatically transitions from the float charging mode to the MPPT charging mode upon determination that the input voltage level of the input DC electrical signals is less than the input voltage level corresponding to the estimated maximum power point as stored by the control scheme.
+
+
+
+33. A power converter according to claim 27, wherein:
+the control means automatically transitions from the MPPT charging mode to the float charging mode upon determination that the output voltage of the output DC electrical signals is greater than the predetermined float charging mode voltage level.
+
+
+
+34. A power converter according to claim 18, wherein:
+the control scheme includes operations that vary the input voltage of the input DC signals over a predetermined range of input voltage values in order to adjust the input voltage level corresponding to the estimated maximum power point.
+
+
+
+35. A power converter comprising:
+an input interface that receives input DC electrical signals;
+a converter section for converting the input DC electrical signals to output DC electrical signals; and
+control means operably coupled to the converter section, the control means including means for operating the converter section at an estimated maximum power point of the input DC electrical signals, the estimated maximum power point derived by a control scheme that updates an input voltage level corresponding to the estimated maximum power point at a frequency of at least 500 Hz.
+
+
+
+36. A power converter according to claim 35, wherein:
+the converter section comprises a buck converter topology having input reservoir capacitance, at least one series field effect transistor, at least one inductor, and gate drive circuitry that selectively switches the at least one series switching element between ON and OFF states in response to pulse width modulation control signals supplied thereto, the control means operably coupled to the gate drive circuitry for varying the duty cycle of the pulse width modulation control signals supplied to the gate drive circuitry in order to vary the input voltage level of the input DC electrical signals.
+
+
+
+37. A power converter according to claim 36, wherein:
+the buck converter topology includes at least one synchronous rectifier switching element that is operably coupled to the gate drive circuitry, the gate drive circuitry selectively switching the at least one synchronous rectifier switching element between ON and OFF states in response to the pulse width modulation control signals supplied thereto.
+
+
+
+38. A power converter according to claim 37, wherein:
+the buck converter topology includes two phases that are controlled by the control means to operate 180 degrees out of phase with respect to one another.
+
+
+
+39. A power converter according to claim 37, wherein:
+the at least one series switching element and the at least one synchronous rectifier switching element are switched ON and OFF at a frequency greater than 30 Hz.
+
+
+
+40. A power converter according to claim 35, wherein:
+the control scheme includes an MPPT charging mode, wherein during the MPPT charging mode the control means regulates the input voltage of the input DC electrical signals such that it is maintained at the input voltage level corresponding to the estimated maximum power point as updated by the control scheme.
+
+
+
+41. A solar electric generator system comprising:
+a photovoltaic array;
+a DC load; and
+the power converter of claim 1 operably coupled between the photovoltaic array and the DC load, the power converter adapted to transform the DC electrical signals generated by the photovoltaic array into DC output signals suitable for supply to the DC load.
+
+
+
+42. A solar electric generator system according to claim 41, wherein:
+the DC load comprises at least one battery.
+
+
+
+43. A solar electric generator system according to claim 41, wherein:
+the DC load comprises a DC-AC power inverter.
+
+
+
+44. A solar electric generator system comprising:
+a photovoltaic array;
+a DC load; and
+the power converter of claim 18 operably coupled between the photovoltaic array and the DC load, the power converter adapted to transform the DC electrical signals generated by the photovoltaic array into DC output signals suitable for supply to the DC load.
+
+
+
+45. A solar electric generator system according to claim 44, wherein:
+the DC load comprises at least one battery.
+
+
+
+46. A solar electric generator system according to claim 44, wherein:
+the DC load comprises a DC-AC power inverter.
+
+
+
+47. A solar electric generator system comprising:
+a photovoltaic array;
+a DC load; and
+the power converter of claim 35 operably coupled between the photovoltaic array and the DC load, the power converter adapted to transform the DC electrical signals generated by the photovoltaic array into DC output signals suitable for supply to the DC load.
+
+
+
+48. A solar electric generator system according to claim 47, wherein:
+the DC load comprises at least one battery.
+
+
+
+49. A solar electric generator system according to claim 47, wherein:
+the DC load comprises a DC-AC power inverter.
+
+

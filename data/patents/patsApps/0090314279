@@ -1,0 +1,57 @@
+
+The present invention provides an apparatus and method for solar tracking. The solar tracking sensor array and method so disclosed can be used with any device that requires a specific orientation to the sun for optimal operation. The system relies upon a sun tracking mechanism which includes a plurality of phototransistors configured in a particular manner. The apparatus can further be used with an analog sensor circuit which is also disclosed herein. Although the device and method are disclosed in conjunction with a solar tracking device, which includes the analog sensor circuit, a drive assembly, and a power source, these components may be used independently of one another.
+
+
+
+1. A solar tracking sensor device for a solar receptor panel comprising:
+A rotatable base structure;
+A body member projecting from said base structure wherein said body member comprises at least one quadrilateral shade having a first side and a second side; said shade having an axis parallel to the axis of rotation of the solar receptor; said shade having a first end projecting from said base structure, said shade further having a second end opposite said first end, said second end incorporating an overhanging portion;
+A first forward sensor mounted proximal to the intersection of said base structure and said body member on said first side along a line parallel to the axis of rotation; and
+A first backward sensor mounted proximal to the intersection of said base structure and said body member on said second side along a line parallel to the axis of rotation.
+
+
+
+2. The device as in claim 1 wherein said body member further comprises a horizontal portion; said horizontal portion having a plane shape; said horizontal portion being parallel to the plane of said receptor panel whereby the orientation of said horizontal portion modifies the angle through which at least one of said sensors may be activated by a source of light.
+
+
+3. The device as in claim 1 wherein the dimensions of said body member constrain the relative angles through which said sensors can be activated by a source of light.
+
+
+4. The device as in claim 1 further comprising at least one additional forward sensor mounted at the intersection of said base structure and said body member on said first side along said axis parallel to said plane of said solar receptor device.
+
+
+5. The device as in claim 1 further comprising at least one additional backward sensor mounted at the intersection of said base structure and said body member on said first side along said axis parallel to said plane of said solar receptor device.
+
+
+6. The device as in claim 1 wherein said first forward sensor is a phototransistor and further wherein said first backward sensor is a phototransistor.
+
+
+7. The device as in claim 1 further comprising a sensor circuit attached to said first forward sensor and said first backward sensor for controlling the movement of a drive mechanism.
+
+
+8. A solar tracking sensor device comprising:
+A base structure;
+A mounting bracket secured to said base structure wherein said bracket has a generally L shaped cross section, said L shaped bracket having a vertical component extending away from said base structure and a horizontal component extending substantially at a right angle from said vertical component in a plane parallel to a solar collector; said mounting bracket having an inside portion formed by the intersection of said horizontal component and said vertical component; said mounting bracket further having an outside portion opposite said inside portion;
+An overhang structure attached to one end of said vertical component of said mounting bracket wherein the body of said overhang structure is parallel to the plane of said horizontal component of said mounting bracket;
+A first sensor mounted at the intersection of said horizontal component and said vertical component of said mounting bracket on said inside portion of said mounting bracket; and
+A second sensor mounted at the intersection of said horizontal component and said vertical component of said mounting bracket on said outside portion of said mounting bracket.
+
+
+
+9. The solar tracking sensor device as in claim 8 further comprising a sensor circuit in intermittent electrical communication with said first and second sensors.
+
+
+10. A method for solar tracking for a solar receptor panel, mounted on an underlying structure, using a sensor array, the method including the steps of:
+Providing a sensor array, the sensor array having a plurality of phototransistors positioned such that at any given time at least one said phototransistor is shaded from direct light of a solar source;
+Computing a perpendicular vector relative to the solar receptor panel;
+Determining when said solar source has traveled beyond a pre-determined angle from said perpendicular vector;
+Rotating an underlying structure in order to bring said perpendicular vector into alignment with said solar source; and further
+Controlling the direction of said rotation based upon the activation of particular phototransistors in said sensor array.
+
+
+
+11. The method as in claim 10 further comprising: providing a sensor array having said phototransistors positioned such that said phototransistors possess a detecting range of up to 360 degrees from said perpendicular vector.
+
+
+12. The method as in claim 10 wherein said rotating of said underlying structure further comprises rotating said underlying structure by an angle that is substantially equivalent to twice the value of said predetermined angle.
+

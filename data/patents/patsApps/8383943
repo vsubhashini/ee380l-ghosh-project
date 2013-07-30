@@ -1,0 +1,80 @@
+
+An electrical connector/cable harness includes an electrically insulative housing and first and second passageways extending from a first end of the connector/cable harness to a second end thereof, first and second electrically conductive wires disposed in the passageways, respectively, wherein the passageways and the wires therein reverse their dispositions in the connector/cable harness such that at the second end of the connector/cable harness the two wires are disposed oppositely to their disposition at the first end of the connector/cable harness.
+
+
+
+1. An alternating current (AC) module assembly comprising:
+a first series of AC modules coupled together by at least one first wiring harness, each AC module comprising a photovoltaic cell and an inverter for providing a single phase AC output to the at least one first wiring harness;
+a second series of AC modules coupled together by at least one second wiring harness, each AC module comprising a photovoltaic cell and an inverter for providing a single phase AC output to the at least one second wiring harness;
+a third series of AC modules coupled together by at least one third wiring harness, each AC module comprising a photovoltaic cell and an inverter for providing a single phase AC output to the at least one third wiring harness;
+a first junction box coupled to the first wiring harness to receive the AC output of the first series of AC modules;
+a second junction box coupled to the second wiring harness to receive the AC output of the second series of AC modules;
+a third junction box coupled to the third wiring harness to receive the AC output of the third series of AC modules; and
+a service panel in electrical communication with said junction boxes to provide a three phase AC output.
+
+
+
+2. A three phase photovoltaic system comprising:
+at least three alternating current (AC) modules, each AC module configured to output a single phase of AC power;
+a plurality of substantially identical cable harnesses, each cable harness connected to a different one of the AC modules and at least one other cable harness, each cable harness comprising:
+a first connector;
+a second connector substantially identical to the first connector; and
+a plurality of electrically conductive wires extending between the first and second connectors, said wires comprising at least first, second, and third wires, wherein said first, second and third wires are changed in their positions in the cable harness at a location between the first connector and the second connector;
+
+wherein each of the AC modules is connected to a same one of the first, second, and third wires of a different one of the cable harnesses at a same location between the first and second connector relative to the location at which the first, second and third wires change position; and
+a junction box coupled to the cable harnesses and configured to receive the AC power from the AC modules.
+
+
+
+3. The AC module assembly of claim 1, wherein each of the first, second, and third series of AC modules is configured to output two different phases of AC power.
+
+
+4. The AC module assembly of claim 1, wherein each of the first, second, and third series of AC modules is configured to output one phase of AC power.
+
+
+5. The AC module assembly of claim 1, wherein each AC modules of the first, second, and third series of AC modules is connected to a wiring harness, all of the wiring harnesses of the first series of AC modules are connected together, all of the wiring harnesses of the second series of AC modules are connected together, and all of the wiring harnesses of the second series of AC modules are connected together.
+
+
+6. The AC module assembly of claim 5, wherein each wiring harness comprises a plurality of conductive wires extending between a first and a second connector, wherein the first conductor and the second conductor are substantially identical.
+
+
+7. The AC module assembly of claim 6, wherein each at least two conductive wires of each wiring harness exchange positions between the first and second connectors.
+
+
+8. The three phase photovoltaic system of claim 2, wherein each AC module comprises a photovoltaic cell and an inverter.
+
+
+9. The three phase photovoltaic system of claim 2, further comprising a service panel coupled to the junction box to receive AC power from the junction box and output three phase AC power.
+
+
+10. A three phase photovoltaic (PV) system comprising:
+a first string of a plurality of alternating current (AC) modules, each AC module of the first string including a PV cell and an inverter configured to output a single phase AC power, the single phase AC power output of each AC module connected to a wiring harness;
+a second string of a plurality of AC modules, each AC module of the second string including a PV cell and an inverter configured to output a single phase AC power, the single phase AC power output of each AC module connected to a wiring harness;
+a third string of a plurality of AC modules, each AC module of the third string including a PV cell and an inverter configured to output a single phase AC power, the single phase AC power output of each AC module connected to a wiring harness;
+a service panel coupled to the wiring harnesses of the first, second, and third strings and configured to receive the single phase AC power output from the first, second, and third strings and to output a three phase AC power.
+
+
+
+11. The three phase PV system of claim 10, wherein each AC module of each of the first, second, and third strings is connected to a different wiring harness, each wiring harness being substantially identical to each other wiring harness, and wherein the wiring harnesses connected to the first string AC modules are coupled together in series, the wiring harnesses connected to the second string AC modules are coupled together in series, and the wiring harnesses connected to the third string AC modules are coupled together in series.
+
+
+12. The three phase PV system of claim 11, further comprising a first junction box coupled between the first string wiring harnesses and the service panel, a second junction box coupled between the second string wiring harnesses and the service panel, and a third junction box coupled between the third string wiring harnesses and the service panel.
+
+
+13. The three phase PV system of claim 11, wherein the wiring harnesses comprise a first connector, a second connector, and a plurality of electrical conductors extending between the first and second connectors.
+
+
+14. The three phase PV system of claim 13, wherein the first and second connectors are substantially identical.
+
+
+15. The three phase PV system of claim 13, wherein at least two of the plurality of electrical conductors in each wiring harness exchange positions between the first and second connectors.
+
+
+16. The three phase PV system of claim 13, wherein each connector comprises a plurality of conductor pins, each conductor pin coupled to a different one of the electrical conductors.
+
+
+17. The three phase PV system of claim 16, wherein at least two of the electrical conductors are connected to different pins of the second connector than the first connector.
+
+
+18. The three phase PV system of claim 10, wherein the first, second, and third strings each comprise a same number of AC modules. 
+

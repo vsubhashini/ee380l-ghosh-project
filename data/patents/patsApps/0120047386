@@ -1,0 +1,60 @@
+
+There is provided a control apparatus that instantaneously switches a DC/DC converter from a maximum-power-point tracking operation to an output voltage control operation, and can constantly supply an electric power to a load.
+The control apparatus includes a first electric power supply device, a second electric power supply device that operates as a voltage source and has a supply voltage changing depending on conditions, an electric power converter that converts electric powers of the first electric power supply device and the second electric power supply device into desired electric powers, a monitoring unit that acquires device information of the second electric power supply device and output information of the electric power converter, and a control unit that controls the electric power converter on the basis of the information acquired by the monitoring unit.
+
+
+
+1. A control apparatus comprising:
+a first electric power supply device;
+a second electric power supply device that operates as a voltage source and has a supply voltage changing depending on conditions;
+an electric power converter that converts electric powers of the first electric power supply device and the second electric power supply device into desired electric powers;
+a monitoring unit that acquires device information of the second electric power supply device; and
+a control unit that controls the electric power converter based on the device information acquired by the monitoring unit.
+
+
+
+2. The control apparatus according to claim 1, wherein the monitoring unit further acquires an output current or output power information of the electric power converter, and the control unit controls the electric power converter based on the output current or the output power information.
+
+
+3. The control apparatus according to claim 1, wherein the second electric power supply device is a storage device, the monitoring unit acquires state-of-charge information of the storage device, and the control unit controls the electric power converter based on the state-of-charge information.
+
+
+4. The control apparatus according to claim 1, wherein an on/off switch is provided between the storage device and the electric power converter, and the control unit controls the on/off switch based on state-of-charge information.
+
+
+5. The control apparatus according to claim 1, wherein the first electric power supply device is a solar battery, the monitoring unit acquires state-of-charge information of the storage device, and the control unit controls the electric power converter to a maximum-power-point tracking operation mode and an output control operation mode based on the state-of-charge information.
+
+
+6. The control apparatus according to claim 1, wherein the first electric power supply device is a fuel cell, the monitoring unit acquires state-of-charge information of the storage device, and the control unit controls the electric power converter to an input voltage optimum operation mode and an output control operation mode based on the state-of-charge information.
+
+
+7. The control apparatus according to claim 5, wherein the control unit further controls the electric power converter to an operation stop mode.
+
+
+8. The control apparatus according to claim 1, wherein the electric power converter includes a DC/DC converter and an inverter, the DC/DC converter is controlled to a maximum-power-point tracking operation mode and an output control operation mode, and the inverter is controlled to an operation permission mode and an operation stop mode.
+
+
+9. The control apparatus according to claim 1, wherein the DC/DC converter is a unidirectional or bidirectional DC/DC converter.
+
+
+10. The control apparatus according to claim 1, wherein the inverter is a unidirectional or bidirectional inverter.
+
+
+11. The control apparatus according to claim 8, wherein an output of the DC/DC converter is connected to a DC grid through a switch unit, a load is connected to the output of the DC/DC converter, and an output of the switch unit is monitored by the monitoring unit to on/off-control the switch unit.
+
+
+12. A control method, in a control apparatus including a first electric power supply device having an optimum generated voltage, a second electric power supply device that operates as a voltage source and has a supply voltage changing depending on conditions, an electric power converter that converts electric powers of the first electric power supply device and the second electric power supply device into desired electric powers to output the desired electric powers, and a control unit that acquires output information of the second electric power supply device and controls the electric power converter based on the output information, the method comprising the steps, performed by the control unit, of:
+detecting a state of charge of the second electric power supply device;
+determining whether the state of charge is not less than 0% and less than 100%; and
+outputting a switching command for operation prohibition of the electric power converter and an output control operation mode when the state of charge is not less than 0% and less than 100%.
+
+
+
+13. The control method according to claim 12, the apparatus further including a switching element between the second electric power supply device and the electric power converter, the method further comprising the steps of:
+cutting off the switching element when the state of charge is 100%; and
+outputting a switching command for operation permission of the electric power converter and a maximum-power-point tracking operation mode.
+
+
+
+14. The control method according to claim 12, further comprising the step of, when the state of charge is 0%, outputting a switching command for an operation stop mode to the electric power converter. 
+

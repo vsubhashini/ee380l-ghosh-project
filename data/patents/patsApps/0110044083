@@ -1,0 +1,111 @@
+
+A DC to AC inverter unit used in a solar cell power system can include a controller capable of adjusting the inverter's minimal operating voltage to increase the inverter unit power capacity.
+
+
+
+1. A DC to AC inverter unit comprising:
+a DC to AC inverter including a minimum operating voltage setting, above which the inverter converts DC power to AC power; and
+an input voltage sensor configured to monitor variation in the input voltage.
+
+
+
+2. The DC to AC inverter unit of claim 1, further comprising an inverter controller configured to adjust the minimum operating voltage setting based on the variation in the input voltage to increase the inverter unit power capacity.
+
+
+3. The DC to AC inverter unit of claim 1, further comprising a power switch, wherein the switch switches back and forth to allow current to flow in two alternate directions.
+
+
+4. The DC to AC inverter unit of claim 3, further comprising an output transformer electrically connected to the switch.
+
+
+5. The DC to AC inverter unit of claim 4, wherein the inverter controller comprises a voltage detection module capable of adjusting the output of the transformer and changing the inverter's minimal operating voltage, wherein the adjustment can be made manually or automatically.
+
+
+6. The DC to AC inverter unit of claim 5, wherein the adjustment to the output of the transformer can result in from about 2 percent to about 4 percent change to the inverter's minimal operating voltage value.
+
+
+7. The DC to AC inverter unit of claim 5, wherein the adjustment to the output of the transformer can result in less than 5 percent change to the inverter's minimal operating voltage value.
+
+
+8. The DC to AC inverter unit of claim 5, wherein the adjustment to the output of the transformer can result in less than 10 percent change to the inverter's minimal operating voltage value.
+
+
+9. The DC to AC inverter unit of claim 5, wherein the inverter controller comprises a software control module reading the input voltage value from the input voltage sensor and adjusting the operating parameters of the inverter when it is necessary.
+
+
+10. The DC to AC inverter unit of claim 9, wherein the adjustment can result in a change to the inverter's minimal operating voltage value in a step size about 2.5 percent.
+
+
+11. The DC to AC inverter unit of claim 5, wherein the inverter controller comprises a programmable logic control module reading the input voltage value from the input voltage sensor and sending commands to adjust the operating parameters of the inverter when it is necessary.
+
+
+12. The DC to AC inverter unit of claim 11, wherein the commands can result in a change to the inverter's minimal operating voltage value in a step size about 2.5 percent.
+
+
+13. The DC to AC inverter unit of claim 1, further comprising a DC input from a solar module to the DC to AC inverter.
+
+
+14. The DC to AC inverter unit of claim 13, further comprising a supervisory control and data acquisition system, wherein the supervisory control and data acquisition system comprises:
+a sensor acquiring data on the DC input from the solar module;
+a control unit;
+a computer supervisory system acquiring data from the sensor and sending commands to the current/voltage control unit;
+a remote terminal unit connecting to the sensor, converting sensor signals to digital data and sending digital data to the computer supervisory system;
+a human-machine interface connecting to the remote terminal unit; and
+a communication infrastructure connecting the computer supervisory system to the remote terminal unit.
+
+
+
+15. A photovoltaic module-based power system comprising:
+a photovoltaic array; and
+a DC to AC inverter unit electrically connected to the photovoltaic array comprising:
+a DC to AC inverter including a minimum operating voltage setting, above which the inverter converts DC power to AC power;
+an input voltage sensor configured to monitor variation in the input voltage; and
+an inverter controller configured to adjust the minimum operating voltage setting based on the variation in the input voltage to increase the inverter unit power capacity.
+
+
+
+
+16. The photovoltaic module-based power system of claim 15, further comprising a power switch, wherein the switch switches back and forth to allow current to flow in two alternate directions.
+
+
+17. The photovoltaic module-based power system of claim 16, further comprising an output transformer electrically connected to the switch.
+
+
+18. The photovoltaic module-based power system of claim 17, wherein the inverter controller comprises a control module making adjustment to the output of the transformer to change the inverter's minimal operating voltage.
+
+
+19. The photovoltaic module-based power system of claim 18, wherein the adjustment to the output of the transformer can result in less than 10 percent change to the inverter's minimal operating voltage value.
+
+
+20. The photovoltaic module-based power system of claim 17, wherein the inverter controller comprises a software control module reading the input voltage value from the input voltage sensor and sending commands to the control module.
+
+
+21. The photovoltaic module-based power system of claim 15, further comprising a supervisory control and data acquisition system, wherein the supervisory control and data acquisition system comprises:
+a sensor acquiring data on the DC input from the solar cell power system;
+a current/voltage control unit;
+a computer supervisory system acquiring data from the sensor and sending commands to the current/voltage control unit;
+a remote terminal unit connecting to the sensor, converting sensor signals to digital data and sending digital data to the computer supervisory system;
+a human-machine interface connecting to the remote terminal unit; and
+a communication infrastructure connecting the computer supervisory system to the remote terminal unit.
+
+
+
+22. A method to build a photovoltaic module-based power system, comprising:
+electrically connecting plurality of photovoltaic modules to form a photovoltaic array; and
+electrically connecting a DC to AC inverter unit to the photovoltaic array, wherein the DC to AC inverter unit comprises:
+a DC to AC inverter including a minimum operating voltage setting, above which the inverter converts DC power to AC power;
+an input voltage sensor configured to monitor variation in the input voltage; and
+an inverter controller configured to adjust the minimum operating voltage setting based on the variation in the input voltage to increase the inverter unit power capacity.
+
+
+
+
+23. The method of claim 22, wherein the DC to AC inverter unit comprises a supervisory control and data acquisition system, wherein the supervisory control and data acquisition system comprises:
+a sensor acquiring data on the DC input from the solar cell power system;
+a control unit;
+a computer supervisory system acquiring data from the sensor and sending commands to the control unit;
+a remote terminal unit connecting to the sensor, converting sensor signals to digital data and sending digital data to the computer supervisory system;
+a human-machine interface connecting to the remote terminal unit; and
+a communication infrastructure connecting the computer supervisory system to the remote terminal unit.
+
+

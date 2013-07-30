@@ -1,0 +1,71 @@
+
+For connecting a PV array via an inverter to an AC power grid, at first a DC link at the input side of the inverter is pre-charged from the AC power grid. A link voltage of the DC link is adjusted to a pre-set value with the inverter connected to the AC power grid, the pre-set value being lower than an open circuit voltage of the PV array, and then the PV array at its open circuit voltage is directly connected to the DC link, while the link voltage is continuously adjusted to the pre-set value.
+
+
+
+1. A method of connecting a photovoltaic (PV) array to an AC power grid via an inverter including a DC link at its input side, the method comprising:
+pre-charging the input DC link of the inverter from the AC power grid;
+adjusting a link voltage of the DC link to a pre-set value by means of the inverter connected to the AC power grid, the pre-set value being lower than an open circuit voltage of the PV array; and
+connecting the PV array to the DC link, while executing the step of adjusting,
+wherein, in the step of connecting, the PV array at its open circuit voltage is directly connected to the DC link.
+
+
+
+2. The method of claim 1, wherein, in the step of adjusting, the pre-set value that the link voltage is adjusted to is higher than a peak voltage of the AC power grid.
+
+
+3. The method of claim 1, wherein the PV array is divided into segments, and wherein, in the step of connecting, the segments are connected to the DC link one after the other.
+
+
+4. The method of claim 1, wherein, in the step of pre-charging, a charging current flowing from the AC power grid into the DC link is rectified by free-wheeling diodes of an inverter bridge of the inverter.
+
+
+5. The method of claim 4, wherein, in the step of pre-charging, a choke for limiting a charging current is connected between the AC power grid and the inverter.
+
+
+6. The method of claim 5, wherein the choke is connected selectively between the AC power grid and the inverter during a first part of the step of pre-charging.
+
+
+7. The method of claim 4, wherein, in the step of pre-charging, a resistor for limiting a charging current is connected between the AC power grid and the inverter.
+
+
+8. The method of claim 7, wherein the resistor is connected selectively between the AC power grid and the inverter during a first part of the step of pre-charging.
+
+
+9. The method of claim 4, wherein, in the step of pre-charging, a transformer for transforming a charging current prior to being rectified is connected between the AC power grid and the inverter.
+
+
+10. The method of claim 9, wherein the transformer is connected selectively between the AC power grid and the inverter during a part of the step of pre-charging.
+
+
+11. The method of claim 1, wherein, after completing the step of connecting, the link voltage of the DC link is adjusted to a variable value that is determined by a maximum power point (MPP)-tracking.
+
+
+12. An apparatus for feeding electric energy from a PV array into an AC power grid, the apparatus comprising:
+an inverter,
+a DC link coupled to an input side of the inverter,
+a voltage control unit for a link voltage of the DC link,
+at least one switch configured to connect the PV array to the DC link,
+at least one mains switch configured to connect the inverter to the AC power grid, and
+a connection controller configured to connect the PV array to the AC power grid via the inverter,
+wherein the connection controller is configured to first close the mains switch, then activate the voltage control unit for the link voltage to adjust the link voltage to a pre-set value that is lower than an open circuit voltage of the PV array, and afterwards close the at least one switch for connecting the PV array to the DC link, such that the PV array at its open circuit voltage is directly connected to the DC link, while the voltage control unit is adjusting the link voltage to the pre-set value.
+
+
+
+13. The apparatus of claim 12, wherein the inverter comprises a plurality of switches in a bridge configuration, and wherein the plurality of switches of the inverter are designed for a lower permissible voltage than the open circuit voltage of the PV array.
+
+
+14. The apparatus of claim 12, wherein the at least one switch configured to connect the PV array to the DC link comprises several switches, and further comprising several PV segment input terminals configured to connect the PV array to the DC link segment by segment.
+
+
+15. The apparatus of claim 12, wherein the inverter comprises an inverter bridge with free-wheeling diodes configured to passively rectify a charging current from the AC power grid into the DC link.
+
+
+16. The apparatus of claim 15, further comprising a choke configured to limit a charging current selectively connected in a current path between the inverter and the AC power grid.
+
+
+17. The apparatus of claim 15, further comprising a resistor configured to limit a charging current selectively connected in a current path between the inverter and the AC power grid.
+
+
+18. The apparatus of claim 15, further comprising a transformer configured to transform a charging current selectively connected in a current path between the inverter and the AC power grid. 
+

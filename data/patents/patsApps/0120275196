@@ -1,0 +1,135 @@
+
+An inverter for converting an input direct current (DC) waveform from a DC source to an output alternating current (AC) waveform for delivery to an AC grid includes an input converter, an output converter, an input controller, and an output controller. The input controller is configured to control the operation of the input converter, and the output controller is configured to control the operation of the output controller. The input and output controllers are electrically isolated from each other and may be incapable of direct communications between each other. In some embodiments, the input and output controllers may communicate with each other via the input and output converters.
+
+
+
+1. An inverter for converting direct current (DC) power from a DC source to alternating current (AC) power, the inverter comprising:
+an input converter electrically coupled to a power bus and configured to convert an input DC waveform to a bus waveform supplied to the power bus;
+an output converter electrically coupled to the power bus and configured to convert the bus waveform to an output AC waveform;
+an input controller electrically coupled to the input converter and configured to control the operation of the input converter; and
+an output controller separate from the input controller and electrically coupled to the output converter, the output controller configured to control the operation of the output converter.
+
+
+
+2. The inverter of claim 1, wherein the input controller is incapable of directly communicating with the output controller.
+
+
+3. The inverter of claim 1, wherein the input controller and the output controller communicate with each other only via the power bus.
+
+
+4. The inverter of claim 3, wherein the input controller comprises a first communication module and the output controller comprises a second communication module, the first and second communication module are configured to communicate with each other over the power bus.
+
+
+5. The inverter of claim 1, wherein the DC source is a photovoltaic (PV) module and the input controller includes a maximum power point tracking (MPPT) module configured to control the input converter to draw a maximum amount of power from the PV module.
+
+
+6. The inverter of claim 5, wherein the input converter includes a sense resistor electrically coupled to the PV module and the input controller includes a current sense circuit electrically coupled to the sense resistor and configured to generate a first signal indicative of a current output of the PV module.
+
+
+7. The inverter of claim 5, wherein the input controller includes a voltage sense circuit electrically coupled to the PV module and configured to generate a second signal indicative of a voltage output of the PV module.
+
+
+8. The inverter of claim 1, wherein the input converter comprises:
+a first inverter circuit electrically coupled to the DC source,
+a transformer having a primary winding electrically coupled to the first inverter circuit,
+a rectifier circuit electrically coupled to a secondary winding of the transformer and to the power bus, and
+a voltage sense circuit electrically coupled to an output of the rectifier circuit and configured to generate a signal indicative of a voltage of the power bus.
+
+
+
+9. The inverter of claim 8, wherein the power bus is a DC bus and the bus waveform is a first DC waveform.
+
+
+10. The inverter of claim 9, wherein:
+the first inverter circuit is configured to convert the input DC waveform to a first AC waveform at a first frequency based on switching signals received from the input controller,
+the transformer is configured to convert the first AC waveform to a second AC waveform at the first frequency, and
+the rectifier circuit configured to rectify the second AC waveform to produce the first DC waveform.
+
+
+
+11. The inverter of claim 8, wherein the input converter further comprises an isolated boost converter electrically connected to the DC source and the first inverter circuit.
+
+
+12. The inverter of claim 8, wherein the input converter further comprises an active voltage clamp circuit electrically coupled to the isolated boost converter and the first inverter circuit.
+
+
+13. The inverter of claim 1, wherein the input controller is powered by the DC power source.
+
+
+14. The inverter of claim 13, wherein the input controller comprises an internal power supply that generates an output voltage based on a sensed voltage of the DC power source.
+
+
+15. The inverter of claim 1, wherein the output converter further comprises an inverter circuit electrically coupled to the power bus and configured to convert the bus waveform to the output AC waveform, wherein the output controller is configured to generate switching signals to the inverter circuit to control the operation of the inverter circuit.
+
+
+16. The inverter of claim 15, wherein the output controller further comprises a first voltage sense circuit electrically coupled to the power bus and configured to generate a first signal indicative of a voltage of the power bus.
+
+
+17. The inverter of claim 16, wherein the output controller further comprises a bus voltage control module configured to control the voltage of the power bus by generating a duty cycle for the switching signals based on the first signal and an average power bus voltage value.
+
+
+18. The inverter of claim 15, wherein the output converter is electrically coupled to an AC grid and further comprises a current sense circuit electrically coupled to an output of the inverter circuit to sense an output current of the inverter circuit.
+
+
+19. The inverter of claim 18, wherein the output controller comprises a pulse width modulation module configured to generate the switching signals based on the sensed output current of the inverter circuit.
+
+
+20. The inverter of claim 1, wherein the output converter is electrically coupled to an AC grid, the output controller comprising an internal power supply electrically coupled to the AC grid.
+
+
+21. The inverter of claim 1, wherein the output controller further comprises a power line communication circuitry configured to communicate with a remote device over an AC power line.
+
+
+22. An apparatus comprising:
+a solar panel comprising a solar cell configured to generate a first direct current (DC) waveform in response to receiving an amount of sunlight;
+an inverter coupled to the solar cell panel and configured to receive the first DC waveform and convert the first DC waveform to an output alternating current (AC) waveform, the inverter comprising:
+an input converter electrically coupled to a power bus and configured to convert the first DC waveform to a bus waveform supplied to the power bus;
+an output converter electrically coupled to the power bus and configured to convert the bus waveform to the output AC waveform;
+an input controller electrically coupled to the input converter and configured to control the operation of the input converter; and
+an output controller separate from the input controller and electrically coupled to the output converter, the output controller configured to control the operation of the output converter.
+
+
+
+
+23. The apparatus of claim 22, wherein the input controller is incapable of directly communicating with the output controller.
+
+
+24. The apparatus of claim 22, wherein the input controller comprises a first communication module and the output controller comprises a second communication module, the first and second power line communication module are configured to communicate with each other over the power bus.
+
+
+25. The apparatus of claim 22, wherein:
+the input converter includes a sense resistor electrically coupled to an output of the solar panel, and
+the input controller includes (i) a current sense circuit electrically coupled to the sense resistor and configured to generate a first signal indicative of a current output of the solar panel and (ii) a voltage sense circuit electrically coupled to the output of the solar panel and configured to generate a second signal indicative of a voltage output of the solar panel.
+
+
+
+26. The apparatus of claim 22, wherein:
+the input converter comprises a first inverter circuit electrically coupled to an output of the solar panel, a transformer having a primary winding electrically coupled to the first inverter circuit, and a rectifier circuit electrically coupled to a secondary winding of the transformer and to the power bus, and
+the input controller comprises a voltage sense circuit electrically coupled to an output of the rectifier circuit and configured to generate a signal indicative of a voltage of the power bus.
+
+
+
+27. The apparatus of claim 22, wherein the input controller comprises an internal power supply that generates an output voltage based on a sensed voltage of the solar panel.
+
+
+28. The apparatus of claim 22, wherein:
+the output converter includes an inverter circuit electrically coupled to the power bus and configured to convert the bus waveform to the output AC waveform, wherein the output controller is configured to generate switching signals to the inverter circuit to control the operation of the inverter circuit, and
+the output controller includes (i) a first voltage sense circuit electrically coupled to the power bus and configured to generate a first signal indicative of a voltage of the power bus and (ii) a bus voltage control module configured to control the voltage of the power bus by generating a duty cycle for the switching signals based on the first signal and an average power bus voltage value.
+
+
+
+29. The apparatus of claim 22, wherein the output converter is electrically coupled to an AC grid, the output controller comprising an internal power supply electrically coupled to the AC grid.
+
+
+30. The apparatus of claim 22, wherein the output controller further comprises a power line communication circuitry configured to communicate with a remote device over an AC power line.
+
+
+31. An inverter comprising:
+a direct current (DC) bus;
+an input converter electrically coupled to the DC bus, the input converter comprising (i) a transformer having a primary winding and a secondary winding, (ii) a first inverter circuit electrically coupled to the primary winding and configured to convert an input DC waveform to a first alternating current (AC) waveform at the primary winding based on a plurality of first switching signals, the transformer being configured to convert the first AC waveform to a second AC waveform, and (iii) a rectifier circuit electrically coupled to the secondary winding and the DC bus, the rectifier circuit being configured to rectify the second AC waveform to produce a second DC waveform on the DC bus;
+an output converter electrically coupled to the DC bus, the output converter comprising a second inverter circuit electrically coupled to the DC bus and configured to convert the second DC waveform to an output AC waveform suitable for delivery to an AC grid based on a plurality of second switching signals;
+an input controller electrically coupled to the input converter to control the operation of the input converter, the input controller generating the first switching signals; and
+an output controller galvanically isolated from the input controller and electrically coupled to the output converter to control the operation of the output converter, the output controller generating the second switching signals,
+wherein the input controller and the output controller are incapable of directly communicating data signals between each other.
+
+

@@ -1,0 +1,80 @@
+
+Electrically powered equipment and a method of powering the equipment. In one embodiment, the equipment includes: (1) an electric power consuming apparatus, (2) a mains input coupled to the apparatus and configured to be coupled to a branch circuit extending from a distribution panel and allow electric power from the branch circuit to flow to the apparatus and (3) a grid-tied power source input at least intermittently couplable to the mains input and configured to receive electric power from at least one premises power source and allow the electric power to flow to the apparatus or the distribution panel. In a more specific embodiment, the equipment is an outdoor unit.
+
+
+
+1. Electrically powered equipment, comprising:
+an electric power consuming apparatus;
+a mains input coupled to said apparatus and configured to be coupled to a branch circuit extending from a distribution panel and allow electric power from said branch circuit to flow to said apparatus; and
+a grid-tied power source input at least intermittently couplable to said mains input and configured to receive electric power from at least one premises power source and allow said electric power to flow to said apparatus or said distribution panel.
+
+
+
+2. The equipment as recited in claim 1 further comprising a utility-interactive inverter having an input coupled to said grid-tied power source input and an output coupled to said mains input.
+
+
+3. The equipment as recited in claim 1 wherein said apparatus includes a fan motor.
+
+
+4. The equipment as recited in claim 1 further comprising a disconnect controllable to close based on a status of at least one of said at least one premises power source.
+
+
+5. The equipment as recited in claim 1 wherein said grid-tied power source input comprises a receptacle accessible from without said equipment.
+
+
+6. The equipment as recited in claim 1 wherein said branch circuit is a dedicated branch circuit for said equipment.
+
+
+7. The equipment as recited in claim 1 wherein said at least one premises power source includes a photovoltaic module.
+
+
+8. A method of powering electrically powered equipment, comprising:
+at least intermittently providing electric power to an electric power consuming apparatus in said equipment via a mains input thereof and a branch circuit extending from a distribution panel and coupled to said mains input;
+at least intermittently providing electric power from a grid-tied power source input to said electric power consuming apparatus; and
+at least intermittently providing electric power from said grid-tied power source input to said distribution panel via said mains input and said branch circuit.
+
+
+
+9. The method as recited in claim 8 further comprising converting said electric power received via said grid-tied power source input from DC to AC before providing said electric power to said apparatus or said mains input.
+
+
+10. The method as recited in claim 8 wherein said apparatus includes a fan motor.
+
+
+11. The method as recited in claim 8 further comprising closing a disconnect coupled to said grid-tied power source input before said at least intermittently providing said electric power to said apparatus.
+
+
+12. The method as recited in claim 8 wherein said grid-tied power source input comprises a receptacle accessible from without said equipment.
+
+
+13. The method as recited in claim 8 wherein said branch circuit is a dedicated branch circuit for said equipment.
+
+
+14. The method as recited in claim 8 further comprising receiving said electric power from a photovoltaic module via said grid-tied power source input before said at least intermittently providing said electric power to said electric power consuming apparatus.
+
+
+15. An outdoor unit, comprising:
+a motor;
+a mains input coupled to said motor and configured to be coupled to a branch circuit extending from a distribution panel and allow electric power from said branch circuit to flow to said motor; and
+a grid-tied power source input at least intermittently couplable to said mains input and configured to receive electric power from at least one premises power source and allow said electric power to flow to said motor or said distribution panel.
+
+
+
+16. The unit as recited in claim 15 wherein said motor is selected from the group consisting of:
+a fan motor,
+an air conditioner compressor motor, and
+a heat pump compressor motor.
+
+
+
+17. The unit as recited in claim 15 further comprising a disconnect coupled between said grid-tied power source input and said mains input and controllable to close based on a status of at least one of said at least one premises power source.
+
+
+18. The unit as recited in claim 15 wherein said grid-tied power source input comprises a receptacle accessible from without said equipment.
+
+
+19. The unit as recited in claim 15 wherein said branch circuit is a dedicated branch circuit for said unit.
+
+
+20. The unit as recited in claim 15 wherein said at least one premises power source includes a photovoltaic module. 
+

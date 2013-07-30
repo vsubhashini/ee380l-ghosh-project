@@ -1,0 +1,157 @@
+
+Rail system and method for a photovoltaic array. The system includes at least one modular rail in a first direction. The modular rail includes a first vehicle support surface along the first direction and a first mounting surface along the first direction. The first vehicle support surface is configured to support at least a first vehicle moving in the first direction, and the first mounting surface is configured to support one or more photovoltaic modules mounted on the first mounting surface.
+
+
+
+1. A rail system for a photovoltaic array, the rail system comprising:
+at least one modular rail in a first direction, the modular rail including a first vehicle support surface along the first direction and a first mounting surface along the first direction;
+wherein:
+the first vehicle support surface is configured to support at least a first vehicle moving in the first direction; and
+the first mounting surface is configured to support one or more photovoltaic modules mounted on the first mounting surface.
+
+
+
+
+2. The rail system of claim 1 wherein the modular rail further includes a plenum along the first direction, the plenum being configured to hold one or more cables.
+
+
+3. The rail system of claim 2 wherein the modular rail further includes a cover for the plenum.
+
+
+4. The rail system of claim 1 wherein the modular rail further includes one or more notches at one or more intervals respectively along the modular rail, the one or more notches being substantially perpendicular to the first direction.
+
+
+5. The rail system of claim 1 wherein the modular rail further includes a base surface opposite to the first mounting surface, the first mounting surface being tilted relative to the base surface.
+
+
+6. The rail system of claim 1 wherein:
+the modular rail further includes a base surface opposite to the first mounting surface;
+wherein the base surface forms one or more channels at one or more intervals along the modular rail, the one or more channels being substantially perpendicular to the first direction.
+
+
+
+7. The rail system of claim 1 wherein the modular rail further includes a second mounting surface along the first direction, the second mounting surface being substantially coplanar with the first mounting surface.
+
+
+8. The rail system of claim 1 wherein the modular rail further includes one or more indicia at one or more intervals respectively along the modular rail, the one or more indicia being configured to identify one or more locations in the rail system.
+
+
+9. The rail system of claim 1, and further comprising a first photovoltaic module affixed to the first mounting surface with at least one or more mechanical connectors.
+
+
+10. The rail system of claim 1, and further comprising a first photovoltaic module affixed to the first mounting surface with at least one or more adhesive materials.
+
+
+11. The rail system of claim 10 wherein the first photovoltaic module is affixed to the first mounting surface using at least a flexible spacer with at least the one or more adhesive materials.
+
+
+12. The rail system of claim 10, and further comprising a second photovoltaic module coupled to the first photovoltaic module through at least an interconnector.
+
+
+13. The rail system of claim 12 wherein the interconnector is selected from a group consisting of a rigid in-line slide-on interconnector, a flexible slide-in interconnector, a flexible ribbon interconnector, and an in-line slide-in edge interconnector.
+
+
+14. The rail system of claim 1, and further comprising the first vehicle configured to perform one or more first tasks.
+
+
+15. The rail system of claim 14 wherein each of the one or more first tasks is associated with at least installation, operation, logistics, or servicing of a photovoltaic array.
+
+
+16. The rail system of claim 14 wherein the first vehicle is further configured to perform the one or more first tasks automatically.
+
+
+17. The rail system of claim 14 wherein the first vehicle includes at least a power supply selected from a group consisting of a battery, a photovoltaic module, and a combustion engine.
+
+
+18. The rail system of claim 14 wherein the first vehicle includes at least a sensor configured to determine a location of the first vehicle.
+
+
+19. The rail system of claim 18 wherein:
+the modular rail includes one or more indicia at one or more intervals respectively along the modular rail, the one or more indicia being configured to identify one or more locations in the rail system; and
+the sensor is further configured to determine the location using the one or more indicia.
+
+
+
+20. The rail system of claim 14 wherein the first vehicle includes at least a communication system to communicate with a second vehicle, the second vehicle being configured to perform one or more second tasks.
+
+
+21. The rail system of claim 20 wherein the second vehicle is further configured to transport the first vehicle.
+
+
+22. The rail system of claim 1, and further comprising:
+at least one index rail in a second direction, the index rail including a second vehicle support surface along the second direction;
+wherein the second vehicle support surface is configured to support at least a second vehicle moving in the second direction.
+
+
+
+23. The rail system of claim 22 wherein the second vehicle support surface is further configured to support at least the first vehicle moving in the second direction.
+
+
+24. The rail system of claim 22 wherein the index rail further includes a plenum along the second direction, the plenum being configured to hold one or more cables.
+
+
+25. The rail system of claim 24 wherein the index rail further includes a cover for the plenum.
+
+
+26. The rail system of claim 22 wherein the index rail further includes one or more notches at one or more intervals respectively along the index rail, the one or more notches being substantially perpendicular to the second direction.
+
+
+27. The rail system of claim 22 wherein the index rail further includes a base surface forming one or more channels at one or more intervals along the index rail, the one or more channels being substantially perpendicular to the second direction.
+
+
+28. The rail system of claim 22 wherein the first direction and the second direction are substantially perpendicular.
+
+
+29. A method for making a photovoltaic rail, the method comprising:
+grading an installation site; and
+extruding at least one photovoltaic rail associated with a substantially uniform profile along its length;
+wherein the process for extruding at least one photovoltaic rail includes making at least a vehicle support surface along the photovoltaic rail.
+
+
+
+30. The method of claim 29, and further comprising placing a reinforcing mesh on the installation site before the process for extruding at least one photovoltaic rail is performed.
+
+
+31. The method of claim 29 wherein the process for extruding at least one photovoltaic rail further includes making at least a mounting surface along the photovoltaic rail.
+
+
+32. The method of claim 29 wherein the process for extruding at least one photovoltaic rail further includes making at least a plenum along the photovoltaic rail.
+
+
+33. The method of claim 32, and further comprising covering the plenum of the photovoltaic rail.
+
+
+34. The method of claim 29, and further comprising:
+making one or more notches at one or more intervals respectively along the photovoltaic rail;
+wherein the one or more notches are substantially perpendicular to the modular rail.
+
+
+
+35. The method of claim 29 wherein the photovoltaic rail is a modular rail or an index rail.
+
+
+36. A method for installing a photovoltaic array, the method comprising:
+forming at least one modular rail in a first direction, the modular rail including a first vehicle support surface along the first direction and a mounting surface along the first direction; and
+affixing at least a first photovoltaic module and a second photovoltaic module to the mounting surface; and
+interconnecting the first photovoltaic module to the second photovoltaic module;
+wherein the process for affixing at least a first photovoltaic module and a second photovoltaic module to the mounting surface includes:
+moving a first vehicle along the first vehicle support surface, the first vehicle including at least one robotic arm; and
+affixing the first photovoltaic module and the second photovoltaic module to the mounting surface by at least the robotic arm.
+
+
+
+
+37. The method of claim 36, and further comprising forming at least one index rail in a second direction, the index rail including a second vehicle support surface along the index rail.
+
+
+38. The method of claim 36, and further comprising:
+loading a first vehicle onto a second vehicle; and
+moving the second vehicle carrying the first vehicle.
+
+
+
+39. The method of claim 36 wherein the process for affixing at least a first photovoltaic module and a second photovoltaic module to the mounting surface is performed with at least one or more adhesive materials.
+
+
+40. The method of claim 36 wherein the process for affixing at least a first photovoltaic module and a second photovoltaic module to the mounting surface is performed with at least one or more mechanical connectors.
+

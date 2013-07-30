@@ -1,0 +1,119 @@
+
+A non-isolated inverter including a DC input-side, a capacitor connected in parallel with the DC input-side, an AC output-side connected in parallel with a load, and first and second bridge-arm units is provided. The first and second bridge-arm units are connected in parallel with the capacitor. The first bridge-arm unit includes a series forward-connection of upper and lower switch-elements, where a common-node of upper and lower switch-elements and a supplying terminal of the second bridge-arm unit are respectively connected to two terminals of the AC output-side. The upper and lower switch-elements are respectively turned on in positive and negative half cycles of an output current of the non-isolated inverter, and the generation of common-mode currents in the non-isolated inverter is suppressed under a clamping action between the upper and lower switch-elements due to there are no high-frequency voltages on the parasitic-capacitors from the non-isolated inverter to the ground.
+
+
+
+1. A non-isolated inverter, comprising:
+a DC input-side;
+a capacitor, connected in parallel with the DC input-side;
+an AC output-side, connected in parallel with a load;
+a first bridge-arm unit, having an upper terminal connected to a first terminal of the capacitor, and a lower terminal connected to a second terminal of the capacitor, wherein the first bridge-arm unit comprises:
+a series forward-connection of a first upper switch-element and a first lower switch-element,
+wherein the series forward-connection of the first upper switch-element and the first lower switch-element is connected between the upper and the lower terminals of the first bridge-arm unit, and
+wherein a common-node of the first upper switch-element and the first lower switch-element is connected to a first terminal of the AC output-side; and
+
+a second bridge-arm unit, having an upper terminal connected to the first terminal of the capacitor, a lower terminal connected to the second terminal of the capacitor, and a supplying terminal connected to a second terminal of the AC output-side,
+wherein in a positive half cycle of an output current of the non-isolated inverter, the first lower switch-element is turned on, and the first upper switch-element is turned off,
+wherein in a negative half cycle of the output current of the non-isolated inverter, the first upper switch-element is turned on, and the first lower switch-element is turned off,
+wherein a generation of common-mode currents in the non-isolated inverter is suppressed under a clamping action between the first upper switch-element and the first lower switch-element.
+
+
+
+2. The non-isolated inverter according to claim 1, wherein the second bridge-arm unit comprises:
+a first set of second bridge-arm sub-unit, comprising:
+a series forward-connection of a second upper switch-element and a second lower switch-element; and
+a first inductor,
+wherein the series forward-connection of the second upper switch-element and the second lower switch-element is connected between the upper and lower terminals of the second bridge-arm unit,
+wherein a common-node of the second upper switch-element and the second lower switch-element is connected to a first terminal of the first inductor, and a second terminal of the first inductor is connected to the supplying terminal of the second bridge-arm unit.
+
+
+
+
+3. The non-isolated inverter according to claim 2, wherein:
+the first to the second upper switch-elements and the first to the second lower switch-elements are all switch-tubes; and
+the switch-tubes are implemented by controllable switches.
+
+
+
+4. The non-isolated inverter according to claim 3, further comprising:
+a control circuit, configured to control a switching of the first to the second upper switch-elements and the first to the second switch-elements in response to an input voltage signal of the DC input-side, an output voltage signal of the AC output-side and an inductor current signal of the first inductor.
+
+
+
+5. The non-isolated inverter according to claim 4, wherein the control circuit is at least implemented by a digital signal processor.
+
+
+6. The non-isolated inverter according to claim 4, wherein the control circuit controls the non-isolated inverter under a critical inductor current mode (CRM).
+
+
+7. The non-isolated inverter according to claim 6, wherein:
+in the positive half cycle of the output current of the non-isolated inverter, a current of the first inductor is increased when the first lower switch-element and the second upper switch-element are turned on, and the first upper switch-element and the second lower switch-element are turned off;
+in the positive half cycle of the output current of the non-isolated inverter, the current of the first inductor is decreased when the first and the second lower switch-elements are turned on, and the first and the second upper switch-elements are turned off;
+in the negative half cycle of the output current of the non-isolated inverter, the current of the first inductor is increased when the first upper switch-element and the second lower switch-element are turned on, and the first lower switch-element and the second upper switch-element are turned off; and
+in the negative half cycle of the output current of the non-isolated inverter, the current of the first inductor is decreased when the first and the second upper switch-elements are turned on, and the first and the second lower switch-elements are turned off.
+
+
+
+8. The non-isolated inverter according to claim 3, wherein each of the switch-tubes corresponding to the second upper switch-element and the second lower switch-element includes an insulated gate bipolar transistor (IGBT) and a fast-recovery diode both connected in parallel.
+
+
+9. The non-isolated inverter according to claim 2, wherein the second bridge-arm unit further comprises:
+a second set of second bridge-arm sub-unit, connected in parallel with the first set of second bridge-arm sub-unit, comprising:
+a series forward-connection of a third upper switch-element and a third lower switch-element; and
+a second inductor,
+wherein the series forward-connection of the third upper switch-element and the third lower switch-element is connected between the upper and lower terminals of the second bridge-arm unit,
+wherein a common-node of the third upper switch-element and the third lower switch-element is connected to a first terminal of the second inductor, and a second terminal of the second inductor is connected to the supplying terminal of the second bridge-arm unit.
+
+
+
+
+10. The non-isolated inverter according to claim 9, wherein:
+the first to the third upper switch-elements and the first to the third lower switch-elements are all switch-tubes; and
+the switch-tubes are implemented by controllable switches.
+
+
+
+11. The non-isolated inverter according to claim 10, further comprising:
+a control circuit, configured to control a switching of the first to the third upper switch-elements and the first to the third lower switch-elements in response to an input voltage signal of the DC input-side, an output voltage signal of the AC output-side and inductor current signals of the first and the second inductors.
+
+
+
+12. The non-isolated inverter according to claim 11, wherein the control circuit is at least implemented by a digital signal processor.
+
+
+13. The non-isolated inverter according to claim 11, wherein the control circuit controls the non-isolated inverter under a critical inductor current mode (CRM).
+
+
+14. The non-isolated inverter according to claim 9, wherein:
+the first upper switch-element and the first lower switch-element are switch-tubes; and
+one of the second upper switch-element and the second lower switch-element and one of the third upper switch-element and the third lower switch-element are diodes, and the other one of the second upper switch-element and the second lower switch-element and the other one of the third upper switch-element and the third lower switch-element are switch-tubes.
+
+
+
+15. The non-isolated inverter according to claim 14, wherein:
+the second upper switch-element and the third lower switch-element are diodes, and the second lower switch-element and the third upper switch-element are switch-tubes; and
+all of the switch-tubes are implemented by controllable switches.
+
+
+
+16. The non-isolated inverter according to claim 15, further comprising:
+a control circuit, configured to control a switching of the first and the third upper switch-elements and the first and the second lower switch-elements in response to an input voltage signal of the DC input-side, an output voltage signal of the AC output-side and inductor current signals of the first and the second inductors.
+
+
+
+17. The non-isolated inverter according to claim 16, wherein the control circuit is at least implemented by a digital signal processor.
+
+
+18. The non-isolated inverter according to claim 16, wherein the control circuit controls the non-isolated inverter under a critical inductor current mode (CRM).
+
+
+19. The non-isolated inverter according to claim 18, wherein:
+in the positive half cycle of the output current of the non-isolated inverter, a current of the second inductor is increased when the first lower switch-element and the third upper switch-element are turned on, and the first upper switch-element and the second lower switch-element are turned off;
+in the positive half cycle of the output current of the non-isolated inverter, the current of the second inductor is freewheeling through the third lower switch-element when the first lower switch-element is turned on, and the first upper, the second lower and the third upper switch-elements are turned off;
+in the negative half cycle of the output current of the non-isolated inverter, the current of the first inductor is increased when the first upper switch-element and the second lower switch-element are turned on, and the first lower switch-element and the third upper switch-element are turned off; and
+in the negative half cycle of the output current of the non-isolated inverter, the current of the first inductor is freewheeling through the second upper switch-element when the first upper switch-element is turned on, and the first lower, the second lower and the third upper switch-elements are turned off.
+
+
+
+20. A photovoltaic grid-connected system having the non-isolated inverter as claimed in claim 1. 
+

@@ -1,0 +1,91 @@
+
+A photovoltaic module-mounted AC inverter circuit uses one or more integrated circuits, several power transistors configured as switches, several solid-dielectric capacitors for filtering and energy storage, several inductors for power conversion and ancillary components to support the above elements in operation. The integrated circuit includes all monitoring, control and communications circuitry needed to operate the inverter. The integrated circuit controls the activity of pulse-width modulated power handling transistors in both an input boost converter and a single-phase or multi-phase output buck converter. The integrated circuit also monitors all power processing voltages and currents of the inverter and can take appropriate action to limit power dissipation in the inverter, maximize the available power from the associated PV module and shut down the inverter output if the grid conditions so warrant. The integrated circuit implements power line communications by monitoring the AC wiring for signals and generating communications signals via the same pulse-width modulation system used to generate the AC power. Communications is used to report inverter and PV module status information, local identification code and to allow for remote control of inverter operation.
+
+
+
+1. An inverter for use in a photovoltaic module comprising:
+a DC input terminal;
+an AC output terminal; and
+a communications system for receiving and sending information through the AC output terminal.
+
+
+
+2. The inverter of claim 1 wherein the inverter further comprises:
+a monitoring system for monitoring at least the voltage on the DC input terminal and the AC output terminal;
+a power section coupled between the DC input terminal and the AC output terminal; and
+a control system coupled between the monitoring system and the power section.
+
+
+
+3. The inverter of claim 2 further comprising a charge storage element coupled to the power section.
+
+
+4. The inverter of claim 2 wherein the communications system, the monitoring system, and the control system are implemented in one or more integrated circuits.
+
+
+5. The inverter of claim 4 wherein the one or more integrated circuits comprise at least one active or passive component from the power section.
+
+
+6. The inverter of claim 2 wherein the power section comprises a boost converter.
+
+
+7. The inverter of claim 6 further comprising circuitry for measuring inductor terminal voltages in the boost converter, processing the terminals' voltages, and calculating an inductor current by dividing the processed terminal voltages by a predetermined inductance value.
+
+
+8. The inverter of claim 2 wherein the power section comprises a buck converter.
+
+
+9. The inverter of claim 8 further comprising circuitry for measuring inductor terminal voltages in the buck converter, processing the terminal voltages, and calculating an inductor current by dividing by the processed terminal voltages by a predetermined inductor DC resistance value.
+
+
+10. The inverter of claim 2 wherein the power section further comprises a delta-sigma modulation circuit.
+
+
+11. The inverter of claim 10 wherein the power section further comprises a PWM generator circuit.
+
+
+12. The inverter of claim 1 further comprising a hot-swap capability.
+
+
+13. The inverter of claim 12 wherein the hot-swap capability comprises circuitry for detecting disconnect conditions in at least one of the terminals and shutting down currents to the at least one terminal.
+
+
+14. The inverter of claim 12 wherein the hot-swap capability comprises circuitry for testing at least one of the terminals for proper connectivity prior to enabling currents to the at least one terminal.
+
+
+15. A single-inductor, bipolar-output boost converter for use in an inverter comprising:
+a DC input terminal;
+a negative DC output terminal;
+a positive DC output terminal;
+a single inductor having a first node and a second node;
+a first switch coupled between the DC input terminal and the first node of the inductor;
+a second switch coupled between ground and the second node of the inductor;
+a first diode having an anode coupled to the negative DC output terminal and a cathode coupled to the first node of the inductor;
+a second diode having an anode coupled to the second node of the inductor and a cathode coupled to the positive DC output terminal;
+a first capacitor coupled to the negative DC output terminal; and
+a second capacitor coupled to the positive DC output terminal.
+
+
+
+16. The boost converter of claim 15 further comprising a single-cycle operating mode.
+
+
+17. The boost converter of claim 15 further comprising a two-cycle operating mode.
+
+
+18. A tandem bipolar-output boost converter for use in an inverter comprising:
+a DC input terminal;
+a negative DC output terminal;
+a positive DC output terminal;
+a first boost converter having a single inductor switched between the DC input terminal and ground, a first output coupled to the negative DC output terminal, and a second output coupled to the positive DC output terminal;
+a second boost converter having a single inductor switched between the DC input terminal and ground, a first output coupled to the negative DC output terminal, and a second output coupled to the positive DC output terminal;
+a first capacitor coupled to the negative DC output terminal; and
+a second capacitor coupled to the positive DC output terminal.
+
+
+
+19. The tandem converter of claim 18 further comprising a single-cycle operating mode.
+
+
+20. The tandem converter of claim 18 further comprising a plurality of boost converters. 
+
