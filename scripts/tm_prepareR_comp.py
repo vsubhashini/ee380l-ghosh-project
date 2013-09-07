@@ -91,6 +91,7 @@ class Patents:
         print self.patents[patfile].patfile
         print "TA: "+techArea+" Id: "+str(self.patents[patfile].techId)
         print self.patents[patfile].dist
+        print "Done"
 
   def printTAdist(self, outfile):
     """Write out the techID and topic distribution in a datafile"""
@@ -108,12 +109,13 @@ class Patents:
         if(count<10):
           print self.patents[patfile].patfile
           print line
+          print "TA Done"
         opfd.write(line)
 
 def main():
   compositionFile="/home/vsubhashini/courses/dm/ee380l-ghosh-project/data/patents/patsApps-composition.txt";
   patentFile="/home/vsubhashini/courses/dm/ee380l-ghosh-project/data/patents/exported-patsApps.csv";
-  outputFile="../data/pyAnalysisOutput/1kTopicDist4R.data";
+  outputFile="../data/pyAnalysisOutput/1kTopicDist4R-recheck.data";
   patents=Patents()
   patents.getTopicDists(compositionFile)
   patents.getTechAreas(patentFile)
