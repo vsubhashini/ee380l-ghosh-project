@@ -79,13 +79,15 @@ public class WebCrawlerJapp{
 		OutputStream out;
 		String p_id;
 	
-		for(int ss=0; ss<urlFront.size(); ss++){
+		//for(int ss=0; ss<urlFront.size(); ss++){
+		{int ss=1;
 		  String front=urlFront.get(ss);
 		  String back=urlBack.get(ss);
 		  //int n = urlNum.get(ss);
 		  int n=1;
 		
 		for(int i = 0; i < n; i++){
+			i=477;
 			String patId = null;
 			p_id = "pat"+ss+"_"+(i+1);
 			sb = new StringBuffer();

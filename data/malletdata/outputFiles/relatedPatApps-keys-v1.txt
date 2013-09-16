@@ -1,0 +1,15 @@
+0	0.08031	circuit voltage current switch claim connected terminal output input switching line device signal comprising coupled apparatus electrically terminals frequency 
+1	0.06171	water claim system gas comprising pressure apparatus container air chamber means liquid method pump tank comprises station valve flow 
+2	0.06047	system data method claim time based comprising plurality energy computer solar information user management plant comprises devices monitoring environmental 
+3	0.08601	means claim motor drive position assembly shaft end mounted wind connected rotation comprising comprises attached mechanism rotating vertical vehicle 
+4	0.07722	light claim optical system source display comprises mirror recited comprising radiation emitting image assembly element laser vehicle lighting interior 
+5	0.10728	housing solar claim cell electrical device electrically connector box comprising body portion contact mounting member surface connection connected mounted 
+6	0.15547	panel mounting claim solar surface support member portion frame assembly side structure upper end base comprising plate roof lower 
+7	0.09215	solar means energy claim collector axis surface reflector sun radiation receiver comprising apparatus plurality system substantially angle collecting concentrator 
+8	0.07872	heat fluid air means temperature thermal flow heating system water valve claim outlet inlet cooling liquid transfer tank connected 
+9	0.14435	power energy battery system claim device electrical source storage solar unit comprising control supply electric generator load charging connected 
+10	0.08354	claim system device data unit communication wireless signal comprising monitoring information remote sensor configured transmitter antenna vehicle power comprises 
+11	0.114	means signal sensor claim device control method apparatus time monitoring output temperature predetermined signals includes measuring comprising sensing system 
+12	0.06474	claim layer substrate method material solar cell surface comprising semiconductor device film comprises forming process glass thin metal electrode 
+13	0.07	power dc voltage output converter photovoltaic inverter ac claim current input solar control system grid method controller comprises bus 
+14	0.10562	module photovoltaic plurality claim array modules element pv system cells comprising elements configured method comprises cell coupled string integrated 
